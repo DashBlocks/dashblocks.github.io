@@ -1,0 +1,40 @@
+@import "../../css/colors.css";
+
+.modal-content {
+    max-width: 480px;
+    margin-top: 50px;
+}
+
+.body {
+    background: $ui-modal-background;
+    padding: 1.5rem 2.25rem;
+    max-height: calc(100vh - 150px);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.details {
+    font-family: monospace;
+    user-select: text;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.details::before, .details::after {
+    content: '"';
+}
+
+.button {
+    font: inherit;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid $ui-black-transparent;
+    background-color: $looks-secondary;
+    color: white;
+}
+.button:disabled {
+    opacity: 0.8;
+}

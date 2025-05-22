@@ -1,0 +1,80 @@
+/* overridden by src/lib/themes/guiHelpers.js */
+
+$ui-primary: var(--ui-primary);
+$ui-secondary: var(--ui-secondary);
+$ui-tertiary: var(--ui-tertiary);
+
+$ui-modal-overlay: var(--ui-modal-overlay);
+$ui-modal-background: var(--ui-modal-background);
+$ui-modal-foreground: var(--ui-modal-foreground);
+$ui-modal-header-background: var(--ui-modal-header-background);
+$ui-modal-header-foreground: var(--ui-modal-header-foreground);
+
+$ui-white: var(--ui-white);
+$ui-white-dim: var(--ui-white-dim);
+$ui-white-transparent: var(--ui-white-transparent);
+$ui-transparent: var(--ui-transparent);
+
+$ui-black-transparent: var(--ui-black-transparent);
+
+$text-primary: var(--text-primary);
+$text-primary-transparent: var(--ui-text-primary-transparent);
+
+$motion-primary: var(--motion-primary);
+$motion-tertiary: var(--motion-tertiary);
+
+$looks-secondary: var(--looks-secondary);
+$looks-transparent: var(--looks-transparent);
+$looks-light-transparent: var(--looks-light-transparent);
+$looks-secondary-dark: var(--looks-secondary-dark);
+
+$red-primary: var(--red-primary);
+$red-tertiary: var(--red-tertiary);
+
+$sound-primary: var(--sound-primary);
+$sound-tertiary: var(--sound-tertiary);
+
+$control-primary: var(--control-primary);
+
+$data-primary: var(--data-primary);
+
+$pen-primary: var(--pen-primary);
+$pen-transparent: var(--pen-transparent);
+$pen-tertiary: var(--pen-tertiary);
+
+$error-primary: var(--error-primary);
+$error-light: var(--error-light);
+$error-transparent: var(--error-transparent);
+
+$extensions-primary: var(--extensions-primary);
+$extensions-tertiary: var(--extensions-tertiary);
+$extensions-transparent: var(--extensions-transparent);
+$extensions-light: var(--extensions-light);
+
+$drop-highlight: var(--drop-highlight);
+
+$menu-bar-background: var(--menu-bar-background);
+$menu-bar-background-image: var(--menu-bar-background-image);
+$menu-bar-foreground: var(--menu-bar-foreground);
+
+$assets-background: var(--assets-background);
+
+$input-background: var(--input-background);
+
+$fullscreen-background: var(--fullscreen-background);
+$fullscreen-accent: var(--fullscreen-accent);
+
+$popover-background: var(--popover-background);
+
+$shadow: var(--shadow);
+
+$badge-background: var(--badge-background);
+$badge-border: var(--badge-border);
+
+$page-background: var(--page-background);
+$page-foreground: var(--page-foreground);
+
+$project-title-inactive: var(--project-title-inactive);
+$project-title-hover: var(--project-title-hover);
+
+$link-color: var(--link-color);

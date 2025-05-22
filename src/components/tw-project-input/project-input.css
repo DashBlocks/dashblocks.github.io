@@ -1,0 +1,31 @@
+@import "../../css/colors.css";
+@import "../../css/z-index.css";
+
+.input {
+    border: none;
+    width: 100%;
+    font-size: 23px;
+    line-height: 32px;
+    opacity: 0.5;
+    background-color: transparent;
+    color: inherit;
+}
+.input:focus {
+    opacity: 1;
+}
+.input:disabled {
+    opacity: 0.8;
+}
+
+.tooltip {
+    opacity: 1 !important;
+    background-color: $extensions-primary !important;
+    border: 1px solid $ui-black-transparent !important;
+    box-shadow: 0 0 .5rem $shadow !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    z-index: $z-index-menu-bar !important;
+}
+
+.tooltip:after {
+    border-top-color: $extensions-primary !important;
+}

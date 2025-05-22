@@ -1,0 +1,11 @@
+node_modules/*
+build/*
+dist/*
+test/*
+src/examples/*
+
+# Files vendored from upstreams
+src/addons/addons
+src/addons/libraries
+src/addons/api-libraries
+src/addons/generated

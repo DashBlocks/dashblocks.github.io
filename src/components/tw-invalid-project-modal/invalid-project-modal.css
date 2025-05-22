@@ -1,0 +1,40 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+
+.modal-content {
+    max-width: 480px;
+    margin-top: 50px;
+}
+
+.body {
+    background: $ui-modal-background;
+    padding: 1.5rem 2.25rem;
+    max-height: calc(100vh - 150px);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.error {
+    font-family: monospace;
+    height: 125px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: $space;
+    border-radius: $space;
+    border: 1px solid $ui-black-transparent;
+    background-color: $input-background;
+    color: inherit;
+}
+
+.button {
+    font: inherit;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid $ui-black-transparent;
+    background-color: $looks-secondary;
+    color: white;
+}

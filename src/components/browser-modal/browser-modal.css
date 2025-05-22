@@ -1,0 +1,72 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+@import "../../css/typography.css";
+@import "../../css/z-index.css";
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-index-modal;
+    background-color: $ui-modal-overlay;
+}
+
+.modal-content {
+    margin: 100px auto;
+    outline: none;
+    border: .25rem solid $ui-white-transparent;
+    padding: 0;
+    border-radius: $space;
+    user-select: none;
+    width: 500px;
+
+    color: $text-primary;
+    overflow: hidden;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: $control-primary;
+}
+
+[dir="rtl"] .illustration {
+    transform: scaleX(-1);
+}
+
+.illustration img {
+    height: 80%;
+    width: auto;
+}
+
+.body {
+    background: $ui-modal-background;
+    padding: 1.5rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.desktop-settings-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.desktop-settings-inner {
+    font: inherit;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid $ui-black-transparent;
+    background-color: $looks-secondary;
+    color: white;
+}

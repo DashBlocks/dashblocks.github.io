@@ -1,0 +1,34 @@
+@import "../../css/colors.css";
+
+.description {
+    max-height: 250px;
+    overflow: auto;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    line-height: 1.5em;
+    padding: 0.5rem;
+    margin: 5px 0 8px 0;
+    border: 1px solid $badge-border;
+    background-color: $badge-background;
+    border-radius: 0.5rem;
+}
+
+.description a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+    margin-top: 8px;
+}
+
+.project-link {
+    margin-bottom: 2px;
+}

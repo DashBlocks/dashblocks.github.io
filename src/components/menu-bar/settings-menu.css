@@ -1,0 +1,90 @@
+@import "../../css/colors.css";
+
+.icon {
+    width: 1.5rem;
+}
+
+.theme-label {
+    flex: 1;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.check {
+    margin: 0 .25rem 0 0;
+    visibility: hidden;
+}
+
+[dir="rtl"] .check {
+    margin: 0 0 0 .25rem;
+}
+
+.selected {
+    visibility: visible;
+}
+
+.submenu-label {
+    flex: 1;
+}
+
+.dropdown-label {
+    margin: 0 0.5rem 0 0.25rem;
+}
+
+[dir="rtl"] .dropdown-label {
+    margin: 0 0.25rem 0 0.5rem;
+}
+
+.expand-caret {
+    transform: rotate(-90deg);
+}
+
+[dir="rtl"] .expand-caret {
+    transform: rotate(90deg);
+}
+
+/* Extra padding to deal with scrollbar overlapping options in Firefox */
+
+[dir="ltr"] .language-menu-item {
+    padding-right: 1rem;
+}
+
+[dir="rtl"] .language-menu-item {
+    padding-left: 1rem;
+}
+
+.language-submenu > ul {
+    max-height: calc(100vh - 5rem); /* Fallback if dvh not supported */
+    max-height: calc(100dvh - 5rem);
+}
+
+@media only screen and (max-width: 1124px) {
+    .dropdown-label {
+        display: none;
+    }
+}
+
+.accent-icon-outer {
+    width: 24px;
+    height: 24px;
+    border: 3px solid $menu-bar-foreground;
+    border-radius: 100%;
+    box-sizing: border-box;
+    transform-origin: center;
+    transform: scale(90%);
+}
+
+.disabled {
+    opacity: 0.5;
+}
+.disabled img {
+    filter: grayscale(100%);
+}
+
+.open-link {
+    margin-left: 0.5rem;
+}

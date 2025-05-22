@@ -1,0 +1,4 @@
+.modal-content {
+  background-color: var(--ui-modal-background);
+  color: var(--ui-modal-foreground);
+}

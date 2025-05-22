@@ -1,0 +1,131 @@
+@import "../../css/colors.css";
+@import "../../css/filters.css";
+@import "../../css/default-colors.css";
+
+.modal-content {
+    max-width: 750px;
+}
+
+.body {
+    background: $ui-modal-background;
+    padding: 1.5rem 2.25rem;
+    min-height: 150px;
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+}
+
+/* For small screens, such as in the embed */
+@media (max-height: 600px) {
+    .modal-content {
+        margin: 50px auto;
+    }
+    .body {
+        max-height: calc(100vh - 150px);
+    }
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+    border-radius: 4px;
+}
+.setting.active {
+    background: $badge-background;
+}
+.setting:hover,
+.setting:focus-within {
+    background: $badge-border;
+}
+
+.label {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.setting table {
+    border-collapse: collapse;
+}
+.setting tr,
+.setting td,
+.setting th {
+    padding: 0;
+    margin: 0;
+    border: 1px solid $ui-tertiary;
+}
+
+.checkbox {
+    margin-right: 0.5rem;
+}
+
+.help-icon {
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.help-icon img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: $filter-icon-black;
+}
+
+.custom-stage-size > * {
+    margin-right: 0.5rem;
+}
+.custom-stage-size-input {
+    width: 80px;
+}
+
+.info {
+    margin-bottom: 0.25rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0 0 0;
+    font-weight: bold;
+}
+.divider {
+    flex-grow: 1;
+    margin-left: 1rem;
+    border-top: 1px dashed $ui-tertiary;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 14px;
+    background-color: $looks-secondary;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+}
+.button:active, .button:focus-within {
+    box-shadow: 0 0 0 3px $looks-transparent;
+}
+
+.warning {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+    border-radius: 4px;
+    background: rgb(233, 233, 53);
+    color: $text-primary-default;
+}

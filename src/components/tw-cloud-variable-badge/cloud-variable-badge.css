@@ -1,0 +1,41 @@
+@import "../../css/colors.css";
+@import "../../css/filters.css";
+
+.badge {
+    padding: 0.5rem;
+    margin: 5px 0 8px 0;
+    border: 1px solid $badge-border;
+    background-color: $badge-background;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+
+.cloud-icon {
+    filter: $filter-icon-gray;
+}
+
+.servers {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.server {
+    border: 1px solid $ui-black-transparent;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    background: none;
+    border-radius: 1rem;
+}
+.server.selected {
+    background-color: $looks-secondary;
+    color: white;
+}

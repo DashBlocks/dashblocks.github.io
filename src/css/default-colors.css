@@ -1,0 +1,74 @@
+$ui-primary-default: var(--ui-primary-default);
+$ui-secondary-default: var(--ui-secondary-default);
+$ui-tertiary-default: var(--ui-tertiary-default);
+
+$ui-modal-overlay-default: var(--ui-modal-overlay-default);
+$ui-modal-background-default: var(--ui-modal-background-default);
+$ui-modal-foreground-default: var(--ui-modal-foreground-default);
+$ui-modal-header-background-default: var(--ui-modal-header-background-default);
+$ui-modal-header-foreground-default: var(--ui-modal-header-foreground-default);
+
+$ui-white-default: var(--ui-white-default);
+$ui-white-dim-default: var(--ui-white-dim-default);
+$ui-white-transparent-default: var(--ui-white-transparent-default);
+$ui-transparent-default: var(--ui-transparent-default);
+
+$ui-black-transparent-default: var(--ui-black-transparent-default);
+
+$text-primary-default: var(--text-primary-default);
+$text-primary-transparent-default: var(--ui-text-primary-transparent-default);
+
+$motion-primary-default: var(--motion-primary-default);
+$motion-tertiary-default: var(--motion-tertiary-default);
+
+$looks-secondary-default: var(--looks-secondary-default);
+$looks-transparent-default: var(--looks-transparent-default);
+$looks-light-transparent-default: var(--looks-light-transparent-default);
+$looks-secondary-dark-default: var(--looks-secondary-dark-default);
+
+$red-primary-default: var(--red-primary-default);
+$red-tertiary-default: var(--red-tertiary-default);
+
+$sound-primary-default: var(--sound-primary-default);
+$sound-tertiary-default: var(--sound-tertiary-default);
+
+$control-primary-default: var(--control-primary-default);
+
+$data-primary-default: var(--data-primary-default);
+
+$pen-primary-default: var(--pen-primary-default);
+$pen-transparent-default: var(--pen-transparent-default);
+$pen-tertiary-default: var(--pen-tertiary-default);
+
+$error-primary-default: var(--error-primary-default);
+$error-light-default: var(--error-light-default);
+$error-transparent-default: var(--error-transparent-default);
+
+$extensions-primary-default: var(--extensions-primary-default);
+$extensions-tertiary-default: var(--extensions-tertiary-default);
+$extensions-transparent-default: var(--extensions-transparent-default);
+$extensions-light-default: var(--extensions-light-default);
+
+$drop-highlight-default: var(--drop-highlight-default);
+
+$menu-bar-background-default: var(--menu-bar-background-default);
+$menu-bar-foreground-default: var(--menu-bar-foreground-default);
+
+$assets-background-default: var(--assets-background-default);
+
+$input-background-default: var(--input-background-default);
+
+$popover-background-default: var(--popover-background-default);
+
+$shadow-default: var(--shadow-default);
+
+$badge-background-default: var(--badge-background-default);
+$badge-border-default: var(--badge-border-default);
+
+$fullscreen-background-default: var(--fullscreen-background-default);
+$fullscreen-accent-default: var(--fullscreen-accent-default);
+
+$page-background-default: var(--page-background-default);
+$page-foreground-default: var(--page-foreground-default);
+
+$link-color-default: var(--link-color-default);

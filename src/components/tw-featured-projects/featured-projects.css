@@ -1,0 +1,45 @@
+@import "../../css/colors.css";
+
+.container {
+    margin-bottom: 8px;
+}
+
+.opener-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.8;
+}
+
+.opener-container:hover {
+    opacity: 1;
+}
+
+.opener-content {
+    background-color: $ui-modal-background;
+    padding: 4px;
+    border: 1px solid $ui-black-transparent;
+    box-shadow: 0 0 8px 0 $shadow;
+}
+
+.projects {
+    position: relative;
+    height: 155px;
+}
+.projects.transition {
+    transition: .2s height;
+}
+.projects.opened {
+    height: 310px;
+}
+
+.footer {
+    
+}
