@@ -12870,12 +12870,12 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       open: this.props.errorsMenuOpen,
       place: this.props.isRtl ? 'left' : 'right'
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuSection"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MenuItemLink, {
-      href: "https://scratch.mit.edu/users/GarboMuffin/#comments"
+      href: "https://scratch.mit.edu/users/damir2809/#comments"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
       defaultMessage: "Some scripts encountered errors.",
       id: "tw.menuBar.reportError1"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MenuItemLink, {
-      href: "https://scratch.mit.edu/users/GarboMuffin/#comments"
+      href: "https://scratch.mit.edu/users/damir2809/#comments"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
       defaultMessage: "This is a bug. Please report it.",
       id: "tw.menuBar.reportError2"
@@ -13200,7 +13200,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarItem
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.feedbackLink,
-      href: "https://scratch.mit.edu/users/GarboMuffin/#comments",
+      href: "https://scratch.mit.edu/users/damir2809/#comments",
       rel: "noopener noreferrer",
       target: "_blank"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -22131,10 +22131,10 @@ const InvalidEmbed = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___defau
 }, 'https://turbowarp.org/<project ID>/embed'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, 'Here\'s an example of a full iframe to embed a project:'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
   className: _invalid_embed_css__WEBPACK_IMPORTED_MODULE_1___default.a.code
 }, "<iframe src=\"https://turbowarp.org/60917032/embed\" width=\"482\" height=\"412\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe>"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, 'If you are seeing this page even though you aren\'t embedding anything, let us know on ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://scratch.mit.edu/users/GarboMuffin/#comments",
+  href: "https://scratch.mit.edu/users/damir2809/#comments",
   target: "_blank",
   rel: "noreferrer"
-}, 'scratch.mit.edu/users/GarboMuffin'), '.'));
+}, 'scratch.mit.edu/users/damir2809'), '.'));
 /* harmony default export */ __webpack_exports__["default"] = (InvalidEmbed);
 
 /***/ }),
@@ -41974,7 +41974,7 @@ const myBlocks = function myBlocks(isInitialSetup, isStage, targetId, colors) {
 };
 
 // eslint-disable-next-line max-len
-const extraTurboWarpBlocks = "\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is compiled?</field></block>\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is TurboWarp?</field></block>\n";
+const extraTurboWarpBlocks = "\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is compiled?</field></block>\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is Dash?</field></block>\n";
 /* eslint-enable no-unused-vars */
 
 const xmlOpen = '<xml style="display: none">';
@@ -49025,7 +49025,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Credits",
   id: "tw.footer.credits"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/sponsors/GarboMuffin"
+  href: "https://github.com/sponsors/DBDev-git"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Donate",
   id: "tw.footer.donate"
@@ -49053,7 +49053,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
   className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://scratch.mit.edu/users/GarboMuffin/#comments"
+  href: "https://scratch.mit.edu/users/damir2809/#comments"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Feedback & Bugs",
   id: "tw.feedback"

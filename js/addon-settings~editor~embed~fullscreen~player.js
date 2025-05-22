@@ -388,7 +388,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "blockColors", function() { return blockColors; });
 const guiColors = {
   'motion-primary': 'rgb(68, 227, 40)',
-  'motion-primary-transparent': 'rgb(78, 201, 41)',
+  'motion-primary-transparent': 'rgba(78, 201, 41, 0.3)',
   'motion-tertiary': 'rgb(112, 204, 51)',
   'looks-secondary': 'rgb(119, 216, 50)',
   'looks-transparent': 'rgba(98, 255, 77, 0.35)',
@@ -421,7 +421,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "blockColors", function() { return blockColors; });
 const guiColors = {
   'motion-primary': ' #ff8e4c',
-  'motion-primary-transparent': ' #ff8b4c',
+  'motion-primary-transparent': 'rgba(255, 139, 76, 0.3)',
   'motion-tertiary': 'rgb(204, 156, 51)',
   'looks-secondary': '#ff884c',
   'looks-transparent': 'rgba(255, 190, 77, 0.35)',
