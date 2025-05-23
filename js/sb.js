@@ -110,7 +110,6 @@ Blockly.Msg.EVENT_WHENKEYPRESSED_UP = 'up arrow';
 Blockly.Msg.EVENT_WHENKEYPRESSED_ANY = 'any';
 
 // Looks blocks
-Blockly.Msg.LOOKS_TUTORIALMOD_ALERT = 'alert %1';
 Blockly.Msg.LOOKS_SAYFORSECS = 'say %1 for %2 seconds';
 Blockly.Msg.LOOKS_SAY = 'say %1';
 Blockly.Msg.LOOKS_HELLO = 'Hello!';
