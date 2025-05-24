@@ -38195,6 +38195,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tag-messages.js */ "./src/lib/libraries/tag-messages.js");
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
+  tag: 'dash',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].dash
+}, {
   tag: 'fantasy',
   intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].fantasy
 }, {
@@ -39224,6 +39227,10 @@ __webpack_require__.r(__webpack_exports__);
   all: {
     "id": "gui.libraryTags.all",
     "defaultMessage": "All"
+  },
+  dash: {
+    "id": "gui.libraryTags.dash",
+    "defaultMessage": "Dash"
   },
   animals: {
     "id": "gui.libraryTags.animals",

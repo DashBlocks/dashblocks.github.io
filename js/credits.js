@@ -275,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "blockColors", function() { return blockColors; });
 const guiColors = {
   'motion-primary': 'rgb(68, 227, 40)',
-  'motion-primary-transparent': 'rgba(78, 201, 41, 0.3)',
+  'motion-primary-transparent': 'rgba(78, 201, 41, 0.9)',
   'motion-tertiary': 'rgb(112, 204, 51)',
   'looks-secondary': 'rgb(119, 216, 50)',
   'looks-transparent': 'rgba(98, 255, 77, 0.35)',
@@ -285,7 +285,7 @@ const guiColors = {
   'extensions-tertiary': 'rgb(15, 189, 41)',
   'extensions-transparent': 'hsla(142, 85.40%, 65.10%, 0.35)',
   'extensions-light': 'hsl(100, 57.90%, 85.10%)',
-  'drop-highlight': ' #a7ff8c'
+  'drop-highlight': '#a7ff8c'
 };
 const blockColors = {
   checkboxActiveBackground: 'rgb(97, 255, 76)',
@@ -307,18 +307,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "guiColors", function() { return guiColors; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "blockColors", function() { return blockColors; });
 const guiColors = {
-  'motion-primary': ' #ff8e4c',
-  'motion-primary-transparent': 'rgba(255, 139, 76, 0.3)',
+  'motion-primary': '#ff8e4c',
+  'motion-primary-transparent': 'rgba(255, 139, 76, 0.9)',
   'motion-tertiary': 'rgb(204, 156, 51)',
   'looks-secondary': '#ff884c',
   'looks-transparent': 'rgba(255, 190, 77, 0.35)',
-  'looks-light-transparent': ' #ff4d4d26',
+  'looks-light-transparent': '#ff4d4d26',
   'looks-secondary-dark': 'hsla(0, 42%, 51%, 1)',
   'extensions-primary': 'hsla(10, 85%, 65%, 1)',
   'extensions-tertiary': 'rgb(189, 99, 15)',
   'extensions-transparent': 'hsla(10, 85%, 65%, 0.35)',
   'extensions-light': 'hsla(10, 57%, 85%, 1)',
-  'drop-highlight': ' #ff8c8c'
+  'drop-highlight': '#ff8c8c'
 };
 const blockColors = {
   checkboxActiveBackground: 'rgb(255, 183, 76)',
