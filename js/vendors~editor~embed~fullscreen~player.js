@@ -268064,7 +268064,7 @@ class Runtime extends EventEmitter {
   storeProjectOptions() {
     const options = this.generateDifferingProjectOptions();
     // TODO: translate
-    const text = "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n".concat(ExtendedJSON.stringify(options)).concat(COMMENT_CONFIG_MAGIC);
+    const text = "Configuration for https://dashblocks.github.io/ (scratch mod)\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n".concat(ExtendedJSON.stringify(options)).concat(COMMENT_CONFIG_MAGIC);
     const existingComment = this.findProjectOptionsComment();
     if (existingComment) {
       existingComment.text = text;
@@ -270893,8 +270893,8 @@ module.exports = {
 // This can be accessed externally on `vm.runtime.platform`
 
 module.exports = {
-  name: 'TurboWarp',
-  url: 'https://turbowarp.org/'
+  name: 'Dash',
+  url: 'https://dashblocks.github.io/'
 };
 
 /***/ }),

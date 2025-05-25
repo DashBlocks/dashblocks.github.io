@@ -24717,7 +24717,7 @@ StudioView.THUMBNAIL_SRC = 'https://trampoline.turbowarp.org/thumbnails/$id?widt
 
 // The URL for project pages.
 // $id is replaced with the project ID.
-StudioView.PROJECT_PAGE = 'https://turbowarp.org/$id';
+StudioView.PROJECT_PAGE = 'https://dashblocks.github.io/#$id';
 
 // The URL for studio pages.
 // $id is replaced with the studio ID.
@@ -48980,7 +48980,7 @@ const handleClickAddonSettings = addonId => {
 const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"])({
   defaultTitle: {
     "id": "tw.guiDefaultTitle",
-    "defaultMessage": "Run Scratch projects faster"
+    "defaultMessage": "More Blocks, Extensions, and other"
   }
 });
 const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_16__["default"]);
@@ -49066,7 +49066,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Feedback & Bugs",
   id: "tw.feedback"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/TurboWarp/"
+  href: "https://github.com/DashBlocks/"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Source Code",
   id: "tw.code"
@@ -49190,7 +49190,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
-      studio: "27205657"
+      studio: "37103090"
     }))) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
   }
 }
