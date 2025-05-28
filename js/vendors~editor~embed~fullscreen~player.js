@@ -53134,7 +53134,7 @@ module.exports = convertFonts;
 /**
  * @fileOverview Import bitmap data into Scratch 3.0, resizing image as necessary.
  */
-const getFonts = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/tw-scratch-render-fonts/index.js");
+const getFonts = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/penguinmod-render-fonts/src/index.js");
 
 const xmlEscape = str => str.replace(/[<>&'"]/g, c => {
     switch (c) {
@@ -218180,7 +218180,7 @@ module.exports = convertFonts;
 /**
  * @fileOverview Import bitmap data into Scratch 3.0, resizing image as necessary.
  */
-const getFonts = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/tw-scratch-render-fonts/index.js");
+const getFonts = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/penguinmod-render-fonts/src/index.js");
 
 const xmlEscape = str => str.replace(/[<>&'"]/g, c => {
     switch (c) {
