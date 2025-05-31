@@ -62382,7 +62382,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_dropItemShapeTool_2WAuh {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_dropItemShapeTool_2WAuh:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62395,7 +62395,10 @@ exports.locals = {
 	"mod-labeled-icon-height": "mode-tools_mod-labeled-icon-height_2kFDJ",
 	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_2kFDJ",
 	"dropdown-max-item-list": "mode-tools_dropdown-max-item-list_1PCmc",
-	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_1PCmc"
+	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_1PCmc",
+	"flex-centerer": "mode-tools_flex-centerer_28XZK",
+	"flexCenterer": "mode-tools_flex-centerer_28XZK",
+	"dropItemShapeTool": "mode-tools_dropItemShapeTool_2WAuh"
 };
 
 /***/ }),
@@ -187603,6 +187606,41 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].KOREAN,
     getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverGogono
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].GOGONO,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverJustBubble
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JUSTBUBBLE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverLilitaOne
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].LILITAONE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverMinecrafter
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].MINECRAFTER,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverObelixPro
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].OBELIXPRO,
+    getFontName: props.getFontName
   })), props.customFonts.map(font => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_custom_font_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: font.name,
     font: font.family,
@@ -187984,6 +188022,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
   LiveInput.propTypes = {
     max: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
     min: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
+    step: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
     onSubmit: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
     value: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number])
   };
@@ -188738,6 +188777,17 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+cmVjdGFuZ2xlPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4NCiAgICAgICAgPGcgaWQ9InJlY3RhbmdsZSIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjEuNSI+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0icmVjdGFuZ2xlLWljb24iIHBvaW50cz0iMTAsMi41LCAxMiw4LCAxNy41LDEwLCAxMiwxMiwgMTAsMTcuNSwgOCwxMiwgMi41LDEwLCA4LDgiPjwvcG9seWdvbj4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css":
 /*!*****************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css ***!
@@ -188791,89 +188841,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../reducers/brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
 /* harmony import */ var _reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../reducers/eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
 /* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
-/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
-/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
-/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
-/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
-/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
-/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
-/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
-/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
-/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./icons/copy.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./icons/cut.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_icons_cut_svg__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./icons/paste.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_icons_paste_svg__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./icons/delete.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_icons_delete_svg__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./icons/round-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./icons/square-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./icons/miter-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./icons/round-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icons/bevel-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/merge.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_merge_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/mask.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_mask_svg__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/subtract.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/filter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_filter_svg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_44__);
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./icons/curved-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_47__);
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_48__);
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_49__);
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./icons/flip-horizontal.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./icons/flip-vertical.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_51__);
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./icons/centerSelection.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_52__);
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./icons/straight-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_53__);
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_54__);
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_55__);
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_56__);
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_57__);
-/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
-/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
+/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
+/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
+/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./icons/copy.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
+/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./icons/cut.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
+/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_icons_cut_svg__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./icons/paste.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
+/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_icons_paste_svg__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./icons/delete.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
+/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_icons_delete_svg__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./icons/round-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
+/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./icons/square-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
+/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icons/miter-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
+/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/round-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
+/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/bevel-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
+/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/merge.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
+/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_merge_svg__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/mask.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
+/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_mask_svg__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/subtract.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
+/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/filter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
+/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_filter_svg__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./icons/curved-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
+/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52__);
+/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./icons/flip-horizontal.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
+/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./icons/flip-vertical.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
+/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./icons/centerSelection.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
+/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/straight-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
+/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56__);
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57__);
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58__);
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59__);
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60__);
+/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
 /* eslint-disable no-case-declarations */
 
 
@@ -188935,9 +188989,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_16__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_19__["default"]);
+
+
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_18__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_21__["default"]);
 const ModeToolsComponent = props => {
-  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_18__["defineMessages"])({
+  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_20__["defineMessages"])({
     brushSize: {
       "id": "paint.modeTools.brushSize",
       "defaultMessage": "Size"
@@ -188957,6 +189014,10 @@ const ModeToolsComponent = props => {
     currentSideCount: {
       "id": "paint.modeTools.currentSideCount",
       "defaultMessage": "Polygon side count"
+    },
+    spokeRatio: {
+      "id": "paint.modeTools.spikeRatio",
+      "defaultMessage": "Star spoke ratio"
     },
     copy: {
       "id": "paint.modeTools.copy",
@@ -189008,105 +189069,110 @@ const ModeToolsComponent = props => {
     }
   });
   switch (props.mode) {
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_LINE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_45___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_44___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_42___default.a;
-        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
-        const currentSegValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.bitBrushSize : props.segValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
-        const changeFunctionSeg = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onSegSliderChange;
-        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44___default.a;
+        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
+        const currentSegValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitBrushSize : props.segValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
+        const changeFunctionSeg = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onSegSliderChange;
+        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(currentMessage),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
           text: props.intl.formatMessage(messages.brushSize)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_58__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentBrushValue,
           onSubmit: changeFunction
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
           text: props.intl.formatMessage(messages.brushSeg)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_58__["MAX_STROKE_WIDTH"] * 10,
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"] * 10,
           min: "1",
           type: "number",
           value: currentSegValue,
           onSubmit: changeFunctionSeg
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_ERASER:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ERASER:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_47___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_43___default.a;
-        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_23__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45___default.a;
+        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.eraserSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_58__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentEraserValue,
           onSubmit: changeFunction
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].ROUNDED_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT:
+    /* falls through */
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].RECT:
       {
-        const currentIcon = _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_48___default.a;
-        const currentCornerValue = props.roundedCornerValue;
-        const changeFunction = props.onRoundedCornerSliderChange;
+        // NOTE: BIT_RECT doesnt use Path, so this can't be added there the same way as RECT has it.
+        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
+        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.roundedCornerSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeToolsIcon,
+          title: props.intl.formatMessage(messages.roundedCornerSize),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
           draggable: false,
-          src: currentIcon
+          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
+          min: 0,
           max: 1000,
-          min: "1",
           type: "number",
           value: currentCornerValue,
           onSubmit: changeFunction
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].TRIANGLE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].TRIANGLE:
       {
-        const currentIcon = _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_49___default.a;
         const currentSideValue = props.trianglePolyValue;
+        const currentPointValue = props.trianglePointValue;
         const changeFunction = props.onPolyCountSliderChange;
+        const changeFunctionPoint = props.onPointCountSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.currentSideCount),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeToolsIcon,
+          title: props.intl.formatMessage(messages.currentSideCount),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
           draggable: false,
-          src: currentIcon
+          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189115,13 +189181,29 @@ const ModeToolsComponent = props => {
           type: "number",
           value: currentSideValue,
           onSubmit: changeFunction
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          alt: props.intl.formatMessage(messages.spokeRatio),
+          title: props.intl.formatMessage(messages.spokeRatio),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
+          draggable: false,
+          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52___default.a
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0" // Spike ratio is limited to 0.01, but setting that here makes the number input arrows work really ugly
+          ,
+          step: "0.1",
+          type: "number",
+          value: currentPointValue,
+          onSubmit: changeFunctionPoint
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].SUSSY:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SUSSY:
       {
         const currentlySelectedShape = props.currentlySelectedShape;
         const changeFunction = props.onCurrentlySelectedShapeChange;
-        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_59__["default"].filter(shape => shape.id === currentlySelectedShape)[0];
+        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__["default"].filter(shape => shape.id === currentlySelectedShape)[0];
         const generateShapeSVG = shapeObject => {
           const strokeColor = '#575e75';
           const icon = shapeObject.icon;
@@ -189140,23 +189222,22 @@ const ModeToolsComponent = props => {
           const newIcon = icon.replace("viewBox=\"".concat(viewBoxString, "\""), "viewBox=\"".concat(newViewBox, "\"")).replace('stroke="none"', "stroke=\"".concat(strokeColor, "\"")).replace("fill=\"".concat(fillColorString, "\""), 'fill="none"').replace("stroke-width=\"".concat(strokeWidthString, "\""), "stroke-width=\"".concat(shapeObject.strokeWidth, "\""));
           return "".concat(newIcon);
         };
-        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder,
-          // styles.modLabeledIconHeight,
-          _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.dropdownMaxItemList)
-        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_59__["default"].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
+        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.flexCenterer, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.dropdownMaxItemList)
+        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__["default"].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.dropItemShapeTool),
+          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
           imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(generateShapeSVG(shape))),
           title: shape.name,
           onClick: () => changeFunction(shape.id)
         })));
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modUnselect,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
           enterExitTransitionDurationMs: 20,
-          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modContextMenu,
+          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
             rtl: props.rtl
           }, selectableShapesList),
           tipSize: .01
@@ -189167,246 +189248,252 @@ const ModeToolsComponent = props => {
           height: 16
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].RESHAPE:
-      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].RESHAPE:
+      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: props.hasSelectedMiterLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
         title: 'Spiked',
         onClick: props.onMiterLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: props.hasSelectedRoundLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
         title: 'Rounded',
         onClick: props.onRoundLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: props.hasSelectedBevelLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
         title: 'Beveled',
         onClick: props.onBevelLineJoin
       }));
-      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
+      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48___default.a,
         title: props.intl.formatMessage(messages.curved),
         onClick: props.onCurvePoints
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: !props.hasSelectedUnpointedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_53___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56___default.a,
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: props.hasSelectedRoundEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_30___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
         title: 'Rounded',
         onClick: props.onRoundEnds
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: props.hasSelectedSquareEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
         title: 'Squared',
         onClick: props.onSquareEnds
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
       }, lineJoinReshape, deleteSelectedNodes), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
           rtl: props.rtl
         }, lineJoinReshape, deleteSelectedNodes),
         tipSize: .01
       }, "More"))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_SELECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_SELECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].SELECT:
-      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_merge_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT:
+      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
         title: 'Merge',
         onClick: props.onMergeShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_mask_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
         title: 'Mask',
         onClick: props.onMaskShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
         title: 'Subtract',
         onClick: props.onSubtractShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_filter_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
         title: 'Filter',
         onClick: props.onExcludeShape
       }));
-      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_50___default.a,
+        imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53___default.a,
         title: props.intl.formatMessage(messages.flipHorizontal),
         onClick: props.onFlipHorizontal
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_51___default.a,
+        imgSrc: _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54___default.a,
         title: props.intl.formatMessage(messages.flipVertical),
         onClick: props.onFlipVertical
       }));
-      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_52___default.a,
+        imgSrc: _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55___default.a,
         title: props.intl.formatMessage(messages.movementCenter),
         onClick: props.onCenterSelection
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_26___default.a,
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
         title: props.intl.formatMessage(messages.copy),
         onClick: props.onCopyToClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         disabled: !(props.clipboardItems.length > 0),
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_paste_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30___default.a,
         title: props.intl.formatMessage(messages.paste),
         onClick: props.onPasteFromClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_cut_svg__WEBPACK_IMPORTED_MODULE_27___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
         title: props.intl.formatMessage(messages.cut),
         onClick: props.onCutToClipboard
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_24__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
-      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools
-      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
           rtl: props.rtl
         }, reshapingMethods),
         tipSize: .01
       }, "More"))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
           rtl: props.rtl
         }, flipOptions, movementOptions, reshapingMethods),
         tipSize: .01
       }, "More"))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_TEXT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].TEXT:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
         onUpdateImage: props.onUpdateImage,
         onManageFonts: props.onManageFonts
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
+        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
         title: 'Left Align',
         onClick: props.onTextAlignLeft
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
+        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43___default.a,
         title: 'Center Align',
         onClick: props.onTextAlignCenter
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
+        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42___default.a,
         title: 'Right Align',
         onClick: props.onTextAlignRight
       })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_OVAL:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_OVAL:
       {
-        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_55___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_54___default.a;
-        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_22__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_57___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_56___default.a;
+        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57___default.a;
+        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59___default.a;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
           highlighted: props.fillBitmapShapes,
           imgSrc: fillIcon,
           title: props.intl.formatMessage(messages.filled),
           onClick: props.onFillShapes
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
           highlighted: !props.fillBitmapShapes,
           imgSrc: outlineIcon,
           title: props.intl.formatMessage(messages.outlined),
           onClick: props.onOutlineShapes
-        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
           text: props.intl.formatMessage(messages.thickness)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_58__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: props.bitBrushSize,
           onSubmit: props.onBitBrushSliderChange
         }))));
       }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ARROW:
+      {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, "Hold Alt + Shift to resize arrow tip"));
+      }
     default:
       // Leave empty for now, if mode not supported
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_25___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
       });
   }
 };
@@ -189419,13 +189506,15 @@ ModeToolsComponent.propTypes = {
   clipboardItems: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.array),
   eraserValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   roundedCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  roundedRectCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   trianglePolyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  trianglePointValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   currentlySelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   fillBitmapShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_23__["default"])),
+  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_25__["default"])),
   hasSelectedUncurvedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   hasSelectedUnpointedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_18__["intlShape"].isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_20__["intlShape"].isRequired,
   mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   onBitBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBitEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -189444,9 +189533,6 @@ ModeToolsComponent.propTypes = {
   onPasteFromClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onPointPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  onTextAlignLeft: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  onTextAlignRight: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  onTextAlignCenter: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMergeShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMaskShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onSubtractShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -189462,9 +189548,11 @@ const mapStateToProps = state => ({
   segValue: state.scratchPaint.brushMode.segSize,
   clipboardItems: state.scratchPaint.clipboard.items,
   eraserValue: state.scratchPaint.eraserMode.brushSize,
-  roundedCornerValue: state.scratchPaint.roundedRectMode.roundedCornerSize,
+  roundedRectCornerValue: state.scratchPaint.roundedRectMode.roundedCornerSize,
+  roundedCornerValue: state.scratchPaint.rectMode.roundedCornerSize,
   trianglePolyValue: state.scratchPaint.triangleMode.trianglePolyCount,
-  currentlySelectedShape: state.scratchPaint.sussyMode.currentlySelectedShape
+  trianglePointValue: state.scratchPaint.triangleMode.trianglePointCount,
+  currentlySelectedShape: state.scratchPaint.sussyMode.shape
 });
 const mapDispatchToProps = dispatch => ({
   onBrushSliderChange: brushSize => {
@@ -189473,32 +189561,47 @@ const mapDispatchToProps = dispatch => ({
   onSegSliderChange: brushSize => {
     dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeSegSize"])(brushSize));
   },
+  onRoundedRectCornerSliderChange: roundedCornerSize => {
+    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_9__["changeRoundedRectCornerSize"])(roundedCornerSize));
+  },
   onRoundedCornerSliderChange: roundedCornerSize => {
-    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_9__["changeRoundedCornerSize"])(roundedCornerSize));
+    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_10__["changeRoundedCornerSize"])(roundedCornerSize));
   },
   onPolyCountSliderChange: polyCount => {
-    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_10__["changeTrianglePolyCount"])(polyCount));
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__["changeTrianglePolyCount"])(polyCount));
+  },
+  onPointCountSliderChange: polyCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__["changeTrianglePointCount"])(polyCount));
   },
   onCurrentlySelectedShapeChange: shape => {
-    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_11__["changeCurrentlySelectedShape"])(shape));
+    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_12__["changeCurrentlySelectedShape"])(shape));
   },
   onBitBrushSliderChange: bitBrushSize => {
-    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_12__["changeBitBrushSize"])(bitBrushSize));
+    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_13__["changeBitBrushSize"])(bitBrushSize));
   },
   onBitEraserSliderChange: eraserSize => {
-    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_13__["changeBitEraserSize"])(eraserSize));
+    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_14__["changeBitEraserSize"])(eraserSize));
   },
   onEraserSliderChange: eraserSize => {
     dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__["changeBrushSize"])(eraserSize));
   },
   onFillShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_14__["setShapesFilled"])(true));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["setShapesFilled"])(true));
   },
   onOutlineShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_14__["setShapesFilled"])(false));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["setShapesFilled"])(false));
+  },
+  onTextAlignLeft: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("left"));
+  },
+  onTextAlignRight: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("right"));
+  },
+  onTextAlignCenter: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("center"));
   }
 });
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_18__["injectIntl"])(ModeToolsComponent)));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_20__["injectIntl"])(ModeToolsComponent)));
 
 /***/ }),
 
@@ -189648,57 +189751,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/scratch-paint/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../containers/paper-canvas.jsx */ "./node_modules/scratch-paint/src/containers/paper-canvas.jsx");
-/* harmony import */ var _containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../containers/scrollable-canvas.jsx */ "./node_modules/scratch-paint/src/containers/scrollable-canvas.jsx");
-/* harmony import */ var _containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/bit-brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-brush-mode.jsx");
-/* harmony import */ var _containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../containers/bit-line-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-line-mode.jsx");
-/* harmony import */ var _containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/bit-oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-oval-mode.jsx");
-/* harmony import */ var _containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../containers/bit-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-rect-mode.jsx");
-/* harmony import */ var _containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../containers/bit-fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-fill-mode.jsx");
-/* harmony import */ var _containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../containers/bit-eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-eraser-mode.jsx");
-/* harmony import */ var _containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../containers/bit-select-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-select-mode.jsx");
-/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../box/box.jsx */ "./node_modules/scratch-paint/src/components/box/box.jsx");
-/* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../button/button.jsx */ "./node_modules/scratch-paint/src/components/button/button.jsx");
-/* harmony import */ var _button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../button-group/button-group.jsx */ "./node_modules/scratch-paint/src/components/button-group/button-group.jsx");
-/* harmony import */ var _containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../containers/brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/brush-mode.jsx");
-/* harmony import */ var _containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx");
-/* harmony import */ var _containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/fill-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/fill-color-indicator.jsx");
-/* harmony import */ var _containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../containers/fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/fill-mode.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../containers/line-mode.jsx */ "./node_modules/scratch-paint/src/containers/line-mode.jsx");
-/* harmony import */ var _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../loupe/loupe.jsx */ "./node_modules/scratch-paint/src/components/loupe/loupe.jsx");
-/* harmony import */ var _containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../containers/fixed-tools.jsx */ "./node_modules/scratch-paint/src/containers/fixed-tools.jsx");
-/* harmony import */ var _containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/mode-tools.jsx */ "./node_modules/scratch-paint/src/containers/mode-tools.jsx");
-/* harmony import */ var _containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../containers/oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/oval-mode.jsx");
-/* harmony import */ var _containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../containers/pen-mode.jsx */ "./node_modules/scratch-paint/src/containers/pen-mode.jsx");
-/* harmony import */ var _containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../containers/rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rect-mode.jsx");
-/* harmony import */ var _containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../containers/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rounded-rect-mode.jsx");
-/* harmony import */ var _containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../containers/sussy-mode.jsx */ "./node_modules/scratch-paint/src/containers/sussy-mode.jsx");
-/* harmony import */ var _containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../containers/triangle-mode.jsx */ "./node_modules/scratch-paint/src/containers/triangle-mode.jsx");
-/* harmony import */ var _containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../containers/arrow-mode.jsx */ "./node_modules/scratch-paint/src/containers/arrow-mode.jsx");
-/* harmony import */ var _containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../containers/reshape-mode.jsx */ "./node_modules/scratch-paint/src/containers/reshape-mode.jsx");
-/* harmony import */ var _containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../containers/select-mode.jsx */ "./node_modules/scratch-paint/src/containers/select-mode.jsx");
-/* harmony import */ var _containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../containers/stroke-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-color-indicator.jsx");
-/* harmony import */ var _containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../containers/stroke-width-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-width-indicator.jsx");
-/* harmony import */ var _containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../containers/text-mode.jsx */ "./node_modules/scratch-paint/src/containers/text-mode.jsx");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./paint-editor.css */ "./node_modules/scratch-paint/src/components/paint-editor/paint-editor.css");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_css__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/bitmap.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/bitmap.svg");
-/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/zoom-in.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-in.svg");
-/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/zoom-out.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-out.svg");
-/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/zoom-reset.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-reset.svg");
-/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/theme.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/theme.svg");
-/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_theme_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../containers/paper-canvas.jsx */ "./node_modules/scratch-paint/src/containers/paper-canvas.jsx");
+/* harmony import */ var _containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/scrollable-canvas.jsx */ "./node_modules/scratch-paint/src/containers/scrollable-canvas.jsx");
+/* harmony import */ var _containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../containers/bit-brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-brush-mode.jsx");
+/* harmony import */ var _containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/bit-line-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-line-mode.jsx");
+/* harmony import */ var _containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../containers/bit-oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-oval-mode.jsx");
+/* harmony import */ var _containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../containers/bit-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-rect-mode.jsx");
+/* harmony import */ var _containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../containers/bit-fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-fill-mode.jsx");
+/* harmony import */ var _containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../containers/bit-eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-eraser-mode.jsx");
+/* harmony import */ var _containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../containers/bit-select-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-select-mode.jsx");
+/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../box/box.jsx */ "./node_modules/scratch-paint/src/components/box/box.jsx");
+/* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../button/button.jsx */ "./node_modules/scratch-paint/src/components/button/button.jsx");
+/* harmony import */ var _button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../button-group/button-group.jsx */ "./node_modules/scratch-paint/src/components/button-group/button-group.jsx");
+/* harmony import */ var _containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/brush-mode.jsx");
+/* harmony import */ var _containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx");
+/* harmony import */ var _containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../containers/fill-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/fill-color-indicator.jsx");
+/* harmony import */ var _containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../containers/fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/fill-mode.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../containers/line-mode.jsx */ "./node_modules/scratch-paint/src/containers/line-mode.jsx");
+/* harmony import */ var _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../loupe/loupe.jsx */ "./node_modules/scratch-paint/src/components/loupe/loupe.jsx");
+/* harmony import */ var _containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/fixed-tools.jsx */ "./node_modules/scratch-paint/src/containers/fixed-tools.jsx");
+/* harmony import */ var _containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../containers/mode-tools.jsx */ "./node_modules/scratch-paint/src/containers/mode-tools.jsx");
+/* harmony import */ var _containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../containers/oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/oval-mode.jsx");
+/* harmony import */ var _containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../containers/pen-mode.jsx */ "./node_modules/scratch-paint/src/containers/pen-mode.jsx");
+/* harmony import */ var _containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../containers/rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rect-mode.jsx");
+/* harmony import */ var _containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../containers/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rounded-rect-mode.jsx");
+/* harmony import */ var _containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../containers/sussy-mode.jsx */ "./node_modules/scratch-paint/src/containers/sussy-mode.jsx");
+/* harmony import */ var _containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../containers/triangle-mode.jsx */ "./node_modules/scratch-paint/src/containers/triangle-mode.jsx");
+/* harmony import */ var _containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../containers/arrow-mode.jsx */ "./node_modules/scratch-paint/src/containers/arrow-mode.jsx");
+/* harmony import */ var _containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../containers/reshape-mode.jsx */ "./node_modules/scratch-paint/src/containers/reshape-mode.jsx");
+/* harmony import */ var _containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../containers/select-mode.jsx */ "./node_modules/scratch-paint/src/containers/select-mode.jsx");
+/* harmony import */ var _containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../containers/stroke-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-color-indicator.jsx");
+/* harmony import */ var _containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../containers/stroke-width-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-width-indicator.jsx");
+/* harmony import */ var _containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../containers/text-mode.jsx */ "./node_modules/scratch-paint/src/containers/text-mode.jsx");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./paint-editor.css */ "./node_modules/scratch-paint/src/components/paint-editor/paint-editor.css");
+/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/bitmap.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/bitmap.svg");
+/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/zoom-in.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-in.svg");
+/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/zoom-out.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-out.svg");
+/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/zoom-reset.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-reset.svg");
+/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/theme.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/theme.svg");
+/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_theme_svg__WEBPACK_IMPORTED_MODULE_45__);
 
 
 
@@ -189744,7 +189848,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"])({
+
+const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["defineMessages"])({
   bitmap: {
     "id": "paint.paintEditor.bitmap",
     "defaultMessage": "Convert to Bitmap"
@@ -189754,18 +189859,18 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"
     "defaultMessage": "Convert to Vector"
   }
 });
-const PaintEditorComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.editorContainer,
+const PaintEditorComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.editorContainer,
   dir: props.rtl ? 'rtl' : 'ltr',
   "data-paint-theme": props.theme
 }, props.canvas !== null ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.editorContainerTop
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.editorContainerTop
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
   canRedo: props.canRedo,
   canUndo: props.canUndo,
   name: props.name,
@@ -189774,104 +189879,104 @@ react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
   onUpdateImage: props.onUpdateImage,
   onUpdateName: props.onUpdateName,
   width: props.width
-})), Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modLabeledIconHeight)
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modMarginAfter,
+})), Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modLabeledIconHeight)
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modMarginAfter,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_35__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], {
   onUpdateImage: props.onUpdateImage
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modModeTools
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modModeTools
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
   onUpdateImage: props.onUpdateImage,
   width: props.width,
   height: props.height,
   onManageFonts: props.onManageFonts
-}))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modLabeledIconHeight)
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modMarginAfter,
+}))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modLabeledIconHeight)
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modMarginAfter,
   onUpdateImage: props.onUpdateImage
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modModeTools
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modModeTools
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
   onUpdateImage: props.onUpdateImage,
   width: props.width,
   height: props.height,
   onManageFonts: props.onManageFonts
-}))) : null) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.topAlignRow
-}, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isVector"])(props.format) ?
+}))) : null) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.topAlignRow
+}, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modeSelector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_34__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modeSelector
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_35__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_33__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_34__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_27__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
   onUpdateSvg: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__["default"], {
   textArea: props.textArea,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_27__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], {
+}), props.showRoundedRectMode && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_33__["default"], {
   onUpdateImage: props.onUpdateImage
-})) : null, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isBitmap"])(props.format) ?
+})) : null, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.modeSelector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modeSelector
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__["default"], {
   isBitmap: true,
   textArea: props.textArea,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
   onUpdateImage: props.onUpdateImage
-})) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.controlsContainer
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+})) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.controlsContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
   canvas: props.canvas,
   hideScrollbars: props.isEyeDropping,
-  style: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.canvasContainer
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  style: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.canvasContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
   canvasRef: props.setCanvas,
   image: props.image,
   imageFormat: props.imageFormat,
@@ -189881,106 +189986,110 @@ react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
   theme: props.theme,
   zoomLevelId: props.zoomLevelId,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("textarea", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.textArea,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("textarea", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.textArea,
   ref: props.setTextArea,
   spellCheck: false
-}), props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.colorPickerWrapper
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+}), props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.colorPickerWrapper
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
   colorInfo: props.colorInfo,
   pixelRatio: _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.view.pixelRatio,
   theme: props.theme
-})) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.canvasControls
-}, Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.bitmapButton,
+})) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.canvasControls
+}, Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButton,
   onClick: props.onSwitchToBitmap
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.bitmapButtonIcon,
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButtonIcon,
   draggable: false,
-  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_40___default.a
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonText
-}, props.intl.formatMessage(messages.bitmap))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_38__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.bitmapButton,
+  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default.a
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonText
+}, props.intl.formatMessage(messages.bitmap))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButton,
   onClick: props.onSwitchToVector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.bitmapButtonIcon,
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButtonIcon,
   draggable: false,
-  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_40___default.a
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonText
-}, props.intl.formatMessage(messages.vector))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.zoomControls
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButton,
+  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default.a
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonText
+}, props.intl.formatMessage(messages.vector))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.zoomControls
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomOut
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom Out",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_42___default.a
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButton,
+  src: _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43___default.a
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomReset
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom Reset",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_43___default.a
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButton,
+  src: _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44___default.a
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomIn
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom In",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_41___default.a
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButton,
+  src: _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42___default.a
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onChangeTheme
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Change theme",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_39___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_theme_svg__WEBPACK_IMPORTED_MODULE_44___default.a
+  src: _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45___default.a
 }))))))));
 PaintEditorComponent.propTypes = {
-  canRedo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  canUndo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  canvas: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(Element),
-  colorInfo: _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__["default"].propTypes.colorInfo,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_38__["default"])),
-  image: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(HTMLImageElement)]),
-  imageFormat: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  imageId: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_2__["intlShape"],
-  isEyeDropping: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-  name: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  onChangeTheme: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-  onRedo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onSwitchToBitmap: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onSwitchToVector: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUndo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUpdateName: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomIn: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomOut: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomReset: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  rotationCenterX: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  rotationCenterY: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  rtl: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-  setCanvas: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  setTextArea: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  textArea: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(Element),
-  theme: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  width: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  height: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  zoomLevelId: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string
+  canRedo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  canUndo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  canvas: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(Element),
+  colorInfo: _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__["default"].propTypes.colorInfo,
+  format: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_39__["default"])),
+  image: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(HTMLImageElement)]),
+  imageFormat: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  imageId: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_3__["intlShape"],
+  isEyeDropping: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  name: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  onChangeTheme: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func,
+  onRedo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onSwitchToBitmap: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onSwitchToVector: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUndo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUpdateName: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomIn: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomOut: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomReset: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  rotationCenterX: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  rotationCenterY: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  rtl: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  setCanvas: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  setTextArea: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  showRoundedRectMode: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  textArea: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(Element),
+  theme: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  width: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  height: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  zoomLevelId: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string
 };
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["injectIntl"])(PaintEditorComponent));
+const mapStateToProps = state => ({
+  showRoundedRectMode: state.scratchPaint.addonUtil.showRoundedRectMode
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["injectIntl"])(PaintEditorComponent)));
 
 /***/ }),
 
@@ -192952,7 +193061,7 @@ __webpack_require__.r(__webpack_exports__);
 class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontScratch', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontScratch', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
     this.customFonts = {};
     this.acceptedCustomFontAgreement = false;
     this.latestCustomFont = null;
@@ -193187,6 +193296,31 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN);
     }
   }
+  handleChangeFontGogono() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].GOGONO);
+    }
+  }
+  handleChangeFontJustBubble() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JUSTBUBBLE);
+    }
+  }
+  handleChangeFontLilitaOne() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].LILITAONE);
+    }
+  }
+  handleChangeFontMinecrafter() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MINECRAFTER);
+    }
+  }
+  handleChangeFontObelixPro() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].OBELIXPRO);
+    }
+  }
   handleChoose() {
     if (this.dropDown.isOpen()) {
       this.dropDown.handleClosePopover();
@@ -193278,6 +193412,11 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverHandwriting: this.handleChangeFontHandwriting,
       onHoverJapanese: this.handleChangeFontJapanese,
       onHoverKorean: this.handleChangeFontKorean,
+      onHoverGogono: this.handleChangeFontGogono,
+      onHoverLilitaOne: this.handleChangeFontLilitaOne,
+      onHoverMinecrafter: this.handleChangeFontMinecrafter,
+      onHoverObelixPro: this.handleChangeFontObelixPro,
+      onHoverJustBubble: this.handleChangeFontJustBubble,
       onHoverMarker: this.handleChangeFontMarker,
       onHoverPixel: this.handleChangeFontPixel,
       onHoverPlayful: this.handleChangeFontPlayful,
@@ -193666,8 +193805,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helper_bitmap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/bitmap */ "./node_modules/scratch-paint/src/helper/bitmap.js");
 /* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
 /* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _helper_tools_text_tool_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/text-tool.js */ "./node_modules/scratch-paint/src/helper/tools/text-tool.js");
-
 
 
 
@@ -193686,7 +193823,7 @@ __webpack_require__.r(__webpack_exports__);
 class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['_getSelectedUncurvedPoints', '_getSelectedUnpointedPoints', 'hasSelectedUncurvedPoints', 'hasSelectedUnpointedPoints', 'handleCurvePoints', 'handleFlipHorizontal', 'handleFlipVertical', 'handleCenterSelection', 'handleDelete', 'handlePasteFromClipboard', 'handlePointPoints', 'handleTextAlignLeft', 'handleTextAlignRight', 'handleTextAlignCenter', 'handleMergeShape', 'handleMaskShape', 'handleSubtractShape', 'handleExcludeShape', 'handleRoundEnds', 'handleSquareEnds', 'handleMiterLineJoin', 'handleRoundLineJoin', 'handleBevelLineJoin']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['_getSelectedUncurvedPoints', '_getSelectedUnpointedPoints', 'hasSelectedUncurvedPoints', 'hasSelectedUnpointedPoints', 'handleCurvePoints', 'handleFlipHorizontal', 'handleFlipVertical', 'handleCenterSelection', 'handleDelete', 'handlePasteFromClipboard', 'handlePointPoints', 'handleMergeShape', 'handleMaskShape', 'handleSubtractShape', 'handleExcludeShape', 'handleRoundEnds', 'handleSquareEnds', 'handleMiterLineJoin', 'handleRoundLineJoin', 'handleBevelLineJoin']);
   }
   _getSelectedUncurvedPoints() {
     const items = [];
@@ -193911,15 +194048,6 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       this.props.onUpdateImage();
     }
   }
-  handleTextAlignLeft() {
-    _helper_tools_text_tool_js__WEBPACK_IMPORTED_MODULE_15__["default"].textAlignment = "left";
-  }
-  handleTextAlignCenter() {
-    _helper_tools_text_tool_js__WEBPACK_IMPORTED_MODULE_15__["default"].textAlignment = "center";
-  }
-  handleTextAlignRight() {
-    _helper_tools_text_tool_js__WEBPACK_IMPORTED_MODULE_15__["default"].textAlignment = "right";
-  }
   handleMergeShape(specificOperation) {
     const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
     if (selectedItems.length < 2) {
@@ -194077,9 +194205,6 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       onMiterLineJoin: this.handleMiterLineJoin,
       onRoundLineJoin: this.handleRoundLineJoin,
       onBevelLineJoin: this.handleBevelLineJoin,
-      onTextAlignLeft: this.handleTextAlignLeft,
-      onTextAlignRight: this.handleTextAlignRight,
-      onTextAlignCenter: this.handleTextAlignCenter,
       onMergeShape: this.handleMergeShape,
       onMaskShape: this.handleMaskShape,
       onSubtractShape: this.handleSubtractShape,
@@ -195258,9 +195383,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helper/tools/pen-tool */ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js");
-/* harmony import */ var _components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/pen-mode/pen-mode.jsx */ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/tools/pen-tool */ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js");
+/* harmony import */ var _components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/pen-mode/pen-mode.jsx */ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx");
+
 
 
 
@@ -195301,7 +195428,7 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     return nextProps.isPenModeActive !== this.props.isPenModeActive;
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_10__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_11__["clearSelection"])(this.props.clearSelectedItems);
     // Force the default pen color if stroke is MIXED or transparent
     const {
       strokeColor
@@ -195313,7 +195440,7 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     if (!this.props.colorState.strokeWidth) {
       this.props.onChangeStrokeWidth(1);
     }
-    this.tool = new _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_11__["default"](this.props.clearSelectedItems, this.props.onUpdateSvg);
+    this.tool = new _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_12__["default"](this.props.clearSelectedItems, this.props.onUpdateSvg);
     this.tool.setColorState(this.props.colorState);
     this.tool.activate();
   }
@@ -195323,7 +195450,7 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
       isSelected: this.props.isPenModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -195332,8 +195459,8 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 PenMode.propTypes = {
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   colorState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    fillStyle: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-    strokeColor: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
+    fillStyle: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__["default"],
     strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }).isRequired,
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
@@ -195392,9 +195519,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rect-tool.js");
-/* harmony import */ var _components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/rect-mode/rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rect-mode/rect-mode.jsx");
+/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rect-tool.js");
+/* harmony import */ var _components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/rect-mode/rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rect-mode/rect-mode.jsx");
+
 
 
 
@@ -195429,6 +195558,9 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
       this.tool.onSelectionChanged(nextProps.selectedItems);
     }
+    if (this.tool && nextProps.roundedCornerSize !== this.props.roundedCornerSize) {
+      this.tool.setRoundedCornerSize(nextProps.roundedCornerSize);
+    }
     if (nextProps.isRectModeActive && !this.props.isRectModeActive) {
       this.activateTool();
     } else if (!nextProps.isRectModeActive && this.props.isRectModeActive) {
@@ -195444,9 +195576,13 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
     this.validateColorState();
-    this.tool = new _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    if (typeof this.props.roundedCornerSize !== "number") {
+      this.props.onChangeRoundedCornerSize(0);
+    }
+    this.tool = new _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setRoundedCornerSize(this.props.roundedCornerSize);
     this.tool.setColorState(this.props.colorState);
     this.tool.activate();
   }
@@ -195495,7 +195631,7 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
       isSelected: this.props.isRectModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -195517,12 +195653,15 @@ RectMode.propTypes = {
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  roundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onChangeRoundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
   isRectModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].RECT,
-  selectedItems: state.scratchPaint.selectedItems
+  selectedItems: state.scratchPaint.selectedItems,
+  roundedCornerSize: state.scratchPaint.rectMode.roundedCornerSize
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -195535,7 +195674,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   setCursor: cursorString => {
     dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
@@ -195548,6 +195687,9 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onChangeRoundedCornerSize: roundedCornerSize => {
+    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_14__["changeRoundedCornerSize"])(roundedCornerSize));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(RectMode));
@@ -195700,9 +195842,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/rounded-rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js");
-/* harmony import */ var _components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/rounded-rect-mode/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rect-mode.jsx");
+/* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/rounded-rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js");
+/* harmony import */ var _components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/rounded-rect-mode/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rect-mode.jsx");
+
 
 
 
@@ -195724,7 +195868,6 @@ class RoundedRectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compo
   constructor(props) {
     super(props);
     lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['activateTool', 'deactivateTool', 'validateColorState']);
-    console.log(props);
   }
   componentDidMount() {
     if (this.props.isRoundedRectModeActive) {
@@ -195737,6 +195880,9 @@ class RoundedRectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compo
     }
     if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
       this.tool.onSelectionChanged(nextProps.selectedItems);
+    }
+    if (this.tool && nextProps.roundedCornerSize !== this.props.roundedCornerSize) {
+      this.tool.setRoundedCornerSize(nextProps.roundedCornerSize);
     }
     if (nextProps.isRoundedRectModeActive && !this.props.isRoundedRectModeActive) {
       this.activateTool();
@@ -195753,9 +195899,13 @@ class RoundedRectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compo
     }
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
     this.validateColorState();
-    this.tool = new _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    if (typeof this.props.roundedCornerSize !== "number") {
+      this.props.onChangeRoundedCornerSize(0);
+    }
+    this.tool = new _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setRoundedCornerSize(this.props.roundedCornerSize);
     this.tool.setColorState(this.props.colorState);
     this.tool.activate();
   }
@@ -195804,16 +195954,13 @@ class RoundedRectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compo
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
       isSelected: this.props.isRoundedRectModeActive,
       onMouseDown: this.props.handleMouseDown
     });
   }
 }
 RoundedRectMode.propTypes = {
-  roundedCornerModeState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    roundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired
-  }),
   clearFillGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearStrokeGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
@@ -195829,12 +195976,15 @@ RoundedRectMode.propTypes = {
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  roundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onChangeRoundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
   isRoundedRectModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].ROUNDED_RECT,
-  selectedItems: state.scratchPaint.selectedItems
+  selectedItems: state.scratchPaint.selectedItems,
+  roundedCornerSize: state.scratchPaint.roundedRectMode.roundedCornerSize
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -195847,7 +195997,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   setCursor: cursorString => {
     dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
@@ -195860,6 +196010,9 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onChangeRoundedCornerSize: roundedCornerSize => {
+    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_14__["changeRoundedRectCornerSize"])(roundedCornerSize));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(RoundedRectMode));
@@ -196465,9 +196618,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/sussy-tool */ "./node_modules/scratch-paint/src/helper/tools/sussy-tool.js");
-/* harmony import */ var _components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/sussy-mode/sussy-mode.jsx */ "./node_modules/scratch-paint/src/components/sussy-mode/sussy-mode.jsx");
+/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/sussy-tool */ "./node_modules/scratch-paint/src/helper/tools/sussy-tool.js");
+/* harmony import */ var _components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/sussy-mode/sussy-mode.jsx */ "./node_modules/scratch-paint/src/components/sussy-mode/sussy-mode.jsx");
+
 
 
 
@@ -196502,6 +196657,9 @@ class SussyMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
       this.tool.onSelectionChanged(nextProps.selectedItems);
     }
+    if (this.tool && nextProps.shape !== this.props.shape) {
+      this.tool.setShape(nextProps.shape);
+    }
     if (nextProps.isSussyModeActive && !this.props.isSussyModeActive) {
       this.activateTool();
     } else if (!nextProps.isSussyModeActive && this.props.isSussyModeActive) {
@@ -196517,10 +196675,14 @@ class SussyMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
     this.validateColorState();
-    this.tool = new _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    if (!this.props.shape) {
+      this.props.onSetSelectedShape("smile");
+    }
+    this.tool = new _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
     this.tool.setColorState(this.props.colorState);
+    this.tool.setShape(this.props.shape);
     this.tool.activate();
   }
   validateColorState() {
@@ -196568,7 +196730,7 @@ class SussyMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
       isSelected: this.props.isSussyModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -196583,10 +196745,12 @@ SussyMode.propTypes = {
     strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
     strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
   }).isRequired,
+  shape: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   isSussyModeActive: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
   onChangeFillColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onSetSelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
@@ -196595,7 +196759,8 @@ SussyMode.propTypes = {
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
   isSussyModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].SUSSY,
-  selectedItems: state.scratchPaint.selectedItems
+  selectedItems: state.scratchPaint.selectedItems,
+  shape: state.scratchPaint.sussyMode.shape
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -196608,7 +196773,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   setCursor: cursorString => {
     dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
@@ -196621,6 +196786,9 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onSetSelectedShape: shape => {
+    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_14__["changeCurrentlySelectedShape"])(shape));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(SussyMode));
@@ -196654,12 +196822,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_text_edit_target__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../helper/tools/text-tool */ "./node_modules/scratch-paint/src/helper/tools/text-tool.js");
-/* harmony import */ var _components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/text-mode/text-mode.jsx */ "./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx");
-/* harmony import */ var _components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/bit-text-mode/bit-text-mode.jsx */ "./node_modules/scratch-paint/src/components/bit-text-mode/bit-text-mode.jsx");
+/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../helper/tools/text-tool */ "./node_modules/scratch-paint/src/helper/tools/text-tool.js");
+/* harmony import */ var _components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/text-mode/text-mode.jsx */ "./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx");
+/* harmony import */ var _components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/bit-text-mode/bit-text-mode.jsx */ "./node_modules/scratch-paint/src/components/bit-text-mode/bit-text-mode.jsx");
+
 
 
 
@@ -196707,6 +196877,9 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
       if (nextProps.font !== this.props.font) {
         this.tool.setFont(nextProps.font);
       }
+      if (nextProps.alignment !== this.props.alignment) {
+        this.tool.setAlignment(nextProps.alignment);
+      }
     }
     if (nextProps.isTextModeActive && !this.props.isTextModeActive) {
       this.activateTool(nextProps);
@@ -196723,12 +196896,12 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }
   }
   activateTool(nextProps) {
-    const selected = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["getSelectedLeafItems"])();
+    const selected = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["getSelectedLeafItems"])();
     let textBoxToStartEditing = null;
     if (selected.length === 1 && selected[0] instanceof _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.PointText) {
       textBoxToStartEditing = selected[0];
     }
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["clearSelection"])(this.props.clearSelectedItems);
     this.props.clearGradient();
 
     // If fill and stroke color are both mixed/transparent/absent, set fill to default and stroke to transparent.
@@ -196752,9 +196925,13 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     if (!nextProps.font) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_5__["default"].SANS_SERIF);
     }
-    this.tool = new _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_17__["default"](this.props.textArea, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage, this.props.setTextEditTarget, this.props.changeFont, nextProps.isBitmap);
+    if (!nextProps.alignment) {
+      this.props.changeAlignment("left");
+    }
+    this.tool = new _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_18__["default"](this.props.textArea, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage, this.props.setTextEditTarget, this.props.changeFont, this.props.changeAlignment, nextProps.isBitmap);
     this.tool.setColorState(nextProps.colorState);
     this.tool.setFont(nextProps.font);
+    this.tool.setAlignment(nextProps.alignment);
     this.tool.activate();
     if (textBoxToStartEditing) {
       this.tool.beginTextEdit(textBoxToStartEditing);
@@ -196767,10 +196944,10 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     this.tool = null;
   }
   render() {
-    return this.props.isBitmap ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    return this.props.isBitmap ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isSelected: this.props.isTextModeActive,
       onMouseDown: this.props.handleChangeModeBitText
-    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
       isSelected: this.props.isTextModeActive,
       onMouseDown: this.props.handleChangeModeText
     });
@@ -196778,6 +196955,7 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
 }
 TextMode.propTypes = {
   changeFont: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  changeAlignment: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -196786,6 +196964,7 @@ TextMode.propTypes = {
     strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
   }).isRequired,
   font: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  alignment: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   handleChangeModeBitText: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   handleChangeModeText: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   isBitmap: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
@@ -196805,6 +196984,7 @@ TextMode.propTypes = {
 const mapStateToProps = (state, ownProps) => ({
   colorState: state.scratchPaint.color,
   font: state.scratchPaint.font,
+  alignment: state.scratchPaint.textAlignment.alignment,
   isTextModeActive: ownProps.isBitmap ? state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].BIT_TEXT : state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].TEXT,
   rtl: state.scratchPaint.layout.rtl,
   selectedItems: state.scratchPaint.selectedItems,
@@ -196816,7 +196996,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     dispatch(Object(_reducers_font__WEBPACK_IMPORTED_MODULE_9__["changeFont"])(font));
   },
   clearSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__["clearSelectedItems"])());
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__["clearSelectedItems"])());
   },
   clearGradient: () => {
     dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_10__["clearFillGradient"])());
@@ -196828,10 +197008,10 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_12__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].TEXT));
   },
   setCursor: cursorString => {
-    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_15__["setCursor"])(cursorString));
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_16__["setCursor"])(cursorString));
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["getSelectedLeafItems"])(), ownProps.isBitmap));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["getSelectedLeafItems"])(), ownProps.isBitmap));
   },
   setTextEditTarget: targetId => {
     dispatch(Object(_reducers_text_edit_target__WEBPACK_IMPORTED_MODULE_13__["setTextEditTarget"])(targetId));
@@ -196841,6 +197021,9 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_11__["changeStrokeColor"])(strokeColor));
+  },
+  changeAlignment: alignment => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_14__["setTextAlignment"])(alignment));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(TextMode));
@@ -196874,9 +197057,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/triangle-tool */ "./node_modules/scratch-paint/src/helper/tools/triangle-tool.js");
-/* harmony import */ var _components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/triangle-mode/triangle-mode.jsx */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle-mode.jsx");
+/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/triangle-tool */ "./node_modules/scratch-paint/src/helper/tools/triangle-tool.js");
+/* harmony import */ var _components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/triangle-mode/triangle-mode.jsx */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle-mode.jsx");
+
 
 
 
@@ -196911,6 +197096,12 @@ class TriangleMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Componen
     if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
       this.tool.onSelectionChanged(nextProps.selectedItems);
     }
+    if (this.tool && nextProps.sideCount !== this.props.sideCount) {
+      this.tool.setSideCount(nextProps.sideCount);
+    }
+    if (this.tool && nextProps.pointCount !== this.props.pointCount) {
+      this.tool.setPointCount(nextProps.pointCount);
+    }
     if (nextProps.isTriangleModeActive && !this.props.isTriangleModeActive) {
       this.activateTool();
     } else if (!nextProps.isTriangleModeActive && this.props.isTriangleModeActive) {
@@ -196926,9 +197117,17 @@ class TriangleMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Componen
     }
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
     this.validateColorState();
-    this.tool = new _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    if (typeof this.props.sideCount !== "number") {
+      this.props.onSetSideCount(3);
+    }
+    if (typeof this.props.pointCount !== "number") {
+      this.props.onSetPointCount(1);
+    }
+    this.tool = new _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setSideCount(this.props.sideCount);
+    this.tool.setPointCount(this.props.pointCount);
     this.tool.setColorState(this.props.colorState);
     this.tool.activate();
   }
@@ -196977,7 +197176,7 @@ class TriangleMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Componen
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
       isSelected: this.props.isTriangleModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -196999,12 +197198,18 @@ TriangleMode.propTypes = {
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  sideCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  pointCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onSetSideCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onSetPointCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
   isTriangleModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].TRIANGLE,
-  selectedItems: state.scratchPaint.selectedItems
+  selectedItems: state.scratchPaint.selectedItems,
+  sideCount: state.scratchPaint.triangleMode.trianglePolyCount,
+  pointCount: state.scratchPaint.triangleMode.trianglePointCount
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -197017,7 +197222,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   setCursor: cursorString => {
     dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
@@ -197030,6 +197235,12 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onSetSideCount: sideCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__["changeTrianglePolyCount"])(sideCount));
+  },
+  onSetPointCount: pointCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__["changeTrianglePointCount"])(pointCount));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(TriangleMode));
@@ -200942,7 +201153,6 @@ const shouldShowBringForward = function shouldShowBringForward() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 const selectablePaths = {
-  dragon: 'M169.19262,341.94408c-5.80616,2.17958 -21.17199,0.24298 -33.38995,1.0916c-7.25679,0 -9.67935,-0.84862 -15.72487,-5.20415c-7.74276,-11.732 -18.51008,-29.51676 -23.10859,-48.2662c-1.20765,-6.17244 9.43637,-6.77446 4.23585,-12.70392c-5.32382,-8.95041 0.9683,-11.49264 3.26392,-11.97498c9.31669,0.23935 3.02457,20.92901 26.00986,15.36221c2.29925,-9.79903 -1.33096,-32.17867 4.71818,-38.95313c3.02457,19.96071 0.72532,26.25284 3.74989,32.29835c8.95403,-3.86956 12.09828,0.48596 14.87987,1.45426c2.54223,6.16882 7.98574,3.26392 8.71105,0.23935c-0.11968,-10.16169 -0.84499,-27.82315 0.60564,-39.55877c-3.14425,-1.93297 -5.80616,-7.86243 -3.50691,-18.2671c-0.36266,-0.9683 8.70743,-23.22464 -1.21128,-25.76687c-8.10541,2.54223 -11.61232,14.39754 -16.1528,19.33332c-3.77165,-11.7864 -7.26042,-25.55291 -7.97123,-44.80644c1.39623,-28.10239 14.28149,-28.10239 24.68253,-27.17036c-2.48421,-4.81248 -6.36465,-9.7809 -6.65841,-17.67234c-1.70812,-29.19037 5.90045,-48.59984 22.04963,-54.96812c-4.65653,7.60857 -4.96842,20.03325 -4.65653,24.06963c4.19233,15.99323 14.90526,28.87848 22.82209,30.74255c9.16438,-5.12436 13.82091,-13.81728 19.72136,-25.93007c2.17232,-4.50422 -2.02001,-24.68978 -0.15594,-36.79894c7.45263,-23.44586 28.41428,-34.47067 38.04286,-44.87534c-5.74451,15.68497 -11.49264,37.11083 -9.78452,42.85533c7.14437,18.01324 12.73293,31.67821 22.20557,47.04767c6.21234,-0.93203 11.02481,-6.98843 17.23352,-8.5406c-16.76932,25.30992 -3.10436,55.27638 -2.79247,57.45233c20.33788,-20.02962 35.24676,-43.94331 56.67262,-53.56826c25.62181,-25.93007 41.30316,-55.58827 65.83699,-89.12691c-2.7961,27.63819 -19.25353,67.23323 -29.50226,85.71067c-9.7809,20.64977 -19.25353,36.33111 -33.85053,58.92473c-17.90807,20.81296 -20.18556,24.60999 -26.83672,48.36411c0.23935,3.38723 4.23222,5.92946 7.01381,8.46807c-7.25679,1.81329 -8.70743,5.56681 -9.07371,11.37297c0,41.61504 5.32382,45.24525 5.20052,56.37524c-15.36221,32.41803 -28.67177,42.46004 -60.2448,65.565c-76.33595,21.41497 -51.90003,3.86956 -76.45563,-3.63021zM242.45,269.99185c3.089,-2.18347 3.8336,-19.71382 1.23123,-26.15118c-3.41142,-8.43867 -9.64814,-22.47456 -13.03123,-22.04882c-8.4,0.67715 -6.47716,12 -26,17.4c-2.36136,1.15845 -17.23312,6.73679 -30.28301,6.53392c-4.23102,-0.06578 -2.26453,29.16099 -0.51699,31.46608c5.4,7.12284 58.90584,-0.34765 68.6,-7.2z',
   sussy: 'm 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0',
   speechBubble: 'M204.14966,175.04472c-0.31482,-15.49173 8.58161,-20.45314 15.2824,-20.45314c8.15418,0 26.20534,-0.47063 40.10194,0c6.7857,0.22981 16.64329,5.37466 16.31655,20.45314c-0.30922,14.27018 -11.32079,18.61465 -16.43145,18.61465c-4.65217,0 -12.43125,0 -21.25748,0c-2.33362,0 -8.8706,12.31777 -19.5339,11.95015c-7.56289,-0.26073 4.2991,-11.95015 1.26396,-11.95015c-9.00032,0 -15.52291,-7.83267 -15.74202,-18.61465z',
   smile: 'M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39292,9.57794 21.39292,21.39292c0,11.81499 -9.57794,21.39293 -21.39292,21.39293c-11.81499,0 -21.39292,-9.57794 -21.39292,-21.39293zM239.89701,196.60775c14.70959,0.07281 16.22782,-13.7612 16.22782,-13.7612h-31.54689c0,0 1.12947,13.69096 15.31907,13.7612zM247.80316,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933zM232.19685,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933z',
@@ -201042,13 +201252,6 @@ const selectableShapes = [{
   size: 100,
   strokeWidth: 14,
   icon: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"-36 -55 161 192\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>sussy</title>\n    <desc>Created with Sketch.</desc>\n    <desc>jk its made with https://yqnn.github.io/svg-path-editor/ stupeit</desc>\n    <defs></defs>\n    <path stroke=\"".concat(strokeColor, "\" stroke-width=\"14\" fill=\"transparent\" d=\"m 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0\"/>\n</svg>")
-}, {
-  id: "dragon",
-  name: "Dragon",
-  path: selectablePaths.dragon,
-  size: 100,
-  strokeWidth: 26,
-  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"302.64767\" height=\"345.05044\" viewBox=\"0,0,330.64767,360.05044\"><g transform=\"translate(-82.87288,-3)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"".concat(strokeColor, "\" stroke-width=\"26\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\">\n        <path d=\"M169.19262,341.94408c-5.80616,2.17958 -21.17199,0.24298 -33.38995,1.0916c-7.25679,0 -9.67935,-0.84862 -15.72487,-5.20415c-7.74276,-11.732 -18.51008,-29.51676 -23.10859,-48.2662c-1.20765,-6.17244 9.43637,-6.77446 4.23585,-12.70392c-5.32382,-8.95041 0.9683,-11.49264 3.26392,-11.97498c9.31669,0.23935 3.02457,20.92901 26.00986,15.36221c2.29925,-9.79903 -1.33096,-32.17867 4.71818,-38.95313c3.02457,19.96071 0.72532,26.25284 3.74989,32.29835c8.95403,-3.86956 12.09828,0.48596 14.87987,1.45426c2.54223,6.16882 7.98574,3.26392 8.71105,0.23935c-0.11968,-10.16169 -0.84499,-27.82315 0.60564,-39.55877c-3.14425,-1.93297 -5.80616,-7.86243 -3.50691,-18.2671c-0.36266,-0.9683 8.70743,-23.22464 -1.21128,-25.76687c-8.10541,2.54223 -11.61232,14.39754 -16.1528,19.33332c-3.77165,-11.7864 -7.26042,-25.55291 -7.97123,-44.80644c1.39623,-28.10239 14.28149,-28.10239 24.68253,-27.17036c-2.48421,-4.81248 -6.36465,-9.7809 -6.65841,-17.67234c-1.70812,-29.19037 5.90045,-48.59984 22.04963,-54.96812c-4.65653,7.60857 -4.96842,20.03325 -4.65653,24.06963c4.19233,15.99323 14.90526,28.87848 22.82209,30.74255c9.16438,-5.12436 13.82091,-13.81728 19.72136,-25.93007c2.17232,-4.50422 -2.02001,-24.68978 -0.15594,-36.79894c7.45263,-23.44586 28.41428,-34.47067 38.04286,-44.87534c-5.74451,15.68497 -11.49264,37.11083 -9.78452,42.85533c7.14437,18.01324 12.73293,31.67821 22.20557,47.04767c6.21234,-0.93203 11.02481,-6.98843 17.23352,-8.5406c-16.76932,25.30992 -3.10436,55.27638 -2.79247,57.45233c20.33788,-20.02962 35.24676,-43.94331 56.67262,-53.56826c25.62181,-25.93007 41.30316,-55.58827 65.83699,-89.12691c-2.7961,27.63819 -19.25353,67.23323 -29.50226,85.71067c-9.7809,20.64977 -19.25353,36.33111 -33.85053,58.92473c-17.90807,20.81296 -20.18556,24.60999 -26.83672,48.36411c0.23935,3.38723 4.23222,5.92946 7.01381,8.46807c-7.25679,1.81329 -8.70743,5.56681 -9.07371,11.37297c0,41.61504 5.32382,45.24525 5.20052,56.37524c-15.36221,32.41803 -28.67177,42.46004 -60.2448,65.565c-76.33595,21.41497 -51.90003,3.86956 -76.45563,-3.63021zM242.45,269.99185c3.089,-2.18347 3.8336,-19.71382 1.23123,-26.15118c-3.41142,-8.43867 -9.64814,-22.47456 -13.03123,-22.04882c-8.4,0.67715 -6.47716,12 -26,17.4c-2.36136,1.15845 -17.23312,6.73679 -30.28301,6.53392c-4.23102,-0.06578 -2.26453,29.16099 -0.51699,31.46608c5.4,7.12284 58.90584,-0.34765 68.6,-7.2z\"/></g></g></svg><!--rotationCenter:143.12711719751513:170.26182-->")
 }];
 /* harmony default export */ __webpack_exports__["default"] = (selectableShapes);
 
@@ -202323,10 +202526,14 @@ class ReshapeTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.
       for (const seg of segments) {
         let parent = seg.path;
         let p = seg.point;
+        let o = parent.getOffsetOf(p);
+        let o1 = o + 0.01;
+        let o2 = o + (parent.length - 0.01);
+        let n = parent.getNormalAt(o1 % parent.length).add(parent.getNormalAt(o2 % parent.length)).divide(2);
         if (event.key == 'o') {
-          seg.point = p.add(parent.getNormalAt(parent.getOffsetOf(p)));
+          seg.point = p.add(n);
         } else {
-          seg.point = p.subtract(parent.getNormalAt(parent.getOffsetOf(p)));
+          seg.point = p.subtract(n);
         }
       }
     }
@@ -204202,13 +204409,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const arrowSettings = {
-  lineWidth: 24,
-  lineLength: 60,
-  headWidth: 60,
-  headLength: 60
-};
-const guideText = "Hold Shift to resize arrow tip";
 const constructArrowPath = (left, lineWidth, lineLength, headWidth, headLength) => {
   if (typeof lineWidth !== "number") {
     lineWidth = 24;
@@ -204232,18 +204432,6 @@ const constructArrowPath = (left, lineWidth, lineLength, headWidth, headLength) 
  * Tool for drawing arrows.
  */
 class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
-  static update(settings) {
-    if (typeof settings.lineWidth === "number") arrowSettings.lineWidth = settings.lineWidth;
-    if (typeof settings.lineLength === "number") arrowSettings.lineLength = settings.lineLength;
-    if (typeof settings.headWidth === "number") arrowSettings.headWidth = settings.headWidth;
-    if (typeof settings.headLength === "number") arrowSettings.headLength = settings.headLength;
-  }
-  static set arrowSettings(_) {
-    throw new Error('arrowSettings cannot be set; use ArrowTool.update(<Object:ArrowToolSettings>);');
-  }
-  static get arrowSettings() {
-    return arrowSettings;
-  }
   static get TOLERANCE() {
     return 2;
   }
@@ -204290,7 +204478,6 @@ class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
       x: 0,
       y: 0
     };
-    this.guideText = null;
   }
   getHitOptions() {
     return {
@@ -204335,10 +204522,6 @@ class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
       x: 0,
       y: 0
     };
-    if (this.guideText) {
-      this.guideText.remove();
-    }
-    this.guideText = null;
     if (this.boundingBoxTool.onMouseDown(event, false /* clone */, false /* multiselect */, false /* doubleClicked */, this.getHitOptions())) {
       this.isBoundingBoxMode = true;
     } else {
@@ -204431,9 +204614,6 @@ class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
       }
     }
     this.tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path(constructArrowPath(event.modifiers.control, pathOptions.width, pathOptions.length, pathOptions.head.width, pathOptions.head.length));
-    // console.log(pathOptions.angle, this.tri)
-    // console.log(pathOptions.angle)
-    // this.tri.scale(tri.size.width / 100, tri.size.height / 100, event.downPoint);
 
     // create new position
     if (!this.arrowPathLocked && this.arrowPathLockedState) {
@@ -204445,27 +204625,6 @@ class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
     }
     if (this.canModifyState) {
       this.tri.rotate(pathOptions.angle, event.downPoint);
-    }
-
-    // add guide text
-    // remove first
-    if (this.guideText) {
-      this.guideText.remove();
-    }
-    this.guideText = null;
-    if (event.modifiers.alt && !event.modifiers.shift) {
-      // create
-      this.guideText = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.PointText({
-        point: event.point,
-        content: guideText,
-        font: 'Sans Serif',
-        fontSize: 32,
-        fillColor: '#000000',
-        // Default leading for both the HTML text area and paper.PointText
-        // is 120%, but for some reason they are slightly off from each other.
-        // This value was obtained experimentally.
-        leading: 46.15
-      });
     }
     this.arrowPathLockedState = {
       x: this.tri.position.x,
@@ -204483,10 +204642,6 @@ class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
       this.isBoundingBoxMode = null;
       return;
     }
-    if (this.guideText) {
-      this.guideText.remove();
-    }
-    this.guideText = null;
     this.arrowPathLockedPositionSet = false;
     this.arrowPathLockedPosition = {
       x: 0,
@@ -205310,6 +205465,7 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.colorState = null;
     this.isBoundingBoxMode = null;
     this.active = false;
+    this.roundedCornerSize = 0;
   }
   getHitOptions() {
     return {
@@ -205332,6 +205488,20 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
   setColorState(colorState) {
     this.colorState = colorState;
+  }
+  setRoundedCornerSize(newCornerSize) {
+    this.roundedCornerSize = newCornerSize;
+
+    // if editing a rect, update the curves
+    const oldRect = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldRect) {
+      const rounded = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(oldRect.bounds, newCornerSize);
+      oldRect.segments = rounded.segments;
+      oldRect.closed = true;
+      rounded.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
   }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
@@ -205358,7 +205528,7 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     if (event.modifiers.shift) {
       rect.size = squareDimensions.size.abs();
     }
-    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect);
+    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect, this.roundedCornerSize === 0 ? null : this.roundedCornerSize);
     if (event.modifiers.alt) {
       this.rect.position = event.downPoint;
     } else if (event.modifiers.shift) {
@@ -205427,21 +205597,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// since we arent a blob tool we have to improvise
-// this gets set by the reducer when the corner value is changed
-const toolCornerSize = {
-  value: 8
-};
-
 /**
  * Tool for drawing rounded rectangles.
  */
 class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
   static get TOLERANCE() {
     return 2;
-  }
-  static set cornerSize(value) {
-    toolCornerSize.value = value;
   }
   /**
    * @param {function} setSelectedItems Callback to set the set of selected items in the Redux state
@@ -205469,7 +205630,7 @@ class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___defa
     this.colorState = null;
     this.isBoundingBoxMode = null;
     this.active = false;
-    this.roundedCornerSize = toolCornerSize.value;
+    this.roundedCornerSize = 0;
   }
   getHitOptions() {
     return {
@@ -205483,11 +205644,6 @@ class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___defa
       tolerance: RoundedRectTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom
     };
   }
-  setRoundedCornerSize() {
-    // For performance, make sure this is an integer
-    this.roundedCornerSize = toolCornerSize.value;
-    this.roundedCornerSize = Math.max(1, ~~this.roundedCornerSize);
-  }
   /**
    * Should be called if the selection changes to update the bounds of the bounding box.
    * @param {Array<paper.Item>} selectedItems Array of selected items.
@@ -205497,6 +205653,20 @@ class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___defa
   }
   setColorState(colorState) {
     this.colorState = colorState;
+  }
+  setRoundedCornerSize(newCornerSize) {
+    this.roundedCornerSize = newCornerSize;
+
+    // if editing a rect, update the curves
+    const oldRect = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldRect) {
+      const rounded = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(oldRect.bounds, newCornerSize);
+      oldRect.segments = rounded.segments;
+      oldRect.closed = true;
+      rounded.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
   }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
@@ -205523,10 +205693,7 @@ class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___defa
     if (event.modifiers.shift) {
       rect.size = squareDimensions.size.abs();
     }
-
-    // update corner size
-    this.setRoundedCornerSize();
-    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect, this.roundedCornerSize);
+    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect, this.roundedCornerSize === 0 ? null : this.roundedCornerSize);
     if (event.modifiers.alt) {
       this.rect.position = event.downPoint;
     } else if (event.modifiers.shift) {
@@ -205596,20 +205763,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const currentlySelectedShape = {
-  value: "smile"
-};
 
 /**
  * Tool for drawing sussys.
  */
 class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
-  static set currentlySelectedShape(value) {
-    currentlySelectedShape.value = value;
-  }
-  static get currentlySelectedShape() {
-    return currentlySelectedShape.value;
-  }
   static get TOLERANCE() {
     return 2;
   }
@@ -205639,6 +205797,7 @@ class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
     this.colorState = null;
     this.isBoundingBoxMode = null;
     this.active = false;
+    this.shape = "smile";
   }
   getHitOptions() {
     return {
@@ -205661,6 +205820,10 @@ class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
   }
   setColorState(colorState) {
     this.colorState = colorState;
+  }
+  setShape(shape) {
+    // NOTE: Purposefully not doing live updates here since users probably dont want that for this tool.
+    this.shape = shape;
   }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
@@ -205687,10 +205850,10 @@ class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
     if (event.modifiers.shift) {
       sussy.size = squareDimensions.size.abs();
     }
-    const shapeObject = _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__["default"].filter(shape => shape.id === currentlySelectedShape.value)[0];
+    const shapeObject = _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__["default"].filter(shape => shape.id === this.shape)[0];
     const path = shapeObject.path;
     this.sussy = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.CompoundPath(path);
-    this.sussy.scale(sussy.size.divide(shapeObject.size));
+    this.sussy.bounds = sussy;
     if (event.modifiers.alt) {
       this.sussy.position = event.downPoint;
     } else if (event.modifiers.shift) {
@@ -205767,21 +205930,12 @@ const getTextColor = text => {
   const firstStop = text.fillColor.gradient.stops[0];
   return firstStop.color;
 };
-const textAlignment = {
-  value: "left"
-};
 
 /**
  * Tool for adding text. Text elements have limited editability; they can't be reshaped,
  * drawn on or erased. This way they can preserve their ability to have the text edited.
  */
 class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
-  static set textAlignment(value) {
-    textAlignment.value = value;
-  }
-  static get textAlignment() {
-    return textAlignment.value;
-  }
   static get TOLERANCE() {
     return 2;
   }
@@ -205810,9 +205964,10 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
    * @param {!function} onUpdateImage A callback to call when the image visibly changes
    * @param {!function} setTextEditTarget Call to set text editing target whenever text editing is active
    * @param {!function} changeFont Call to change the font in the dropdown
+   * @param {!function} changeAlignment Call to change the current text alignment
    * @param {?boolean} isBitmap True if text should be rasterized once it's deselected
    */
-  constructor(textAreaElement, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage, setTextEditTarget, changeFont, isBitmap) {
+  constructor(textAreaElement, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage, setTextEditTarget, changeFont, changeAlignment, isBitmap) {
     super();
     this.element = textAreaElement;
     this.setSelectedItems = setSelectedItems;
@@ -205820,6 +205975,7 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.onUpdateImage = onUpdateImage;
     this.setTextEditTarget = setTextEditTarget;
     this.changeFont = changeFont;
+    this.changeAlignment = changeAlignment;
     const paintMode = isBitmap ? _lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].BIT_TEXT : _lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].TEXT;
     this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_3__["default"](paintMode, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
     this.nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_4__["default"](paintMode, this.boundingBoxTool, onUpdateImage);
@@ -205895,6 +206051,13 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.fontFamily = font;
     this.setSelectedItems();
   }
+  setAlignment(alignment) {
+    this.alignment = alignment;
+    if (this.textBox) {
+      this.textBox.justification = alignment;
+    }
+    this.setSelectedItems();
+  }
   // Allow other tools to cancel text edit mode
   onTextEditCancelled() {
     if (this.mode !== TextTool.TEXT_EDIT_MODE) {
@@ -205920,10 +206083,10 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     // In RTL, the element is moved relative to its parent's right edge instead of its left
     // edge. We need to correct for this in order for the element to overlap the object in paper.
     let tx = 0;
-    if (TextTool.textAlignment === "right" && this.element.parentElement) {
+    if (this.alignment === "right" && this.element.parentElement) {
       tx = -this.element.parentElement.clientWidth;
     }
-    if (TextTool.textAlignment === "center" && this.element.parentElement) {
+    if (this.alignment === "center" && this.element.parentElement) {
       tx = -this.element.parentElement.clientWidth / 2;
     }
     // The transform origin in paper is x at justification side, y at the baseline of the text.
@@ -205939,10 +206102,6 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
   setColorState(colorState) {
     this.colorState = colorState;
-  }
-  /** @deprecated Use textAlignment instead. This is a no-op function for compatibility. */
-  setRtl() {
-    return;
   }
   handleMouseMove(event) {
     const hitResults = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.hitTestAll(event.point, this.getTextEditHitOptions());
@@ -206070,10 +206229,10 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.height = "".concat(this.textBox.internalBounds.height, "px");
     // The transform origin needs to be updated in RTL because this.textBox.internalBounds.x
     // changes as you type
-    if (TextTool.textAlignment === "right") {
+    if (this.alignment === "right") {
       this.element.style.transformOrigin = "".concat(-this.textBox.internalBounds.x, "px ").concat(-this.textBox.internalBounds.y, "px");
     }
-    if (TextTool.textAlignment === "center") {
+    if (this.alignment === "center") {
       this.element.style.transformOrigin = "".concat(-this.textBox.internalBounds.x / 2, "px ").concat(-this.textBox.internalBounds.y, "px");
     }
   }
@@ -206098,8 +206257,8 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     if (this.font !== this.textBox.font) {
       this.changeFont(this.textBox.font);
     }
-    if (TextTool.textAlignment !== this.textBox.justification) {
-      this.textBox.justification = 'center';
+    if (this.alignment !== this.textBox.justification) {
+      this.changeAlignment(this.textBox.justification);
     }
     this.element.style.fontSize = "".concat(this.textBox.fontSize, "px");
     this.element.style.lineHeight = this.textBox.leading / this.textBox.fontSize;
@@ -206108,14 +206267,7 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.display = 'initial';
     this.element.value = textBox.content ? textBox.content : '';
     this.calculateMatrix(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.matrix);
-    if (TextTool.textAlignment === "right") {
-      // make both the textbox and the textarea element grow to the left
-      this.textBox.justification = 'right';
-    } else if (TextTool.textAlignment === "center") {
-      this.textBox.justification = 'center';
-    } else {
-      this.textBox.justification = 'left';
-    }
+    this.textBox.justification = this.alignment;
     this.element.focus({
       preventScroll: true
     });
@@ -206205,20 +206357,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const sideCount = {
-  value: 3
-};
 
 /**
  * Tool for drawing triangles.
  */
 class TriangleTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
-  static set sideCount(value) {
-    sideCount.value = value;
-  }
-  static get sideCount() {
-    return sideCount.value;
-  }
   static get TOLERANCE() {
     return 2;
   }
@@ -206248,6 +206391,8 @@ class TriangleTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default
     this.colorState = null;
     this.isBoundingBoxMode = null;
     this.active = false;
+    this.sideCount = 3;
+    this.pointCount = 1;
   }
   getHitOptions() {
     return {
@@ -206271,6 +206416,42 @@ class TriangleTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default
   setColorState(colorState) {
     this.colorState = colorState;
   }
+  setSideCount(sideCount) {
+    this.sideCount = sideCount;
+    this.updateExistingShape();
+  }
+  setPointCount(pointCount) {
+    this.pointCount = pointCount;
+    this.updateExistingShape();
+  }
+  calculateSegments() {
+    let segs = [];
+    for (let i = 0; i < this.sideCount; i++) {
+      let angle = i / this.sideCount * Math.PI * 2;
+      let angleIn = angle + 1 / this.sideCount * Math.PI;
+      segs.push(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(Math.sin(angle) * 50, -Math.cos(angle) * 50));
+      if (this.pointCount !== 1) {
+        segs.push(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(Math.sin(angleIn) * 50 * this.pointCount, -Math.cos(angleIn) * 50 * this.pointCount));
+      }
+    }
+    return segs;
+  }
+  updateExistingShape() {
+    // if editing a tri, update the curves
+    const oldTri = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldTri) {
+      const path = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path({
+        segments: this.calculateSegments(),
+        closed: true
+      });
+      path.bounds = oldTri.bounds;
+      oldTri.segments = path.segments;
+      oldTri.closed = true;
+      path.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
+  }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
     this.active = true;
@@ -206291,15 +206472,16 @@ class TriangleTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default
     if (this.tri) {
       this.tri.remove();
     }
-
-    // idk how paper works so we use rectangle to make a triangle
-    const tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Rectangle(event.downPoint, event.point);
+    const bounds = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Rectangle(event.downPoint, event.point);
     const squareDimensions = Object(_math__WEBPACK_IMPORTED_MODULE_4__["getSquareDimensions"])(event.downPoint, event.point);
     if (event.modifiers.shift) {
-      tri.size = squareDimensions.size.abs();
+      bounds.size = squareDimensions.size.abs();
     }
-    this.tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.RegularPolygon(event.downPoint, TriangleTool.sideCount, 50);
-    this.tri.scale(tri.size.width / 100, tri.size.height / 100, event.downPoint);
+    this.tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path({
+      segments: this.calculateSegments(),
+      closed: true
+    });
+    this.tri.bounds = bounds;
     if (event.modifiers.alt) {
       this.tri.position = event.downPoint;
     } else if (event.modifiers.shift) {
@@ -207540,7 +207722,12 @@ const Fonts = {
   SCRATCH: 'Scratch',
   CHINESE: '"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑"',
   JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
-  KOREAN: 'Malgun Gothic'
+  KOREAN: 'Malgun Gothic',
+  GOGONO: 'Gogono',
+  JUSTBUBBLE: 'Just Bubble',
+  LILITAONE: 'Lilita One Regular',
+  MINECRAFTER: 'Minecrafter',
+  OBELIXPRO: 'Obelix Pro'
 };
 /* harmony default export */ __webpack_exports__["default"] = (Fonts);
 
@@ -208048,6 +208235,44 @@ __webpack_require__.r(__webpack_exports__);
 
 minilog__WEBPACK_IMPORTED_MODULE_0___default.a.enable();
 /* harmony default export */ __webpack_exports__["default"] = (minilog__WEBPACK_IMPORTED_MODULE_0___default()('scratch-paint'));
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/addon-util.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/addon-util.js ***!
+  \***************************************************************/
+/*! exports provided: default, toggleRoundedRectMode */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toggleRoundedRectMode", function() { return toggleRoundedRectMode; });
+const TOGGLE_ROUNDED_RECT_MODE = 'scratch-paint/addon-util/TOGGLE_ROUNDED_RECT_MODE';
+const initialState = {
+  showRoundedRectMode: false
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case TOGGLE_ROUNDED_RECT_MODE:
+      return {
+        showRoundedRectMode: action.enabled === true
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const toggleRoundedRectMode = function toggleRoundedRectMode(enabled) {
+  return {
+    type: TOGGLE_ROUNDED_RECT_MODE,
+    enabled: enabled
+  };
+};
+
 
 /***/ }),
 
@@ -209027,10 +209252,10 @@ const changeMode = function changeMode(mode) {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/scratch-paint/src/reducers/rect-mode.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/rect-mode.js ***!
+  \**************************************************************/
 /*! exports provided: default, changeRoundedCornerSize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -209039,12 +209264,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeRoundedCornerSize", function() { return changeRoundedCornerSize; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
-/* harmony import */ var _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helper/tools/rounded-rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js");
 
-
-const CHANGE_ROUNDED_CORNER_SIZE = 'scratch-paint/rounded-rect-mode/CHANGE_ROUNDED_CORNER_SIZE';
+const CHANGE_ROUNDED_CORNER_SIZE = 'scratch-paint/rect-mode/CHANGE_ROUNDED_CORNER_SIZE';
 const initialState = {
-  roundedCornerSize: 8
+  roundedCornerSize: 0
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
@@ -209054,10 +209277,8 @@ const reducer = function reducer(state, action) {
         _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid rounded corner size: ".concat(action.roundedCornerSize));
         return state;
       }
-      const value = Math.max(1, action.roundedCornerSize);
-      _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_1__["default"].cornerSize = value;
       return {
-        roundedCornerSize: value
+        roundedCornerSize: Math.floor(Math.max(0, action.roundedCornerSize))
       };
     default:
       return state;
@@ -209066,6 +209287,50 @@ const reducer = function reducer(state, action) {
 
 // Action creators ==================================
 const changeRoundedCornerSize = function changeRoundedCornerSize(roundedCornerSize) {
+  return {
+    type: CHANGE_ROUNDED_CORNER_SIZE,
+    roundedCornerSize: roundedCornerSize
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js ***!
+  \**********************************************************************/
+/*! exports provided: default, changeRoundedRectCornerSize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeRoundedRectCornerSize", function() { return changeRoundedRectCornerSize; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_ROUNDED_CORNER_SIZE = 'scratch-paint/rounded-rect-mode/CHANGE_ROUNDED_CORNER_SIZE';
+const initialState = {
+  roundedCornerSize: 0
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_ROUNDED_CORNER_SIZE:
+      if (isNaN(action.roundedCornerSize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid rounded corner size: ".concat(action.roundedCornerSize));
+        return state;
+      }
+      return {
+        roundedCornerSize: Math.floor(Math.max(0, action.roundedCornerSize))
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const changeRoundedRectCornerSize = function changeRoundedRectCornerSize(roundedCornerSize) {
   return {
     type: CHANGE_ROUNDED_CORNER_SIZE,
     roundedCornerSize: roundedCornerSize
@@ -209086,30 +209351,36 @@ const changeRoundedCornerSize = function changeRoundedCornerSize(roundedCornerSi
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/scratch-paint/node_modules/redux/es/index.js");
 /* harmony import */ var _modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
-/* harmony import */ var _bit_brush_size__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
-/* harmony import */ var _bit_eraser_size__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
-/* harmony import */ var _brush_mode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
-/* harmony import */ var _eraser_mode__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
-/* harmony import */ var _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
-/* harmony import */ var _triangle_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
-/* harmony import */ var _sussy_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
-/* harmony import */ var _color__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./color */ "./node_modules/scratch-paint/src/reducers/color.js");
-/* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./clipboard */ "./node_modules/scratch-paint/src/reducers/clipboard.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _custom_fonts__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./custom-fonts */ "./node_modules/scratch-paint/src/reducers/custom-fonts.js");
-/* harmony import */ var _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
-/* harmony import */ var _fill_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./fill-mode */ "./node_modules/scratch-paint/src/reducers/fill-mode.js");
-/* harmony import */ var _font__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./font */ "./node_modules/scratch-paint/src/reducers/font.js");
-/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
-/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
-/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
-/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
-/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
-/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
-/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
-/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+/* harmony import */ var _addon_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addon-util */ "./node_modules/scratch-paint/src/reducers/addon-util.js");
+/* harmony import */ var _bit_brush_size__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
+/* harmony import */ var _bit_eraser_size__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
+/* harmony import */ var _brush_mode__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
+/* harmony import */ var _eraser_mode__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
+/* harmony import */ var _rect_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _triangle_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _sussy_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _color__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./color */ "./node_modules/scratch-paint/src/reducers/color.js");
+/* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./clipboard */ "./node_modules/scratch-paint/src/reducers/clipboard.js");
+/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _custom_fonts__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./custom-fonts */ "./node_modules/scratch-paint/src/reducers/custom-fonts.js");
+/* harmony import */ var _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
+/* harmony import */ var _fill_mode__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./fill-mode */ "./node_modules/scratch-paint/src/reducers/fill-mode.js");
+/* harmony import */ var _font__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./font */ "./node_modules/scratch-paint/src/reducers/font.js");
+/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
+/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
+/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
+/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
+/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
+/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
+/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+
+
+
 
 
 
@@ -209138,30 +209409,33 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
   mode: _modes__WEBPACK_IMPORTED_MODULE_1__["default"],
-  bitBrushSize: _bit_brush_size__WEBPACK_IMPORTED_MODULE_2__["default"],
-  bitEraserSize: _bit_eraser_size__WEBPACK_IMPORTED_MODULE_3__["default"],
-  brushMode: _brush_mode__WEBPACK_IMPORTED_MODULE_4__["default"],
-  color: _color__WEBPACK_IMPORTED_MODULE_9__["default"],
-  clipboard: _clipboard__WEBPACK_IMPORTED_MODULE_10__["default"],
-  cursor: _cursor__WEBPACK_IMPORTED_MODULE_11__["default"],
-  customFonts: _custom_fonts__WEBPACK_IMPORTED_MODULE_12__["default"],
-  eraserMode: _eraser_mode__WEBPACK_IMPORTED_MODULE_5__["default"],
-  roundedRectMode: _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_6__["default"],
-  triangleMode: _triangle_mode__WEBPACK_IMPORTED_MODULE_7__["default"],
-  sussyMode: _sussy_mode__WEBPACK_IMPORTED_MODULE_8__["default"],
-  fillBitmapShapes: _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_13__["default"],
-  fillMode: _fill_mode__WEBPACK_IMPORTED_MODULE_14__["default"],
-  font: _font__WEBPACK_IMPORTED_MODULE_15__["default"],
-  format: _format__WEBPACK_IMPORTED_MODULE_16__["default"],
-  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_17__["default"],
-  layout: _layout__WEBPACK_IMPORTED_MODULE_18__["default"],
-  modals: _modals__WEBPACK_IMPORTED_MODULE_19__["default"],
-  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_20__["default"],
-  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_21__["default"],
-  theme: _theme__WEBPACK_IMPORTED_MODULE_22__["default"],
-  undo: _undo__WEBPACK_IMPORTED_MODULE_24__["default"],
-  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_23__["default"],
-  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_25__["default"]
+  addonUtil: _addon_util__WEBPACK_IMPORTED_MODULE_2__["default"],
+  bitBrushSize: _bit_brush_size__WEBPACK_IMPORTED_MODULE_3__["default"],
+  bitEraserSize: _bit_eraser_size__WEBPACK_IMPORTED_MODULE_4__["default"],
+  brushMode: _brush_mode__WEBPACK_IMPORTED_MODULE_5__["default"],
+  color: _color__WEBPACK_IMPORTED_MODULE_11__["default"],
+  clipboard: _clipboard__WEBPACK_IMPORTED_MODULE_12__["default"],
+  cursor: _cursor__WEBPACK_IMPORTED_MODULE_13__["default"],
+  customFonts: _custom_fonts__WEBPACK_IMPORTED_MODULE_14__["default"],
+  eraserMode: _eraser_mode__WEBPACK_IMPORTED_MODULE_6__["default"],
+  rectMode: _rect_mode__WEBPACK_IMPORTED_MODULE_7__["default"],
+  roundedRectMode: _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_8__["default"],
+  triangleMode: _triangle_mode__WEBPACK_IMPORTED_MODULE_9__["default"],
+  sussyMode: _sussy_mode__WEBPACK_IMPORTED_MODULE_10__["default"],
+  fillBitmapShapes: _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["default"],
+  fillMode: _fill_mode__WEBPACK_IMPORTED_MODULE_16__["default"],
+  font: _font__WEBPACK_IMPORTED_MODULE_17__["default"],
+  format: _format__WEBPACK_IMPORTED_MODULE_18__["default"],
+  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_19__["default"],
+  layout: _layout__WEBPACK_IMPORTED_MODULE_20__["default"],
+  modals: _modals__WEBPACK_IMPORTED_MODULE_21__["default"],
+  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_22__["default"],
+  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_23__["default"],
+  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_24__["default"],
+  theme: _theme__WEBPACK_IMPORTED_MODULE_25__["default"],
+  undo: _undo__WEBPACK_IMPORTED_MODULE_27__["default"],
+  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_26__["default"],
+  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_28__["default"]
 }));
 
 /***/ }),
@@ -209395,25 +209669,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeCurrentlySelectedShape", function() { return changeCurrentlySelectedShape; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
-/* harmony import */ var _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helper/tools/sussy-tool */ "./node_modules/scratch-paint/src/helper/tools/sussy-tool.js");
-
 
 const CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE = 'scratch-paint/sussy-mode/CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE';
 const initialState = {
-  currentlySelectedShape: "smile"
+  shape: "smile"
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
   switch (action.type) {
     case CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE:
-      if (typeof action.currentlySelectedShape !== "string") {
-        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid shape: ".concat(action.currentlySelectedShape));
+      if (typeof action.shape !== "string") {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid shape: ".concat(action.shape));
         return state;
       }
-      const value = String(action.currentlySelectedShape);
-      _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_1__["default"].currentlySelectedShape = value;
       return {
-        currentlySelectedShape: value
+        shape: String(action.shape)
       };
     default:
       return state;
@@ -209424,7 +209694,51 @@ const reducer = function reducer(state, action) {
 const changeCurrentlySelectedShape = function changeCurrentlySelectedShape(shape) {
   return {
     type: CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE,
-    currentlySelectedShape: shape
+    shape: shape
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/text-alignment.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/text-alignment.js ***!
+  \*******************************************************************/
+/*! exports provided: default, setTextAlignment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setTextAlignment", function() { return setTextAlignment; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const SET_TEXT_ALIGNMENT = 'scratch-paint/text-alignment/SET_TEXT_ALIGNMENT';
+const initialState = {
+  alignment: "left"
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case SET_TEXT_ALIGNMENT:
+      if (!["left", "center", "right"].includes(action.alignment)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid text alignment: ".concat(action.alignment));
+        return state;
+      }
+      return {
+        alignment: action.alignment
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const setTextAlignment = function setTextAlignment(alignment) {
+  return {
+    type: SET_TEXT_ALIGNMENT,
+    alignment: alignment
   };
 };
 
@@ -209516,20 +209830,21 @@ const setTheme = function setTheme(theme) {
 /*!******************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/triangle-mode.js ***!
   \******************************************************************/
-/*! exports provided: default, changeTrianglePolyCount */
+/*! exports provided: default, changeTrianglePolyCount, changeTrianglePointCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeTrianglePolyCount", function() { return changeTrianglePolyCount; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeTrianglePointCount", function() { return changeTrianglePointCount; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
-/* harmony import */ var _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helper/tools/triangle-tool */ "./node_modules/scratch-paint/src/helper/tools/triangle-tool.js");
-
 
 const CHANGE_TRIANGLE_SIDE_COUNT = 'scratch-paint/triangle-mode/CHANGE_TRIANGLE_SIDE_COUNT';
+const CHANGE_TRIANGLE_POINT_COUNT = 'scratch-paint/triangle-mode/CHANGE_TRIANGLE_POINT_COUNT';
 const initialState = {
-  trianglePolyCount: 3
+  trianglePolyCount: 3,
+  trianglePointCount: 1
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
@@ -209539,10 +209854,18 @@ const reducer = function reducer(state, action) {
         _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid side count: ".concat(action.trianglePolyCount));
         return state;
       }
-      const value = Math.max(3, action.trianglePolyCount);
-      _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_1__["default"].sideCount = value;
       return {
-        trianglePolyCount: value
+        trianglePolyCount: Math.floor(Math.max(3, action.trianglePolyCount)),
+        trianglePointCount: state.trianglePointCount
+      };
+    case CHANGE_TRIANGLE_POINT_COUNT:
+      if (isNaN(action.trianglePointCount)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid spike ratio: ".concat(action.trianglePointCount));
+        return state;
+      }
+      return {
+        trianglePointCount: Math.max(0.01, action.trianglePointCount),
+        trianglePolyCount: state.trianglePolyCount
       };
     default:
       return state;
@@ -209554,6 +209877,12 @@ const changeTrianglePolyCount = function changeTrianglePolyCount(trianglePolyCou
   return {
     type: CHANGE_TRIANGLE_SIDE_COUNT,
     trianglePolyCount: trianglePolyCount
+  };
+};
+const changeTrianglePointCount = function changeTrianglePointCount(trianglePointCount) {
+  return {
+    type: CHANGE_TRIANGLE_POINT_COUNT,
+    trianglePointCount: trianglePointCount
   };
 };
 
