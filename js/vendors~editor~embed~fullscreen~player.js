@@ -62382,7 +62382,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_dropItemShapeTool_2WAuh {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_dropItemShapeTool_2WAuh:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3iBKV {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3G70N {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3G70N:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_3Yp7m {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_3Yp7m {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}", ""]);
 
 // exports
 exports.locals = {
@@ -62398,7 +62398,12 @@ exports.locals = {
 	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_1PCmc",
 	"flex-centerer": "mode-tools_flex-centerer_28XZK",
 	"flexCenterer": "mode-tools_flex-centerer_28XZK",
-	"dropItemShapeTool": "mode-tools_dropItemShapeTool_2WAuh"
+	"drop-item-shape-tool-menu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
+	"dropItemShapeToolMenu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
+	"drop-item-shape-tool": "mode-tools_drop-item-shape-tool_3G70N",
+	"dropItemShapeTool": "mode-tools_drop-item-shape-tool_3G70N",
+	"drop-item-shape-tool-label": "mode-tools_drop-item-shape-tool-label_3Yp7m",
+	"dropItemShapeToolLabel": "mode-tools_drop-item-shape-tool-label_3Yp7m"
 };
 
 /***/ }),
@@ -187574,6 +187579,13 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
     onClick: props.onChoose,
+    onMouseOver: props.onHoverBranches
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BRANCHES,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
     onMouseOver: props.onHoverArchivo
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCHIVO,
@@ -187641,6 +187653,13 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].OBELIXPRO,
     getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverJetBrainsMono
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JETBRAINSMONO,
+    getFontName: props.getFontName
   })), props.customFonts.map(font => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_custom_font_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: font.name,
     font: font.family,
@@ -187700,9 +187719,16 @@ ModeToolsComponent.propTypes = {
   onHoverBitsAndBytes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverTechnological: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArcade: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverBranches: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverScratch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArchivo: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArchivoBlack: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverJetBrainsMono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverJustBubble: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverLilitaOne: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverGogono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverMinecrafter: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverObelixPro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSansSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
@@ -188840,94 +188866,95 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/layout-constants */ "./node_modules/scratch-paint/src/lib/layout-constants.js");
 /* harmony import */ var _reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../reducers/brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
 /* harmony import */ var _reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../reducers/eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
-/* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
-/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
-/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
-/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
-/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
-/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
-/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
-/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
-/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
-/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
-/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
-/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./icons/copy.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./icons/cut.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_icons_cut_svg__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./icons/paste.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_icons_paste_svg__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./icons/delete.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_icons_delete_svg__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./icons/round-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./icons/square-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icons/miter-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/round-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/bevel-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/merge.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_merge_svg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/mask.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_mask_svg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/subtract.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/filter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_filter_svg__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44__);
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__);
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./icons/curved-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48__);
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__);
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51__);
-/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
-/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52__);
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./icons/flip-horizontal.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53__);
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./icons/flip-vertical.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54__);
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./icons/centerSelection.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55__);
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/straight-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56__);
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57__);
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58__);
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59__);
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60__);
-/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
-/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+/* harmony import */ var _reducers_pen_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../reducers/pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
+/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
+/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
+/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./icons/copy.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
+/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./icons/cut.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
+/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./icons/paste.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
+/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icons/delete.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
+/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/round-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
+/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/square-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
+/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/miter-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
+/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/round-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
+/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/bevel-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
+/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/merge.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
+/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/mask.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
+/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/subtract.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
+/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/filter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
+/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./icons/curved-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
+/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__);
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/flip-horizontal.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
+/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__);
+/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./icons/flip-vertical.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
+/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__);
+/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./icons/centerSelection.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
+/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__);
+/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./icons/straight-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
+/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__);
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__);
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61__);
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62__);
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__);
 /* eslint-disable no-case-declarations */
 
 
@@ -188992,20 +189019,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_18__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_21__["default"]);
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_19__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_22__["default"]);
 const ModeToolsComponent = props => {
-  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_20__["defineMessages"])({
+  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_21__["defineMessages"])({
     brushSize: {
       "id": "paint.modeTools.brushSize",
       "defaultMessage": "Size"
     },
-    brushSeg: {
-      "id": "paint.modeTools.brushSeg",
-      "defaultMessage": "Accuracy"
+    brushSimplify: {
+      "id": "paint.modeTools.brushSimplify",
+      "defaultMessage": "Smoothing"
     },
     eraserSize: {
       "id": "paint.modeTools.eraserSize",
       "defaultMessage": "Eraser size"
+    },
+    eraserSimplify: {
+      "id": "paint.modeTools.eraserSimplify",
+      "defaultMessage": "Smoothing"
     },
     roundedCornerSize: {
       "id": "paint.modeTools.roundedCornerSize",
@@ -189018,6 +189050,10 @@ const ModeToolsComponent = props => {
     spokeRatio: {
       "id": "paint.modeTools.spikeRatio",
       "defaultMessage": "Star spoke ratio"
+    },
+    penSimplify: {
+      "id": "paint.modeTools.penSimplify",
+      "defaultMessage": "Smoothing"
     },
     copy: {
       "id": "paint.modeTools.copy",
@@ -189069,86 +189105,100 @@ const ModeToolsComponent = props => {
     }
   });
   switch (props.mode) {
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_46___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_44___default.a;
-        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
-        const currentSegValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitBrushSize : props.segValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
-        const changeFunctionSeg = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onSegSliderChange;
-        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default.a;
+        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
+        const currentSimplifyValue = props.simplifyValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
+        const changeFunctionSimplify = props.onSimplifySliderChange;
+        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BRUSH;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(currentMessage),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
-          draggable: false,
-          src: currentIcon
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-          text: props.intl.formatMessage(messages.brushSize)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
-          range: true,
-          small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
-          min: "1",
-          type: "number",
-          value: currentBrushValue,
-          onSubmit: changeFunction
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-          text: props.intl.formatMessage(messages.brushSeg)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
-          range: true,
-          small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"] * 10,
-          min: "1",
-          type: "number",
-          value: currentSegValue,
-          onSubmit: changeFunctionSeg
-        })));
-      }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_ERASER:
-    /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ERASER:
-      {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_45___default.a;
-        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_25__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-          alt: props.intl.formatMessage(messages.eraserSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
+          title: props.intl.formatMessage(currentMessage),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
+          min: "1",
+          type: "number",
+          value: currentBrushValue,
+          onSubmit: changeFunction
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+          text: props.intl.formatMessage(messages.brushSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_ERASER:
+    /* falls through */
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ERASER:
+      {
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48___default.a;
+        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
+        const currentEraserSimplifyValue = props.eraserSimplifyValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
+        const changeFunctionSimplify = props.onEraserSimplifySliderChange;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ERASER;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          alt: props.intl.formatMessage(messages.eraserSize),
+          title: props.intl.formatMessage(messages.eraserSize),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          draggable: false,
+          src: currentIcon
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentEraserValue,
           onSubmit: changeFunction
-        }));
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+          text: props.intl.formatMessage(messages.eraserSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentEraserSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].RECT:
       {
         // NOTE: BIT_RECT doesnt use Path, so this can't be added there the same way as RECT has it.
-        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
-        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
+        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
+        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.roundedCornerSize),
           title: props.intl.formatMessage(messages.roundedCornerSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
           draggable: false,
-          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_50___default.a
+          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189159,20 +189209,20 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunction
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].TRIANGLE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].TRIANGLE:
       {
         const currentSideValue = props.trianglePolyValue;
         const currentPointValue = props.trianglePointValue;
         const changeFunction = props.onPolyCountSliderChange;
         const changeFunctionPoint = props.onPointCountSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.currentSideCount),
           title: props.intl.formatMessage(messages.currentSideCount),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
           draggable: false,
-          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_51___default.a
+          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189184,9 +189234,9 @@ const ModeToolsComponent = props => {
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.spokeRatio),
           title: props.intl.formatMessage(messages.spokeRatio),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
           draggable: false,
-          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_52___default.a
+          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189199,301 +189249,309 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunctionPoint
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SUSSY:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SUSSY:
       {
         const currentlySelectedShape = props.currentlySelectedShape;
         const changeFunction = props.onCurrentlySelectedShapeChange;
-        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__["default"].filter(shape => shape.id === currentlySelectedShape)[0];
-        const generateShapeSVG = shapeObject => {
-          const strokeColor = '#575e75';
-          const icon = shapeObject.icon;
-          // extract viewbox
-          const viewBoxStart = icon.substring(icon.indexOf('viewBox="') + 9);
-          const viewBoxString = viewBoxStart.substring(0, viewBoxStart.indexOf('"'));
-          // extract fill color
-          const fillColorStart = icon.substring(icon.indexOf('fill="') + 6);
-          const fillColorString = fillColorStart.substring(0, fillColorStart.indexOf('"'));
-          // extract stroke width
-          const strokeWidthStart = icon.substring(icon.indexOf('stroke-width="') + 14);
-          const strokeWidthString = strokeWidthStart.substring(0, strokeWidthStart.indexOf('"'));
-          // extract viewbox to array
-          const viewBox = viewBoxString.replace(/ /gmi, ',').split(',').map(value => value.trim()).map(num => Number(num));
-          const newViewBox = [viewBox[0] - 1.5, viewBox[1] - 1.5, viewBox[2] + 1.5 * 2, viewBox[3] + 1.5 * 2].join(',');
-          const newIcon = icon.replace("viewBox=\"".concat(viewBoxString, "\""), "viewBox=\"".concat(newViewBox, "\"")).replace('stroke="none"', "stroke=\"".concat(strokeColor, "\"")).replace("fill=\"".concat(fillColorString, "\""), 'fill="none"').replace("stroke-width=\"".concat(strokeWidthString, "\""), "stroke-width=\"".concat(shapeObject.strokeWidth, "\""));
-          return "".concat(newIcon);
-        };
-        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.flexCenterer, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.dropdownMaxItemList)
-        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_62__["default"].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.dropItemShapeTool),
-          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-          imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(generateShapeSVG(shape))),
+        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["selectableShapes"].filter(shape => shape.id === currentlySelectedShape)[0];
+        const categorizedShapes = Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["categorizeShapes"])(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["selectableShapes"]);
+        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeToolMenu, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropdownMaxItemList)
+        }, Object.keys(categorizedShapes).map(categoryId => categorizedShapes[categoryId].length === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
+          key: categoryId
+        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
+          key: categoryId
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeToolLabel)
+        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["categories"][categoryId]), categorizedShapes[categoryId].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          key: shape.id,
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeTool),
+          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+          imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["generateShapeSVG"])(shape))),
           title: shape.name,
           onClick: () => changeFunction(shape.id)
-        })));
+        })))));
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
           enterExitTransitionDurationMs: 20,
-          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
+          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
             rtl: props.rtl
           }, selectableShapesList),
           tipSize: .01
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-          src: "data:image/svg+xml,".concat(encodeURIComponent(generateShapeSVG(selectedShapeObject))),
+          src: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["generateShapeSVG"])(selectedShapeObject))),
           alt: selectedShapeObject.name,
           title: selectedShapeObject.name,
           height: 16
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].RESHAPE:
-      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].PEN:
+      {
+        const currentPenSimplifyValue = props.penSimplifyValue;
+        const changeFunctionSimplify = props.onPenSimplifySliderChange;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+          text: props.intl.formatMessage(messages.eraserSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentPenSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].RESHAPE:
+      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedMiterLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
         title: 'Spiked',
         onClick: props.onMiterLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedRoundLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
         title: 'Rounded',
         onClick: props.onRoundLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedBevelLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
         title: 'Beveled',
         onClick: props.onBevelLineJoin
       }));
-      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_48___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51___default.a,
         title: props.intl.formatMessage(messages.curved),
         onClick: props.onCurvePoints
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !props.hasSelectedUnpointedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_56___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59___default.a,
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedRoundEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
         title: 'Rounded',
         onClick: props.onRoundEnds
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedSquareEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
         title: 'Squared',
         onClick: props.onSquareEnds
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
       }, lineJoinReshape, deleteSelectedNodes), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
           rtl: props.rtl
         }, lineJoinReshape, deleteSelectedNodes),
         tipSize: .01
       }, "More"))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_SELECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_SELECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT:
-      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_merge_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT:
+      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
         title: 'Merge',
         onClick: props.onMergeShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_mask_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
         title: 'Mask',
         onClick: props.onMaskShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42___default.a,
         title: 'Subtract',
         onClick: props.onSubtractShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_filter_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43___default.a,
         title: 'Filter',
         onClick: props.onExcludeShape
       }));
-      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_53___default.a,
+        imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56___default.a,
         title: props.intl.formatMessage(messages.flipHorizontal),
         onClick: props.onFlipHorizontal
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_54___default.a,
+        imgSrc: _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57___default.a,
         title: props.intl.formatMessage(messages.flipVertical),
         onClick: props.onFlipVertical
       }));
-      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_55___default.a,
+        imgSrc: _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58___default.a,
         title: props.intl.formatMessage(messages.movementCenter),
         onClick: props.onCenterSelection
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
         title: props.intl.formatMessage(messages.copy),
         onClick: props.onCopyToClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !(props.clipboardItems.length > 0),
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_paste_svg__WEBPACK_IMPORTED_MODULE_30___default.a,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
         title: props.intl.formatMessage(messages.paste),
         onClick: props.onPasteFromClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_cut_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
         title: props.intl.formatMessage(messages.cut),
         onClick: props.onCutToClipboard
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_26__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
+        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
-      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools
-      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
           rtl: props.rtl
         }, reshapingMethods),
         tipSize: .01
       }, "More"))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
           rtl: props.rtl
         }, flipOptions, movementOptions, reshapingMethods),
         tipSize: .01
       }, "More"))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_TEXT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].TEXT:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
         onUpdateImage: props.onUpdateImage,
         onManageFonts: props.onManageFonts
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
+        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44___default.a,
         title: 'Left Align',
         onClick: props.onTextAlignLeft
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_43___default.a,
+        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
         title: 'Center Align',
         onClick: props.onTextAlignCenter
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_42___default.a,
+        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45___default.a,
         title: 'Right Align',
         onClick: props.onTextAlignRight
       })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_OVAL:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_OVAL:
       {
-        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_58___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_57___default.a;
-        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_60___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_59___default.a;
+        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60___default.a;
+        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62___default.a;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
           highlighted: props.fillBitmapShapes,
           imgSrc: fillIcon,
           title: props.intl.formatMessage(messages.filled),
           onClick: props.onFillShapes
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
           highlighted: !props.fillBitmapShapes,
           imgSrc: outlineIcon,
           title: props.intl.formatMessage(messages.outlined),
           onClick: props.onOutlineShapes
-        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
           text: props.intl.formatMessage(messages.thickness)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_61__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: props.bitBrushSize,
           onSubmit: props.onBitBrushSliderChange
         }))));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_24__["default"].ARROW:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ARROW:
       {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, "Hold Alt + Shift to resize arrow tip"));
       }
     default:
       // Leave empty for now, if mode not supported
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_27___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
       });
   }
 };
@@ -189501,29 +189559,34 @@ ModeToolsComponent.propTypes = {
   bitBrushSize: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   bitEraserSize: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   brushValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
-  segValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  simplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   className: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   clipboardItems: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.array),
   eraserValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  eraserSimplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  penSimplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   roundedCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   roundedRectCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   trianglePolyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   trianglePointValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   currentlySelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   fillBitmapShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_25__["default"])),
+  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_26__["default"])),
   hasSelectedUncurvedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   hasSelectedUnpointedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_20__["intlShape"].isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_21__["intlShape"].isRequired,
   mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   onBitBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBitEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onCopyToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onCutToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onCurvePoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onDelete: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  onEraserSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  onPenSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onFillShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onFlipHorizontal: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onFlipVertical: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -189545,9 +189608,11 @@ const mapStateToProps = state => ({
   bitBrushSize: state.scratchPaint.bitBrushSize,
   bitEraserSize: state.scratchPaint.bitEraserSize,
   brushValue: state.scratchPaint.brushMode.brushSize,
-  segValue: state.scratchPaint.brushMode.segSize,
+  simplifyValue: state.scratchPaint.brushMode.simplifySize,
   clipboardItems: state.scratchPaint.clipboard.items,
   eraserValue: state.scratchPaint.eraserMode.brushSize,
+  eraserSimplifyValue: state.scratchPaint.eraserMode.simplifySize,
+  penSimplifyValue: state.scratchPaint.penMode.simplifySize,
   roundedRectCornerValue: state.scratchPaint.roundedRectMode.roundedCornerSize,
   roundedCornerValue: state.scratchPaint.rectMode.roundedCornerSize,
   trianglePolyValue: state.scratchPaint.triangleMode.trianglePolyCount,
@@ -189558,50 +189623,56 @@ const mapDispatchToProps = dispatch => ({
   onBrushSliderChange: brushSize => {
     dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeBrushSize"])(brushSize));
   },
-  onSegSliderChange: brushSize => {
-    dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeSegSize"])(brushSize));
+  onSimplifySliderChange: brushSize => {
+    dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeSimplifySize"])(brushSize));
   },
   onRoundedRectCornerSliderChange: roundedCornerSize => {
-    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_9__["changeRoundedRectCornerSize"])(roundedCornerSize));
+    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_10__["changeRoundedRectCornerSize"])(roundedCornerSize));
   },
   onRoundedCornerSliderChange: roundedCornerSize => {
-    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_10__["changeRoundedCornerSize"])(roundedCornerSize));
+    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_11__["changeRoundedCornerSize"])(roundedCornerSize));
   },
   onPolyCountSliderChange: polyCount => {
-    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__["changeTrianglePolyCount"])(polyCount));
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__["changeTrianglePolyCount"])(polyCount));
   },
   onPointCountSliderChange: polyCount => {
-    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_11__["changeTrianglePointCount"])(polyCount));
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__["changeTrianglePointCount"])(polyCount));
   },
   onCurrentlySelectedShapeChange: shape => {
-    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_12__["changeCurrentlySelectedShape"])(shape));
+    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_13__["changeCurrentlySelectedShape"])(shape));
   },
   onBitBrushSliderChange: bitBrushSize => {
-    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_13__["changeBitBrushSize"])(bitBrushSize));
+    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_14__["changeBitBrushSize"])(bitBrushSize));
   },
   onBitEraserSliderChange: eraserSize => {
-    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_14__["changeBitEraserSize"])(eraserSize));
+    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_15__["changeBitEraserSize"])(eraserSize));
   },
   onEraserSliderChange: eraserSize => {
     dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__["changeBrushSize"])(eraserSize));
   },
+  onEraserSimplifySliderChange: eraserSize => {
+    dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__["changeSimplifySize"])(eraserSize));
+  },
+  onPenSimplifySliderChange: eraserSize => {
+    dispatch(Object(_reducers_pen_mode__WEBPACK_IMPORTED_MODULE_9__["changeSimplifySize"])(eraserSize));
+  },
   onFillShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["setShapesFilled"])(true));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__["setShapesFilled"])(true));
   },
   onOutlineShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["setShapesFilled"])(false));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__["setShapesFilled"])(false));
   },
   onTextAlignLeft: () => {
-    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("left"));
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("left"));
   },
   onTextAlignRight: () => {
-    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("right"));
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("right"));
   },
   onTextAlignCenter: () => {
-    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_16__["setTextAlignment"])("center"));
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("center"));
   }
 });
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_20__["injectIntl"])(ModeToolsComponent)));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_21__["injectIntl"])(ModeToolsComponent)));
 
 /***/ }),
 
@@ -192024,7 +192095,8 @@ class BrushMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 }
 BrushMode.propTypes = {
   brushModeState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired
+    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired,
+    simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }),
   clearGradient: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
@@ -192603,7 +192675,8 @@ class EraserMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component 
 EraserMode.propTypes = {
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   eraserModeState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired
+    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired,
+    simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }),
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   isEraserModeActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired,
@@ -193061,7 +193134,7 @@ __webpack_require__.r(__webpack_exports__);
 class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontScratch', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontScratch', 'handleChangeFontBranches', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleChangeFontJetBrainsMono', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
     this.customFonts = {};
     this.acceptedCustomFontAgreement = false;
     this.latestCustomFont = null;
@@ -193076,8 +193149,6 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
           return '한국어';
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE:
           return '日本語';
-        case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SCRATCH:
-          return 'Branches';
         default:
           return font;
       }
@@ -193276,6 +193347,11 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].ARCHIVOBLACK);
     }
   }
+  handleChangeFontBranches() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BRANCHES);
+    }
+  }
   handleChangeFontScratch() {
     if (this.dropDown.isOpen()) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SCRATCH);
@@ -193319,6 +193395,11 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
   handleChangeFontObelixPro() {
     if (this.dropDown.isOpen()) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].OBELIXPRO);
+    }
+  }
+  handleChangeFontJetBrainsMono() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JETBRAINSMONO);
     }
   }
   handleChoose() {
@@ -193416,6 +193497,7 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverLilitaOne: this.handleChangeFontLilitaOne,
       onHoverMinecrafter: this.handleChangeFontMinecrafter,
       onHoverObelixPro: this.handleChangeFontObelixPro,
+      onHoverJetBrainsMono: this.handleChangeFontJetBrainsMono,
       onHoverJustBubble: this.handleChangeFontJustBubble,
       onHoverMarker: this.handleChangeFontMarker,
       onHoverPixel: this.handleChangeFontPixel,
@@ -193426,6 +193508,7 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverArcade: this.handleChangeFontArcade,
       onHoverArchivo: this.handleChangeFontArchivo,
       onHoverArchivoBlack: this.handleChangeFontArchivoBlack,
+      onHoverBranches: this.handleChangeFontBranches,
       onHoverScratch: this.handleChangeFontScratch,
       onHoverSansSerif: this.handleChangeFontSansSerif,
       onHoverSerif: this.handleChangeFontSerif,
@@ -194143,22 +194226,26 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     }
   }
   handleCenterSelection() {
-    let _selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
-    if (_selectedItems.length === 0) {
-      // no good way to do this currently
-      if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format)) return;
-      _selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getAllRootItems"])();
+    // https://github.com/Nitro-Bolt/scratch-paint/blob/develop/src/containers/mode-tools.jsx#L203-L216
+    let selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
+    if (selectedItems.length === 0) {
+      if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format)) {
+        return;
+      }
+      selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getAllRootItems"])();
     }
-    const selectedItems = _selectedItems;
-    // group to make easier
+    for (const item of selectedItems) {
+      item.data.originalIndex = item.index;
+    }
     const group = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Group(selectedItems);
-    // move corner to center
     group.position = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(this.props.width, this.props.height);
-    // move by bounds
-    const bounds = group.bounds;
-    group.position.subtract(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(bounds.width, bounds.height) / 2);
-    // ungroup
-    Object(_helper_group__WEBPACK_IMPORTED_MODULE_10__["ungroupItems"])([group]);
+    for (let i = 0; i < selectedItems.length; i++) {
+      const item = selectedItems[i];
+      group.layer.insertChild(item.data.originalIndex, item);
+      delete item.data.originalIndex;
+    }
+    group.remove();
+    this.props.setSelectedItems(this.props.format);
     this.props.onUpdateImage();
   }
   handlePasteFromClipboard() {
@@ -195383,10 +195470,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
-/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/tools/pen-tool */ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js");
-/* harmony import */ var _components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/pen-mode/pen-mode.jsx */ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx");
+/* harmony import */ var _reducers_pen_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../helper/tools/pen-tool */ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js");
+/* harmony import */ var _components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/pen-mode/pen-mode.jsx */ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx");
+
 
 
 
@@ -195418,6 +195507,9 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     if (this.tool && (nextProps.colorState.strokeColor !== this.props.colorState.strokeColor || nextProps.colorState.strokeWidth !== this.props.colorState.strokeWidth)) {
       this.tool.setColorState(nextProps.colorState);
     }
+    if (this.tool && nextProps.simplifySize !== this.props.simplifySize) {
+      this.tool.setSimplifySize(nextProps.simplifySize);
+    }
     if (nextProps.isPenModeActive && !this.props.isPenModeActive) {
       this.activateTool();
     } else if (!nextProps.isPenModeActive && this.props.isPenModeActive) {
@@ -195428,7 +195520,7 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     return nextProps.isPenModeActive !== this.props.isPenModeActive;
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_11__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_12__["clearSelection"])(this.props.clearSelectedItems);
     // Force the default pen color if stroke is MIXED or transparent
     const {
       strokeColor
@@ -195440,8 +195532,12 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     if (!this.props.colorState.strokeWidth) {
       this.props.onChangeStrokeWidth(1);
     }
-    this.tool = new _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_12__["default"](this.props.clearSelectedItems, this.props.onUpdateSvg);
+    if (typeof this.props.simplifySize !== "number") {
+      this.props.onChangeSimplifySize(2);
+    }
+    this.tool = new _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_13__["default"](this.props.clearSelectedItems, this.props.onUpdateSvg);
     this.tool.setColorState(this.props.colorState);
+    this.tool.setSimplifySize(this.props.simplifySize);
     this.tool.activate();
   }
   deactivateTool() {
@@ -195450,7 +195546,7 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
       isSelected: this.props.isPenModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -195459,19 +195555,22 @@ class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 PenMode.propTypes = {
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   colorState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    fillStyle: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__["default"],
-    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_10__["default"],
+    fillStyle: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__["default"],
     strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }).isRequired,
+  simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   isPenModeActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired,
   onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   onChangeStrokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  onChangeSimplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   onUpdateSvg: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
-  isPenModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].PEN
+  isPenModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].PEN,
+  simplifySize: state.scratchPaint.penMode.simplifySize
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -195486,6 +195585,9 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeWidth: strokeWidth => {
     dispatch(Object(_reducers_stroke_width__WEBPACK_IMPORTED_MODULE_6__["changeStrokeWidth"])(strokeWidth));
+  },
+  onChangeSimplifySize: simplifySize => {
+    dispatch(Object(_reducers_pen_mode__WEBPACK_IMPORTED_MODULE_10__["changeSimplifySize"])(simplifySize));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(PenMode));
@@ -199770,7 +199872,7 @@ class BroadBrushHelper {
     // Add an end cap if the mouse has changed direction very quickly
     if (this.lastVec) {
       const angle = this.lastVec.getDirectedAngle(step);
-      if (Math.abs(angle) > 126) {
+      if (Math.abs(angle) > 126 && options.simplifySize > 0) {
         // This will cause us to skip simplifying this sharp angle. Running simplify on
         // sharp angles causes the stroke to blob outwards.
         this.simplify(1);
@@ -199813,8 +199915,10 @@ class BroadBrushHelper {
     }
     this.finalPath.add(event.point.add(step));
     this.finalPath.insert(0, event.point.subtract(step));
-    if (this.finalPath.segments.length > this.smoothed + this.smoothingThreshold * 2) {
-      this.simplify(10 / options.segSize);
+    if (options.simplifySize > 0) {
+      if (this.finalPath.segments.length > this.smoothed + this.smoothingThreshold * 2) {
+        this.simplify(options.simplifySize);
+      }
     }
     this.lastVec = event.delta;
     this.lastPoint = event.point;
@@ -199910,7 +200014,9 @@ class BroadBrushHelper {
     }
 
     // Simplify before adding end cap so cap doesn't get warped
-    this.simplify(1);
+    if (options.simplifySize > 0) {
+      this.simplify(1);
+    }
     const handleVec = delta.normalize(options.brushSize / 2);
     this.finalPath.add(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Segment(event.point.add(handleVec), handleVec.rotate(90), handleVec.rotate(-90)));
     this.finalPath.closePath();
@@ -200030,7 +200136,7 @@ class SegmentBrushHelper {
     this.finalPath.remove();
     this.finalPath = newPath;
   }
-  onSegmentMouseUp(event, options) {
+  onSegmentMouseUp(event, tool, options) {
     if (event.event.button > 0) return; // only first mouse button
 
     // TODO: This smoothing tends to cut off large portions of the path! Would like to eventually
@@ -200040,7 +200146,9 @@ class SegmentBrushHelper {
     // paths tends to cut off the path.
     if (this.finalPath.segments && this.finalPath.segments.length > 4) {
       this.finalPath.closed = false;
-      this.finalPath.simplify(10 / options.segSize);
+      if (options.simplifySize > 0) {
+        this.finalPath.simplify(options.simplifySize);
+      }
       this.finalPath.closed = true;
       // Merge again with the first point, since it gets distorted when we unclose the path.
       const temp = this.finalPath.unite(this.firstCircle);
@@ -201147,113 +201255,378 @@ const shouldShowBringForward = function shouldShowBringForward() {
 /*!********************************************************************!*\
   !*** ./node_modules/scratch-paint/src/helper/selectable-shapes.js ***!
   \********************************************************************/
-/*! exports provided: default */
+/*! exports provided: selectableShapes, selectablePaths, categories, generateShapeSVG, categorizeShapes */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectableShapes", function() { return selectableShapes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectablePaths", function() { return selectablePaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "categories", function() { return categories; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateShapeSVG", function() { return generateShapeSVG; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "categorizeShapes", function() { return categorizeShapes; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+
+// TODO: would be nice if these could be automatically used for the icons
 const selectablePaths = {
+  blank: '',
   sussy: 'm 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0',
   speechBubble: 'M204.14966,175.04472c-0.31482,-15.49173 8.58161,-20.45314 15.2824,-20.45314c8.15418,0 26.20534,-0.47063 40.10194,0c6.7857,0.22981 16.64329,5.37466 16.31655,20.45314c-0.30922,14.27018 -11.32079,18.61465 -16.43145,18.61465c-4.65217,0 -12.43125,0 -21.25748,0c-2.33362,0 -8.8706,12.31777 -19.5339,11.95015c-7.56289,-0.26073 4.2991,-11.95015 1.26396,-11.95015c-9.00032,0 -15.52291,-7.83267 -15.74202,-18.61465z',
+  thinkingBubble: 'M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z',
+  squareBubble: 'M 189 156 C 189 152 192 149 201 149 L 280 149 C 288 149 291 152 291 156 L 291 190.1874 C 291 195 288 198 282.5854 198.259 L 237.8872 198.259 C 234.5436 198.259 225.1776 213.7976 209.8995 213.3339 C 199.0636 213.005 216.0591 198.259 211.7105 198.259 L 198 198.259 C 192 198 189 195 189 189.9301 Z',
+  shoutBubble: 'M227.11094,208.57049c-5.92772,5.58295 -15.6124,15.76793 -29.02488,15.33964c-11.40942,-0.36435 0.9565,-15.09531 2.93147,-18.17751c3.24637,-5.06637 1.63986,-8.52859 1.63986,-8.52859l-21.47242,5.86044l4.84649,-13.34467l-21.15795,-1.09108l23.26277,-13.82792l-20.14297,-9.34374l22.87578,-5.70891l-10.25508,-14.51162l19.58978,8.2709l-1.70024,-12.65976l16.59077,13.46143l1.10608,-13.38683l15.56167,11.24624l12.10608,-16.09172l5.91725,15.89507l18.12276,-12.77889l-3.24144,15.28333l22.11413,-10.58546l-4.54409,17.01121l23.95449,-11.29693l-8.61338,14.50991l16.14654,3.46186l-20.56767,7.84186l21.96975,8.07507l-23.41162,4.65774l18.31315,10.48796l-30.03068,-1.02513l3.75565,11.52599l-26.77205,-10.86823l-7.93841,9.53141l-12.67597,-9.86071c0,0 -3.17514,4.90084 -9.25562,10.62767z',
   smile: 'M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39292,9.57794 21.39292,21.39292c0,11.81499 -9.57794,21.39293 -21.39292,21.39293c-11.81499,0 -21.39292,-9.57794 -21.39292,-21.39293zM239.89701,196.60775c14.70959,0.07281 16.22782,-13.7612 16.22782,-13.7612h-31.54689c0,0 1.12947,13.69096 15.31907,13.7612zM247.80316,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933zM232.19685,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933z',
   frown: 'M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39293,9.57794 21.39293,21.39292c0,11.81499 -9.57794,21.39292 -21.39293,21.39292c-11.81498,0 -21.39292,-9.57794 -21.39292,-21.39292zM247.80316,176.22993c1.59793,0 2.89331,-1.29538 2.89331,-2.8933c0,-1.59793 -1.29537,-2.89331 -2.89331,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29537,2.8933 2.8933,2.8933zM232.19685,176.22993c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.89331 -2.8933,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29538,2.8933 2.8933,2.8933zM226.26564,193.49228h28.1715c0,0 -1.35578,-10.96285 -14.49151,-10.90515c-12.67137,0.05566 -13.67999,10.90515 -13.67999,10.90515z',
-  thinkingBubble: 'M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z',
   codeblock: 'M191.07407,156c0,-2.20914 1.79086,-4 4,-4h8c2,0 3,1 4,2l4,4c1,1 2,2 4,2h12c2,0 3,-1 4,-2l4,-4c1,-1 2,-2 4,-2h45.85186c2.20914,0 4,1.79086 4,4v40c0,2.20914 -1.79086,4 -4,4h-45.85186c-2,0 -3,1 -4,2l-4,4c-1,1 -2,2 -4,2h-12c-2,0 -3,-1 -4,-2l-4,-4c-1,-1 -2,-2 -4,-2h-8c-2.20914,0 -4,-1.79086 -4,-4z',
+  codeblockHat: 'M 0.54 2.093 C 3.214 -0.191 6.978 0.899 8.068 2.093 L 11.667 2.093 Q 11.851 2.076 11.949 2.297 L 11.949 5.526 Q 11.925 5.747 11.741 5.809 L 4.177 5.809 C 3.904 5.969 3.725 6.335 3.43 6.439 L 2.359 6.439 C 2.051 6.337 1.897 5.975 1.598 5.83 L 0.797 5.83 Q 0.588 5.708 0.548 5.563 Z',
+  codeblockEndCap: 'M 0.554 6.094 Q 0.584 5.901 0.777 5.824 L 1.602 5.824 C 1.892 5.98 2.04 6.333 2.358 6.442 L 3.409 6.446 C 3.748 6.361 3.847 5.966 4.203 5.824 L 6.289 5.824 Q 6.515 5.885 6.561 6.1 L 6.561 9.253 Q 6.521 9.502 6.283 9.569 L 0.837 9.569 Q 0.614 9.538 0.554 9.308 Z',
+  codeblockReporter: 'M 11.864 6.638 L 15.403 6.644 C 17.396 6.894 17.338 9.532 15.403 9.765 L 11.864 9.77 C 10.045 9.643 9.778 6.905 11.864 6.638 Z',
+  codeblockBoolean: 'M 11.967 13.517 L 16.615 13.509 L 18.188 15.076 L 16.615 16.642 L 11.967 16.635 L 10.393 15.076 Z',
   cloud: 'M158.70156,190.30055c5.28613,-2.83052 11.70216,-2.80297 14.45107,-3.01001c1.11791,-2.76161 17.92516,-32.66635 39.60873,-32.32664c21.75534,0.41423 30.07396,15.16631 40.51872,23.33781c12.96693,-9.11314 22.14689,-12.62033 35.86057,-9.23745c12.88406,3.27521 19.41273,22.07303 19.93181,22.83242c0.25097,0.37125 7.32687,-4.86498 13.30369,-3.82602c7.68158,1.33529 10.15773,16.75568 8.47916,16.75568c-2.13284,0 -176.99884,-0.27065 -181.13536,0.21264c-4.02823,-3.61485 4.21405,-12.184 8.98161,-14.73843z',
+  cloud2: 'M 13 18 A 1 1 0 0 1 13 6 A 1 1 0 0 1 29 6 A 1 0.75 0 0 1 39 6 A 1 1 0 0 1 39 18 Z',
   heart: 'M182.17524,160.22928c-0.06174,-6.9356 0.38429,-9.6077 2.28538,-13.6958c0.21863,-0.47017 0.44452,-0.93216 0.67758,-1.38588c0.041,-0.08369 0.0824,-0.16634 0.12422,-0.24792c0.8012,-1.56302 1.70465,-3.01791 2.69546,-4.36451c2.87826,-3.97624 6.46849,-7.08113 10.70447,-9.24389c4.19614,-2.14228 6.35284,-3.1423 13.00539,-3.25541c0.73674,-0.02848 1.47326,-0.03072 2.20779,-0.0067c5.51272,0.05908 7.5834,0.72925 10.6475,2.33132c5.98584,2.56127 11.11488,7.22077 14.1395,13.99129l1.33748,2.99387l1.33748,-2.99387c3.02461,-6.77051 8.15365,-11.43 14.13948,-13.99128c3.06411,-1.60208 5.13479,-2.27226 10.64753,-2.33133c0.73452,-0.02402 1.47103,-0.02178 2.20776,0.0067c6.65256,0.11311 8.80926,1.11313 13.0054,3.25541c4.23591,2.16272 7.8261,5.26755 10.70433,9.24371c0.99086,1.34665 1.89437,2.8016 2.6956,4.36469c0.04183,0.08159 0.08324,0.16426 0.12425,0.24797c0.23305,0.45371 0.45893,0.91567 0.67755,1.38583c1.90109,4.0881 2.34712,6.7602 2.28538,13.6958c-0.00127,0.14305 -0.00303,0.28572 -0.00528,0.42802c0.10329,5.40072 -0.53917,10.86793 -1.9823,14.87168c-3.9932,11.0782 -11.61727,19.5239 -29.30813,32.466c-11.60195,8.4878 -24.70011,21.3299 -25.60268,23.1336c-0.49,0.97911 -1.36275,0.97911 -1.85275,0c-0.90257,-1.8037 -14.00072,-14.6458 -25.60268,-23.1336c-17.69086,-12.9421 -25.31493,-21.3878 -29.30813,-32.466c-1.44313,-4.00376 -2.0856,-9.47098 -1.9823,-14.87171c-0.00225,-0.14229 -0.004,-0.28495 -0.00528,-0.42799z',
   check: 'M165.25,196.6109l22.7173,-22.8612l30.6088,24.281l71.6857,-83.9057l24.4882,22.1844l-94.7184,109.5656z',
   cross: 'M199.65003,179.64477l-79.5,-77l38.00987,-40.68564l79.49013,76.68564l80.09184,-78.14413l39.93685,39.28777l-78.5287,79.35636l80.69993,77.78108l-39.28229,39.59957l-80.18174,-77.08931l-77.03078,80.06325l-41.49233,-38.94156z',
-  blank: ''
+  chevronArrow: 'M 0 0 L 4 0 L 6 3 L 4 6 L 0 6 L 2 3 Z',
+  pentagonArrow: 'M 0 0 L 4 0 L 6 3 L 4 6 L 0 6 Z',
+  lightningBolt: 'M 3.787 2.769 L 10.034 0.384 L 12.03 5.879 L 11.019 6.423 L 14.077 11.348 L 12.729 11.892 L 16.177 19.927 L 9.204 13.163 L 10.811 12.54 L 6.457 8.238 L 8.349 7.357 Z',
+  lightningBolt2: 'M 6.327 0.618 L 14.129 0.618 L 11.122 7.434 L 14.233 7.434 L 6.379 19.539 L 7.857 9.767 L 4.694 9.767 Z',
+  gear: 'M355.56099,206.36652c-2.17425,0.17536 -4.04645,1.55018 -4.8852,3.55905l-11.25255,27.1569c-0.83875,2.00887 -0.46805,4.31979 0.9361,5.96795l22.3104,26.09412c3.66639,4.29046 3.43237,10.68715 -0.57539,14.69491l-18.25396,18.25396c-3.99777,3.99777 -10.40445,4.24178 -14.69491,0.5654l-26.09412,-22.3104c-1.63818,-1.40415 -3.95908,-1.77485 -5.95797,-0.9361l-27.16626,11.25255c-2.00887,0.83875 -3.38369,2.72093 -3.55905,4.89518l-2.66227,34.20699c-0.43872,5.63657 -5.13857,9.99506 -10.79449,9.99506h-25.82077c-5.65592,0 -10.35577,-4.35911 -10.79449,-9.99506l-2.67163,-34.20699c-0.166,-2.17487 -1.54082,-4.05644 -3.54969,-4.89518l-27.16626,-11.25255c-2.00887,-0.83875 -4.31043,-0.46805 -5.96795,0.9361l-26.08413,22.3104c-4.29046,3.67638 -10.68715,3.43237 -14.69491,-0.5654l-18.25396,-18.25396c-3.99777,-4.00776 -4.24178,-10.40445 -0.57539,-14.69491l22.3104,-26.09412c1.40415,-1.64816 1.77485,-3.95908 0.9361,-5.96795l-11.25255,-27.1569c-0.8194,-2.00887 -2.72093,-3.38369 -4.87584,-3.55905l-34.22633,-2.66227c-5.63595,-0.43934 -9.98507,-5.14855 -9.98507,-10.80447v-25.81079c0,-5.65592 4.34912,-10.35577 9.98507,-10.80447l34.22571,-2.67038c2.15553,-0.166 4.05644,-1.53146 4.87584,-3.54969l11.25255,-27.1569c0.83875,-2.00887 0.46805,-4.30981 -0.9361,-5.95797l-22.3104,-26.09412c-3.66639,-4.30045 -3.42238,-10.69713 0.57539,-14.69491l18.25396,-18.25396c4.00776,-3.99777 10.40445,-4.25177 14.69491,-0.57539l26.08413,22.3104c1.65815,1.41414 3.95908,1.77485 5.96795,0.94609l27.16626,-11.26254c2.00887,-0.82876 3.38369,-2.72031 3.54969,-4.8852l2.67163,-34.20699c0.43872,-5.64593 5.13857,-9.99506 10.79449,-9.99506h25.82077c5.6553,0 10.35514,4.34912 10.79386,9.99319l2.66227,34.20699c0.17536,2.1549 1.55018,4.05644 3.55905,4.8852l27.16626,11.26254c1.99889,0.82876 4.30981,0.46805 5.95797,-0.94609l26.09412,-22.3104c4.29046,-3.67638 10.69713,-3.42238 14.69491,0.57539l18.25396,18.25396c4.00776,3.99777 4.24178,10.39446 0.57539,14.69491l-22.3104,26.09412c-1.4235,1.64816 -1.77485,3.9491 -0.9361,5.95797l11.25255,27.1569c0.83875,2.01886 2.71095,3.38369 4.8852,3.54969l34.21635,2.67163c5.63595,0.4487 9.98507,5.14855 9.98507,10.80447v25.82077c0,5.64593 -4.34912,10.35577 -9.98507,10.79449zM278.18542,218.18448c10.19975,-10.20911 15.81636,-23.76323 15.81636,-38.19478c0,-14.42157 -5.6166,-27.98566 -15.81636,-38.17543c-10.19975,-10.20974 -23.75386,-15.81636 -38.18542,-15.81636c-14.42219,0 -27.98566,5.60724 -38.18542,15.81636c-10.19975,10.18977 -15.81636,23.75386 -15.81636,38.17543c0,14.43155 5.6166,27.98566 15.81636,38.19478c10.19975,10.18977 23.76385,15.80637 38.18542,15.80637c14.43155,0 27.98566,-5.6166 38.18542,-15.80637z',
+  trapezoid: 'M 0 4 L 4 0 L 12 0 L 16 4 Z',
+  parallelogram: 'M 0 4 L 4 0 L 12 0 L 8 4 Z',
+  kite: 'M 0 4 L 4 0 L 8 4 L 4 12 Z',
+  fineman: 'M279.11508,185.745c-1.6966,3.204 -3.2904,7.867 -5.5968,10.7655c-1.0552,1.326 -2.4643,2.334 -3.5804,3.6092c-4.8915,5.5887 -9.2072,12.2896 -16.8603,14.6515c-1.422,0.4389 -2.9744,0.119 -4.4625,0.1361c-5.1267,0.059 -10.0508,5.3321 -14.8705,3.1868c-1.8615,-0.8286 -8.787,-1.8762 -10.6075,-2.7912c-1.506,-0.757 0.1421,-7.033 -1.256,-7.9744c-1.3297,-0.8955 -2.11,-2.4181 -3.2504,-3.5448c-0.3338,-0.3298 -6.2398,-5.4131 -6.7988,-6.6552c-0.81717,-1.81566 -1.09038,-3.62653 -1.17502,-5.46147c-1.3766,0.80315 -2.62347,1.91949 -4.15618,2.34537c-1.4506,0.4031 -3.0694,0.4408 -4.5164,0.0254c-8.6871,-2.4944 -5.9867,-15.5864 -3.3957,-21.95c1.8299,-4.4941 4.0739,-9.3912 7.0918,-13.2651c1.217,-1.5622 3.0424,-2.5541 4.3761,-4.018c0.7182,-0.7882 1.0233,-1.9342 1.8461,-2.6125c1.106,-0.9119 2.5337,-1.3416 3.7892,-2.0335c4.9733,-2.7408 9.6646,-4.9652 14.9498,-7.0813c7.2911,-2.9454 15.9349,-1.4641 23.371,0.1816c1.0722,0.2373 2.2339,0.1288 3.2486,0.5491c3.685,1.5264 5.0611,4.8449 7.9949,7.1687c0.7921,0.6273 5.568,3.7781 6.5521,4.6268c3.288,2.8359 4.7025,6.0578 7.0854,9.4147c0.1895,0.2307 0.3659,0.4735 0.5345,0.7232c1.285,1.6696 2.7787,3.1875 3.9054,4.9667c0,0 1.6892,2.7027 -0.5386,4.6822c-0.42573,0.62184 -1.1019,1.17609 -2.17578,1.36827c-0.00404,2.96432 -1.17068,6.3419 -1.50402,8.98633zM240.53818,174.9073c2.071,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.679,-3.75 -3.75,-3.75c-2.0711,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.6789,3.75 3.75,3.75zM275.15348,184.1381c2.0711,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.6789,-3.75 -3.75,-3.75c-2.071,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.679,3.75 3.75,3.75zM263.18718,195.6157l-0.3007,0.5823c-1.0607,1.0607 -1.8421,2.4427 -3.0962,3.2658c-1.4785,0.9703 -5.8341,0.2488 -7.3291,0.2512c-2.0854,0.0034 -5.8991,0.3437 -7.8123,-0.2393c-0.995,-0.3031 -1.6423,-1.3094 -2.587,-1.7448c-0.6173,-0.2846 -1.4509,0.022 -2.0051,-0.3717c-0.5058,-0.3593 -0.4529,-1.179 -0.8494,-1.6563c-1.3927,-1.6766 -5.4087,-4.3908 -5.7359,-7.0634c-0.1179,-0.9621 0.2756,-1.9189 0.4134,-2.8783c0,0 0.3732,-3.7314 -3.3582,-4.1045c-3.7314,-0.3732 -4.1046,3.3582 -4.1046,3.3582c-0.1185,1.6047 -0.6347,3.2294 -0.3557,4.8141c0.8558,4.861 4.3602,7.2383 7.3409,10.6288c0.8152,0.9273 1.2332,2.2274 2.2276,2.9592c0.9599,0.7063 2.3011,0.6594 3.3795,1.1668c1.2486,0.5874 2.2405,1.7206 3.5669,2.1013c2.5046,0.7187 7.1623,0.5259 9.8799,0.5299c3.6721,0.0054 7.7509,0.5945 11.1325,-1.2872c0.4769,-0.2654 3.932,-3.7625 4.5961,-4.4265l1.2378,-1.7254c0,0 2.0801,-3.1202 -1.0401,-5.2003c-3.1202,-2.0801 -5.2003,1.0401 -5.2003,1.0401z',
+  pin: 'M 21 28 A 1 1 0 0 1 79 28 Q 78 45 65 61 Q 52 78 50 100 Q 48 78 35 61 Q 22 45 21 28 Z M 40 28 A 1 1 0 0 0 60 28 A 1 1 0 0 0 40 28',
+  pinPush: 'M 7.379 3.051 Q 7.143 0.48 10.139 0.406 Q 13.444 0.48 13.165 3.006 Q 12.915 3.741 12.005 4.064 L 12.152 7.722 Q 14.957 8.662 14.752 11.306 Q 14.472 13.829 10.051 13.803 Q 5.248 13.48 5.541 10.748 Q 5.615 8.706 8.068 7.531 L 8.318 3.917 Q 7.596 3.581 7.379 3.051 Z M 9.587 13.764 L 9.435 18.06 C 10.121 20.37 9.551 20.308 10.389 18.123 L 10.565 13.794 Q 10.046 13.828 9.587 13.764 Z',
+  eye: 'M212.7952,179.99996c0,0 7.27068,-15.89135 27.2048,-15.80732c20.22188,0.08524 27.2048,15.80732 27.2048,15.80732c0,0 -7.1276,15.78741 -27.2048,15.80732c-19.93533,0.01977 -27.2048,-15.80732 -27.2048,-15.80732zM239.92857,190.14286c5.52285,0 10,-4.47715 10,-10c0,-5.52285 -4.47715,-10 -10,-10c-5.52285,0 -10,4.47715 -10,10c0,5.52285 4.47715,10 10,10z M235,180c0,-2.80087 2.27056,-5.07143 5.07143,-5.07143c2.80087,0 5.07143,2.27056 5.07143,5.07143c0,2.80087 -2.27056,5.07143 -5.07143,5.07143c-2.80087,0 -5.07143,-2.27056 -5.07143,-5.07143z',
+  bookmark: 'M 0 0 L 8 0 L 8 12 L 4 8 L 0 12 Z',
+  note: 'M 0 0 L 8 0 L 8 8 L 2 8 L 0 6 Z M 0 6 L 2 6 L 2 8 Z',
+  paper: 'M 0 0 L 601 0 L 841 240 L 841 1190 L 0 1190 Z M 841 240 L 601 240 L 601 0 Z',
+  lock: 'M 0.5 9 A 1 1 0 0 1 15.5 9 L 13.5 9 A 1 1 0 0 0 2.5 9 L 0.5 9 Z M 0 9 L 16 9 L 16 18 L 0 18 Z',
+  lockOpened: 'M 0.5 6 A 1 1 0 0 1 15.5 6 L 15.5 9 L 13.5 9 L 13.5 6 A 1 1 0 0 0 2.5 6 L 0.5 6 Z M 0 9 L 16 9 L 16 18 L 0 18 Z',
+  inbox: 'M 0 0 L 4 0 L 6 1 L 10 1 L 12 0 L 16 0 L 16 3 L 0 3 L 0 0 L 3 -3 L 13 -3 L 16 0 L 12 0 L 10 1 L 6 1 L 4 0 Z',
+  triangleRightAngle: 'M 1 1 L 8 8 L 1 8 L 1 1 Z',
+  person: 'M 0 0 A 1 1 0 0 0 3 0 A 1 1 0 0 0 0 0 Z M -1 4 A 1 1 0 0 1 4 4 Z',
+  crescentMoon: 'M196.70596,180c0,-27.2559 22.09528,-49.35118 49.35118,-49.35118c14.86178,0 28.18921,6.56931 37.23689,16.96252c-7.36039,-6.19606 -16.86269,-9.9291 -27.23689,-9.9291c-23.37145,0 -42.31776,18.9463 -42.31776,42.31776c0,23.37145 18.9463,42.31776 42.31776,42.31776c10.3742,0 19.8765,-3.73304 27.23689,-9.9291c-9.04768,10.39321 -22.37512,16.96252 -37.23689,16.96252c-27.2559,0 -49.35118,-22.09528 -49.35118,-49.35118z',
+  sun: 'M 208.8889 180 C 208.8889 162.8178 222.8178 148.8889 240 148.8889 C 257.1822 148.8889 271.1111 162.8178 271.1111 180 C 271.1111 197.1822 257.1822 211.1111 240 211.1111 C 222.8178 211.1111 208.8889 197.1822 208.8889 180 Z M 240 140.981 C 236.007 140.981 232.77 137.3993 232.77 132.981 V 98.1516 C 232.77 93.7333 236.007 90.1516 240 90.1516 V 90.1516 C 243.993 90.1516 247.23 93.7333 247.23 98.1516 V 132.981 C 247.23 137.3993 243.993 140.981 240 140.981 Z M 240 218.9805 C 243.993 218.9805 247.23 222.5622 247.23 226.9805 V 261.8099 C 247.23 266.2281 243.993 269.8099 240 269.8099 V 269.8099 C 236.007 269.8099 232.77 266.2281 232.77 261.8099 V 226.9805 C 232.77 222.5622 236.007 218.9805 240 218.9805 Z M 201.0003 179.9807 C 201.0003 183.9738 197.4186 187.2108 193.0003 187.2108 H 158.1709 C 153.7526 187.2108 150.1709 183.9738 150.1709 179.9807 V 179.9807 C 150.1709 175.9877 153.7526 172.7507 158.1709 172.7507 H 193.0003 C 197.4186 172.7507 201.0003 175.9877 201.0003 179.9807 Z M 278.9997 179.9807 C 278.9997 175.9877 282.5815 172.7507 286.9997 172.7507 H 321.8291 C 326.2474 172.7507 329.8291 175.9877 329.8291 179.9807 V 179.9807 C 329.8291 183.9738 326.2474 187.2108 321.8291 187.2108 H 286.9997 C 282.5815 187.2108 278.9997 183.9738 278.9997 179.9807 Z M 212.423 152.4038 C 209.5995 155.2273 204.778 154.9835 201.6538 151.8593 L 177.0257 127.2312 C 173.9015 124.107 173.6577 119.2855 176.4812 116.4619 V 116.4619 C 179.3047 113.6384 184.1263 113.8822 187.2505 117.0064 L 211.8786 141.6345 C 215.0028 144.7587 215.2465 149.5802 212.423 152.4038 Z M 267.577 207.5577 C 270.4005 204.7342 275.222 204.9779 278.3462 208.1021 L 302.9743 232.7302 C 306.0985 235.8544 306.3423 240.676 303.5188 243.4995 V 243.4995 C 300.6953 246.323 295.8737 246.0793 292.7495 242.9551 L 268.1214 218.327 C 264.9972 215.2028 264.7535 210.3812 267.577 207.5577 Z M 212.423 207.5577 C 215.2465 210.3812 215.0028 215.2028 211.8786 218.327 L 187.2505 242.9551 C 184.1263 246.0793 179.3047 246.323 176.4812 243.4995 V 243.4995 C 173.6577 240.676 173.9015 235.8544 177.0257 232.7302 L 201.6538 208.1021 C 204.778 204.9779 209.5995 204.7342 212.423 207.5577 Z M 267.577 152.4038 C 264.7535 149.5803 264.9972 144.7587 268.1214 141.6345 L 292.7495 117.0064 C 295.8737 113.8822 300.6953 113.6384 303.5188 116.462 V 116.462 C 306.3423 119.2855 306.0985 124.107 302.9743 127.2312 L 278.3462 151.8593 C 275.222 154.9835 270.4005 155.2273 267.577 152.4038 Z',
+  musicNote: 'M 13.3 6.7 L 36.9 0.9 L 36.9 28.2 A 1 0.84 0 0 1 24.2 28.2 Q 24.3 23.6 29.2 22.4 Q 33 21.6 34.7 23.6 L 34.7 9.2 L 15.6 13.9 L 15.6 33.8 A 1 0.8 0 0 1 2.8 33.4 Q 2.9 28.8 8.2 27.6 Q 11.3 26.8 13.3 28.9 Z',
+  musicNote2: 'M 21 0.8 Q 30.9 1.2 30 10.5 Q 29.6 16.1 33.8 18.3 Q 29.1 17.2 27.2 12 Q 24.9 5.9 22.6 5.5 L 22.6 34.9 A 1 0.75 4 0 1 8.9 33.4 Q 9.5 27.9 15.9 27.4 Q 20 27.3 21 29.4 Z',
+  musicNote3: 'M 19.2 37.3 A 1 1 0 0 0 18.1 32.5 Q 15.2 33.3 16.6 36.5 Q 17.9 38.9 20.5 38.7 Q 24.4 38.5 24.7 34.4 Q 24.8 32.9 23.9 29.6 Q 27.8 27.5 27.1 23 Q 26.3 19 21.6 18.7 L 20.8 15.5 Q 25.7 9.6 24.4 4.2 Q 22.4 -1.3 19.4 2.9 Q 17.2 6.2 18.9 12.6 Q 13 17.9 13.1 22.5 Q 13.3 28.9 21 30.2 Q 21.8 30.3 22.5 30.1 Q 25 38.4 19.2 37.3 Z M 22.2 21.9 Q 25.3 22.4 24.9 25.7 Q 24.7 27.5 23.6 28 Z M 20 11.6 Q 18.9 4.8 22.7 4.5 Q 23.7 8.4 20 11.6 Z M 20.8 27.6 Q 18.9 26 19.3 23.9 Q 19.6 22.7 20.9 22 L 22.3 28.6 Q 19.1 29.3 16.9 26.9 Q 14.5 23.7 16.3 20.5 Q 17.8 18.2 19.7 16.7 L 20.3 19.1 Q 16.9 21 17 23.9 Q 17.3 27.5 20.8 27.6 Z'
 };
 
 /*
-
-TEMPLATE:
-
+    TEMPLATE:
     {
         id: "item",
         name: "item",
-        path: selectablePaths.item,
-        size: 50,
         strokeWidth: 5,
         icon: '',
     },
 
+    Generate icon:
+    1. Set fill color to none
+    2. Clear the costume
+    3. Draw the shape using shape tool (make it look the way it should if drawn properly)
+    4. Run atob(vm.getExportedCostumeBase64(vm.editingTarget.sprite.costumes[0]))
 */
 
-const strokeColor = "none";
+// Hopefully later on, the values of the keys in this object can be translated.
+const categories = {
+  "shapes": "Shapes",
+  "symbols": "Symbols",
+  "objects": "Objects",
+  "speech": "Speech",
+  "blocks": "Blocks",
+  "custom": "Custom" // Used when an object doesn't define a category, mutated into object's data
+};
 const selectableShapes = [{
+  id: "triangleRightAngle",
+  name: "Right Triangle",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"63.03012\" height=\"63.03012\" viewBox=\"-0.5,-1.20711,63.03012,63.03012\"><g transform=\"translate(-209.51527,-149.16172)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M209.76527,149.76527l60.46946,60.46946h-60.46946z\"/></g></g></svg><!--rotationCenter:30.484730830670827:30.83828422126419-->"
+}, {
+  id: "chevronArrow",
+  name: "Chevron Arrow",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"67.56311\" height=\"56.73942\" viewBox=\"-3.057,-1.5,67.56311,56.73942\"><g transform=\"translate(-208.59849,-153.13029)\"><g fill=\"#9966ff\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M209.10799,153.38029h41.18934l20.59467,26.61971l-20.59467,26.61971h-41.18934l20.59467,-26.61971z\"/></g></g></svg><!--rotationCenter:31.401508038655606:26.869708666134187-->"
+}, {
+  id: "pentagonArrow",
+  name: "Pentagon Arrow",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"71.15572\" height=\"66.81766\" viewBox=\"0,0,71.15572,66.81766\"><g transform=\"translate(-204.61934,-146.59117)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M206.36934,148.34117h44.84088l22.42044,31.65883l-22.42044,31.65883h-44.84088z\"/></g></g></svg><!--rotationCenter:35.38066074281147:33.408830471246006-->"
+}, {
+  id: "trapezoid",
+  name: "Trapezoid",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"78.8467\" height=\"37.02111\" viewBox=\"0,0,78.8467,37.02111\"><g transform=\"translate(-200.57665,-161.48944)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M203.52114,196.76056l18.23943,-33.52111h36.47886l18.23943,33.52111z\"/></g></g></svg><!--rotationCenter:39.42335003323694:18.510557308306687-->"
+}, {
+  id: "parallelogram",
+  name: "Parallelogram",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"80.04199\" height=\"47.31845\" viewBox=\"0,0,80.04199,47.31845\"><g transform=\"translate(-199.979,-156.34077)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M202.97341,201.90923l24.68439,-43.81845h49.36879l-24.68439,43.81845z\"/></g></g></svg><!--rotationCenter:40.020997452491144:23.659225239616603-->"
+}, {
+  id: "kite",
+  name: "Kite",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"60.08499\" height=\"93.07283\" viewBox=\"0,0,60.08499,93.07283\"><g transform=\"translate(-209.95751,-134.21364)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M212.06574,165.57643l27.93426,-28.84715l27.93426,28.84715l-27.93426,57.69429z\"/></g></g></svg><!--rotationCenter:30.042494505618436:45.78635774795376-->"
+}, {
+  id: "check",
+  name: "Checkmark",
+  category: "symbols",
+  strokeWidth: 11,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149.5" height="131.75" viewBox="0,0,149.5,131.75"><g transform="translate(-165.25,-114.125)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#00f31c" fill-rule="nonzero" stroke="none" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M165.25,196.6109l22.7173,-22.8612l30.6088,24.281l71.6857,-83.9057l24.4882,22.1844l-94.7184,109.5656z"/></g></g></svg><!--rotationCenter:74.74999999999997:65.87500000000003-->'
+}, {
+  id: "cross",
+  name: "Multiply",
+  category: "symbols",
+  strokeWidth: 16,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239.69993" height="238.99871" viewBox="0,0,239.69993,238.99871"><g transform="translate(-120.15003,-60.50064)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M199.65003,179.64477l-79.5,-77l38.00987,-40.68564l79.49013,76.68564l80.09184,-78.14413l39.93685,39.28777l-78.5287,79.35636l80.69993,77.78108l-39.28229,39.59957l-80.18174,-77.08931l-77.03078,80.06325l-41.49233,-38.94156z"/></g></g></svg><!--rotationCenter:119.84996640680819:119.49935645821554-->'
+}, {
+  id: "heart",
+  name: "Heart",
+  category: "symbols",
+  strokeWidth: 9,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.6604" height="103.85023" viewBox="0,0,115.6604,103.85023"><g transform="translate(-182.1698,-128.01269)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0.18069" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M182.17524,160.22928c-0.06174,-6.9356 0.38429,-9.6077 2.28538,-13.6958c0.21863,-0.47017 0.44452,-0.93216 0.67758,-1.38588c0.041,-0.08369 0.0824,-0.16634 0.12422,-0.24792c0.8012,-1.56302 1.70465,-3.01791 2.69546,-4.36451c2.87826,-3.97624 6.46849,-7.08113 10.70447,-9.24389c4.19614,-2.14228 6.35284,-3.1423 13.00539,-3.25541c0.73674,-0.02848 1.47326,-0.03072 2.20779,-0.0067c5.51272,0.05908 7.5834,0.72925 10.6475,2.33132c5.98584,2.56127 11.11488,7.22077 14.1395,13.99129l1.33748,2.99387l1.33748,-2.99387c3.02461,-6.77051 8.15365,-11.43 14.13948,-13.99128c3.06411,-1.60208 5.13479,-2.27226 10.64753,-2.33133c0.73452,-0.02402 1.47103,-0.02178 2.20776,0.0067c6.65256,0.11311 8.80926,1.11313 13.0054,3.25541c4.23591,2.16272 7.8261,5.26755 10.70433,9.24371c0.99086,1.34665 1.89437,2.8016 2.6956,4.36469c0.04183,0.08159 0.08324,0.16426 0.12425,0.24797c0.23305,0.45371 0.45893,0.91567 0.67755,1.38583c1.90109,4.0881 2.34712,6.7602 2.28538,13.6958c-0.00127,0.14305 -0.00303,0.28572 -0.00528,0.42802c0.10329,5.40072 -0.53917,10.86793 -1.9823,14.87168c-3.9932,11.0782 -11.61727,19.5239 -29.30813,32.466c-11.60195,8.4878 -24.70011,21.3299 -25.60268,23.1336c-0.49,0.97911 -1.36275,0.97911 -1.85275,0c-0.90257,-1.8037 -14.00072,-14.6458 -25.60268,-23.1336c-17.69086,-12.9421 -25.31493,-21.3878 -29.30813,-32.466c-1.44313,-4.00376 -2.0856,-9.47098 -1.9823,-14.87171c-0.00225,-0.14229 -0.004,-0.28495 -0.00528,-0.42799z" data-paper-data="{&quot;index&quot;:null}"/></g></g></svg><!--rotationCenter:57.8301984423353:51.98731274940036-->'
+}, {
+  id: "pin",
+  name: "Pin",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"53.64396\" height=\"90.45145\" viewBox=\"0,0,53.64396,90.45145\"><g transform=\"translate(-218.55053,-143.78644)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M219.30053,170.07696c0,-14.10564 11.67282,-25.54052 26.07198,-25.54052c14.39915,0 26.07198,11.43488 26.07198,25.54052c-0.59936,9.98135 -4.79485,19.66913 -12.58647,29.06335c-7.79163,9.98135 -12.2868,21.43054 -13.48551,34.34759c-1.19871,-12.91705 -5.69388,-24.36624 -13.48551,-34.34759c-7.79163,-9.39422 -11.98712,-19.082 -12.58647,-29.06334zM236.38218,170.07696c0,4.86401 4.02511,8.80707 8.99034,8.80707c4.96523,0 8.99033,-3.94306 8.99033,-8.80707c0,-4.86401 -4.02511,-8.80707 -8.99033,-8.80707c-4.96523,0 -8.99034,3.94306 -8.99034,8.80707\"/></g></g></svg><!--rotationCenter:21.44946999999999:36.21356499999999-->"
+}, {
   id: "smile",
   name: "Smile",
-  path: selectablePaths.smile,
-  size: 37,
+  category: "symbols",
   strokeWidth: 3,
   icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"42.78585\" height=\"42.78585\" viewBox=\"0,0,42.78585,42.78585\"><g transform=\"translate(-218.60707,-158.60707)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39292,9.57794 21.39292,21.39292c0,11.81499 -9.57794,21.39293 -21.39292,21.39293c-11.81499,0 -21.39292,-9.57794 -21.39292,-21.39293zM239.89701,196.60775c14.70959,0.07281 16.22782,-13.7612 16.22782,-13.7612h-31.54689c0,0 1.12947,13.69096 15.31907,13.7612zM247.80316,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933zM232.19685,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933z\"/></g></g></svg><!--rotationCenter:21.39292499999999:21.39292499999999-->"
 }, {
   id: "frown",
   name: "Frown",
-  path: selectablePaths.frown,
-  size: 37,
+  category: "symbols",
   strokeWidth: 3,
-  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"42.78585\" height=\"42.78584\" viewBox=\"0,0,42.78585,42.78584\"><g transform=\"translate(-218.60708,-158.60708)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"".concat(strokeColor, "\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39293,9.57794 21.39293,21.39292c0,11.81499 -9.57794,21.39292 -21.39293,21.39292c-11.81498,0 -21.39292,-9.57794 -21.39292,-21.39292zM247.80316,176.22993c1.59793,0 2.89331,-1.29538 2.89331,-2.8933c0,-1.59793 -1.29537,-2.89331 -2.89331,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29537,2.8933 2.8933,2.8933zM232.19685,176.22993c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.89331 -2.8933,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29538,2.8933 2.8933,2.8933zM226.26564,193.49228h28.1715c0,0 -1.35578,-10.96285 -14.49151,-10.90515c-12.67137,0.05566 -13.67999,10.90515 -13.67999,10.90515z\"/></g></g></svg><!--rotationCenter:21.392924999999963:21.392920000000004-->")
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"42.78585\" height=\"42.78584\" viewBox=\"0,0,42.78585,42.78584\"><g transform=\"translate(-218.60708,-158.60708)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39293,9.57794 21.39293,21.39292c0,11.81499 -9.57794,21.39292 -21.39293,21.39292c-11.81498,0 -21.39292,-9.57794 -21.39292,-21.39292zM247.80316,176.22993c1.59793,0 2.89331,-1.29538 2.89331,-2.8933c0,-1.59793 -1.29537,-2.89331 -2.89331,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29537,2.8933 2.8933,2.8933zM232.19685,176.22993c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.89331 -2.8933,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29538,2.8933 2.8933,2.8933zM226.26564,193.49228h28.1715c0,0 -1.35578,-10.96285 -14.49151,-10.90515c-12.67137,0.05566 -13.67999,10.90515 -13.67999,10.90515z\"/></g></g></svg><!--rotationCenter:21.392924999999963:21.392920000000004-->"
 }, {
-  id: "codeblock",
-  name: "Code Block",
-  path: selectablePaths.codeblock,
-  size: 50,
-  strokeWidth: 9,
-  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.85186" height="56" viewBox="0,0,97.85186,56"><g transform="translate(-191.07407,-152)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff4ddf" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.07407,156c0,-2.20914 1.79086,-4 4,-4h8c2,0 3,1 4,2l4,4c1,1 2,2 4,2h12c2,0 3,-1 4,-2l4,-4c1,-1 2,-2 4,-2h45.85186c2.20914,0 4,1.79086 4,4v40c0,2.20914 -1.79086,4 -4,4h-45.85186c-2,0 -3,1 -4,2l-4,4c-1,1 -2,2 -4,2h-12c-2,0 -3,-1 -4,-2l-4,-4c-1,-1 -2,-2 -4,-2h-8c-2.20914,0 -4,-1.79086 -4,-4z"/></g></g></svg><!--rotationCenter:48.92592750000003:28-->'
+  id: "person",
+  name: "Person",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"80.05866\" height=\"87.06961\" viewBox=\"-1,-1,80.05866,87.06961\"><g transform=\"translate(-194.29311,-132.89364)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2.5\" stroke-miterlimit=\"10\"><path d=\"M210.05484,156.20808c0,12.73814 10.41726,23.06444 23.2676,23.06444c12.85034,0 23.2676,-10.3263 23.2676,-23.06444c0,-12.73814 -10.41726,-23.06444 -23.2676,-23.06444c-12.85034,0 -23.2676,10.3263 -23.2676,23.06444zM194.54311,217.71325c0,-21.23023 17.3621,-38.44073 38.77933,-38.44073c21.41723,0 38.77933,17.2105 38.77933,38.44073z\"/></g></g></svg><!--rotationCenter:45.706892611143076:47.10636102236421-->"
 }, {
-  id: "heart",
-  name: "Heart",
-  path: selectablePaths.heart,
-  size: 50,
-  strokeWidth: 9,
-  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.6604" height="103.85023" viewBox="0,0,115.6604,103.85023"><g transform="translate(-182.1698,-128.01269)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0.18069" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M182.17524,160.22928c-0.06174,-6.9356 0.38429,-9.6077 2.28538,-13.6958c0.21863,-0.47017 0.44452,-0.93216 0.67758,-1.38588c0.041,-0.08369 0.0824,-0.16634 0.12422,-0.24792c0.8012,-1.56302 1.70465,-3.01791 2.69546,-4.36451c2.87826,-3.97624 6.46849,-7.08113 10.70447,-9.24389c4.19614,-2.14228 6.35284,-3.1423 13.00539,-3.25541c0.73674,-0.02848 1.47326,-0.03072 2.20779,-0.0067c5.51272,0.05908 7.5834,0.72925 10.6475,2.33132c5.98584,2.56127 11.11488,7.22077 14.1395,13.99129l1.33748,2.99387l1.33748,-2.99387c3.02461,-6.77051 8.15365,-11.43 14.13948,-13.99128c3.06411,-1.60208 5.13479,-2.27226 10.64753,-2.33133c0.73452,-0.02402 1.47103,-0.02178 2.20776,0.0067c6.65256,0.11311 8.80926,1.11313 13.0054,3.25541c4.23591,2.16272 7.8261,5.26755 10.70433,9.24371c0.99086,1.34665 1.89437,2.8016 2.6956,4.36469c0.04183,0.08159 0.08324,0.16426 0.12425,0.24797c0.23305,0.45371 0.45893,0.91567 0.67755,1.38583c1.90109,4.0881 2.34712,6.7602 2.28538,13.6958c-0.00127,0.14305 -0.00303,0.28572 -0.00528,0.42802c0.10329,5.40072 -0.53917,10.86793 -1.9823,14.87168c-3.9932,11.0782 -11.61727,19.5239 -29.30813,32.466c-11.60195,8.4878 -24.70011,21.3299 -25.60268,23.1336c-0.49,0.97911 -1.36275,0.97911 -1.85275,0c-0.90257,-1.8037 -14.00072,-14.6458 -25.60268,-23.1336c-17.69086,-12.9421 -25.31493,-21.3878 -29.30813,-32.466c-1.44313,-4.00376 -2.0856,-9.47098 -1.9823,-14.87171c-0.00225,-0.14229 -0.004,-0.28495 -0.00528,-0.42799z" data-paper-data="{&quot;index&quot;:null}"/></g></g></svg><!--rotationCenter:57.8301984423353:51.98731274940036-->'
+  id: "sun",
+  name: "Sun",
+  category: "symbols",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"75.21046\" height=\"75.21046\" viewBox=\"0,0,75.21046,75.21046\"><g transform=\"translate(-202.39477,-142.39477)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\"><path d=\"M227.06252,180.00801c0,-7.14518 5.7923,-12.93747 12.93748,-12.93747c7.14518,0 12.93748,5.7923 12.93748,12.93747c0,7.14518 -5.7923,12.93747 -12.93748,12.93747c-7.14518,0 -12.93748,-5.7923 -12.93748,-12.93747zM240,163.78205c-1.66048,0 -3.00658,-1.48944 -3.00658,-3.32678v-14.48372c0,-1.83734 1.3461,-3.32678 3.00658,-3.32678v0c1.66048,0 3.00658,1.48944 3.00658,3.32678v14.48372c0,1.83734 -1.3461,3.32678 -3.00658,3.32678zM240,196.21795c1.66048,0 3.00658,1.48944 3.00658,3.32678v14.48372c0,1.8373 -1.3461,3.32678 -3.00658,3.32678v0c-1.66048,0 -3.00658,-1.48948 -3.00658,-3.32678v-14.48372c0,-1.83734 1.3461,-3.32678 3.00658,-3.32678zM223.78206,179.99998c0,1.66052 -1.48944,3.00662 -3.32678,3.00662h-14.48373c-1.83734,0 -3.32678,-1.3461 -3.32678,-3.00662v0c0,-1.66048 1.48944,-3.00658 3.32678,-3.00658h14.48373c1.83734,0 3.32678,1.3461 3.32678,3.00658zM256.21794,179.99998c0,-1.66048 1.48948,-3.00658 3.32678,-3.00658h14.48373c1.83734,0 3.32678,1.3461 3.32678,3.00658v0c0,1.66052 -1.48944,3.00662 -3.32678,3.00662h-14.48373c-1.8373,0 -3.32678,-1.3461 -3.32678,-3.00662zM228.53217,168.53219c-1.17415,1.17415 -3.17916,1.07276 -4.47835,-0.22643l-10.24154,-10.24153c-1.29919,-1.29919 -1.40058,-3.3042 -0.22643,-4.47839v0c1.17415,-1.17415 3.1792,-1.07276 4.47839,0.22643l10.24154,10.24153c1.29919,1.29919 1.40053,3.3042 0.22639,4.47839zM251.46783,191.46781c1.17415,-1.17415 3.17916,-1.0728 4.47835,0.22639l10.24154,10.24153c1.29919,1.29919 1.40058,3.30424 0.22643,4.47839v0c-1.17415,1.17415 -3.1792,1.0728 -4.47839,-0.22639l-10.24154,-10.24153c-1.29919,-1.29919 -1.40053,-3.30424 -0.22639,-4.47839zM228.53217,191.46781c1.17415,1.17415 1.0728,3.1792 -0.22639,4.47839l-10.24154,10.24153c-1.29919,1.29919 -3.30424,1.40053 -4.47839,0.22639v0c-1.17415,-1.17415 -1.07276,-3.1792 0.22643,-4.47839l10.24154,-10.24153c1.29919,-1.29919 3.3042,-1.40053 4.47835,-0.22639zM251.46783,168.53219c-1.17415,-1.17415 -1.0728,-3.1792 0.22639,-4.47839l10.24154,-10.24153c1.29919,-1.29919 3.30424,-1.40057 4.47839,-0.22639v0c1.17415,1.17415 1.07276,3.17915 -0.22643,4.47835l-10.24154,10.24153c-1.29919,1.29919 -3.3042,1.40057 -4.47835,0.22643z\"/></g></g></svg><!--rotationCenter:37.605229033546294:37.605229033546294-->"
+}, {
+  id: "crescentMoon",
+  name: "Crescent Moon",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"86.58808\" height=\"98.70237\" viewBox=\"0,0,86.58808,98.70237\"><g transform=\"translate(-196.70596,-130.64882)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M196.70596,180c0,-27.2559 22.09528,-49.35118 49.35118,-49.35118c14.86178,0 28.18921,6.56931 37.23689,16.96252c-7.36039,-6.19606 -16.86269,-9.9291 -27.23689,-9.9291c-23.37145,0 -42.31776,18.9463 -42.31776,42.31776c0,23.37145 18.9463,42.31776 42.31776,42.31776c10.3742,0 19.8765,-3.73304 27.23689,-9.9291c-9.04768,10.39321 -22.37512,16.96252 -37.23689,16.96252c-27.2559,0 -49.35118,-22.09528 -49.35118,-49.35118z\"/></g></g></svg><!--rotationCenter:43.294038055506434:49.35118499999999-->"
+}, {
+  id: "musicNote",
+  name: "Slanted Beamed Note",
+  category: "symbols",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"76.05318\" height=\"83.11581\" viewBox=\"0,0,76.05318,83.11581\"><g transform=\"translate(-201.97341,-138.30671)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M225.78318,151.97441l51.24341,-12.39693v58.35107c0,6.29654 -6.17308,11.4009 -13.78795,11.4009c-7.61487,0 -13.78795,-5.10436 -13.78795,-11.4009c0.14476,-6.5547 3.76364,-10.68701 10.85665,-12.39693c5.5007,-1.13995 9.48148,-0.28499 11.94232,2.56488v-30.77859l-41.47242,10.04579v42.5343c-0.2998,6.04393 -6.76452,10.75211 -14.43935,10.51602c-7.67483,-0.23609 -13.65348,-5.32705 -13.35368,-11.37098c0.14476,-6.5547 4.05315,-10.68701 11.72519,-12.39693c4.48742,-1.13995 8.17868,-0.21374 11.07379,2.77862z\"/></g></g></svg><!--rotationCenter:38.026590654952116:41.69329016725993-->"
+}, {
+  id: "musicNote2",
+  name: "Eighth Note",
+  category: "symbols",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"66.47374\" height=\"88.80053\" viewBox=\"0,0,66.47374,88.80053\"><g transform=\"translate(-210.07982,-135.57974)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M239.23262,136.61973c15.30765,0.60044 22.26567,7.88082 20.87407,21.84113c-0.61849,8.40621 2.31934,14.26053 8.8135,17.56297c-7.26727,-1.65122 -12.36982,-6.37971 -15.30765,-14.18548c-3.55632,-9.15676 -7.11265,-14.03537 -10.66897,-14.63581v66.1989c-0.92204,6.37511 -8.78257,10.78707 -17.55698,9.8544c-8.77442,-0.93267 -15.14003,-6.85679 -14.21799,-13.2319c0.92774,-8.2561 6.33953,-12.75943 16.23539,-13.50998c6.33953,-0.15011 10.28241,1.351 11.82864,4.50333z\"/></g></g></svg><!--rotationCenter:29.92017731629366:44.42026004636199-->"
+}, {
+  id: "musicNote3",
+  name: "Treble Clef",
+  category: "symbols",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"47.69258\" height=\"119.4193\" viewBox=\"0,0,47.69258,119.4193\"><g transform=\"translate(-214.13341,-128.13708)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M234.89505,242.14033c4.29288,-0.94773 6.97543,-5.06855 5.99165,-9.20411c-0.98378,-4.13556 -5.26137,-6.7198 -9.55425,-5.77207c-6.26154,1.66402 -7.8809,5.82407 -4.85809,12.48015c2.8069,4.99206 7.01724,7.28009 12.63104,6.86408c8.42069,-0.416 12.95491,-4.88806 13.60266,-13.41616c0.21592,-3.12004 -0.64775,-8.1121 -2.59098,-14.97618c8.42069,-4.36805 11.87533,-11.23213 10.36393,-20.59225c-1.72732,-8.3201 -7.66499,-12.79215 -17.813,-13.41616l-2.59098,-9.98412c10.57984,-12.27215 14.46632,-24.02429 11.65942,-35.25642c-4.3183,-11.44014 -9.71618,-12.79215 -16.19364,-4.05605c-4.75013,6.86408 -5.28992,16.9522 -1.61936,30.26436c-12.739,11.02413 -19.00054,21.32026 -18.78462,30.88837c0.43183,13.31216 8.96048,21.32026 25.58595,24.02429c1.72732,0.208 3.34669,0.104 4.85809,-0.312c5.39788,17.26421 1.83528,24.7523 -10.6878,22.46427zM244.61123,194.09176c6.69337,1.04001 9.60823,4.99206 8.74456,11.85614c-0.43183,3.74404 -1.83528,6.13607 -4.21035,7.17609zM237.48603,161.95537c-2.37507,-14.14417 0.53979,-21.52826 8.74456,-22.15227c2.15915,8.1121 -0.7557,15.49619 -8.74456,22.15227zM240.07701,211.87597c-4.10239,-3.32804 -5.72175,-7.17609 -4.85809,-11.54414c0.64775,-2.49603 2.37507,-4.47205 5.18196,-5.92807l4.53422,20.59225c-6.90929,1.45602 -12.739,-0.312 -17.48913,-5.30406c-5.18196,-6.65608 -5.82971,-13.31216 -1.94324,-19.96824c3.23873,-4.78406 6.90929,-8.7361 11.01167,-11.85614l1.94324,7.48809c-7.34112,3.95205 -10.90372,8.94411 -10.6878,14.97618c0.64775,7.48809 4.75013,11.33614 12.30716,11.54414z\"/></g></g></svg><!--rotationCenter:25.86658642835556:51.86291570670727-->"
+}, {
+  id: "sussy",
+  name: "Sussy",
+  category: "symbols",
+  strokeWidth: 14,
+  icon: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg width=\"20px\" height=\"20px\" viewBox=\"-36 -55 161 192\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch --><title>sussy</title><desc>Created with Sketch.</desc><desc>jk its made with https://yqnn.github.io/svg-path-editor/ stupeit</desc><defs></defs><path stroke=\"none\" stroke-width=\"14\" fill=\"transparent\" d=\"m 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0\"/></svg>"
+}, {
+  id: "fineman",
+  name: "Fine Man",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.89383\" height=\"78.21422\" viewBox=\"0,0,88.89383,78.21422\"><g transform=\"translate(-195.55309,-140.89289)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M279.11508,185.745c-1.6966,3.204 -3.2904,7.867 -5.5968,10.7655c-1.0552,1.326 -2.4643,2.334 -3.5804,3.6092c-4.8915,5.5887 -9.2072,12.2896 -16.8603,14.6515c-1.422,0.4389 -2.9744,0.119 -4.4625,0.1361c-5.1267,0.059 -10.0508,5.3321 -14.8705,3.1868c-1.8615,-0.8286 -8.787,-1.8762 -10.6075,-2.7912c-1.506,-0.757 0.1421,-7.033 -1.256,-7.9744c-1.3297,-0.8955 -2.11,-2.4181 -3.2504,-3.5448c-0.3338,-0.3298 -6.2398,-5.4131 -6.7988,-6.6552c-0.81717,-1.81566 -1.09038,-3.62653 -1.17502,-5.46147c-1.3766,0.80315 -2.62347,1.91949 -4.15618,2.34537c-1.4506,0.4031 -3.0694,0.4408 -4.5164,0.0254c-8.6871,-2.4944 -5.9867,-15.5864 -3.3957,-21.95c1.8299,-4.4941 4.0739,-9.3912 7.0918,-13.2651c1.217,-1.5622 3.0424,-2.5541 4.3761,-4.018c0.7182,-0.7882 1.0233,-1.9342 1.8461,-2.6125c1.106,-0.9119 2.5337,-1.3416 3.7892,-2.0335c4.9733,-2.7408 9.6646,-4.9652 14.9498,-7.0813c7.2911,-2.9454 15.9349,-1.4641 23.371,0.1816c1.0722,0.2373 2.2339,0.1288 3.2486,0.5491c3.685,1.5264 5.0611,4.8449 7.9949,7.1687c0.7921,0.6273 5.568,3.7781 6.5521,4.6268c3.288,2.8359 4.7025,6.0578 7.0854,9.4147c0.1895,0.2307 0.3659,0.4735 0.5345,0.7232c1.285,1.6696 2.7787,3.1875 3.9054,4.9667c0,0 1.6892,2.7027 -0.5386,4.6822c-0.42573,0.62184 -1.1019,1.17609 -2.17578,1.36827c-0.00404,2.96432 -1.17068,6.3419 -1.50402,8.98633zM240.53818,174.9073c2.071,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.679,-3.75 -3.75,-3.75c-2.0711,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.6789,3.75 3.75,3.75zM275.15348,184.1381c2.0711,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.6789,-3.75 -3.75,-3.75c-2.071,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.679,3.75 3.75,3.75zM263.18718,195.6157l-0.3007,0.5823c-1.0607,1.0607 -1.8421,2.4427 -3.0962,3.2658c-1.4785,0.9703 -5.8341,0.2488 -7.3291,0.2512c-2.0854,0.0034 -5.8991,0.3437 -7.8123,-0.2393c-0.995,-0.3031 -1.6423,-1.3094 -2.587,-1.7448c-0.6173,-0.2846 -1.4509,0.022 -2.0051,-0.3717c-0.5058,-0.3593 -0.4529,-1.179 -0.8494,-1.6563c-1.3927,-1.6766 -5.4087,-4.3908 -5.7359,-7.0634c-0.1179,-0.9621 0.2756,-1.9189 0.4134,-2.8783c0,0 0.3732,-3.7314 -3.3582,-4.1045c-3.7314,-0.3732 -4.1046,3.3582 -4.1046,3.3582c-0.1185,1.6047 -0.6347,3.2294 -0.3557,4.8141c0.8558,4.861 4.3602,7.2383 7.3409,10.6288c0.8152,0.9273 1.2332,2.2274 2.2276,2.9592c0.9599,0.7063 2.3011,0.6594 3.3795,1.1668c1.2486,0.5874 2.2405,1.7206 3.5669,2.1013c2.5046,0.7187 7.1623,0.5259 9.8799,0.5299c3.6721,0.0054 7.7509,0.5945 11.1325,-1.2872c0.4769,-0.2654 3.932,-3.7625 4.5961,-4.4265l1.2378,-1.7254c0,0 2.0801,-3.1202 -1.0401,-5.2003c-3.1202,-2.0801 -5.2003,1.0401 -5.2003,1.0401z\"/></g></g></svg><!--rotationCenter:44.44691461881348:39.107105695858934-->"
+}, {
+  id: "gear",
+  name: "Gear",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"72.07587\" height=\"72.07587\" viewBox=\"0,0,72.07587,72.07587\"><g transform=\"translate(-203.96206,-143.96206)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M264.8017,185.65875c-0.46664,0.03764 -0.86845,0.3327 -1.04846,0.76384l-2.41502,5.82838c-0.18001,0.43114 -0.10045,0.92711 0.20091,1.28083l4.78826,5.60029c0.78688,0.92081 0.73666,2.29366 -0.12349,3.1538l-3.91766,3.91764c-0.858,0.858 -2.233,0.91037 -3.15382,0.12135l-5.60032,-4.78823c-0.35159,-0.30136 -0.8497,-0.38092 -1.2787,-0.2009l-5.83042,2.41501c-0.43114,0.18001 -0.72621,0.58396 -0.76384,1.0506l-0.57138,7.34146c-0.09416,1.20971 -1.10284,2.14513 -2.31671,2.14513h-5.54165c-1.21387,0 -2.22256,-0.93555 -2.31671,-2.14513l-0.57339,-7.34146c-0.03563,-0.46677 -0.33069,-0.87059 -0.76183,-1.0506l-5.83042,-2.41501c-0.43114,-0.18001 -0.9251,-0.10045 -1.28084,0.2009l-5.59818,4.78823c-0.92082,0.78902 -2.29368,0.73665 -3.15382,-0.12135l-3.91766,-3.91764c-0.858,-0.86014 -0.91037,-2.23299 -0.12349,-3.1538l4.78826,-5.60029c0.30136,-0.35373 0.38092,-0.84969 0.20091,-1.28083l-2.41502,-5.82838c-0.17586,-0.43114 -0.58397,-0.7262 -1.04645,-0.76384l-7.34565,-0.57137c-1.20959,-0.09429 -2.143,-1.10498 -2.143,-2.31884v-5.53948c0,-1.21387 0.93341,-2.22254 2.143,-2.31884l7.34552,-0.57311c0.46262,-0.03563 0.87059,-0.32868 1.04645,-0.76183l2.41502,-5.82838c0.18001,-0.43114 0.10045,-0.92497 -0.20091,-1.27869l-4.78826,-5.60029c-0.78688,-0.92296 -0.73451,-2.2958 0.12349,-3.1538l3.91766,-3.91764c0.86015,-0.858 2.233,-0.91251 3.15382,-0.12349l5.59818,4.78823c0.35587,0.3035 0.8497,0.38092 1.28084,0.20305l5.83042,-2.41715c0.43114,-0.17787 0.72621,-0.58383 0.76183,-1.04846l0.57339,-7.34146c0.09416,-1.21172 1.10284,-2.14513 2.31671,-2.14513h5.54165c1.21374,0 2.22242,0.9334 2.31658,2.14473l0.57138,7.34146c0.03764,0.46248 0.3327,0.87059 0.76384,1.04846l5.83042,2.41715c0.429,0.17787 0.92497,0.10045 1.2787,-0.20305l5.60032,-4.78823c0.92082,-0.78902 2.29582,-0.73451 3.15382,0.12349l3.91766,3.91764c0.86015,0.858 0.91037,2.23085 0.12349,3.1538l-4.78826,5.60029c-0.30551,0.35373 -0.38092,0.84755 -0.20091,1.27869l2.41502,5.82838c0.18001,0.43329 0.58182,0.7262 1.04846,0.76183l7.34351,0.57338c1.20959,0.0963 2.143,1.10498 2.143,2.31884v5.54162c0,1.21172 -0.93341,2.22254 -2.143,2.3167zM248.19535,188.19511c2.18907,-2.19107 3.39451,-5.10003 3.39451,-8.19732c0,-3.09514 -1.20543,-6.00625 -3.39451,-8.19316c-2.18907,-2.1912 -5.09805,-3.39449 -8.19535,-3.39449c-3.09529,0 -6.00628,1.20342 -8.19535,3.39449c-2.18907,2.18692 -3.39451,5.09802 -3.39451,8.19316c0,3.09728 1.20543,6.00625 3.39451,8.19732c2.18907,2.18692 5.1002,3.39234 8.19535,3.39234c3.0973,0 6.00628,-1.20543 8.19535,-3.39234z\"/></g></g></svg><!--rotationCenter:36.03793749999991:36.0379375-->"
+}, {
+  id: "lightningBolt",
+  name: "Lightning Bolt",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"78.18686\" height=\"109.94651\" viewBox=\"0,0,78.18686,109.94651\"><g transform=\"translate(-201.83621,-127.40166)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M205.16433,141.90813l35.12807,-12.29935l11.22389,28.33749l-5.68505,2.80539l17.19572,25.39802l-7.58006,2.80539l19.38876,41.43616l-39.21051,-34.88167l9.03647,-3.21279l-24.48337,-22.18523l10.63908,-4.54328z\"/></g></g></svg><!--rotationCenter:38.163794148185815:52.598340159906144-->"
+}, {
+  id: "lightningBolt2",
+  name: "Bolt",
+  category: "objects",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"62.07368\" height=\"109.86863\" viewBox=\"0,0,62.07368,109.86863\"><g transform=\"translate(-209.60633,-127.74924)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M221.41386,129.49924h46.23276l-17.81875,36.38425h18.43503l-46.5409,64.61728l8.75827,-52.16357h-18.74317z\"/></g></g></svg><!--rotationCenter:30.393667282737823:52.250764177316256-->"
 }, {
   id: "cloud",
   name: "Cloud",
-  path: selectablePaths.cloud,
-  size: 100,
+  category: "objects",
   strokeWidth: 11,
   icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.71119" height="50.07795" viewBox="0,0,182.71119,50.07795"><g transform="translate(-148.64441,-154.96103)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M158.70156,190.30055c5.28613,-2.83052 11.70216,-2.80297 14.45107,-3.01001c1.11791,-2.76161 17.92516,-32.66635 39.60873,-32.32664c21.75534,0.41423 30.07396,15.16631 40.51872,23.33781c12.96693,-9.11314 22.14689,-12.62033 35.86057,-9.23745c12.88406,3.27521 19.41273,22.07303 19.93181,22.83242c0.25097,0.37125 7.32687,-4.86498 13.30369,-3.82602c7.68158,1.33529 10.15773,16.75568 8.47916,16.75568c-2.13284,0 -176.99884,-0.27065 -181.13536,0.21264c-4.02823,-3.61485 4.21405,-12.184 8.98161,-14.73843z"/></g></g></svg><!--rotationCenter:91.35559376978156:25.038973609398028-->'
 }, {
+  id: "cloud2",
+  name: "Cloud 2",
+  category: "objects",
+  strokeWidth: 8,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.70967" height="52.3294" viewBox="-0.5,-0.5,95.70967,52.3294"><g transform="translate(-169.75478,-142.5337)"><g fill="#9966ff" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10"><path d="M184.87999,193.6131c-8.21535,0 -14.87521,-6.82713 -14.87521,-15.24882c0,-8.42169 6.65986,-15.24882 14.87521,-15.24882c0,-11.22892 8.87981,-20.33176 19.83361,-20.33176c10.9538,0 19.83361,9.10284 19.83361,20.33176c0,-5.26356 5.54988,-9.53051 12.39601,-9.53051c6.84613,0 12.39601,4.26696 12.39601,9.53051c8.21535,0 14.87521,6.82713 14.87521,15.24882c0,8.42169 -6.65986,15.24882 -14.87521,15.24882z"/></g></g></svg><!--rotationCenter:70.24522487951367:37.466301916932906-->'
+}, {
+  id: "pinPush",
+  name: "Push Pin",
+  category: "objects",
+  strokeWidth: 7,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"61.31219\" height=\"110.6081\" viewBox=\"0,0,61.31219,110.6081\"><g transform=\"translate(-209.34391,-124.69587)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M222.09831,140.344c-1.01825,-9.65411 4.93591,-14.6201 17.86248,-14.89798c14.25978,0.27787 20.78778,5.15938 19.58401,14.64452c-1.07865,2.75993 -3.58112,4.74632 -7.50742,5.95918l0.95137,20.6037c12.10248,3.52971 17.71147,10.25867 16.82698,20.18689c-1.20809,9.47387 -11.34958,14.162 -30.42447,14.06437c-20.72307,-1.21286 -30.45251,-6.94863 -29.18833,-17.2073c0.31928,-7.66771 5.77079,-13.70764 16.35452,-18.11976l1.61798,-20.35587c-3.11515,-1.26168 -5.14085,-2.8876 -6.07712,-4.87775zM236.3883,200.68502l-0.98373,24.19724c4.43974,13.01109 0.75074,12.66187 6.17421,0.35485l1.13906,-24.38311c-2.23928,0.12767 -4.34913,0.07134 -6.32953,-0.16898z\"/></g></g></svg><!--rotationCenter:30.656093794302706:55.30412930875097-->"
+}, {
+  id: "bookmark",
+  name: "Bookmark",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"58.96399\" height=\"87.07251\" viewBox=\"0,0,58.96399,87.07251\"><g transform=\"translate(-210.51801,-137.15338)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M211.51801,138.15338h56.96399v83.69324l-28.48199,-27.89775l-28.48199,27.89775z\"/></g></g></svg><!--rotationCenter:29.481992811501783:42.84662020766774-->"
+}, {
+  id: "note",
+  name: "Note",
+  category: "objects",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"74.4001\" height=\"74.4001\" viewBox=\"0,0,74.4001,74.4001\"><g transform=\"translate(-202.09284,-143.50706)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M204.50706,144.50706h70.98589v70.98589h-53.23942l-17.74647,-17.74647zM204.50706,197.74647h17.74647v17.74647z\"/></g></g></svg><!--rotationCenter:37.90715845055203:36.4929448881789-->"
+}, {
+  id: "paper",
+  name: "Paper",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.77773\" height=\"93.14673\" viewBox=\"0,0,70.77773,93.14673\"><g transform=\"translate(-205.36934,-132.76719)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M206.36934,135.08609h48.06665l19.19467,18.11654v71.71129h-67.26132zM273.63066,153.20262h-19.19467v-18.11654z\"/></g></g></svg><!--rotationCenter:34.6306607428115:47.23281356091735-->"
+}, {
+  id: "eye",
+  name: "Eye",
+  category: "objects",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"54.4096\" height=\"31.61499\" viewBox=\"0,0,54.4096,31.61499\"><g transform=\"translate(-212.7952,-164.19231)\"><g fill=\"none\" stroke=\"none\" stroke-miterlimit=\"10\"><path d=\"M212.7952,179.99996c0,0 7.27068,-15.89135 27.2048,-15.80732c20.22188,0.08524 27.2048,15.80732 27.2048,15.80732c0,0 -7.1276,15.78741 -27.2048,15.80732c-19.93533,0.01977 -27.2048,-15.80732 -27.2048,-15.80732zM239.92857,190.14286c5.52285,0 10,-4.47715 10,-10c0,-5.52285 -4.47715,-10 -10,-10c-5.52285,0 -10,4.47715 -10,10c0,5.52285 4.47715,10 10,10z M235,180c0,-2.80087 2.27056,-5.07143 5.07143,-5.07143c2.80087,0 5.07143,2.27056 5.07143,5.07143c0,2.80087 -2.27056,5.07143 -5.07143,5.07143c-2.80087,0 -5.07143,-2.27056 -5.07143,-5.07143z\" stroke-width=\"0.5\"/></g></g></svg><!--rotationCenter:27.204800000000006:15.807692078366728-->"
+}, {
+  id: "lock",
+  name: "Lock",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.73315\" height=\"90.01327\" viewBox=\"0,0,70.73315,90.01327\"><g transform=\"translate(-206.93864,-138.74731)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M209.85218,179.73062c0,-22.22024 14.52972,-40.2333 32.45304,-40.2333c17.92332,0 32.45304,18.01306 32.45304,40.2333h-8.65414c0,-16.29484 -10.65513,-29.50442 -23.7989,-29.50442c-13.14377,0 -23.7989,13.20958 -23.7989,29.50442zM207.68864,179.73062h69.23315v48.27997h-69.23315z\"/></g></g></svg><!--rotationCenter:33.061357467373085:41.2526857028754-->"
+}, {
+  id: "lockOpened",
+  name: "Open Lock",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.51406\" height=\"98.11968\" viewBox=\"0,0,70.51406,98.11968\"><g transform=\"translate(-211.75867,-144.22462)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M214.66536,182.13604c0,-20.52368 14.48374,-37.16142 32.35034,-37.16142c17.8666,0 32.35034,16.63773 32.35034,37.16142v14.86457h-8.62676v-14.86457c0,-15.0507 -10.62141,-27.25171 -23.72358,-27.25171c-13.10217,0 -23.72358,12.201 -23.72358,27.25171zM212.50867,197.0006h69.01406v44.5937h-69.01406z\"/></g></g></svg><!--rotationCenter:28.241327914657404:35.775379392971274-->"
+}, {
+  id: "inbox",
+  name: "Inbox",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.79055\" height=\"59.55945\" viewBox=\"0,0,88.79055,59.55945\"><g transform=\"translate(-197.29858,-146.19645)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M198.04858,175.97617h21.69013l10.84507,9.67657h21.69013l10.84507,-9.67657h21.69013v29.02972h-86.76053v-29.02972l16.2676,-29.02972h54.22533l16.2676,29.02972h-21.69013l-10.84507,9.67657h-21.69013l-10.84507,-9.67657z\"/></g></g></svg><!--rotationCenter:42.70141657280442:33.80354912140575-->"
+}, {
   id: "speechBubble",
   name: "Speech Bubble",
-  path: selectablePaths.speechBubble,
-  size: 50,
+  category: "speech",
   strokeWidth: 5,
   icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"71.71694\" height=\"51.23518\" viewBox=\"0,0,71.71694,51.23518\"><g transform=\"translate(-204.14153,-154.38241)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"#ff00ff\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"555\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M204.14966,175.04472c-0.31482,-15.49173 8.58161,-20.45314 15.2824,-20.45314c8.15418,0 26.20534,-0.47063 40.10194,0c6.7857,0.22981 16.64329,5.37466 16.31655,20.45314c-0.30922,14.27018 -11.32079,18.61465 -16.43145,18.61465c-4.65217,0 -12.43125,0 -21.25748,0c-2.33362,0 -8.8706,12.31777 -19.5339,11.95015c-7.56289,-0.26073 4.2991,-11.95015 1.26396,-11.95015c-9.00032,0 -15.52291,-7.83267 -15.74202,-18.61465z\"/></g></g></svg><!--rotationCenter:35.858470177379075:25.617591628072915-->"
 }, {
   id: "thinkingBubble",
   name: "Thinking Bubble",
-  path: selectablePaths.thinkingBubble,
-  size: 65,
+  category: "speech",
   strokeWidth: 10,
-  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"132.75\" height=\"100.25\" viewBox=\"0,0,132.75,100.25\"><g transform=\"translate(-173.625,-129.875)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"".concat(strokeColor, "\" stroke-width=\"8\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z\"/></g></g></svg><!--rotationCenter:66.37500000000003:50.12499999999997-->")
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"132.75\" height=\"100.25\" viewBox=\"0,0,132.75,100.25\"><g transform=\"translate(-173.625,-129.875)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"8\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z\"/></g></g></svg><!--rotationCenter:66.37500000000003:50.12499999999997-->"
 }, {
-  id: "check",
-  name: "Checkmark",
-  path: selectablePaths.check,
-  size: 50,
-  strokeWidth: 11,
-  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149.5" height="131.75" viewBox="0,0,149.5,131.75"><g transform="translate(-165.25,-114.125)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#00f31c" fill-rule="nonzero" stroke="none" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M165.25,196.6109l22.7173,-22.8612l30.6088,24.281l71.6857,-83.9057l24.4882,22.1844l-94.7184,109.5656z"/></g></g></svg><!--rotationCenter:74.74999999999997:65.87500000000003-->'
+  id: "shoutBubble",
+  name: "Shout Bubble",
+  category: "speech",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"157.28437\" height=\"90.90803\" viewBox=\"0,0,157.28437,90.90803\"><g transform=\"translate(-161.5226,-134.01519)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M227.11094,208.57049c-5.92772,5.58295 -15.6124,15.76793 -29.02488,15.33964c-11.40942,-0.36435 0.9565,-15.09531 2.93147,-18.17751c3.24637,-5.06637 1.63986,-8.52859 1.63986,-8.52859l-21.47242,5.86044l4.84649,-13.34467l-21.15795,-1.09108l23.26277,-13.82792l-20.14297,-9.34374l22.87578,-5.70891l-10.25508,-14.51162l19.58978,8.2709l-1.70024,-12.65976l16.59077,13.46143l1.10608,-13.38683l15.56167,11.24624l12.10608,-16.09172l5.91725,15.89507l18.12276,-12.77889l-3.24144,15.28333l22.11413,-10.58546l-4.54409,17.01121l23.95449,-11.29693l-8.61338,14.50991l16.14654,3.46186l-20.56767,7.84186l21.96975,8.07507l-23.41162,4.65774l18.31315,10.48796l-30.03068,-1.02513l3.75565,11.52599l-26.77205,-10.86823l-7.93841,9.53141l-12.67597,-9.86071c0,0 -3.17514,4.90084 -9.25562,10.62767z\"/></g></g></svg><!--rotationCenter:78.47739959073004:45.984810725006156-->"
 }, {
-  id: "cross",
-  name: "X",
-  path: selectablePaths.cross,
-  size: 85,
-  strokeWidth: 16,
-  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239.69993" height="238.99871" viewBox="0,0,239.69993,238.99871"><g transform="translate(-120.15003,-60.50064)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M199.65003,179.64477l-79.5,-77l38.00987,-40.68564l79.49013,76.68564l80.09184,-78.14413l39.93685,39.28777l-78.5287,79.35636l80.69993,77.78108l-39.28229,39.59957l-80.18174,-77.08931l-77.03078,80.06325l-41.49233,-38.94156z"/></g></g></svg><!--rotationCenter:119.84996640680819:119.49935645821554-->'
+  id: "squareBubble",
+  name: "Square Bubble",
+  category: "speech",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.69872\" height=\"63.7222\" viewBox=\"0,0,88.69872,63.7222\"><g transform=\"translate(-185.68669,-145.32008)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M186.43669,152.83924c0,-3.86809 2.56467,-6.76916 10.25867,-6.76916h67.53626c6.83912,0 9.40378,2.90107 9.40378,6.76916v33.06c0,4.65389 -2.56467,7.55496 -7.19355,7.80542h-38.21202c-2.85841,0 -10.8653,15.02618 -23.92639,14.57777c-9.2635,-0.31805 5.26578,-14.57777 1.5482,-14.57777h-11.72096c-5.12934,-0.25046 -7.694,-3.15153 -7.694,-8.05424z\"/></g></g></svg><!--rotationCenter:54.31330594980122:34.679918130990416-->"
 }, {
-  id: "sussy",
-  name: "Sussy",
-  path: selectablePaths.sussy,
-  size: 100,
-  strokeWidth: 14,
-  icon: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"-36 -55 161 192\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>sussy</title>\n    <desc>Created with Sketch.</desc>\n    <desc>jk its made with https://yqnn.github.io/svg-path-editor/ stupeit</desc>\n    <defs></defs>\n    <path stroke=\"".concat(strokeColor, "\" stroke-width=\"14\" fill=\"transparent\" d=\"m 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0\"/>\n</svg>")
+  id: "codeblock",
+  name: "Code Block",
+  category: "blocks",
+  strokeWidth: 9,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.85186" height="56" viewBox="0,0,97.85186,56"><g transform="translate(-191.07407,-152)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff4ddf" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.07407,156c0,-2.20914 1.79086,-4 4,-4h8c2,0 3,1 4,2l4,4c1,1 2,2 4,2h12c2,0 3,-1 4,-2l4,-4c1,-1 2,-2 4,-2h45.85186c2.20914,0 4,1.79086 4,4v40c0,2.20914 -1.79086,4 -4,4h-45.85186c-2,0 -3,1 -4,2l-4,4c-1,1 -2,2 -4,2h-12c-2,0 -3,-1 -4,-2l-4,-4c-1,-1 -2,-2 -4,-2h-8c-2.20914,0 -4,-1.79086 -4,-4z"/></g></g></svg><!--rotationCenter:48.92592750000003:28-->'
+}, {
+  id: "codeblockHat",
+  name: "Hat Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"84.78484\" height=\"47.53754\" viewBox=\"0,0,84.78484,47.53754\"><g transform=\"translate(-197.60677,-156.23123)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M199.35839,168.32892c19.05087,-17.70539 45.86742,-9.2558 53.63311,0h25.64101c0.87394,-0.08786 1.54364,0.43928 2.0091,1.58139v25.03096c-0.11399,1.14212 -0.60796,1.87338 -1.48189,2.19379h-53.88959c-1.94498,1.24031 -3.22027,4.07751 -5.32199,4.88371h-7.63032c-2.19434,-0.7907 -3.29151,-3.59689 -5.42173,-4.72092h-5.70671c-0.99268,-0.63049 -1.58401,-1.32041 -1.774,-2.06976z\"/></g></g></svg><!--rotationCenter:42.39322956915433:23.768771365814672-->"
+}, {
+  id: "codeblockEndCap",
+  name: "End-Cap Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"76.45772\" height=\"46.88027\" viewBox=\"0,0,76.45772,46.88027\"><g transform=\"translate(-201.77114,-156.55987)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M203.52114,161.43742c0.24291,-1.49041 1.14572,-2.53293 2.70844,-3.12755h10.02c3.52218,1.80703 5.31971,5.89601 9.18196,7.15861l12.76487,0.04633c4.11731,-0.9846 5.31971,-5.56009 9.64349,-7.20495h25.33541c1.82991,0.47106 2.9311,1.53675 3.30356,3.19705v36.52282c-0.32388,1.92286 -1.44936,3.14299 -3.37644,3.66039h-66.14412c-1.80562,-0.23939 -2.95134,-1.24716 -3.43716,-3.0233z\"/></g></g></svg><!--rotationCenter:38.22886002396157:23.44013298722041-->"
+}, {
+  id: "codeblockReporter",
+  name: "Reporter Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"85.65959\" height=\"40.96502\" viewBox=\"0,0,85.65959,40.96502\"><g transform=\"translate(-197.1702,-159.51744)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M217.51386,161.26761l44.88353,0.07177c25.27631,2.99048 24.54073,34.54606 0,37.33319l-44.88353,0.05981c-23.06955,-1.51917 -26.45579,-34.27094 0,-37.46478z\"/></g></g></svg><!--rotationCenter:42.82979732428112:20.482555890835414-->"
+}, {
+  id: "codeblockBoolean",
+  name: "Boolean Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"87.64482\" height=\"38.77643\" viewBox=\"0,0,87.64482,38.77643\"><g transform=\"translate(-196.17448,-160.6117)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M215.3143,162.45314l49.38202,-0.09007l16.71212,17.64256l-16.71212,17.6313l-49.38202,-0.07881l-16.72274,-17.55249z\"/></g></g></svg><!--rotationCenter:43.82552095025645:19.388299907582876-->"
 }];
-/* harmony default export */ __webpack_exports__["default"] = (selectableShapes);
+const generateShapeSVG = shapeObject => {
+  const strokeColor = '#575e75';
+  const icon = shapeObject.icon;
+  // extract viewbox
+  const viewBoxStart = icon.substring(icon.indexOf('viewBox="') + 9);
+  const viewBoxString = viewBoxStart.substring(0, viewBoxStart.indexOf('"'));
+  // extract fill color
+  const fillColorStart = icon.substring(icon.indexOf('fill="') + 6);
+  const fillColorString = fillColorStart.substring(0, fillColorStart.indexOf('"'));
+  // extract stroke width
+  const strokeWidthStart = icon.substring(icon.indexOf('stroke-width="') + 14);
+  const strokeWidthString = strokeWidthStart.substring(0, strokeWidthStart.indexOf('"'));
+  // extract viewbox to array
+  const viewBox = viewBoxString.replace(/ /gmi, ',').split(',').map(value => value.trim()).map(num => Number(num));
+  const newViewBox = [viewBox[0] - 1.5, viewBox[1] - 1.5, viewBox[2] + 1.5 * 2, viewBox[3] + 1.5 * 2].join(',');
+  const newIcon = icon.replace("viewBox=\"".concat(viewBoxString, "\""), "viewBox=\"".concat(newViewBox, "\"")).replace(/stroke="[^"]*"/, "stroke=\"".concat(strokeColor, "\"")).replace("fill=\"".concat(fillColorString, "\""), 'fill="none"').replace("stroke-width=\"".concat(strokeWidthString, "\""), "stroke-width=\"".concat(shapeObject.strokeWidth, "\""));
+  return "".concat(newIcon);
+};
+const categorizeShapes = shapes => {
+  const categorized = {};
+  for (const categoryId in categories) {
+    categorized[categoryId] = [];
+  }
+  for (const shape of shapes) {
+    let targetCategory = shape.category || "custom";
+    if (!categorized[targetCategory]) {
+      _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid shape category: ".concat(targetCategory));
+      targetCategory = "custom";
+    }
+    categorized[targetCategory].push(shape);
+  }
+  return categorized;
+};
+
 
 /***/ }),
 
@@ -205239,10 +205612,7 @@ class PenTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.To
   static get SNAP_TOLERANCE() {
     return 5;
   }
-  /** Smaller numbers match the line more closely, larger numbers for smoother curves */
-  static get SMOOTHING() {
-    return 2;
-  }
+
   /**
    * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
    * @param {!function} onUpdateSvg A callback to call when the image visibly changes
@@ -205266,9 +205636,14 @@ class PenTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.To
     this.onMouseDrag = this.handleMouseDrag;
     this.onMouseUp = this.handleMouseUp;
     this.fixedDistance = 2;
+    /** Smaller numbers match the line more closely, larger numbers for smoother curves */
+    this.simplifySize = 2;
   }
   setColorState(colorState) {
     this.colorState = colorState;
+  }
+  setSimplifySize(simplifySize) {
+    this.simplifySize = simplifySize;
   }
   drawHitPoint(hitResult) {
     // If near another path's endpoint, draw hit point to indicate that paths would merge
@@ -205368,7 +205743,9 @@ class PenTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.To
     const hasStartConnection = this.subpathIndex > 0;
     const hasEndConnection = !!this.hitResult;
     this.path.removeSegments(this.subpathIndex);
-    this.subpath.simplify(this.SMOOTHING);
+    if (this.simplifySize > 0) {
+      this.subpath.simplify(this.simplifySize);
+    }
     if (hasStartConnection && this.subpath.length > 0) {
       this.subpath.removeSegment(0);
     }
@@ -205850,8 +206227,7 @@ class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
     if (event.modifiers.shift) {
       sussy.size = squareDimensions.size.abs();
     }
-    const shapeObject = _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__["default"].filter(shape => shape.id === this.shape)[0];
-    const path = shapeObject.path;
+    const path = _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__["selectablePaths"][this.shape];
     this.sussy = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.CompoundPath(path);
     this.sussy.bounds = sussy;
     if (event.modifiers.alt) {
@@ -205873,7 +206249,7 @@ class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.
       return;
     }
     if (this.sussy) {
-      if (this.sussy.area < SussyTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
+      if (Math.abs(this.sussy.area) < SussyTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
         // Tiny sussy created unintentionally?
         this.sussy.remove();
         this.sussy = null;
@@ -207719,6 +208095,7 @@ const Fonts = {
   ARCADE: 'Arcade',
   ARCHIVO: 'Archivo',
   ARCHIVOBLACK: 'Archivo Black',
+  BRANCHES: 'Branches',
   SCRATCH: 'Scratch',
   CHINESE: '"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑"',
   JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
@@ -207727,7 +208104,8 @@ const Fonts = {
   JUSTBUBBLE: 'Just Bubble',
   LILITAONE: 'Lilita One Regular',
   MINECRAFTER: 'Minecrafter',
-  OBELIXPRO: 'Obelix Pro'
+  OBELIXPRO: 'Obelix Pro',
+  JETBRAINSMONO: 'Jet Brains Mono'
 };
 /* harmony default export */ __webpack_exports__["default"] = (Fonts);
 
@@ -208381,26 +208759,26 @@ const changeBitEraserSize = function changeBitEraserSize(eraserSize) {
 /*!***************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/brush-mode.js ***!
   \***************************************************************/
-/*! exports provided: default, changeBrushSize, changeSegSize */
+/*! exports provided: default, changeBrushSize, changeSimplifySize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeBrushSize", function() { return changeBrushSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSegSize", function() { return changeSegSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
 
 const CHANGE_BRUSH_SIZE = 'scratch-paint/brush-mode/CHANGE_BRUSH_SIZE';
-const CHANGE_SEG_SIZE = CHANGE_BRUSH_SIZE + 1;
+const CHANGE_SIMPLIFY_SIZE = 'scratch-paint/brush-mode/CHANGE_SIMPLIFY_SIZE';
 const initialState = {
   brushSize: 10,
-  segSize: 1
+  simplifySize: 10
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
   let {
-    segSize,
+    simplifySize,
     brushSize
   } = state;
   switch (action.type) {
@@ -208410,17 +208788,17 @@ const reducer = function reducer(state, action) {
         return state;
       }
       return {
-        segSize,
-        brushSize: Math.max(1, action.brushSize)
+        brushSize: Math.max(1, action.brushSize),
+        simplifySize
       };
-    case CHANGE_SEG_SIZE:
-      if (isNaN(action.segSize)) {
-        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid brush size: ".concat(action.segSize));
+    case CHANGE_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
         return state;
       }
       return {
         brushSize,
-        segSize: Math.max(1, action.segSize)
+        simplifySize: Math.max(0, action.simplifySize)
       };
     default:
       return state;
@@ -208434,10 +208812,10 @@ const changeBrushSize = function changeBrushSize(brushSize) {
     brushSize: brushSize
   };
 };
-const changeSegSize = function changeSegSize(segSize) {
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
   return {
-    type: CHANGE_SEG_SIZE,
-    segSize: segSize
+    type: CHANGE_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
   };
 };
 
@@ -208678,21 +209056,28 @@ const setCustomFonts = fonts => ({
 /*!****************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/eraser-mode.js ***!
   \****************************************************************/
-/*! exports provided: default, changeBrushSize */
+/*! exports provided: default, changeBrushSize, changeSimplifySize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeBrushSize", function() { return changeBrushSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
 
 const CHANGE_ERASER_SIZE = 'scratch-paint/eraser-mode/CHANGE_ERASER_SIZE';
+const CHANGE_ERASER_SIMPLIFY_SIZE = 'scratch-paint/eraser-mode/CHANGE_ERASER_SIMPLIFY_SIZE';
 const initialState = {
-  brushSize: 40
+  brushSize: 40,
+  simplifySize: 10
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
+  let {
+    simplifySize,
+    brushSize
+  } = state;
   switch (action.type) {
     case CHANGE_ERASER_SIZE:
       if (isNaN(action.brushSize)) {
@@ -208700,7 +209085,17 @@ const reducer = function reducer(state, action) {
         return state;
       }
       return {
-        brushSize: Math.max(1, action.brushSize)
+        brushSize: Math.max(1, action.brushSize),
+        simplifySize
+      };
+    case CHANGE_ERASER_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
+        return state;
+      }
+      return {
+        brushSize,
+        simplifySize: Math.max(0, action.simplifySize)
       };
     default:
       return state;
@@ -208712,6 +209107,12 @@ const changeBrushSize = function changeBrushSize(brushSize) {
   return {
     type: CHANGE_ERASER_SIZE,
     brushSize: brushSize
+  };
+};
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
+  return {
+    type: CHANGE_ERASER_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
   };
 };
 
@@ -209252,6 +209653,50 @@ const changeMode = function changeMode(mode) {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/reducers/pen-mode.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/pen-mode.js ***!
+  \*************************************************************/
+/*! exports provided: default, changeSimplifySize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_PEN_SIMPLIFY_SIZE = 'scratch-paint/pen-mode/CHANGE_PEN_SIMPLIFY_SIZE';
+const initialState = {
+  simplifySize: 2
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_PEN_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
+        return state;
+      }
+      return {
+        simplifySize: Math.max(0, action.simplifySize)
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
+  return {
+    type: CHANGE_PEN_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/reducers/rect-mode.js":
 /*!**************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/rect-mode.js ***!
@@ -209371,13 +209816,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
 /* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
 /* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
-/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
-/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
-/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
-/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
-/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+/* harmony import */ var _pen_mode__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
+/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
+/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
+/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+
 
 
 
@@ -209429,13 +209876,14 @@ __webpack_require__.r(__webpack_exports__);
   hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_19__["default"],
   layout: _layout__WEBPACK_IMPORTED_MODULE_20__["default"],
   modals: _modals__WEBPACK_IMPORTED_MODULE_21__["default"],
-  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_22__["default"],
-  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_23__["default"],
-  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_24__["default"],
-  theme: _theme__WEBPACK_IMPORTED_MODULE_25__["default"],
-  undo: _undo__WEBPACK_IMPORTED_MODULE_27__["default"],
-  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_26__["default"],
-  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_28__["default"]
+  penMode: _pen_mode__WEBPACK_IMPORTED_MODULE_22__["default"],
+  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_23__["default"],
+  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_24__["default"],
+  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_25__["default"],
+  theme: _theme__WEBPACK_IMPORTED_MODULE_26__["default"],
+  undo: _undo__WEBPACK_IMPORTED_MODULE_28__["default"],
+  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_27__["default"],
+  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_29__["default"]
 }));
 
 /***/ }),

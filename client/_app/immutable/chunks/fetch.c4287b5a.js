@@ -1,0 +1,1 @@
+const o=async(e,n)=>{const t=await fetch(e,n);if(!t.ok){let r="unknown";try{const s=await t.json();s&&typeof s.message=="string"&&(r=s.message)}catch{}throw new Error(`HTTP status ${t.status} fetching ${t.url}: ${r}`)}return t};export{o as f};

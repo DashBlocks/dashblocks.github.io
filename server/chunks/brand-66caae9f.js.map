@@ -1,0 +1,1 @@
+{"version":3,"file":"brand-66caae9f.js","sources":["../../../.svelte-kit/adapter-node/chunks/brand.js"],"sourcesContent":["const APP_NAME = \"Dash Placeholder\";\nconst CONTACT = \"https://scratch.mit.edu/users/damir2809#comments\";\nexport {\n  APP_NAME as A,\n  CONTACT as C\n};\n"],"names":[],"mappings":"AAAK,MAAC,QAAQ,GAAG,mBAAmB;AAC/B,MAAC,OAAO,GAAG;;;;"}

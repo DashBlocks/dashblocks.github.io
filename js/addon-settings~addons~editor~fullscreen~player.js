@@ -3734,6 +3734,9 @@ const manifest = {
     "link": "https://scratch.mit.edu/users/BarelySmooth/"
   }, {
     "name": "GarboMuffin"
+  }, {
+    "name": "Maximouse",
+    "link": "https://scratch.mit.edu/users/Maximouse/"
   }],
   "userstyles": [{
     "url": "search-bar.css"
