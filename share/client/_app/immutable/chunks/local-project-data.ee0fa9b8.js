@@ -1,1 +1,0 @@
-const a="unshared:localProjectData0";function n(){try{const t=localStorage.getItem(a);if(t)return JSON.parse(t)}catch{}return{}}function c(t){const e=n()[t];return e?e.ownershipToken:null}function s(t,e){const o=n();o[t]={ownershipToken:e};try{localStorage.setItem(a,JSON.stringify(o))}catch{}}export{c as g,s};
