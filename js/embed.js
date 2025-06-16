@@ -225,6 +225,486 @@ var GUI =
 /************************************************************************/
 /******/ ({
 
+/***/ "../PenguinMod-ExtensionsGallery/src/lib/extensions.js":
+/*!*************************************************************!*\
+  !*** ../PenguinMod-ExtensionsGallery/src/lib/extensions.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*
+    note to contributors & developers that can read JSON:
+        the extra commas are added at the end of each thing
+        to help copy & pasting work better
+        pleas dont remove them :)
+*/
+/* harmony default export */ __webpack_exports__["default"] = ([
+    {
+        name: "Pen+",
+        description: "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
+        code: "ObviousAlexC/PenPlus.js",
+        banner: "ObviousAlexC/PenPlus.svg",
+        creator: "pinksheep2917",
+    },
+    {
+        name: "Boxed Physics",
+        description: "Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp's implementation.",
+        code: "pooiod/Box2D.js",
+        banner: "pooiod/B2Dimg.svg",
+        creator: "pooiod7",
+    },
+    {
+        name: "3D Math",
+        description: "A handful of utilities for making your own sprite-based 3D engine.",
+        code: "ObviousAlexC/3DMath.js",
+        banner: "ObviousAlexC/3DMath.svg",
+        creator: "pinksheep2917",
+    },
+    {
+        name: "GPU.sb3",
+        description: "Use WebGPU compute shaders to accelerate your projects.",
+        code: "derpygamer2142/gpusb3.js",
+        banner: "derpygamer2142/gpusb3.svg",
+        creator: "insanetaco2000",
+        creatorAlias: "derpygamer2142",
+        isGitHub: false,
+        unstable: true,
+        unstableReason: "WebGPU is still experimental and not supported by all browsers and does not work when packaged to electron. Check compatibility at webgpu.io."
+    },
+    {
+        name: "Object",
+        description: "Handle large JSON files at an extreme speed.",
+        code: "skyhigh173/object.js",
+        banner: "skyhigh173/object.svg",
+        creator: "skyhigh173",
+        isGitHub: true,
+    },
+    {
+        name: "Scope Variable",
+        description: "Manage your variables in a block-like structure.",
+        code: "0znzw/ScopeVars.js",
+        banner: "0znzw/ScopeVars.png",
+        creator: "yuri-kiss",
+        isGitHub: true,
+        unstable: true,
+        unstableReason: "This extension uses unstable techniques that may not always work.",
+    },
+    {
+        name: "Extra Timers",
+        description: "Allows for the creation and management of additional timer blocks.",
+        code: "steve0greatness/timers.js",
+        banner: "steve0greatness/timers.svg",
+        creator: "Steve0Greatness",
+        isGitHub: true, 
+    },
+    {
+        name: "Dictation",
+        description: "Convert your voice into text. (not supported in all browsers)",
+        code: "pooiod/Dictation.js",
+        banner: "pooiod/Dictation.svg",
+        creator: "pooiod7",
+    },
+    {
+        name: "Text To Speech: Redone",
+        description: "A better alternitive to the base text to speech extension. Powered by the TTStool API",
+        code: "PuzzlingGGG/ttsr.js",
+        banner: "PuzzlingGGG/TTSR.png",
+        creator: "PuzzlingGGG",
+        isGitHub: true,
+    },
+    {
+        name: "CloudLink",
+        description: "A powerful WebSocket extension for Scratch. Allows for online connectivity to servers for things like multiplayer.",
+        code: "MikeDev101/cloudlink.js",
+        banner: "MikeDev101/cloudlink.svg",
+        creator: "MikeDev101",
+        isGitHub: true,
+    },
+    {
+        name: "E2EE",
+        description: "A general-purpose E2EE (End-to-End Encryption) extension for Scratch.",
+        code: "MikeDev101/e2ee.js",
+        banner: "MikeDev101/e2ee.svg",
+        creator: "MikeDev101",
+        isGitHub: true,
+    },
+    {
+        name: "WebRTC",
+        description: "A barebones WebRTC implementation.",
+        code: "MikeDev101/webrtc.js",
+        banner: "MikeDev101/webrtc.svg",
+        creator: "MikeDev101",
+        isGitHub: true,
+    },
+    {
+        name: "Spritesheeter",
+        description: "Load and manipulate spritesheets with customizable frames and XML support",
+        code: "MubiLop/spritesheeter.js",
+        banner: "MubiLop/spritesheeter.png",
+        creator: "cicerorph",
+        creatorAlias: "MubiLop",
+        isGitHub: true
+    },
+    {
+        name: "Background Remover",
+        description: "Removes background from images.",
+        code: "dumzdev/removebg.js",
+        banner: "dumzdev/removebgbanner.svg",
+        creator: "dumzdev",
+    },
+    {
+        name: "PenguinAI",
+        description: "Talk to AI! Use Models like DALL-E-3, GPT, LLama, Claude, and more!",
+        code: "MubiLop/penguingpt.js",
+        banner: "MubiLop/penguingpt.png",
+        creator: "cicerorph",
+        creatorAlias: "MubiLop",
+        isGitHub: true,
+        unstable: true,
+        unstableReason: "AI models can generate unintended or inappropriate output.\nSome AI models may also become temporarily inaccessible.\n\nUse at your own risk.",
+    },
+    {
+        name: "Block AI",
+        description: "An AI powered chat bot to help you code in your projects.",
+        code: "TheShovel/blockAI.js",
+        banner: "TheShovel/thumbnail-blockAI.png",
+        creator: "TheShovel",
+        creatorAlias: "TheShovel",
+        isGitHub: true,
+        unstable: true,
+        unstableReason: "The AI model can generate inaccurate output and broken syntax!",
+    },
+    {
+        name: "PenguinHook",
+        description: "Send Webhook requests, that can be Discord or any type of webhook.",
+        code: "MubiLop/penguinhook.js",
+        banner: "MubiLop/penguinhook.png",
+        creator: "cicerorph",
+        creatorAlias: "MubiLop",
+        isGitHub: true,
+    },
+    {
+        name: "Number Utilities",
+        description: "Adds blocks for number formatting and manipulation.",
+        code: "MubiLop/numutils.js",
+        banner: "MubiLop/numutils.png",
+        creator: "cicerorph",
+        creatorAlias: "MubiLop",
+        notes: "Art made by hazel",
+        documentation: "NumberUtilities",
+        isGitHub: true,
+    },
+    {
+        name: "Mathematics",
+        description: "Complicated maths extension for nerds.",
+        code: "jwklong/mathematics.js",
+        banner: "jwklong/mathematics.png",
+        creator: "jwklong",
+        isGitHub: true,
+    },
+    {
+        name: "Big Decimal",
+        description: "High precision operations. (Support decimals)",
+        code: "qxsck/big-decimal.js",
+        banner: "qxsck/big-decimal.svg",
+        creator: "qxsck",
+        isGitHub: true,
+    },
+    {
+        name: "Format Numbers",
+        description: "Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.",
+        code: "DogeisCut/FormatNumbers.js",
+        banner: "DogeisCut/FormatNumbers.png",
+        creator: "DogeisCut",
+        isGitHub: true, 
+        notes: "Gallery banner by Dillon",
+    },
+    {
+        name: "Random Utilities",
+        description: "Many blocks related to generating random values, including seed-based number generation, true number generation, UUID's, random strings, etc.",
+        code: "Gen1x/random_utils.js",
+        banner: "Gen1x/randomutils.png",
+        creator: "G1nX",
+    },
+    {
+        name: "Toast Notifications",
+        description: "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
+        code: "MubiLop/toastnotifs.js",
+        banner: "MubiLop/toastnotifs.png",
+        creator: "cicerorph",
+        creatorAlias: "MubiLop",
+        notes: "Additional code by themeatly2 and ddededodediamante",
+        isGitHub: true,
+    },
+    {
+        name: "Project Interfaces",
+        description: "Effortlessly create intuitive graphical user interfaces in your projects.",
+        code: "LordCat0/ProjectInterfaces.js",
+        banner: "LordCat0/ProjectInterfaces.png",
+        creator: "LordCat0",
+        creatorAlias: "Lord cat",
+        notes: "Gallery banner by Dillon",
+        isGitHub: true,
+    },
+    {
+        name: "Git Penguin",
+        description: "Make requests and control the files for your GitHub repository.",
+        code: "justablock/gitpenguin.js",
+        banner: "justablock/gitpenguin.png",
+        creator: "justablock",
+        isGitHub: false, 
+    },
+    {
+        name: "Pang API",
+        description: "Fetch information from the PenguinMod API.",
+        code: "SammerLOL/pangapi.js",
+        banner: "SammerLOL/pangapi.png",
+        creator: "oc9x97",
+        isGitHub: true,
+    },
+    {
+        name: "TurboWeather",
+        description: "Show weather and location data for any place in our world. Data that could be used for doxxing is deleted from results.",
+        code: "RubyDevs/turboweather.js",
+        banner: "RubyDevs/turboweather.webp",
+        documentation: "TurboWeather",
+        creator: "RubyDevs",
+    },
+    {
+        name: "Cockatiel Location",
+        description: "Fetch Users' IP Addresses and Location.",
+        code: "bruhbeast-pixel/CockatielLocation.js",
+        banner: "bruhbeast-pixel/CockatielLocation.svg",
+        creator: "bruhbeast-pixel",
+        isGitHub: true,
+    },
+    {
+        name: "CORS Proxy",
+        description: "Accessible CORS Proxies for fetching information with PenguinMod.",
+        code: "NamelessCat/corsproxy.js",
+        banner: "NamelessCat/corsproxy.png",
+        creator: "NamelessCat",
+    },
+    {
+        name: "Extension Exposer",
+        description: "Access the raw functions from other extensions.",
+        code: "TheShovel/extexp.js",
+        banner: "TheShovel/placeholder-extexp.png",
+        creator: "TheShovel",
+        isGitHub: true,
+        note: "Some contributions by yuri-kiss :P",
+    },
+    {
+        name: "Project Page",
+        description: "Modify and affect the studio project page from the code. How annoying can an extension possibly be?",
+        code: "jwklong/projectpage.js",
+        banner: "jwklong/projectpage.png",
+        creator: "jwklong",
+        isGitHub: true,
+    },
+    {
+        name: "All Menus",
+        description: "Every dropdown menu for each block, in one extension.",
+        code: "Lily/AllMenus.js",
+        banner: "Lily/AllMenus.svg",
+        creator: "LilyMakesThings",
+        isGitHub: false,
+    },
+    {
+        name: "More Fields",
+        description: "Custom Field Types",
+        code: "Ashime/MoreFields.js",
+        banner: "0znzw/MoreFields.png",
+        creator: "yuri-kiss",
+        isGitHub: true,
+    },
+    {
+        name: "Beepbox Player",
+        description: "Play, edit, and read songs from any BeepBox mod directly from the URL or JSON!",
+        code: "DogeisCut/BeepBoxPlayer.js",
+        banner: "DogeisCut/BeepBoxPlayer.svg",
+        creator: "DogeisCut",
+        isGitHub: true, 
+    },
+    {
+        name: "Update File (Direct Access)",
+        description: "A simple extension that uses the File System Access API to update files dynamically.",
+        code: "Anonymous_cat1/updateFile.js",
+        banner: "Anonymous_cat1/updateFile.svg",
+        creator: "Anonymous-cat1",
+        isGitHub: true,
+        unstable: true,
+        unstableReason: "File System Access is not supported by all browsers.\nProjects can maliciously edit files that you open.",
+    },
+    {
+        name: "File Upload",
+        description: "Upload files to the Network, can also used with Files extension.",
+        code: "Codefoxy/cfupload.js",
+        banner: "Codefoxy/cfupload.svg",
+        creator: "Codefoxy",
+        isGitHub: false,
+    },
+    {
+        name: "Video Sharing",
+        description: "Share your screen or camera to your projects!",
+        code: "pooiod/VideoSharing.js",
+        banner: "pooiod/VideoSharing.svg",
+        creator: "pooiod",
+        isGitHub: true,
+    },
+    {
+        name: "WindowHasher",
+        description: "Interact with URL hash: the part of the URL after a hashtag",
+        code: "pooiod/WindowHasher.js",
+        banner: "pooiod/WindowHasher.png",
+        creator: "pooiod7",
+    },
+    {
+        name: "Scratchblocks",
+        description: "Generate blocks in the Scratch3, or Scratch2 format.",
+        code: "pooiod/Scratchblocks.js",
+        banner: "pooiod/Scratchblocks.svg",
+        creator: "pooiod7",
+    },
+    {
+        name: "Google Auth",
+        description: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account.",
+        code: "Ikelene/googleAuthExtension.js",
+        banner: "Ikelene/ExtensionBanner.png",
+        creator: "ikelene",
+        creatorAlias: "Ikelene",
+        isGitHub: true,
+    },
+    {
+        name: "Discord Auth",
+        description: "Login with discord to your projects. Identify users by ID and username in a secure and easy way!",
+        code: "NotHouse/DiscordAuth.js",
+        banner: "NotHouse/DiscordAuth-banner.png",
+        creator: "enderhacker",
+        isGitHub: true,
+    },
+    {
+        name: "Twitch",
+        description: "Communicate with your Twitch Chat on PenguinMod!\n\nPenguinMod is not affiliated with Twitch.",
+        code: "bop_tw/Twitch.js",
+        banner: "bop_tw/Twitch.png",
+        creator: "bop_tw",
+        isGitHub: false,
+    },
+    {
+        name: "Chess",
+        description: "A powerful extension about Chess. It allows to create a Chessboard, manage chess games, and use Stockfish 17 in your projects.",
+        code: "Gen1x/chess-ext.js",
+        banner: "Gen1x/chess-ext.png",
+        creator: "G1nX",
+        isGitHub: false,
+    },
+    {
+        name: "CATS",
+        description: "Blocks related to cats.",
+        code: "Gen1x/CATS.js",
+        banner: "Gen1x/cats.png",
+        creator: "G1nX",
+    },
+    {
+        name: "Free Servers",
+        description: "Here you can find a free server for your projects. And also check whether it is working now or not.\n\nЗдесь вы можете найти бесплатный сервер для своих проектов. А также проверить, работает он сейчас или нет.",
+        code: "WAYLIVES/FreeServers.js",
+        banner: "WAYLIVES/FreeServersIMG.svg",
+        documentation: "FreeServers",
+        creator: "WAYLIVES",
+        isGitHub: false,
+    },
+    {
+        name: "More Types",
+        description: "Adds more value types to PenguinMod, implementing Functions, Objects, Arrays, Sets, Maps, Symbols and Nothing.",
+        code: "VeryGoodScratcher42/More-Types.js",
+        banner: "VeryGoodScratcher42/More-Types.png",
+        creator: "VeryGoodScratcher42",
+        isGitHub: false,
+    },
+    {
+        name: "oneko",
+        description: "Cute cat that follows you on the block area.",
+        code: "TheShovel/oneko.js",
+        banner: "TheShovel/thumbnail-oneko.png",
+        creator: "TheShovel",
+        isGitHub: true,
+    },
+    {
+        name: "Counter++",
+        description: "Count anything, at any time, in PenguinMod!",
+        code: "MrRedstonia/counterplusplus.js",
+        banner: "MrRedstonia/counterplusplus.png",
+        creator: "MrRedstonia",
+        isGitHub: true,
+    },
+    {
+        name: "How many lines?",
+        description: "Blocks to determine the amount of new lines in a piece of text.",
+        code: "Monochromasity/howmanylines.js",
+        banner: "Monochromasity/placeholder-howmanylines.png",
+        creator: "Monochromasity",
+        isGitHub: true,
+    },
+    {
+        name: "Paint Utils",
+        description: "A colour extension that lets you mix colours.",
+        code: "Fruits555000/PaintUtils.js",
+        banner: "Fruits555000/PaintUtils.svg",
+        creator: "Fruits555000",
+        isGitHub: true,
+    },
+    {
+        name: "Resolution",
+        description: "Provides utility blocks that simplify the creation of projects with dynamic resolution support.",
+        code: "DogeisCut/Resolution.js",
+        banner: "DogeisCut/Resolution.svg",
+        creator: "DogeisCut",
+        isGitHub: true, 
+        documentation: "Resolution",
+    },
+    {
+        name: "Device Motion",
+        description: "Use Device Motion API to get rotation or movement of the device. Works best on mobile devices.",
+        code: "gaimerI17/DeviceMotion.js",
+        banner: "gaimerI17/DeviceMotion.svg",
+        creator: "gaimerI",
+        isGitHub: true,
+        creatorAlias: "gaimerI17",
+
+    },
+    /* these extensions are completely dead as of now
+    {
+        name: "Online Captcha",
+        description: "Protect your project with simple, easy to use captcha implementation. Fully client-side, bypass-proof captcha solution!",
+        code: "NotHouse/OnlineCaptcha.js",
+        banner: "NotHouse/OnlineCaptcha-banner.png",
+        creator: "enderhacker",
+        isGitHub: true,
+    },
+    {
+        name: "Better Storage",
+        description: "Like PenguinMod's Storage Extension, but with a couple more features, and faster servers.",
+        code: "Gen1x/better_storage.js",
+        banner: "Gen1x/betterstorage.png",
+        creator: "G1nX",
+    },
+    {
+        name: "Mouth Washer",
+        description: "Includes many utilities related to cleaning bad words, swearing and profanity. Thought of as an extra layer of security for filtering messages.\n\n(ft. violet and jwklong)",
+        code: "Gen1x/mouth_washer.js",
+        banner: "Gen1x/mw-placeholder.png",
+        creator: "G1nX",
+    },
+    */
+]);
+
+
+/***/ }),
+
 /***/ "../extensions/src/lib/extensions.js":
 /*!*******************************************!*\
   !*** ../extensions/src/lib/extensions.js ***!
@@ -2140,7 +2620,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.library-item_library-item_1nZBu {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    flex-basis: 160px;\r\n    position: relative;\r\n    height: 160px;\r\n    max-width: 160px;\r\n    margin: 0.5rem;\r\n    padding: 1rem 1rem 0 1rem;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: var(--text-primary);\r\n    background: var(--ui-white);\r\n    border-width: 2px;\r\n    border-style: solid;\r\n    border-color: var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    text-align: center;\r\n    cursor: pointer;\r\n}\n\n.library-item_library-item-extension_wHgEE {\r\n    align-self: stretch;\r\n}\n\n.library-item_library-item_1nZBu:hover {\r\n    border-width: 2px;\r\n    border-color: var(--looks-secondary);\r\n}\n\n.library-item_hidden_qWfvV {\r\n    display: none;\r\n}\n\n.library-item_disabled_udvIX {\r\n    opacity: .5;\r\n    cursor: auto;\r\n}\n\n.library-item_disabled_udvIX:hover {\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.library-item_library-item-image-container-wrapper_3TFcU {\r\n    height: 100px;\r\n    width: 100%;\r\n    position: relative;\r\n}\n\n.library-item_library-item-image-container_1VgKJ {\r\n    position: absolute;\r\n    height: 100px;\r\n    width: 100%;\r\n}\n\n.library-item_library-item-inset-image-container_2oGku {\r\n    position: relative;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: -2.5rem;\r\n    align-self: flex-start;\r\n    background-color: var(--pen-primary);\r\n    width: 3.5rem;\r\n    height: 3.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.25rem solid var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-left: 1rem;\r\n}\n\n[dir=\"rtl\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-right: 1rem;\r\n}\n\n.library-item_library-item-image_3G7nd {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\n\n.library-item_library-item-inset-image_qk3QS {\r\n    width: 2.5rem;\r\n}\n\n.library-item_library-item-name_35ftf {\r\n    width: 80%;\r\n    margin: 0.25rem 0;\r\n    text-align: center;\r\n\r\n    /*\r\n        For truncating overflowing text gracefully\r\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\r\n    */\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    min-width: 0;\r\n}\n\n.library-item_featured-item_3dHDW {\r\n    flex-basis: 300px;\r\n    max-width: 300px;\r\n    height: auto;\r\n    overflow: hidden;\r\n    padding: 0;\r\n}\n\n.library-item_featured-image-container_2x7jE {\r\n    position: relative;\r\n    width: 100%;\r\n}\n\n.library-item_featured-image_1rsDU {\r\n    width: 100%;\r\n    aspect-ratio: 2;\r\n}\n\n.library-item_featured-text_xD5Ve {\r\n    font-weight: bold;\r\n    padding: 10px;\r\n    /* height: 140px; */\r\n    width: 300px;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: left;\r\n    padding-left: 1.25rem;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: right;\r\n    padding-right: 1.25rem;\r\n}\n\n.library-item_featured-description_1hGaH {\r\n    display: block;\r\n    font-weight: normal;\r\n    line-height: 1.375rem;\r\n    padding-top: .3125rem;\r\n    padding-bottom: .25rem;\r\n}\n\n.library-item_featured-extension-metadata_24DYi {\r\n    width: 100%;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: .5rem;\r\n    align-items: start;\r\n    font-size: 12px;\r\n    color: var(--text-primary);\r\n    opacity: 0.75;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: left;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: right;\r\n}\n\n.library-item_featured-extension-metadata-section_19tW7 {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn {\r\n    height: 100%;\r\n    padding-top: 0.4rem;\r\n    font-weight: bold;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn img {\r\n    margin-right: 0.25rem;\r\n    width: 20px;\r\n    height: 20px;\r\n}\n\n.library-item_coming-soon-text_ZcFGD {\r\n    position: absolute;\r\n    background-color: var(--data-primary);\r\n    border-radius: 1rem;\r\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25);\r\n    padding: .5rem 1rem;\r\n    font-size: .875rem;\r\n    font-weight: bold;\r\n    color: var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n[dir=\"rtl\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(-2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n.library-item_favorite-container_3ebO5 {\r\n    display: none;\r\n    background: none;\r\n    border: none;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    top: 0.5rem;\r\n    left: 0.5rem;\r\n}\n\n.library-item_favorite-icon_20B_7 {\r\n    width: 32px;\r\n    height: 32px;\r\n}\n\n.library-item_favorite-container_3ebO5.library-item_active_3pQCM,\r\n.library-item_library-item_1nZBu:hover .library-item_favorite-container_3ebO5 {\r\n    display: block;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.library-item_library-item_1nZBu {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    flex-basis: 160px;\r\n    position: relative;\r\n    height: 160px;\r\n    max-width: 160px;\r\n    margin: 0.5rem;\r\n    padding: 1rem 1rem 0 1rem;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: var(--text-primary);\r\n    background: var(--ui-white);\r\n    border-width: 2px;\r\n    border-style: solid;\r\n    border-color: var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    text-align: center;\r\n    cursor: pointer;\r\n}\n\n.library-item_library-item-extension_wHgEE {\r\n    align-self: stretch;\r\n}\n\n.library-item_library-item_1nZBu:hover {\r\n    border-width: 2px;\r\n    border-color: var(--looks-secondary);\r\n}\n\n.library-item_hidden_qWfvV {\r\n    display: none;\r\n}\n\n.library-item_disabled_udvIX {\r\n    opacity: .5;\r\n    cursor: auto;\r\n}\n\n.library-item_disabled_udvIX:hover {\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.library-item_library-item-image-container-wrapper_3TFcU {\r\n    height: 100px;\r\n    width: 100%;\r\n    position: relative;\r\n}\n\n.library-item_library-item-image-container_1VgKJ {\r\n    position: absolute;\r\n    height: 100px;\r\n    width: 100%;\r\n}\n\n.library-item_library-item-inset-image-container_2oGku {\r\n    position: relative;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: -2.5rem;\r\n    align-self: flex-start;\r\n    background-color: var(--pen-primary);\r\n    width: 3.5rem;\r\n    height: 3.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.25rem solid var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-left: 1rem;\r\n}\n\n[dir=\"rtl\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-right: 1rem;\r\n}\n\n.library-item_library-item-image_3G7nd {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\n\n.library-item_library-item-inset-image_qk3QS {\r\n    width: 2.5rem;\r\n}\n\n.library-item_library-item-name_35ftf {\r\n    width: 80%;\r\n    margin: 0.25rem 0;\r\n    text-align: center;\r\n\r\n    /*\r\n        For truncating overflowing text gracefully\r\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\r\n    */\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    min-width: 0;\r\n}\n\n.library-item_featured-item_3dHDW {\r\n    flex-basis: 300px;\r\n    max-width: 300px;\r\n    height: auto;\r\n    overflow: hidden;\r\n    padding: 0;\r\n}\n\n.library-item_featured-image-container_2x7jE {\r\n    position: relative;\r\n    width: 100%;\r\n}\n\n.library-item_featured-image_1rsDU {\r\n    width: 100%;\r\n    aspect-ratio: 2;\r\n}\n\n.library-item_featured-text_xD5Ve {\r\n    font-weight: bold;\r\n    padding: 10px;\r\n    /* height: 140px; */\r\n    width: 300px;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: left;\r\n    padding-left: 1.25rem;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: right;\r\n    padding-right: 1.25rem;\r\n}\n\n.library-item_featured-description_1hGaH {\r\n    display: block;\r\n    font-weight: normal;\r\n    line-height: 1.375rem;\r\n    padding-top: .3125rem;\r\n    padding-bottom: .25rem;\r\n}\n\n.library-item_featured-extension-metadata_24DYi {\r\n    width: 100%;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: .5rem;\r\n    align-items: start;\r\n    font-size: 12px;\r\n    color: var(--text-primary);\r\n    opacity: 0.75;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: left;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: right;\r\n}\n\n.library-item_featured-extension-metadata-section_19tW7 {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn {\r\n    height: 100%;\r\n    padding-top: 0.4rem;\r\n    font-weight: bold;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn img {\r\n    margin-right: 0.25rem;\r\n    width: 20px;\r\n    height: 20px;\r\n}\n\n.library-item_extension-links_ndWNb {\r\n    width: 300px;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    opacity: 0.75;\r\n    text-align: left;\r\n}\n\n.library-item_extension-links_ndWNb a {\r\n    color: inherit !important;\r\n    text-decoration: underline;\r\n}\n\n.library-item_coming-soon-text_ZcFGD {\r\n    position: absolute;\r\n    background-color: var(--data-primary);\r\n    border-radius: 1rem;\r\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25);\r\n    padding: .5rem 1rem;\r\n    font-size: .875rem;\r\n    font-weight: bold;\r\n    color: var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n[dir=\"rtl\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(-2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n.library-item_favorite-container_3ebO5 {\r\n    display: none;\r\n    background: none;\r\n    border: none;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    top: 0.5rem;\r\n    left: 0.5rem;\r\n}\n\n.library-item_favorite-icon_20B_7 {\r\n    width: 32px;\r\n    height: 32px;\r\n}\n\n.library-item_favorite-container_3ebO5.library-item_active_3pQCM,\r\n.library-item_library-item_1nZBu:hover .library-item_favorite-container_3ebO5 {\r\n    display: block;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -2180,6 +2660,8 @@ exports.locals = {
 	"featuredExtensionMetadataSection": "library-item_featured-extension-metadata-section_19tW7",
 	"featured-extension-metadata-detail": "library-item_featured-extension-metadata-detail_2kvJn",
 	"featuredExtensionMetadataDetail": "library-item_featured-extension-metadata-detail_2kvJn",
+	"extension-links": "library-item_extension-links_ndWNb",
+	"extensionLinks": "library-item_extension-links_ndWNb",
 	"coming-soon-text": "library-item_coming-soon-text_ZcFGD",
 	"comingSoonText": "library-item_coming-soon-text_ZcFGD",
 	"favorite-container": "library-item_favorite-container_3ebO5",
@@ -27212,13 +27694,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _extensions_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../extensions/src/lib/extensions.js */ "../extensions/src/lib/extensions.js");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _lib_log__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/log */ "./src/lib/log.js");
-/* harmony import */ var _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/libraries/extensions/index.jsx */ "./src/lib/libraries/extensions/index.jsx");
-/* harmony import */ var _lib_libraries_tw_extension_tags__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/libraries/tw-extension-tags */ "./src/lib/libraries/tw-extension-tags.js");
-/* harmony import */ var _components_library_library_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/library/library.jsx */ "./src/components/library/library.jsx");
-/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/action-menu/icon--sprite.svg */ "./src/components/action-menu/icon--sprite.svg");
-/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _PenguinMod_ExtensionsGallery_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../PenguinMod-ExtensionsGallery/src/lib/extensions.js */ "../PenguinMod-ExtensionsGallery/src/lib/extensions.js");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _lib_log__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/log */ "./src/lib/log.js");
+/* harmony import */ var _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/libraries/extensions/index.jsx */ "./src/lib/libraries/extensions/index.jsx");
+/* harmony import */ var _lib_libraries_tw_extension_tags__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../lib/libraries/tw-extension-tags */ "./src/lib/libraries/tw-extension-tags.js");
+/* harmony import */ var _components_library_library_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/library/library.jsx */ "./src/components/library/library.jsx");
+/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/action-menu/icon--sprite.svg */ "./src/components/action-menu/icon--sprite.svg");
+/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_11__);
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
@@ -27237,7 +27720,8 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
 
 
 
-const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"])({
+
+const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_6__["defineMessages"])({
   extensionTitle: {
     "id": "gui.extensionLibrary.chooseAnExtension",
     "defaultMessage": "Choose an Extension"
@@ -27246,7 +27730,7 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"
 const toLibraryItem = extension => {
   if (typeof extension === 'object') {
     return _objectSpread({
-      rawURL: extension.iconURL || _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_10___default.a
+      rawURL: extension.iconURL || _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_11___default.a
     }, extension);
   }
   return extension;
@@ -27256,6 +27740,7 @@ const translateGalleryItem = (extension, locale) => _objectSpread(_objectSpread(
   description: extension.descriptionTranslations[locale] || extension.description
 });
 let cachedTwGallery = null;
+let cachedPmGallery = null;
 let cachedGallery = null;
 const fetchTwLibrary = async () => {
   const res = await fetch('https://extensions.turbowarp.org/generated-metadata/extensions-v0.json');
@@ -27292,6 +27777,34 @@ const fetchTwLibrary = async () => {
     featured: true
   }));
 };
+const fetchPmLibrary = async () => {
+  return _PenguinMod_ExtensionsGallery_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_5__["default"].map(extension => ({
+    name: extension.name,
+    nameTranslations: extension.nameTranslations || {},
+    description: extension.description,
+    descriptionTranslations: extension.descriptionTranslations || {},
+    extensionId: extension.id,
+    extensionURL: "https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/tree/main/static/extensions/".concat(extension.code, "?raw=true"),
+    iconURL: "https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/tree/main/static/images/".concat(extension.banner || 'unknown.svg', "?raw=true"),
+    tags: ['pm'],
+    credits: [...(typeof extension.creator == 'object' ? extension.creator : [extension.creator] || false), ...(extension.notes ? [extension.notes] : [])].map(credit => {
+      if (extension.notes && credit == extension.notes) return credit;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+        href: extension.isGitHub ? "https://github.com/".concat(credit) : "https://scratch.mit.edu/users/".concat(credit),
+        target: "_blank",
+        rel: "noreferrer",
+        key: credit
+      }, credit);
+    }),
+    docsURI: extension.documentation ? "https://dashblocks.github.io/extensions/src/lib/Documentation/".concat(extension.documentation, ".md") : null,
+    samples: extension.samples ? extension.samples.map(sample => ({
+      href: "".concat("", "editor?project_url=https://extensions.turbowarp.org/samples/").concat(encodeURIComponent(sample), ".sb3"),
+      text: sample
+    })) : null,
+    incompatibleWithScratch: !extension.scratchCompatible || true,
+    featured: true
+  }));
+};
 const fetchLibrary = async () => {
   return _extensions_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_4__["default"].map(extension => ({
     name: extension.name,
@@ -27325,6 +27838,7 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
     super(props);
     lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleItemSelect']);
     this.state = {
+      pmGallery: cachedPmGallery,
       twGallery: cachedTwGallery,
       gallery: cachedGallery,
       galleryError: null,
@@ -27345,7 +27859,20 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
         });
         clearTimeout(timeout);
       }).catch(error => {
-        _lib_log__WEBPACK_IMPORTED_MODULE_6__["default"].error(error);
+        _lib_log__WEBPACK_IMPORTED_MODULE_7__["default"].error(error);
+        this.setState({
+          galleryError: error
+        });
+        clearTimeout(timeout);
+      });
+      fetchPmLibrary().then(gallery => {
+        cachedPmGallery = gallery;
+        this.setState({
+          pmGallery: gallery
+        });
+        clearTimeout(timeout);
+      }).catch(error => {
+        _lib_log__WEBPACK_IMPORTED_MODULE_7__["default"].error(error);
         this.setState({
           galleryError: error
         });
@@ -27358,7 +27885,7 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
         });
         clearTimeout(timeout);
       }).catch(error => {
-        _lib_log__WEBPACK_IMPORTED_MODULE_6__["default"].error(error);
+        _lib_log__WEBPACK_IMPORTED_MODULE_7__["default"].error(error);
         this.setState({
           galleryError: error
         });
@@ -27388,7 +27915,7 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
         this.props.vm.extensionManager.loadExtensionURL(url).then(() => {
           this.props.onCategorySelected(extensionId);
         }).catch(err => {
-          _lib_log__WEBPACK_IMPORTED_MODULE_6__["default"].error(err);
+          _lib_log__WEBPACK_IMPORTED_MODULE_7__["default"].error(err);
           // eslint-disable-next-line no-alert
           alert(err);
         });
@@ -27396,33 +27923,40 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
     }
   }
   render() {
-    let library = null;
-    if (this.state.twGallery || this.state.galleryError || this.state.galleryTimedOut) {
-      library = _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["default"].map(toLibraryItem);
-      library.push('---');
-      if (this.state.twGallery) {
-        library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["galleryMore"]));
-        const locale = this.props.intl.locale;
-        library.push(...this.state.twGallery.map(i => translateGalleryItem(i, locale)).map(toLibraryItem));
-      } else if (this.state.galleryError) {
-        library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["galleryError"]));
-      } else {
-        library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["galleryLoading"]));
-      }
-    }
+    let library = [];
+    const locale = this.props.intl.locale;
+    library = _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["default"].map(toLibraryItem);
+    library.push('---');
     if (this.state.gallery) {
-      library = _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["default"].map(toLibraryItem);
-      library.push('---');
-      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_7__["galleryMore"]));
-      const locale = this.props.intl.locale;
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryMore"]));
       library.push(...this.state.gallery.map(i => translateGalleryItem(i, locale)).map(toLibraryItem));
+    } else if (this.state.galleryTimedOut && !this.state.gallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryLoading"]));
+    } else if (this.state.galleryError && !this.state.gallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryError"]));
     }
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_library_library_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    library.push('---');
+    if (this.state.twGallery) {
+      library.push(...this.state.twGallery.map(i => translateGalleryItem(i, locale)).map(toLibraryItem));
+    } else if (this.state.galleryTimedOut && !this.state.twGallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryLoading"]));
+    } else if (this.state.galleryError && !this.state.twGallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryError"]));
+    }
+    library.push('---');
+    if (this.state.pmGallery) {
+      library.push(...this.state.pmGallery.map(i => translateGalleryItem(i, locale)).map(toLibraryItem));
+    } else if (this.state.galleryTimedOut && !this.state.pmGallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryLoading"]));
+    } else if (this.state.galleryError && !this.state.pmGallery) {
+      library.push(toLibraryItem(_lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_8__["galleryError"]));
+    }
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_library_library_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
       data: library,
       filterable: true,
       persistableKey: "extensionId",
       id: "extensionLibrary",
-      tags: _lib_libraries_tw_extension_tags__WEBPACK_IMPORTED_MODULE_8__["default"],
+      tags: _lib_libraries_tw_extension_tags__WEBPACK_IMPORTED_MODULE_9__["default"],
       title: this.props.intl.formatMessage(messages.extensionTitle),
       visible: this.props.visible,
       onItemSelected: this.handleItemSelect,
@@ -27431,7 +27965,7 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
   }
 }
 ExtensionLibrary.propTypes = {
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_5__["intlShape"].isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_6__["intlShape"].isRequired,
   onCategorySelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onEnableProcedureReturns: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onOpenCustomExtensionModal: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
@@ -27439,7 +27973,7 @@ ExtensionLibrary.propTypes = {
   visible: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
   vm: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(scratch_vm__WEBPACK_IMPORTED_MODULE_3___default.a).isRequired // eslint-disable-line react/no-unused-prop-types
 };
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["injectIntl"])(ExtensionLibrary));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_6__["injectIntl"])(ExtensionLibrary));
 
 /***/ }),
 
@@ -39733,14 +40267,14 @@ module.exports = __webpack_require__.p + "static/assets/76024aad6524bdf0e8d438f4
 
 /***/ }),
 
-/***/ "./src/lib/libraries/extensions/gallery/gallery.png":
+/***/ "./src/lib/libraries/extensions/gallery/gallery.svg":
 /*!**********************************************************!*\
-  !*** ./src/lib/libraries/extensions/gallery/gallery.png ***!
+  !*** ./src/lib/libraries/extensions/gallery/gallery.svg ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/ca8e7344712d8d65cd395755bf7cccc5.png";
+module.exports = __webpack_require__.p + "static/assets/6d95046aad2e03b9439068fb376068df.svg";
 
 /***/ }),
 
@@ -39856,8 +40390,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_svg__WEBPACK_IMPORTED_MODULE_32__);
 /* harmony import */ var _custom_return_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./custom/return.svg */ "./src/lib/libraries/extensions/custom/return.svg");
 /* harmony import */ var _custom_return_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_custom_return_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./gallery/gallery.png */ "./src/lib/libraries/extensions/gallery/gallery.png");
-/* harmony import */ var _gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./gallery/gallery.svg */ "./src/lib/libraries/extensions/gallery/gallery.svg");
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34__);
 /* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../brand */ "./src/lib/brand.js");
 /* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_brand__WEBPACK_IMPORTED_MODULE_35__);
 
@@ -40167,7 +40701,7 @@ const galleryLoading = {
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -40189,7 +40723,7 @@ const galleryMore = {
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -40211,7 +40745,7 @@ const galleryError = {
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_png__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -40375,7 +40909,7 @@ module.exports = __webpack_require__.p + "static/assets/c6ab79fc9e76cb500fc83b6f
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/4f43c2639875f9ea8fe71e668a64f98c.svg";
+module.exports = __webpack_require__.p + "static/assets/d8ba5c7b1fa8c4c9babce120aefd0210.svg";
 
 /***/ }),
 
@@ -40724,11 +41258,14 @@ __webpack_require__.r(__webpack_exports__);
   tag: 'scratch',
   intlLabel: 'Scratch'
 }, {
+  tag: 'dash',
+  intlLabel: _brand__WEBPACK_IMPORTED_MODULE_0__["APP_NAME"]
+}, {
   tag: 'tw',
   intlLabel: 'TurboWarp'
 }, {
-  tag: 'dash',
-  intlLabel: _brand__WEBPACK_IMPORTED_MODULE_0__["APP_NAME"]
+  tag: 'pm',
+  intlLabel: 'PenguinMod'
 }]);
 
 /***/ }),
