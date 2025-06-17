@@ -2281,7 +2281,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    max-height: calc(100vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -30115,13 +30115,13 @@ const fetchTwLibrary = async () => {
   }));
 };
 const fetchPmLibrary = async () => {
-  return _PenguinMod_ExtensionsGallery_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_5__["default"].map(extension => ({
+  return _PenguinMod_ExtensionsGallery_src_lib_extensions_js__WEBPACK_IMPORTED_MODULE_5__["default"].map((extension, index) => ({
     name: extension.name,
     nameTranslations: extension.nameTranslations || {},
     description: extension.description,
     descriptionTranslations: extension.descriptionTranslations || {},
-    extensionId: "",
-    // Metadata of PM extensions doesn't have extensions IDs, but we need ID value as string for apply some styles
+    extensionId: "pm_extension_index".concat(index),
+    // Metadata of PM extensions doesn't have extensions IDs, but we need ID value as string for apply some styles and Favorite/Unfavorite working
     extensionURL: "https://extensions.penguinmod.com/extensions/".concat(extension.code),
     iconURL: "https://extensions.penguinmod.com/images/".concat(extension.banner || 'unknown.svg'),
     tags: ['pm'],
@@ -42669,7 +42669,7 @@ module.exports = __webpack_require__.p + "static/assets/76024aad6524bdf0e8d438f4
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/6d95046aad2e03b9439068fb376068df.svg";
+module.exports = __webpack_require__.p + "static/assets/16c364516f24ec3735be710a8e3836ae.svg";
 
 /***/ }),
 
