@@ -2281,7 +2281,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    max-height: calc(100vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    max-height: calc(80vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -10504,6 +10504,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dash_poster_png__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./welcome-modal.css */ "./src/components/dash-welcome-modal/welcome-modal.css");
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/brand.js */ "./src/lib/brand.js");
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_8__);
+
 
 
 
@@ -10525,12 +10528,24 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.poster,
   src: _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default.a,
   draggable: false
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
+}, _lib_brand_js__WEBPACK_IMPORTED_MODULE_8__["APP_NAME"], " was made by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://scratch.mit.edu/users/damir2809"
+}, "damir2809"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://scratch.mit.edu/users/Den4ik-12"
+}, "Den4ik-12"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://scratch.mit.edu/users/scratch_craft_2"
+}, "scratch_craft_2"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://scratch.mit.edu/users/AnonimKing24"
+}, "AnonimKing24"), " and other contributors.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "View all contributors on ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "".concat("", "credits.html")
+}, "credits page"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.buttonRow
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.closeButton,
   onClick: props.onClose
-}, "Close"))));
+}, "Close")));
 WelcomeModalComponent.propTypes = {
   intl: react_intl__WEBPACK_IMPORTED_MODULE_0__["intlShape"],
   onClose: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
