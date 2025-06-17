@@ -2281,7 +2281,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -2294,7 +2294,8 @@ exports.locals = {
 	"buttonRow": "welcome-modal_button-row_18Lgk",
 	"close-button": "welcome-modal_close-button_33sgN",
 	"closeButton": "welcome-modal_close-button_33sgN",
-	"text": "welcome-modal_text_3THn6"
+	"text": "welcome-modal_text_3THn6",
+	"poster": "welcome-modal_poster_1gxmT"
 };
 
 /***/ }),
@@ -10440,6 +10441,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 
+/***/ "./src/components/dash-welcome-modal/dash-poster.png":
+/*!***********************************************************!*\
+  !*** ./src/components/dash-welcome-modal/dash-poster.png ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/76269504fd2c6b960740d93549785964.png";
+
+/***/ }),
+
 /***/ "./src/components/dash-welcome-modal/welcome-modal.css":
 /*!*************************************************************!*\
   !*** ./src/components/dash-welcome-modal/welcome-modal.css ***!
@@ -10488,8 +10500,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_modal_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../containers/modal.jsx */ "./src/containers/modal.jsx");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./welcome-modal.css */ "./src/components/dash-welcome-modal/welcome-modal.css");
-/* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_welcome_modal_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _dash_poster_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dash-poster.png */ "./src/components/dash-welcome-modal/dash-poster.png");
+/* harmony import */ var _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dash_poster_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./welcome-modal.css */ "./src/components/dash-welcome-modal/welcome-modal.css");
+/* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -10498,20 +10513,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_modal_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.modalContent,
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.modalContent,
   onRequestClose: props.onClose,
   contentLabel: "Welcome to Dash!",
   id: "welcomeModal"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.body
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.body
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
-  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.text
-}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "PenguinMod"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-  src: "./Poster for Dash with Dashy.png"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.buttonRow
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
+}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "PenguinMod"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.poster,
+  src: _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+  draggable: false
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.buttonRow
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
-  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.closeButton,
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.closeButton,
   onClick: props.onClose
 }, "Close"))));
 WelcomeModalComponent.propTypes = {
