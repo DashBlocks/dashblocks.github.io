@@ -10506,7 +10506,9 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.body
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.text
-}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "PenguinMod"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "PenguinMod"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+  src: "./Poster for Dash with Dashy.png"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.buttonRow
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_6___default.a.closeButton,
@@ -30101,9 +30103,10 @@ const fetchPmLibrary = async () => {
     nameTranslations: extension.nameTranslations || {},
     description: extension.description,
     descriptionTranslations: extension.descriptionTranslations || {},
-    extensionId: extension.id,
-    extensionURL: "https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/tree/main/static/extensions/".concat(extension.code, "?raw=true"),
-    iconURL: "https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/tree/main/static/images/".concat(extension.banner || 'unknown.svg', "?raw=true"),
+    extensionId: "",
+    // Metadata of PM extensions doesn't have extensions IDs, but we need ID value as string for apply some styles
+    extensionURL: "https://extensions.penguinmod.com/extensions/".concat(extension.code),
+    iconURL: "https://extensions.penguinmod.com/images/".concat(extension.banner || 'unknown.svg'),
     tags: ['pm'],
     credits: [...(typeof extension.creator == 'object' ? extension.creator : [extension.creator] || false), ...(extension.notes ? [extension.notes] : [])].map(credit => {
       if (extension.notes && credit == extension.notes) return credit;
@@ -30114,11 +30117,8 @@ const fetchPmLibrary = async () => {
         key: credit
       }, credit);
     }),
-    docsURI: extension.documentation ? "https://dashblocks.github.io/extensions/src/lib/Documentation/".concat(extension.documentation, ".md") : null,
-    samples: extension.samples ? extension.samples.map(sample => ({
-      href: "".concat("", "editor?project_url=https://extensions.turbowarp.org/samples/").concat(encodeURIComponent(sample), ".sb3"),
-      text: sample
-    })) : null,
+    docsURI: extension.documentation ? "https://extensions.penguinmod.com/docs/".concat(extension.documentation) : null,
+    samples: null,
     incompatibleWithScratch: !extension.scratchCompatible || true,
     featured: true
   }));
@@ -30143,10 +30143,12 @@ const fetchLibrary = async () => {
       }, credit);
     }),
     docsURI: extension.documentation ? "https://dashblocks.github.io/extensions/src/lib/Documentation/".concat(extension.documentation, ".md") : null,
-    samples: extension.samples ? extension.samples.map(sample => ({
-      href: "".concat("", "editor?project_url=https://extensions.turbowarp.org/samples/").concat(encodeURIComponent(sample), ".sb3"),
-      text: sample
-    })) : null,
+    samples:
+    /*extension.samples ? extension.samples.map(sample => ({
+    href: `${process.env.ROOT}editor?project_url=https://extensions.turbowarp.org/samples/${encodeURIComponent(sample)}.sb3`,
+    text: sample
+    })) :*/
+    null,
     incompatibleWithScratch: !extension.scratchCompatible || true,
     featured: true
   }));
