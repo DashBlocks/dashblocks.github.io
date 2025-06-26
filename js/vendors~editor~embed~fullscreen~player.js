@@ -256487,6 +256487,7 @@ function version(uuid) {
 /***/ (function(module, exports, __webpack_require__) {
 
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
 class Scratch3ControlBlocks {
   constructor(runtime) {
     /**
@@ -256501,6 +256502,11 @@ class Scratch3ControlBlocks {
      */
     this._counter = 0; // used by compiler
 
+    /**
+     * The "error" block value. Returns the last error block.
+     * @type {string}
+     */
+    this._error = '';
     this.runtime.on('RUNTIME_DISPOSED', this.clearCounter.bind(this));
   }
 
@@ -256510,6 +256516,9 @@ class Scratch3ControlBlocks {
    */
   getPrimitives() {
     return {
+      control_get_error: this.getError,
+      control_try_catch_error: this.tryCatchError,
+      control_error: this.error,
       control_repeat: this.repeat,
       control_repeat_until: this.repeatUntil,
       control_while: this.repeatWhile,
@@ -256534,6 +256543,39 @@ class Scratch3ControlBlocks {
         restartExistingThreads: false
       }
     };
+  }
+  getError() {
+    return Cast.toString(this._error) || '';
+  }
+  tryCatchError(args, util) {
+    try {
+      util.thread.__dashTryCatchError = false;
+      util.startBranch(1, false);
+      util.yieldTick(() => {
+        if (util.thread.__dashTryCatchError) {
+          this.errorHandled = true;
+          util.startBranch(2, false);
+          util.thread.__dashTryCatchError = false;
+          this.errorHandled = false;
+        }
+      });
+    } catch (error) {
+      log.error(new Error(error));
+      this._error = error.message ? error.message : error || '';
+      util.startBranch(2, false);
+    }
+  }
+  error(args, util) {
+    log.error(new Error(args.MESSAGE));
+    this._error = args.MESSAGE || '';
+    if (util.thread) {
+      util.thread.__dashTryCatchError = true;
+    }
+    if (this.errorHandled == false || typeof this.errorHandled === 'undefined') {
+      this.errorHandled = false;
+      util.stopAll();
+      alert("Unhandled error occured: ".concat(args.MESSAGE, ". Project stopped"));
+    }
   }
   repeat(args, util) {
     const times = Math.round(Cast.toNumber(args.TIMES));
@@ -258311,6 +258353,9 @@ class Scratch3SensingBlocks {
    */
   getPrimitives() {
     return {
+      sensing_alert: this.alert,
+      sensing_prompt: this.prompt,
+      sensing_confirm: this.confirm,
       sensing_touchingobject: this.touchingObject,
       sensing_touchingcolor: this.touchingColor,
       sensing_coloristouchingcolor: this.colorTouchingColor,
@@ -258411,6 +258456,21 @@ class Scratch3SensingBlocks {
         this.runtime.emit('QUESTION', null);
       }
     }
+  }
+  alert(args) {
+    const message = Cast.toString(args.MESSAGE);
+    return alert(message);
+  }
+  prompt(args) {
+    const message = Cast.toString(args.MESSAGE);
+    const defaultValue = Cast.toString(args.VALUE);
+    const answer = prompt(message, defaultValue);
+    if (answer) return answer;
+    return '';
+  }
+  confirm(args) {
+    const message = Cast.toString(args.MESSAGE);
+    return confirm(message);
   }
   askAndWait(args, util) {
     const _target = util.target;
@@ -259025,7 +259085,7 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const stacked = ['control_error', 'control_get_error', 'control_try_catch_error', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
 const inputs = ['motion_xscroll', 'motion_yscroll', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,

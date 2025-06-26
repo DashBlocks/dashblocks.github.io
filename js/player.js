@@ -294,6 +294,7 @@ __webpack_require__.r(__webpack_exports__);
     {
         name: "Extra Timers",
         description: "Allows for the creation and management of additional timer blocks.",
+        notes: "thumbnail by Dillon",
         code: "steve0greatness/timers.js",
         banner: "steve0greatness/timers.svg",
         creator: "Steve0Greatness",
@@ -363,6 +364,7 @@ __webpack_require__.r(__webpack_exports__);
         creatorAlias: "MubiLop",
         isGitHub: true,
         unstable: true,
+        documentation: "PenguinAI",
         unstableReason: "AI models can generate unintended or inappropriate output.\nSome AI models may also become temporarily inaccessible.\n\nUse at your own risk.",
     },
     {
@@ -551,8 +553,8 @@ __webpack_require__.r(__webpack_exports__);
         description: "Share your screen or camera to your projects!",
         code: "pooiod/VideoSharing.js",
         banner: "pooiod/VideoSharing.svg",
-        creator: "pooiod",
-        isGitHub: true,
+        creator: "pooiod7",
+        isGitHub: false,
     },
     {
         name: "WindowHasher",
@@ -665,16 +667,17 @@ __webpack_require__.r(__webpack_exports__);
         creator: "DogeisCut",
         isGitHub: true, 
         documentation: "Resolution",
+        notes: "Gallery banner by Dillon",
     },
     {
         name: "Device Motion",
-        description: "Use Device Motion API to get rotation or movement of the device. Works best on mobile devices.",
+        description: "Use Device Motion API to get rotation or movement of the device. Works best on mobile devices. \n Thumbnail by Dillon. ",
         code: "gaimerI17/DeviceMotion.js",
-        banner: "gaimerI17/DeviceMotion.svg",
+        banner: "gaimerI17/DeviceMotion.png",
         creator: "gaimerI",
         isGitHub: true,
         creatorAlias: "gaimerI17",
-
+        note: "Extension thumbnail made by Dillon."
     },
     /* these extensions are completely dead as of now
     {
@@ -2621,7 +2624,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.library-item_library-item_1nZBu {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    flex-basis: 160px;\r\n    position: relative;\r\n    height: 160px;\r\n    max-width: 160px;\r\n    margin: 0.5rem;\r\n    padding: 1rem 1rem 0 1rem;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: var(--text-primary);\r\n    background: var(--ui-white);\r\n    border-width: 2px;\r\n    border-style: solid;\r\n    border-color: var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    text-align: center;\r\n    cursor: pointer;\r\n}\n\n.library-item_library-item-extension_wHgEE {\r\n    align-self: stretch;\r\n}\n\n.library-item_library-item_1nZBu:hover {\r\n    border-width: 2px;\r\n    border-color: var(--looks-secondary);\r\n}\n\n.library-item_hidden_qWfvV {\r\n    display: none;\r\n}\n\n.library-item_disabled_udvIX {\r\n    opacity: .5;\r\n    cursor: auto;\r\n}\n\n.library-item_disabled_udvIX:hover {\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.library-item_library-item-image-container-wrapper_3TFcU {\r\n    height: 100px;\r\n    width: 100%;\r\n    position: relative;\r\n}\n\n.library-item_library-item-image-container_1VgKJ {\r\n    position: absolute;\r\n    height: 100px;\r\n    width: 100%;\r\n}\n\n.library-item_library-item-inset-image-container_2oGku {\r\n    position: relative;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: -2.5rem;\r\n    align-self: flex-start;\r\n    background-color: var(--pen-primary);\r\n    width: 3.5rem;\r\n    height: 3.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.25rem solid var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-left: 1rem;\r\n}\n\n[dir=\"rtl\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-right: 1rem;\r\n}\n\n.library-item_library-item-image_3G7nd {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\n\n.library-item_library-item-inset-image_qk3QS {\r\n    width: 2.5rem;\r\n}\n\n.library-item_library-item-name_35ftf {\r\n    width: 80%;\r\n    margin: 0.25rem 0;\r\n    text-align: center;\r\n\r\n    /*\r\n        For truncating overflowing text gracefully\r\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\r\n    */\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    min-width: 0;\r\n}\n\n.library-item_featured-item_3dHDW {\r\n    flex-basis: 300px;\r\n    max-width: 300px;\r\n    height: auto;\r\n    overflow: hidden;\r\n    padding: 0;\r\n}\n\n.library-item_featured-image-container_2x7jE {\r\n    position: relative;\r\n    width: 100%;\r\n}\n\n.library-item_featured-image_1rsDU {\r\n    width: 100%;\r\n    aspect-ratio: 2;\r\n}\n\n.library-item_featured-text_xD5Ve {\r\n    font-weight: bold;\r\n    padding: 10px;\r\n    /* height: 140px; */\r\n    width: 300px;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: left;\r\n    padding-left: 1.25rem;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: right;\r\n    padding-right: 1.25rem;\r\n}\n\n.library-item_featured-description_1hGaH {\r\n    display: block;\r\n    font-weight: normal;\r\n    line-height: 1.375rem;\r\n    padding-top: .3125rem;\r\n    padding-bottom: .25rem;\r\n}\n\n.library-item_featured-extension-metadata_24DYi {\r\n    width: 100%;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: .5rem;\r\n    align-items: start;\r\n    font-size: 12px;\r\n    color: var(--text-primary);\r\n    opacity: 0.75;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: left;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: right;\r\n}\n\n.library-item_featured-extension-metadata-section_19tW7 {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn {\r\n    height: 100%;\r\n    padding-top: 0.4rem;\r\n    font-weight: bold;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn img {\r\n    margin-right: 0.25rem;\r\n    width: 20px;\r\n    height: 20px;\r\n}\n\n.library-item_extension-links_ndWNb {\r\n    width: 300px;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    opacity: 0.75;\r\n    text-align: left;\r\n}\n\n.library-item_extension-links_ndWNb a {\r\n    color: inherit !important;\r\n    text-decoration: underline;\r\n}\n\n.library-item_coming-soon-text_ZcFGD {\r\n    position: absolute;\r\n    background-color: var(--data-primary);\r\n    border-radius: 1rem;\r\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25);\r\n    padding: .5rem 1rem;\r\n    font-size: .875rem;\r\n    font-weight: bold;\r\n    color: var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n[dir=\"rtl\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(-2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n.library-item_favorite-container_3ebO5 {\r\n    display: none;\r\n    background: none;\r\n    border: none;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    top: 0.5rem;\r\n    left: 0.5rem;\r\n}\n\n.library-item_favorite-icon_20B_7 {\r\n    width: 32px;\r\n    height: 32px;\r\n}\n\n.library-item_favorite-container_3ebO5.library-item_active_3pQCM,\r\n.library-item_library-item_1nZBu:hover .library-item_favorite-container_3ebO5 {\r\n    display: block;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.library-item_library-item_1nZBu {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    flex-basis: 160px;\r\n    position: relative;\r\n    height: 160px;\r\n    max-width: 160px;\r\n    margin: 0.5rem;\r\n    padding: 1rem 1rem 0 1rem;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: var(--text-primary);\r\n    background: var(--ui-white);\r\n    border-width: 2px;\r\n    border-style: solid;\r\n    border-color: var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    text-align: center;\r\n    cursor: pointer;\r\n}\n\n.library-item_library-item-extension_wHgEE {\r\n    align-self: stretch;\r\n}\n\n.library-item_library-item_1nZBu:hover {\r\n    border-width: 2px;\r\n    border-color: var(--looks-secondary);\r\n}\n\n.library-item_hidden_qWfvV {\r\n    display: none;\r\n}\n\n.library-item_disabled_udvIX {\r\n    opacity: .5;\r\n    cursor: auto;\r\n}\n\n.library-item_disabled_udvIX:hover {\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.library-item_library-item-image-container-wrapper_3TFcU {\r\n    height: 100px;\r\n    width: 100%;\r\n    position: relative;\r\n}\n\n.library-item_library-item-image-container_1VgKJ {\r\n    position: absolute;\r\n    height: 100px;\r\n    width: 100%;\r\n}\n\n.library-item_library-item-inset-image-container_2oGku {\r\n    position: relative;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: -2.5rem;\r\n    align-self: flex-start;\r\n    background-color: var(--pen-primary);\r\n    width: 3.5rem;\r\n    height: 3.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.25rem solid var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-left: 1rem;\r\n}\n\n[dir=\"rtl\"] .library-item_library-item-inset-image-container_2oGku {\r\n    margin-right: 1rem;\r\n}\n\n.library-item_library-item-image_3G7nd {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\n\n.library-item_library-item-inset-image_qk3QS {\r\n    width: 2.5rem;\r\n}\n\n.library-item_library-item-name_35ftf {\r\n    width: 80%;\r\n    margin: 0.25rem 0;\r\n    text-align: center;\r\n\r\n    /*\r\n        For truncating overflowing text gracefully\r\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\r\n    */\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    min-width: 0;\r\n}\n\n.library-item_featured-item_3dHDW {\r\n    flex-basis: 300px;\r\n    max-width: 300px;\r\n    height: auto;\r\n    overflow: hidden;\r\n    padding: 0;\r\n}\n\n.library-item_featured-image-container_2x7jE {\r\n    position: relative;\r\n    width: 100%;\r\n}\n\n.library-item_featured-image_1rsDU {\r\n    width: 100%;\r\n    aspect-ratio: 2;\r\n}\n\n.library-item_featured-text_xD5Ve {\r\n    font-weight: bold;\r\n    padding: 10px;\r\n    /* height: 140px; */\r\n    width: 300px;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: left;\r\n    padding-left: 1.25rem;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-text_2sSn4 {\r\n    text-align: right;\r\n    padding-right: 1.25rem;\r\n}\n\n.library-item_featured-description_1hGaH {\r\n    display: block;\r\n    font-weight: normal;\r\n    line-height: 1.375rem;\r\n    padding-top: .3125rem;\r\n    padding-bottom: .25rem;\r\n}\n\n.library-item_featured-extension-metadata_24DYi {\r\n    width: 100%;\r\n    padding: 0 1.25rem 1rem 1.25rem;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: .5rem;\r\n    align-items: start;\r\n    font-size: 12px;\r\n    color: var(--text-primary);\r\n    opacity: 0.75;\r\n}\n\n[dir=\"ltr\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: left;\r\n}\n\n[dir=\"rtl\"] .library-item_featured-extension-metadata_24DYi {\r\n    text-align: right;\r\n}\n\n.library-item_featured-extension-metadata-section_19tW7 {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn {\r\n    height: 100%;\r\n    padding-top: 0.4rem;\r\n    font-weight: bold;\r\n}\n\n.library-item_featured-extension-metadata-detail_2kvJn img {\r\n    margin-right: 0.25rem;\r\n    width: 20px;\r\n    height: 20px;\r\n}\n\n.library-item_coming-soon-text_ZcFGD {\r\n    position: absolute;\r\n    background-color: var(--data-primary);\r\n    border-radius: 1rem;\r\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25);\r\n    padding: .5rem 1rem;\r\n    font-size: .875rem;\r\n    font-weight: bold;\r\n    color: var(--ui-white);\r\n}\n\n[dir=\"ltr\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n[dir=\"rtl\"] .library-item_coming-soon-text_ZcFGD {\r\n    transform: translate(calc(-2 * 0.5rem), calc(2 * 0.5rem));\r\n}\n\n.library-item_favorite-container_3ebO5 {\r\n    display: none;\r\n    background: none;\r\n    border: none;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    top: 0.5rem;\r\n    left: 0.5rem;\r\n}\n\n.library-item_favorite-icon_20B_7 {\r\n    width: 32px;\r\n    height: 32px;\r\n}\n\n.library-item_favorite-container_3ebO5.library-item_active_3pQCM,\r\n.library-item_library-item_1nZBu:hover .library-item_favorite-container_3ebO5 {\r\n    display: block;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -2661,8 +2664,6 @@ exports.locals = {
 	"featuredExtensionMetadataSection": "library-item_featured-extension-metadata-section_19tW7",
 	"featured-extension-metadata-detail": "library-item_featured-extension-metadata-detail_2kvJn",
 	"featuredExtensionMetadataDetail": "library-item_featured-extension-metadata-detail_2kvJn",
-	"extension-links": "library-item_extension-links_ndWNb",
-	"extensionLinks": "library-item_extension-links_ndWNb",
 	"coming-soon-text": "library-item_coming-soon-text_ZcFGD",
 	"comingSoonText": "library-item_coming-soon-text_ZcFGD",
 	"favorite-container": "library-item_favorite-container_3ebO5",
@@ -4798,7 +4799,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n}\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n    font-weight: bold;\r\n    line-height: 1.7em;\r\n}\n\nh1 {\r\n    font-weight: 2.5rem;\r\n}\n\nh2 {\r\n    font-weight: 2rem;\r\n}\n\nh3 {\r\n    font-size: 1.4rem;\r\n}\n\nh4 {\r\n    font-size: 1rem;\r\n}\n\na {\r\n    color: var(--link-color);\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n}\n\n.interface_container_1cGgE {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    background-color: var(--page-background);\r\n}\n\n.interface_editor_3WnQ8 {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_center_2vEJw {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_wrapper-regulator_5T0-b {\r\n    height: 100%;\r\n}\n\n.interface_player-only_1YGqr .interface_center_2vEJw {\r\n    margin: 0px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 0.5rem;\r\n    background: var(--ui-primary);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    min-width: calc(100% - 1rem);\r\n}\n\n.interface_main-section_3dp9e {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 0.5rem;\r\n}\n\n.interface_section_3f_bi {\r\n    width: 480px;\r\n    background: var(--ui-white);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx {\r\n    padding: 10px 0;\r\n    border-top: 2px solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_footer-content_2-VDh {\r\n    max-width: 600px;\r\n    margin: auto;\r\n}\n\n.interface_footer-text_2qZPP {\r\n    text-align: center;\r\n    margin: 5px 0 10px 0;\r\n}\n\n.interface_footer-columns_22Cpb {\r\n    display: flex;\r\n    justify-content: center;\r\n    justify-items: center;\r\n    flex-wrap: wrap;\r\n}\n\n.interface_footer-section_vgGzW {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 200px;\r\n    margin-bottom: 10px;\r\n}\n\n.interface_footer-section_vgGzW > * {\r\n    margin-bottom: 10px;\r\n}\n\n.interface_infobox_KQp6d {\r\n    line-height: 1.5em;\r\n    padding: 0.5rem;\r\n    margin: 5px 0 8px 0;\r\n    border-radius: 0.5rem;\r\n    border: 1px solid #b9d6ff;\r\n    background-color: #dbebff;\r\n}\n\n.interface_infobox_KQp6d p {\r\n    margin: 4px 0;\r\n}\n\n.interface_infobox_KQp6d a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_unshared-update_zPoHa {\r\n    border-color: #ff52526e;\r\n    background-color: #ff525240;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n}\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n    font-weight: bold;\r\n    line-height: 1.7em;\r\n}\n\nh1 {\r\n    font-weight: 2.5rem;\r\n}\n\nh2 {\r\n    font-weight: 2rem;\r\n}\n\nh3 {\r\n    font-size: 1.4rem;\r\n}\n\nh4 {\r\n    font-size: 1rem;\r\n}\n\na {\r\n    color: var(--link-color);\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n}\n\n.interface_container_1cGgE {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    background-color: var(--page-background);\r\n}\n\n.interface_editor_3WnQ8 {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_center_2vEJw {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_wrapper-regulator_5T0-b {\r\n    height: 100%;\r\n}\n\n.interface_player-only_1YGqr .interface_center_2vEJw {\r\n    margin: 0px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 0.5rem;\r\n    background: var(--ui-primary);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    min-width: calc(100% - 1rem);\r\n}\n\n.interface_main-section_3dp9e {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 0.5rem;\r\n}\n\n.interface_section_3f_bi {\r\n    width: 480px;\r\n    background: var(--ui-white);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx {\r\n    padding: 10px 0;\r\n    border-top: 2px solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_footer-content_2-VDh {\r\n    max-width: 600px;\r\n    margin: auto;\r\n}\n\n.interface_footer-text_2qZPP {\r\n    text-align: center;\r\n    margin: 5px 0 10px 0;\r\n}\n\n.interface_footer-columns_22Cpb {\r\n    display: flex;\r\n    justify-content: center;\r\n    justify-items: center;\r\n    flex-wrap: wrap;\r\n}\n\n.interface_footer-section_vgGzW {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 200px;\r\n    margin-bottom: 10px;\r\n}\n\n.interface_footer-section_vgGzW > * {\r\n    margin-bottom: 10px;\r\n}\n\n.interface_infobox_KQp6d {\r\n    line-height: 1.5em;\r\n    padding: 0.5rem;\r\n    margin: 5px 0 8px 0;\r\n    border-radius: 0.5rem;\r\n    border: 1px solid #b9d6ff;\r\n    background-color: #dbebff;\r\n}\n\n.interface_infobox_KQp6d p {\r\n    margin: 4px 0;\r\n}\n\n.interface_infobox_KQp6d a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_unshared-update_zPoHa {\r\n    border-color: #ff52526e;\r\n    background-color: #ff525240;\r\n}\n\n.interface_tab-list_QKrv4 {\r\n    height: 2.75rem;\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: flex-end;\r\n    flex-shrink: 0;\r\n\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-weight: 500;\r\n    font-size: 0.80rem;\r\n\r\n    /* Overrides for react-tabs styling */\r\n    margin: 0 !important;\r\n    border-bottom: 0 !important;\r\n\r\n    color: var(--text-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-disabled_2sE-- {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ {\r\n    height: 80%;\r\n    margin-bottom: 0;\r\n\r\n    border-radius: 1rem 1rem 0 0;\r\n    border: 1px solid var(--ui-black-transparent);\r\n\r\n    padding: 0.125rem 1.25rem 0;\r\n    font-size: 0.75rem;\r\n\r\n    background-color: var(--ui-tertiary);\r\n    color: var(--ui-text-primary-transparent);\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    -webkit-user-select: none;\r\n\r\n       -moz-user-select: none;\r\n\r\n        -ms-user-select: none;\r\n\r\n            user-select: none;\r\n    white-space: nowrap;\r\n}\n\n.interface_tab_1TpnZ:hover {\r\n  background-color: var(--ui-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG {\r\n    height: 90%;\r\n    color: var(--looks-secondary);\r\n    background-color: var(--ui-white);\r\n}\n\n.interface_tab_1TpnZ img {\r\n    width: 1.375rem;\r\n    filter: grayscale(100%);\r\n}\n\n[dir=\"ltr\"] .interface_tab_1TpnZ img {\r\n    margin-right: 0.125rem;\r\n}\n\n[dir=\"rtl\"] .interface_tab_1TpnZ img {\r\n    margin-left: 0.125rem;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG img {\r\n    filter: none;\r\n}\n\n/* Tab style overrides from react-tabs */\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:after {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus {\r\n    outline: none;\r\n    box-shadow: none;\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus:after {\r\n    display: none;\r\n}\n\n/* Body of the tabs */\n\n.interface_tabs_2Hv2T {\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.interface_tab-panel_3ppzV {\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: none;\r\n}\n\n.interface_tab-panel_3ppzV.interface_is-selected_27PQG {\r\n    display: flex;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -4823,7 +4824,17 @@ exports.locals = {
 	"footerSection": "interface_footer-section_vgGzW",
 	"infobox": "interface_infobox_KQp6d",
 	"unshared-update": "interface_unshared-update_zPoHa",
-	"unsharedUpdate": "interface_unshared-update_zPoHa"
+	"unsharedUpdate": "interface_unshared-update_zPoHa",
+	"tab-list": "interface_tab-list_QKrv4",
+	"tabList": "interface_tab-list_QKrv4",
+	"tab": "interface_tab_1TpnZ",
+	"is-disabled": "interface_is-disabled_2sE--",
+	"isDisabled": "interface_is-disabled_2sE--",
+	"is-selected": "interface_is-selected_27PQG",
+	"isSelected": "interface_is-selected_27PQG",
+	"tabs": "interface_tabs_2Hv2T",
+	"tab-panel": "interface_tab-panel_3ppzV",
+	"tabPanel": "interface_tab-panel_3ppzV"
 };
 
 /***/ }),
@@ -12428,29 +12439,7 @@ class LibraryItemComponent extends react__WEBPACK_IMPORTED_MODULE_2___default.a.
       className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.libraryItemName
     }, this.props.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
       className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredDescription
-    }, this.props.description)), (this.props.docsURI || this.props.samples) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.extensionLinks
-    }, this.props.docsURI && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-      href: this.props.docsURI,
-      target: "_blank",
-      rel: "noreferrer"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
-      defaultMessage: "Documentation"
-      // eslint-disable-next-line max-len
-      ,
-
-      id: "tw.documentation"
-    })), this.props.samples && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-      href: this.props.samples[0].href,
-      target: "_blank",
-      rel: "noreferrer"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
-      defaultMessage: "Sample project"
-      // eslint-disable-next-line max-len
-      ,
-
-      id: "tw.sample"
-    }))), this.props.bluetoothRequired || this.props.internetConnectionRequired || this.props.collaborator || this.props.credits && this.props.credits.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    }, this.props.description)), this.props.bluetoothRequired || this.props.internetConnectionRequired || this.props.collaborator || this.props.credits && this.props.credits.length > 0 || this.props.docsURI || this.props.samples ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredExtensionMetadata
     }, this.props.bluetoothRequired || this.props.internetConnectionRequired ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredExtensionMetadataSection
@@ -12481,7 +12470,33 @@ class LibraryItemComponent extends react__WEBPACK_IMPORTED_MODULE_2___default.a.
       className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredExtensionMetadataDetail
     }, this.props.credits.map((credit, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, {
       key: index
-    }, credit, index !== this.props.credits.length - 1 && ', '))))) : null) : null, favorite) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, credit, index !== this.props.credits.length - 1 && ', '))))) : null, this.props.docsURI || this.props.samples ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredExtensionMetadataSection
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, "Resources"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.featuredExtensionMetadataDetail
+    }, this.props.docsURI && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      href: this.props.docsURI,
+      target: "_blank",
+      rel: "noreferrer"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
+      defaultMessage: "Documentation"
+      // eslint-disable-next-line max-len
+      ,
+
+      id: "tw.documentation"
+    })), this.props.samples && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), this.props.samples.map((sample, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, {
+      key: index
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      href: sample.href,
+      target: "_blank",
+      rel: "noreferrer"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
+      defaultMessage: "Sample project"
+      // eslint-disable-next-line max-len
+      ,
+
+      id: "tw.sample"
+    })), index !== this.props.samples.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null))))))) : null) : null, favorite) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_6___default()(_library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.libraryItem, {
         [_library_item_css__WEBPACK_IMPORTED_MODULE_5___default.a.hidden]: this.props.hidden
       }),
@@ -30859,6 +30874,8 @@ class LibraryItem extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompo
     return iconMd5Prop;
   }
   render() {
+    /* const url = this.props.icons && this.props.icons.length > 0 ?
+        this.props.icons[this.state.iconIndex].url : null; */
     const iconMd5 = this.curIconMd5();
     const iconURL = iconMd5 ? "https://cdn.assets.scratch.mit.edu/internalapi/asset/".concat(iconMd5, "/get/") : this.props.iconRawURL;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_library_item_library_item_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -43443,6 +43460,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tag-messages.js */ "./src/lib/libraries/tag-messages.js");
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
+  tag: 'dash',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].dash
+}, {
   tag: 'animals',
   intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].animals
 }, {
@@ -43852,12 +43872,13 @@ const events = function events(isInitialSetup, isStage, targetId, colors) {
 };
 const control = function control(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        <!--").concat(blockSeparator, "\n        <block type=\"control_get_error\"/>\n        <block type=\"control_try_catch_error\"/>\n        <block type=\"control_error\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">Error</field>\n                </shadow>\n            </value>\n        </block>-->\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
+  const hello = translate('LOOKS_HELLO', 'Hello!');
   const name = translate('SENSING_ASK_TEXT', 'What\'s your name?');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_SENSING}\"\n        id=\"sensing\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n            <block type=\"sensing_touchingobject\">\n                <value name=\"TOUCHINGOBJECTMENU\">\n                    <shadow type=\"sensing_touchingobjectmenu\"/>\n                </value>\n            </block>\n            <block type=\"sensing_touchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_coloristouchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n                <value name=\"COLOR2\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_distanceto\">\n                <value name=\"DISTANCETOMENU\">\n                    <shadow type=\"sensing_distancetomenu\"/>\n                </value>\n            </block>\n            ".concat(blockSeparator, "\n        "), "\n        ").concat(isInitialSetup ? '' : "\n            <block id=\"askandwait\" type=\"sensing_askandwait\">\n                <value name=\"QUESTION\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(name, "</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        <block id=\"answer\" type=\"sensing_answer\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_keypressed\">\n            <value name=\"KEY_OPTION\">\n                <shadow type=\"sensing_keyoptions\"/>\n            </value>\n        </block>\n        <block type=\"sensing_mousedown\"/>\n        <block type=\"sensing_mousex\"/>\n        <block type=\"sensing_mousey\"/>\n        ").concat(isStage ? '' : "\n            ".concat(blockSeparator, "\n            '<block type=\"sensing_setdragmode\" id=\"sensing_setdragmode\"></block>'+\n            ").concat(blockSeparator, "\n        "), "\n        ").concat(blockSeparator, "\n        <block id=\"loudness\" type=\"sensing_loudness\"/>\n        ").concat(blockSeparator, "\n        <block id=\"timer\" type=\"sensing_timer\"/>\n        <block type=\"sensing_resettimer\"/>\n        ").concat(blockSeparator, "\n        <block id=\"of\" type=\"sensing_of\">\n            <value name=\"OBJECT\">\n                <shadow id=\"sensing_of_object_menu\" type=\"sensing_of_object_menu\"/>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block id=\"current\" type=\"sensing_current\"/>\n        <block type=\"sensing_dayssince2000\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_username\"/>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_SENSING}\"\n        id=\"sensing\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n            <block type=\"sensing_touchingobject\">\n                <value name=\"TOUCHINGOBJECTMENU\">\n                    <shadow type=\"sensing_touchingobjectmenu\"/>\n                </value>\n            </block>\n            <block type=\"sensing_touchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_coloristouchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n                <value name=\"COLOR2\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_distanceto\">\n                <value name=\"DISTANCETOMENU\">\n                    <shadow type=\"sensing_distancetomenu\"/>\n                </value>\n            </block>\n            ".concat(blockSeparator, "\n        "), "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"sensing_alert\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(hello, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_prompt\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n                <value name=\"VALUE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\"/>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_confirm\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">Did you see that movie?</field>\n                    </shadow>\n                </value>\n            </block>\n            <block id=\"askandwait\" type=\"sensing_askandwait\">\n                <value name=\"QUESTION\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        <block id=\"answer\" type=\"sensing_answer\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_keypressed\">\n            <value name=\"KEY_OPTION\">\n                <shadow type=\"sensing_keyoptions\"/>\n            </value>\n        </block>\n        <block type=\"sensing_mousedown\"/>\n        <block type=\"sensing_mousex\"/>\n        <block type=\"sensing_mousey\"/>\n        ").concat(isStage ? '' : "\n            ".concat(blockSeparator, "\n            '<block type=\"sensing_setdragmode\" id=\"sensing_setdragmode\"></block>'+\n            ").concat(blockSeparator, "\n        "), "\n        ").concat(blockSeparator, "\n        <block id=\"loudness\" type=\"sensing_loudness\"/>\n        ").concat(blockSeparator, "\n        <block id=\"timer\" type=\"sensing_timer\"/>\n        <block type=\"sensing_resettimer\"/>\n        ").concat(blockSeparator, "\n        <block id=\"of\" type=\"sensing_of\">\n            <value name=\"OBJECT\">\n                <shadow id=\"sensing_of_object_menu\" type=\"sensing_of_object_menu\"/>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block id=\"current\" type=\"sensing_current\"/>\n        <block type=\"sensing_dayssince2000\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_username\"/>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const operators = function operators(isInitialSetup, isStage, targetId, colors) {
   const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
@@ -50766,8 +50787,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_tw_invalid_embed_invalid_embed_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../components/tw-invalid-embed/invalid-embed.jsx */ "./src/components/tw-invalid-embed/invalid-embed.jsx");
 /* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../lib/brand.js */ "./src/lib/brand.js");
 /* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_30__);
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "projectId"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -50817,6 +50841,8 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 
 
 
+
+
 const isInvalidEmbed = window.parent !== window;
 const handleClickAddonSettings = addonId => {
   // addonId might be a string of the addon to focus on, undefined, or an event (treat like undefined)
@@ -50827,9 +50853,18 @@ const handleClickAddonSettings = addonId => {
 const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"])({
   defaultTitle: {
     "id": "tw.guiDefaultTitle",
-    "defaultMessage": "Run Scratch projects faster"
+    "defaultMessage": "More Blocks, Extensions, colors and other for block-based coding"
   }
 });
+const tabClassNames = {
+  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabs,
+  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tab),
+  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabList),
+  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabPanel),
+  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isSelected),
+  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isSelected),
+  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isDisabled
+};
 const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_16__["default"]);
 if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].reloadChannel) {
   _addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].reloadChannel.addEventListener('message', () => {
@@ -50843,11 +50878,11 @@ if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].changeChannel) {
 }
 Object(_addons_entry__WEBPACK_IMPORTED_MODULE_25__["default"])();
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footer
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerContent
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerContent
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -50857,7 +50892,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -50871,9 +50906,29 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://scratch.org/')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerColumns
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
+// eslint-disable-next-line max-len
+, {
+  defaultMessage: "{APP_NAME} is based on TurboWarp and PenguinMod, but not affiliated with these mods. They are available for free at: TurboWarp: {turbowarpDotOrg}. PenguinMod: {penguinmodDotCom}.",
+  id: "tw.footer.basedOnDisclaimer",
+  values: {
+    APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"],
+    turbowarpDotOrg: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      href: "https://turbowarp.org/",
+      target: "_blank",
+      rel: "noreferrer"
+    }, 'https://turbowarp.org/'),
+    penguinmodDotCom: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      href: "https://penguinmod.com/",
+      target: "_blank",
+      rel: "noreferrer"
+    }, 'https://penguinmod.com')
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerColumns
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "credits.html"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
@@ -50885,7 +50940,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Donate",
   id: "tw.footer.donate"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://desktop.turbowarp.org/"
 }, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -50906,14 +50961,14 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Documentation",
   id: "tw.footer.documentation"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/users/damir2809/#comments"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Feedback & Bugs",
   id: "tw.feedback"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/TurboWarp/"
+  href: "https://github.com/DashBlocks/"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Source Code",
   id: "tw.code"
@@ -50923,10 +50978,13 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Privacy Policy",
   id: "tw.privacy"
 }))))));
-class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureComponent {
   constructor(props) {
     super(props);
     this.handleUpdateProjectTitle = this.handleUpdateProjectTitle.bind(this);
+    this.state = {
+      activeTabIndex: 0
+    };
   }
   componentDidUpdate(prevProps) {
     if (prevProps.isLoading && !this.props.isLoading) {
@@ -50939,6 +50997,26 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     } else {
       document.title = "".concat(title, " - ").concat(_lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]);
     }
+  }
+  onActivateTab(tab) {
+    this.setState({
+      activeTabIndex: tab
+    });
+  }
+  onActivateUnsharedTab() {
+    this.setState({
+      activeTabIndex: 1
+    });
+  }
+  onActivateCloudTab() {
+    this.setState({
+      activeTabIndex: 2
+    });
+  }
+  onActivateDescriptionTab() {
+    this.setState({
+      activeTabIndex: 3
+    });
   }
   render() {
     if (isInvalidEmbed) {
@@ -50961,9 +51039,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     const isHomepage = isPlayerOnly && !isFullScreen;
     const isEditor = !isPlayerOnly;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.container, {
-        [_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.playerOnly]: isHomepage,
-        [_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.editor]: isEditor
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.container, {
+        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.playerOnly]: isHomepage,
+        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.editor]: isEditor
       }),
       dir: isRtl ? 'rtl' : 'ltr'
     }, isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedMenuBar, {
@@ -50973,9 +51051,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
       enableSeeInside: true,
       onClickAddonSettings: handleClickAddonSettings
     }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.center
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.center
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.wrapperRegulator,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.wrapperRegulator,
       style: isHomepage ? {
         width: "".concat(Math.max(480, props.customStageSize.width) + 2, "px")
       } : null
@@ -50987,19 +51065,78 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }, props))), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_22__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isRtl: isRtl
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.mainSection
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.mainSection
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tabs"], {
+      forceRenderTabPanel: true,
+      className: tabClassNames.tabs,
+      selectedIndex: this.state.activeTabIndex,
+      selectedTabClassName: tabClassNames.tabSelected,
+      selectedTabPanelClassName: tabClassNames.tabPanelSelected,
+      onSelect: this.onActivateTab.bind(this)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabList"], {
+      className: tabClassNames.tabList
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+      className: tabClassNames.tab
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+      defaultMessage: "About {APP_NAME}",
+      id: "dash.home.tab.about",
+      values: {
+        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
+        [tabClassNames.tabDisabled]: !(description.instructions === 'unshared' || description.credits === 'unshared')
+      }),
+      onClick: this.onActivateUnsharedTab.bind(this)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+      defaultMessage: "Unshared project",
+      id: "dash.home.tab.unshared"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
+        [tabClassNames.tabDisabled]: !(hasCloudVariables && projectId !== '0')
+      }),
+      onClick: this.onActivateCloudTab.bind(this)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+      defaultMessage: "Cloud variables",
+      id: "dash.home.tab.cloud"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
+        [tabClassNames.tabDisabled]: !(description.instructions || description.credits)
+      }),
+      onClick: this.onActivateDescriptionTab.bind(this)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+      defaultMessage: "Description",
+      id: "dash.home.tab.description"
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+      className: tabClassNames.tabPanel
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
       }
-    }, (
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
     // eslint-disable-next-line max-len
-    description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.unsharedUpdate)
+    , {
+      defaultMessage: "{APP_NAME} is a TurboWarp and PenguinMod mod that adds more blocks, extensions, colors and other and compiles projects to JavaScript to make them run really fast. Try it out by clicking on 'See inside' button or by inputting a project ID or URL above or choosing a featured project below.",
+      id: "tw.home.description",
+      values: {
+        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+      studio: "37103090"
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+      className: tabClassNames.tabPanel
+    }, (description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      style: {
+        overflowY: "auto",
+        maxHeight: "520px"
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.unsharedUpdate)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared projects are no longer visible.",
       id: "tw.unshared2.1"
@@ -51023,21 +51160,27 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     , {
       defaultMessage: "If this project is actually shared, please report a bug.",
       id: "tw.unshared.bug"
-    }))), hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], null), description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+      className: tabClassNames.tabPanel
+    }, hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      style: {
+        overflowY: "auto",
+        maxHeight: "520px"
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+      className: tabClassNames.tabPanel
+    }, description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      style: {
+        overflowY: "auto",
+        maxHeight: "520px"
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
       instructions: description.instructions,
       credits: description.credits,
       projectId: projectId
-    }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
-    // eslint-disable-next-line max-len
-    , {
-      defaultMessage: "{APP_NAME} is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
-      id: "tw.home.description",
-      values: {
-        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
-      }
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
-      studio: "37103090"
-    })))) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
+    })) : null)))) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
   }
 }
 Interface.propTypes = {
