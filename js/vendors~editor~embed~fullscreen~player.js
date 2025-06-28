@@ -202509,11 +202509,15 @@ class PointTool {
       if (!seg.origPoint) {
         seg.origPoint = seg.point.clone();
       }
+      let constrainedDelta = delta;
       if (event.modifiers.shift) {
-        seg.point = seg.origPoint.add(Object(_math__WEBPACK_IMPORTED_MODULE_0__["snapDeltaToAngle"])(dragVector, Math.PI / 4));
-      } else {
-        seg.point = seg.point.add(delta);
+        // horizontal movement only
+        constrainedDelta = new paper.Point(delta.x, 0);
+      } else if (event.modifiers.control || event.modifiers.meta) {
+        // vertical movement only
+        constrainedDelta = new paper.Point(0, delta.y);
       }
+      seg.point = seg.point.add(constrainedDelta);
     }
   }
   onMouseUp() {
