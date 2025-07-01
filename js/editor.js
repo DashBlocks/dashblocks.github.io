@@ -2845,19 +2845,19 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    flex-wrap: nowrap;\n    gap: 0.5rem;\n\n    /*\n        For most things, we shouldn't explicitly set height, and let the\n        content push the element to whatever fits. Using a fixed height\n        instead, will help us subtract the value we assign from the body,\n        adding up to a perfect 100%. This means we don't need to set\n        overflow: hidden, which makes it hard to debug. border-box\n        simplifies by all of this by removing padding from the equation.\n    */\n    box-sizing: border-box;\n    height: 3rem;\n\n    /*\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\n        width: 100%;\n    */\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    background-color: var(--menu-bar-background);\n    background-image: var(--menu-bar-background-image);\n    color: var(--menu-bar-foreground);\n}\n\n.menu-bar_menuBarContent_xQ4H6 {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    box-sizing: border-box;\n    height: 3rem;\n    justify-content: flex-start;\n    gap: 0.5rem;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    background-color: var(--menu-bar-background);\n    background-image: var(--menu-bar-background-image);\n    color: var(--menu-bar-foreground);\n}\n\n.menu-bar_menuBarContent_xQ4H6.menu-bar_centered_192Jg {\n    justify-content: center;\n    gap: 1.5rem;\n}\n\n.menu-bar_main-menu_EyCGw {\n    display: flex;\n    flex-direction: row;\n    justify-content: flex-start;\n    flex-wrap: nowrap;\n    align-items: center;\n    flex-grow: 1;\n    gap: 0.5rem;\n}\n\n.menu-bar_inactive_2nFUV {\n    opacity: 0;\n}\n\n.menu-bar_dashLogo_3uF7q {\n    vertical-align: middle;\n    padding: 0.5rem;\n}\n\n.menu-bar_dashLogo_3uF7q.menu-bar_clickable_26k4z {\n    cursor: pointer;\n}\n\n.menu-bar_menu-bar-item_264qQ {\n    display: flex;\n    text-decoration: none;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    align-self: center;\n    position: relative;\n    align-items: center;\n    white-space: nowrap;\n    height: 3rem;\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\n    cursor: pointer;\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\n    background-color: var(--ui-black-transparent);\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\n    max-width: 12rem;\n    flex: 1;\n}\n\n.menu-bar_title-field-growable_2DAmE {\n    flex-grow: 1;\n    width: 2rem;\n}\n\n.menu-bar_file-group_Ofb7F {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    gap: 0.5rem;\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ {\n    padding: 0 0.5rem;\n}\n\n.menu-bar_fileGroup_35CUm {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    gap: 0.5rem;\n}\n\n.menu-bar_fileGroup_35CUm .menu-bar_menu-bar-item_264qQ {\n    padding: 0 0.5rem;\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\n    margin-top: 3rem;\n    z-index: 491;\n}\n\n.menu-bar_feedback-link_2Op70 {\n    color: var(--menu-bar-background);\n    text-decoration: none;\n}\n\n.menu-bar_feedback-button_2XhjA {\n    background-color: white;\n    color: inherit;\n    height: 34px;\n}\n\n.menu-bar_divider_2bLcv {\n    height: 34px;\n}\n\n.menu-bar_author-info_3H1M3 {\n    margin-left: .25rem;\n    margin-right: .6875rem;\n}\n\n.menu-bar_menu-bar-button_45YjE {\n    height: 2rem;\n}\n\n.menu-bar_remix-button_22R_5 {\n    background-color: var(--pen-primary)\n}\n\n.menu-bar_remix-button-icon_120Az {\n    height: 1.25rem;\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\n    opacity: 0.5;\n}\n\n.menu-bar_account-info-group_1CTpL {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\n    margin: 0 .25rem;\n    padding: 0 0.75rem;\n}\n\n.menu-bar_mystuff-icon_1f8Re {\n    margin: 0 .25rem;\n    height: 1rem;\n}\n\n.menu-bar_help-icon_ieE_q {\n    margin: 0 .25rem 0 0;\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\n    margin: 0 0 0 .25rem;\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\n    padding: 0 .25rem;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.menu-bar_profile-icon_9WA-H {\n    margin: 0 .25rem;\n    width: 2rem;\n    border-radius: calc(0.5rem / 2);\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\n    width: 0.5rem;\n    height: 0.5rem;\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\n    margin-right: .5rem;\n}\n\n.menu-bar_disabled_rGGrp {\n    opacity: 0.5;\n}\n\n.menu-bar_mystuff_gxcZo > a {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: 45%;\n  padding-right: 10px;\n  padding-left: 10px;\n  width: 30px;\n  overflow: hidden;\n  text-indent: 50px;\n  white-space: nowrap;\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\n  background-size: 50%;\n}\n\n.menu-bar_mystuff_gxcZo > a {\n  /* background-image: url(\"/images/mystuff.png\"); */\n}\n\n.menu-bar_about-icon_16Env {\n    height: 1.25rem;\n    margin: 0.5rem;\n    vertical-align: middle;\n}\n\n.menu-bar_collapsible-label_3ql7m {\n    margin: 0 .25rem;\n}\n\n@media only screen and (max-width: 1124px) {\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\n        display: none;\n    }\n\n    .menu-bar_help-icon_ieE_q {\n        margin-right: 0;\n    }\n}\n\n.menu-bar_menu-item-link_1-4xZ {\n    color: inherit;\n    text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    flex-wrap: nowrap;\r\n    gap: 0.5rem;\r\n\r\n    /*\r\n        For most things, we shouldn't explicitly set height, and let the\r\n        content push the element to whatever fits. Using a fixed height\r\n        instead, will help us subtract the value we assign from the body,\r\n        adding up to a perfect 100%. This means we don't need to set\r\n        overflow: hidden, which makes it hard to debug. border-box\r\n        simplifies by all of this by removing padding from the equation.\r\n    */\r\n    box-sizing: border-box;\r\n    height: 3rem;\r\n\r\n    /*\r\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\r\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\r\n        width: 100%;\r\n    */\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-size: 0.75rem;\r\n    font-weight: bold;\r\n    background-color: var(--menu-bar-background);\r\n    background-image: var(--menu-bar-background-image);\r\n    color: var(--menu-bar-foreground);\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg {\r\n    justify-content: center;\r\n}\n\n.menu-bar_settings-menu_2S2hK {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n    position: absolute;\r\n    left: 0;\r\n}\n\n.menu-bar_main-menu_EyCGw {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_main-menu_EyCGw {\r\n    flex-grow: 0;\r\n}\n\n.menu-bar_inactive_2nFUV {\r\n    opacity: 0;\r\n}\n\n.menu-bar_dashLogo_3uF7q {\r\n    height: 2.25rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ {\r\n    display: flex;\r\n    text-decoration: none;\r\n    -webkit-user-select: none;\r\n       -moz-user-select: none;\r\n        -ms-user-select: none;\r\n            user-select: none;\r\n    align-self: center;\r\n    position: relative;\r\n    align-items: center;\r\n    white-space: nowrap;\r\n    height: 3rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\r\n    cursor: pointer;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\r\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\r\n    background-color: var(--ui-black-transparent);\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\r\n    max-width: 12rem;\r\n    flex: 1;\r\n}\n\n.menu-bar_title-field-growable_2DAmE {\r\n    flex-grow: 1;\r\n    width: 2rem;\r\n}\n\n.menu-bar_file-group_Ofb7F, .menu-bar_settings-group_3wMFc {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ, .menu-bar_settings-group_3wMFc .menu-bar_menu-bar-item_264qQ {\r\n    padding: 0 0.5rem;\r\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\r\n    margin-top: 3rem;\r\n    z-index: 491;\r\n}\n\n.menu-bar_feedback-link_2Op70 {\r\n    color: var(--menu-bar-background);\r\n    text-decoration: none;\r\n}\n\n.menu-bar_feedback-button_2XhjA {\r\n    background-color: white;\r\n    color: inherit;\r\n    height: 34px;\r\n}\n\n.menu-bar_divider_2bLcv {\r\n    height: 34px;\r\n}\n\n.menu-bar_author-info_3H1M3 {\r\n    margin-left: .25rem;\r\n    margin-right: .6875rem;\r\n}\n\n.menu-bar_menu-bar-button_45YjE {\r\n    height: 2rem;\r\n}\n\n.menu-bar_remix-button_22R_5 {\r\n    background-color: var(--pen-primary)\r\n}\n\n.menu-bar_remix-button-icon_120Az {\r\n    height: 1.25rem;\r\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_account-info-group_1CTpL {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_account-info-group_1CTpL {\r\n    flex-grow: 0;\r\n    position: absolute;\r\n    right: 0;\r\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\r\n    margin: 0 .25rem;\r\n    padding: 0 0.75rem;\r\n}\n\n.menu-bar_mystuff-icon_1f8Re {\r\n    margin: 0 .25rem;\r\n    height: 1rem;\r\n}\n\n.menu-bar_help-icon_ieE_q {\r\n    margin: 0 .25rem 0 0;\r\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\r\n    margin: 0 0 0 .25rem;\r\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\r\n    padding: 0 .25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_profile-icon_9WA-H {\r\n    margin: 0 .25rem;\r\n    width: 2rem;\r\n    border-radius: calc(0.5rem / 2);\r\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\r\n    width: 0.5rem;\r\n    height: 0.5rem;\r\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-left: .5rem;\r\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-right: .5rem;\r\n}\n\n.menu-bar_disabled_rGGrp {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  background-repeat: no-repeat;\r\n  background-position: center center;\r\n  background-size: 45%;\r\n  padding-right: 10px;\r\n  padding-left: 10px;\r\n  width: 30px;\r\n  overflow: hidden;\r\n  text-indent: 50px;\r\n  white-space: nowrap;\r\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\r\n  background-size: 50%;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  /* background-image: url(\"/images/mystuff.png\"); */\r\n}\n\n.menu-bar_about-icon_16Env {\r\n    height: 1.25rem;\r\n    margin: 0.5rem;\r\n    vertical-align: middle;\r\n}\n\n.menu-bar_collapsible-label_3ql7m {\r\n    margin: 0 .25rem;\r\n}\n\n@media only screen and (max-width: 1124px) {\r\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\r\n        display: none;\r\n    }\r\n\r\n    .menu-bar_help-icon_ieE_q {\r\n        margin-right: 0;\r\n    }\r\n}\n\n.menu-bar_menu-item-link_1-4xZ {\r\n    color: inherit;\r\n    text-decoration: none;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"menu-bar": "menu-bar_menu-bar_1gLUp",
 	"menuBar": "menu-bar_menu-bar_1gLUp",
-	"menuBarContent": "menu-bar_menuBarContent_xQ4H6",
 	"centered": "menu-bar_centered_192Jg",
+	"settings-menu": "menu-bar_settings-menu_2S2hK",
+	"settingsMenu": "menu-bar_settings-menu_2S2hK",
 	"main-menu": "menu-bar_main-menu_EyCGw",
 	"mainMenu": "menu-bar_main-menu_EyCGw",
 	"inactive": "menu-bar_inactive_2nFUV",
 	"dashLogo": "menu-bar_dashLogo_3uF7q",
-	"clickable": "menu-bar_clickable_26k4z",
 	"menu-bar-item": "menu-bar_menu-bar-item_264qQ",
 	"menuBarItem": "menu-bar_menu-bar-item_264qQ",
 	"hoverable": "menu-bar_hoverable_2sbwj",
@@ -2867,7 +2867,8 @@ exports.locals = {
 	"titleFieldGrowable": "menu-bar_title-field-growable_2DAmE",
 	"file-group": "menu-bar_file-group_Ofb7F",
 	"fileGroup": "menu-bar_file-group_Ofb7F",
-	"fileGroup": "menu-bar_fileGroup_35CUm",
+	"settings-group": "menu-bar_settings-group_3wMFc",
+	"settingsGroup": "menu-bar_settings-group_3wMFc",
 	"menu-bar-menu": "menu-bar_menu-bar-menu_3M6v8",
 	"menuBarMenu": "menu-bar_menu-bar-menu_3M6v8",
 	"feedback-link": "menu-bar_feedback-link_2Op70",
@@ -4105,7 +4106,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.description_description_TJxeu {\n    max-height: 250px;\n    overflow: auto;\n    white-space: pre-line;\n    overflow-wrap: break-word;\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid var(--badge-border);\n    background-color: var(--badge-background);\n    border-radius: 0.5rem;\n}\n\n.description_description_TJxeu a {\n    font-weight: bold;\n    text-decoration: none;\n}\n\n.description_header_3Bv2V {\n    font-weight: bold;\n    font-size: 1em;\n    margin: 0;\n    padding: 0;\n}\n\n.description_divider_NGZle {\n    margin-top: 8px;\n}\n\n.description_project-link_2xt5_ {\n    margin-bottom: 2px;\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.description_description_TJxeu {\r\n    max-height: calc(520px - 1rem - 0.125rem - 2px);\r\n    overflow: auto;\r\n    white-space: pre-line;\r\n    overflow-wrap: break-word;\r\n    line-height: 1.5em;\r\n    padding: 0.5rem;\r\n    border: 1px solid var(--badge-border);\r\n    background-color: var(--badge-background);\r\n    border-radius: 0.5rem;\r\n}\n\n.description_description_TJxeu a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.description_header_3Bv2V {\r\n    font-weight: bold;\r\n    font-size: 1em;\r\n    margin: 0;\r\n    padding: 0;\r\n}\n\n.description_divider_NGZle {\r\n    margin-top: 8px;\r\n}\n\n.description_project-link_2xt5_ {\r\n    margin-bottom: 2px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -11514,13 +11515,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
-/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./green-flag.css */ "./src/components/green-flag/green-flag.css");
-/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_green_flag_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
+/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./green-flag.css */ "./src/components/green-flag/green-flag.css");
+/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_green_flag_css__WEBPACK_IMPORTED_MODULE_5__);
 const _excluded = ["active", "className", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
 
 
 
@@ -11534,12 +11537,12 @@ const GreenFlagComponent = function GreenFlagComponent(props) {
       title
     } = props,
     componentProps = _objectWithoutProperties(props, _excluded);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _green_flag_css__WEBPACK_IMPORTED_MODULE_4___default.a.greenFlag, {
-      [_green_flag_css__WEBPACK_IMPORTED_MODULE_4___default.a.isActive]: active
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _green_flag_css__WEBPACK_IMPORTED_MODULE_5___default.a.greenFlag, {
+      [_green_flag_css__WEBPACK_IMPORTED_MODULE_5___default.a.isActive]: active
     }),
     draggable: false,
-    src: Object(_lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_3__["default"])(),
+    src: _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     title: title,
     onClick: onClick
     // tw: also fire click when opening context menu (right click on all systems and alt+click on chromebooks)
@@ -14360,8 +14363,40 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
     // Show the About button only if we have a handler for it (like in the desktop app)
     const aboutButton = this.buildAboutMenu(this.props.onClickAbout);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBar)
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBar, {
+        [_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.centered]: this.props.isPlayerOnly
+      })
+    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsMenu
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsGroup
     }, (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsGroup,
+      canChangeLanguage: this.props.canChangeLanguage,
+      canChangeTheme: this.props.canChangeTheme,
+      isRtl: this.props.isRtl,
+      onClickDesktopSettings: this.props.onClickDesktopSettings && this.handleClickDesktopSettings
+      // eslint-disable-next-line react/jsx-no-bind
+      ,
+      onOpenCustomSettings: this.props.onClickAddonSettings && this.props.onClickAddonSettings.bind(null, 'editor-theme3'),
+      onRequestClose: this.props.onRequestCloseSettings,
+      onRequestOpen: this.props.onClickSettings,
+      settingsMenuOpen: this.props.settingsMenuOpen
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.mainMenu
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
+    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      href: "",
+      rel: "noreferrer",
+      target: "_blank"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarItem, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.hoverable)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.dashLogo,
+      src: _dash_png__WEBPACK_IMPORTED_MODULE_50___default.a,
+      draggable: false
+    }))), !this.props.isPlayerOnly && (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup,
       canChangeLanguage: this.props.canChangeLanguage,
       canChangeTheme: this.props.canChangeTheme,
@@ -14373,21 +14408,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       onRequestClose: this.props.onRequestCloseSettings,
       onRequestOpen: this.props.onClickSettings,
       settingsMenuOpen: this.props.settingsMenuOpen
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarContent, {
-        [_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.centered]: this.props.isPlayerOnly
-      })
-    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MenuItemLink, {
-      href: ""
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.dashLogo,
-      src: _dash_png__WEBPACK_IMPORTED_MODULE_50___default.a,
-      draggable: false,
-      width: 100,
-      height: 50
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
-    }, this.props.errors.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    }), this.props.errors.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
       open: this.props.errorsMenuOpen,
       onOpen: this.props.onClickErrors,
       onClose: this.props.onRequestCloseErrors
@@ -20836,13 +20857,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--stop-all.svg */ "./src/lib/tw-recolor/build.js!./src/components/stop-all/icon--stop-all.svg");
-/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./stop-all.css */ "./src/components/stop-all/stop-all.css");
-/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_stop_all_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--stop-all.svg */ "./src/lib/tw-recolor/build.js!./src/components/stop-all/icon--stop-all.svg");
+/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./stop-all.css */ "./src/components/stop-all/stop-all.css");
+/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_stop_all_css__WEBPACK_IMPORTED_MODULE_5__);
 const _excluded = ["active", "className", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
 
 
 
@@ -20856,12 +20879,12 @@ const StopAllComponent = function StopAllComponent(props) {
       title
     } = props,
     componentProps = _objectWithoutProperties(props, _excluded);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _stop_all_css__WEBPACK_IMPORTED_MODULE_4___default.a.stopAll, {
-      [_stop_all_css__WEBPACK_IMPORTED_MODULE_4___default.a.isActive]: active
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _stop_all_css__WEBPACK_IMPORTED_MODULE_5___default.a.stopAll, {
+      [_stop_all_css__WEBPACK_IMPORTED_MODULE_5___default.a.isActive]: active
     }),
     draggable: false,
-    src: Object(_lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_3__["default"])(),
+    src: _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     title: title,
     onClick: onClick
   }, componentProps));
@@ -30405,8 +30428,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_box_box_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/box/box.jsx */ "./src/components/box/box.jsx");
-/* harmony import */ var _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-recolor/build!../components/green-flag/icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
-/* harmony import */ var _reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/vm-status.js */ "./src/reducers/vm-status.js");
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/tw-recolor/build!../components/green-flag/icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
+/* harmony import */ var _reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/vm-status.js */ "./src/reducers/vm-status.js");
+
 
 
 
@@ -30435,9 +30460,9 @@ class GreenFlagOverlay extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Comp
       onClick: this.handleClick
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: this.props.className
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_6__["default"])()
+      src: _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_7__["default"]
     })));
   }
 }
@@ -30451,7 +30476,7 @@ const mapStateToProps = state => ({
   vm: state.scratchGui.vm
 });
 const mapDispatchToProps = dispatch => ({
-  onStarted: () => dispatch(Object(_reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_7__["setStartedState"])(true))
+  onStarted: () => dispatch(Object(_reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_8__["setStartedState"])(true))
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(GreenFlagOverlay));
 
@@ -43914,7 +43939,7 @@ const events = function events(isInitialSetup, isStage, targetId, colors) {
 };
 const control = function control(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        <!--").concat(blockSeparator, "\n        <block type=\"control_get_error\"/>\n        <block type=\"control_try_catch_error\"/>\n        <block type=\"control_error\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">Error</field>\n                </shadow>\n            </value>\n        </block>-->\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
   const hello = translate('LOOKS_HELLO', 'Hello!');
@@ -44578,8 +44603,8 @@ const getFonts = function getFonts() {
     'Curly': __webpack_require__(/*! base64-loader!./Griffy-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Griffy-Regular.ttf"),
     'Pixel': __webpack_require__(/*! base64-loader!./Grand9K-Pixel.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Grand9K-Pixel.ttf"),
     // Xtraflexidisc is saved as Scratch for backwards-compat, this needs visual renaming
-    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf"),
     'Scratch': __webpack_require__(/*! base64-loader!./BLACKBOYSONMOPEDS.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BLACKBOYSONMOPEDS.ttf"),
+    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf"),
     // PenguinMod
     'Technological': __webpack_require__(/*! base64-loader!./MonospaceBold.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/MonospaceBold.ttf"),
     'Bubbly': __webpack_require__(/*! base64-loader!./QTKooper.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/QTKooper.otf"),
@@ -48248,6 +48273,102 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg":
+/*!****************************************************************************!*\
+  !*** ./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg\n   viewBox=\"0 0 20 20\"\n   version=\"1.1\"\n   id=\"svg1\"\n   width=\"20\"\n   height=\"20\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <defs\n     id=\"defs1\" />\n  <path\n     d=\"m 16.425995,11.337955 c -0.002,0.01926 -0.0038,0.03853 -0.0058,0.05779 -0.123297,0.967101 -0.552905,1.862921 -1.277267,2.662416 -0.0077,0.0096 -0.01734,0.01926 -0.02697,0.0289 -0.531713,0.564463 -1.240663,1.061498 -2.167308,1.518078 -1.433312,0.703171 -2.779933,1.076912 -4.0109628,1.113515 -0.1926491,0.01155 -0.498962,0.02504 -0.915085,0.04238 -0.6781263,0.02697 -0.6993173,0.02697 -0.7551854,0.02697 H 6.4467516 c -0.096325,0.0096 -0.1907229,0.01541 -0.285122,0.01541 -0.5374915,0 -1.0537922,-0.159899 -1.4949599,-0.460432 C 4.0501915,15.923014 3.6514071,15.279563 3.5435232,14.530158 3.4818751,14.092843 3.5570065,13.645895 3.7612171,13.252891 4.1349567,12.530455 4.7822597,12.025713 5.56827,11.817652 5.5239605,11.058613 5.4565338,9.8892305 5.3679147,8.3075778 5.2985603,8.282533 5.2311337,8.255562 5.1637055,8.2266648 4.1831201,7.8028356 3.5743465,6.9147216 3.5743465,5.9090913 c 0,-0.3775934 0.086693,-0.7474807 0.2581511,-1.1019555 0.4758449,-1.0094842 1.4872537,-1.6105499 2.7067255,-1.6105499 0.1656781,0 0.3737395,0.013483 0.6935387,0.042384 0.015412,0.00192 0.030823,0.00385 0.048162,0.00578 0.017339,0.00192 0.034677,0.00385 0.050089,0.00578 0.057794,-0.00385 0.1175162,-0.00578 0.1830167,-0.00578 0.1753105,0 0.4681387,0.011557 1.4294595,0.094398 0.6954649,0.0655 1.252222,0.1444872 1.716509,0.2388848 0.01155,0.00385 0.02504,0.00578 0.03661,0.00771 1.980438,0.4450199 3.614106,1.6799043 4.860547,3.673826 0.0038,0.00771 0.0077,0.015412 0.01156,0.023119 0.250445,0.4122707 0.479697,0.9497623 0.716656,1.6895369 0.002,0.00771 0.0038,0.013483 0.0058,0.019265 0.190723,0.6164782 0.233107,1.3620324 0.134855,2.3464714 z\"\n     fill=\"none\"\n     stroke=\"#ffffff\"\n     stroke-width=\"1.04521\"\n     id=\"path1-2\"\n     style=\"stroke:#855cd6;stroke-opacity:1\" />\n  <path\n     d=\"m 14.317599,11.12796 c -0.06782,0.531136 -0.316523,1.033757 -0.745746,1.508255 -0.350238,0.372776 -0.870005,0.728601 -1.558919,1.067471 -1.175163,0.576214 -2.2312678,0.875784 -3.1686995,0.898131 -0.1807052,0.01155 -0.4829717,0.02543 -0.9066083,0.04238 -0.4236365,0.01695 -0.6467237,0.02543 -0.6694571,0.02543 H 6.3024168 c -0.1695321,0.0341 -0.3165233,0.0087 -0.4405899,-0.07629 -0.1242594,-0.08457 -0.1974661,-0.205941 -0.2203906,-0.364299 0.1583586,-0.305157 0.4687165,-0.435002 0.9320383,-0.38973 0.7228212,0.06782 1.1354771,0.08457 1.237003,0.05086 0,-0.248324 -0.011363,-0.581801 -0.033907,-0.999658 -0.04508,-0.576216 -0.073591,-0.926259 -0.084572,-1.050711 C 7.6353598,10.890811 7.5394196,9.1908718 7.403987,6.739214 7.3924299,6.5696819 7.3643018,6.4456168 7.3192218,6.3662448 c -0.056638,-0.033907 -0.1300378,-0.033907 -0.2203906,0 -0.1128918,0.033907 -0.2485171,0.05086 -0.4064905,0.05086 -0.2487098,0 -0.4775785,-0.044888 -0.6862178,-0.1354326 C 5.7970983,6.1913191 5.6926816,6.0672529 5.6926816,5.9087031 c 0,-0.056446 0.016953,-0.1184792 0.05086,-0.1864852 0.124452,-0.271058 0.3895373,-0.4064905 0.7964131,-0.4064905 0.090352,0 0.2541045,0.011363 0.4914484,0.033907 0.1920712,0.022733 0.3330913,0.028127 0.4236366,0.016953 0.090352,-0.011169 0.5253551,0.016953 1.3046222,0.084572 0.5987544,0.056638 1.0902044,0.124452 1.4743461,0.2034372 1.411929,0.3165232 2.586706,1.2258296 3.524717,2.7283033 0.157972,0.2600772 0.327312,0.6721536 0.508402,1.2370029 0.101334,0.3276965 0.118287,0.8301272 0.05047,1.5080612 z m -1.253955,0.711647 c 0.225786,-0.372777 0.339062,-0.77946 0.339062,-1.220049 0,-1.0616913 -0.581994,-2.1181816 -1.745405,-3.1686993 C 11.510311,7.3152335 11.1882,7.1117964 10.691357,6.8407384 10.024596,6.4908864 9.2620896,6.2986226 8.4036431,6.2647159 c 0.112892,2.5984564 0.2203906,4.5187881 0.321918,5.7613771 0.04508,0.406683 0.112892,1.011217 0.2034372,1.813216 0.5873885,0.03391 1.2541487,-0.09883 1.9997027,-0.398207 0.745553,-0.299184 1.378021,-0.697391 1.897983,-1.194619 0.01078,-0.01117 0.09016,-0.146799 0.236958,-0.406876 z\"\n     fill=\"#ffffff\"\n     stroke=\"none\"\n     stroke-width=\"0.149317\"\n     id=\"path2\"\n     style=\"fill:#855cd6;fill-opacity:1\" />\n</svg>\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg":
+/*!****************************************************************************!*\
+  !*** ./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg\n   viewBox=\"0 0 20 20\"\n   version=\"1.1\"\n   id=\"svg1\"\n   width=\"20\"\n   height=\"20\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <defs\n     id=\"defs1\" />\n  <path\n     d=\"M 4.2158379,14.287785 H 16.03236 c 1.083646,0 1.96764,-0.90186 1.96764,-2.017754 0,-1.114839 -0.884583,-2.017753 -1.96764,-2.017753 -0.305952,0 -0.598075,0.07128 -0.866128,0.207571 l -0.444153,0.225837 0.07182,-0.493069 c 0.0033,-0.02279 0.0055,-0.04659 0.0068,-0.07349 0.0015,-0.03049 0.0018,-0.05641 0.0018,-0.119123 0,-2.3707488 -1.874351,-4.2877841 -4.187684,-4.2877841 -1.2684216,0 -2.4450213,0.5819938 -3.237187,1.5684315 L 7.233316,7.4603803 7.0384959,7.3371654 C 6.7781712,7.1725212 6.4823994,7.0861383 6.1690899,7.0861383 c -0.9331561,0 -1.6951865,0.7794105 -1.6951865,1.7399927 0,0.2041476 0.031726,0.3911701 0.096094,0.5636795 l 0.1602128,0.4293812 -0.450223,-0.085648 c -0.00232,-4.423e-4 -0.00966,-0.00114 -0.020844,-0.00155 -0.010743,-4.072e-4 -0.019176,-4.888e-4 -0.043304,-5.038e-4 -1.2219556,-1.49e-5 -2.2158389,1.0201481 -2.2158389,2.2789661 0,1.261622 0.9917713,2.277327 2.215838,2.277327 z\"\n     id=\"Fill-1\"\n     stroke=\"#000000\"\n     fill=\"#4d4d4d\"\n     style=\"fill:#855cd6;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none\" />\n</svg>\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg":
+/*!**********************************************************************************!*\
+  !*** ./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg\n   viewBox=\"0 0 20 20\"\n   version=\"1.1\"\n   id=\"svg1\"\n   width=\"20\"\n   height=\"20\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <defs\n     id=\"defs1\" />\n  <path\n     d=\"m 2.5,10 c 0,-4.142136 3.357864,-7.5 7.5,-7.5 4.142136,0 7.5,3.357864 7.5,7.5 0,4.142136 -3.357864,7.5 -7.5,7.5 -4.142136,0 -7.5,-3.357864 -7.5,-7.5 z m 8.375937,-1.5069753 c 0,-0.4747745 -0.384881,-0.859655 -0.859655,-0.859655 -0.4747747,0 -0.8596552,0.3848805 -0.8596552,0.859655 0,0.046546 0,5.8817163 0,5.9350923 0,0.474775 0.3848805,0.859655 0.8596552,0.859655 0.474774,0 0.859655,-0.38488 0.859655,-0.859655 0,-0.05338 0,-5.8885462 0,-5.9350923 z M 10.027135,6.7389803 c 0.474775,0 0.859655,-0.3848804 0.859655,-0.859655 0,-0.4747745 -0.38488,-0.859655 -0.859655,-0.859655 -0.4747746,0 -0.859655,0.3848805 -0.859655,0.859655 0,0.4747746 0.3848804,0.859655 0.859655,0.859655 z\"\n     id=\"path1\"\n     style=\"mix-blend-mode:normal;fill:#855cd6;fill-opacity:1;stroke-width:0\" />\n</svg>\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg":
+/*!*******************************************************************************!*\
+  !*** ./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg\n   viewBox=\"0 0 20 20\"\n   version=\"1.1\"\n   id=\"svg1\"\n   width=\"20\"\n   height=\"20\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <defs\n     id=\"defs1\" />\n  <path\n     d=\"M 2.5000001,16.477273 H 17.5 L 9.9999999,3.5227274 Z M 10.681818,14.431819 H 9.3181818 v -1.363637 h 1.3636362 z m 0,-2.727273 H 9.3181818 V 8.9772728 h 1.3636362 z\"\n     id=\"path2-2\"\n     style=\"fill:#855cd6;fill-opacity:1;stroke-width:1\" />\n</svg>\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
 /***/ "./src/lib/tw-recolor/render.jsx":
 /*!***************************************!*\
   !*** ./src/lib/tw-recolor/render.jsx ***!
@@ -50830,8 +50951,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
 /* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
 /* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--about.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--unshared.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--cloud.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--description.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_34__);
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "projectId"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -50883,6 +51008,10 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 
 
 
+
+
+
+
 const isInvalidEmbed = window.parent !== window;
 const handleClickAddonSettings = addonId => {
   // addonId might be a string of the addon to focus on, undefined, or an event (treat like undefined)
@@ -50897,13 +51026,13 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"
   }
 });
 const tabClassNames = {
-  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabs,
-  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tab),
-  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabList),
-  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.tabPanel),
-  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isSelected),
-  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isSelected),
-  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.isDisabled
+  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabs,
+  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tab),
+  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabList),
+  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabPanel),
+  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isSelected),
+  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isSelected),
+  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isDisabled
 };
 const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_16__["default"]);
 if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].reloadChannel) {
@@ -50918,11 +51047,11 @@ if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].changeChannel) {
 }
 Object(_addons_entry__WEBPACK_IMPORTED_MODULE_25__["default"])();
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footer
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerContent
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerContent
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -50932,7 +51061,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -50946,7 +51075,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://scratch.org/')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -50966,9 +51095,9 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://penguinmod.com')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerColumns
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerColumns
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "credits.html"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
@@ -50980,7 +51109,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Donate",
   id: "tw.footer.donate"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://desktop.turbowarp.org/"
 }, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -51001,7 +51130,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Documentation",
   id: "tw.footer.documentation"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/discuss/topic/828107/#post-8609237"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
@@ -51084,9 +51213,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     const isHomepage = isPlayerOnly && !isFullScreen;
     const isEditor = !isPlayerOnly;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.container, {
-        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.playerOnly]: isHomepage,
-        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.editor]: isEditor
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.container, {
+        [_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.playerOnly]: isHomepage,
+        [_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.editor]: isEditor
       }),
       dir: isRtl ? 'rtl' : 'ltr'
     }, isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedMenuBar, {
@@ -51096,9 +51225,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       enableSeeInside: true,
       onClickAddonSettings: handleClickAddonSettings
     }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.center
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.center
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.wrapperRegulator,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.wrapperRegulator,
       style: isHomepage ? {
         width: "".concat(Math.max(480, props.customStageSize.width) + 2, "px")
       } : null
@@ -51110,9 +51239,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }, props))), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_22__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isRtl: isRtl
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.mainSection
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.mainSection
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tabs"], {
       forceRenderTabPanel: true,
       className: tabClassNames.tabs,
@@ -51124,7 +51253,10 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       className: tabClassNames.tabList
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
       className: tabClassNames.tab
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      draggable: false,
+      src: Object(_lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_30__["default"])()
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "About {APP_NAME}",
       id: "dash.home.tab.about",
       values: {
@@ -51135,7 +51267,10 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
         [tabClassNames.tabDisabled]: !(description.instructions === 'unshared' || description.credits === 'unshared')
       }),
       onClick: this.onActivateUnsharedTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      draggable: false,
+      src: Object(_lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_31__["default"])()
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared project",
       id: "dash.home.tab.unshared"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
@@ -51143,7 +51278,10 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
         [tabClassNames.tabDisabled]: !(hasCloudVariables && projectId !== '0')
       }),
       onClick: this.onActivateCloudTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      draggable: false,
+      src: Object(_lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_32__["default"])()
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Cloud variables",
       id: "dash.home.tab.cloud"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
@@ -51151,13 +51289,16 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
         [tabClassNames.tabDisabled]: !(description.instructions || description.credits)
       }),
       onClick: this.onActivateDescriptionTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      draggable: false,
+      src: Object(_lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_33__["default"])()
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Description",
       id: "dash.home.tab.description"
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -51175,13 +51316,13 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, (description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.unsharedUpdate)
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.unsharedUpdate)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared projects are no longer visible.",
       id: "tw.unshared2.1"
@@ -51208,7 +51349,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -51216,7 +51357,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"

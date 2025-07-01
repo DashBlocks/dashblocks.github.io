@@ -2845,19 +2845,19 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    flex-wrap: nowrap;\n    gap: 0.5rem;\n\n    /*\n        For most things, we shouldn't explicitly set height, and let the\n        content push the element to whatever fits. Using a fixed height\n        instead, will help us subtract the value we assign from the body,\n        adding up to a perfect 100%. This means we don't need to set\n        overflow: hidden, which makes it hard to debug. border-box\n        simplifies by all of this by removing padding from the equation.\n    */\n    box-sizing: border-box;\n    height: 3rem;\n\n    /*\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\n        width: 100%;\n    */\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    background-color: var(--menu-bar-background);\n    background-image: var(--menu-bar-background-image);\n    color: var(--menu-bar-foreground);\n}\n\n.menu-bar_menuBarContent_xQ4H6 {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    box-sizing: border-box;\n    height: 3rem;\n    justify-content: flex-start;\n    gap: 0.5rem;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    background-color: var(--menu-bar-background);\n    background-image: var(--menu-bar-background-image);\n    color: var(--menu-bar-foreground);\n}\n\n.menu-bar_menuBarContent_xQ4H6.menu-bar_centered_192Jg {\n    justify-content: center;\n    gap: 1.5rem;\n}\n\n.menu-bar_main-menu_EyCGw {\n    display: flex;\n    flex-direction: row;\n    justify-content: flex-start;\n    flex-wrap: nowrap;\n    align-items: center;\n    flex-grow: 1;\n    gap: 0.5rem;\n}\n\n.menu-bar_inactive_2nFUV {\n    opacity: 0;\n}\n\n.menu-bar_dashLogo_3uF7q {\n    vertical-align: middle;\n    padding: 0.5rem;\n}\n\n.menu-bar_dashLogo_3uF7q.menu-bar_clickable_26k4z {\n    cursor: pointer;\n}\n\n.menu-bar_menu-bar-item_264qQ {\n    display: flex;\n    text-decoration: none;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    align-self: center;\n    position: relative;\n    align-items: center;\n    white-space: nowrap;\n    height: 3rem;\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\n    cursor: pointer;\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\n    background-color: var(--ui-black-transparent);\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\n    max-width: 12rem;\n    flex: 1;\n}\n\n.menu-bar_title-field-growable_2DAmE {\n    flex-grow: 1;\n    width: 2rem;\n}\n\n.menu-bar_file-group_Ofb7F {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    gap: 0.5rem;\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ {\n    padding: 0 0.5rem;\n}\n\n.menu-bar_fileGroup_35CUm {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    gap: 0.5rem;\n}\n\n.menu-bar_fileGroup_35CUm .menu-bar_menu-bar-item_264qQ {\n    padding: 0 0.5rem;\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\n    margin-top: 3rem;\n    z-index: 491;\n}\n\n.menu-bar_feedback-link_2Op70 {\n    color: var(--menu-bar-background);\n    text-decoration: none;\n}\n\n.menu-bar_feedback-button_2XhjA {\n    background-color: white;\n    color: inherit;\n    height: 34px;\n}\n\n.menu-bar_divider_2bLcv {\n    height: 34px;\n}\n\n.menu-bar_author-info_3H1M3 {\n    margin-left: .25rem;\n    margin-right: .6875rem;\n}\n\n.menu-bar_menu-bar-button_45YjE {\n    height: 2rem;\n}\n\n.menu-bar_remix-button_22R_5 {\n    background-color: var(--pen-primary)\n}\n\n.menu-bar_remix-button-icon_120Az {\n    height: 1.25rem;\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\n    opacity: 0.5;\n}\n\n.menu-bar_account-info-group_1CTpL {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\n    margin: 0 .25rem;\n    padding: 0 0.75rem;\n}\n\n.menu-bar_mystuff-icon_1f8Re {\n    margin: 0 .25rem;\n    height: 1rem;\n}\n\n.menu-bar_help-icon_ieE_q {\n    margin: 0 .25rem 0 0;\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\n    margin: 0 0 0 .25rem;\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\n    padding: 0 .25rem;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.menu-bar_profile-icon_9WA-H {\n    margin: 0 .25rem;\n    width: 2rem;\n    border-radius: calc(0.5rem / 2);\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\n    width: 0.5rem;\n    height: 0.5rem;\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\n    margin-right: .5rem;\n}\n\n.menu-bar_disabled_rGGrp {\n    opacity: 0.5;\n}\n\n.menu-bar_mystuff_gxcZo > a {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: 45%;\n  padding-right: 10px;\n  padding-left: 10px;\n  width: 30px;\n  overflow: hidden;\n  text-indent: 50px;\n  white-space: nowrap;\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\n  background-size: 50%;\n}\n\n.menu-bar_mystuff_gxcZo > a {\n  /* background-image: url(\"/images/mystuff.png\"); */\n}\n\n.menu-bar_about-icon_16Env {\n    height: 1.25rem;\n    margin: 0.5rem;\n    vertical-align: middle;\n}\n\n.menu-bar_collapsible-label_3ql7m {\n    margin: 0 .25rem;\n}\n\n@media only screen and (max-width: 1124px) {\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\n        display: none;\n    }\n\n    .menu-bar_help-icon_ieE_q {\n        margin-right: 0;\n    }\n}\n\n.menu-bar_menu-item-link_1-4xZ {\n    color: inherit;\n    text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    flex-wrap: nowrap;\r\n    gap: 0.5rem;\r\n\r\n    /*\r\n        For most things, we shouldn't explicitly set height, and let the\r\n        content push the element to whatever fits. Using a fixed height\r\n        instead, will help us subtract the value we assign from the body,\r\n        adding up to a perfect 100%. This means we don't need to set\r\n        overflow: hidden, which makes it hard to debug. border-box\r\n        simplifies by all of this by removing padding from the equation.\r\n    */\r\n    box-sizing: border-box;\r\n    height: 3rem;\r\n\r\n    /*\r\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\r\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\r\n        width: 100%;\r\n    */\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-size: 0.75rem;\r\n    font-weight: bold;\r\n    background-color: var(--menu-bar-background);\r\n    background-image: var(--menu-bar-background-image);\r\n    color: var(--menu-bar-foreground);\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg {\r\n    justify-content: center;\r\n}\n\n.menu-bar_settings-menu_2S2hK {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n    position: absolute;\r\n    left: 0;\r\n}\n\n.menu-bar_main-menu_EyCGw {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_main-menu_EyCGw {\r\n    flex-grow: 0;\r\n}\n\n.menu-bar_inactive_2nFUV {\r\n    opacity: 0;\r\n}\n\n.menu-bar_dashLogo_3uF7q {\r\n    height: 2.25rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ {\r\n    display: flex;\r\n    text-decoration: none;\r\n    -webkit-user-select: none;\r\n       -moz-user-select: none;\r\n        -ms-user-select: none;\r\n            user-select: none;\r\n    align-self: center;\r\n    position: relative;\r\n    align-items: center;\r\n    white-space: nowrap;\r\n    height: 3rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\r\n    cursor: pointer;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\r\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\r\n    background-color: var(--ui-black-transparent);\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\r\n    max-width: 12rem;\r\n    flex: 1;\r\n}\n\n.menu-bar_title-field-growable_2DAmE {\r\n    flex-grow: 1;\r\n    width: 2rem;\r\n}\n\n.menu-bar_file-group_Ofb7F, .menu-bar_settings-group_3wMFc {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ, .menu-bar_settings-group_3wMFc .menu-bar_menu-bar-item_264qQ {\r\n    padding: 0 0.5rem;\r\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\r\n    margin-top: 3rem;\r\n    z-index: 491;\r\n}\n\n.menu-bar_feedback-link_2Op70 {\r\n    color: var(--menu-bar-background);\r\n    text-decoration: none;\r\n}\n\n.menu-bar_feedback-button_2XhjA {\r\n    background-color: white;\r\n    color: inherit;\r\n    height: 34px;\r\n}\n\n.menu-bar_divider_2bLcv {\r\n    height: 34px;\r\n}\n\n.menu-bar_author-info_3H1M3 {\r\n    margin-left: .25rem;\r\n    margin-right: .6875rem;\r\n}\n\n.menu-bar_menu-bar-button_45YjE {\r\n    height: 2rem;\r\n}\n\n.menu-bar_remix-button_22R_5 {\r\n    background-color: var(--pen-primary)\r\n}\n\n.menu-bar_remix-button-icon_120Az {\r\n    height: 1.25rem;\r\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_account-info-group_1CTpL {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_account-info-group_1CTpL {\r\n    flex-grow: 0;\r\n    position: absolute;\r\n    right: 0;\r\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\r\n    margin: 0 .25rem;\r\n    padding: 0 0.75rem;\r\n}\n\n.menu-bar_mystuff-icon_1f8Re {\r\n    margin: 0 .25rem;\r\n    height: 1rem;\r\n}\n\n.menu-bar_help-icon_ieE_q {\r\n    margin: 0 .25rem 0 0;\r\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\r\n    margin: 0 0 0 .25rem;\r\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\r\n    padding: 0 .25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_profile-icon_9WA-H {\r\n    margin: 0 .25rem;\r\n    width: 2rem;\r\n    border-radius: calc(0.5rem / 2);\r\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\r\n    width: 0.5rem;\r\n    height: 0.5rem;\r\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-left: .5rem;\r\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-right: .5rem;\r\n}\n\n.menu-bar_disabled_rGGrp {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  background-repeat: no-repeat;\r\n  background-position: center center;\r\n  background-size: 45%;\r\n  padding-right: 10px;\r\n  padding-left: 10px;\r\n  width: 30px;\r\n  overflow: hidden;\r\n  text-indent: 50px;\r\n  white-space: nowrap;\r\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\r\n  background-size: 50%;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  /* background-image: url(\"/images/mystuff.png\"); */\r\n}\n\n.menu-bar_about-icon_16Env {\r\n    height: 1.25rem;\r\n    margin: 0.5rem;\r\n    vertical-align: middle;\r\n}\n\n.menu-bar_collapsible-label_3ql7m {\r\n    margin: 0 .25rem;\r\n}\n\n@media only screen and (max-width: 1124px) {\r\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\r\n        display: none;\r\n    }\r\n\r\n    .menu-bar_help-icon_ieE_q {\r\n        margin-right: 0;\r\n    }\r\n}\n\n.menu-bar_menu-item-link_1-4xZ {\r\n    color: inherit;\r\n    text-decoration: none;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
 	"menu-bar": "menu-bar_menu-bar_1gLUp",
 	"menuBar": "menu-bar_menu-bar_1gLUp",
-	"menuBarContent": "menu-bar_menuBarContent_xQ4H6",
 	"centered": "menu-bar_centered_192Jg",
+	"settings-menu": "menu-bar_settings-menu_2S2hK",
+	"settingsMenu": "menu-bar_settings-menu_2S2hK",
 	"main-menu": "menu-bar_main-menu_EyCGw",
 	"mainMenu": "menu-bar_main-menu_EyCGw",
 	"inactive": "menu-bar_inactive_2nFUV",
 	"dashLogo": "menu-bar_dashLogo_3uF7q",
-	"clickable": "menu-bar_clickable_26k4z",
 	"menu-bar-item": "menu-bar_menu-bar-item_264qQ",
 	"menuBarItem": "menu-bar_menu-bar-item_264qQ",
 	"hoverable": "menu-bar_hoverable_2sbwj",
@@ -2867,7 +2867,8 @@ exports.locals = {
 	"titleFieldGrowable": "menu-bar_title-field-growable_2DAmE",
 	"file-group": "menu-bar_file-group_Ofb7F",
 	"fileGroup": "menu-bar_file-group_Ofb7F",
-	"fileGroup": "menu-bar_fileGroup_35CUm",
+	"settings-group": "menu-bar_settings-group_3wMFc",
+	"settingsGroup": "menu-bar_settings-group_3wMFc",
 	"menu-bar-menu": "menu-bar_menu-bar-menu_3M6v8",
 	"menuBarMenu": "menu-bar_menu-bar-menu_3M6v8",
 	"feedback-link": "menu-bar_feedback-link_2Op70",
@@ -10328,13 +10329,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
-/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./green-flag.css */ "./src/components/green-flag/green-flag.css");
-/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_green_flag_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
+/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./green-flag.css */ "./src/components/green-flag/green-flag.css");
+/* harmony import */ var _green_flag_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_green_flag_css__WEBPACK_IMPORTED_MODULE_5__);
 const _excluded = ["active", "className", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
 
 
 
@@ -10348,12 +10351,12 @@ const GreenFlagComponent = function GreenFlagComponent(props) {
       title
     } = props,
     componentProps = _objectWithoutProperties(props, _excluded);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _green_flag_css__WEBPACK_IMPORTED_MODULE_4___default.a.greenFlag, {
-      [_green_flag_css__WEBPACK_IMPORTED_MODULE_4___default.a.isActive]: active
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _green_flag_css__WEBPACK_IMPORTED_MODULE_5___default.a.greenFlag, {
+      [_green_flag_css__WEBPACK_IMPORTED_MODULE_5___default.a.isActive]: active
     }),
     draggable: false,
-    src: Object(_lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_3__["default"])(),
+    src: _lib_tw_recolor_build_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     title: title,
     onClick: onClick
     // tw: also fire click when opening context menu (right click on all systems and alt+click on chromebooks)
@@ -13174,8 +13177,40 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
     // Show the About button only if we have a handler for it (like in the desktop app)
     const aboutButton = this.buildAboutMenu(this.props.onClickAbout);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBar)
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(this.props.className, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBar, {
+        [_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.centered]: this.props.isPlayerOnly
+      })
+    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsMenu
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsGroup
     }, (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.settingsGroup,
+      canChangeLanguage: this.props.canChangeLanguage,
+      canChangeTheme: this.props.canChangeTheme,
+      isRtl: this.props.isRtl,
+      onClickDesktopSettings: this.props.onClickDesktopSettings && this.handleClickDesktopSettings
+      // eslint-disable-next-line react/jsx-no-bind
+      ,
+      onOpenCustomSettings: this.props.onClickAddonSettings && this.props.onClickAddonSettings.bind(null, 'editor-theme3'),
+      onRequestClose: this.props.onRequestCloseSettings,
+      onRequestOpen: this.props.onClickSettings,
+      settingsMenuOpen: this.props.settingsMenuOpen
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.mainMenu
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
+    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      href: "",
+      rel: "noreferrer",
+      target: "_blank"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarItem, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.hoverable)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.dashLogo,
+      src: _dash_png__WEBPACK_IMPORTED_MODULE_50___default.a,
+      draggable: false
+    }))), !this.props.isPlayerOnly && (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup,
       canChangeLanguage: this.props.canChangeLanguage,
       canChangeTheme: this.props.canChangeTheme,
@@ -13187,21 +13222,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       onRequestClose: this.props.onRequestCloseSettings,
       onRequestOpen: this.props.onClickSettings,
       settingsMenuOpen: this.props.settingsMenuOpen
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarContent, {
-        [_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.centered]: this.props.isPlayerOnly
-      })
-    }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MenuItemLink, {
-      href: ""
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.dashLogo,
-      src: _dash_png__WEBPACK_IMPORTED_MODULE_50___default.a,
-      draggable: false,
-      width: 100,
-      height: 50
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
-    }, this.props.errors.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    }), this.props.errors.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
       open: this.props.errorsMenuOpen,
       onOpen: this.props.onClickErrors,
       onClose: this.props.onRequestCloseErrors
@@ -19650,13 +19671,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--stop-all.svg */ "./src/lib/tw-recolor/build.js!./src/components/stop-all/icon--stop-all.svg");
-/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./stop-all.css */ "./src/components/stop-all/stop-all.css");
-/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_stop_all_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/tw-recolor/build!./icon--stop-all.svg */ "./src/lib/tw-recolor/build.js!./src/components/stop-all/icon--stop-all.svg");
+/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./stop-all.css */ "./src/components/stop-all/stop-all.css");
+/* harmony import */ var _stop_all_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_stop_all_css__WEBPACK_IMPORTED_MODULE_5__);
 const _excluded = ["active", "className", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
 
 
 
@@ -19670,12 +19693,12 @@ const StopAllComponent = function StopAllComponent(props) {
       title
     } = props,
     componentProps = _objectWithoutProperties(props, _excluded);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _stop_all_css__WEBPACK_IMPORTED_MODULE_4___default.a.stopAll, {
-      [_stop_all_css__WEBPACK_IMPORTED_MODULE_4___default.a.isActive]: active
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _stop_all_css__WEBPACK_IMPORTED_MODULE_5___default.a.stopAll, {
+      [_stop_all_css__WEBPACK_IMPORTED_MODULE_5___default.a.isActive]: active
     }),
     draggable: false,
-    src: Object(_lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_3__["default"])(),
+    src: _lib_tw_recolor_build_icon_stop_all_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     title: title,
     onClick: onClick
   }, componentProps));
@@ -28077,8 +28100,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_box_box_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/box/box.jsx */ "./src/components/box/box.jsx");
-/* harmony import */ var _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-recolor/build!../components/green-flag/icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
-/* harmony import */ var _reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/vm-status.js */ "./src/reducers/vm-status.js");
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/tw-recolor/build!../components/green-flag/icon--green-flag.svg */ "./src/lib/tw-recolor/build.js!./src/components/green-flag/icon--green-flag.svg");
+/* harmony import */ var _reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/vm-status.js */ "./src/reducers/vm-status.js");
+
 
 
 
@@ -28107,9 +28132,9 @@ class GreenFlagOverlay extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Comp
       onClick: this.handleClick
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: this.props.className
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_6__["default"])()
+      src: _lib_tw_recolor_build_components_green_flag_icon_green_flag_svg__WEBPACK_IMPORTED_MODULE_7__["default"]
     })));
   }
 }
@@ -28123,7 +28148,7 @@ const mapStateToProps = state => ({
   vm: state.scratchGui.vm
 });
 const mapDispatchToProps = dispatch => ({
-  onStarted: () => dispatch(Object(_reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_7__["setStartedState"])(true))
+  onStarted: () => dispatch(Object(_reducers_vm_status_js__WEBPACK_IMPORTED_MODULE_8__["setStartedState"])(true))
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(GreenFlagOverlay));
 
@@ -41528,7 +41553,7 @@ const events = function events(isInitialSetup, isStage, targetId, colors) {
 };
 const control = function control(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        <!--").concat(blockSeparator, "\n        <block type=\"control_get_error\"/>\n        <block type=\"control_try_catch_error\"/>\n        <block type=\"control_error\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">Error</field>\n                </shadow>\n            </value>\n        </block>-->\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
   const hello = translate('LOOKS_HELLO', 'Hello!');
@@ -42192,8 +42217,8 @@ const getFonts = function getFonts() {
     'Curly': __webpack_require__(/*! base64-loader!./Griffy-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Griffy-Regular.ttf"),
     'Pixel': __webpack_require__(/*! base64-loader!./Grand9K-Pixel.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Grand9K-Pixel.ttf"),
     // Xtraflexidisc is saved as Scratch for backwards-compat, this needs visual renaming
-    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf"),
     'Scratch': __webpack_require__(/*! base64-loader!./BLACKBOYSONMOPEDS.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BLACKBOYSONMOPEDS.ttf"),
+    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf"),
     // PenguinMod
     'Technological': __webpack_require__(/*! base64-loader!./MonospaceBold.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/MonospaceBold.ttf"),
     'Bubbly': __webpack_require__(/*! base64-loader!./QTKooper.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/QTKooper.otf"),

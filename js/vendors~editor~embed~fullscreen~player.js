@@ -1,5 +1,773 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["vendors~editor~embed~fullscreen~player"],{
 
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg":
+/*!*************************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg ***!
+  \*************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-horz-gradient-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <linearGradient x1=\"100%\" y1=\"50%\" x2=\"0%\" y2=\"50%\" id=\"linearGradient-1\">\r\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\r\n        </linearGradient>\r\n    </defs>\r\n    <g id=\"fill-horz-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Horizontal\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg":
+/*!******************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg ***!
+  \******************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-radial-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <radialGradient cx=\"50%\" cy=\"50%\" fx=\"50%\" fy=\"50%\" r=\"39.3896484%\" id=\"radialGradient-1\">\r\n            <stop stop-color=\"#855CD6\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#FFFFFF\" offset=\"100%\"></stop>\r\n        </radialGradient>\r\n    </defs>\r\n    <g id=\"fill-radial-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Radial\" stroke=\"#000000\" fill=\"url(#radialGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg":
+/*!*****************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-solid-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"fill-solid-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Solid\" stroke=\"#000000\" fill=\"#855CD6\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg":
+/*!*************************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg ***!
+  \*************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-vert-gradient-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <linearGradient x1=\"50%\" y1=\"100%\" x2=\"50%\" y2=\"3.061617e-15%\" id=\"linearGradient-1\">\r\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\r\n        </linearGradient>\r\n    </defs>\r\n    <g id=\"fill-vert-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Vertical\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>swap</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"swap\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"Swap-v2\" transform=\"translate(2.000000, 2.000000)\" fill=\"#855CD6\">\r\n            <path d=\"M3.69424597,2.00682151 L7.95663608,2.66498231 C8.44536222,2.73588913 8.7900887,3.24405473 8.7176525,3.79585529 C8.66179809,4.24129561 8.34150792,4.58764819 7.95663608,4.64128284 L3.69424597,5.30126176 L3.69424597,6.79666856 C3.69424597,7.22392764 3.23781067,7.42846657 2.97250219,7.13483958 L0.120436084,3.97403142 C-0.0401453614,3.78767373 -0.0401453614,3.48404706 0.120436084,3.30587093 L2.97250219,0.135972153 C3.23781067,-0.157654834 3.69424597,0.0559747078 3.69424597,0.474143173 L3.69424597,2.00682151 Z M12.305754,10.7340942 L12.305754,9.2014159 C12.305754,8.78324744 12.7621893,8.56961789 13.0274978,8.86324488 L15.8795639,12.0331437 C16.0401454,12.2113198 16.0401454,12.5149465 15.8795639,12.7013041 L13.0274978,15.8621123 C12.7621893,16.1557393 12.305754,15.9512004 12.305754,15.5239413 L12.305754,14.0285345 L8.04336392,13.3685556 C7.65849208,13.3149209 7.33820191,12.9685683 7.2823475,12.523128 C7.2099113,11.9713275 7.55463778,11.4631619 8.04336392,11.392255 L12.305754,10.7340942 Z\" id=\"Swap-v1\"></path>\r\n            <path d=\"M11.2727273,1.45454545 L13.4545455,1.45454545 C14.0567273,1.45454545 14.5454545,1.94327273 14.5454545,2.54545455 L14.5454545,4.72727273 C14.5454545,5.33054545 14.0567273,5.81818182 13.4545455,5.81818182 L11.2727273,5.81818182 C10.6705455,5.81818182 10.1818182,5.33054545 10.1818182,4.72727273 L10.1818182,2.54545455 C10.1818182,1.94327273 10.6705455,1.45454545 11.2727273,1.45454545\" id=\"Fill-6\" fill-opacity=\"0.5\"></path>\r\n            <path d=\"M2.54545455,10.1818182 L4.72727273,10.1818182 C5.32945455,10.1818182 5.81818182,10.6705455 5.81818182,11.2727273 L5.81818182,13.4545455 C5.81818182,14.0578182 5.32945455,14.5454545 4.72727273,14.5454545 L2.54545455,14.5454545 C1.94327273,14.5454545 1.45454545,14.0578182 1.45454545,13.4545455 L1.45454545,11.2727273 C1.45454545,10.6705455 1.94327273,10.1818182 2.54545455,10.1818182\" id=\"Fill-6-Copy\" fill-opacity=\"0.5\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"8px\" height=\"5px\" viewBox=\"0 0 8 5\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>dropdown-caret</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"dropdown-caret\" fill=\"#855CD6\">\r\n            <path d=\"M4,5 C3.72520708,5 3.45163006,4.89695045 3.24127973,4.68965311 L0.314613572,1.80666227 C-0.104871191,1.39326583 -0.104871191,0.724642023 0.314613572,0.310047331 C0.732882438,-0.10334911 7.26711756,-0.10334911 7.68538643,0.310047331 C8.10487119,0.723443772 8.10487119,1.39326583 7.68538643,1.80666227 L4.75993617,4.68965311 C4.54958583,4.89695045 4.27600882,5 4,5\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>group</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"group\" stroke-width=\"0.75\">\r\n            <g id=\"group-icon\" transform=\"translate(2.000000, 2.000000)\">\r\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <path d=\"M1.5,3 L1.5,13\" id=\"Line\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M14.5,3 L14.5,13\" id=\"Line-Copy\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M13,1.5 L3,1.5\" id=\"Line-Copy-2\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M13,14.5 L3,14.5\" id=\"Line-Copy-3\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <g id=\"Group\" transform=\"translate(8.000000, 8.000000) rotate(180.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)\" stroke=\"#575E75\">\r\n                    <rect id=\"Rectangle-3-Copy\" fill=\"#FFFFFF\" transform=\"translate(5.500000, 5.500000) rotate(180.000000) translate(-5.500000, -5.500000) \" x=\"3\" y=\"3\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\r\n                    <rect id=\"Rectangle-3\" fill=\"#575E75\" transform=\"translate(2.500000, 2.500000) rotate(180.000000) translate(-2.500000, -2.500000) \" x=\"0\" y=\"0\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg":
+/*!**************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>redo</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"redo\" fill=\"#855CD6\">\r\n            <path d=\"M17.5581635,12.7700651 L13.8403972,16.4941315 C13.5610922,16.7671364 13.1830854,16.9211391 12.7903784,16.9211391 C12.3990715,16.9211391 12.0210647,16.7671364 11.7403597,16.4941315 L8.02399342,12.7700651 C7.5969858,12.3430574 7.47098355,11.7060461 7.70198767,11.1530362 C7.93299179,10.6000263 8.46500128,10.24302 9.06701202,10.24302 L10.4040359,10.24302 C10.3690352,9.92101423 10.2780336,9.55700774 10.1240309,9.17200087 C10.07573,9.05999887 10.0260291,8.94799688 9.97002813,8.83599488 C9.89302676,8.70999263 9.90072689,8.67499201 9.79502501,8.52098926 C9.62702201,8.26898476 9.47301926,8.07998139 9.29031601,7.86297752 C8.9200094,7.4639704 8.47200141,7.12096429 7.99599292,6.86895979 C7.5129843,6.6169553 7.00897531,6.46295255 6.56096732,6.37895105 C6.11995945,6.30194968 5.71395221,6.29494955 5.47594796,6.29494955 C5.35694584,6.28794943 5.2029431,6.31594993 5.12594172,6.32295005 C5.04194022,6.32995018 4.99293935,6.3369503 4.99293935,6.3369503 C4.49593048,6.38595117 4.04792249,6.02194468 3.99892162,5.52493582 C3.95692087,5.10492832 4.20192524,4.72692158 4.57293186,4.58691908 C4.57293186,4.58691908 4.62193273,4.56591871 4.6989341,4.53791821 C4.78993573,4.50991771 4.87393723,4.46091684 5.06994072,4.40491584 C5.46194772,4.28591371 5.95895658,4.15991147 6.60996819,4.09691034 C7.25397968,4.04090934 8.03099354,4.05490959 8.85070816,4.22291259 C9.66902276,4.39791571 10.5300381,4.72692158 11.3280524,5.20293007 C11.7060591,5.44793444 12.1120663,5.73493956 12.427072,6.01494456 C12.5670745,6.11994643 12.8050787,6.35795068 12.9450812,6.5049533 C13.1060841,6.67295629 13.2530867,6.84095929 13.4007893,7.01596241 C13.9670994,7.7159749 14.3871069,8.47198839 14.6601118,9.15800062 C14.8211147,9.55000762 14.9331167,9.92101423 15.0171182,10.24302 L16.5151449,10.24302 C17.1171556,10.24302 17.6491651,10.6000263 17.8801692,11.1530362 C18.1111734,11.7060461 17.9851711,12.3430574 17.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(10.994247, 10.494247) rotate(-45.000000) translate(-10.994247, -10.494247) \"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg":
+/*!*******************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-back</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-back\">\r\n            <g transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg":
+/*!***********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-backward</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-backward\">\r\n            <g id=\"send-forward\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg":
+/*!**********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg ***!
+  \**********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-forward</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-forward\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg":
+/*!********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-front</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-front\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg":
+/*!**************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>undo</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"undo\" fill=\"#855CD6\">\r\n            <path d=\"M15.5581635,12.7700651 L11.8403972,16.4941315 C11.5610922,16.7671364 11.1830854,16.9211391 10.7903784,16.9211391 C10.3990715,16.9211391 10.0210647,16.7671364 9.74035971,16.4941315 L6.02399342,12.7700651 C5.5969858,12.3430574 5.47098355,11.7060461 5.70198767,11.1530362 C5.93299179,10.6000263 6.46500128,10.24302 7.06701202,10.24302 L8.40403587,10.24302 C8.36903525,9.92101423 8.27803362,9.55700774 8.12403088,9.17200087 C8.07573002,9.05999887 8.02602913,8.94799688 7.97002813,8.83599488 C7.89302676,8.70999263 7.90072689,8.67499201 7.79502501,8.52098926 C7.62702201,8.26898476 7.47301926,8.07998139 7.29031601,7.86297752 C6.9200094,7.4639704 6.47200141,7.12096429 5.99599292,6.86895979 C5.5129843,6.6169553 5.00897531,6.46295255 4.56096732,6.37895105 C4.11995945,6.30194968 3.71395221,6.29494955 3.47594796,6.29494955 C3.35694584,6.28794943 3.2029431,6.31594993 3.12594172,6.32295005 C3.04194022,6.32995018 2.99293935,6.3369503 2.99293935,6.3369503 C2.49593048,6.38595117 2.04792249,6.02194468 1.99892162,5.52493582 C1.95692087,5.10492832 2.20192524,4.72692158 2.57293186,4.58691908 C2.57293186,4.58691908 2.62193273,4.56591871 2.6989341,4.53791821 C2.78993573,4.50991771 2.87393723,4.46091684 3.06994072,4.40491584 C3.46194772,4.28591371 3.95895658,4.15991147 4.60996819,4.09691034 C5.25397968,4.04090934 6.03099354,4.05490959 6.85070816,4.22291259 C7.66902276,4.39791571 8.53003812,4.72692158 9.32805235,5.20293007 C9.7060591,5.44793444 10.1120663,5.73493956 10.427072,6.01494456 C10.5670745,6.11994643 10.8050787,6.35795068 10.9450812,6.5049533 C11.1060841,6.67295629 11.2530867,6.84095929 11.4007893,7.01596241 C11.9670994,7.7159749 12.3871069,8.47198839 12.6601118,9.15800062 C12.8211147,9.55000762 12.9331167,9.92101423 13.0171182,10.24302 L14.5151449,10.24302 C15.1171556,10.24302 15.6491651,10.6000263 15.8801692,11.1530362 C16.1111734,11.7060461 15.9851711,12.3430574 15.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(8.994247, 10.494247) scale(-1, 1) rotate(-45.000000) translate(-8.994247, -10.494247) \"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg":
+/*!*****************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>ungroup</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"ungroup\" stroke-width=\"0.75\">\r\n            <g id=\"ungroup-icon\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 2.000000)\">\r\n                <rect id=\"Rectangle-3-Copy\" stroke=\"#575E75\" fill=\"#FFFFFF\" x=\"6.5\" y=\"6.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\r\n                <rect id=\"Rectangle-3\" stroke=\"#575E75\" fill=\"#575E75\" x=\"1.5\" y=\"1.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\r\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"8\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"8\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-4\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"5\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-5\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-6\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"5\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"bevel\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14.5\"\r\n    height=\"14.5\" viewBox=\"0,0,14.5,14.5\">\r\n    <g transform=\"translate(-232.75,-172.75)\">\r\n        <g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill-rule=\"evenodd\" stroke=\"none\" stroke-width=\"1\"\r\n            stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\"\r\n            stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\">\r\n            <path\r\n                d=\"M246.25,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M233.75,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M243.125,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M240,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M236.875,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,173.75c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,186.25c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,176.875c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,183.125c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M242.20833,175.54167c0,-1.24264 1.00736,-2.25 2.25,-2.25c1.24264,0 2.25,1.00736 2.25,2.25c0,1.24264 -1.00736,2.25 -2.25,2.25c-1.24264,0 -2.25,-1.00736 -2.25,-2.25z\"\r\n                fill=\"#855CD6\" />\r\n            <path\r\n                d=\"M233.20834,184.45833c0,-1.28866 1.04467,-2.33333 2.33333,-2.33333c1.28866,0 2.33333,1.04467 2.33333,2.33333c0,1.28866 -1.04467,2.33333 -2.33333,2.33333c-1.28866,0 -2.33333,-1.04467 -2.33333,-2.33333z\"\r\n                fill=\"#855CD6\" />\r\n        </g>\r\n    </g>\r\n</svg><!--rotationCenter:7.25:7.25-->\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg":
+/*!*************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>copy v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" points=\"0.503173828 3 0.503173828 15.5 13 15.5\"></polyline>\r\n                <path d=\"M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path d=\"M9.8115942,9.1884058 L8.6884058,9.1884058 L8.6884058,10.3115942 C8.6884058,10.6859903 8.38647343,11 8,11 C7.61352657,11 7.3115942,10.6859903 7.3115942,10.3115942 L7.3115942,9.1884058 L6.1884058,9.1884058 C5.81400966,9.1884058 5.5,8.88647343 5.5,8.5 C5.5,8.11352657 5.81400966,7.8115942 6.1884058,7.8115942 L7.3115942,7.8115942 L7.3115942,6.6884058 C7.3115942,6.31280193 7.61352657,6 8,6 C8.38647343,6 8.6884058,6.31280193 8.6884058,6.6884058 L8.6884058,7.8115942 L9.8115942,7.8115942 C10.1859903,7.8115942 10.5,8.11352657 10.5,8.5 C10.5,8.88647343 10.1859903,9.1884058 9.8115942,9.1884058 Z\" id=\"Fill-1\" stroke=\"#FFFFFF\" stroke-width=\"0.25\" fill=\"#FFFFFF\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg":
+/*!*********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>curved-point</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"curved-point\">\r\n            <path d=\"M2,15 C2,10.5818452 5.58151214,7 10.000744,7 C14.4184879,7 18,10.5818452 18,15\" id=\"Stroke-3\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" fill=\"#855CD6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            <path d=\"M3,7 L17,7\" id=\"Stroke-7\" stroke=\"#855CD6\" stroke-width=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\r\n            <circle id=\"Oval-4\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\r\n            <circle id=\"Oval-5\" fill=\"#855CD6\" cx=\"3\" cy=\"7\" r=\"1\"></circle>\r\n            <circle id=\"Oval-5-Copy\" fill=\"#855CD6\" cx=\"17\" cy=\"7\" r=\"1\"></circle>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg":
+/*!************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>copy v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" points=\"0.503173828 3 0.503173828 15.5 13 15.5\"></polyline>\r\n                <path d=\"M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path transform=\"translate(3,3) scale(0.5)\" d=\"M6.54210671,14.8773591 C6.54210671,15.6756813 5.89668548,16.3230878 5.11194905,16.3230878 C4.31632862,16.3230878 3.6709074,15.6756813 3.6709074,14.8773591 C3.6709074,14.086692 4.31632862,13.440379 5.11194905,13.440379 C5.89668548,13.440379 6.54210671,14.086692 6.54210671,14.8773591 L6.54210671,14.8773591 Z M8.63401159,13.5836396 C8.82992359,13.3878866 8.82992359,13.0685577 8.63401159,12.8706175 L7.10916313,11.338495 C6.91216272,11.1405548 6.59434991,11.1405548 6.3984379,11.338495 L5.87709428,11.861232 C5.63546947,11.7912421 5.37425346,11.7595279 5.11194905,11.7595279 C3.39010019,11.7595279 2.00021333,13.1571387 2.00021333,14.8872014 C2.00021333,16.8414505 3.794985,18.3779474 5.83246988,17.9230131 C7.36929074,17.5796252 8.34776238,16.1568618 8.19973997,14.5820892 C8.18450237,14.4213311 8.15620397,14.2638539 8.11266797,14.1074702 L8.63401159,13.5836396 Z M6.54210671,5.11617453 C6.54210671,5.91559037 5.89668548,6.5629969 5.11194905,6.5629969 C4.31632862,6.5629969 3.6709074,5.91559037 3.6709074,5.11617453 C3.6709074,4.32660102 4.31632862,3.68028808 5.11194905,3.68028808 C5.89668548,3.68028808 6.54210671,4.32660102 6.54210671,5.11617453 M18.0021973,16.1706411 L17.9368933,16.235163 C16.926858,17.2500165 15.2877276,17.2500165 14.2766039,16.235163 L7.87898848,9.80702856 C7.70919807,9.6353346 7.70919807,9.3586558 7.87898848,9.18805543 L9.15785853,7.90199109 C9.32764893,7.73139072 9.60301414,7.73139072 9.77280455,7.90199109 L18.0021973,16.1706411 Z M18.0021973,3.82934469 L12.4045559,9.45368895 L10.5107398,7.54865148 L14.2766039,3.76482275 C15.2877276,2.74996927 16.926858,2.74996927 17.9368933,3.76482275 L18.0021973,3.82934469 Z M8.63401159,6.41864274 C8.82992359,6.61548933 8.82992359,6.93591182 8.63401159,7.1327584 L7.10916313,8.66488096 C6.91216272,8.86282113 6.59434991,8.86282113 6.3984379,8.66488096 L5.87709428,8.14214392 C5.63546947,8.21213382 5.37425346,8.2427544 5.11194905,8.2427544 C3.39010019,8.2427544 2.00021333,6.84623726 2.00021333,5.11617453 C2.00021333,3.16192542 3.794985,1.62542849 5.83246988,2.0814564 C7.36929074,2.42375074 8.34776238,3.84651408 8.19973997,5.42128673 C8.18450237,5.58313837 8.15620397,5.73842845 8.11266797,5.89590571 L8.63401159,6.41864274 Z M10.3929749,10.0447755 C10.3929749,10.2744298 10.2079469,10.4614341 9.97829448,10.4614341 C9.74973047,10.4614341 9.56361406,10.2744298 9.56361406,10.0447755 C9.56361406,9.81402755 9.74973047,9.62811689 9.97829448,9.62811689 C10.2079469,9.62811689 10.3929749,9.81402755 10.3929749,10.0447755 Z\" id=\"path-1\" fill=\"white\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>delete</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"delete\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"Delete-Icon\" transform=\"translate(2.000000, 1.500000)\" fill=\"#855CD6\" fill-rule=\"nonzero\">\r\n            <path d=\"M2,3.25 L14,3.25 C14.4437164,3.25 14.7904293,3.63311343 14.7462779,4.07462779 L13.6363275,15.1741315 C13.5468672,16.0687347 12.7940775,16.75 11.8950124,16.75 L4.10498756,16.75 C3.20592253,16.75 2.45313279,16.0687347 2.36367248,15.1741315 L1.25372211,4.07462779 C1.20957067,3.63311343 1.55628356,3.25 2,3.25 Z M8.75,12 L8.75,7 C8.75,6.58578644 8.41421356,6.25 8,6.25 C7.58578644,6.25 7.25,6.58578644 7.25,7 L7.25,12 C7.25,12.4142136 7.58578644,12.75 8,12.75 C8.41421356,12.75 8.75,12.4142136 8.75,12 Z M11.25,12 L11.25,7 C11.25,6.58578644 10.9142136,6.25 10.5,6.25 C10.0857864,6.25 9.75,6.58578644 9.75,7 L9.75,12 C9.75,12.4142136 10.0857864,12.75 10.5,12.75 C10.9142136,12.75 11.25,12.4142136 11.25,12 Z M6.25,12 L6.25,7 C6.25,6.58578644 5.91421356,6.25 5.5,6.25 C5.08578644,6.25 4.75,6.58578644 4.75,7 L4.75,12 C4.75,12.4142136 5.08578644,12.75 5.5,12.75 C5.91421356,12.75 6.25,12.4142136 6.25,12 Z M1.5,4 L14.5,4 L1.5,4 Z M1.5,3 L14.5,3 C15.0522847,3 15.5,3.44771525 15.5,4 C15.5,4.55228475 15.0522847,5 14.5,5 L1.5,5 C0.94771525,5 0.5,4.55228475 0.5,4 C0.5,3.44771525 0.94771525,3 1.5,3 Z M9.25,3.25 L9.25,2 C9.25,1.86192881 9.13807119,1.75 9,1.75 L7,1.75 C6.86192881,1.75 6.75,1.86192881 6.75,2 L6.75,3.25 L9.25,3.25 Z M7,0.25 L9,0.25 C9.96649831,0.25 10.75,1.03350169 10.75,2 L10.75,4.75 L5.25,4.75 L5.25,2 C5.25,1.03350169 6.03350169,0.25 7,0.25 Z\" id=\"Combined-Shape\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>mask</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <mask id=\"myMask\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"white\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                <rect x=\"2.6\" y=\"7.75\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"black\"></rect>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <mask id=\"myMask2\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"white\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"black\"></circle>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff80\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\" mask=\"url(#myMask)\"></circle>\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff\" mask=\"url(#myMask2)\"></rect>\r\n                    <!-- <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" rx=\"1\" fill=\"#00000080\"></rect>\r\n                    <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" rx=\"1\" fill=\"#ffffff\" mask=\"url(#myMask2)\"></rect> -->\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>flip-horizontal</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"flip-horizontal\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\r\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\r\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg":
+/*!**********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg ***!
+  \**********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>flip-vertical</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"flip-vertical\">\r\n            <g id=\"flip-horizontal\" transform=\"translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\r\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\r\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg":
+/*!*************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>mask</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <mask id=\"myMask\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"black\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                <rect x=\"2.6\" y=\"7.75\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff80\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\" mask=\"url(#myMask)\"></circle>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg":
+/*!**************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>merge</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\"></circle>\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"miter\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg":
+/*!**************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>paste v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"paste-v2\">\r\n            <g id=\"paste\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" transform=\"translate(6.748413, 6.750000) scale(1, -1) translate(-6.748413, -6.750000) \" points=\"0.5 0.5 0.5 13 12.9968262 13\"></polyline>\r\n                <path d=\"M2,3.00684547 C2,2.45078007 2.45303631,2 2.99703014,2 L10,2 L10,4.34995317 C10,5.26124887 10.7336617,6 11.6500468,6 L14,6 L14,15.0046024 C14,15.5543453 13.544239,16 12.9975267,16 L3.00247329,16 C2.44882258,16 2,15.5500512 2,14.9931545 L2,3.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,2 L14,5 L11.9989566,5 C11.4472481,5 11,4.55733967 11,4.00104344 L11,2 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path d=\"M8.34791833,12.8771885 C8.26180668,12.9633001 8.14699113,13.0063559 8.03217559,13.0063559 C7.9030081,13.0063559 7.78819256,12.9633001 7.70208091,12.8771885 L5.86503222,11.0401398 C5.73586474,10.8966203 5.69280891,10.7100451 5.76456862,10.5378218 C5.83632834,10.3655985 5.99419971,10.2651349 6.18077497,10.2651349 L6.92707599,10.2651349 L7.28587456,7.66743321 C7.31457845,7.46650601 7.41504205,7.27993075 7.57291342,7.16511521 C7.73078479,7.03594773 7.94606393,6.97853995 8.13263919,7.00724384 C8.47708582,7.06321642 8.74977273,7.33733852 8.79282856,7.66743321 L9.16597907,10.2651349 L9.86922427,10.2651349 C10.0557995,10.2651349 10.2136709,10.3799504 10.2854306,10.5521737 C10.3571903,10.7100451 10.3141345,10.9109723 10.184967,11.0401398 L8.34791833,12.8771885 Z\" id=\"Fill-1\" fill=\"#FFFFFF\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"round\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg":
+/*!*******************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" stroke-width=\"6\"><path d=\"M3,17 L17,3\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg":
+/*!********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"butt\" stroke=\"#855CD6\" stroke-width=\"6\"><path d=\"M3,17 L17,3\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg":
+/*!***********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>straight-point</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"straight-point\" fill=\"#855CD6\">\r\n            <polyline id=\"Path-2\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"2 15 10 7 18 15\"></polyline>\r\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\r\n            <circle id=\"Oval-4\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg":
+/*!*****************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>subtract</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
 /***/ "../scratch-vm/node_modules/worker-loader/dist/cjs.js?name=js/extension-worker/extension-worker.[hash].js!./node_modules/scratch-vm/src/extension-support/extension-worker.js":
 /*!************************************************************************************************************************************************************************************!*\
   !*** ../scratch-vm/node_modules/worker-loader/dist/cjs.js?name=js/extension-worker/extension-worker.[hash].js!./node_modules/scratch-vm/src/extension-support/extension-worker.js ***!
@@ -62025,7 +62793,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n.button_button_2fP99 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_2fP99:active {\n    background-color: hsla(194, 100%, 50%, 0.35); \n}\n\n.button_highlighted_2SR_W.button_button_2fP99 {\n    background-color: hsla(194, 100%, 50%, 0.35); \n}\n\n.button_mod-disabled_i1gjZ {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_i1gjZ:active {\n    background: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_2fP99 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_2fP99:active {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_highlighted_2SR_W.button_button_2fP99 {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_mod-disabled_i1gjZ {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_i1gjZ:active {\n    background: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62049,7 +62817,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n.color-button_color-button_3Q_sy {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_YMqXc {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .color-button_color-button-swatch_YMqXc {\n    border-color: rgba(255, 255, 255, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_YMqXc {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_YMqXc {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1FX6z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #575e75;\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1FX6z {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1FX6z {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_Q4JW6 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2XkDH:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.color-button_color-button_3Q_sy {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_YMqXc {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .color-button_color-button-swatch_YMqXc {\n    border-color: rgba(255, 255, 255, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_YMqXc {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_YMqXc {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1FX6z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #575e75;\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1FX6z {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1FX6z {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_Q4JW6 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2XkDH:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62079,7 +62847,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n}\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_3WU-R {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1bfn0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_1F-KU {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: #575E75;\n    margin: 8px 8px 0 8px;\n}\n\n[theme=\"dark\"] .color-picker_row-header_1F-KU {\n    color: #ccc;\n}\n\n.color-picker_label-name_3Ohhm {\n    font-weight: bold;\n}\n\n.color-picker_divider_1rrhm {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n[theme=\"dark\"] .color-picker_divider_1rrhm {\n    border-color: #333;\n}\n\n.color-picker_swap-button_1IHVI {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_1IxyF {\n    margin: 8px;\n}\n\n.color-picker_swatch_v12lU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[theme=\"dark\"] .color-picker_swatch_v12lU {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.color-picker_large-swatch-icon_1jo3W {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_VnybH {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_cOpcH {\n    border: 1px solid #00c3ff;\n    -webkit-box-shadow: 0px 0px 0px 3px hsla(194, 100%, 50%, 0.2);\n            box-shadow: 0px 0px 0px 3px hsla(194, 100%, 50%, 0.2);\n}\n\n.color-picker_swatch-icon_sM_0v {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_1IOdw {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2lMgC {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2u1cR {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_1ykn1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-color_3BecP {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n}\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_3WU-R {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1bfn0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_1F-KU {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: #575E75;\n    margin: 8px 8px 0 8px;\n}\n\n[theme=\"dark\"] .color-picker_row-header_1F-KU {\n    color: #ccc;\n}\n\n.color-picker_label-name_3Ohhm {\n    font-weight: bold;\n}\n\n.color-picker_divider_1rrhm {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n[theme=\"dark\"] .color-picker_divider_1rrhm {\n    border-color: #333;\n}\n\n.color-picker_swap-button_1IHVI {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_1IxyF {\n    margin: 8px;\n}\n\n.color-picker_swatch_v12lU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[theme=\"dark\"] .color-picker_swatch_v12lU {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.color-picker_large-swatch-icon_1jo3W {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_VnybH {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_cOpcH {\n    border: 1px solid #00c3ff;\n    -webkit-box-shadow: 0px 0px 0px 3px hsla(194, 100%, 50%, 0.2);\n            box-shadow: 0px 0px 0px 3px hsla(194, 100%, 50%, 0.2);\n}\n\n.color-picker_swatch-icon_sM_0v {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_1IOdw {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2lMgC {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2u1cR {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_1ykn1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-color_3BecP {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62131,7 +62899,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n.dropdown_dropdown_2mp1p {\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: hsla(194, 100%, 50%);\n    padding: .5rem;\n}\n\n.dropdown_mod-open_1K93r {\n    background-color: var(--paint-form-border, #E9EEF2);\n}\n\n.dropdown_dropdown-icon_3QKyU {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown_dropdown-icon_3QKyU {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown_dropdown-icon_3QKyU {\n    margin-right: .5rem;\n}\n\n.dropdown_mod-caret-up_2zd6p {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.dropdown_dropdown_2mp1p {\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: var(--paint-looks-secondary, #855CD6);\n    padding: .5rem;\n}\n\n.dropdown_mod-open_1K93r {\n    background-color: var(--paint-form-border, #E9EEF2);\n}\n\n.dropdown_dropdown-icon_3QKyU {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown_dropdown-icon_3QKyU {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown_dropdown-icon_3QKyU {\n    margin-right: .5rem;\n}\n\n.dropdown_mod-caret-up_2zd6p {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62158,7 +62926,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_192N0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_2KLYL {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_3d7b0 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_27c1u {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_JkaPk {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_JkaPk {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3teHu {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_2Azhw {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_32Oly {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_2yK8h {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_32Oly:hover {\n    background: hsla(194, 100%, 50%, 0.35);\n}\n\n.fixed-tools_mod-disabled_2yK8h:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_d411G {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_d411G {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_192N0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_2KLYL {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_3d7b0 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_27c1u {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_JkaPk {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_JkaPk {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3teHu {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_2Azhw {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_32Oly {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_2yK8h {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_32Oly:hover {\n    background: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.fixed-tools_mod-disabled_2yK8h:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_d411G {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_d411G {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62203,7 +62971,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1dyzY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1dyzY:hover {\n    background: hsla(194, 100%, 50%);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_1mbHa {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_font-context-menu_3dgaQ {\n    display: grid;\n    grid-template-columns: auto auto auto;\n}\n\n.font-dropdown_mod-unselect_j-wDj {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_QKz-V {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_2Xsc8 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1dyzY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1dyzY:hover {\n    background: var(--paint-looks-secondary, #855CD6);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_1mbHa {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_font-context-menu_3dgaQ {\n    display: grid;\n    grid-template-columns: auto auto auto;\n}\n\n.font-dropdown_mod-unselect_j-wDj {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_QKz-V {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_2Xsc8 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62235,7 +63003,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n.input_input-form_K5SYW {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW {\n    background: rgb(30, 30, 30);\n    border-color: rgba(255, 255, 255, 0.15);\n}\n\n.input_input-form_K5SYW:focus {\n    border-color: hsla(194, 100%, 50%);\n    -webkit-box-shadow: 0 0 0 .25rem hsla(194, 100%, 50%, 0.35);\n            box-shadow: 0 0 0 .25rem hsla(194, 100%, 50%, 0.35);\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:hover {\n    border-color: #333;\n}\n\n.input_input-small_BxP6l {\n    width: 3rem;\n    text-align: center;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:focus {\n    border-color: #333;\n}\n\n.input_input-small-range_300XG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_K5SYW {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW {\n    background: rgb(30, 30, 30);\n    border-color: rgba(255, 255, 255, 0.15);\n}\n\n.input_input-form_K5SYW:focus {\n    border-color: var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:hover {\n    border-color: #333;\n}\n\n.input_input-small_BxP6l {\n    width: 3rem;\n    text-align: center;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:focus {\n    border-color: #333;\n}\n\n.input_input-small-range_300XG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62261,7 +63029,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n.label_input-group_cypxi {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-right: calc(2 * .25rem);\n}\n\n.label_disabled_1_RmV {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label_input-label_2IYQh, .label_input-label-secondary_3FnB7 {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-left: calc(2 * .25rem);\n}\n\n.label_input-label_2IYQh {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label_input-group_cypxi {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label_input-label_2IYQh {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.label_input-group_cypxi {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-right: calc(2 * .25rem);\n}\n\n.label_disabled_1_RmV {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label_input-label_2IYQh, .label_input-label-secondary_3FnB7 {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-left: calc(2 * .25rem);\n}\n\n.label_input-label_2IYQh {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label_input-group_cypxi {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label_input-label_2IYQh {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62382,7 +63150,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3iBKV {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3G70N {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3G70N:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_3Yp7m {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_3Yp7m {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3iBKV {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3G70N {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3G70N:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_3Yp7m {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_3Yp7m {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}", ""]);
 
 // exports
 exports.locals = {
@@ -62420,7 +63188,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3mcqk {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n[theme=\"dark\"] .paint-editor_editor-container_3mcqk {\n    color-scheme: dark;\n}\n\n.paint-editor_row_oGw4Z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_XIsRw {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_1oxJ7 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_oGw4Z + .paint-editor_row_oGw4Z {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_TCDxZ {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_2V2si {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_1umM4 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] .paint-editor_button-group-button-icon_1umM4 {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.paint-editor_mod-mode-tools_3BF19 {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_XwwmY {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_yBxFI {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n[theme=\"dark\"] .paint-editor_canvas-container_yBxFI {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.paint-editor_mode-selector_8xIj1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_2GbPM {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3JSD5 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_3qGlY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_OA7-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: hsla(194, 100%, 50%);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3mcqk {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_8xIj1 {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_XwwmY {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_2Oupu {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_12Gpr {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3mcqk {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n[theme=\"dark\"] .paint-editor_editor-container_3mcqk {\n    color-scheme: dark;\n}\n\n.paint-editor_row_oGw4Z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_XIsRw {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_1oxJ7 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_oGw4Z + .paint-editor_row_oGw4Z {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_TCDxZ {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_2V2si {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_1umM4 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] .paint-editor_button-group-button-icon_1umM4 {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.paint-editor_mod-mode-tools_3BF19 {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_XwwmY {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_yBxFI {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n[theme=\"dark\"] .paint-editor_canvas-container_yBxFI {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.paint-editor_mode-selector_8xIj1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_2GbPM {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3JSD5 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_3qGlY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_OA7-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: var(--paint-looks-secondary, #855CD6);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3mcqk {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_8xIj1 {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_XwwmY {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_2Oupu {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_12Gpr {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62515,7 +63283,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_8BmWU {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e {\n    background-color: hsla(194, 100%, 50%);\n}\n\n.tool-select-base_mod-tool-select_8BmWU:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2pPoi {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] img.tool-select-base_tool-select-icon_2pPoi {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e .tool-select-base_tool-select-icon_2pPoi {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_8BmWU {\n        margin: 0;\n    }\n\n    img.tool-select-base_tool-select-icon_2pPoi {\n        width: 1rem;\n        height: 1rem;\n    }\n}", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_8BmWU {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e {\n    background-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.tool-select-base_mod-tool-select_8BmWU:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2pPoi {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] img.tool-select-base_tool-select-icon_2pPoi {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e .tool-select-base_tool-select-icon_2pPoi {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_8BmWU {\n        margin: 0;\n    }\n\n    img.tool-select-base_tool-select-icon_2pPoi {\n        width: 1rem;\n        height: 1rem;\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -186190,7 +186958,7 @@ ColorButtonComponent.defaultProps = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bWl4ZWQtZmlsbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtb3BhY2l0eT0iMC43NSI+DQogICAgICAgIDxnIGlkPSJtaXhlZC1maWxsIj4NCiAgICAgICAgICAgIDxnIGlkPSJtaXhlZC1maWxsLWljb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMDAwMDAwLCAyLjUwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9ImJsdWUiIGZpbGw9IiMwMGMzZmYiIGN4PSI0LjUiIGN5PSIxMC41IiByPSI0LjUiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9InJlZCIgZmlsbD0iI0ZGNTUwMCIgY3g9IjgiIGN5PSI0LjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0ieWVsbG93IiBmaWxsPSIjRkZCRjAwIiBjeD0iMTEuNDA5OTk5OCIgY3k9IjEwLjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bWl4ZWQtZmlsbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtb3BhY2l0eT0iMC43NSI+DQogICAgICAgIDxnIGlkPSJtaXhlZC1maWxsIj4NCiAgICAgICAgICAgIDxnIGlkPSJtaXhlZC1maWxsLWljb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMDAwMDAwLCAyLjUwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9ImJsdWUiIGZpbGw9IiM0Qzk3RkYiIGN4PSI0LjUiIGN5PSIxMC41IiByPSI0LjUiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9InJlZCIgZmlsbD0iI0ZGNTUwMCIgY3g9IjgiIGN5PSI0LjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0ieWVsbG93IiBmaWxsPSIjRkZCRjAwIiBjeD0iMTEuNDA5OTk5OCIgY3k9IjEwLjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
 
@@ -186349,16 +187117,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _color_button_no_fill_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_color_button_no_fill_svg__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../color-button/mixed-fill.svg */ "./node_modules/scratch-paint/src/components/color-button/mixed-fill.svg");
 /* harmony import */ var _color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./icons/fill-horz-gradient-enabled.svg */ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg");
-/* harmony import */ var _icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./icons/fill-radial-enabled.svg */ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg");
-/* harmony import */ var _icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./icons/fill-solid-enabled.svg */ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg");
-/* harmony import */ var _icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icons/fill-vert-gradient-enabled.svg */ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg");
-/* harmony import */ var _icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _icons_swap_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./icons/swap.svg */ "./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg");
-/* harmony import */ var _icons_swap_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_icons_swap_svg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _tw_recolor_build_icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/fill-horz-gradient-enabled.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg");
+/* harmony import */ var _tw_recolor_build_icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/fill-radial-enabled.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg");
+/* harmony import */ var _tw_recolor_build_icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/fill-solid-enabled.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg");
+/* harmony import */ var _tw_recolor_build_icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/fill-vert-gradient-enabled.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg");
+/* harmony import */ var _tw_recolor_build_icons_swap_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/swap.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg");
 /* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
 /* harmony import */ var _alpha_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./alpha.png */ "./node_modules/scratch-paint/src/components/color-picker/alpha.png");
 /* harmony import */ var _alpha_png__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_alpha_png__WEBPACK_IMPORTED_MODULE_19__);
@@ -186366,6 +187129,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
 /* harmony import */ var _lib_tw_color_utils__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../lib/tw-color-utils */ "./node_modules/scratch-paint/src/lib/tw-color-utils.js");
 /* harmony import */ var _tw_color_readout_tw_color_readout_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../tw-color-readout/tw-color-readout.jsx */ "./node_modules/scratch-paint/src/components/tw-color-readout/tw-color-readout.jsx");
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
+
 
 
 
@@ -186449,43 +187214,43 @@ class ColorPickerComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.
       className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientPickerRow
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()({
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient]: this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID,
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable]: true
       }),
       draggable: false,
-      src: _icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
+      src: _tw_recolor_build_icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15__["default"],
       onClick: this.props.onChangeGradientTypeSolid,
       width: 20,
       height: 20
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()({
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient]: this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].HORIZONTAL,
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable]: true
       }),
       draggable: false,
-      src: _icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13___default.a,
+      src: _tw_recolor_build_icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
       onClick: this.props.onChangeGradientTypeHorizontal,
       width: 20,
       height: 20
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()({
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient]: this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].VERTICAL,
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable]: true
       }),
       draggable: false,
-      src: _icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
+      src: _tw_recolor_build_icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16__["default"],
       onClick: this.props.onChangeGradientTypeVertical,
       width: 20,
       height: 20
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()({
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient]: this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].RADIAL,
         [_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable]: true
       }),
       draggable: false,
-      src: _icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14___default.a,
+      src: _tw_recolor_build_icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14__["default"],
       onClick: this.props.onChangeGradientTypeRadial,
       width: 20,
       height: 20
@@ -186516,7 +187281,7 @@ class ColorPickerComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.
       src: _color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12___default.a
     }) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
       className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swapButton,
-      imgSrc: _icons_swap_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
+      imgSrc: _tw_recolor_build_icons_swap_svg__WEBPACK_IMPORTED_MODULE_17__["default"],
       title: this.props.intl.formatMessage(messages.swap),
       onClick: this.props.onSwap
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -186702,72 +187467,6 @@ module.exports = __webpack_require__.p + "static/assets/73e5faa7d606ea47bc2aa9d7
 
 /***/ }),
 
-/***/ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/color-picker/icons/fill-horz-gradient-enabled.svg ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5maWxsLWhvcnotZ3JhZGllbnQtZW5hYmxlZDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+DQogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iMTAwJSIgeTE9IjUwJSIgeDI9IjAlIiB5Mj0iNTAlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkZGRkZGIiBvZmZzZXQ9IjAlIj48L3N0b3A+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMDBjM2ZmIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4NCiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4NCiAgICA8L2RlZnM+DQogICAgPGcgaWQ9ImZpbGwtaG9yei1ncmFkaWVudC1lbmFibGVkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utb3BhY2l0eT0iMC4xNSI+DQogICAgICAgIDxyZWN0IGlkPSJIb3Jpem9udGFsIiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiIHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iMTkiIGhlaWdodD0iMTkiIHJ4PSI0Ij48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+DQo="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/color-picker/icons/fill-radial-enabled.svg ***!
-  \**********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTEgKDU3NDYyKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+ZmlsbC1yYWRpYWwtZW5hYmxlZDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+DQogICAgICAgIDxyYWRpYWxHcmFkaWVudCBjeD0iNTAlIiBjeT0iNTAlIiBmeD0iNTAlIiBmeT0iNTAlIiByPSIzOS4zODk2NDg0JSIgaWQ9InJhZGlhbEdyYWRpZW50LTEiPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzAwYzNmZiIgb2Zmc2V0PSIwJSI+PC9zdG9wPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0ZGRkZGRiIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+DQogICAgICAgIDwvcmFkaWFsR3JhZGllbnQ+DQogICAgPC9kZWZzPg0KICAgIDxnIGlkPSJmaWxsLXJhZGlhbC1lbmFibGVkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utb3BhY2l0eT0iMC4xNSI+DQogICAgICAgIDxyZWN0IGlkPSJSYWRpYWwiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0idXJsKCNyYWRpYWxHcmFkaWVudC0xKSIgeD0iMC41IiB5PSIwLjUiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxOSIgcng9IjQiPjwvcmVjdD4NCiAgICA8L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/color-picker/icons/fill-solid-enabled.svg ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5maWxsLXNvbGlkLWVuYWJsZWQ8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iZmlsbC1zb2xpZC1lbmFibGVkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utb3BhY2l0eT0iMC4xNSI+DQogICAgICAgIDxyZWN0IGlkPSJTb2xpZCIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSIjMDBjM2ZmIiB4PSIwLjUiIHk9IjAuNSIgd2lkdGg9IjE5IiBoZWlnaHQ9IjE5IiByeD0iNCI+PC9yZWN0Pg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/color-picker/icons/fill-vert-gradient-enabled.svg ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTEgKDU3NDYyKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+ZmlsbC12ZXJ0LWdyYWRpZW50LWVuYWJsZWQ8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPg0KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIzLjA2MTYxN2UtMTUlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkZGRkZGIiBvZmZzZXQ9IjAlIj48L3N0b3A+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMDBjM2ZmIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4NCiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4NCiAgICA8L2RlZnM+DQogICAgPGcgaWQ9ImZpbGwtdmVydC1ncmFkaWVudC1lbmFibGVkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utb3BhY2l0eT0iMC4xNSI+DQogICAgICAgIDxyZWN0IGlkPSJWZXJ0aWNhbCIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIiB4PSIwLjUiIHk9IjAuNSIgd2lkdGg9IjE5IiBoZWlnaHQ9IjE5IiByeD0iNCI+PC9yZWN0Pg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/color-picker/icons/swap.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/161bbbfb17a2b0e008fbdcd820d62ae1.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSI4cHgiIGhlaWdodD0iNXB4IiB2aWV3Qm94PSIwIDAgOCA1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDMuMiAoMzkwNjkpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5kcm9wZG93bi1jYXJldDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iZHJvcGRvd24tY2FyZXQiIGZpbGw9IiMwMGMzZmYiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTQsNSBDMy43MjUyMDcwOCw1IDMuNDUxNjMwMDYsNC44OTY5NTA0NSAzLjI0MTI3OTczLDQuNjg5NjUzMTEgTDAuMzE0NjEzNTcyLDEuODA2NjYyMjcgQy0wLjEwNDg3MTE5MSwxLjM5MzI2NTgzIC0wLjEwNDg3MTE5MSwwLjcyNDY0MjAyMyAwLjMxNDYxMzU3MiwwLjMxMDA0NzMzMSBDMC43MzI4ODI0MzgsLTAuMTAzMzQ5MTEgNy4yNjcxMTc1NiwtMC4xMDMzNDkxMSA3LjY4NTM4NjQzLDAuMzEwMDQ3MzMxIEM4LjEwNDg3MTE5LDAuNzIzNDQzNzcyIDguMTA0ODcxMTksMS4zOTMyNjU4MyA3LjY4NTM4NjQzLDEuODA2NjYyMjcgTDQuNzU5OTM2MTcsNC42ODk2NTMxMSBDNC41NDk1ODU4Myw0Ljg5Njk1MDQ1IDQuMjc2MDA4ODIsNSA0LDUiPjwvcGF0aD4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
 /***/ "./node_modules/scratch-paint/src/components/dropdown/dropdown.css":
 /*!*************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/dropdown/dropdown.css ***!
@@ -186819,9 +187518,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _dropdown_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dropdown.css */ "./node_modules/scratch-paint/src/components/dropdown/dropdown.css");
 /* harmony import */ var _dropdown_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_dropdown_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dropdown-caret.svg */ "./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg");
-/* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _tw_recolor_build_dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../tw-recolor/build!./dropdown-caret.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg");
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
 
 
 
@@ -186866,12 +187566,12 @@ class Dropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
         [_dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.modClosed]: !this.state.isOpen
       }),
       onClick: this.handleToggleOpenState
-    }, this.props.children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+    }, this.props.children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.dropdownIcon, {
         [_dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.modCaretUp]: this.state.isOpen
       }),
       draggable: false,
-      src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6___default.a
+      src: _tw_recolor_build_dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__["default"]
     })));
   }
 }
@@ -187046,22 +187746,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
 /* harmony import */ var _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./fixed-tools.css */ "./node_modules/scratch-paint/src/components/fixed-tools/fixed-tools.css");
 /* harmony import */ var _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _icons_group_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./icons/group.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg");
-/* harmony import */ var _icons_group_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_icons_group_svg__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _icons_redo_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./icons/redo.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg");
-/* harmony import */ var _icons_redo_svg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_icons_redo_svg__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./icons/send-back.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg");
-/* harmony import */ var _icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var _icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./icons/send-backward.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg");
-/* harmony import */ var _icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./icons/send-forward.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg");
-/* harmony import */ var _icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var _icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./icons/send-front.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg");
-/* harmony import */ var _icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _icons_undo_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./icons/undo.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg");
-/* harmony import */ var _icons_undo_svg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_icons_undo_svg__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./icons/ungroup.svg */ "./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg");
-/* harmony import */ var _icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _tw_recolor_build_icons_group_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/group.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg");
+/* harmony import */ var _tw_recolor_build_icons_redo_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/redo.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg");
+/* harmony import */ var _tw_recolor_build_icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/send-back.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg");
+/* harmony import */ var _tw_recolor_build_icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/send-backward.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg");
+/* harmony import */ var _tw_recolor_build_icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/send-forward.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg");
+/* harmony import */ var _tw_recolor_build_icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/send-front.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg");
+/* harmony import */ var _tw_recolor_build_icons_undo_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/undo.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg");
+/* harmony import */ var _tw_recolor_build_icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/ungroup.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg");
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
+
 
 
 
@@ -187160,34 +187854,34 @@ const FixedToolsComponent = props => {
     }),
     disabled: undoDisabled,
     onClick: props.onUndo
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
     alt: props.intl.formatMessage(messages.undo),
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.undoIcon),
     draggable: false,
-    src: _icons_undo_svg__WEBPACK_IMPORTED_MODULE_26___default.a
+    src: _tw_recolor_build_icons_undo_svg__WEBPACK_IMPORTED_MODULE_26__["default"]
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButton, {
       [_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modStartBorder]: !redoDisabled
     }),
     disabled: redoDisabled,
     onClick: props.onRedo
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
     alt: props.intl.formatMessage(messages.redo),
     className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon,
     draggable: false,
-    src: _icons_redo_svg__WEBPACK_IMPORTED_MODULE_21___default.a
+    src: _tw_recolor_build_icons_redo_svg__WEBPACK_IMPORTED_MODULE_21__["default"]
   })))), Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
     className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_group__WEBPACK_IMPORTED_MODULE_5__["shouldShowGroup"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_group_svg__WEBPACK_IMPORTED_MODULE_20___default.a,
+    imgSrc: _tw_recolor_build_icons_group_svg__WEBPACK_IMPORTED_MODULE_20__["default"],
     title: props.intl.formatMessage(messages.group),
     onClick: props.onGroup
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_group__WEBPACK_IMPORTED_MODULE_5__["shouldShowUngroup"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27___default.a,
+    imgSrc: _tw_recolor_build_icons_ungroup_svg__WEBPACK_IMPORTED_MODULE_27__["default"],
     title: props.intl.formatMessage(messages.ungroup),
     onClick: props.onUngroup
   })) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -187195,13 +187889,13 @@ const FixedToolsComponent = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24___default.a,
+    imgSrc: _tw_recolor_build_icons_send_forward_svg__WEBPACK_IMPORTED_MODULE_24__["default"],
     title: props.intl.formatMessage(messages.forward),
     onClick: props.onSendForward
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23___default.a,
+    imgSrc: _tw_recolor_build_icons_send_backward_svg__WEBPACK_IMPORTED_MODULE_23__["default"],
     title: props.intl.formatMessage(messages.backward),
     onClick: props.onSendBackward
   })) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -187211,13 +187905,13 @@ const FixedToolsComponent = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25___default.a,
+    imgSrc: _tw_recolor_build_icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25__["default"],
     title: props.intl.formatMessage(messages.front),
     onClick: props.onSendToFront
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-    imgSrc: _icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22___default.a,
+    imgSrc: _tw_recolor_build_icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22__["default"],
     title: props.intl.formatMessage(messages.back),
     onClick: props.onSendToBack
   }))) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -187234,20 +187928,20 @@ const FixedToolsComponent = props => {
       }),
       disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
       onClick: props.onSendToFront
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
       className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
       draggable: false,
-      src: _icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25___default.a
+      src: _tw_recolor_build_icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, props.intl.formatMessage(messages.front))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modMenuItem, {
         [_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDisabled]: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])()
       }),
       disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])(),
       onClick: props.onSendToBack
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
       className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
       draggable: false,
-      src: _icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22___default.a
+      src: _tw_recolor_build_icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, props.intl.formatMessage(messages.back)))),
     tipSize: .01
   }, props.intl.formatMessage(messages.more)))) : null);
@@ -187277,94 +187971,6 @@ const mapStateToProps = state => ({
   undoState: state.scratchPaint.undo
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_11__["injectIntl"])(FixedToolsComponent)));
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/group.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/73b887b73fb07815638e1c817bb8931f.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg":
-/*!******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/redo.svg ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/c0c6d6dfa231ad9fbb6d29163b186805.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/send-back.svg ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/541ccba99d7262bf785d03a7771f4495.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/send-backward.svg ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c2VuZC1iYWNrd2FyZDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0ic2VuZC1iYWNrd2FyZCI+DQogICAgICAgICAgICA8ZyBpZD0ic2VuZC1mb3J3YXJkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDEwLjAwMDAwMCkgcm90YXRlKDE4MC4wMDAwMDApIHRyYW5zbGF0ZSgtMTAuMDAwMDAwLCAtMTAuMDAwMDAwKSB0cmFuc2xhdGUoMi4wMDAwMDAsIDMuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLjM0NzY3MzYsNS45MjU0OTcyMyBMMTAuMjQwNzM3Niw1LjkyNTQ5NzIzIEw5LjMzNjAxNjExLDEyLjc2MzU5ODEgQzkuMjM4MDc2MDMsMTMuNTQ3NjY2MSA4LjU0MDI1Mjk1LDE0LjEwMDM2OTggNy43ODEyMTczMiwxMy45ODQ2ODc2IEM3LjE2OTA5MTgxLDEzLjg5NDcxMjYgNi42OTE2MzM5MSwxMy4zODA1Njk3IDYuNjE2OTU0NiwxMi43NjM1OTgxIEw1LjcxMjIzMzEsNS45MjU0OTcyMyBMMy42NTQyNjcxNCw1LjkyNTQ5NzIzIEMzLjA2Nzg1MDksNS45MjU0OTcyMyAyLjc4NTA0ODkyLDUuMTkyODQzNTYgMy4xOTAyNzYsNC43Njg2NzU2NCBMNy41MzUxNDI4NiwwLjE5MjgwMzU5NyBDNy43OTIyMzU1OCwtMC4wNjQyNjc4NjU4IDguMjA5NzA1MTcsLTAuMDY0MjY3ODY1OCA4LjQ1MzMzMTEzLDAuMTkyODAzNTk3IEwxMi44MTI4ODksNC43Njg2NzU2NCBDMTMuMjE2ODkxOCw1LjE5Mjg0MzU2IDEyLjkyMzA3MTYsNS45MjU0OTcyMyAxMi4zNDc2NzM2LDUuOTI1NDk3MjMiIGlkPSJGaWxsLTEiIGZpbGw9IiMwMGMzZmYiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIsOCBMMTYsOCIgaWQ9IlN0cm9rZS02IiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDggTDQsOCIgaWQ9IlN0cm9rZS0xMCIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/send-forward.svg ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c2VuZC1mb3J3YXJkPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJzZW5kLWZvcndhcmQiPg0KICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMi4wMDAwMDAsIDMuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLjM0NzY3MzYsNS45MjU0OTcyMyBMMTAuMjQwNzM3Niw1LjkyNTQ5NzIzIEw5LjMzNjAxNjExLDEyLjc2MzU5ODEgQzkuMjM4MDc2MDMsMTMuNTQ3NjY2MSA4LjU0MDI1Mjk1LDE0LjEwMDM2OTggNy43ODEyMTczMiwxMy45ODQ2ODc2IEM3LjE2OTA5MTgxLDEzLjg5NDcxMjYgNi42OTE2MzM5MSwxMy4zODA1Njk3IDYuNjE2OTU0NiwxMi43NjM1OTgxIEw1LjcxMjIzMzEsNS45MjU0OTcyMyBMMy42NTQyNjcxNCw1LjkyNTQ5NzIzIEMzLjA2Nzg1MDksNS45MjU0OTcyMyAyLjc4NTA0ODkyLDUuMTkyODQzNTYgMy4xOTAyNzYsNC43Njg2NzU2NCBMNy41MzUxNDI4NiwwLjE5MjgwMzU5NyBDNy43OTIyMzU1OCwtMC4wNjQyNjc4NjU4IDguMjA5NzA1MTcsLTAuMDY0MjY3ODY1OCA4LjQ1MzMzMTEzLDAuMTkyODAzNTk3IEwxMi44MTI4ODksNC43Njg2NzU2NCBDMTMuMjE2ODkxOCw1LjE5Mjg0MzU2IDEyLjkyMzA3MTYsNS45MjU0OTcyMyAxMi4zNDc2NzM2LDUuOTI1NDk3MjMiIGlkPSJGaWxsLTEiIGZpbGw9IiMwMGMzZmYiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIsOCBMMTYsOCIgaWQ9IlN0cm9rZS02IiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDggTDQsOCIgaWQ9IlN0cm9rZS0xMCIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg":
-/*!************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/send-front.svg ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c2VuZC1mcm9udDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0ic2VuZC1mcm9udCI+DQogICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjAwMDAwMCwgMy4wMDAwMDApIj4NCiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIuMzQ3NjczNiw1LjkyNTQ5NzIzIEwxMC4yNDA3Mzc2LDUuOTI1NDk3MjMgTDkuMzM2MDE2MTEsMTIuNzYzNTk4MSBDOS4yMzgwNzYwMywxMy41NDc2NjYxIDguNTQwMjUyOTUsMTQuMTAwMzY5OCA3Ljc4MTIxNzMyLDEzLjk4NDY4NzYgQzcuMTY5MDkxODEsMTMuODk0NzEyNiA2LjY5MTYzMzkxLDEzLjM4MDU2OTcgNi42MTY5NTQ2LDEyLjc2MzU5ODEgTDUuNzEyMjMzMSw1LjkyNTQ5NzIzIEwzLjY1NDI2NzE0LDUuOTI1NDk3MjMgQzMuMDY3ODUwOSw1LjkyNTQ5NzIzIDIuNzg1MDQ4OTIsNS4xOTI4NDM1NiAzLjE5MDI3Niw0Ljc2ODY3NTY0IEw3LjUzNTE0Mjg2LDAuMTkyODAzNTk3IEM3Ljc5MjIzNTU4LC0wLjA2NDI2Nzg2NTggOC4yMDk3MDUxNywtMC4wNjQyNjc4NjU4IDguNDUzMzMxMTMsMC4xOTI4MDM1OTcgTDEyLjgxMjg4OSw0Ljc2ODY3NTY0IEMxMy4yMTY4OTE4LDUuMTkyODQzNTYgMTIuOTIzMDcxNiw1LjkyNTQ5NzIzIDEyLjM0NzY3MzYsNS45MjU0OTcyMyIgaWQ9IkZpbGwtMSIgZmlsbD0iIzAwYzNmZiI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiw4IEwxNiw4IiBpZD0iU3Ryb2tlLTYiIHN0cm9rZT0iIzU3NUU3NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLDEwIEwxNSwxMCIgaWQ9IlN0cm9rZS02LUNvcHkiIHN0cm9rZT0iIzU3NUU3NSIgb3BhY2l0eT0iMC43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLDEyIEwxNCwxMiIgaWQ9IlN0cm9rZS02LUNvcHktMiIgc3Ryb2tlPSIjNTc1RTc1IiBvcGFjaXR5PSIwLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDggTDQsOCIgaWQ9IlN0cm9rZS0xMCIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMSwxMCBMNCwxMCIgaWQ9IlN0cm9rZS0xMC1Db3B5IiBzdHJva2U9IiM1NzVFNzUiIG9wYWNpdHk9IjAuNzUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yLDEyIEw0LDEyIiBpZD0iU3Ryb2tlLTEwLUNvcHktMiIgc3Ryb2tlPSIjNTc1RTc1IiBvcGFjaXR5PSIwLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg":
-/*!******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/undo.svg ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/5af2300087fd7101a938509e43f45cfa.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/fixed-tools/icons/ungroup.svg ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/1b99be2af8c6a33b8a2d76b67715d5ad.svg";
 
 /***/ }),
 
@@ -187537,6 +188143,20 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
     onClick: props.onChoose,
+    onMouseOver: props.onHoverScratch
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].SCRATCH,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverBranches
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BRANCHES,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
     onMouseOver: props.onHoverPlayful
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].PLAYFUL,
@@ -187572,20 +188192,6 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
     onClick: props.onChoose,
-    onMouseOver: props.onHoverScratch
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].SCRATCH,
-    getFontName: props.getFontName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
-    onClick: props.onChoose,
-    onMouseOver: props.onHoverBranches
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BRANCHES,
-    getFontName: props.getFontName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
-    onClick: props.onChoose,
     onMouseOver: props.onHoverArchivo
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCHIVO,
@@ -187596,27 +188202,6 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
     onMouseOver: props.onHoverArchivoBlack
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCHIVOBLACK,
-    getFontName: props.getFontName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
-    onClick: props.onChoose,
-    onMouseOver: props.onHoverChinese
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].CHINESE,
-    getFontName: props.getFontName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
-    onClick: props.onChoose,
-    onMouseOver: props.onHoverJapanese
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JAPANESE,
-    getFontName: props.getFontName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
-    onClick: props.onChoose,
-    onMouseOver: props.onHoverKorean
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].KOREAN,
     getFontName: props.getFontName
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
@@ -187659,6 +188244,27 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
     onMouseOver: props.onHoverJetBrainsMono
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
     font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JETBRAINSMONO,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverChinese
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].CHINESE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverJapanese
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JAPANESE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverKorean
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].KOREAN,
     getFontName: props.getFontName
   })), props.customFonts.map(font => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_custom_font_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: font.name,
@@ -187714,21 +188320,21 @@ ModeToolsComponent.propTypes = {
   onHoverKorean: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverMarker: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverPixel: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverScratch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverBranches: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverPlayful: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverBubbly: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverBitsAndBytes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverTechnological: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArcade: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onHoverBranches: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onHoverScratch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArchivo: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverArchivoBlack: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onHoverJetBrainsMono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverGogono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverJustBubble: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverLilitaOne: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onHoverGogono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverMinecrafter: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverObelixPro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverJetBrainsMono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSansSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
@@ -188322,8 +188928,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../button/button.jsx */ "./node_modules/scratch-paint/src/components/button/button.jsx");
-/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./labeled-icon-button.css */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.css");
-/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
+/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./labeled-icon-button.css */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.css");
+/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5__);
 const _excluded = ["className", "hideLabel", "imgAlt", "imgSrc", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -188331,6 +188938,7 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 /* @todo This file should be pulled out into a shared library with scratch-gui,
 consolidating this component with icon-button.jsx in gui.
 See #13 */
+
 
 
 
@@ -188348,16 +188956,16 @@ const LabeledIconButton = _ref => {
     } = _ref,
     props = _objectWithoutProperties(_ref, _excluded);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.modEditField),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.modEditField),
     onClick: onClick
-  }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     alt: imgAlt || title,
-    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldIcon,
+    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.editFieldIcon,
     draggable: false,
     src: imgSrc,
     title: title
   }), !hideLabel && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldTitle
+    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.editFieldTitle
   }, title));
 };
 LabeledIconButton.propTypes = {
@@ -188605,204 +189213,6 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiMwMGMzZmYiIGZpbGw9IiMwMGMzZmYiIGZpbGwtb3BhY2l0eT0iMC4yNSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49ImJldmVsIj48cGF0aCBkPSJNMywxNyBMMTAsMyBMMTcsMTciLz48L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/bc31de1c83c64bb366066336021866db.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+Y29weSB2MjwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iY29weS12MiI+DQogICAgICAgICAgICA8ZyBpZD0iY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJQYXRoLTMiIHN0cm9rZS1vcGFjaXR5PSIwLjUiIHN0cm9rZT0iIzU3NUU3NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSIxLDIiIHBvaW50cz0iMC41MDMxNzM4MjggMyAwLjUwMzE3MzgyOCAxNS41IDEzIDE1LjUiPjwvcG9seWxpbmU+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTIsMS4wMDY4NDU0NyBDMiwwLjQ1MDc4MDA3MyAyLjQ1MzAzNjMxLDAgMi45OTcwMzAxNCwwIEwxMCwwIEwxMCwyLjM0OTk1MzE3IEMxMCwzLjI2MTI0ODg3IDEwLjczMzY2MTcsNCAxMS42NTAwNDY4LDQgTDE0LDQgTDE0LDEzLjAwNDYwMjQgQzE0LDEzLjU1NDM0NTMgMTMuNTQ0MjM5LDE0IDEyLjk5NzUyNjcsMTQgTDMuMDAyNDczMjksMTQgQzIuNDQ4ODIyNTgsMTQgMiwxMy41NTAwNTEyIDIsMTIuOTkzMTU0NSBMMiwxLjAwNjg0NTQ3IFoiIGlkPSJSZWN0YW5nbGUtNCIgZmlsbD0iIzAwYzNmZiI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMSwwIEwxNCwzIEwxMS45OTg5NTY2LDMgQzExLjQ0NzI0ODEsMyAxMSwyLjU1NzMzOTY3IDExLDIuMDAxMDQzNDQgTDExLDAgWiIgaWQ9IlJlY3RhbmdsZS01IiBmaWxsPSIjMDBjM2ZmIj48L3BhdGg+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuODExNTk0Miw5LjE4ODQwNTggTDguNjg4NDA1OCw5LjE4ODQwNTggTDguNjg4NDA1OCwxMC4zMTE1OTQyIEM4LjY4ODQwNTgsMTAuNjg1OTkwMyA4LjM4NjQ3MzQzLDExIDgsMTEgQzcuNjEzNTI2NTcsMTEgNy4zMTE1OTQyLDEwLjY4NTk5MDMgNy4zMTE1OTQyLDEwLjMxMTU5NDIgTDcuMzExNTk0Miw5LjE4ODQwNTggTDYuMTg4NDA1OCw5LjE4ODQwNTggQzUuODE0MDA5NjYsOS4xODg0MDU4IDUuNSw4Ljg4NjQ3MzQzIDUuNSw4LjUgQzUuNSw4LjExMzUyNjU3IDUuODE0MDA5NjYsNy44MTE1OTQyIDYuMTg4NDA1OCw3LjgxMTU5NDIgTDcuMzExNTk0Miw3LjgxMTU5NDIgTDcuMzExNTk0Miw2LjY4ODQwNTggQzcuMzExNTk0Miw2LjMxMjgwMTkzIDcuNjEzNTI2NTcsNiA4LDYgQzguMzg2NDczNDMsNiA4LjY4ODQwNTgsNi4zMTI4MDE5MyA4LjY4ODQwNTgsNi42ODg0MDU4IEw4LjY4ODQwNTgsNy44MTE1OTQyIEw5LjgxMTU5NDIsNy44MTE1OTQyIEMxMC4xODU5OTAzLDcuODExNTk0MiAxMC41LDguMTEzNTI2NTcgMTAuNSw4LjUgQzEwLjUsOC44ODY0NzM0MyAxMC4xODU5OTAzLDkuMTg4NDA1OCA5LjgxMTU5NDIsOS4xODg0MDU4IFoiIGlkPSJGaWxsLTEiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIwLjI1IiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+Y3VydmVkLXBvaW50PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJjdXJ2ZWQtcG9pbnQiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTIsMTUgQzIsMTAuNTgxODQ1MiA1LjU4MTUxMjE0LDcgMTAuMDAwNzQ0LDcgQzE0LjQxODQ4NzksNyAxOCwxMC41ODE4NDUyIDE4LDE1IiBpZD0iU3Ryb2tlLTMiIHN0cm9rZT0iIzAwYzNmZiIgc3Ryb2tlLXdpZHRoPSIwLjc1IiBmaWxsLW9wYWNpdHk9IjAuMjUiIGZpbGw9IiMwMGMzZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPg0KICAgICAgICAgICAgPHBhdGggZD0iTTMsNyBMMTcsNyIgaWQ9IlN0cm9rZS03IiBzdHJva2U9IiMwMGMzZmYiIHN0cm9rZS13aWR0aD0iMC43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+DQogICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsLTQiIGZpbGwtb3BhY2l0eT0iMC4yNSIgZmlsbD0iIzAwYzNmZiIgY3g9IjEwIiBjeT0iNyIgcj0iMyI+PC9jaXJjbGU+DQogICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsLTQiIGZpbGw9IiMwMGMzZmYiIGN4PSIxMCIgY3k9IjciIHI9IjIiPjwvY2lyY2xlPg0KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC01IiBmaWxsPSIjMDBjM2ZmIiBjeD0iMyIgY3k9IjciIHI9IjEiPjwvY2lyY2xlPg0KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC01LUNvcHkiIGZpbGw9IiMwMGMzZmYiIGN4PSIxNyIgY3k9IjciIHI9IjEiPjwvY2lyY2xlPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg":
-/*!****************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/fb2767d19dbf3481aba4c072bd4a3843.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5kZWxldGU8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iZGVsZXRlIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9IkRlbGV0ZS1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjAwMDAwMCwgMS41MDAwMDApIiBmaWxsPSIjMDBjM2ZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPHBhdGggZD0iTTIsMy4yNSBMMTQsMy4yNSBDMTQuNDQzNzE2NCwzLjI1IDE0Ljc5MDQyOTMsMy42MzMxMTM0MyAxNC43NDYyNzc5LDQuMDc0NjI3NzkgTDEzLjYzNjMyNzUsMTUuMTc0MTMxNSBDMTMuNTQ2ODY3MiwxNi4wNjg3MzQ3IDEyLjc5NDA3NzUsMTYuNzUgMTEuODk1MDEyNCwxNi43NSBMNC4xMDQ5ODc1NiwxNi43NSBDMy4yMDU5MjI1MywxNi43NSAyLjQ1MzEzMjc5LDE2LjA2ODczNDcgMi4zNjM2NzI0OCwxNS4xNzQxMzE1IEwxLjI1MzcyMjExLDQuMDc0NjI3NzkgQzEuMjA5NTcwNjcsMy42MzMxMTM0MyAxLjU1NjI4MzU2LDMuMjUgMiwzLjI1IFogTTguNzUsMTIgTDguNzUsNyBDOC43NSw2LjU4NTc4NjQ0IDguNDE0MjEzNTYsNi4yNSA4LDYuMjUgQzcuNTg1Nzg2NDQsNi4yNSA3LjI1LDYuNTg1Nzg2NDQgNy4yNSw3IEw3LjI1LDEyIEM3LjI1LDEyLjQxNDIxMzYgNy41ODU3ODY0NCwxMi43NSA4LDEyLjc1IEM4LjQxNDIxMzU2LDEyLjc1IDguNzUsMTIuNDE0MjEzNiA4Ljc1LDEyIFogTTExLjI1LDEyIEwxMS4yNSw3IEMxMS4yNSw2LjU4NTc4NjQ0IDEwLjkxNDIxMzYsNi4yNSAxMC41LDYuMjUgQzEwLjA4NTc4NjQsNi4yNSA5Ljc1LDYuNTg1Nzg2NDQgOS43NSw3IEw5Ljc1LDEyIEM5Ljc1LDEyLjQxNDIxMzYgMTAuMDg1Nzg2NCwxMi43NSAxMC41LDEyLjc1IEMxMC45MTQyMTM2LDEyLjc1IDExLjI1LDEyLjQxNDIxMzYgMTEuMjUsMTIgWiBNNi4yNSwxMiBMNi4yNSw3IEM2LjI1LDYuNTg1Nzg2NDQgNS45MTQyMTM1Niw2LjI1IDUuNSw2LjI1IEM1LjA4NTc4NjQ0LDYuMjUgNC43NSw2LjU4NTc4NjQ0IDQuNzUsNyBMNC43NSwxMiBDNC43NSwxMi40MTQyMTM2IDUuMDg1Nzg2NDQsMTIuNzUgNS41LDEyLjc1IEM1LjkxNDIxMzU2LDEyLjc1IDYuMjUsMTIuNDE0MjEzNiA2LjI1LDEyIFogTTEuNSw0IEwxNC41LDQgTDEuNSw0IFogTTEuNSwzIEwxNC41LDMgQzE1LjA1MjI4NDcsMyAxNS41LDMuNDQ3NzE1MjUgMTUuNSw0IEMxNS41LDQuNTUyMjg0NzUgMTUuMDUyMjg0Nyw1IDE0LjUsNSBMMS41LDUgQzAuOTQ3NzE1MjUsNSAwLjUsNC41NTIyODQ3NSAwLjUsNCBDMC41LDMuNDQ3NzE1MjUgMC45NDc3MTUyNSwzIDEuNSwzIFogTTkuMjUsMy4yNSBMOS4yNSwyIEM5LjI1LDEuODYxOTI4ODEgOS4xMzgwNzExOSwxLjc1IDksMS43NSBMNywxLjc1IEM2Ljg2MTkyODgxLDEuNzUgNi43NSwxLjg2MTkyODgxIDYuNzUsMiBMNi43NSwzLjI1IEw5LjI1LDMuMjUgWiBNNywwLjI1IEw5LDAuMjUgQzkuOTY2NDk4MzEsMC4yNSAxMC43NSwxLjAzMzUwMTY5IDEwLjc1LDIgTDEwLjc1LDQuNzUgTDUuMjUsNC43NSBMNS4yNSwyIEM1LjI1LDEuMDMzNTAxNjkgNi4wMzM1MDE2OSwwLjI1IDcsMC4yNSBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/e9e9c0ff44f1408a37fcc002809060d2.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+ZmxpcC1ob3Jpem9udGFsPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJmbGlwLWhvcml6b250YWwiPg0KICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMi4wMDAwMDAsIDMuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzU3NUU3NSIgb3BhY2l0eT0iMC41IiBjeD0iOCIgY3k9IjAuNzUiIHI9IjEiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiM1NzVFNzUiIG9wYWNpdHk9IjAuNSIgY3g9IjgiIGN5PSIxMy4yNSIgcj0iMSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC1Db3B5IiBmaWxsPSIjNTc1RTc1IiBvcGFjaXR5PSIwLjUiIGN4PSI4IiBjeT0iMy44NzUiIHI9IjEiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwtQ29weS0yIiBmaWxsPSIjNTc1RTc1IiBvcGFjaXR5PSIwLjUiIGN4PSI4IiBjeT0iNyIgcj0iMSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC1Db3B5LTMiIGZpbGw9IiM1NzVFNzUiIG9wYWNpdHk9IjAuNSIgY3g9IjgiIGN5PSIxMC4xMjUiIHI9IjEiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xNiwzLjA4NDI1NDIzIEwxNiwxMC45MTU3NDU4IEMxNiwxMS40MzQyNjI2IDE1LjI1NzQ0OTEsMTEuNjk1Njk5NiAxNC44MjM1Nzk4LDExLjMyODIzNTMgTDEwLjIwMTkyOTMsNy40MTEwMzcxMSBDOS45MzI2OTAyNSw3LjE4NDQ1ODM1IDkuOTMyNjkwMjUsNi44MTQwODkyMiAxMC4yMDE5MjkzLDYuNTg3NTEwNDYgTDE0LjgyMzU3OTgsMi42NzE3NjQ2OSBDMTUuMjU3NDQ5MSwyLjMwNDMwMDQyIDE2LDIuNTY1NzM3NDUgMTYsMy4wODQyNTQyMyIgaWQ9IkZpbGwtMTEiIGZpbGw9IiMwMGMzZmYiIG9wYWNpdHk9IjAuNSI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDEwLjkxNTc0NTggTDAsMy4wODQyNTQyMyBDMCwyLjU2NTczNzQ1IDAuNzQyNTUwOTExLDIuMzA0MzAwNDIgMS4xNzQ3MDUyNSwyLjY3MTc2NDY5IEw1Ljc5ODA3MDc0LDYuNTg4OTYyODkgQzYuMDY3MzA5NzUsNi44MTU1NDE2NSA2LjA2NzMwOTc1LDcuMTg1OTEwNzggNS43OTgwNzA3NCw3LjQxMjQ4OTU0IEwxLjE3NDcwNTI1LDExLjMyODIzNTMgQzAuNzQyNTUwOTExLDExLjY5NTY5OTYgMCwxMS40MzQyNjI2IDAsMTAuOTE1NzQ1OCIgaWQ9IkZpbGwtMTQiIGZpbGw9IiMwMGMzZmYiPjwvcGF0aD4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+ZmxpcC12ZXJ0aWNhbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iZmxpcC12ZXJ0aWNhbCI+DQogICAgICAgICAgICA8ZyBpZD0iZmxpcC1ob3Jpem9udGFsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDEwLjAwMDAwMCkgcm90YXRlKDkwLjAwMDAwMCkgdHJhbnNsYXRlKC0xMC4wMDAwMDAsIC0xMC4wMDAwMDApIHRyYW5zbGF0ZSgyLjAwMDAwMCwgMy4wMDAwMDApIj4NCiAgICAgICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsIiBmaWxsPSIjNTc1RTc1IiBvcGFjaXR5PSIwLjUiIGN4PSI4IiBjeT0iMC43NSIgcj0iMSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzU3NUU3NSIgb3BhY2l0eT0iMC41IiBjeD0iOCIgY3k9IjEzLjI1IiByPSIxIj48L2NpcmNsZT4NCiAgICAgICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsLUNvcHkiIGZpbGw9IiM1NzVFNzUiIG9wYWNpdHk9IjAuNSIgY3g9IjgiIGN5PSIzLjg3NSIgcj0iMSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC1Db3B5LTIiIGZpbGw9IiM1NzVFNzUiIG9wYWNpdHk9IjAuNSIgY3g9IjgiIGN5PSI3IiByPSIxIj48L2NpcmNsZT4NCiAgICAgICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsLUNvcHktMyIgZmlsbD0iIzU3NUU3NSIgb3BhY2l0eT0iMC41IiBjeD0iOCIgY3k9IjEwLjEyNSIgcj0iMSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTE2LDMuMDg0MjU0MjMgTDE2LDEwLjkxNTc0NTggQzE2LDExLjQzNDI2MjYgMTUuMjU3NDQ5MSwxMS42OTU2OTk2IDE0LjgyMzU3OTgsMTEuMzI4MjM1MyBMMTAuMjAxOTI5Myw3LjQxMTAzNzExIEM5LjkzMjY5MDI1LDcuMTg0NDU4MzUgOS45MzI2OTAyNSw2LjgxNDA4OTIyIDEwLjIwMTkyOTMsNi41ODc1MTA0NiBMMTQuODIzNTc5OCwyLjY3MTc2NDY5IEMxNS4yNTc0NDkxLDIuMzA0MzAwNDIgMTYsMi41NjU3Mzc0NSAxNiwzLjA4NDI1NDIzIiBpZD0iRmlsbC0xMSIgZmlsbD0iIzAwYzNmZiIgb3BhY2l0eT0iMC41Ij48L3BhdGg+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTAsMTAuOTE1NzQ1OCBMMCwzLjA4NDI1NDIzIEMwLDIuNTY1NzM3NDUgMC43NDI1NTA5MTEsMi4zMDQzMDA0MiAxLjE3NDcwNTI1LDIuNjcxNzY0NjkgTDUuNzk4MDcwNzQsNi41ODg5NjI4OSBDNi4wNjczMDk3NSw2LjgxNTU0MTY1IDYuMDY3MzA5NzUsNy4xODU5MTA3OCA1Ljc5ODA3MDc0LDcuNDEyNDg5NTQgTDEuMTc0NzA1MjUsMTEuMzI4MjM1MyBDMC43NDI1NTA5MTEsMTEuNjk1Njk5NiAwLDExLjQzNDI2MjYgMCwxMC45MTU3NDU4IiBpZD0iRmlsbC0xNCIgZmlsbD0iIzAwYzNmZiI+PC9wYXRoPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bWFzazwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxtYXNrIGlkPSJteU1hc2siPg0KICAgICAgICA8IS0tIEV2ZXJ5dGhpbmcgdW5kZXIgYSB3aGl0ZSBwaXhlbCB3aWxsIGJlIHZpc2libGUgLS0+DQogICAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iYmxhY2siIC8+DQoNCiAgICAgICAgPCEtLSBFdmVyeXRoaW5nIHVuZGVyIGEgYmxhY2sgcGl4ZWwgd2lsbCBiZSBpbnZpc2libGUgLS0+DQogICAgICAgIDxnIGlkPSJjb3B5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMC4wMDAwMDApIj4NCiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuMDAwMDAwLCAxLjAwMDAwMCkgc2NhbGUoMC45KSI+DQogICAgICAgICAgICAgICAgPHJlY3QgeD0iMi42IiB5PSI3Ljc1IiB3aWR0aD0iOC41IiBoZWlnaHQ9IjguNSIgcng9IjEiIGZpbGw9IndoaXRlIj48L3JlY3Q+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L21hc2s+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJjb3B5LXYyIj4NCiAgICAgICAgICAgIDxnIGlkPSJjb3B5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMC4wMDAwMDApIj4NCiAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSIxMCIgZmlsbD0iIzAwYzNmZiI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGcgaWQ9ImNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuMDAwMDAwLCAxLjAwMDAwMCkgc2NhbGUoMC45KSI+DQogICAgICAgICAgICAgICAgICAgIDxyZWN0IHg9IjIuNSIgeT0iOCIgd2lkdGg9IjguNSIgaGVpZ2h0PSI4LjUiIHJ4PSIxIiBmaWxsPSIjZmZmZmZmODAiPjwvcmVjdD4NCiAgICAgICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMTIuNSIgY3k9IjcuNSIgcj0iNSIgZmlsbD0iIzAwYzNmZiI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEyLjUiIGN5PSI3LjUiIHI9IjUiIGZpbGw9IiNmZmZmZmY4MCI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEyLjUiIGN5PSI3LjUiIHI9IjUiIGZpbGw9IndoaXRlIiBtYXNrPSJ1cmwoI215TWFzaykiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg":
-/*!******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bWVyZ2U8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9ImNvcHktdjIiPg0KICAgICAgICAgICAgPGcgaWQ9ImNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAwLjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjEwIiBmaWxsPSIjMDBjM2ZmIj48L2NpcmNsZT4NCiAgICAgICAgICAgICAgICA8ZyBpZD0iY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDEuMDAwMDAwKSBzY2FsZSgwLjkpIj4NCiAgICAgICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMTIuNSIgY3k9IjcuNSIgcj0iNSIgZmlsbD0id2hpdGUiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgICAgICA8cmVjdCB4PSIyLjUiIHk9IjgiIHdpZHRoPSI4LjUiIGhlaWdodD0iOC41IiByeD0iMSIgZmlsbD0id2hpdGUiPjwvcmVjdD4NCiAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiMwMGMzZmYiIGZpbGw9IiMwMGMzZmYiIGZpbGwtb3BhY2l0eT0iMC4yNSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIj48cGF0aCBkPSJNMywxNyBMMTAsMyBMMTcsMTciLz48L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg":
-/*!******************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/e34db65b119c54ec990d0ec64c808e49.svg";
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiMwMGMzZmYiIGZpbGw9IiMwMGMzZmYiIGZpbGwtb3BhY2l0eT0iMC4yNSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMywxNyBMMTAsMyBMMTcsMTciLz48L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiMwMGMzZmYiIHN0cm9rZS13aWR0aD0iNiI+PHBhdGggZD0iTTMsMTcgTDE3LDMiLz48L2c+DQo8L3N2Zz4="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg":
-/*!************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZT0iIzAwYzNmZiIgc3Ryb2tlLXdpZHRoPSI2Ij48cGF0aCBkPSJNMywxNyBMMTcsMyIvPjwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c3RyYWlnaHQtcG9pbnQ8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9InN0cmFpZ2h0LXBvaW50IiBmaWxsPSIjMDBjM2ZmIj4NCiAgICAgICAgICAgIDxwb2x5bGluZSBpZD0iUGF0aC0yIiBzdHJva2U9IiMwMGMzZmYiIHN0cm9rZS13aWR0aD0iMC43NSIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHBvaW50cz0iMiAxNSAxMCA3IDE4IDE1Ij48L3BvbHlsaW5lPg0KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC00IiBmaWxsLW9wYWNpdHk9IjAuMjUiIGN4PSIxMCIgY3k9IjciIHI9IjMiPjwvY2lyY2xlPg0KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbC00IiBjeD0iMTAiIGN5PSI3IiByPSIyIj48L2NpcmNsZT4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c3VidHJhY3Q8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9ImNvcHktdjIiPg0KICAgICAgICAgICAgPGcgaWQ9ImNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAwLjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjEwIiBmaWxsPSIjMDBjM2ZmIj48L2NpcmNsZT4NCiAgICAgICAgICAgICAgICA8ZyBpZD0iY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDEuMDAwMDAwKSBzY2FsZSgwLjkpIj4NCiAgICAgICAgICAgICAgICAgICAgPHJlY3QgeD0iMi41IiB5PSI4IiB3aWR0aD0iOC41IiBoZWlnaHQ9IjguNSIgcng9IjEiIGZpbGw9IndoaXRlIj48L3JlY3Q+DQogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEyLjUiIGN5PSI3LjUiIHI9IjUiIGZpbGw9IiMwMGMzZmYiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIxMi41IiBjeT0iNy41IiByPSI1IiBmaWxsPSIjZmZmZmZmODAiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
-
-/***/ }),
-
 /***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg":
 /*!*********************************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg ***!
@@ -188889,32 +189299,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28__);
 /* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
 /* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./icons/copy.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
-/* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./icons/cut.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
-/* harmony import */ var _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./icons/paste.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
-/* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./icons/delete.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
-/* harmony import */ var _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/round-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
-/* harmony import */ var _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/square-line.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
-/* harmony import */ var _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/miter-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
-/* harmony import */ var _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/round-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
-/* harmony import */ var _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/bevel-line-join.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
-/* harmony import */ var _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./icons/merge.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
-/* harmony import */ var _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/mask.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
-/* harmony import */ var _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/subtract.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
-/* harmony import */ var _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/filter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
-/* harmony import */ var _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/copy.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
+/* harmony import */ var _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/cut.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
+/* harmony import */ var _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/paste.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
+/* harmony import */ var _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/square-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/miter-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/bevel-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/merge.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
+/* harmony import */ var _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/mask.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
+/* harmony import */ var _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/subtract.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
+/* harmony import */ var _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/filter.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
 /* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
 /* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__);
 /* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
@@ -188929,8 +189326,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49__);
 /* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
 /* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./icons/curved-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
-/* harmony import */ var _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/curved-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
 /* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
 /* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__);
 /* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
@@ -188939,14 +189335,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54__);
 /* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
 /* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__);
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/flip-horizontal.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
-/* harmony import */ var _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__);
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./icons/flip-vertical.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
-/* harmony import */ var _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__);
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./icons/centerSelection.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
-/* harmony import */ var _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__);
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./icons/straight-point.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
-/* harmony import */ var _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__);
+/* harmony import */ var _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-horizontal.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
+/* harmony import */ var _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-vertical.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
+/* harmony import */ var _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/centerSelection.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
+/* harmony import */ var _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/straight-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
 /* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
 /* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__);
 /* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
@@ -189102,6 +189494,10 @@ const ModeToolsComponent = props => {
     movementCenter: {
       "id": "paint.modeTools.movementCenter",
       "defaultMessage": "Center"
+    },
+    more: {
+      "id": "paint.paintEditor.more",
+      "defaultMessage": "More"
     }
   });
   switch (props.mode) {
@@ -189312,19 +189708,19 @@ const ModeToolsComponent = props => {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedMiterLineJoin,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
+        imgSrc: _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__["default"],
         title: 'Spiked',
         onClick: props.onMiterLineJoin
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedRoundLineJoin,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
+        imgSrc: _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__["default"],
         title: 'Rounded',
         onClick: props.onRoundLineJoin
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedBevelLineJoin,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
+        imgSrc: _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__["default"],
         title: 'Beveled',
         onClick: props.onBevelLineJoin
       }));
@@ -189332,7 +189728,7 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       }));
@@ -189343,13 +189739,13 @@ const ModeToolsComponent = props => {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51___default.a,
+        imgSrc: _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__["default"],
         title: props.intl.formatMessage(messages.curved),
         onClick: props.onCurvePoints
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !props.hasSelectedUnpointedPoints,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59___default.a,
+        imgSrc: _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__["default"],
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
@@ -189357,13 +189753,13 @@ const ModeToolsComponent = props => {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedRoundEnds,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
+        imgSrc: _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
         title: 'Rounded',
         onClick: props.onRoundEnds
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: props.hasSelectedSquareEnds,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
+        imgSrc: _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__["default"],
         title: 'Squared',
         onClick: props.onSquareEnds
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -189380,7 +189776,7 @@ const ModeToolsComponent = props => {
           rtl: props.rtl
         }, lineJoinReshape, deleteSelectedNodes),
         tipSize: .01
-      }, "More"))));
+      }, props.intl.formatMessage(messages.more)))));
     case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_SELECT:
     /* falls through */
     case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT:
@@ -189388,22 +189784,22 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_merge_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
+        imgSrc: _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__["default"],
         title: 'Merge',
         onClick: props.onMergeShape
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_mask_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
+        imgSrc: _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__["default"],
         title: 'Mask',
         onClick: props.onMaskShape
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42___default.a,
+        imgSrc: _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__["default"],
         title: 'Subtract',
         onClick: props.onSubtractShape
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_filter_svg__WEBPACK_IMPORTED_MODULE_43___default.a,
+        imgSrc: _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__["default"],
         title: 'Filter',
         onClick: props.onExcludeShape
       }));
@@ -189411,12 +189807,12 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56___default.a,
+        imgSrc: _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__["default"],
         title: props.intl.formatMessage(messages.flipHorizontal),
         onClick: props.onFlipHorizontal
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57___default.a,
+        imgSrc: _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__["default"],
         title: props.intl.formatMessage(messages.flipVertical),
         onClick: props.onFlipVertical
       }));
@@ -189424,7 +189820,7 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58___default.a,
+        imgSrc: _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__["default"],
         title: props.intl.formatMessage(messages.movementCenter),
         onClick: props.onCenterSelection
       }));
@@ -189434,25 +189830,25 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+        imgSrc: _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__["default"],
         title: props.intl.formatMessage(messages.copy),
         onClick: props.onCopyToClipboard
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !(props.clipboardItems.length > 0),
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_paste_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+        imgSrc: _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__["default"],
         title: props.intl.formatMessage(messages.paste),
         onClick: props.onPasteFromClipboard
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_cut_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
+        imgSrc: _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__["default"],
         title: props.intl.formatMessage(messages.cut),
         onClick: props.onCutToClipboard
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -189471,7 +189867,7 @@ const ModeToolsComponent = props => {
           rtl: props.rtl
         }, reshapingMethods),
         tipSize: .01
-      }, "More"))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, props.intl.formatMessage(messages.more)))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
@@ -189483,7 +189879,7 @@ const ModeToolsComponent = props => {
           rtl: props.rtl
         }, flipOptions, movementOptions, reshapingMethods),
         tipSize: .01
-      }, "More"))));
+      }, props.intl.formatMessage(messages.more)))));
     case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_TEXT:
     /* falls through */
     case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].TEXT:
@@ -193134,7 +193530,7 @@ __webpack_require__.r(__webpack_exports__);
 class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontScratch', 'handleChangeFontBranches', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleChangeFontJetBrainsMono', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleChangeFontJetBrainsMono', 'handleChangeFontScratch', 'handleChangeFontBranches', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
     this.customFonts = {};
     this.acceptedCustomFontAgreement = false;
     this.latestCustomFont = null;
@@ -193347,31 +193743,6 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].ARCHIVOBLACK);
     }
   }
-  handleChangeFontBranches() {
-    if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BRANCHES);
-    }
-  }
-  handleChangeFontScratch() {
-    if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SCRATCH);
-    }
-  }
-  handleChangeFontChinese() {
-    if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CHINESE);
-    }
-  }
-  handleChangeFontJapanese() {
-    if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE);
-    }
-  }
-  handleChangeFontKorean() {
-    if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN);
-    }
-  }
   handleChangeFontGogono() {
     if (this.dropDown.isOpen()) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].GOGONO);
@@ -193400,6 +193771,31 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
   handleChangeFontJetBrainsMono() {
     if (this.dropDown.isOpen()) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JETBRAINSMONO);
+    }
+  }
+  handleChangeFontScratch() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SCRATCH);
+    }
+  }
+  handleChangeFontBranches() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BRANCHES);
+    }
+  }
+  handleChangeFontChinese() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CHINESE);
+    }
+  }
+  handleChangeFontJapanese() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE);
+    }
+  }
+  handleChangeFontKorean() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN);
     }
   }
   handleChoose() {
@@ -193493,12 +193889,6 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverHandwriting: this.handleChangeFontHandwriting,
       onHoverJapanese: this.handleChangeFontJapanese,
       onHoverKorean: this.handleChangeFontKorean,
-      onHoverGogono: this.handleChangeFontGogono,
-      onHoverLilitaOne: this.handleChangeFontLilitaOne,
-      onHoverMinecrafter: this.handleChangeFontMinecrafter,
-      onHoverObelixPro: this.handleChangeFontObelixPro,
-      onHoverJetBrainsMono: this.handleChangeFontJetBrainsMono,
-      onHoverJustBubble: this.handleChangeFontJustBubble,
       onHoverMarker: this.handleChangeFontMarker,
       onHoverPixel: this.handleChangeFontPixel,
       onHoverPlayful: this.handleChangeFontPlayful,
@@ -193508,8 +193898,14 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverArcade: this.handleChangeFontArcade,
       onHoverArchivo: this.handleChangeFontArchivo,
       onHoverArchivoBlack: this.handleChangeFontArchivoBlack,
-      onHoverBranches: this.handleChangeFontBranches,
+      onHoverGogono: this.handleChangeFontGogono,
+      onHoverJustBubble: this.handleChangeFontJustBubble,
+      onHoverLilitaOne: this.handleChangeFontLilitaOne,
+      onHoverMinecrafter: this.handleChangeFontMinecrafter,
+      onHoverObelixPro: this.handleChangeFontObelixPro,
+      onHoverJetBrainsMono: this.handleChangeFontJetBrainsMono,
       onHoverScratch: this.handleChangeFontScratch,
+      onHoverBranches: this.handleChangeFontBranches,
       onHoverSansSerif: this.handleChangeFontSansSerif,
       onHoverSerif: this.handleChangeFontSerif,
       onOpenDropdown: this.handleOpenDropdown,
@@ -208099,17 +208495,17 @@ const Fonts = {
   ARCADE: 'Arcade',
   ARCHIVO: 'Archivo',
   ARCHIVOBLACK: 'Archivo Black',
-  BRANCHES: 'Branches',
-  SCRATCH: 'Scratch',
-  CHINESE: '"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑"',
-  JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
-  KOREAN: 'Malgun Gothic',
   GOGONO: 'Gogono',
   JUSTBUBBLE: 'Just Bubble',
   LILITAONE: 'Lilita One Regular',
   MINECRAFTER: 'Minecrafter',
   OBELIXPRO: 'Obelix Pro',
-  JETBRAINSMONO: 'Jet Brains Mono'
+  JETBRAINSMONO: 'Jet Brains Mono',
+  SCRATCH: 'Scratch',
+  BRANCHES: 'Branches',
+  CHINESE: '"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑"',
+  JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
+  KOREAN: 'Malgun Gothic'
 };
 /* harmony default export */ __webpack_exports__["default"] = (Fonts);
 
@@ -210566,6 +210962,50 @@ const resetZoomLevels = function resetZoomLevels() {
   };
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/tw-recolor/render.jsx":
+/*!**************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/tw-recolor/render.jsx ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+const _excluded = ["src"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
+
+
+
+// This is a wrapper around <img> that forces re-render when theme state updates.
+
+const TWRenderRecoloredImage = _ref => {
+  let {
+      src
+    } = _ref,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", _extends({
+    src: typeof src === 'function' ? src() : src
+  }, props));
+};
+TWRenderRecoloredImage.propTypes = {
+  src: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func])
+};
+const mapStateToProps = state => ({
+  theme: state.scratchGui ? state.scratchGui.theme.theme : ''
+});
+const mapDispatchToProps = () => ({});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(TWRenderRecoloredImage));
 
 /***/ }),
 
@@ -256506,11 +256946,6 @@ class Scratch3ControlBlocks {
      */
     this._counter = 0; // used by compiler
 
-    /**
-     * The "error" block value. Returns the last error block.
-     * @type {string}
-     */
-    this._error = '';
     this.runtime.on('RUNTIME_DISPOSED', this.clearCounter.bind(this));
   }
 
@@ -256549,29 +256984,23 @@ class Scratch3ControlBlocks {
     };
   }
   getError() {
-    return Cast.toString(this._error) || '';
+    return this.error || '';
   }
   tryCatchError(args, util) {
-    try {
-      util.thread.__dashTryCatchError = false;
-      util.startBranch(1, false);
-      util.yieldTick(() => {
-        if (util.thread.__dashTryCatchError) {
-          this.errorHandled = true;
-          util.startBranch(2, false);
-          util.thread.__dashTryCatchError = false;
-          this.errorHandled = false;
-        }
-      });
-    } catch (error) {
-      log.error(new Error(error));
-      this._error = error.message ? error.message : error || '';
-      util.startBranch(2, false);
-    }
+    util.thread.__dashTryCatchError = false;
+    util.startBranch(1, false);
+    util.yieldTick(() => {
+      if (util.thread.__dashTryCatchError) {
+        this.errorHandled = true;
+        util.startBranch(2, false);
+        util.thread.__dashTryCatchError = false;
+        this.errorHandled = false;
+      }
+    });
   }
   error(args, util) {
     log.error(new Error(args.MESSAGE));
-    this._error = args.MESSAGE || '';
+    this.error = args.MESSAGE;
     if (util.thread) {
       util.thread.__dashTryCatchError = true;
     }
@@ -258461,21 +258890,6 @@ class Scratch3SensingBlocks {
       }
     }
   }
-  alert(args) {
-    const message = Cast.toString(args.MESSAGE);
-    return alert(message);
-  }
-  prompt(args) {
-    const message = Cast.toString(args.MESSAGE);
-    const defaultValue = Cast.toString(args.VALUE);
-    const answer = prompt(message, defaultValue);
-    if (answer) return answer;
-    return '';
-  }
-  confirm(args) {
-    const message = Cast.toString(args.MESSAGE);
-    return confirm(message);
-  }
   askAndWait(args, util) {
     const _target = util.target;
     return new Promise(resolve => {
@@ -258488,6 +258902,17 @@ class Scratch3SensingBlocks {
   }
   getAnswer() {
     return this._answer;
+  }
+  alert(args) {
+    return alert(args.MESSAGE);
+  }
+  prompt(args) {
+    const answer = prompt(args.MESSAGE, args.VALUE);
+    if (answer === null) return '';
+    return answer;
+  }
+  confirm(args) {
+    return confirm(args.MESSAGE);
   }
   touchingObject(args, util) {
     return util.target.isTouchingObject(args.TOUCHINGOBJECTMENU);
