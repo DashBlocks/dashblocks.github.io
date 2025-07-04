@@ -430,7 +430,7 @@ __webpack_require__.r(__webpack_exports__);
     const color = document.createElement("div");
     color.setAttribute("style", "width: 25px; height: 25px; border-radius: 4px; background: #fff; display: flex; justify-content: center; align-items: center; flex-direction: column;");
     const colorContainer = document.createElement("div");
-    colorContainer.setAttribute("style", "width: 16px; height: 16px; border-radius: 5px; background: ".concat(rngHex + Math.round(opacity * 2.55).toString(16).padStart(2, "0"), "; border: solid 1px var(--ui-black-transparent); margin-bottom: 2px;"));
+    colorContainer.setAttribute("style", "width: 16px; height: 16px; border-radius: 5px; background: ".concat(rngHex + Math.round(opacity * 255).toString(16).padStart(2, "0"), "; border: solid 1px var(--ui-black-transparent); margin-bottom: 2px;"));
     const colorInput = document.createElement("input");
     colorInput.setAttribute("type", "color");
     colorInput.setAttribute("style", "opacity: 0; position: absolute; pointer-events: none;");
