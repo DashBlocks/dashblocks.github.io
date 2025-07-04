@@ -12,10 +12,47 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".paintGradientMakerPopup {\r\n  box-sizing: border-box;\r\n  width: 528px;\r\n  max-height: min(800px, 80vh);\r\n  max-width: 85%;\r\n  margin-top: 12vh;\r\n  overflow-y: auto;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.paintGradientMakerPopupContent {\r\n  padding: 1.5rem 2.25rem;\r\n}\r\n\r\n.paintGradientMakerPopupDisplay {\r\n  width: 420px;\r\n  height: 100px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 15px 15px 0 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.paintGradientMakerPopupDraggables {\r\n  width: 420px;\r\n  height: 40px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 0 15px 15px 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-top: none;\r\n  border-radius: 0 0 5px 5px;\r\n  background: var(--ui-tertiary);\r\n}\r\n\r\n.paintGradientMakerPopupSettings {\r\n  border-top: dashed 2px var(--ui-black-transparent);\r\n  padding-top: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.paintGradientMakerPopupButtons {\r\n  margin-top: 1.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button {\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\r\n  color: black;\r\n}\r\n", ""]);
+exports.push([module.i, ".paintGradientMakerPopup {\r\n  box-sizing: border-box;\r\n  width: 528px;\r\n  max-height: min(800px, 80vh);\r\n  max-width: 85%;\r\n  margin-top: 12vh;\r\n  overflow-y: auto;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.paintGradientMakerPopupContent {\r\n  padding: 1.5rem 2.25rem;\r\n}\r\n\r\n.paintGradientMakerPopupDisplay {\r\n  width: 420px;\r\n  height: 150px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 15px 15px 0 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.paintGradientMakerPopupDraggables {\r\n  width: 420px;\r\n  height: 40px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 0 15px 15px 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-top: none;\r\n  border-radius: 0 0 5px 5px;\r\n  background: var(--ui-tertiary);\r\n}\r\n\r\n.paintGradientMakerPopupSettings {\r\n  border-top: dashed 2px var(--ui-black-transparent);\r\n  padding-top: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.paintGradientMakerPopupButtons {\r\n  margin-top: 1.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button {\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\r\n  color: black;\r\n}\r\n", ""]);
 
 // exports
 
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/addons/addons/paint-gradient-maker/fill-complex-gradient-enabled.svg":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/addons/addons/paint-gradient-maker/fill-complex-gradient-enabled.svg ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"#855cd6\"><rect stroke=\"#000\" fill=\"#fff\" x=\".5\" y=\".5\" width=\"19\" height=\"19\" rx=\"4\" stroke-opacity=\".15\"/><path d=\"M13.35 8.8h-2.4V6.4a1.2 1.2 90 0 0-2.4 0l.043 2.4H6.15a1.2 1.2 90 0 0 0 2.4l2.443-.043L8.55 13.6a1.2 1.2 90 0 0 2.4 0v-2.443l2.4.043a1.2 1.2 90 0 0 0-2.4\"/></svg>\n"
+
+/***/ }),
+
+/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/add.svg":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/add.svg ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTTE4IDEwaC00VjZhMiAyIDAgMCAwLTQgMGwuMDcxIDRINmEyIDIgMCAwIDAgMCA0bDQuMDcxLS4wNzFMMTAgMThhMiAyIDAgMCAwIDQgMHYtNC4wNzFMMTggMTRhMiAyIDAgMCAwIDAtNCI+PC9wYXRoPjwvc3ZnPgo=");
+
+/***/ }),
+
+/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/delete.svg":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/delete.svg ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTSAxOCAxMCBoIC00IEggNiBhIDIgMiAwIDAgMCAwIDQgTCAxOCAxNCBhIDIgMiAwIDAgMCAwIC00Ij48L3BhdGg+PC9zdmc+Cg==");
 
 /***/ }),
 
@@ -32,12 +69,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/paint-gradient-maker/userscript.js");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/paint-gradient-maker/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _raw_loader_fill_complex_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raw-loader!./fill-complex-gradient-enabled.svg */ "./node_modules/raw-loader/index.js!./src/addons/addons/paint-gradient-maker/fill-complex-gradient-enabled.svg");
+/* harmony import */ var _raw_loader_fill_complex_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_raw_loader_fill_complex_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _url_loader_add_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./add.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/add.svg");
+/* harmony import */ var _url_loader_delete_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./delete.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-gradient-maker/delete.svg");
 /* generated by pull.js */
+
+
+
 
 
 const resources = {
   "userscript.js": _userscript_js__WEBPACK_IMPORTED_MODULE_0__["default"],
-  "style.css": _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default.a
+  "style.css": _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default.a,
+  "fill-complex-gradient-enabled.svg": _raw_loader_fill_complex_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+  "add.svg": _url_loader_add_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+  "delete.svg": _url_loader_delete_svg__WEBPACK_IMPORTED_MODULE_4__["default"]
 };
 
 /***/ }),
@@ -52,26 +99,21 @@ const resources = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // Gradient Maker Addon
-// By: SharkPool
+// Original by: SharkPool
 /* harmony default export */ __webpack_exports__["default"] = (async function (_ref) {
   let {
     addon,
     console,
     msg
   } = _ref;
-  const customID = "custom-gradient-btn";
+  const customID = "paintGradientMakerSelectButton";
   const symbolTag = Symbol("custom-gradient-tag");
-  const guiIMGS = {
-    "select": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><rect stroke=\"#000\" fill=\"#fff\" x=\".5\" y=\".5\" width=\"19\" height=\"19\" rx=\"4\" stroke-opacity=\".15\"/><path fill=\"red\" d=\"M13.35 8.8h-2.4V6.4a1.2 1.2 90 0 0-2.4 0l.043 2.4H6.15a1.2 1.2 90 0 0 0 2.4l2.443-.043L8.55 13.6a1.2 1.2 90 0 0 2.4 0v-2.443l2.4.043a1.2 1.2 90 0 0 0-2.4\"/></svg>",
-    "add": "<svg viewBox=\"2 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"red\" d=\"M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4\"></path></svg>",
-    "delete": "<svg viewBox=\"2 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"red\" d=\"M 18 10 h -4 H 6 a 2 2 0 0 0 0 4 L 18 14 a 2 2 0 0 0 0 -4\"></path></svg>"
-  };
   const paperLinkModes = new Set(["TEXT", "OVAL", "RECT", "ROUNDED_RECT", "TRIANGLE", "SUSSY", "ARROW"]);
   let selectedClassName, unselectedClassName, customBtn;
   let observerUsed = false;
   let modalStorage = {};
 
-  // Internal Utils
+  // Internal utils
   function position2Angle(p1, p2) {
     const dx = p1.x - p2.x;
     const dy = p1.y - p2.y;
@@ -328,11 +370,8 @@ __webpack_require__.r(__webpack_exports__);
       }
     };
   }
-  function getButtonURI(name, dontCompile) {
-    const themeHex = document.documentElement.style.getPropertyValue("--looks-secondary");
-    const guiSVG = guiIMGS[name].replace("red", themeHex);
-    if (dontCompile) return guiSVG;else return "data:image/svg+xml;base64," + btoa(guiSVG);
-  }
+
+  // GUI utils
   function showSelectedGrad(item) {
     const [fillSwatch, outlineSwatch] = document.querySelectorAll("div[class^=color-button_color-button_] div[class^=color-button_color-button-swatch_]");
     const outCSSGrad = paperGrad2CSS(extractGradient(item.strokeColor));
@@ -369,118 +408,139 @@ __webpack_require__.r(__webpack_exports__);
       } else if (!item.fillColor) fillSwatch.style.background = "#fff";
     }
   }
+  function createDraggable(optC, optP) {
+    const index = modalStorage.parts.length;
+    const rngPos = optP !== null && optP !== void 0 ? optP : Math.floor(Math.random() * 100);
+    const rngHex = optC !== null && optC !== void 0 ? optC : "#".concat(Math.floor(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, "0"));
+    const opacity = optC ? optC.length === 9 ? parseInt(optC.slice(7, 9), 16) / 255 : 1 : 1;
+    const draggable = document.createElement("div");
+    draggable.id = index;
+    draggable.classList.add("pointer");
+    draggable.setAttribute("style", "cursor: pointer; width: 25px; position: absolute; top: -6px; transform: translateX(-50%);");
+    draggable.style.left = "".concat(rngPos, "%");
+    const nub = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    nub.setAttribute("width", "14");
+    nub.setAttribute("height", "7");
+    nub.style.transform = "translateX(45%)";
+    const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+    polygon.setAttribute("points", "0,7 7,0 14,7");
+    polygon.setAttribute("stroke", "#fff");
+    polygon.setAttribute("fill", "#fff");
+    nub.appendChild(polygon);
+    const color = document.createElement("div");
+    color.setAttribute("style", "width: 25px; height: 25px; border-radius: 4px; background: #fff; display: flex; justify-content: center; align-items: center; flex-direction: column;");
+    const colorContainer = document.createElement("div");
+    colorContainer.setAttribute("style", "width: 16px; height: 16px; border-radius: 5px; background: ".concat(rngHex + Math.round(opacity * 2.55).toString(16).padStart(2, "0"), "; border: solid 1px var(--ui-black-transparent); margin-bottom: 2px;"));
+    const colorInput = document.createElement("input");
+    colorInput.setAttribute("type", "color");
+    colorInput.setAttribute("style", "opacity: 0; position: absolute; pointer-events: none;");
+    const opacityInput = document.createElement("input");
+    opacityInput.setAttribute("type", "number");
+    opacityInput.setAttribute("min", "0");
+    opacityInput.setAttribute("max", "100");
+    opacityInput.value = opacity * 100;
+    opacityInput.setAttribute("style", "visibility: hidden; background: #fff; border: none; color: #000; text-align: center; position: absolute; pointer-events: auto; width: 45px; height: 25px; padding: 0; margin: 0; border-radius: 0 5px 5px 0; left: 22px;");
+    if (rngPos > 50) {
+      opacityInput.style.removeProperty("left");
+      opacityInput.style.right = "22px";
+      opacityInput.style.borderRadius = "5px 0 0 5px";
+    }
+
+    // Color picker handler
+    colorContainer.addEventListener("click", e => {
+      opacityInput.style.visibility = "visible";
+      colorInput.click();
+      e.stopPropagation();
+    });
+    draggable.addEventListener("mouseleave", e => {
+      opacityInput.style.visibility = "hidden";
+      e.stopPropagation();
+    });
+    colorInput.addEventListener("input", e => {
+      const alpha = modalStorage.parts[index].c.substring(7, 9);
+      modalStorage.parts[index].c = e.target.value + alpha;
+      colorContainer.style.background = e.target.value + alpha;
+      updateDisplay();
+    });
+
+    // Opacity slider handler
+    opacityInput.addEventListener("click", e => {
+      opacityInput.focus();
+      e.stopPropagation();
+    });
+    opacityInput.addEventListener("input", e => {
+      const newOpacity = Math.min(100, Math.max(0, e.target.value));
+      e.target.value = newOpacity;
+      const alpha = Math.round(newOpacity * 2.55).toString(16).padStart(2, "0");
+      const hex = modalStorage.parts[index].c;
+      modalStorage.parts[index].c = hex.substring(0, 7) + alpha;
+      colorContainer.style.background = hex.substring(0, 7) + alpha;
+      updateDisplay();
+    });
+    draggable.addEventListener("mousedown", e => {
+      e.preventDefault();
+      if (e.target === opacityInput) return;
+      modalStorage.selectedPointer = draggable;
+      const container = draggable.parentElement;
+      const containerRect = container.getBoundingClientRect();
+      const onMouseMove = moveEvent => {
+        const x = moveEvent.clientX - containerRect.left;
+        const percent = Math.min(100, Math.max(0, x / container.offsetWidth * 100));
+        draggable.style.left = "".concat(percent, "%");
+        if (percent > 50) {
+          opacityInput.style.removeProperty("left");
+          opacityInput.style.right = "22px";
+          opacityInput.style.borderRadius = "5px 0 0 5px";
+        } else {
+          opacityInput.style.left = "22px";
+          opacityInput.style.removeProperty("right");
+          opacityInput.style.borderRadius = "0 5px 5px 0";
+        }
+        modalStorage.parts[index].p = percent;
+        updateDisplay();
+      };
+      const onMouseUp = () => {
+        document.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mouseup", onMouseUp);
+      };
+      document.addEventListener("mousemove", onMouseMove);
+      document.addEventListener("mouseup", onMouseUp);
+    });
+    color.append(colorContainer, colorInput, opacityInput);
+    draggable.append(nub, color);
+    modalStorage.parts.push({
+      c: rngHex,
+      p: rngPos
+    });
+    modalStorage.selectedPointer = draggable;
+    return draggable;
+  }
+  function updateDisplay() {
+    const display = document.guerySelector(".paintGradientMakerPopupDisplay");
+    if (display) display.style.background = encodeGradHTML(modalStorage);
+  }
 
   // Main GUI
   function openGradientMaker() {
     var _paint$selectedItems;
-    function createDraggable(optC, optP) {
-      const index = modalStorage.parts.length;
-      const rngPos = optP !== null && optP !== void 0 ? optP : Math.floor(Math.random() * 100);
-      const rngHex = optC !== null && optC !== void 0 ? optC : "#".concat(Math.floor(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, "0"));
-      const opacity = optC ? optC.length === 9 ? parseInt(optC.slice(7, 9), 16) / 255 : 1 : 1;
-      const draggable = document.createElement("div");
-      draggable.id = index;
-      draggable.classList.add("pointer");
-      draggable.setAttribute("style", "cursor: pointer; width: 25px; position: absolute; top: -6px; transform: translateX(-50%);");
-      draggable.style.left = "".concat(rngPos, "%");
-      const nub = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      nub.setAttribute("width", "14");
-      nub.setAttribute("height", "7");
-      nub.style.transform = "translateX(45%)";
-      const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      polygon.setAttribute("points", "0,7 7,0 14,7");
-      polygon.setAttribute("stroke", "#fff");
-      polygon.setAttribute("fill", "#fff");
-      nub.appendChild(polygon);
-      const color = document.createElement("div");
-      color.setAttribute("style", "width: 25px; height: 25px; border-radius: 4px; background: #fff; display: flex; justify-content: center; align-items: center; flex-direction: column;");
-      const colorContainer = document.createElement("div");
-      colorContainer.setAttribute("style", "width: 16px; height: 16px; border-radius: 5px; background: ".concat(rngHex, "; border: solid 2px rgba(0,0,0,.2); opacity: ").concat(opacity, "; margin-bottom: 2px;"));
-      const colorInput = document.createElement("input");
-      colorInput.setAttribute("type", "color");
-      colorInput.setAttribute("style", "opacity: 0; position: absolute; pointer-events: none;");
-      const opacityInput = document.createElement("input");
-      opacityInput.setAttribute("type", "number");
-      opacityInput.setAttribute("min", "0");
-      opacityInput.setAttribute("max", "100");
-      opacityInput.value = opacity * 100;
-      opacityInput.setAttribute("style", "visibility: hidden; background: #fff; border: none; color: #000; text-align: center; position: absolute; pointer-events: auto; width: 45px; height: 25px; padding: 0; margin: 0; border-radius: 0 5px 5px 0; left: 22px;");
-
-      // Color picker handler
-      colorContainer.addEventListener("click", e => {
-        opacityInput.style.visibility = "visible";
-        colorInput.click();
-        e.stopPropagation();
-      });
-      draggable.addEventListener("mouseleave", e => {
-        opacityInput.style.visibility = "hidden";
-        e.stopPropagation();
-      });
-      colorInput.addEventListener("input", e => {
-        modalStorage.parts[index].c = e.target.value;
-        colorContainer.style.background = e.target.value;
-        updateDisplay();
-      });
-
-      // Opacity slider handler
-      opacityInput.addEventListener("click", e => {
-        opacityInput.focus();
-        e.stopPropagation();
-      });
-      opacityInput.addEventListener("input", e => {
-        const newOpacity = Math.min(100, Math.max(0, e.target.value));
-        e.target.value = newOpacity;
-        colorContainer.style.opacity = newOpacity / 100;
-        const alpha = Math.round(newOpacity * 2.55).toString(16).padStart(2, "0");
-        const hex = modalStorage.parts[index].c;
-        modalStorage.parts[index].c = hex.substring(0, 7) + alpha;
-        updateDisplay();
-      });
-      draggable.addEventListener("mousedown", e => {
-        e.preventDefault();
-        if (e.target === opacityInput) return;
-        modalStorage.selectedPointer = draggable;
-        const container = draggable.parentElement;
-        const containerRect = container.getBoundingClientRect();
-        const onMouseMove = moveEvent => {
-          const x = moveEvent.clientX - containerRect.left;
-          const percent = Math.min(100, Math.max(0, x / container.offsetWidth * 100));
-          draggable.style.left = "".concat(percent, "%");
-          modalStorage.parts[index].p = percent;
-          updateDisplay();
-        };
-        const onMouseUp = () => {
-          document.removeEventListener("mousemove", onMouseMove);
-          document.removeEventListener("mouseup", onMouseUp);
-        };
-        document.addEventListener("mousemove", onMouseMove);
-        document.addEventListener("mouseup", onMouseUp);
-      });
-      color.append(colorContainer, colorInput, opacityInput);
-      draggable.append(nub, color);
-      modalStorage.parts.push({
-        c: rngHex,
-        p: rngPos
-      });
-      modalStorage.selectedPointer = draggable;
-      return draggable;
-    }
     function genSettingsTable(div) {
       const btnStyle = "width: 35px; height: 35px; border: solid 2px var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15)); border-radius: 5px; background: var(--paint-input-background, --ui-primary, #fff); transition: transform 0.2s;";
-      const selectStlye = "cursor: pointer; height: 30px; margin: 5px; border: solid 2px var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15)); border-radius: 5px; background: var(--ui-secondary, #fff);";
-      const directionStyle = "text-align: center; width: 50px; height: 25px; margin: 5px; border: solid 2px var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15)); border-radius: 5px; background: var(--ui-secondary, #fff);";
+      const selectStlye = "cursor: pointer; height: 30px; margin: 5px; border: solid 1px var(--ui-black-transparent); border-radius: 5px; background: var(--ui-secondary);";
+      const directionStyle = "width: 50px; height: 30px; margin: 5px; border: solid 1px var(--ui-black-transparent); border-radius: 5px; background: var(--ui-secondary);";
       const createBtn = document.createElement("button");
       createBtn.setAttribute("style", btnStyle);
-      createBtn.innerHTML = getButtonURI("add", true);
       createBtn.addEventListener("click", e => {
         draggables.appendChild(createDraggable());
         updateDisplay();
         e.stopPropagation();
       });
+      const addIcon = addon.tab.recolorable();
+      addIcon.draggable = false;
+      addIcon.src = addon.self.getResource("/add.svg") /* rewritten by pull.js */;
+      createBtn.appendChild(addIcon);
       const deleteBtn = document.createElement("button");
       deleteBtn.setAttribute("style", btnStyle);
       deleteBtn.style.margin = "0px 8px";
-      deleteBtn.innerHTML = getButtonURI("delete", true);
       deleteBtn.addEventListener("click", e => {
         const pointer = modalStorage.selectedPointer;
         if (pointer) {
@@ -491,6 +551,10 @@ __webpack_require__.r(__webpack_exports__);
         }
         e.stopPropagation();
       });
+      const deleteIcon = addon.tab.recolorable();
+      deleteIcon.draggable = false;
+      deleteIcon.src = addon.self.getResource("/delete.svg") /* rewritten by pull.js */;
+      deleteBtn.appendChild(deleteIcon);
       const title1 = document.createElement("span");
       title1.textContent = "Gradient Type:";
       const select = document.createElement("select");
@@ -521,9 +585,6 @@ __webpack_require__.r(__webpack_exports__);
         e.stopPropagation();
       });
       div.append(createBtn, deleteBtn, title1, select, title2, dirBtn);
-    }
-    function updateDisplay() {
-      display.style.background = encodeGradHTML(modalStorage);
     }
     const paint = ReduxStore.getState().scratchPaint;
     const oldCache = modalStorage._gradCache;
@@ -630,8 +691,10 @@ __webpack_require__.r(__webpack_exports__);
         // Get the appropriate class names for selected items
         if (!selectedClassName) initGradSelectClasses(gradRow);
         const children = Array.from(gradRow.children);
+        let selectIcon = addon.self.getResource("/fill-complex-gradient-enabled.svg") /* rewritten by pull.js */;
+        selectIcon = "data:image/svg+xml;base64," + btoa(selectIcon.replace("#855cd6", document.documentElement.style.getPropertyValue("--looks-secondary")));
         customBtn = children[0].cloneNode(true);
-        customBtn.src = getButtonURI("select");
+        customBtn.src = selectIcon;
         customBtn.id = customID;
         customBtn.setAttribute("class", unselectedClassName);
         gradRow.appendChild(customBtn);
