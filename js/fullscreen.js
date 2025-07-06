@@ -5166,7 +5166,7 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 
 module.exports = freeGlobal;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js?c8ba")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -5296,7 +5296,7 @@ var nodeUtil = (function() {
 
 module.exports = nodeUtil;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js?62e4")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -10455,14 +10455,14 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 
-/***/ "./src/components/dash-welcome-modal/dash-poster.png":
+/***/ "./src/components/dash-welcome-modal/dash-poster.svg":
 /*!***********************************************************!*\
-  !*** ./src/components/dash-welcome-modal/dash-poster.png ***!
+  !*** ./src/components/dash-welcome-modal/dash-poster.svg ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/76269504fd2c6b960740d93549785964.png";
+module.exports = __webpack_require__.p + "static/assets/828132f0a12c52c7af7e4115ee768ed5.svg";
 
 /***/ }),
 
@@ -10514,8 +10514,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_modal_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../containers/modal.jsx */ "./src/containers/modal.jsx");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _dash_poster_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dash-poster.png */ "./src/components/dash-welcome-modal/dash-poster.png");
-/* harmony import */ var _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dash_poster_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dash-poster.svg */ "./src/components/dash-welcome-modal/dash-poster.svg");
+/* harmony import */ var _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dash_poster_svg__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./welcome-modal.css */ "./src/components/dash-welcome-modal/welcome-modal.css");
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/brand.js */ "./src/lib/brand.js");
@@ -10540,7 +10540,7 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
 }, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "one mod of TurboWarp (we can't mention it here)"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.poster,
-  src: _dash_poster_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+  src: _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
   draggable: false
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
@@ -43938,8 +43938,10 @@ const events = function events(isInitialSetup, isStage, targetId, colors) {
   return "\n    <category name=\"%{BKY_CATEGORY_EVENTS}\" id=\"events\" colour=\"".concat(colors.primary, "\" secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"event_whenflagclicked\"/>\n        <block type=\"event_whenkeypressed\">\n        </block>\n        ").concat(isStage ? "\n            <block type=\"event_whenstageclicked\"/>\n        " : "\n            <block type=\"event_whenthisspriteclicked\"/>\n        ", "\n        <block type=\"event_whenbackdropswitchesto\">\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"event_whengreaterthan\">\n            <value name=\"VALUE\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"event_whenbroadcastreceived\">\n        </block>\n        <block type=\"event_broadcast\">\n            <value name=\"BROADCAST_INPUT\">\n                <shadow type=\"event_broadcast_menu\"></shadow>\n            </value>\n        </block>\n        <block type=\"event_broadcastandwait\">\n            <value name=\"BROADCAST_INPUT\">\n              <shadow type=\"event_broadcast_menu\"></shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const control = function control(isInitialSetup, isStage, targetId, colors) {
+  const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
+  const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_CONTROL}\"\n        id=\"control\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"control_wait\">\n            <value name=\"DURATION\">\n                <shadow type=\"math_positive_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"control_repeat\">\n            <value name=\"TIMES\">\n                <shadow type=\"math_whole_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"forever\" type=\"control_forever\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_if\"/>\n        <block type=\"control_if_else\"/>\n        <block type=\"control_if_then_else\">\n            <value name=\"THEN\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n            </value>\n            <value name=\"ELSE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(banana, "</field>\n                </shadow>\n            </value>\n        </block>\n        <block id=\"wait_until\" type=\"control_wait_until\"/>\n        <block id=\"repeat_until\" type=\"control_repeat_until\"/>\n        <block id=\"while\" type=\"control_while\"/>\n        ").concat(blockSeparator, "\n        <block type=\"control_stop\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? "\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n        " : "\n            <block type=\"control_start_as_clone\"/>\n            <block type=\"control_create_clone_of\">\n                <value name=\"CLONE_OPTION\">\n                    <shadow type=\"control_create_clone_of_menu\"/>\n                </value>\n            </block>\n            <block type=\"control_delete_this_clone\"/>\n        ", "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
   const hello = translate('LOOKS_HELLO', 'Hello!');
