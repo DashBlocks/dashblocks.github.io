@@ -189213,6 +189213,17 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWRhc2hhcnJheT0iMiA3Ij48cGF0aCBkPSJNMywxNyBMMTcsMyIvPjwvZz4NCjwvc3ZnPg0K"
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg":
 /*!*********************************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg ***!
@@ -189347,7 +189358,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62__);
 /* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
 /* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__);
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./icons/dash-array.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg");
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(_icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64__);
 /* eslint-disable no-case-declarations */
+
 
 
 
@@ -189736,6 +189750,19 @@ const ModeToolsComponent = props => {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
         className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+        alt: 'Dash array',
+        title: 'Dash array',
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+        draggable: false,
+        src: _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64___default.a
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+        small: true,
+        type: "string",
+        value: props.dashArray,
+        onSubmit: props.onDashArray
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
@@ -189992,6 +190019,8 @@ ModeToolsComponent.propTypes = {
   onPasteFromClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onPointPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  onDashArray: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMergeShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMaskShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onSubtractShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -194401,6 +194430,37 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       this.props.onUpdateImage();
     }
   }
+  getDashArray() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    if (selectedItems.length === 0) {
+      return '';
+    }
+    const firstStyle = selectedItems[0].getStyle().getDashArray().join(' ');
+    for (const item of selectedItems) {
+      if (item.getStyle().getDashArray().join(' ') !== firstStyle) {
+        return '';
+      }
+    }
+    return firstStyle;
+  }
+  handleDashArray(value) {
+    if (!/^((\d+|\d+\.\d+) )*(\d+|\d+\.\d+)$/.test(value)) {
+      return;
+    }
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getDashArray().join(' ') !== value) {
+        styles.setDashArray(value.split(' ').map(number => parseFloat(number)));
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
   hasSelectedRoundEnds() {
     const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
     for (const item of selectedItems) {
@@ -194678,6 +194738,8 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       onPasteFromClipboard: this.handlePasteFromClipboard,
       onPointPoints: this.handlePointPoints,
       onUpdateImage: this.props.onUpdateImage,
+      dashArray: this.getDashArray(),
+      onDashArray: this.handleDashArray,
       hasSelectedRoundEnds: this.hasSelectedRoundEnds(),
       hasSelectedSquareEnds: this.hasSelectedSquareEnds(),
       onRoundEnds: this.handleRoundEnds,
@@ -256931,7 +256993,10 @@ function version(uuid) {
 /***/ (function(module, exports, __webpack_require__) {
 
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const {
+  isPaused,
+  setPaused
+} = __webpack_require__(/*! ../../../../src/addons/addons/debugger/module */ "./src/addons/addons/debugger/module.js");
 class Scratch3ControlBlocks {
   constructor(runtime) {
     /**
@@ -256947,6 +257012,9 @@ class Scratch3ControlBlocks {
     this._counter = 0; // used by compiler
 
     this.runtime.on('RUNTIME_DISPOSED', this.clearCounter.bind(this));
+
+    // Check if the pause button exists, we will use that if availiable
+    this.pauseButton = document.querySelector(typeof scaffolding !== "undefined" ? "[class*=\"pause-button\"]" : "img.pause-btn.addons-display-none-pause");
   }
 
   /**
@@ -256965,6 +257033,9 @@ class Scratch3ControlBlocks {
       control_if: this.if,
       control_if_else: this.ifElse,
       control_if_then_else: this.ifThenElse,
+      control_resume: this.resume,
+      control_pause: this.pause,
+      control_is_paused: this.isPaused,
       control_stop: this.stop,
       control_create_clone_of: this.createClone,
       control_delete_this_clone: this.deleteClone,
@@ -257058,6 +257129,17 @@ class Scratch3ControlBlocks {
   ifThenElse(args, util) {
     const condition = Cast.toBoolean(args.CONDITION);
     return condition ? args.THEN : args.ELSE;
+  }
+  resume(args, util) {
+    try {
+      if (this.pauseButton) this.pauseButton.click();else setPaused(false);
+    } catch (_unused) {/* generator is running error - lies */}
+  }
+  pause(args, util) {
+    if (this.pauseButton) this.pauseButton.click();else setPaused(true);
+  }
+  isPaused(args, util) {
+    return isPaused();
   }
   stop(args, util) {
     const option = args.STOP_OPTION;
@@ -257444,6 +257526,7 @@ class Scratch3EventBlocks {
       event_whentouchingobject: this.touchingObject,
       event_broadcast: this.broadcast,
       event_broadcastandwait: this.broadcastAndWait,
+      event_when: this.when,
       event_whengreaterthan: this.hatGreaterThanPredicate
     };
   }
@@ -257468,6 +257551,10 @@ class Scratch3EventBlocks {
       event_whenbackdropswitchesto: {
         restartExistingThreads: true
       },
+      event_when: {
+        restartExistingThreads: false,
+        edgeActivated: true
+      },
       event_whengreaterthan: {
         restartExistingThreads: false,
         edgeActivated: true
@@ -257479,6 +257566,10 @@ class Scratch3EventBlocks {
   }
   touchingObject(args, util) {
     return util.target.isTouchingObject(args.TOUCHINGOBJECTMENU);
+  }
+  when(args, util) {
+    const condition = Cast.toBoolean(args.CONDITION);
+    return condition;
   }
   hatGreaterThanPredicate(args, util) {
     const option = Cast.toString(args.WHENGREATERTHANMENU).toLowerCase();
@@ -259489,8 +259580,8 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['control_if_then_else', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
-const inputs = ['motion_xscroll', 'motion_yscroll', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
+const stacked = ['control_if_then_else', 'control_resume', 'control_pause', 'control_is_paused', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const inputs = ['control_if_then_else', 'motion_xscroll', 'motion_yscroll', 'sensing_prompt', 'sensing_confirm', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,
   inputs
@@ -259911,13 +260002,6 @@ class ScriptTreeGenerator {
             index: index
           };
         }
-      case 'control_if_then_else':
-        return {
-          kind: 'control.if_then_else',
-          condition: this.descendInputOfBlock(block, 'CONDITION'),
-          then: this.descendInputOfBlock(block, 'THEN'),
-          else: this.descendInputOfBlock(block, 'ELSE')
-        };
       case 'control_get_counter':
         return {
           kind: 'counter.get'
@@ -260248,17 +260332,6 @@ class ScriptTreeGenerator {
       case 'sensing_answer':
         return {
           kind: 'sensing.answer'
-        };
-      case 'sensing_prompt':
-        return {
-          kind: 'sensing.prompt',
-          message: this.descendInputOfBlock(block, 'MESSAGE'),
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'sensing_confirm':
-        return {
-          kind: 'sensing.confirm',
-          message: this.descendInputOfBlock(block, 'MESSAGE')
         };
       case 'sensing_coloristouchingcolor':
         return {
@@ -262103,7 +262176,6 @@ class JSGenerator {
    * @returns {Input} Compiled input.
    */
   descendInput(node) {
-    var _this$descendInput$as, _this$descendInput$as2, _this$descendInput$as3;
     switch (node.kind) {
       case 'addons.call':
         return new TypedInput("(".concat(this.descendAddonCall(node), ")"), TYPE_UNKNOWN);
@@ -262112,8 +262184,6 @@ class JSGenerator {
         return new TypedInput("(".concat(this.generateCompatibilityLayerCall(node, false), ")"), TYPE_UNKNOWN);
       case 'constant':
         return this.safeConstantInput(node.value);
-      case 'control.if_then_else':
-        return new TypedInput("(".concat((_this$descendInput$as = this.descendInput(node.condition).asBoolean()) !== null && _this$descendInput$as !== void 0 ? _this$descendInput$as : false, " ? ").concat((_this$descendInput$as2 = this.descendInput(node.then).asString()) !== null && _this$descendInput$as2 !== void 0 ? _this$descendInput$as2 : '', " : ").concat((_this$descendInput$as3 = this.descendInput(node.else).asString()) !== null && _this$descendInput$as3 !== void 0 ? _this$descendInput$as3 : '', ")"), TYPE_STRING);
       case 'counter.get':
         return new TypedInput('runtime.ext_scratch3_control._counter', TYPE_NUMBER);
       case 'keyboard.pressed':
@@ -262334,14 +262404,6 @@ class JSGenerator {
         return new TypedInput("p".concat(node.index), TYPE_UNKNOWN);
       case 'sensing.answer':
         return new TypedInput("runtime.ext_scratch3_sensing._answer", TYPE_STRING);
-      case 'sensing.confirm':
-        return new TypedInput("confirm(".concat(this.descendInput(node.message).asString(), ")"), TYPE_BOOLEAN);
-      case 'sensing.prompt':
-        {
-          let answer = prompt(this.descendInput(node.message).asString(), this.descendInput(node.value).asString());
-          if (!answer) answer = '';
-          return new TypedInput(answer, TYPE_STRING);
-        }
       case 'sensing.colorTouchingColor':
         return new TypedInput("target.colorIsTouchingColor(colorToList(".concat(this.descendInput(node.target).asColor(), "), colorToList(").concat(this.descendInput(node.mask).asColor(), "))"), TYPE_BOOLEAN);
       case 'sensing.date':

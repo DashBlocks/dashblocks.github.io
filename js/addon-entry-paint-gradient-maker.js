@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".paintGradientMakerPopup {\r\n  box-sizing: border-box;\r\n  width: 528px;\r\n  max-height: min(800px, 80vh);\r\n  max-width: 85%;\r\n  margin-top: 12vh;\r\n  overflow-y: auto;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.paintGradientMakerPopupContent {\r\n  padding: 1.5rem 2.25rem;\r\n}\r\n\r\n.paintGradientMakerPopupDisplay {\r\n  width: 420px;\r\n  height: 150px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 15px 15px 0 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.paintGradientMakerPopupDraggables {\r\n  width: 420px;\r\n  height: 40px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 0 15px 15px 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-top: none;\r\n  border-radius: 0 0 5px 5px;\r\n  background: var(--ui-tertiary);\r\n}\r\n\r\n.paintGradientMakerPopupSettings {\r\n  border-top: dashed 2px var(--ui-black-transparent);\r\n  padding-top: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.paintGradientMakerPopupButtons {\r\n  margin-top: 1.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button {\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\r\n  color: black;\r\n}\r\n", ""]);
+exports.push([module.i, ".paintGradientMakerPopup {\r\n  box-sizing: border-box;\r\n  width: 528px;\r\n  max-height: min(800px, 80vh);\r\n  max-width: 85%;\r\n  margin-top: 12vh;\r\n  overflow-y: auto;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.paintGradientMakerPopupContent {\r\n  padding: 1.5rem 2.25rem;\r\n}\r\n\r\n.paintGradientMakerPopupDisplay {\r\n  width: 420px;\r\n  height: 150px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 15px 15px 0 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.paintGradientMakerPopupDraggables {\r\n  width: 420px;\r\n  height: 40px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 0 15px 15px 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-top: none;\r\n  border-radius: 0 0 5px 5px;\r\n  background: var(--ui-tertiary);\r\n}\r\n\r\n.paintGradientMakerPopupSettings {\r\n  border-top: dashed 1px var(--ui-black-transparent);\r\n  padding-top: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.paintGradientMakerPopupButtons {\r\n  margin-top: 1.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button {\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\r\n  color: black;\r\n}\r\n", ""]);
 
 // exports
 
@@ -524,7 +524,7 @@ __webpack_require__.r(__webpack_exports__);
   function openGradientMaker() {
     var _paint$selectedItems;
     function genSettingsTable(div) {
-      const btnStyle = "width: 35px; height: 35px; border: solid 2px var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15)); border-radius: 5px; background: var(--paint-input-background, --ui-primary, #fff); transition: transform 0.2s;";
+      const btnStyle = "width: 35px; height: 35px; border: solid 1px var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15)); border-radius: 5px; background: var(--paint-input-background, --ui-primary, #fff); transition: transform 0.2s;";
       const selectStlye = "cursor: pointer; height: 30px; margin: 5px; border: solid 1px var(--ui-black-transparent); border-radius: 5px; background: var(--ui-secondary);";
       const directionStyle = "width: 50px; height: 30px; margin: 5px; border: solid 1px var(--ui-black-transparent); border-radius: 5px; background: var(--ui-secondary);";
       const createBtn = document.createElement("button");
@@ -544,10 +544,17 @@ __webpack_require__.r(__webpack_exports__);
       deleteBtn.addEventListener("click", e => {
         const pointer = modalStorage.selectedPointer;
         if (pointer) {
-          modalStorage.parts.splice(pointer.id, 1);
-          pointer.remove();
-          updateDisplay();
           delete modalStorage.selectedPointer;
+          modalStorage.parts.splice(pointer.id, 1);
+          const cache = {
+            parts: modalStorage.parts,
+            type: modalStorage.type,
+            dir: modalStorage.dir
+          };
+          modalStorage.parts = [];
+          draggables.innerHTML = "";
+          decodeFromCache(cache, draggables, settings);
+          updateDisplay();
         }
         e.stopPropagation();
       });
