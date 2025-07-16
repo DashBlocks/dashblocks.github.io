@@ -194452,7 +194452,7 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     for (const item of selectedItems) {
       const styles = item.getStyle();
       if (styles.getDashArray().join(' ') !== value) {
-        styles.setDashArray(value.split(' ').map(number => parseFloat(number)));
+        styles.setDashArray(value.toString().split(' ').map(number => parseFloat(number)));
         changed = true;
       }
     }
@@ -257035,7 +257035,6 @@ class Scratch3ControlBlocks {
       control_if_then_else: this.ifThenElse,
       control_resume: this.resume,
       control_pause: this.pause,
-      control_is_paused: this.isPaused,
       control_stop: this.stop,
       control_create_clone_of: this.createClone,
       control_delete_this_clone: this.deleteClone,
@@ -257526,7 +257525,6 @@ class Scratch3EventBlocks {
       event_whentouchingobject: this.touchingObject,
       event_broadcast: this.broadcast,
       event_broadcastandwait: this.broadcastAndWait,
-      event_when: this.when,
       event_whengreaterthan: this.hatGreaterThanPredicate
     };
   }
@@ -257550,10 +257548,6 @@ class Scratch3EventBlocks {
       },
       event_whenbackdropswitchesto: {
         restartExistingThreads: true
-      },
-      event_when: {
-        restartExistingThreads: false,
-        edgeActivated: true
       },
       event_whengreaterthan: {
         restartExistingThreads: false,
