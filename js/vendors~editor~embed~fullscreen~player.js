@@ -257526,6 +257526,7 @@ class Scratch3EventBlocks {
       event_whentouchingobject: this.touchingObject,
       event_broadcast: this.broadcast,
       event_broadcastandwait: this.broadcastAndWait,
+      event_when: this.when,
       event_whengreaterthan: this.hatGreaterThanPredicate
     };
   }
@@ -257549,6 +257550,10 @@ class Scratch3EventBlocks {
       },
       event_whenbackdropswitchesto: {
         restartExistingThreads: true
+      },
+      event_when: {
+        restartExistingThreads: false,
+        edgeActivated: true
       },
       event_whengreaterthan: {
         restartExistingThreads: false,
@@ -258528,6 +258533,7 @@ class Scratch3OperatorsBlocks {
       operator_not: this.not,
       operator_random: this.random,
       operator_join: this.join,
+      operator_newline: this.newline,
       operator_letter_of: this.letterOf,
       operator_length: this.length,
       operator_contains: this.contains,
@@ -258584,6 +258590,9 @@ class Scratch3OperatorsBlocks {
   }
   join(args) {
     return Cast.toString(args.STRING1) + Cast.toString(args.STRING2);
+  }
+  newline(args) {
+    return "\n";
   }
   letterOf(args) {
     const index = Cast.toNumber(args.LETTER) - 1;
@@ -259575,8 +259584,9 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['control_if_then_else', 'control_resume', 'control_pause', 'control_is_paused', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
-const inputs = ['control_if_then_else', 'control_is_paused', 'motion_xscroll', 'motion_yscroll', 'sensing_prompt', 'sensing_confirm', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
+// TODO: Fix Dash blocks that aren't display what do they return by clicking on those.
+const stacked = ['control_if_then_else', 'control_resume', 'control_pause', 'control_is_paused', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'operator_newline', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const inputs = ['control_if_then_else', 'control_is_paused', 'motion_xscroll', 'motion_yscroll', 'operator_newline', 'sensing_prompt', 'sensing_confirm', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,
   inputs
@@ -295947,7 +295957,7 @@ class VirtualMachine extends EventEmitter {
     return this._saveProjectZip().generateAsync({
       // Don't configure compression here. _saveProjectZip() will set it for each file.
       type: type || 'blob',
-      mimeType: 'application/x.scratch.sb3'
+      mimeType: 'application/x.dash.dbp'
     });
   }
 
@@ -295959,7 +295969,7 @@ class VirtualMachine extends EventEmitter {
   saveProjectSb3Stream(type) {
     return this._saveProjectZip().generateInternalStream({
       type: type || 'arraybuffer',
-      mimeType: 'application/x.scratch.sb3',
+      mimeType: 'application/x.dash.dbp',
       compression: 'DEFLATE'
     });
   }
