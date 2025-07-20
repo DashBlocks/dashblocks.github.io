@@ -259584,9 +259584,23 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-// TODO: Fix Dash blocks that aren't display what do they return by clicking on those.
-const stacked = ['control_if_then_else', 'control_resume', 'control_pause', 'control_is_paused', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'operator_newline', 'sensing_alert', 'sensing_prompt', 'sensing_confirm', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
-const inputs = ['control_if_then_else', 'control_is_paused', 'motion_xscroll', 'motion_yscroll', 'operator_newline', 'sensing_prompt', 'sensing_confirm', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
+const stacked = [
+// 'control_if_then_else',
+// 'control_resume',
+// 'control_pause',
+// 'control_is_paused',
+'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'operator_newline',
+// 'sensing_alert',
+// 'sensing_prompt',
+// 'sensing_confirm',
+'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const inputs = [
+// 'control_if_then_else',
+// 'control_is_paused',
+'motion_xscroll', 'motion_yscroll', 'operator_newline',
+// 'sensing_prompt',
+// 'sensing_confirm',
+'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,
   inputs
@@ -260007,6 +260021,17 @@ class ScriptTreeGenerator {
             index: index
           };
         }
+      case 'control_if_then_else':
+        return {
+          kind: 'control.ifThenElse',
+          condition: this.descendInputOfBlock(block, 'CONDITION'),
+          then: this.descendInputOfBlock(block, 'THEN'),
+          else: this.descendInputOfBlock(block, 'ELSE')
+        };
+      case 'control_is_paused':
+        return {
+          kind: 'control.isPaused'
+        };
       case 'control_get_counter':
         return {
           kind: 'counter.get'
@@ -260334,6 +260359,17 @@ class ScriptTreeGenerator {
         };
       case 'procedures_call':
         return this.descendProcedure(block);
+      case 'sensing_prompt':
+        return {
+          kind: 'sensing.prompt',
+          message: this.descendInputOfBlock(block, 'MESSAGE'),
+          value: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'sensing_confirm':
+        return {
+          kind: 'sensing.confirm',
+          message: this.descendInputOfBlock(block, 'MESSAGE')
+        };
       case 'sensing_answer':
         return {
           kind: 'sensing.answer'
@@ -260568,6 +260604,18 @@ class ScriptTreeGenerator {
             },
             do: this.descendSubstack(block, 'SUBSTACK'),
             warpTimer: needsWarpTimer
+          };
+        }
+      case 'control_resume':
+        {
+          return {
+            kind: 'control.resume'
+          };
+        }
+      case 'control_pause':
+        {
+          return {
+            kind: 'control.pause'
           };
         }
       case 'control_stop':
@@ -260927,6 +260975,11 @@ class ScriptTreeGenerator {
         return {
           kind: 'procedures.return',
           value: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'sensing_alert':
+        return {
+          kind: 'sensing.alert',
+          message: this.descendInputOfBlock(block, 'MESSAGE')
         };
       case 'sensing_resettimer':
         return {
@@ -262189,6 +262242,14 @@ class JSGenerator {
         return new TypedInput("(".concat(this.generateCompatibilityLayerCall(node, false), ")"), TYPE_UNKNOWN);
       case 'constant':
         return this.safeConstantInput(node.value);
+      case 'control.ifThenElse':
+        {
+          const args = "\n            \"CONDITION\":".concat(this.descendInput(node.condition).asBoolean(), ",\n            \"THEN\":").concat(this.descendInput(node.then).asString(), ",\n            \"ELSE\":").concat(this.descendInput(node.else).asString(), "\n            ");
+          return new TypedInput("runtime.ext_scratch3_control.ifThenElse({".concat(args, "})"), TYPE_STRING);
+        }
+      case 'control.isPaused':
+        return new TypedInput('runtime.ext_scratch3_control.isPaused()', TYPE_BOOLEAN);
+      // TODO: Remake
       case 'counter.get':
         return new TypedInput('runtime.ext_scratch3_control._counter', TYPE_NUMBER);
       case 'keyboard.pressed':
@@ -262407,6 +262468,16 @@ class JSGenerator {
         }
       case 'procedures.argument':
         return new TypedInput("p".concat(node.index), TYPE_UNKNOWN);
+      case 'sensing.prompt':
+        {
+          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString(), ",\"VALUE\":").concat(this.descendInput(node.value).asString());
+          return new TypedInput("runtime.ext_scratch3_sensing.prompt({".concat(args, "})"), TYPE_STRING);
+        }
+      case 'sensing.confirm':
+        {
+          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
+          return new TypedInput("runtime.ext_scratch3_sensing.confirm({".concat(args, "})"), TYPE_BOOLEAN);
+        }
       case 'sensing.answer':
         return new TypedInput("runtime.ext_scratch3_sensing._answer", TYPE_STRING);
       case 'sensing.colorTouchingColor':
@@ -262613,6 +262684,12 @@ class JSGenerator {
           this.yieldLoop();
         }
         this.source += "}\n";
+        break;
+      case 'control.resume':
+        this.source += 'runtime.ext_scratch3_control.resume();\n';
+        break;
+      case 'control.pause':
+        this.source += 'runtime.ext_scratch3_control.pause();\n';
         break;
       case 'counter.clear':
         this.source += 'runtime.ext_scratch3_control._counter = 0;\n';
@@ -262864,6 +262941,10 @@ class JSGenerator {
         }
       case 'procedures.return':
         this.stopScriptAndReturn(this.descendInput(node.value).asSafe());
+        break;
+      case 'sensing.alert':
+        const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
+        this.source += "runtime.ext_scratch3_sensing.alert({".concat(args, "});\n");
         break;
       case 'timer.reset':
         this.source += 'runtime.ioDevices.clock.resetProjectTimer();\n';
