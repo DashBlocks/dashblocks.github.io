@@ -2294,7 +2294,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    max-height: calc(80vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.welcome-modal_modal-content_3oPlr {\r\n    max-width: 600px;\r\n}\n\n.welcome-modal_body_1h3eG {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    max-height: calc(80vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n.welcome-modal_body_1h3eG input[type=\"checkbox\"],\r\n.welcome-modal_body_1h3eG input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n.welcome-modal_text-input_18wA_ {\r\n    margin-bottom: 1rem;\r\n    width: 100%;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 5px;\r\n    padding: 0 1rem;\r\n    height: 3rem;\r\n    color: var(--ui-text-primary-transparent);\r\n    font-size: .875rem;\r\n    background-color: var(--input-background);\r\n}\n\n.welcome-modal_dont-show-container_1VrRO {\r\n    display: flex;\r\n    align-items: center;\r\n}\n\n.welcome-modal_dont-show-checkbox_3EmWc {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk {\r\n    font-weight: bolder;\r\n    text-align: right;\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button {\r\n    padding: 0.75rem 1rem;\r\n    border-radius: 0.25rem;\r\n    background: white;\r\n    border: 1px solid var(--ui-black-transparent);\r\n    font-weight: 600;\r\n    font-size: 0.85rem;\r\n}\n\n[dir=\"ltr\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .welcome-modal_button-row_18Lgk button + button {\r\n    margin-right: 0.5rem;\r\n}\n\n.welcome-modal_button-row_18Lgk button.welcome-modal_close-button_33sgN {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n.welcome-modal_text_3THn6 {\r\n    margin-bottom: 1rem;\r\n}\n\n.welcome-modal_poster_1gxmT {\r\n    width: 100%;\r\n    border-radius: 0.5rem;\r\n    margin-bottom: 1rem;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -2303,6 +2303,10 @@ exports.locals = {
 	"body": "welcome-modal_body_1h3eG",
 	"text-input": "welcome-modal_text-input_18wA_",
 	"textInput": "welcome-modal_text-input_18wA_",
+	"dont-show-container": "welcome-modal_dont-show-container_1VrRO",
+	"dontShowContainer": "welcome-modal_dont-show-container_1VrRO",
+	"dont-show-checkbox": "welcome-modal_dont-show-checkbox_3EmWc",
+	"dontShowCheckbox": "welcome-modal_dont-show-checkbox_3EmWc",
 	"button-row": "welcome-modal_button-row_18Lgk",
 	"buttonRow": "welcome-modal_button-row_18Lgk",
 	"close-button": "welcome-modal_close-button_33sgN",
@@ -10934,8 +10938,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dash_poster_svg__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./welcome-modal.css */ "./src/components/dash-welcome-modal/welcome-modal.css");
 /* harmony import */ var _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_welcome_modal_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/brand.js */ "./src/lib/brand.js");
-/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _tw_fancy_checkbox_checkbox_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../tw-fancy-checkbox/checkbox.jsx */ "./src/components/tw-fancy-checkbox/checkbox.jsx");
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../lib/brand.js */ "./src/lib/brand.js");
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_9__);
+
 
 
 
@@ -10954,13 +10960,13 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.body
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
-}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "one mod of TurboWarp (we can't mention it here)"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash"), " is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "one mod of TurboWarp (we can't mention it here)"), " mod with ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.poster,
   src: _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
   draggable: false
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
-}, _lib_brand_js__WEBPACK_IMPORTED_MODULE_8__["APP_NAME"], " was made by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+}, _lib_brand_js__WEBPACK_IMPORTED_MODULE_9__["APP_NAME"], " was made by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/users/damir2809"
 }, "damir2809"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/users/Den4ik-12"
@@ -10972,12 +10978,20 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   href: "".concat("", "credits.html")
 }, "credits page"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.buttonRow
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.dontShowContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_tw_fancy_checkbox_checkbox_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.dontShowCheckbox,
+  checked: props.dontShow,
+  onChange: props.onChangeDontShow
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Don't show this again")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.closeButton,
   onClick: props.onClose
 }, "Close")));
 WelcomeModalComponent.propTypes = {
   intl: react_intl__WEBPACK_IMPORTED_MODULE_0__["intlShape"],
+  dontShow: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeDontShow: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onClose: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["injectIntl"])(WelcomeModalComponent));
@@ -12253,7 +12267,7 @@ const GUIComponent = props => {
     const stageSize = Object(_lib_screen_utils__WEBPACK_IMPORTED_MODULE_39__["resolveStageSize"])(stageSizeMode, isUnconstrained);
     const alwaysEnabledModals = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_security_manager_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       securityManager: securityManager
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_restore_point_manager_jsx__WEBPACK_IMPORTED_MODULE_33__["default"], null), usernameModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_username_modal_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], null), settingsModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_settings_modal_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], null), customExtensionModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_custom_extension_modal_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], null), fontsModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_fonts_modal_jsx__WEBPACK_IMPORTED_MODULE_34__["default"], null), unknownPlatformModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_unknown_platform_modal_jsx__WEBPACK_IMPORTED_MODULE_35__["default"], null), invalidProjectModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_invalid_project_modal_jsx__WEBPACK_IMPORTED_MODULE_36__["default"], null), welcomeModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_dash_welcome_modal_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], null));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_restore_point_manager_jsx__WEBPACK_IMPORTED_MODULE_33__["default"], null), usernameModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_username_modal_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], null), settingsModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_settings_modal_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], null), customExtensionModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_custom_extension_modal_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], null), fontsModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_fonts_modal_jsx__WEBPACK_IMPORTED_MODULE_34__["default"], null), unknownPlatformModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_unknown_platform_modal_jsx__WEBPACK_IMPORTED_MODULE_35__["default"], null), invalidProjectModalVisible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_tw_invalid_project_modal_jsx__WEBPACK_IMPORTED_MODULE_36__["default"], null), welcomeModalVisible && localStorage.getItem('dontShowWelcomeModal') != 'true' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_dash_welcome_modal_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], null));
     return isPlayerOnly ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, isWindowFullScreen ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
       className: _gui_css__WEBPACK_IMPORTED_MODULE_42___default.a.fullscreenBackground,
       style: {
@@ -14914,7 +14928,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       ,
 
       id: "tw.menuBar.newWindow"
-    })), this.props.isPlayerOnly || (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuSection"], null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
+    })), (this.props.canSave || this.props.canCreateCopy || this.props.canRemix) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuSection"], null, this.props.canSave && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
       onClick: this.handleClickSave
     }, saveNowMessage), this.props.canCreateCopy && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
       onClick: this.handleClickSaveAsCopy
@@ -30149,14 +30163,25 @@ __webpack_require__.r(__webpack_exports__);
 class WelcomeModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleClose']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleClose', 'handleChangeDontShow']);
+    this.state = {
+      dontShow: localStorage.getItem('dontShowWelcomeModal') == 'true'
+    };
   }
   handleClose() {
     this.props.onCloseWelcomeModal();
   }
+  handleChangeDontShow(e) {
+    this.setState({
+      dontShow: e.target.checked
+    });
+    localStorage.setItem('dontShowWelcomeModal', e.target.checked);
+  }
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_dash_welcome_modal_welcome_modal_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      onClose: this.handleClose
+      onClose: this.handleClose,
+      dontShow: this.state.dontShow,
+      onChangeDontShow: this.handleChangeDontShow
     });
   }
 }
@@ -51714,7 +51739,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       id: "dash.home.tab.cloud"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
-        [tabClassNames.tabDisabled]: !(description.instructions || description.credits)
+        [tabClassNames.tabDisabled]: !((description.instructions || description.credits) && !(description.instructions === 'unshared' || description.credits === 'unshared'))
       }),
       onClick: this.onActivateDescriptionTab.bind(this)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
