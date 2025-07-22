@@ -120,6 +120,54 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg viewBox=\"2 2 20 20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4\"></path></svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg":
+/*!******************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg viewBox=\"2 2 20 20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M 18 10 h -4 H 6 a 2 2 0 0 0 0 4 L 18 14 a 2 2 0 0 0 0 -4\"></path></svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
 /***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg":
 /*!***************************************************************************************************************************!*\
   !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dropdown/dropdown-caret.svg ***!
@@ -62883,6 +62931,37 @@ exports.locals = {
 	"pickerColor": "color-picker_picker-color_3BecP",
 	"picker-text": "color-picker_picker-text_3udQu",
 	"pickerText": "color-picker_picker-text_3udQu"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css ***!
+  \******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3Ot4F {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV {\n    display: block;\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_table_3aijj {\n    width: 8rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_2Ajdm {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1lX6d {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: var(--paint-text-primary, #575e75);\n    width: 28px;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1lX6d::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1lX6d::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_1pXMe {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_EJUiU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n}\n\n.dash-array-dropdown_button_EJUiU > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"mod-unselect": "dash-array-dropdown_mod-unselect_3Ot4F",
+	"modUnselect": "dash-array-dropdown_mod-unselect_3Ot4F",
+	"dash-array-dropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
+	"dashArrayDropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
+	"dash-array-context-menu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
+	"dashArrayContextMenu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
+	"table": "dash-array-dropdown_table_3aijj",
+	"item": "dash-array-dropdown_item_2Ajdm",
+	"readout": "dash-array-dropdown_readout_1lX6d",
+	"row": "dash-array-dropdown_row_1pXMe",
+	"button": "dash-array-dropdown_button_EJUiU"
 };
 
 /***/ }),
@@ -187467,6 +187546,135 @@ module.exports = __webpack_require__.p + "static/assets/73e5faa7d606ea47bc2aa9d7
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../css-loader??ref--5-1!../../../../postcss-loader/src??postcss!./dash-array-dropdown.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/scratch-paint/node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dropdown/dropdown.jsx */ "./node_modules/scratch-paint/src/components/dropdown/dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
+/* harmony import */ var _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dash-array-dropdown.css */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css");
+/* harmony import */ var _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _tw_recolor_build_add_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../tw-recolor/build!./add.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg");
+/* harmony import */ var _tw_recolor_build_delete_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../tw-recolor/build!./delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg");
+
+
+
+
+
+
+
+
+
+
+
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_7__["default"]);
+const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modUnselect, _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.dashArrayDropdown),
+  enterExitTransitionDurationMs: 60,
+  popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.dashArrayContextMenu
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.table
+  }, props.dashArray.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.item
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(LiveInput, {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.readout,
+    range: true,
+    small: true,
+    min: "0",
+    max: "1000",
+    type: "number",
+    value: item,
+    onSubmit: value => props.handleChange(value, index)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.button,
+    onClick: () => props.handleDelete(index)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    draggable: false,
+    src: _tw_recolor_build_delete_svg__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.row
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.button,
+    onClick: props.handleAdd
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    draggable: false,
+    src: _tw_recolor_build_add_svg__WEBPACK_IMPORTED_MODULE_10__["default"]
+  })))),
+  ref: props.componentRef,
+  tipSize: .01,
+  onOpen: props.onOpenDropdown,
+  onOuterAction: props.onClickOutsideDropdown
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("svg", {
+  width: "64",
+  height: "4"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("line", {
+  x1: "0",
+  y1: "2",
+  x2: "64",
+  y2: "2",
+  strokeWidth: "4",
+  strokeDasharray: props.dashArray.length === 0 ? "0" : props.dashArray.join(" ")
+})));
+ModeToolsComponent.propTypes = {
+  componentRef: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number),
+  onClickOutsideDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  handleAdd: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  handleChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  handleDelete: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (ModeToolsComponent);
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/dropdown/dropdown.css":
 /*!*************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/dropdown/dropdown.css ***!
@@ -189297,69 +189505,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
 /* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
 /* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
-/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
-/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
-/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
-/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
-/* harmony import */ var _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/copy.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
-/* harmony import */ var _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/cut.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
-/* harmony import */ var _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/paste.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
-/* harmony import */ var _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
-/* harmony import */ var _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
-/* harmony import */ var _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/square-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
-/* harmony import */ var _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/miter-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
-/* harmony import */ var _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
-/* harmony import */ var _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/bevel-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
-/* harmony import */ var _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/merge.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
-/* harmony import */ var _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/mask.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
-/* harmony import */ var _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/subtract.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
-/* harmony import */ var _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/filter.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
-/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44__);
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
-/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
-/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47__);
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48__);
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49__);
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50__);
-/* harmony import */ var _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/curved-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52__);
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
-/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53__);
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
-/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54__);
-/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
-/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55__);
-/* harmony import */ var _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-horizontal.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
-/* harmony import */ var _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-vertical.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
-/* harmony import */ var _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/centerSelection.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
-/* harmony import */ var _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/straight-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60__);
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61__);
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62__);
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63__);
-/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./icons/dash-array.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg");
-/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(_icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64__);
+/* harmony import */ var _containers_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+/* harmony import */ var _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/copy.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
+/* harmony import */ var _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/cut.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
+/* harmony import */ var _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/paste.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
+/* harmony import */ var _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/square-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/miter-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/bevel-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/merge.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
+/* harmony import */ var _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/mask.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
+/* harmony import */ var _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/subtract.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
+/* harmony import */ var _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/filter.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/curved-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56__);
+/* harmony import */ var _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-horizontal.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
+/* harmony import */ var _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-vertical.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
+/* harmony import */ var _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/centerSelection.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
+/* harmony import */ var _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/straight-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61__);
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62__);
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63__);
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64__);
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./icons/dash-array.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg");
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65___default = /*#__PURE__*/__webpack_require__.n(_icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65__);
 /* eslint-disable no-case-declarations */
 
 
@@ -189426,9 +189635,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_19__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_22__["default"]);
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_20__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_23__["default"]);
 const ModeToolsComponent = props => {
-  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_21__["defineMessages"])({
+  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_22__["defineMessages"])({
     brushSize: {
       "id": "paint.modeTools.brushSize",
       "defaultMessage": "Size"
@@ -189515,36 +189725,36 @@ const ModeToolsComponent = props => {
     }
   });
   switch (props.mode) {
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_50___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_49___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_47___default.a;
-        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48___default.a;
+        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
         const currentSimplifyValue = props.simplifyValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
         const changeFunctionSimplify = props.onSimplifySliderChange;
-        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
-        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BRUSH;
+        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BRUSH;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(currentMessage),
           title: props.intl.formatMessage(currentMessage),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentBrushValue,
           onSubmit: changeFunction
-        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
           text: props.intl.formatMessage(messages.brushSimplify)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
@@ -189556,33 +189766,33 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunctionSimplify
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_ERASER:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ERASER:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_52___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_48___default.a;
-        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default.a;
+        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
         const currentEraserSimplifyValue = props.eraserSimplifyValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_26__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
         const changeFunctionSimplify = props.onEraserSimplifySliderChange;
-        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ERASER;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ERASER;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.eraserSize),
           title: props.intl.formatMessage(messages.eraserSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentEraserValue,
           onSubmit: changeFunction
-        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
           text: props.intl.formatMessage(messages.eraserSimplify)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
@@ -189594,21 +189804,21 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunctionSimplify
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].RECT:
       {
         // NOTE: BIT_RECT doesnt use Path, so this can't be added there the same way as RECT has it.
-        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
-        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
+        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
+        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.roundedCornerSize),
           title: props.intl.formatMessage(messages.roundedCornerSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
-          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_53___default.a
+          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189619,20 +189829,20 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunction
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].TRIANGLE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].TRIANGLE:
       {
         const currentSideValue = props.trianglePolyValue;
         const currentPointValue = props.trianglePointValue;
         const changeFunction = props.onPolyCountSliderChange;
         const changeFunctionPoint = props.onPointCountSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.currentSideCount),
           title: props.intl.formatMessage(messages.currentSideCount),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
-          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_54___default.a
+          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189644,9 +189854,9 @@ const ModeToolsComponent = props => {
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.spokeRatio),
           title: props.intl.formatMessage(messages.spokeRatio),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
-          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_55___default.a
+          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56___default.a
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
@@ -189659,52 +189869,52 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunctionPoint
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SUSSY:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SUSSY:
       {
         const currentlySelectedShape = props.currentlySelectedShape;
         const changeFunction = props.onCurrentlySelectedShapeChange;
-        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["selectableShapes"].filter(shape => shape.id === currentlySelectedShape)[0];
-        const categorizedShapes = Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["categorizeShapes"])(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["selectableShapes"]);
-        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeToolMenu, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropdownMaxItemList)
+        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["selectableShapes"].filter(shape => shape.id === currentlySelectedShape)[0];
+        const categorizedShapes = Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["categorizeShapes"])(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["selectableShapes"]);
+        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeToolMenu, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropdownMaxItemList)
         }, Object.keys(categorizedShapes).map(categoryId => categorizedShapes[categoryId].length === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
           key: categoryId
         }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
           key: categoryId
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeToolLabel)
-        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["categories"][categoryId]), categorizedShapes[categoryId].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeToolLabel)
+        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["categories"][categoryId]), categorizedShapes[categoryId].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
           key: shape.id,
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.dropItemShapeTool),
-          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-          imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["generateShapeSVG"])(shape))),
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeTool),
+          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+          imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["generateShapeSVG"])(shape))),
           title: shape.name,
           onClick: () => changeFunction(shape.id)
         })))));
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
           enterExitTransitionDurationMs: 20,
-          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
+          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
             rtl: props.rtl
           }, selectableShapesList),
           tipSize: .01
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-          src: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_30__["generateShapeSVG"])(selectedShapeObject))),
+          src: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["generateShapeSVG"])(selectedShapeObject))),
           alt: selectedShapeObject.name,
           title: selectedShapeObject.name,
           height: 16
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].PEN:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].PEN:
       {
         const currentPenSimplifyValue = props.penSimplifyValue;
         const changeFunctionSimplify = props.onPenSimplifySliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
           text: props.intl.formatMessage(messages.eraserSimplify)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
@@ -189716,265 +189926,256 @@ const ModeToolsComponent = props => {
           onSubmit: changeFunctionSimplify
         })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].RESHAPE:
-      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].RESHAPE:
+      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: props.hasSelectedMiterLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_37__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_38__["default"],
         title: 'Spiked',
         onClick: props.onMiterLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: props.hasSelectedRoundLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_38__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_39__["default"],
         title: 'Rounded',
         onClick: props.onRoundLineJoin
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: props.hasSelectedBevelLineJoin,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_39__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_40__["default"],
         title: 'Beveled',
         onClick: props.onBevelLineJoin
       }));
-      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
+      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-        alt: 'Dash array',
-        title: 'Dash array',
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeToolsIcon,
-        draggable: false,
-        src: _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_64___default.a
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
-        small: true,
-        type: "string",
-        value: props.dashArray,
-        onSubmit: props.onDashArray
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+        onUpdateImage: props.onUpdateImage
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_51__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_52__["default"],
         title: props.intl.formatMessage(messages.curved),
         onClick: props.onCurvePoints
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: !props.hasSelectedUnpointedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_59__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_60__["default"],
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: props.hasSelectedRoundEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_36__["default"],
         title: 'Rounded',
         onClick: props.onRoundEnds
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: props.hasSelectedSquareEnds,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_36__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_37__["default"],
         title: 'Squared',
         onClick: props.onSquareEnds
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
       }, lineJoinReshape, deleteSelectedNodes), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
           rtl: props.rtl
         }, lineJoinReshape, deleteSelectedNodes),
         tipSize: .01
       }, props.intl.formatMessage(messages.more)))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_SELECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_SELECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT:
-      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_40__["default"],
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT:
+      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_41__["default"],
         title: 'Merge',
         onClick: props.onMergeShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_41__["default"],
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_42__["default"],
         title: 'Mask',
         onClick: props.onMaskShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_42__["default"],
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_43__["default"],
         title: 'Subtract',
         onClick: props.onSubtractShape
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_43__["default"],
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_44__["default"],
         title: 'Filter',
         onClick: props.onExcludeShape
       }));
-      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_56__["default"],
+        imgSrc: _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_57__["default"],
         title: props.intl.formatMessage(messages.flipHorizontal),
         onClick: props.onFlipHorizontal
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_57__["default"],
+        imgSrc: _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_58__["default"],
         title: props.intl.formatMessage(messages.flipVertical),
         onClick: props.onFlipVertical
       }));
-      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_58__["default"],
+        imgSrc: _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_59__["default"],
         title: props.intl.formatMessage(messages.movementCenter),
         onClick: props.onCenterSelection
       }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_31__["default"],
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_32__["default"],
         title: props.intl.formatMessage(messages.copy),
         onClick: props.onCopyToClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: !(props.clipboardItems.length > 0),
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_33__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
         title: props.intl.formatMessage(messages.paste),
         onClick: props.onPasteFromClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_32__["default"],
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_33__["default"],
         title: props.intl.formatMessage(messages.cut),
         onClick: props.onCutToClipboard
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_27__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
-      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools
-      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
           rtl: props.rtl
         }, reshapingMethods),
         tipSize: .01
       }, props.intl.formatMessage(messages.more)))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
         maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modUnselect,
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
         enterExitTransitionDurationMs: 20,
-        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modContextMenu,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
           rtl: props.rtl
         }, flipOptions, movementOptions, reshapingMethods),
         tipSize: .01
       }, props.intl.formatMessage(messages.more)))));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_TEXT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].TEXT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].TEXT:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
         onUpdateImage: props.onUpdateImage,
         onManageFonts: props.onManageFonts
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_44___default.a,
+        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45___default.a,
         title: 'Left Align',
         onClick: props.onTextAlignLeft
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
+        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47___default.a,
         title: 'Center Align',
         onClick: props.onTextAlignCenter
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: true,
-        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_45___default.a,
+        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
         title: 'Right Align',
         onClick: props.onTextAlignRight
       })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_OVAL:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_OVAL:
       {
-        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_61___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_60___default.a;
-        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_62___default.a;
+        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61___default.a;
+        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default.a;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
           highlighted: props.fillBitmapShapes,
           imgSrc: fillIcon,
           title: props.intl.formatMessage(messages.filled),
           onClick: props.onFillShapes
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
           highlighted: !props.fillBitmapShapes,
           imgSrc: outlineIcon,
           title: props.intl.formatMessage(messages.outlined),
           onClick: props.onOutlineShapes
-        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
           text: props.intl.formatMessage(messages.thickness)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_29__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: props.bitBrushSize,
           onSubmit: props.onBitBrushSliderChange
         }))));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_25__["default"].ARROW:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ARROW:
       {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, "Hold Alt + Shift to resize arrow tip"));
       }
     default:
       // Leave empty for now, if mode not supported
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_28___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
       });
   }
 };
@@ -189994,10 +190195,10 @@ ModeToolsComponent.propTypes = {
   trianglePointValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   currentlySelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   fillBitmapShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_26__["default"])),
+  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_27__["default"])),
   hasSelectedUncurvedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   hasSelectedUnpointedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_21__["intlShape"].isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_22__["intlShape"].isRequired,
   mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   onBitBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBitEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -190019,8 +190220,6 @@ ModeToolsComponent.propTypes = {
   onPasteFromClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onPointPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
-  onDashArray: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMergeShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onMaskShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onSubtractShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
@@ -190097,7 +190296,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("center"));
   }
 });
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_21__["injectIntl"])(ModeToolsComponent)));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_22__["injectIntl"])(ModeToolsComponent)));
 
 /***/ }),
 
@@ -193015,6 +193214,139 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx":
+/*!***************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/dash-array-dropdown/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+
+
+
+
+
+
+
+
+class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleAdd', 'handleChange', 'handleDelete']);
+    this.dashArray = [];
+  }
+  handleOpenDropdown() {
+    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])();
+    this.dashArray = this.getDashArray(this.savedSelection);
+  }
+  handleClickOutsideDropdown(e) {
+    e.stopPropagation();
+    this.cancelChange();
+  }
+  cancelChange() {
+    this.dropDown.handleClosePopover();
+    this.dashArray = [];
+    this.savedSelection = null;
+  }
+  setDropdown(element) {
+    this.dropDown = element;
+  }
+  getDashArray(selectedItems) {
+    if (selectedItems.length === 0) {
+      return [];
+    }
+    const firstStyle = selectedItems[0].getStyle().getDashArray();
+    for (const item of selectedItems) {
+      if (item.getStyle().getDashArray().join(' ') !== firstStyle.join(' ')) {
+        return [];
+      }
+    }
+    return firstStyle;
+  }
+  handleDashArray(selectedItems, value) {
+    let changed;
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getDashArray().join(' ') !== value.join(' ')) {
+        styles.setDashArray(value);
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+    this.forceUpdate();
+  }
+  handleAdd() {
+    if (this.dropDown.isOpen()) {
+      this.dashArray.push(0);
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  handleChange(value, index) {
+    if (this.dropDown.isOpen()) {
+      this.dashArray[index] = value;
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  handleDelete(index) {
+    if (this.dropDown.isOpen()) {
+      this.dashArray.splice(index, 1);
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      componentRef: this.setDropdown,
+      dashArray: this.dashArray,
+      onClickOutsideDropdown: this.handleClickOutsideDropdown,
+      onOpenDropdown: this.handleOpenDropdown,
+      handleAdd: this.handleAdd,
+      handleChange: this.handleChange,
+      handleDelete: this.handleDelete
+    });
+  }
+}
+DashArrayDropdown.propTypes = {
+  format: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_6__["default"])),
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  format: state.scratchPaint.format
+});
+const mapDispatchToProps = dispatch => ({
+  setSelectedItems: function (_setSelectedItems) {
+    function setSelectedItems(_x) {
+      return _setSelectedItems.apply(this, arguments);
+    }
+    setSelectedItems.toString = function () {
+      return _setSelectedItems.toString();
+    };
+    return setSelectedItems;
+  }(format => {
+    dispatch(setSelectedItems(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])(), isBitmap(format)));
+  })
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(DashArrayDropdown));
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx":
 /*!*******************************************************************!*\
   !*** ./node_modules/scratch-paint/src/containers/eraser-mode.jsx ***!
@@ -194430,37 +194762,6 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       this.props.onUpdateImage();
     }
   }
-  getDashArray() {
-    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
-    if (selectedItems.length === 0) {
-      return '';
-    }
-    const firstStyle = selectedItems[0].getStyle().getDashArray().join(' ');
-    for (const item of selectedItems) {
-      if (item.getStyle().getDashArray().join(' ') !== firstStyle) {
-        return '';
-      }
-    }
-    return firstStyle;
-  }
-  handleDashArray(value) {
-    if (!/^((\d+|\d+\.\d+) )*(\d+|\d+\.\d+)$/.test(value)) {
-      return;
-    }
-    let changed;
-    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
-    for (const item of selectedItems) {
-      const styles = item.getStyle();
-      if (styles.getDashArray().join(' ') !== value) {
-        styles.setDashArray(value.toString().split(' ').map(number => parseFloat(number)));
-        changed = true;
-      }
-    }
-    if (changed) {
-      this.props.setSelectedItems(this.props.format);
-      this.props.onUpdateImage();
-    }
-  }
   hasSelectedRoundEnds() {
     const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
     for (const item of selectedItems) {
@@ -194738,8 +195039,6 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       onPasteFromClipboard: this.handlePasteFromClipboard,
       onPointPoints: this.handlePointPoints,
       onUpdateImage: this.props.onUpdateImage,
-      dashArray: this.getDashArray(),
-      onDashArray: this.handleDashArray,
       hasSelectedRoundEnds: this.hasSelectedRoundEnds(),
       hasSelectedSquareEnds: this.hasSelectedSquareEnds(),
       onRoundEnds: this.handleRoundEnds,

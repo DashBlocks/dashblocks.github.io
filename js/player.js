@@ -2736,7 +2736,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.loader_background_1-Rwn {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 490;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: var(--menu-bar-background);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    text-align: center;\n    color: white;\n}\n\n.loader_fullscreen_tNbvL {\n    /* Break out of the layout using position: fixed to cover the whole screen */\n    position: fixed;\n    /* Use the fullscreen stage z-index to allow covering full-screen mode */\n    z-index: 500;\n}\n\n.loader_block-animation_2EgCQ {\n    width: 125px;\n    height: 150px;\n    margin: 50px auto 0px;\n}\n\n.loader_block-animation_2EgCQ img {\n    display: block;\n    position: relative;\n    height: 30%;\n    margin-top: -4px;\n}\n\n.loader_top-block_1-yuR {\n    animation: loader_top-slide-in_3hScI 1.5s ease infinite;\n}\n\n.loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in_3GSy9 1.5s ease infinite;\n}\n\n.loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in_8euy_ 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_top-block_1-yuR {\n    animation: loader_top-slide-in-rtl_1iaUP 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in-rtl_1Ve0h 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in-rtl_2hnAN 1.5s ease infinite;\n}\n\n@keyframes loader_top-slide-in_3hScI {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in_3GSy9 {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in_8euy_ {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_top-slide-in-rtl_1iaUP {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in-rtl_1Ve0h {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in-rtl_2hnAN {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n.loader_title_28GDz {\n    font-size: 2rem;\n    font-weight: bold;\n    margin: 0.75rem 0;\n}\n\n.loader_message_rvm_w {\n    height: 20px;\n    margin: 5px 0;\n}\n\n.loader_bar-outer_3B82p {\n    width: 250px;\n    height: 8px;\n    border-radius: 8px;\n    background-color: var(--ui-white-transparent-default);\n    overflow: hidden;\n    position: relative;\n    margin: auto;\n}\n\n.loader_bar-inner_GYGdI {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 0;\n    height: 100%;\n    background-color: var(--ui-white-default);\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.loader_background_1-Rwn {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 490;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: var(--menu-bar-background);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    text-align: center;\n    color: white;\n}\n\n.loader_fullscreen_tNbvL {\n    /* Break out of the layout using position: fixed to cover the whole screen */\n    position: fixed;\n    /* Use the fullscreen stage z-index to allow covering full-screen mode */\n    z-index: 500;\n}\n\n.loader_block-animation_2EgCQ {\n    width: 125px;\n    height: 150px;\n    margin: 50px auto 0px;\n}\n\n.loader_block-animation_2EgCQ img {\n    display: block;\n    position: relative;\n    height: 30%;\n    margin-top: -4px;\n}\n\n.loader_top-block_1-yuR {\n    animation: loader_top-slide-in_3hScI 1.5s ease infinite;\n}\n\n.loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in_3GSy9 1.5s ease infinite;\n}\n\n.loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in_8euy_ 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_top-block_1-yuR {\n    animation: loader_top-slide-in-rtl_1iaUP 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in-rtl_1Ve0h 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in-rtl_2hnAN 1.5s ease infinite;\n}\n\n@keyframes loader_top-slide-in_3hScI {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in_3GSy9 {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in_8euy_ {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_top-slide-in-rtl_1iaUP {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in-rtl_1Ve0h {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in-rtl_2hnAN {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n.loader_title_28GDz {\n    font-size: 2rem;\n    font-weight: bold;\n    margin: 0.75rem 0;\n}\n\n.loader_message_rvm_w {\n    height: 20px;\n    margin: 5px 0;\n}\n\n.loader_bar-outer_3B82p {\n    width: 250px;\n    height: 8px;\n    border-radius: 8px;\n    background-color: var(--ui-white-transparent-default);\n    overflow: hidden;\n    position: relative;\n    margin: auto;\n}\n\n.loader_bar-inner_GYGdI {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 0;\n    height: 100%;\n    background-color: var(--ui-white-default);\n}\n\n.loader_message-container-outer_oYjTv {\n    height: 30px;\n    overflow: hidden;\n}\n\n.loader_message-container-inner_3ck0d {\n    transition: transform 0.5s;\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2767,7 +2767,11 @@ exports.locals = {
 	"bar-outer": "loader_bar-outer_3B82p",
 	"barOuter": "loader_bar-outer_3B82p",
 	"bar-inner": "loader_bar-inner_GYGdI",
-	"barInner": "loader_bar-inner_GYGdI"
+	"barInner": "loader_bar-inner_GYGdI",
+	"message-container-outer": "loader_message-container-outer_oYjTv",
+	"messageContainerOuter": "loader_message-container-outer_oYjTv",
+	"message-container-inner": "loader_message-container-inner_3ck0d",
+	"messageContainerInner": "loader_message-container-inner_3ck0d"
 };
 
 /***/ }),
@@ -13485,6 +13489,7 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_1__["defineMessages"
     "defaultMessage": "Loading assets ({complete}/{total}) \u2026"
   }
 });
+const lazyMessages = ["Frying the blocks...", "Frying the costumes...", "Frying the sounds...", "Frying the extensions...", "Just frying..."];
 
 // Because progress events are fired so often during the very performance-critical loading
 // process and React updates are very slow, we bypass React for updating the progress bar.
@@ -13496,15 +13501,37 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     this.barInnerEl = null;
     this.messageEl = null;
     this.ignoreProgress = false;
+    this.state = {
+      messageNumber: this.chooseRandomMessage()
+    };
   }
   componentDidMount() {
+    this.intervalId = setInterval(() => {
+      this.setState({
+        messageNumber: this.chooseRandomMessage()
+      });
+    }, 5000);
     this.handleAssetProgress(this.props.vm.runtime.finishedAssetRequests, this.props.vm.runtime.totalAssetRequests);
     this.props.vm.on('ASSET_PROGRESS', this.handleAssetProgress);
     this.props.vm.runtime.on('PROJECT_LOADED', this.handleProjectLoaded);
   }
   componentWillUnmount() {
+    clearInterval(this.intervalId);
     this.props.vm.off('ASSET_PROGRESS', this.handleAssetProgress);
     this.props.vm.runtime.off('PROJECT_LOADED', this.handleProjectLoaded);
+  }
+  chooseRandomMessage() {
+    let messageNumber;
+    const sum = lazyMessages.reduce((acc, m) => acc + 1, 0);
+    let rand = sum * Math.random();
+    for (let i = 0; i < lazyMessages.length; i++) {
+      rand -= 1;
+      if (rand <= 0) {
+        messageNumber = i;
+        break;
+      }
+    }
+    return messageNumber;
   }
   handleAssetProgress(finished, total) {
     if (this.ignoreProgress || !this.barInnerEl || !this.messageEl) {
@@ -13524,7 +13551,7 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     }
   }
   handleProjectLoaded() {
-    if (this.ignoreProgress || !this.barInnerEl || !this.messageEl) {
+    if (this.ignoreProgress || !this.barInnerEl || !this.messageEl || !this.lazyMessageEl) {
       return;
     }
     this.ignoreProgress = true;
@@ -13567,7 +13594,17 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.barInner,
       ref: this.barInnerRef
-    }))));
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.messageContainerOuter
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.messageContainerInner,
+      style: {
+        transform: "translate(0, -".concat(this.state.messageNumber * 25, "px)")
+      }
+    }, lazyMessages.map((m, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.message,
+      key: i
+    }, m))))));
   }
 }
 LoaderComponent.propTypes = {
@@ -30169,7 +30206,11 @@ class WelcomeModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Componen
     };
   }
   handleClose() {
-    this.props.onCloseWelcomeModal();
+    if (this.props.onClose) {
+      this.props.onClose();
+    } else {
+      this.props.dispatchClose();
+    }
   }
   handleChangeDontShow(e) {
     this.setState({
@@ -30186,10 +30227,11 @@ class WelcomeModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Componen
   }
 }
 WelcomeModal.propTypes = {
-  onCloseWelcomeModal: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func
+  onClose: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func,
+  dispatchClose: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func
 };
 const mapDispatchToProps = dispatch => ({
-  onCloseWelcomeModal: () => dispatch(Object(_reducers_modals__WEBPACK_IMPORTED_MODULE_5__["closeWelcomeModal"])())
+  dispatchClose: () => dispatch(Object(_reducers_modals__WEBPACK_IMPORTED_MODULE_5__["closeWelcomeModal"])())
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(null, mapDispatchToProps)(WelcomeModal));
 
@@ -51395,23 +51437,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/tw-featured-projects/featured-projects.jsx */ "./src/components/tw-featured-projects/featured-projects.jsx");
 /* harmony import */ var _components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/tw-description/description.jsx */ "./src/components/tw-description/description.jsx");
 /* harmony import */ var _components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/browser-modal/browser-modal.jsx */ "./src/components/browser-modal/browser-modal.jsx");
-/* harmony import */ var _containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../containers/tw-cloud-variable-badge.jsx */ "./src/containers/tw-cloud-variable-badge.jsx");
-/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "./src/lib/tw-environment-support-prober.js");
-/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../addons/channels */ "./src/addons/channels.js");
-/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./load-service-worker */ "./src/playground/load-service-worker.js");
-/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
-/* harmony import */ var _components_tw_invalid_embed_invalid_embed_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../components/tw-invalid-embed/invalid-embed.jsx */ "./src/components/tw-invalid-embed/invalid-embed.jsx");
-/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../lib/brand.js */ "./src/lib/brand.js");
-/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
-/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
-/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--about.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--unshared.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--cloud.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--description.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _containers_dash_welcome_modal_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../containers/dash-welcome-modal.jsx */ "./src/containers/dash-welcome-modal.jsx");
+/* harmony import */ var _containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../containers/tw-cloud-variable-badge.jsx */ "./src/containers/tw-cloud-variable-badge.jsx");
+/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "./src/lib/tw-environment-support-prober.js");
+/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../addons/channels */ "./src/addons/channels.js");
+/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./load-service-worker */ "./src/playground/load-service-worker.js");
+/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
+/* harmony import */ var _components_tw_invalid_embed_invalid_embed_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../components/tw-invalid-embed/invalid-embed.jsx */ "./src/components/tw-invalid-embed/invalid-embed.jsx");
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../lib/brand.js */ "./src/lib/brand.js");
+/* harmony import */ var _lib_brand_js__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_lib_brand_js__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--about.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--unshared.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--cloud.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--description.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_35__);
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "projectId"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -51467,6 +51510,7 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 
 
 
+
 const isInvalidEmbed = window.parent !== window;
 const handleClickAddonSettings = addonId => {
   // addonId might be a string of the addon to focus on, undefined, or an event (treat like undefined)
@@ -51481,42 +51525,59 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"
   }
 });
 const tabClassNames = {
-  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabs,
-  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tab),
-  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabList),
-  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.tabPanel),
-  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isSelected),
-  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_29___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isSelected),
-  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.isDisabled
+  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.tabs,
+  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.tab),
+  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.tabList),
+  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.tabPanel),
+  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.isSelected),
+  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.isSelected),
+  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.isDisabled
 };
 const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_16__["default"]);
-if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].reloadChannel) {
-  _addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].reloadChannel.addEventListener('message', () => {
+if (_addons_channels__WEBPACK_IMPORTED_MODULE_24__["default"].reloadChannel) {
+  _addons_channels__WEBPACK_IMPORTED_MODULE_24__["default"].reloadChannel.addEventListener('message', () => {
     location.reload();
   });
 }
-if (_addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].changeChannel) {
-  _addons_channels__WEBPACK_IMPORTED_MODULE_23__["default"].changeChannel.addEventListener('message', e => {
+if (_addons_channels__WEBPACK_IMPORTED_MODULE_24__["default"].changeChannel) {
+  _addons_channels__WEBPACK_IMPORTED_MODULE_24__["default"].changeChannel.addEventListener('message', e => {
     _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_13__["default"].setStoreWithVersionCheck(e.data);
   });
 }
-Object(_addons_entry__WEBPACK_IMPORTED_MODULE_25__["default"])();
+const RenderWelcomeModal = () => {
+  const [isOpen, setIsOpen] = react__WEBPACK_IMPORTED_MODULE_2___default.a.useState(false);
+  function handleOnOpen() {
+    setIsOpen(true);
+  }
+  function handleOnClose() {
+    setIsOpen(false);
+  }
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    onClick: handleOnOpen
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Welcome Modal",
+    id: "dash.home.welcomeModal"
+  })), isOpen && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_dash_welcome_modal_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+    onClose: handleOnClose
+  }));
+};
+Object(_addons_entry__WEBPACK_IMPORTED_MODULE_26__["default"])();
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footer
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerContent
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerContent
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
   defaultMessage: "{APP_NAME} is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
   id: "tw.footer.disclaimer",
   values: {
-    APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
+    APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"]
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -51530,14 +51591,14 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://scratch.org/')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
   defaultMessage: "{APP_NAME} is based on TurboWarp and one mod of TurboWarp (we can't mention it here), but not affiliated with these mods. TurboWarp is available for free at: {turbowarpDotOrg}.",
   id: "tw.footer.basedOnDisclaimer",
   values: {
-    APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"],
+    APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"],
     turbowarpDotOrg: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
       href: "https://turbowarp.org/",
       target: "_blank",
@@ -51550,21 +51611,16 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://penguinmod.com')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerColumns
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerColumns
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerSection
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(RenderWelcomeModal, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "credits.html"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Credits",
   id: "tw.footer.credits"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/sponsors/DBDev-git"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
-  defaultMessage: "Donate",
-  id: "tw.footer.donate"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://desktop.turbowarp.org/"
 }, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -51585,7 +51641,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Documentation",
   id: "tw.footer.documentation"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/discuss/topic/828107/#post-8609237"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
@@ -51617,14 +51673,14 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
   }
   componentDidUpdate(prevProps) {
     if (prevProps.isLoading && !this.props.isLoading) {
-      Object(_load_service_worker__WEBPACK_IMPORTED_MODULE_24__["loadServiceWorker"])();
+      Object(_load_service_worker__WEBPACK_IMPORTED_MODULE_25__["loadServiceWorker"])();
     }
   }
   handleUpdateProjectTitle(title, isDefault) {
     if (isDefault || !title) {
-      document.title = "".concat(_lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"], " - ").concat(this.props.intl.formatMessage(messages.defaultTitle));
+      document.title = "".concat(_lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"], " - ").concat(this.props.intl.formatMessage(messages.defaultTitle));
     } else {
-      document.title = "".concat(title, " - ").concat(_lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]);
+      document.title = "".concat(title, " - ").concat(_lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"]);
     }
   }
   onActivateTab(tab) {
@@ -51649,7 +51705,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
   }
   render() {
     if (isInvalidEmbed) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_invalid_embed_invalid_embed_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], null);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_invalid_embed_invalid_embed_jsx__WEBPACK_IMPORTED_MODULE_27__["default"], null);
     }
     const _this$props = this.props,
       {
@@ -51668,9 +51724,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     const isHomepage = isPlayerOnly && !isFullScreen;
     const isEditor = !isPlayerOnly;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.container, {
-        [_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.playerOnly]: isHomepage,
-        [_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.editor]: isEditor
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.container, {
+        [_interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.playerOnly]: isHomepage,
+        [_interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.editor]: isEditor
       }),
       dir: isRtl ? 'rtl' : 'ltr'
     }, isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedMenuBar, {
@@ -51680,9 +51736,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       enableSeeInside: true,
       onClickAddonSettings: handleClickAddonSettings
     }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.center
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.center
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.wrapperRegulator,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.wrapperRegulator,
       style: isHomepage ? {
         width: "".concat(Math.max(480, props.customStageSize.width) + 2, "px")
       } : null
@@ -51691,69 +51747,69 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       onUpdateProjectTitle: this.handleUpdateProjectTitle,
       backpackVisible: true,
       backpackHost: "_local_"
-    }, props))), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_22__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+    }, props))), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_23__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isRtl: isRtl
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.mainSection
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.mainSection
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tabs"], {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tabs"], {
       forceRenderTabPanel: true,
       className: tabClassNames.tabs,
       selectedIndex: this.state.activeTabIndex,
       selectedTabClassName: tabClassNames.tabSelected,
       selectedTabPanelClassName: tabClassNames.tabPanelSelected,
       onSelect: this.onActivateTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabList"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabList"], {
       className: tabClassNames.tabList
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: tabClassNames.tab
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_30__["default"])()
+      src: Object(_lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_31__["default"])()
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "About {APP_NAME}",
       id: "dash.home.tab.about",
       values: {
-        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
+        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"]
       }
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !(description.instructions === 'unshared' || description.credits === 'unshared')
       }),
       onClick: this.onActivateUnsharedTab.bind(this)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_31__["default"])()
+      src: Object(_lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_32__["default"])()
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared project",
       id: "dash.home.tab.unshared"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !(hasCloudVariables && projectId !== '0')
       }),
       onClick: this.onActivateCloudTab.bind(this)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_32__["default"])()
+      src: Object(_lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_33__["default"])()
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Cloud variables",
       id: "dash.home.tab.cloud"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["Tab"], {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !((description.instructions || description.credits) && !(description.instructions === 'unshared' || description.credits === 'unshared'))
       }),
       onClick: this.onActivateDescriptionTab.bind(this)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_33__["default"])()
+      src: Object(_lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_34__["default"])()
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Description",
       id: "dash.home.tab.description"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -51764,20 +51820,20 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       defaultMessage: "{APP_NAME} is based on TurboWarp and one of TurboWarp mods mod (we can't mention it here) that adds more blocks, extensions, colors and other and compiles projects to JavaScript to make them run really fast. Try it out by clicking on 'See inside' button or by inputting a project ID or URL above or choosing a featured project below.",
       id: "tw.home.description",
       values: {
-        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_27__["APP_NAME"]
+        APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"]
       }
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
       studio: "37103090"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, (description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.unsharedUpdate)
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.unsharedUpdate)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared projects are no longer visible.",
       id: "tw.unshared2.1"
@@ -51801,18 +51857,18 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     , {
       defaultMessage: "If this project is actually shared, please report a bug.",
       id: "tw.unshared.bug"
-    }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+    }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_28__["TabPanel"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_34___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_35___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"

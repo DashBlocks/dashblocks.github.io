@@ -2736,7 +2736,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.loader_background_1-Rwn {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 490;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: var(--menu-bar-background);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    text-align: center;\n    color: white;\n}\n\n.loader_fullscreen_tNbvL {\n    /* Break out of the layout using position: fixed to cover the whole screen */\n    position: fixed;\n    /* Use the fullscreen stage z-index to allow covering full-screen mode */\n    z-index: 500;\n}\n\n.loader_block-animation_2EgCQ {\n    width: 125px;\n    height: 150px;\n    margin: 50px auto 0px;\n}\n\n.loader_block-animation_2EgCQ img {\n    display: block;\n    position: relative;\n    height: 30%;\n    margin-top: -4px;\n}\n\n.loader_top-block_1-yuR {\n    animation: loader_top-slide-in_3hScI 1.5s ease infinite;\n}\n\n.loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in_3GSy9 1.5s ease infinite;\n}\n\n.loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in_8euy_ 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_top-block_1-yuR {\n    animation: loader_top-slide-in-rtl_1iaUP 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in-rtl_1Ve0h 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in-rtl_2hnAN 1.5s ease infinite;\n}\n\n@keyframes loader_top-slide-in_3hScI {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in_3GSy9 {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in_8euy_ {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_top-slide-in-rtl_1iaUP {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in-rtl_1Ve0h {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in-rtl_2hnAN {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n.loader_title_28GDz {\n    font-size: 2rem;\n    font-weight: bold;\n    margin: 0.75rem 0;\n}\n\n.loader_message_rvm_w {\n    height: 20px;\n    margin: 5px 0;\n}\n\n.loader_bar-outer_3B82p {\n    width: 250px;\n    height: 8px;\n    border-radius: 8px;\n    background-color: var(--ui-white-transparent-default);\n    overflow: hidden;\n    position: relative;\n    margin: auto;\n}\n\n.loader_bar-inner_GYGdI {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 0;\n    height: 100%;\n    background-color: var(--ui-white-default);\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.loader_background_1-Rwn {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 490;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: var(--menu-bar-background);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    text-align: center;\n    color: white;\n}\n\n.loader_fullscreen_tNbvL {\n    /* Break out of the layout using position: fixed to cover the whole screen */\n    position: fixed;\n    /* Use the fullscreen stage z-index to allow covering full-screen mode */\n    z-index: 500;\n}\n\n.loader_block-animation_2EgCQ {\n    width: 125px;\n    height: 150px;\n    margin: 50px auto 0px;\n}\n\n.loader_block-animation_2EgCQ img {\n    display: block;\n    position: relative;\n    height: 30%;\n    margin-top: -4px;\n}\n\n.loader_top-block_1-yuR {\n    animation: loader_top-slide-in_3hScI 1.5s ease infinite;\n}\n\n.loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in_3GSy9 1.5s ease infinite;\n}\n\n.loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in_8euy_ 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_top-block_1-yuR {\n    animation: loader_top-slide-in-rtl_1iaUP 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_middle-block_2ma0T {\n    animation: loader_middle-slide-in-rtl_1Ve0h 1.5s ease infinite;\n}\n\n[dir=\"rtl\"] .loader_bottom-block_ABwSu {\n    animation: loader_bottom-slide-in-rtl_2hnAN 1.5s ease infinite;\n}\n\n@keyframes loader_top-slide-in_3hScI {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in_3GSy9 {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in_8euy_ {\n  0% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_top-slide-in-rtl_1iaUP {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_middle-slide-in-rtl_1Ve0h {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  33% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n@keyframes loader_bottom-slide-in-rtl_2hnAN {\n  0% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  66% {\n    transform: translateY(50px) scaleX(-1);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0px) scaleX(-1);\n    opacity: 1;\n  }\n}\n\n.loader_title_28GDz {\n    font-size: 2rem;\n    font-weight: bold;\n    margin: 0.75rem 0;\n}\n\n.loader_message_rvm_w {\n    height: 20px;\n    margin: 5px 0;\n}\n\n.loader_bar-outer_3B82p {\n    width: 250px;\n    height: 8px;\n    border-radius: 8px;\n    background-color: var(--ui-white-transparent-default);\n    overflow: hidden;\n    position: relative;\n    margin: auto;\n}\n\n.loader_bar-inner_GYGdI {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 0;\n    height: 100%;\n    background-color: var(--ui-white-default);\n}\n\n.loader_message-container-outer_oYjTv {\n    height: 30px;\n    overflow: hidden;\n}\n\n.loader_message-container-inner_3ck0d {\n    transition: transform 0.5s;\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2767,7 +2767,11 @@ exports.locals = {
 	"bar-outer": "loader_bar-outer_3B82p",
 	"barOuter": "loader_bar-outer_3B82p",
 	"bar-inner": "loader_bar-inner_GYGdI",
-	"barInner": "loader_bar-inner_GYGdI"
+	"barInner": "loader_bar-inner_GYGdI",
+	"message-container-outer": "loader_message-container-outer_oYjTv",
+	"messageContainerOuter": "loader_message-container-outer_oYjTv",
+	"message-container-inner": "loader_message-container-inner_3ck0d",
+	"messageContainerInner": "loader_message-container-inner_3ck0d"
 };
 
 /***/ }),
@@ -12299,6 +12303,7 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_1__["defineMessages"
     "defaultMessage": "Loading assets ({complete}/{total}) \u2026"
   }
 });
+const lazyMessages = ["Frying the blocks...", "Frying the costumes...", "Frying the sounds...", "Frying the extensions...", "Just frying..."];
 
 // Because progress events are fired so often during the very performance-critical loading
 // process and React updates are very slow, we bypass React for updating the progress bar.
@@ -12310,15 +12315,37 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     this.barInnerEl = null;
     this.messageEl = null;
     this.ignoreProgress = false;
+    this.state = {
+      messageNumber: this.chooseRandomMessage()
+    };
   }
   componentDidMount() {
+    this.intervalId = setInterval(() => {
+      this.setState({
+        messageNumber: this.chooseRandomMessage()
+      });
+    }, 5000);
     this.handleAssetProgress(this.props.vm.runtime.finishedAssetRequests, this.props.vm.runtime.totalAssetRequests);
     this.props.vm.on('ASSET_PROGRESS', this.handleAssetProgress);
     this.props.vm.runtime.on('PROJECT_LOADED', this.handleProjectLoaded);
   }
   componentWillUnmount() {
+    clearInterval(this.intervalId);
     this.props.vm.off('ASSET_PROGRESS', this.handleAssetProgress);
     this.props.vm.runtime.off('PROJECT_LOADED', this.handleProjectLoaded);
+  }
+  chooseRandomMessage() {
+    let messageNumber;
+    const sum = lazyMessages.reduce((acc, m) => acc + 1, 0);
+    let rand = sum * Math.random();
+    for (let i = 0; i < lazyMessages.length; i++) {
+      rand -= 1;
+      if (rand <= 0) {
+        messageNumber = i;
+        break;
+      }
+    }
+    return messageNumber;
   }
   handleAssetProgress(finished, total) {
     if (this.ignoreProgress || !this.barInnerEl || !this.messageEl) {
@@ -12338,7 +12365,7 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     }
   }
   handleProjectLoaded() {
-    if (this.ignoreProgress || !this.barInnerEl || !this.messageEl) {
+    if (this.ignoreProgress || !this.barInnerEl || !this.messageEl || !this.lazyMessageEl) {
       return;
     }
     this.ignoreProgress = true;
@@ -12381,7 +12408,17 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.barInner,
       ref: this.barInnerRef
-    }))));
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.messageContainerOuter
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.messageContainerInner,
+      style: {
+        transform: "translate(0, -".concat(this.state.messageNumber * 25, "px)")
+      }
+    }, lazyMessages.map((m, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.message,
+      key: i
+    }, m))))));
   }
 }
 LoaderComponent.propTypes = {
@@ -27841,7 +27878,11 @@ class WelcomeModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Componen
     };
   }
   handleClose() {
-    this.props.onCloseWelcomeModal();
+    if (this.props.onClose) {
+      this.props.onClose();
+    } else {
+      this.props.dispatchClose();
+    }
   }
   handleChangeDontShow(e) {
     this.setState({
@@ -27858,10 +27899,11 @@ class WelcomeModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Componen
   }
 }
 WelcomeModal.propTypes = {
-  onCloseWelcomeModal: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func
+  onClose: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func,
+  dispatchClose: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func
 };
 const mapDispatchToProps = dispatch => ({
-  onCloseWelcomeModal: () => dispatch(Object(_reducers_modals__WEBPACK_IMPORTED_MODULE_5__["closeWelcomeModal"])())
+  dispatchClose: () => dispatch(Object(_reducers_modals__WEBPACK_IMPORTED_MODULE_5__["closeWelcomeModal"])())
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(null, mapDispatchToProps)(WelcomeModal));
 
