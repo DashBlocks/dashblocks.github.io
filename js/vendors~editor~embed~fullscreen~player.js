@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<svg viewBox=\"2 2 20 20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4\"></path></svg>\r\n";
+    const original = "<svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4\"></path></svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<svg viewBox=\"2 2 20 20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M 18 10 h -4 H 6 a 2 2 0 0 0 0 4 L 18 14 a 2 2 0 0 0 0 -4\"></path></svg>\r\n";
+    const original = "<svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M 18 10 h -4 H 6 a 2 2 0 0 0 0 4 L 18 14 a 2 2 0 0 0 0 -4\"></path></svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -62947,7 +62947,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3Ot4F {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV {\n    display: block;\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_table_3aijj {\n    width: 8rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_2Ajdm {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1lX6d {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: var(--paint-text-primary, #575e75);\n    width: 28px;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1lX6d::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1lX6d::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_1pXMe {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_EJUiU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n}\n\n.dash-array-dropdown_button_EJUiU > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3Ot4F {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV {\n    display: block;\n}\n\n.dash-array-dropdown_table_3aijj {\n    width: 9rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_2Ajdm {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1lX6d {\n    font-size: 0.65rem !important;\n    width: 100%;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1lX6d::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1lX6d::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_1pXMe {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_EJUiU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n    cursor: pointer;\n}\n\n.dash-array-dropdown_button_EJUiU > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -187625,8 +187625,6 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
     className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.item
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(LiveInput, {
     className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.readout,
-    range: true,
-    small: true,
     min: "0",
     max: "1000",
     type: "number",
@@ -193234,7 +193232,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/dash-array-dropdown/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx");
 /* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+
 
 
 
@@ -193250,8 +193250,9 @@ class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Com
     this.dashArray = [];
   }
   handleOpenDropdown() {
-    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])();
+    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
     this.dashArray = this.getDashArray(this.savedSelection);
+    this.forceUpdate();
   }
   handleClickOutsideDropdown(e) {
     e.stopPropagation();
@@ -193261,6 +193262,7 @@ class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Com
     this.dropDown.handleClosePopover();
     this.dashArray = [];
     this.savedSelection = null;
+    this.forceUpdate();
   }
   setDropdown(element) {
     this.dropDown = element;
@@ -193331,17 +193333,9 @@ const mapStateToProps = state => ({
   format: state.scratchPaint.format
 });
 const mapDispatchToProps = dispatch => ({
-  setSelectedItems: function (_setSelectedItems) {
-    function setSelectedItems(_x) {
-      return _setSelectedItems.apply(this, arguments);
-    }
-    setSelectedItems.toString = function () {
-      return _setSelectedItems.toString();
-    };
-    return setSelectedItems;
-  }(format => {
-    dispatch(setSelectedItems(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])(), isBitmap(format)));
-  })
+  setSelectedItems: format => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), Object(_lib_format__WEBPACK_IMPORTED_MODULE_6__["isBitmap"])(format)));
+  }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(DashArrayDropdown));
 

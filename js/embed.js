@@ -12303,7 +12303,15 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_1__["defineMessages"
     "defaultMessage": "Loading assets ({complete}/{total}) \u2026"
   }
 });
-const lazyMessages = ["Frying the blocks...", "Frying the costumes...", "Frying the sounds...", "Frying the extensions...", "Just frying..."];
+const lazyMessages = [
+// Asset-related messages
+"Coloring the blocks...", "Loading extensions...", "Making costumes...", "Restoring the sprites...", "Listening to the sounds...", "Admiring the fonts...", "Making scripts...",
+// Just normal messages
+"Fixing errors...", "Coming up with ideas...", "Compiling to JavaScript...", "Translating Dash...",
+// Funny messages
+"Keeping an eye on Dashy...", "Unbanning SpartanDav...", "Patting the cat blocks...", "Deleting Memokot... (trying to)", "*You found the \"12\"*",
+// Promotions
+"Subscribe to our TG channel - https://t.me/DashBlocks ;)"];
 
 // Because progress events are fired so often during the very performance-critical loading
 // process and React updates are very slow, we bypass React for updating the progress bar.
@@ -19840,6 +19848,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const StageWrapperComponent = function StageWrapperComponent(props) {
+  const [pageLoaded, setPageLoaded] = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false);
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    const handleLoad = () => {
+      setPageLoaded(true);
+    };
+    if (document.readyState === 'complete') {
+      setPageLoaded(true);
+    } else {
+      window.addEventListener('load', handleLoad);
+    }
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
+  });
   const {
     isEmbedded,
     isFullScreen,
@@ -19869,6 +19891,9 @@ const StageWrapperComponent = function StageWrapperComponent(props) {
     vm: vm
   }) : null), loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     isFullScreen: isFullScreen
+  }) : null, !pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    isFullScreen: true,
+    messageId: "gui.loader.creating"
   }) : null);
 };
 StageWrapperComponent.propTypes = {
