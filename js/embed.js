@@ -12210,6 +12210,17 @@ module.exports = __webpack_require__.p + "static/assets/7efe82fffae735cd083388ba
 
 /***/ }),
 
+/***/ "./src/components/loader/lazy-messages.json":
+/*!**************************************************!*\
+  !*** ./src/components/loader/lazy-messages.json ***!
+  \**************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[\"Coloring the blocks...\",\"Loading extensions...\",\"Making costumes...\",\"Restoring the sprites...\",\"Listening to the sounds...\",\"Admiring the fonts...\",\"Making scripts...\",\"Fixing errors...\",\"Coming up with ideas...\",\"Compiling to JavaScript...\",\"Translating Dash...\",\"Keeping an eye on Dashy...\",\"Unbanning SpartanDav...\",\"Patting the cat blocks...\",\"Deleting Memokot... (trying to)\",\"*You found the \\\"12\\\"*\",\"Subscribe to our TG channel - https://t.me/DashBlocks ;)\"]");
+
+/***/ }),
+
 /***/ "./src/components/loader/loader.css":
 /*!******************************************!*\
   !*** ./src/components/loader/loader.css ***!
@@ -12268,6 +12279,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _middle_block_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_middle_block_svg__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _bottom_block_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./bottom-block.svg */ "./src/components/loader/bottom-block.svg");
 /* harmony import */ var _bottom_block_svg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_bottom_block_svg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _lazy_messages_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./lazy-messages.json */ "./src/components/loader/lazy-messages.json");
+var _lazy_messages_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./lazy-messages.json */ "./src/components/loader/lazy-messages.json", 1);
+
 
 
 
@@ -12283,6 +12297,10 @@ const mainMessages = {
   'gui.loader.headline': /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Loading Project",
     id: "gui.loader.headline"
+  }),
+  'dash.loader.loadingPage': /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Loading Page",
+    id: "dash.loader.loadingPage"
   }),
   'gui.loader.creating': /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Creating Project",
@@ -12303,15 +12321,6 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_1__["defineMessages"
     "defaultMessage": "Loading assets ({complete}/{total}) \u2026"
   }
 });
-const lazyMessages = [
-// Asset-related messages
-"Coloring the blocks...", "Loading extensions...", "Making costumes...", "Restoring the sprites...", "Listening to the sounds...", "Admiring the fonts...", "Making scripts...",
-// Just normal messages
-"Fixing errors...", "Coming up with ideas...", "Compiling to JavaScript...", "Translating Dash...",
-// Funny messages
-"Keeping an eye on Dashy...", "Unbanning SpartanDav...", "Patting the cat blocks...", "Deleting Memokot... (trying to)", "*You found the \"12\"*",
-// Promotions
-"Subscribe to our TG channel - https://t.me/DashBlocks ;)"];
 
 // Because progress events are fired so often during the very performance-critical loading
 // process and React updates are very slow, we bypass React for updating the progress bar.
@@ -12344,9 +12353,9 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
   }
   chooseRandomMessage() {
     let messageNumber;
-    const sum = lazyMessages.reduce((acc, m) => acc + 1, 0);
+    const sum = _lazy_messages_json__WEBPACK_IMPORTED_MODULE_11__.reduce((acc, m) => acc + 1, 0);
     let rand = sum * Math.random();
-    for (let i = 0; i < lazyMessages.length; i++) {
+    for (let i = 0; i < _lazy_messages_json__WEBPACK_IMPORTED_MODULE_11__.length; i++) {
       rand -= 1;
       if (rand <= 0) {
         messageNumber = i;
@@ -12423,7 +12432,7 @@ class LoaderComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
       style: {
         transform: "translate(0, -".concat(this.state.messageNumber * 25, "px)")
       }
-    }, lazyMessages.map((m, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, _lazy_messages_json__WEBPACK_IMPORTED_MODULE_11__.map((m, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _loader_css__WEBPACK_IMPORTED_MODULE_6___default.a.message,
       key: i
     }, m))))));
@@ -19848,20 +19857,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const StageWrapperComponent = function StageWrapperComponent(props) {
-  const [pageLoaded, setPageLoaded] = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false);
-  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
-    const handleLoad = () => {
-      setPageLoaded(true);
-    };
-    if (document.readyState === 'complete') {
-      setPageLoaded(true);
-    } else {
-      window.addEventListener('load', handleLoad);
-    }
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
-  });
   const {
     isEmbedded,
     isFullScreen,
@@ -19891,9 +19886,6 @@ const StageWrapperComponent = function StageWrapperComponent(props) {
     vm: vm
   }) : null), loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
     isFullScreen: isFullScreen
-  }) : null, !pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    isFullScreen: true,
-    messageId: "gui.loader.creating"
   }) : null);
 };
 StageWrapperComponent.propTypes = {
