@@ -4820,7 +4820,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n}\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n    font-weight: bold;\r\n    line-height: 1.7em;\r\n}\n\nh1 {\r\n    font-weight: 2.5rem;\r\n}\n\nh2 {\r\n    font-weight: 2rem;\r\n}\n\nh3 {\r\n    font-size: 1.4rem;\r\n}\n\nh4 {\r\n    font-size: 1rem;\r\n}\n\na {\r\n    color: var(--link-color);\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n}\n\n.interface_container_1cGgE {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    background-color: var(--page-background);\r\n}\n\n.interface_editor_3WnQ8 {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_center_2vEJw {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_wrapper-regulator_5T0-b {\r\n    height: 100%;\r\n}\n\n.interface_player-only_1YGqr .interface_center_2vEJw {\r\n    margin: 0px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 0.5rem;\r\n    background: var(--ui-primary);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    min-width: calc(100% - 1rem);\r\n}\n\n.interface_main-section_3dp9e {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 0.5rem;\r\n}\n\n.interface_section_3f_bi {\r\n    width: 480px;\r\n    background: var(--ui-white);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx {\r\n    padding: 10px 0;\r\n    border-top: 2px solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_footer-content_2-VDh {\r\n    max-width: 600px;\r\n    margin: auto;\r\n}\n\n.interface_footer-text_2qZPP {\r\n    text-align: center;\r\n    margin: 5px 0 10px 0;\r\n}\n\n.interface_footer-columns_22Cpb {\r\n    display: flex;\r\n    justify-content: center;\r\n    justify-items: center;\r\n    flex-wrap: wrap;\r\n}\n\n.interface_footer-section_vgGzW {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 200px;\r\n    margin-bottom: 10px;\r\n}\n\n.interface_footer-section_vgGzW > * {\r\n    margin-bottom: 10px;\r\n}\n\n.interface_infobox_KQp6d {\r\n    line-height: 1.5em;\r\n    padding: 0.5rem;\r\n    margin: 5px 0 8px 0;\r\n    border-radius: 0.5rem;\r\n    border: 1px solid #b9d6ff;\r\n    background-color: #dbebff;\r\n}\n\n.interface_infobox_KQp6d p {\r\n    margin: 4px 0;\r\n}\n\n.interface_infobox_KQp6d a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_unshared-update_zPoHa {\r\n    border-color: #ff52526e;\r\n    background-color: #ff525240;\r\n}\n\n.interface_tab-list_QKrv4 {\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: flex-end;\r\n    flex-shrink: 0;\r\n    flex-wrap: wrap;\r\n    gap: 0.25rem;\r\n    padding: 0.25rem;\r\n\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-weight: 500;\r\n    font-size: 0.80rem;\r\n\r\n    /* Overrides for react-tabs styling */\r\n    margin: 0 !important;\r\n    border-bottom: 0 !important;\r\n\r\n    color: var(--text-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-disabled_2sE-- {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ {\r\n    height: calc(2.25rem * 0.9);\r\n    margin-bottom: 0;\r\n\r\n    border-radius: 1rem 1rem 0.5rem 0.5rem;\r\n    border: 1px solid var(--ui-black-transparent);\r\n\r\n    padding: 0.125rem 1.25rem 0;\r\n    font-size: 0.75rem;\r\n\r\n    background-color: var(--ui-tertiary);\r\n    color: var(--ui-text-primary-transparent);\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    -webkit-user-select: none;\r\n\r\n       -moz-user-select: none;\r\n\r\n        -ms-user-select: none;\r\n\r\n            user-select: none;\r\n    white-space: nowrap;\r\n}\n\n.interface_tab_1TpnZ:hover {\r\n  background-color: var(--ui-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG {\r\n    height: 2.25rem;\r\n    color: var(--looks-secondary);\r\n    background-color: var(--ui-white);\r\n}\n\n.interface_tab_1TpnZ img {\r\n    width: 1.375rem;\r\n    filter: grayscale(100%);\r\n}\n\n[dir=\"ltr\"] .interface_tab_1TpnZ img {\r\n    margin-right: 0.125rem;\r\n}\n\n[dir=\"rtl\"] .interface_tab_1TpnZ img {\r\n    margin-left: 0.125rem;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG img {\r\n    filter: none;\r\n}\n\n/* Tab style overrides from react-tabs */\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:after {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus {\r\n    outline: none;\r\n    box-shadow: none;\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus:after {\r\n    display: none;\r\n}\n\n/* Body of the tabs */\n\n.interface_tabs_2Hv2T {\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.interface_tab-panel_3ppzV {\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: none;\r\n}\n\n.interface_tab-panel_3ppzV.interface_is-selected_27PQG {\r\n    display: block;\r\n}\n\n.interface_commits-container_3x7DT {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 12px;\r\n}\n\n.interface_commit-link_3Qk1d {\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\n\n.interface_commit-link_3Qk1d:hover {\r\n    background-color: rgba(0, 0, 0, 0.05);\r\n}\n\n.interface_commit-item_3ykqQ {\r\n    display: flex;\r\n    align-items: center;\r\n    padding: 12px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 8px;\r\n}\n\n.interface_commit-info_1TOZa {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 4px;\r\n}\n\n.interface_commit-message_2dd16 {\r\n    color: #24292e;\r\n}", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n}\n\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5 {\r\n    font-weight: bold;\r\n    line-height: 1.7em;\r\n}\n\nh1 {\r\n    font-weight: 2.5rem;\r\n}\n\nh2 {\r\n    font-weight: 2rem;\r\n}\n\nh3 {\r\n    font-size: 1.4rem;\r\n}\n\nh4 {\r\n    font-size: 1rem;\r\n}\n\na {\r\n    color: var(--link-color);\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n}\n\n.interface_container_1cGgE {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    background-color: var(--page-background);\r\n}\n\n.interface_editor_3WnQ8 {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_center_2vEJw {\r\n    height: 100%;\r\n}\n\n.interface_editor_3WnQ8 .interface_wrapper-regulator_5T0-b {\r\n    height: 100%;\r\n}\n\n.interface_player-only_1YGqr .interface_center_2vEJw {\r\n    margin: 0px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 0.5rem;\r\n    background: var(--ui-primary);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    min-width: calc(100% - 1rem);\r\n}\n\n.interface_main-section_3dp9e {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 0.5rem;\r\n}\n\n.interface_section_3f_bi {\r\n    width: 480px;\r\n    background: var(--ui-white);\r\n    margin: 0px;\r\n    padding: 0.5rem;\r\n    border-radius: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx {\r\n    padding: 10px 0;\r\n    border-top: 2px solid var(--ui-black-transparent);\r\n}\n\n.interface_footer_vF3nx a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_footer-content_2-VDh {\r\n    max-width: 600px;\r\n    margin: auto;\r\n}\n\n.interface_footer-text_2qZPP {\r\n    text-align: center;\r\n    margin: 5px 0 10px 0;\r\n}\n\n.interface_footer-columns_22Cpb {\r\n    display: flex;\r\n    justify-content: center;\r\n    justify-items: center;\r\n    flex-wrap: wrap;\r\n}\n\n.interface_footer-section_vgGzW {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 200px;\r\n    margin-bottom: 10px;\r\n}\n\n.interface_footer-section_vgGzW > * {\r\n    margin-bottom: 10px;\r\n}\n\n.interface_infobox_KQp6d {\r\n    line-height: 1.5em;\r\n    padding: 0.5rem;\r\n    margin: 5px 0 8px 0;\r\n    border-radius: 0.5rem;\r\n    border: 1px solid #b9d6ff;\r\n    background-color: #dbebff;\r\n}\n\n.interface_infobox_KQp6d p {\r\n    margin: 4px 0;\r\n}\n\n.interface_infobox_KQp6d a {\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n}\n\n.interface_unshared-update_zPoHa {\r\n    border-color: #ff52526e;\r\n    background-color: #ff525240;\r\n}\n\n.interface_tab-list_QKrv4 {\r\n    display: flex;\r\n    align-items: flex-end;\r\n    flex-shrink: 0;\r\n    flex-wrap: wrap;\r\n    gap: 0.25rem;\r\n    padding: 0.25rem;\r\n\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-weight: 500;\r\n    font-size: 0.80rem;\r\n\r\n    /* Overrides for react-tabs styling */\r\n    margin: 0 !important;\r\n    border-bottom: 0 !important;\r\n\r\n    color: var(--text-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-disabled_2sE-- {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ {\r\n    height: calc(2.25rem * 0.9);\r\n    margin-bottom: 0;\r\n\r\n    border-radius: 1rem 1rem 0.5rem 0.5rem;\r\n    border: 1px solid var(--ui-black-transparent);\r\n\r\n    padding: 0.125rem 1.25rem 0;\r\n    font-size: 0.75rem;\r\n\r\n    background-color: var(--ui-tertiary);\r\n    color: var(--ui-text-primary-transparent);\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    -webkit-user-select: none;\r\n\r\n       -moz-user-select: none;\r\n\r\n        -ms-user-select: none;\r\n\r\n            user-select: none;\r\n    white-space: nowrap;\r\n}\n\n.interface_tab_1TpnZ:hover {\r\n  background-color: var(--ui-primary);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG {\r\n    height: 2.25rem;\r\n    color: var(--looks-secondary);\r\n    background-color: var(--ui-white);\r\n}\n\n.interface_tab_1TpnZ img {\r\n    width: 1.375rem;\r\n    filter: grayscale(100%);\r\n}\n\n[dir=\"ltr\"] .interface_tab_1TpnZ img {\r\n    margin-right: 0.125rem;\r\n}\n\n[dir=\"rtl\"] .interface_tab_1TpnZ img {\r\n    margin-left: 0.125rem;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG img {\r\n    filter: none;\r\n}\n\n/* Tab style overrides from react-tabs */\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:after {\r\n    display: none;\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus {\r\n    outline: none;\r\n    box-shadow: none;\r\n    border-color: var(--ui-black-transparent);\r\n}\n\n.interface_tab_1TpnZ.interface_is-selected_27PQG:focus:after {\r\n    display: none;\r\n}\n\n/* Body of the tabs */\n\n.interface_tabs_2Hv2T {\r\n    width: calc(480px + 1rem + 0.125rem);\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\n\n.interface_tab-panel_3ppzV {\r\n    position: relative;\r\n    flex-grow: 1;\r\n    display: none;\r\n}\n\n.interface_tab-panel_3ppzV.interface_is-selected_27PQG {\r\n    display: block;\r\n}\n\n.interface_commits-container_3x7DT {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 0.5rem;\r\n}\n\n.interface_commit-link_3Qk1d {\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\n\n.interface_commit-item_3ykqQ {\r\n    padding: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n}\n\n.interface_commit-item_3ykqQ:hover {\r\n    border-color: var(--looks-secondary);\r\n}\n\n.interface_commit-message_2dd16 {\r\n    font-weight: bold;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -4862,8 +4862,6 @@ exports.locals = {
 	"commitLink": "interface_commit-link_3Qk1d",
 	"commit-item": "interface_commit-item_3ykqQ",
 	"commitItem": "interface_commit-item_3ykqQ",
-	"commit-info": "interface_commit-info_1TOZa",
-	"commitInfo": "interface_commit-info_1TOZa",
 	"commit-message": "interface_commit-message_2dd16",
 	"commitMessage": "interface_commit-message_2dd16"
 };
@@ -48901,7 +48899,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14.8145\" height=\"14.8163\" viewBox=\"0,0,14.8145,14.8163\"><g transform=\"translate(-232.59275,-172.59185)\"><g fill=\"#855cd6\" stroke=\"none\" stroke-miterlimit=\"10\"><path d=\"M240.65443,172.61682c1.57527,0.14594 3.00459,0.75289 4.19879,1.7826c0.15984,0.13783 0.51775,0.48996 0.66022,0.64979c1.08648,1.21736 1.71427,2.66174 1.87296,4.30883c0.0278,0.29189 0.0278,0.99382 0,1.28571c-0.13783,1.43164 -0.62433,2.69765 -1.46755,3.81424c-0.24439,0.32432 -0.42625,0.53049 -0.73203,0.83049c-0.35327,0.34865 -0.67297,0.60926 -1.06447,0.8722c-1.04361,0.69845 -2.19032,1.1027 -3.47949,1.22663c-0.29189,0.0278 -0.99381,0.0278 -1.2857,0c-1.4884,-0.14363 -2.80422,-0.66718 -3.94976,-1.57064c-0.5884,-0.46447 -1.14554,-1.06447 -1.55674,-1.67952c-0.70888,-1.05752 -1.11196,-2.19611 -1.23705,-3.4934c-0.0278,-0.29189 -0.0278,-0.99381 0,-1.2857c0.07181,-0.74941 0.2305,-1.4189 0.48996,-2.07565c0.32316,-0.81891 0.78416,-1.56253 1.383,-2.23318c0.14246,-0.15984 0.50038,-0.51197 0.66022,-0.6498c1.27064,-1.09458 2.81696,-1.71542 4.49994,-1.8046c0.17838,-0.00926 0.82007,0.00462 1.00771,0.022zM238.8533,175.5137c-0.47027,0.15868 -0.86872,0.41234 -1.15365,0.73088c-0.2583,0.29074 -0.37529,0.5664 -0.39498,0.92663c-0.01274,0.24439 0.03243,0.37761 0.17491,0.52007c0.09499,0.09499 0.17606,0.13899 0.28494,0.15405c0.0973,0.01274 0.26408,-0.00347 0.33127,-0.03243c0.07298,-0.03243 0.24208,-0.20155 0.40193,-0.40077c0.1749,-0.21892 0.38803,-0.43204 0.51775,-0.51775c0.23861,-0.15637 0.49343,-0.22356 0.85134,-0.22239c0.26293,0 0.43668,0.03707 0.63127,0.13089c0.14131,0.06833 0.21891,0.12509 0.34865,0.25482c0.29421,0.29537 0.41004,0.59652 0.37992,0.99265c-0.03475,0.44941 -0.24904,0.79807 -0.63243,1.02857c-0.19227,0.11468 -0.37413,0.17721 -0.73319,0.25134c-0.51312,0.1054 -0.59188,0.139 -0.63474,0.27683c-0.01737,0.05676 -0.01969,0.13204 -0.01969,0.71234c0,0.5884 0.00232,0.65559 0.02085,0.72393c0.05907,0.21428 0.17606,0.34169 0.37296,0.40771c0.11468,0.03823 0.3359,0.03823 0.44478,-0.00115c0.14594,-0.05096 0.26641,-0.15058 0.32548,-0.26756c0.0695,-0.13783 0.07297,-0.161 0.07877,-0.55134l0.00463,-0.36023l0.25019,-0.0556c0.40309,-0.08802 0.64053,-0.16911 0.89303,-0.30231c0.4888,-0.2583 0.80734,-0.62084 0.96717,-1.09805c0.09267,-0.27683 0.12857,-0.53281 0.12857,-0.93358c0,-0.322 -0.0139,-0.45984 -0.06486,-0.66602c-0.09961,-0.40309 -0.31043,-0.78069 -0.59537,-1.06678c-0.439,-0.44131 -1.06562,-0.72045 -1.77797,-0.79111c-0.50153,-0.04981 -0.93126,-0.00232 -1.40153,0.15637zM239.30619,183.64371c-0.1529,0.14711 -0.22008,0.28957 -0.22934,0.49343c-0.01158,0.22818 0.05096,0.40309 0.19807,0.55018c0.09382,0.09382 0.19228,0.15521 0.31853,0.19923c0.1193,0.04055 0.30347,0.04286 0.41814,0.00348c0.44362,-0.15174 0.65211,-0.64749 0.43899,-1.04362c-0.06255,-0.11583 -0.12741,-0.19807 -0.20617,-0.26178c-0.07877,-0.06255 -0.20734,-0.12742 -0.28494,-0.14247c-0.25367,-0.04864 -0.45636,0.0139 -0.65328,0.20155z\"/></g></g></svg><!--rotationCenter:7.407250000000005:7.408147219478366-->";
+    const original = "<svg\n   version=\"1.1\"\n   width=\"20\"\n   height=\"20\"\n   viewBox=\"0 0 20 19.999999\"\n   id=\"svg2\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <defs\n     id=\"defs2\" />\n  <path\n     d=\"m 10.662619,2.5251201 c 1.594996,0.1477509 3.042214,0.7622322 4.251368,1.8047193 0.161841,0.1395403 0.524233,0.4960397 0.668487,0.6578529 1.100085,1.2324656 1.735737,2.6947681 1.896414,4.362296 0.02815,0.2955119 0.02815,1.0061517 0,1.3016637 -0.139556,1.449404 -0.632148,2.731123 -1.485927,3.861569 -0.24745,0.328344 -0.431588,0.537072 -0.741197,0.840795 -0.357693,0.352976 -0.681397,0.61682 -1.077799,0.883022 -1.056678,0.707117 -2.217748,1.116383 -3.523061,1.241851 -0.295545,0.02815 -1.0062545,0.02815 -1.3017996,0 C 7.8420663,17.333477 6.5097694,16.80343 5.3498847,15.88876 4.7541166,15.418526 4.19,14.811081 3.7736509,14.1884 3.0558941,13.117757 2.6477667,11.965039 2.5211103,10.651652 c -0.028148,-0.295512 -0.028148,-1.0061417 0,-1.3016536 C 2.5938094,8.5912894 2.7544967,7.913492 3.0172057,7.2485928 3.3444123,6.4195214 3.8111851,5.6666742 4.4175239,4.9877025 4.5617678,4.8258791 4.9241697,4.4693797 5.0860113,4.3298394 6.3725625,3.2216774 7.9382458,2.5931337 9.6423004,2.5028471 c 0.1806137,-0.00911 0.8303386,0.00506 1.0203286,0.022273 z M 8.8389349,5.4579459 C 8.3627761,5.6185949 7.9593366,5.8754024 7.6708387,6.197895 7.4093042,6.4922427 7.2908492,6.7713232 7.2709127,7.1360231 c -0.012859,0.2474225 0.032806,0.3822955 0.1771002,0.5265233 0.09619,0.096179 0.1782647,0.1407146 0.2885081,0.1559615 0.098518,0.012858 0.2673869,-0.00304 0.3354182,-0.032802 0.073914,-0.032802 0.2451114,-0.204051 0.4069631,-0.405743 C 8.6559924,7.1583264 8.8717913,6.942562 9.0031357,6.8557884 9.2447336,6.6974781 9.5027445,6.6294544 9.8651363,6.6306389 c 0.2662227,0 0.4421487,0.03756 0.6391747,0.1325142 0.14308,0.069147 0.221651,0.1266421 0.353016,0.2579819 0.297894,0.2990351 0.415174,0.6039219 0.384677,1.0049672 -0.03524,0.4549865 -0.252158,0.8079729 -0.640349,1.041333 C 10.406977,9.1835382 10.22284,9.2468441 9.8592839,9.321894 9.3397385,9.4286018 9.2599923,9.4626187 9.2165956,9.602159 c -0.017618,0.057505 -0.019947,0.1336784 -0.019947,0.721179 0,0.595701 0.00203,0.663725 0.02106,0.732913 0.05984,0.216939 0.1782646,0.34593 0.3776302,0.412769 0.1161161,0.03867 0.3401062,0.03867 0.4503502,-0.001 0.147767,-0.05164 0.269746,-0.152451 0.329555,-0.270883 0.07037,-0.13955 0.07391,-0.163007 0.07979,-0.558191 l 0.0051,-0.3647 0.253323,-0.05629 c 0.408141,-0.08909 0.648554,-0.171208 0.904216,-0.3060608 0.494921,-0.2615051 0.817449,-0.6285436 0.979281,-1.1116751 0.09386,-0.280265 0.13018,-0.5394213 0.13018,-0.9451643 0,-0.3259955 -0.01407,-0.4655459 -0.06571,-0.6742843 C 12.560531,6.7726798 12.347061,6.3903944 12.058553,6.1007544 11.614056,5.6539685 10.979589,5.3713648 10.258319,5.299828 9.7505087,5.24941 9.3153975,5.2978032 8.8392387,5.4581383 Z M 9.2974961,13.688837 C 9.1426815,13.837772 9.0746602,13.982 9.0652843,14.188389 c -0.011745,0.231012 0.051639,0.408092 0.2005502,0.557007 0.094975,0.09496 0.1946878,0.157136 0.3225187,0.201702 0.1207939,0.041 0.3072701,0.04343 0.4233758,0.003 0.449175,-0.153623 0.660276,-0.655525 0.444487,-1.05657 C 10.392832,13.776261 10.327211,13.693 10.247465,13.6285 10.167678,13.56512 10.037528,13.499499 9.9589566,13.484262 9.7021101,13.435062 9.496882,13.498332 9.2974961,13.688313 Z\"\n     id=\"path1\"\n     style=\"fill:#855cd6;fill-opacity:1;stroke-width:1.01246\" />\n</svg>\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -51498,16 +51496,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
 /* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
 /* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--about.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--unshared.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--cloud.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--description.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg");
-/* harmony import */ var _lib_tw_recolor_build_icons_icon_whatsnew_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--whatsnew.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--whatsnew.svg");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../components/loader/lazy-messages.json */ "./src/components/loader/lazy-messages.json");
-var _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_37___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../components/loader/lazy-messages.json */ "./src/components/loader/lazy-messages.json", 1);
-/* harmony import */ var _components_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../components/loader/loader.jsx */ "./src/components/loader/loader.jsx");
+/* harmony import */ var _lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../lib/tw-recolor/render.jsx */ "./src/lib/tw-recolor/render.jsx");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--about.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--about.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--unshared.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--unshared.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--cloud.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--cloud.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--description.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--description.svg");
+/* harmony import */ var _lib_tw_recolor_build_icons_icon_whatsnew_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../lib/tw-recolor/build!./icons/icon--whatsnew.svg */ "./src/lib/tw-recolor/build.js!./src/playground/icons/icon--whatsnew.svg");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../components/loader/lazy-messages.json */ "./src/components/loader/lazy-messages.json");
+var _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_38___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../components/loader/lazy-messages.json */ "./src/components/loader/lazy-messages.json", 1);
+/* harmony import */ var _components_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../components/loader/loader.jsx */ "./src/components/loader/loader.jsx");
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "projectId"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -51567,7 +51566,11 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 
 
 
+
 const isInvalidEmbed = window.parent !== window;
+
+// Browser support is not perfect yet
+const relativeTimeSupported = () => typeof Intl !== 'undefined' && typeof Intl.RelativeTimeFormat !== 'undefined';
 const handleClickAddonSettings = addonId => {
   // addonId might be a string of the addon to focus on, undefined, or an event (treat like undefined)
   const path =  false ? undefined : 'addons.html';
@@ -51581,13 +51584,13 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"
   }
 });
 const tabClassNames = {
-  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.tabs,
-  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.tab),
-  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.tabList),
-  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.tabPanel),
-  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.isSelected),
-  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.isSelected),
-  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.isDisabled
+  tabs: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.tabs,
+  tab: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTab, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.tab),
+  tabList: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabList, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.tabList),
+  tabPanel: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanel, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.tabPanel),
+  tabPanelSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabPanelSelected, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.isSelected),
+  tabSelected: classnames__WEBPACK_IMPORTED_MODULE_0___default()(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_30___default.a.reactTabsTabSelected, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.isSelected),
+  tabDisabled: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.isDisabled
 };
 const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_16__["default"]);
 if (_addons_channels__WEBPACK_IMPORTED_MODULE_24__["default"].reloadChannel) {
@@ -51615,7 +51618,7 @@ const RenderLoader = () => {
       window.removeEventListener('load', handleLoad);
     };
   }, []);
-  return !pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_38__["default"], {
+  return !pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_loader_loader_jsx__WEBPACK_IMPORTED_MODULE_39__["default"], {
     isFullScreen: true,
     messageId: "dash.loader.loadingPage"
   }) : null;
@@ -51639,11 +51642,11 @@ const RenderWelcomeModal = () => {
 };
 Object(_addons_entry__WEBPACK_IMPORTED_MODULE_26__["default"])();
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footer
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerContent
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerContent
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -51653,7 +51656,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_28__["APP_NAME"]
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -51667,7 +51670,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://scratch.org/')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
@@ -51687,16 +51690,16 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
     }, 'https://penguinmod.com')
   }
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerColumns
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerColumns
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(RenderWelcomeModal, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "credits.html"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Credits",
   id: "tw.footer.credits"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://desktop.turbowarp.org/"
 }, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -51717,7 +51720,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   defaultMessage: "Documentation",
   id: "tw.footer.documentation"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://scratch.mit.edu/discuss/topic/828107/#post-8609237"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
@@ -51755,20 +51758,27 @@ const WhatsNew = () => {
   if (loading) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, "Loading...");
   if (error) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, "An error occured");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.commitsContainer
-  }, commits.map(commit => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    key: commit.sha,
-    href: commit.html_url,
-    className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.commitLink,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.commitItem
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.commitInfo
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-    className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.commitMessage
-  }, commit.commit.message))))));
+    className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.commitsContainer
+  }, commits.map(commit => {
+    const createdDate = new Date(commit.commit.committer.date);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      key: commit.sha,
+      href: commit.html_url,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.commitLink,
+      target: "_blank",
+      rel: "noopener noreferrer"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.commitItem
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.commitMessage
+    }, commit.commit.message), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, relativeTimeSupported() && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedRelative"], {
+      value: createdDate
+    }), ' ('), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedDate"], {
+      value: createdDate
+    }), ', ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedTime"], {
+      value: createdDate
+    }), relativeTimeSupported() && ')')));
+  }));
 };
 class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureComponent {
   constructor(props) {
@@ -51785,9 +51795,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }
   }
   componentDidMount() {
-    const sum = _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_37__.reduce((acc, _) => acc + 1, 0);
+    const sum = _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_38__.reduce((acc, _) => acc + 1, 0);
     let rand = sum * Math.random();
-    for (let i = 0; i < _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_37__.length; i++) {
+    for (let i = 0; i < _components_loader_lazy_messages_json__WEBPACK_IMPORTED_MODULE_38__.length; i++) {
       rand -= 1;
       if (rand <= 0) {
         this.setState({
@@ -51807,21 +51817,6 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
   onActivateTab(tab) {
     this.setState({
       activeTabIndex: tab
-    });
-  }
-  onActivateUnsharedTab() {
-    this.setState({
-      activeTabIndex: 1
-    });
-  }
-  onActivateCloudTab() {
-    this.setState({
-      activeTabIndex: 2
-    });
-  }
-  onActivateDescriptionTab() {
-    this.setState({
-      activeTabIndex: 3
     });
   }
   chooseRandomMessage() {
@@ -51848,9 +51843,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     const isHomepage = isPlayerOnly && !isFullScreen;
     const isEditor = !isPlayerOnly;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.container, {
-        [_interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.playerOnly]: isHomepage,
-        [_interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.editor]: isEditor
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.container, {
+        [_interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.playerOnly]: isHomepage,
+        [_interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.editor]: isEditor
       }),
       dir: isRtl ? 'rtl' : 'ltr'
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(RenderLoader, null), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedMenuBar, {
@@ -51860,9 +51855,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       enableSeeInside: true,
       onClickAddonSettings: handleClickAddonSettings
     }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.center
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.center
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.wrapperRegulator,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.wrapperRegulator,
       style: isHomepage ? {
         width: "".concat(Math.max(480, props.customStageSize.width) + 2, "px")
       } : null
@@ -51874,9 +51869,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }, props))), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_23__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isRtl: isRtl
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.mainSection
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.mainSection
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tabs"], {
       forceRenderTabPanel: true,
       className: tabClassNames.tabs,
@@ -51888,9 +51883,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       className: tabClassNames.tabList
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: tabClassNames.tab
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_31__["default"])()
+      src: _lib_tw_recolor_build_icons_icon_about_svg__WEBPACK_IMPORTED_MODULE_32__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "About {APP_NAME}",
       id: "dash.home.tab.about",
@@ -51899,49 +51894,46 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
       }
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: tabClassNames.tab
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_whatsnew_svg__WEBPACK_IMPORTED_MODULE_35__["default"])()
+      src: _lib_tw_recolor_build_icons_icon_whatsnew_svg__WEBPACK_IMPORTED_MODULE_36__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "What's new?",
       id: "dash.home.tab.whatsNew"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !(description.instructions === 'unshared' || description.credits === 'unshared')
-      }),
-      onClick: this.onActivateUnsharedTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      })
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_32__["default"])()
+      src: _lib_tw_recolor_build_icons_icon_unshared_svg__WEBPACK_IMPORTED_MODULE_33__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared project",
       id: "dash.home.tab.unshared"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !(hasCloudVariables && projectId !== '0')
-      }),
-      onClick: this.onActivateCloudTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      })
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_33__["default"])()
+      src: _lib_tw_recolor_build_icons_icon_cloud_svg__WEBPACK_IMPORTED_MODULE_34__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Cloud variables",
       id: "dash.home.tab.cloud"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["Tab"], {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(tabClassNames.tab, {
         [tabClassNames.tabDisabled]: !((description.instructions || description.credits) && !(description.instructions === 'unshared' || description.credits === 'unshared'))
-      }),
-      onClick: this.onActivateDescriptionTab.bind(this)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+      })
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_lib_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
       draggable: false,
-      src: Object(_lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_34__["default"])()
+      src: _lib_tw_recolor_build_icons_icon_description_svg__WEBPACK_IMPORTED_MODULE_35__["default"]
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Description",
       id: "dash.home.tab.description"
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -51959,7 +51951,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -51967,13 +51959,13 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WhatsNew, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, (description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.unsharedUpdate)
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.infobox, _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.unsharedUpdate)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
       defaultMessage: "Unshared projects are no longer visible.",
       id: "tw.unshared2.1"
@@ -52000,7 +51992,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
@@ -52008,7 +52000,7 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompone
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_tabs__WEBPACK_IMPORTED_MODULE_29__["TabPanel"], {
       className: tabClassNames.tabPanel
     }, description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_36___default.a.section,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_37___default.a.section,
       style: {
         overflowY: "auto",
         maxHeight: "520px"
