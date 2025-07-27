@@ -1832,7 +1832,7 @@ const contributors = [{
   username: 'damir2809'
 }, {
   userID: '106478819',
-  username: 'scratch-craft-2'
+  username: 'scratch_craft_2'
 }, {
   userID: '97813064',
   username: 'Den4ik-12'

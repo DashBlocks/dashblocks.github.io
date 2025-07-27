@@ -4583,7 +4583,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\n    max-width: 750px;\n}\n\n.settings-modal_body_2_OnB {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n    min-height: 150px;\n    max-height: calc(100vh - 250px);\n    overflow-y: auto;\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\n    .settings-modal_modal-content_14XGC {\n        margin: 50px auto;\n    }\n    .settings-modal_body_2_OnB {\n        max-height: calc(100vh - 150px);\n    }\n}\n\n.settings-modal_setting_3KFrK {\n    display: flex;\n    flex-direction: column;\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\n    background: var(--badge-background);\n}\n\n.settings-modal_setting_3KFrK:hover,\n.settings-modal_setting_3KFrK:focus-within {\n    background: var(--badge-border);\n}\n\n.settings-modal_label_21R3L {\n    height: 32px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings-modal_setting_3KFrK table {\n    border-collapse: collapse;\n}\n\n.settings-modal_setting_3KFrK tr,\n.settings-modal_setting_3KFrK td,\n.settings-modal_setting_3KFrK th {\n    padding: 0;\n    margin: 0;\n    border: 1px solid var(--ui-tertiary);\n}\n\n.settings-modal_checkbox_3KZcV {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_help-icon__QQqI {\n    position: relative;\n    border: 0;\n    background-color: transparent;\n    width: 20px;\n    height: 20px;\n    background-size: 100%;\n    margin-left: 0.5rem;\n    cursor: pointer;\n}\n\n.settings-modal_help-icon__QQqI img {\n    display: block;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    filter: var(--filter-icon-black);\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\n    width: 80px;\n}\n\n.settings-modal_info_Ce_iV {\n    margin-bottom: 0.25rem;\n}\n\n.settings-modal_header_112iQ {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    margin: 0.5rem 0 0 0;\n    font-weight: bold;\n}\n\n.settings-modal_divider_3K8K_ {\n    flex-grow: 1;\n    margin-left: 1rem;\n    border-top: 1px dashed var(--ui-tertiary);\n}\n\n.settings-modal_button_ACn0P {\n    font-family: inherit;\n    font-size: 14px;\n    background-color: var(--looks-secondary);\n    color: white;\n    border: none;\n    padding: 0.5rem 1rem;\n    margin: 0;\n    border-radius: 4px;\n    cursor: pointer;\n    font-family: inherit;\n    font-weight: bold;\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings-modal_warning_3UmRm {\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n    background: rgb(233, 233, 53);\n    color: var(--text-primary-default);\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\n    max-width: 750px;\n}\n\n.settings-modal_body_2_OnB {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n    min-height: 150px;\n    max-height: calc(100vh - 250px);\n    overflow-y: auto;\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\n    .settings-modal_modal-content_14XGC {\n        margin: 50px auto;\n    }\n    .settings-modal_body_2_OnB {\n        max-height: calc(100vh - 150px);\n    }\n}\n\n.settings-modal_setting_3KFrK {\n    display: flex;\n    flex-direction: column;\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\n    background: var(--badge-background);\n}\n\n.settings-modal_setting_3KFrK:hover,\n.settings-modal_setting_3KFrK:focus-within {\n    background: var(--badge-border);\n}\n\n.settings-modal_label_21R3L {\n    height: 32px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings-modal_setting_3KFrK table {\n    border-collapse: collapse;\n}\n\n.settings-modal_setting_3KFrK tr,\n.settings-modal_setting_3KFrK td,\n.settings-modal_setting_3KFrK th {\n    padding: 0;\n    margin: 0;\n    border: 1px solid var(--ui-tertiary);\n}\n\n.settings-modal_checkbox_3KZcV {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_help-icon__QQqI {\n    position: relative;\n    border: 0;\n    background-color: transparent;\n    width: 20px;\n    height: 20px;\n    background-size: 100%;\n    margin-left: 0.5rem;\n    cursor: pointer;\n}\n\n.settings-modal_help-icon__QQqI img {\n    display: block;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    filter: var(--filter-icon-black);\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\n    width: 80px;\n}\n\n.settings-modal_custom-cloud-var-server_1_r1f > * {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_custom-cloud-var-server-input_379zi {\n    width: 80px; /* todo: make input-adaptive width */\n}\n\n.settings-modal_info_Ce_iV {\n    margin-bottom: 0.25rem;\n}\n\n.settings-modal_header_112iQ {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    margin: 0.5rem 0 0 0;\n    font-weight: bold;\n}\n\n.settings-modal_divider_3K8K_ {\n    flex-grow: 1;\n    margin-left: 1rem;\n    border-top: 1px dashed var(--ui-tertiary);\n}\n\n.settings-modal_button_ACn0P {\n    font-family: inherit;\n    font-size: 14px;\n    background-color: var(--looks-secondary);\n    color: white;\n    border: none;\n    padding: 0.5rem 1rem;\n    margin: 0;\n    border-radius: 4px;\n    cursor: pointer;\n    font-family: inherit;\n    font-weight: bold;\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings-modal_warning_3UmRm {\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n    background: rgb(233, 233, 53);\n    color: var(--text-primary-default);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4600,6 +4600,10 @@ exports.locals = {
 	"customStageSize": "settings-modal_custom-stage-size_dr_Qv",
 	"custom-stage-size-input": "settings-modal_custom-stage-size-input_1Pr3z",
 	"customStageSizeInput": "settings-modal_custom-stage-size-input_1Pr3z",
+	"custom-cloud-var-server": "settings-modal_custom-cloud-var-server_1_r1f",
+	"customCloudVarServer": "settings-modal_custom-cloud-var-server_1_r1f",
+	"custom-cloud-var-server-input": "settings-modal_custom-cloud-var-server-input_379zi",
+	"customCloudVarServerInput": "settings-modal_custom-cloud-var-server-input_379zi",
 	"info": "settings-modal_info_Ce_iV",
 	"header": "settings-modal_header_112iQ",
 	"divider": "settings-modal_divider_3K8K_",
@@ -26276,10 +26280,43 @@ CustomStageSize.propTypes = {
   stageHeight: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
   onStageHeightChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-const StoreProjectOptions = _ref3 => {
+const CustomCloudVarServer = _ref3 => {
+  let {
+    customCloudVarServerEnabled,
+    cloudHost,
+    onCloudHostChange
+  } = _ref3;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Setting, {
+    active: customCloudVarServerEnabled,
+    primary: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.label, _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.customCloudVarServer)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
+      defaultMessage: "Custom Cloud Variable Server:",
+      id: "dash.settingsModal.customCloudVarServer"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(BufferedInput, {
+      value: cloudHost,
+      onSubmit: onCloudHostChange,
+      className: _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.customCloudVarServerInput,
+      type: "string",
+      step: "1"
+    })),
+    help: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"]
+    // eslint-disable-next-line max-len
+    , {
+      defaultMessage: "Changes the cloud variable host server.",
+      id: "dash.settingsModal.customCloudVarServerHelp"
+    })
+  });
+};
+CustomCloudVarServer.propTypes = {
+  customCloudVarServerEnabled: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  cloudHost: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  onCloudHostChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+};
+const StoreProjectOptions = _ref4 => {
   let {
     onStoreProjectOptions
-  } = _ref3;
+  } = _ref4;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.setting
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
@@ -26291,8 +26328,11 @@ const StoreProjectOptions = _ref3 => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
-    defaultMessage: "Stores the selected settings in the project so they will be automatically applied when TurboWarp loads this project. Warp timer and disable compiler will not be saved.",
-    id: "tw.settingsModal.storeProjectOptionsHelp"
+    defaultMessage: "Stores the selected settings in the project so they will be automatically applied when {APP_NAME} loads this project. Warp timer, disable compiler and custom cloud variable server will not be saved.",
+    id: "tw.settingsModal.storeProjectOptionsHelp",
+    values: {
+      APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_13__["APP_NAME"]
+    }
   }))));
 };
 StoreProjectOptions.propTypes = {
@@ -26342,6 +26382,9 @@ const SettingsModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MOD
   value: props.removeLimits,
   onChange: props.onRemoveLimitsChange
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
+  defaultMessage: "Other",
+  id: "dash.settingsModal.other"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(CustomCloudVarServer, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
   defaultMessage: "Danger Zone",
   id: "tw.settingsModal.dangerZone"
 })), !props.isEmbedded && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(CustomStageSize, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisableCompiler, {
@@ -38317,10 +38360,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/modals */ "./src/reducers/modals.js");
 /* harmony import */ var _components_tw_settings_modal_settings_modal_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/tw-settings-modal/settings-modal.jsx */ "./src/components/tw-settings-modal/settings-modal.jsx");
 /* harmony import */ var _reducers_custom_stage_size__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/custom-stage-size */ "./src/reducers/custom-stage-size.js");
+/* harmony import */ var _reducers_tw_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/tw.js */ "./src/reducers/tw.js");
 const _excluded = ["onClose", "vm"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
 
 
 
@@ -38338,7 +38383,7 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"
 class UsernameModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default()(this, ['handleFramerateChange', 'handleCustomizeFramerate', 'handleHighQualityPenChange', 'handleInterpolationChange', 'handleInfiniteClonesChange', 'handleRemoveFencingChange', 'handleRemoveLimitsChange', 'handleWarpTimerChange', 'handleStageWidthChange', 'handleStageHeightChange', 'handleDisableCompilerChange', 'handleStoreProjectOptions']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default()(this, ['handleFramerateChange', 'handleCustomizeFramerate', 'handleHighQualityPenChange', 'handleInterpolationChange', 'handleInfiniteClonesChange', 'handleRemoveFencingChange', 'handleRemoveLimitsChange', 'handleWarpTimerChange', 'handleStageWidthChange', 'handleStageHeightChange', 'handleCloudHostChange', 'handleDisableCompilerChange', 'handleStoreProjectOptions']);
   }
   handleFramerateChange(e) {
     this.props.vm.setFramerate(e.target.checked ? 60 : 30);
@@ -38389,6 +38434,9 @@ class UsernameModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compone
   handleStageHeightChange(value) {
     this.props.vm.setStageSize(this.props.customStageSize.width, value);
   }
+  handleCloudHostChange(value) {
+    this.props.onSetCloudHost(value);
+  }
   handleStoreProjectOptions() {
     this.props.vm.storeProjectOptions();
   }
@@ -38417,6 +38465,9 @@ class UsernameModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compone
       stageWidth: this.props.customStageSize.width,
       stageHeight: this.props.customStageSize.height,
       customStageSizeEnabled: this.props.customStageSize.width !== _reducers_custom_stage_size__WEBPACK_IMPORTED_MODULE_7__["defaultStageSize"].width || this.props.customStageSize.height !== _reducers_custom_stage_size__WEBPACK_IMPORTED_MODULE_7__["defaultStageSize"].height,
+      cloudHost: this.props.cloudHost,
+      onCloudHostChange: this.handleCloudHostChange,
+      customCloudVarServerEnabled: this.props.customCloudVarServerEnabled,
       onStoreProjectOptions: this.handleStoreProjectOptions
     }, props));
   }
@@ -38424,6 +38475,7 @@ class UsernameModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compone
 UsernameModal.propTypes = {
   intl: react_intl__WEBPACK_IMPORTED_MODULE_2__["intlShape"],
   onClose: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func,
+  onSetCloudHost: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func,
   vm: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
     renderer: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
       setUseHighQualityRender: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func
@@ -38447,6 +38499,8 @@ UsernameModal.propTypes = {
     width: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
     height: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }),
+  cloudHost: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
+  customCloudVarServerEnabled: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool,
   disableCompiler: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool
 };
 const mapStateToProps = state => ({
@@ -38460,9 +38514,12 @@ const mapStateToProps = state => ({
   removeLimits: !state.scratchGui.tw.runtimeOptions.miscLimits,
   warpTimer: state.scratchGui.tw.compilerOptions.warpTimer,
   customStageSize: state.scratchGui.customStageSize,
+  cloudHost: state.scratchGui.tw.cloudHost,
+  customCloudVarServerEnabled: state.scratchGui.tw.cloud,
   disableCompiler: !state.scratchGui.tw.compilerOptions.enabled
 });
 const mapDispatchToProps = dispatch => ({
+  onSetCloudHost: cloudHost => dispatch(Object(_reducers_tw_js__WEBPACK_IMPORTED_MODULE_8__["setCloudHost"])(cloudHost)),
   onClose: () => dispatch(Object(_reducers_modals__WEBPACK_IMPORTED_MODULE_5__["closeSettingsModal"])())
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["injectIntl"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps, mapDispatchToProps)(UsernameModal)));
@@ -49736,7 +49793,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tw_username__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tw-username */ "./src/lib/tw-username.js");
 /* harmony import */ var _tw_navigation_utils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tw-navigation-utils */ "./src/lib/tw-navigation-utils.js");
 /* harmony import */ var _reducers_custom_stage_size__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/custom-stage-size */ "./src/reducers/custom-stage-size.js");
-const _excluded = ["intl", "customStageSize", "isFullScreen", "isPlayerOnly", "isEmbedded", "projectChanged", "compilerOptions", "runtimeOptions", "highQualityPen", "framerate", "interpolation", "turbo", "onSetIsFullScreen", "onSetIsPlayerOnly", "onSetProjectId", "onSetUsername", "reduxProjectId", "routingStyle", "username", "vm"];
+const _excluded = ["intl", "customStageSize", "cloudHost", "isFullScreen", "isPlayerOnly", "isEmbedded", "projectChanged", "compilerOptions", "runtimeOptions", "highQualityPen", "framerate", "interpolation", "turbo", "onSetIsFullScreen", "onSetIsPlayerOnly", "onSetProjectId", "onSetUsername", "reduxProjectId", "routingStyle", "username", "vm"];
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
 
@@ -50083,7 +50140,7 @@ const TWStateManager = function TWStateManager(WrappedComponent) {
           history.pushState(null, null, newPath);
         }
       }
-      if (this.props.customStageSize !== prevProps.customStageSize || this.props.runtimeOptions !== prevProps.runtimeOptions || this.props.compilerOptions !== prevProps.compilerOptions || this.props.highQualityPen !== prevProps.highQualityPen || this.props.framerate !== prevProps.framerate || this.props.interpolation !== prevProps.interpolation || this.props.turbo !== prevProps.turbo) {
+      if (this.props.customStageSize !== prevProps.customStageSize || this.props.cloudHost !== prevProps.cloudHost || this.props.runtimeOptions !== prevProps.runtimeOptions || this.props.compilerOptions !== prevProps.compilerOptions || this.props.highQualityPen !== prevProps.highQualityPen || this.props.framerate !== prevProps.framerate || this.props.interpolation !== prevProps.interpolation || this.props.turbo !== prevProps.turbo) {
         const searchParams = new URLSearchParams(location.search);
         const runtimeOptions = this.props.runtimeOptions;
         const compilerOptions = this.props.compilerOptions;
@@ -50098,6 +50155,11 @@ const TWStateManager = function TWStateManager(WrappedComponent) {
           searchParams.delete('size');
         } else {
           searchParams.set('size', "".concat(width, "x").concat(height));
+        }
+        if (this.props.cloudHost == 'wss://clouddata.turbowarp.org') {
+          searchParams.delete('cloud_host');
+        } else {
+          searchParams.set('cloud_host', this.props.cloudHost);
         }
         if (this.props.framerate === 30) {
           searchParams.delete('fps');
@@ -50183,6 +50245,7 @@ const TWStateManager = function TWStateManager(WrappedComponent) {
           /* eslint-disable no-unused-vars */
           intl,
           customStageSize,
+          cloudHost,
           isFullScreen,
           isPlayerOnly,
           isEmbedded,
@@ -50213,6 +50276,7 @@ const TWStateManager = function TWStateManager(WrappedComponent) {
       width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
       height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
     }),
+    cloudHost: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
     isFullScreen: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
     isPlayerOnly: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
     isEmbedded: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
@@ -50245,6 +50309,7 @@ const TWStateManager = function TWStateManager(WrappedComponent) {
   };
   const mapStateToProps = state => ({
     customStageSize: state.scratchGui.customStageSize,
+    cloudHost: state.scratchGui.tw.cloudHost,
     isFullScreen: state.scratchGui.mode.isFullScreen,
     isPlayerOnly: state.scratchGui.mode.isPlayerOnly,
     isEmbedded: state.scratchGui.mode.isEmbedded,
