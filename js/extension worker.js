@@ -2291,6 +2291,10 @@ const ArgumentType = {
    */
   BOOLEAN: 'Boolean',
   /**
+   * Array value with square placeholder
+   */
+  ARRAY: 'Array',
+  /**
    * Numeric value with color picker
    */
   COLOR: 'color',
@@ -2378,6 +2382,10 @@ const BlockType = {
    * General reporter with numeric or string value
    */
   REPORTER: 'reporter',
+  /**
+   * Array reporter with square shape
+   */
+  ARRAY: 'array',
   /**
    * Arbitrary scratch-blocks XML.
    */
@@ -3081,6 +3089,23 @@ class Cast {
    */
   static toString(value) {
     return String(value);
+  }
+
+  /**
+   * Scratch cast to array.
+   * @param {*} value Value to cast to array.
+   * @return {Array} The Scratch-casted array value.
+   */
+  static toList(value) {
+    if (Array.isArray(value)) {
+      return value;
+    }
+    try {
+      const result = JSON.parse(value);
+      return Array.isArray(result) ? result : [];
+    } catch (_unused) {
+      return [];
+    }
   }
 
   /**

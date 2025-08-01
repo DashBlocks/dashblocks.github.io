@@ -10,7 +10,7 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\n    <title>fill-horz-gradient-enabled</title>\n    <desc>Created with Sketch.</desc>\n    <defs>\n        <linearGradient x1=\"100%\" y1=\"50%\" x2=\"0%\" y2=\"50%\" id=\"linearGradient-1\">\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\n        </linearGradient>\n    </defs>\n    <g id=\"fill-horz-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\n        <rect id=\"Horizontal\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-horz-gradient-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <linearGradient x1=\"100%\" y1=\"50%\" x2=\"0%\" y2=\"50%\" id=\"linearGradient-1\">\r\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\r\n        </linearGradient>\r\n    </defs>\r\n    <g id=\"fill-horz-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Horizontal\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\n    <title>fill-radial-enabled</title>\n    <desc>Created with Sketch.</desc>\n    <defs>\n        <radialGradient cx=\"50%\" cy=\"50%\" fx=\"50%\" fy=\"50%\" r=\"39.3896484%\" id=\"radialGradient-1\">\n            <stop stop-color=\"#855CD6\" offset=\"0%\"></stop>\n            <stop stop-color=\"#FFFFFF\" offset=\"100%\"></stop>\n        </radialGradient>\n    </defs>\n    <g id=\"fill-radial-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\n        <rect id=\"Radial\" stroke=\"#000000\" fill=\"url(#radialGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-radial-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <radialGradient cx=\"50%\" cy=\"50%\" fx=\"50%\" fy=\"50%\" r=\"39.3896484%\" id=\"radialGradient-1\">\r\n            <stop stop-color=\"#855CD6\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#FFFFFF\" offset=\"100%\"></stop>\r\n        </radialGradient>\r\n    </defs>\r\n    <g id=\"fill-radial-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Radial\" stroke=\"#000000\" fill=\"url(#radialGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\n    <title>fill-solid-enabled</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"fill-solid-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\n        <rect id=\"Solid\" stroke=\"#000000\" fill=\"#855CD6\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-solid-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"fill-solid-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Solid\" stroke=\"#000000\" fill=\"#855CD6\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -82,7 +82,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\n    <title>fill-vert-gradient-enabled</title>\n    <desc>Created with Sketch.</desc>\n    <defs>\n        <linearGradient x1=\"50%\" y1=\"100%\" x2=\"50%\" y2=\"3.061617e-15%\" id=\"linearGradient-1\">\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\n        </linearGradient>\n    </defs>\n    <g id=\"fill-vert-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\n        <rect id=\"Vertical\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->\r\n    <title>fill-vert-gradient-enabled</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs>\r\n        <linearGradient x1=\"50%\" y1=\"100%\" x2=\"50%\" y2=\"3.061617e-15%\" id=\"linearGradient-1\">\r\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\"></stop>\r\n            <stop stop-color=\"#855CD6\" offset=\"100%\"></stop>\r\n        </linearGradient>\r\n    </defs>\r\n    <g id=\"fill-vert-gradient-enabled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-opacity=\"0.15\">\r\n        <rect id=\"Vertical\" stroke=\"#000000\" fill=\"url(#linearGradient-1)\" x=\"0.5\" y=\"0.5\" width=\"19\" height=\"19\" rx=\"4\"></rect>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -106,7 +106,55 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\n    <title>swap</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"swap\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"Swap-v2\" transform=\"translate(2.000000, 2.000000)\" fill=\"#855CD6\">\n            <path d=\"M3.69424597,2.00682151 L7.95663608,2.66498231 C8.44536222,2.73588913 8.7900887,3.24405473 8.7176525,3.79585529 C8.66179809,4.24129561 8.34150792,4.58764819 7.95663608,4.64128284 L3.69424597,5.30126176 L3.69424597,6.79666856 C3.69424597,7.22392764 3.23781067,7.42846657 2.97250219,7.13483958 L0.120436084,3.97403142 C-0.0401453614,3.78767373 -0.0401453614,3.48404706 0.120436084,3.30587093 L2.97250219,0.135972153 C3.23781067,-0.157654834 3.69424597,0.0559747078 3.69424597,0.474143173 L3.69424597,2.00682151 Z M12.305754,10.7340942 L12.305754,9.2014159 C12.305754,8.78324744 12.7621893,8.56961789 13.0274978,8.86324488 L15.8795639,12.0331437 C16.0401454,12.2113198 16.0401454,12.5149465 15.8795639,12.7013041 L13.0274978,15.8621123 C12.7621893,16.1557393 12.305754,15.9512004 12.305754,15.5239413 L12.305754,14.0285345 L8.04336392,13.3685556 C7.65849208,13.3149209 7.33820191,12.9685683 7.2823475,12.523128 C7.2099113,11.9713275 7.55463778,11.4631619 8.04336392,11.392255 L12.305754,10.7340942 Z\" id=\"Swap-v1\"></path>\n            <path d=\"M11.2727273,1.45454545 L13.4545455,1.45454545 C14.0567273,1.45454545 14.5454545,1.94327273 14.5454545,2.54545455 L14.5454545,4.72727273 C14.5454545,5.33054545 14.0567273,5.81818182 13.4545455,5.81818182 L11.2727273,5.81818182 C10.6705455,5.81818182 10.1818182,5.33054545 10.1818182,4.72727273 L10.1818182,2.54545455 C10.1818182,1.94327273 10.6705455,1.45454545 11.2727273,1.45454545\" id=\"Fill-6\" fill-opacity=\"0.5\"></path>\n            <path d=\"M2.54545455,10.1818182 L4.72727273,10.1818182 C5.32945455,10.1818182 5.81818182,10.6705455 5.81818182,11.2727273 L5.81818182,13.4545455 C5.81818182,14.0578182 5.32945455,14.5454545 4.72727273,14.5454545 L2.54545455,14.5454545 C1.94327273,14.5454545 1.45454545,14.0578182 1.45454545,13.4545455 L1.45454545,11.2727273 C1.45454545,10.6705455 1.94327273,10.1818182 2.54545455,10.1818182\" id=\"Fill-6-Copy\" fill-opacity=\"0.5\"></path>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>swap</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"swap\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"Swap-v2\" transform=\"translate(2.000000, 2.000000)\" fill=\"#855CD6\">\r\n            <path d=\"M3.69424597,2.00682151 L7.95663608,2.66498231 C8.44536222,2.73588913 8.7900887,3.24405473 8.7176525,3.79585529 C8.66179809,4.24129561 8.34150792,4.58764819 7.95663608,4.64128284 L3.69424597,5.30126176 L3.69424597,6.79666856 C3.69424597,7.22392764 3.23781067,7.42846657 2.97250219,7.13483958 L0.120436084,3.97403142 C-0.0401453614,3.78767373 -0.0401453614,3.48404706 0.120436084,3.30587093 L2.97250219,0.135972153 C3.23781067,-0.157654834 3.69424597,0.0559747078 3.69424597,0.474143173 L3.69424597,2.00682151 Z M12.305754,10.7340942 L12.305754,9.2014159 C12.305754,8.78324744 12.7621893,8.56961789 13.0274978,8.86324488 L15.8795639,12.0331437 C16.0401454,12.2113198 16.0401454,12.5149465 15.8795639,12.7013041 L13.0274978,15.8621123 C12.7621893,16.1557393 12.305754,15.9512004 12.305754,15.5239413 L12.305754,14.0285345 L8.04336392,13.3685556 C7.65849208,13.3149209 7.33820191,12.9685683 7.2823475,12.523128 C7.2099113,11.9713275 7.55463778,11.4631619 8.04336392,11.392255 L12.305754,10.7340942 Z\" id=\"Swap-v1\"></path>\r\n            <path d=\"M11.2727273,1.45454545 L13.4545455,1.45454545 C14.0567273,1.45454545 14.5454545,1.94327273 14.5454545,2.54545455 L14.5454545,4.72727273 C14.5454545,5.33054545 14.0567273,5.81818182 13.4545455,5.81818182 L11.2727273,5.81818182 C10.6705455,5.81818182 10.1818182,5.33054545 10.1818182,4.72727273 L10.1818182,2.54545455 C10.1818182,1.94327273 10.6705455,1.45454545 11.2727273,1.45454545\" id=\"Fill-6\" fill-opacity=\"0.5\"></path>\r\n            <path d=\"M2.54545455,10.1818182 L4.72727273,10.1818182 C5.32945455,10.1818182 5.81818182,10.6705455 5.81818182,11.2727273 L5.81818182,13.4545455 C5.81818182,14.0578182 5.32945455,14.5454545 4.72727273,14.5454545 L2.54545455,14.5454545 C1.94327273,14.5454545 1.45454545,14.0578182 1.45454545,13.4545455 L1.45454545,11.2727273 C1.45454545,10.6705455 1.94327273,10.1818182 2.54545455,10.1818182\" id=\"Fill-6-Copy\" fill-opacity=\"0.5\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4\"></path></svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg":
+/*!******************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#855cd6\"><path d=\"M 18 10 h -4 H 6 a 2 2 0 0 0 0 4 L 18 14 a 2 2 0 0 0 0 -4\"></path></svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -130,7 +178,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"8px\" height=\"5px\" viewBox=\"0 0 8 5\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>dropdown-caret</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"dropdown-caret\" fill=\"#855CD6\">\n            <path d=\"M4,5 C3.72520708,5 3.45163006,4.89695045 3.24127973,4.68965311 L0.314613572,1.80666227 C-0.104871191,1.39326583 -0.104871191,0.724642023 0.314613572,0.310047331 C0.732882438,-0.10334911 7.26711756,-0.10334911 7.68538643,0.310047331 C8.10487119,0.723443772 8.10487119,1.39326583 7.68538643,1.80666227 L4.75993617,4.68965311 C4.54958583,4.89695045 4.27600882,5 4,5\"></path>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"8px\" height=\"5px\" viewBox=\"0 0 8 5\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>dropdown-caret</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"dropdown-caret\" fill=\"#855CD6\">\r\n            <path d=\"M4,5 C3.72520708,5 3.45163006,4.89695045 3.24127973,4.68965311 L0.314613572,1.80666227 C-0.104871191,1.39326583 -0.104871191,0.724642023 0.314613572,0.310047331 C0.732882438,-0.10334911 7.26711756,-0.10334911 7.68538643,0.310047331 C8.10487119,0.723443772 8.10487119,1.39326583 7.68538643,1.80666227 L4.75993617,4.68965311 C4.54958583,4.89695045 4.27600882,5 4,5\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -154,7 +202,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>group</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"group\" stroke-width=\"0.75\">\n            <g id=\"group-icon\" transform=\"translate(2.000000, 2.000000)\">\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"0\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"13\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\n                <path d=\"M1.5,3 L1.5,13\" id=\"Line\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\n                <path d=\"M14.5,3 L14.5,13\" id=\"Line-Copy\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\n                <path d=\"M13,1.5 L3,1.5\" id=\"Line-Copy-2\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\n                <path d=\"M13,14.5 L3,14.5\" id=\"Line-Copy-3\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\n                <g id=\"Group\" transform=\"translate(8.000000, 8.000000) rotate(180.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)\" stroke=\"#575E75\">\n                    <rect id=\"Rectangle-3-Copy\" fill=\"#FFFFFF\" transform=\"translate(5.500000, 5.500000) rotate(180.000000) translate(-5.500000, -5.500000) \" x=\"3\" y=\"3\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\n                    <rect id=\"Rectangle-3\" fill=\"#575E75\" transform=\"translate(2.500000, 2.500000) rotate(180.000000) translate(-2.500000, -2.500000) \" x=\"0\" y=\"0\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\n                </g>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>group</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"group\" stroke-width=\"0.75\">\r\n            <g id=\"group-icon\" transform=\"translate(2.000000, 2.000000)\">\r\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <path d=\"M1.5,3 L1.5,13\" id=\"Line\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M14.5,3 L14.5,13\" id=\"Line-Copy\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M13,1.5 L3,1.5\" id=\"Line-Copy-2\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <path d=\"M13,14.5 L3,14.5\" id=\"Line-Copy-3\" stroke=\"#855CD6\" stroke-linecap=\"square\"></path>\r\n                <g id=\"Group\" transform=\"translate(8.000000, 8.000000) rotate(180.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)\" stroke=\"#575E75\">\r\n                    <rect id=\"Rectangle-3-Copy\" fill=\"#FFFFFF\" transform=\"translate(5.500000, 5.500000) rotate(180.000000) translate(-5.500000, -5.500000) \" x=\"3\" y=\"3\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\r\n                    <rect id=\"Rectangle-3\" fill=\"#575E75\" transform=\"translate(2.500000, 2.500000) rotate(180.000000) translate(-2.500000, -2.500000) \" x=\"0\" y=\"0\" width=\"5\" height=\"5\" rx=\"0.5\"></rect>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -178,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>redo</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"redo\" fill=\"#855CD6\">\n            <path d=\"M17.5581635,12.7700651 L13.8403972,16.4941315 C13.5610922,16.7671364 13.1830854,16.9211391 12.7903784,16.9211391 C12.3990715,16.9211391 12.0210647,16.7671364 11.7403597,16.4941315 L8.02399342,12.7700651 C7.5969858,12.3430574 7.47098355,11.7060461 7.70198767,11.1530362 C7.93299179,10.6000263 8.46500128,10.24302 9.06701202,10.24302 L10.4040359,10.24302 C10.3690352,9.92101423 10.2780336,9.55700774 10.1240309,9.17200087 C10.07573,9.05999887 10.0260291,8.94799688 9.97002813,8.83599488 C9.89302676,8.70999263 9.90072689,8.67499201 9.79502501,8.52098926 C9.62702201,8.26898476 9.47301926,8.07998139 9.29031601,7.86297752 C8.9200094,7.4639704 8.47200141,7.12096429 7.99599292,6.86895979 C7.5129843,6.6169553 7.00897531,6.46295255 6.56096732,6.37895105 C6.11995945,6.30194968 5.71395221,6.29494955 5.47594796,6.29494955 C5.35694584,6.28794943 5.2029431,6.31594993 5.12594172,6.32295005 C5.04194022,6.32995018 4.99293935,6.3369503 4.99293935,6.3369503 C4.49593048,6.38595117 4.04792249,6.02194468 3.99892162,5.52493582 C3.95692087,5.10492832 4.20192524,4.72692158 4.57293186,4.58691908 C4.57293186,4.58691908 4.62193273,4.56591871 4.6989341,4.53791821 C4.78993573,4.50991771 4.87393723,4.46091684 5.06994072,4.40491584 C5.46194772,4.28591371 5.95895658,4.15991147 6.60996819,4.09691034 C7.25397968,4.04090934 8.03099354,4.05490959 8.85070816,4.22291259 C9.66902276,4.39791571 10.5300381,4.72692158 11.3280524,5.20293007 C11.7060591,5.44793444 12.1120663,5.73493956 12.427072,6.01494456 C12.5670745,6.11994643 12.8050787,6.35795068 12.9450812,6.5049533 C13.1060841,6.67295629 13.2530867,6.84095929 13.4007893,7.01596241 C13.9670994,7.7159749 14.3871069,8.47198839 14.6601118,9.15800062 C14.8211147,9.55000762 14.9331167,9.92101423 15.0171182,10.24302 L16.5151449,10.24302 C17.1171556,10.24302 17.6491651,10.6000263 17.8801692,11.1530362 C18.1111734,11.7060461 17.9851711,12.3430574 17.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(10.994247, 10.494247) rotate(-45.000000) translate(-10.994247, -10.494247) \"></path>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>redo</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"redo\" fill=\"#855CD6\">\r\n            <path d=\"M17.5581635,12.7700651 L13.8403972,16.4941315 C13.5610922,16.7671364 13.1830854,16.9211391 12.7903784,16.9211391 C12.3990715,16.9211391 12.0210647,16.7671364 11.7403597,16.4941315 L8.02399342,12.7700651 C7.5969858,12.3430574 7.47098355,11.7060461 7.70198767,11.1530362 C7.93299179,10.6000263 8.46500128,10.24302 9.06701202,10.24302 L10.4040359,10.24302 C10.3690352,9.92101423 10.2780336,9.55700774 10.1240309,9.17200087 C10.07573,9.05999887 10.0260291,8.94799688 9.97002813,8.83599488 C9.89302676,8.70999263 9.90072689,8.67499201 9.79502501,8.52098926 C9.62702201,8.26898476 9.47301926,8.07998139 9.29031601,7.86297752 C8.9200094,7.4639704 8.47200141,7.12096429 7.99599292,6.86895979 C7.5129843,6.6169553 7.00897531,6.46295255 6.56096732,6.37895105 C6.11995945,6.30194968 5.71395221,6.29494955 5.47594796,6.29494955 C5.35694584,6.28794943 5.2029431,6.31594993 5.12594172,6.32295005 C5.04194022,6.32995018 4.99293935,6.3369503 4.99293935,6.3369503 C4.49593048,6.38595117 4.04792249,6.02194468 3.99892162,5.52493582 C3.95692087,5.10492832 4.20192524,4.72692158 4.57293186,4.58691908 C4.57293186,4.58691908 4.62193273,4.56591871 4.6989341,4.53791821 C4.78993573,4.50991771 4.87393723,4.46091684 5.06994072,4.40491584 C5.46194772,4.28591371 5.95895658,4.15991147 6.60996819,4.09691034 C7.25397968,4.04090934 8.03099354,4.05490959 8.85070816,4.22291259 C9.66902276,4.39791571 10.5300381,4.72692158 11.3280524,5.20293007 C11.7060591,5.44793444 12.1120663,5.73493956 12.427072,6.01494456 C12.5670745,6.11994643 12.8050787,6.35795068 12.9450812,6.5049533 C13.1060841,6.67295629 13.2530867,6.84095929 13.4007893,7.01596241 C13.9670994,7.7159749 14.3871069,8.47198839 14.6601118,9.15800062 C14.8211147,9.55000762 14.9331167,9.92101423 15.0171182,10.24302 L16.5151449,10.24302 C17.1171556,10.24302 17.6491651,10.6000263 17.8801692,11.1530362 C18.1111734,11.7060461 17.9851711,12.3430574 17.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(10.994247, 10.494247) rotate(-45.000000) translate(-10.994247, -10.494247) \"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -202,7 +250,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-back</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"send-back\">\n            <g transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-back</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-back\">\r\n            <g transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -226,7 +274,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-backward</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"send-backward\">\n            <g id=\"send-forward\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-backward</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-backward\">\r\n            <g id=\"send-forward\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -250,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-forward</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"send-forward\">\n            <g transform=\"translate(2.000000, 3.000000)\">\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-forward</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-forward\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -274,7 +322,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-front</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"send-front\">\n            <g transform=\"translate(2.000000, 3.000000)\">\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>send-front</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"send-front\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <path d=\"M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723\" id=\"Fill-1\" fill=\"#855CD6\"></path>\r\n                <path d=\"M12,8 L16,8\" id=\"Stroke-6\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,10 L15,10\" id=\"Stroke-6-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M12,12 L14,12\" id=\"Stroke-6-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M0,8 L4,8\" id=\"Stroke-10\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M1,10 L4,10\" id=\"Stroke-10-Copy\" stroke=\"#575E75\" opacity=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n                <path d=\"M2,12 L4,12\" id=\"Stroke-10-Copy-2\" stroke=\"#575E75\" opacity=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -298,7 +346,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>undo</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"undo\" fill=\"#855CD6\">\n            <path d=\"M15.5581635,12.7700651 L11.8403972,16.4941315 C11.5610922,16.7671364 11.1830854,16.9211391 10.7903784,16.9211391 C10.3990715,16.9211391 10.0210647,16.7671364 9.74035971,16.4941315 L6.02399342,12.7700651 C5.5969858,12.3430574 5.47098355,11.7060461 5.70198767,11.1530362 C5.93299179,10.6000263 6.46500128,10.24302 7.06701202,10.24302 L8.40403587,10.24302 C8.36903525,9.92101423 8.27803362,9.55700774 8.12403088,9.17200087 C8.07573002,9.05999887 8.02602913,8.94799688 7.97002813,8.83599488 C7.89302676,8.70999263 7.90072689,8.67499201 7.79502501,8.52098926 C7.62702201,8.26898476 7.47301926,8.07998139 7.29031601,7.86297752 C6.9200094,7.4639704 6.47200141,7.12096429 5.99599292,6.86895979 C5.5129843,6.6169553 5.00897531,6.46295255 4.56096732,6.37895105 C4.11995945,6.30194968 3.71395221,6.29494955 3.47594796,6.29494955 C3.35694584,6.28794943 3.2029431,6.31594993 3.12594172,6.32295005 C3.04194022,6.32995018 2.99293935,6.3369503 2.99293935,6.3369503 C2.49593048,6.38595117 2.04792249,6.02194468 1.99892162,5.52493582 C1.95692087,5.10492832 2.20192524,4.72692158 2.57293186,4.58691908 C2.57293186,4.58691908 2.62193273,4.56591871 2.6989341,4.53791821 C2.78993573,4.50991771 2.87393723,4.46091684 3.06994072,4.40491584 C3.46194772,4.28591371 3.95895658,4.15991147 4.60996819,4.09691034 C5.25397968,4.04090934 6.03099354,4.05490959 6.85070816,4.22291259 C7.66902276,4.39791571 8.53003812,4.72692158 9.32805235,5.20293007 C9.7060591,5.44793444 10.1120663,5.73493956 10.427072,6.01494456 C10.5670745,6.11994643 10.8050787,6.35795068 10.9450812,6.5049533 C11.1060841,6.67295629 11.2530867,6.84095929 11.4007893,7.01596241 C11.9670994,7.7159749 12.3871069,8.47198839 12.6601118,9.15800062 C12.8211147,9.55000762 12.9331167,9.92101423 13.0171182,10.24302 L14.5151449,10.24302 C15.1171556,10.24302 15.6491651,10.6000263 15.8801692,11.1530362 C16.1111734,11.7060461 15.9851711,12.3430574 15.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(8.994247, 10.494247) scale(-1, 1) rotate(-45.000000) translate(-8.994247, -10.494247) \"></path>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>undo</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"undo\" fill=\"#855CD6\">\r\n            <path d=\"M15.5581635,12.7700651 L11.8403972,16.4941315 C11.5610922,16.7671364 11.1830854,16.9211391 10.7903784,16.9211391 C10.3990715,16.9211391 10.0210647,16.7671364 9.74035971,16.4941315 L6.02399342,12.7700651 C5.5969858,12.3430574 5.47098355,11.7060461 5.70198767,11.1530362 C5.93299179,10.6000263 6.46500128,10.24302 7.06701202,10.24302 L8.40403587,10.24302 C8.36903525,9.92101423 8.27803362,9.55700774 8.12403088,9.17200087 C8.07573002,9.05999887 8.02602913,8.94799688 7.97002813,8.83599488 C7.89302676,8.70999263 7.90072689,8.67499201 7.79502501,8.52098926 C7.62702201,8.26898476 7.47301926,8.07998139 7.29031601,7.86297752 C6.9200094,7.4639704 6.47200141,7.12096429 5.99599292,6.86895979 C5.5129843,6.6169553 5.00897531,6.46295255 4.56096732,6.37895105 C4.11995945,6.30194968 3.71395221,6.29494955 3.47594796,6.29494955 C3.35694584,6.28794943 3.2029431,6.31594993 3.12594172,6.32295005 C3.04194022,6.32995018 2.99293935,6.3369503 2.99293935,6.3369503 C2.49593048,6.38595117 2.04792249,6.02194468 1.99892162,5.52493582 C1.95692087,5.10492832 2.20192524,4.72692158 2.57293186,4.58691908 C2.57293186,4.58691908 2.62193273,4.56591871 2.6989341,4.53791821 C2.78993573,4.50991771 2.87393723,4.46091684 3.06994072,4.40491584 C3.46194772,4.28591371 3.95895658,4.15991147 4.60996819,4.09691034 C5.25397968,4.04090934 6.03099354,4.05490959 6.85070816,4.22291259 C7.66902276,4.39791571 8.53003812,4.72692158 9.32805235,5.20293007 C9.7060591,5.44793444 10.1120663,5.73493956 10.427072,6.01494456 C10.5670745,6.11994643 10.8050787,6.35795068 10.9450812,6.5049533 C11.1060841,6.67295629 11.2530867,6.84095929 11.4007893,7.01596241 C11.9670994,7.7159749 12.3871069,8.47198839 12.6601118,9.15800062 C12.8211147,9.55000762 12.9331167,9.92101423 13.0171182,10.24302 L14.5151449,10.24302 C15.1171556,10.24302 15.6491651,10.6000263 15.8801692,11.1530362 C16.1111734,11.7060461 15.9851711,12.3430574 15.5581635,12.7700651\" id=\"Fill-1\" transform=\"translate(8.994247, 10.494247) scale(-1, 1) rotate(-45.000000) translate(-8.994247, -10.494247) \"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -322,7 +370,55 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>ungroup</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"ungroup\" stroke-width=\"0.75\">\n            <g id=\"ungroup-icon\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 2.000000)\">\n                <rect id=\"Rectangle-3-Copy\" stroke=\"#575E75\" fill=\"#FFFFFF\" x=\"6.5\" y=\"6.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\n                <rect id=\"Rectangle-3\" stroke=\"#575E75\" fill=\"#575E75\" x=\"1.5\" y=\"1.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"0\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"8\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"8\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-4\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"5\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-5\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\n                <rect id=\"Rectangle-2-Copy-6\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"5\" y=\"13\" width=\"3\" height=\"3\"></rect>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>ungroup</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"ungroup\" stroke-width=\"0.75\">\r\n            <g id=\"ungroup-icon\" transform=\"translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 2.000000)\">\r\n                <rect id=\"Rectangle-3-Copy\" stroke=\"#575E75\" fill=\"#FFFFFF\" x=\"6.5\" y=\"6.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\r\n                <rect id=\"Rectangle-3\" stroke=\"#575E75\" fill=\"#575E75\" x=\"1.5\" y=\"1.5\" width=\"8\" height=\"8\" rx=\"0.5\"></rect>\r\n                <rect id=\"Rectangle-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-2\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"0\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"0\" y=\"8\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-3\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"8\" y=\"8\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-4\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"5\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-5\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n                <rect id=\"Rectangle-2-Copy-6\" stroke=\"#855CD6\" fill=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x=\"5\" y=\"13\" width=\"3\" height=\"3\"></rect>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"bevel\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14.5\"\r\n    height=\"14.5\" viewBox=\"0,0,14.5,14.5\">\r\n    <g transform=\"translate(-232.75,-172.75)\">\r\n        <g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill-rule=\"evenodd\" stroke=\"none\" stroke-width=\"1\"\r\n            stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\"\r\n            stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\">\r\n            <path\r\n                d=\"M246.25,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M233.75,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M243.125,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M240,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M236.875,179c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1c0,-0.55229 0.44771,-1 1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,173.75c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,186.25c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,176.875c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M239,183.125c0,-0.55229 0.44771,-1 1,-1c0.55229,0 1,0.44771 1,1c0,0.55229 -0.44771,1 -1,1c-0.55229,0 -1,-0.44771 -1,-1z\"\r\n                fill=\"#575e75\" opacity=\"0.5\" />\r\n            <path\r\n                d=\"M242.20833,175.54167c0,-1.24264 1.00736,-2.25 2.25,-2.25c1.24264,0 2.25,1.00736 2.25,2.25c0,1.24264 -1.00736,2.25 -2.25,2.25c-1.24264,0 -2.25,-1.00736 -2.25,-2.25z\"\r\n                fill=\"#855CD6\" />\r\n            <path\r\n                d=\"M233.20834,184.45833c0,-1.28866 1.04467,-2.33333 2.33333,-2.33333c1.28866,0 2.33333,1.04467 2.33333,2.33333c0,1.28866 -1.04467,2.33333 -2.33333,2.33333c-1.28866,0 -2.33333,-1.04467 -2.33333,-2.33333z\"\r\n                fill=\"#855CD6\" />\r\n        </g>\r\n    </g>\r\n</svg><!--rotationCenter:7.25:7.25-->\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -346,7 +442,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\n    <title>copy v2</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"copy-v2\">\n            <g id=\"copy\" transform=\"translate(3.000000, 2.000000)\">\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" points=\"0.503173828 3 0.503173828 15.5 13 15.5\"></polyline>\n                <path d=\"M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\n                <path d=\"M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\n                <path d=\"M9.8115942,9.1884058 L8.6884058,9.1884058 L8.6884058,10.3115942 C8.6884058,10.6859903 8.38647343,11 8,11 C7.61352657,11 7.3115942,10.6859903 7.3115942,10.3115942 L7.3115942,9.1884058 L6.1884058,9.1884058 C5.81400966,9.1884058 5.5,8.88647343 5.5,8.5 C5.5,8.11352657 5.81400966,7.8115942 6.1884058,7.8115942 L7.3115942,7.8115942 L7.3115942,6.6884058 C7.3115942,6.31280193 7.61352657,6 8,6 C8.38647343,6 8.6884058,6.31280193 8.6884058,6.6884058 L8.6884058,7.8115942 L9.8115942,7.8115942 C10.1859903,7.8115942 10.5,8.11352657 10.5,8.5 C10.5,8.88647343 10.1859903,9.1884058 9.8115942,9.1884058 Z\" id=\"Fill-1\" stroke=\"#FFFFFF\" stroke-width=\"0.25\" fill=\"#FFFFFF\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>copy v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" points=\"0.503173828 3 0.503173828 15.5 13 15.5\"></polyline>\r\n                <path d=\"M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path d=\"M9.8115942,9.1884058 L8.6884058,9.1884058 L8.6884058,10.3115942 C8.6884058,10.6859903 8.38647343,11 8,11 C7.61352657,11 7.3115942,10.6859903 7.3115942,10.3115942 L7.3115942,9.1884058 L6.1884058,9.1884058 C5.81400966,9.1884058 5.5,8.88647343 5.5,8.5 C5.5,8.11352657 5.81400966,7.8115942 6.1884058,7.8115942 L7.3115942,7.8115942 L7.3115942,6.6884058 C7.3115942,6.31280193 7.61352657,6 8,6 C8.38647343,6 8.6884058,6.31280193 8.6884058,6.6884058 L8.6884058,7.8115942 L9.8115942,7.8115942 C10.1859903,7.8115942 10.5,8.11352657 10.5,8.5 C10.5,8.88647343 10.1859903,9.1884058 9.8115942,9.1884058 Z\" id=\"Fill-1\" stroke=\"#FFFFFF\" stroke-width=\"0.25\" fill=\"#FFFFFF\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -370,7 +466,31 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>curved-point</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"curved-point\">\n            <path d=\"M2,15 C2,10.5818452 5.58151214,7 10.000744,7 C14.4184879,7 18,10.5818452 18,15\" id=\"Stroke-3\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" fill=\"#855CD6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            <path d=\"M3,7 L17,7\" id=\"Stroke-7\" stroke=\"#855CD6\" stroke-width=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\n            <circle id=\"Oval-4\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\n            <circle id=\"Oval-5\" fill=\"#855CD6\" cx=\"3\" cy=\"7\" r=\"1\"></circle>\n            <circle id=\"Oval-5-Copy\" fill=\"#855CD6\" cx=\"17\" cy=\"7\" r=\"1\"></circle>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>curved-point</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"curved-point\">\r\n            <path d=\"M2,15 C2,10.5818452 5.58151214,7 10.000744,7 C14.4184879,7 18,10.5818452 18,15\" id=\"Stroke-3\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" fill=\"#855CD6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            <path d=\"M3,7 L17,7\" id=\"Stroke-7\" stroke=\"#855CD6\" stroke-width=\"0.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\r\n            <circle id=\"Oval-4\" fill=\"#855CD6\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\r\n            <circle id=\"Oval-5\" fill=\"#855CD6\" cx=\"3\" cy=\"7\" r=\"1\"></circle>\r\n            <circle id=\"Oval-5-Copy\" fill=\"#855CD6\" cx=\"17\" cy=\"7\" r=\"1\"></circle>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg":
+/*!************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>copy v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" points=\"0.503173828 3 0.503173828 15.5 13 15.5\"></polyline>\r\n                <path d=\"M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path transform=\"translate(3,3) scale(0.5)\" d=\"M6.54210671,14.8773591 C6.54210671,15.6756813 5.89668548,16.3230878 5.11194905,16.3230878 C4.31632862,16.3230878 3.6709074,15.6756813 3.6709074,14.8773591 C3.6709074,14.086692 4.31632862,13.440379 5.11194905,13.440379 C5.89668548,13.440379 6.54210671,14.086692 6.54210671,14.8773591 L6.54210671,14.8773591 Z M8.63401159,13.5836396 C8.82992359,13.3878866 8.82992359,13.0685577 8.63401159,12.8706175 L7.10916313,11.338495 C6.91216272,11.1405548 6.59434991,11.1405548 6.3984379,11.338495 L5.87709428,11.861232 C5.63546947,11.7912421 5.37425346,11.7595279 5.11194905,11.7595279 C3.39010019,11.7595279 2.00021333,13.1571387 2.00021333,14.8872014 C2.00021333,16.8414505 3.794985,18.3779474 5.83246988,17.9230131 C7.36929074,17.5796252 8.34776238,16.1568618 8.19973997,14.5820892 C8.18450237,14.4213311 8.15620397,14.2638539 8.11266797,14.1074702 L8.63401159,13.5836396 Z M6.54210671,5.11617453 C6.54210671,5.91559037 5.89668548,6.5629969 5.11194905,6.5629969 C4.31632862,6.5629969 3.6709074,5.91559037 3.6709074,5.11617453 C3.6709074,4.32660102 4.31632862,3.68028808 5.11194905,3.68028808 C5.89668548,3.68028808 6.54210671,4.32660102 6.54210671,5.11617453 M18.0021973,16.1706411 L17.9368933,16.235163 C16.926858,17.2500165 15.2877276,17.2500165 14.2766039,16.235163 L7.87898848,9.80702856 C7.70919807,9.6353346 7.70919807,9.3586558 7.87898848,9.18805543 L9.15785853,7.90199109 C9.32764893,7.73139072 9.60301414,7.73139072 9.77280455,7.90199109 L18.0021973,16.1706411 Z M18.0021973,3.82934469 L12.4045559,9.45368895 L10.5107398,7.54865148 L14.2766039,3.76482275 C15.2877276,2.74996927 16.926858,2.74996927 17.9368933,3.76482275 L18.0021973,3.82934469 Z M8.63401159,6.41864274 C8.82992359,6.61548933 8.82992359,6.93591182 8.63401159,7.1327584 L7.10916313,8.66488096 C6.91216272,8.86282113 6.59434991,8.86282113 6.3984379,8.66488096 L5.87709428,8.14214392 C5.63546947,8.21213382 5.37425346,8.2427544 5.11194905,8.2427544 C3.39010019,8.2427544 2.00021333,6.84623726 2.00021333,5.11617453 C2.00021333,3.16192542 3.794985,1.62542849 5.83246988,2.0814564 C7.36929074,2.42375074 8.34776238,3.84651408 8.19973997,5.42128673 C8.18450237,5.58313837 8.15620397,5.73842845 8.11266797,5.89590571 L8.63401159,6.41864274 Z M10.3929749,10.0447755 C10.3929749,10.2744298 10.2079469,10.4614341 9.97829448,10.4614341 C9.74973047,10.4614341 9.56361406,10.2744298 9.56361406,10.0447755 C9.56361406,9.81402755 9.74973047,9.62811689 9.97829448,9.62811689 C10.2079469,9.62811689 10.3929749,9.81402755 10.3929749,10.0447755 Z\" id=\"path-1\" fill=\"white\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -394,7 +514,31 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\n    <title>delete</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"delete\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"Delete-Icon\" transform=\"translate(2.000000, 1.500000)\" fill=\"#855CD6\" fill-rule=\"nonzero\">\n            <path d=\"M2,3.25 L14,3.25 C14.4437164,3.25 14.7904293,3.63311343 14.7462779,4.07462779 L13.6363275,15.1741315 C13.5468672,16.0687347 12.7940775,16.75 11.8950124,16.75 L4.10498756,16.75 C3.20592253,16.75 2.45313279,16.0687347 2.36367248,15.1741315 L1.25372211,4.07462779 C1.20957067,3.63311343 1.55628356,3.25 2,3.25 Z M8.75,12 L8.75,7 C8.75,6.58578644 8.41421356,6.25 8,6.25 C7.58578644,6.25 7.25,6.58578644 7.25,7 L7.25,12 C7.25,12.4142136 7.58578644,12.75 8,12.75 C8.41421356,12.75 8.75,12.4142136 8.75,12 Z M11.25,12 L11.25,7 C11.25,6.58578644 10.9142136,6.25 10.5,6.25 C10.0857864,6.25 9.75,6.58578644 9.75,7 L9.75,12 C9.75,12.4142136 10.0857864,12.75 10.5,12.75 C10.9142136,12.75 11.25,12.4142136 11.25,12 Z M6.25,12 L6.25,7 C6.25,6.58578644 5.91421356,6.25 5.5,6.25 C5.08578644,6.25 4.75,6.58578644 4.75,7 L4.75,12 C4.75,12.4142136 5.08578644,12.75 5.5,12.75 C5.91421356,12.75 6.25,12.4142136 6.25,12 Z M1.5,4 L14.5,4 L1.5,4 Z M1.5,3 L14.5,3 C15.0522847,3 15.5,3.44771525 15.5,4 C15.5,4.55228475 15.0522847,5 14.5,5 L1.5,5 C0.94771525,5 0.5,4.55228475 0.5,4 C0.5,3.44771525 0.94771525,3 1.5,3 Z M9.25,3.25 L9.25,2 C9.25,1.86192881 9.13807119,1.75 9,1.75 L7,1.75 C6.86192881,1.75 6.75,1.86192881 6.75,2 L6.75,3.25 L9.25,3.25 Z M7,0.25 L9,0.25 C9.96649831,0.25 10.75,1.03350169 10.75,2 L10.75,4.75 L5.25,4.75 L5.25,2 C5.25,1.03350169 6.03350169,0.25 7,0.25 Z\" id=\"Combined-Shape\"></path>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\r\n    <title>delete</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"delete\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"Delete-Icon\" transform=\"translate(2.000000, 1.500000)\" fill=\"#855CD6\" fill-rule=\"nonzero\">\r\n            <path d=\"M2,3.25 L14,3.25 C14.4437164,3.25 14.7904293,3.63311343 14.7462779,4.07462779 L13.6363275,15.1741315 C13.5468672,16.0687347 12.7940775,16.75 11.8950124,16.75 L4.10498756,16.75 C3.20592253,16.75 2.45313279,16.0687347 2.36367248,15.1741315 L1.25372211,4.07462779 C1.20957067,3.63311343 1.55628356,3.25 2,3.25 Z M8.75,12 L8.75,7 C8.75,6.58578644 8.41421356,6.25 8,6.25 C7.58578644,6.25 7.25,6.58578644 7.25,7 L7.25,12 C7.25,12.4142136 7.58578644,12.75 8,12.75 C8.41421356,12.75 8.75,12.4142136 8.75,12 Z M11.25,12 L11.25,7 C11.25,6.58578644 10.9142136,6.25 10.5,6.25 C10.0857864,6.25 9.75,6.58578644 9.75,7 L9.75,12 C9.75,12.4142136 10.0857864,12.75 10.5,12.75 C10.9142136,12.75 11.25,12.4142136 11.25,12 Z M6.25,12 L6.25,7 C6.25,6.58578644 5.91421356,6.25 5.5,6.25 C5.08578644,6.25 4.75,6.58578644 4.75,7 L4.75,12 C4.75,12.4142136 5.08578644,12.75 5.5,12.75 C5.91421356,12.75 6.25,12.4142136 6.25,12 Z M1.5,4 L14.5,4 L1.5,4 Z M1.5,3 L14.5,3 C15.0522847,3 15.5,3.44771525 15.5,4 C15.5,4.55228475 15.0522847,5 14.5,5 L1.5,5 C0.94771525,5 0.5,4.55228475 0.5,4 C0.5,3.44771525 0.94771525,3 1.5,3 Z M9.25,3.25 L9.25,2 C9.25,1.86192881 9.13807119,1.75 9,1.75 L7,1.75 C6.86192881,1.75 6.75,1.86192881 6.75,2 L6.75,3.25 L9.25,3.25 Z M7,0.25 L9,0.25 C9.96649831,0.25 10.75,1.03350169 10.75,2 L10.75,4.75 L5.25,4.75 L5.25,2 C5.25,1.03350169 6.03350169,0.25 7,0.25 Z\" id=\"Combined-Shape\"></path>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg":
+/*!***************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>mask</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <mask id=\"myMask\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"white\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                <rect x=\"2.6\" y=\"7.75\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"black\"></rect>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <mask id=\"myMask2\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"white\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"black\"></circle>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff80\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\" mask=\"url(#myMask)\"></circle>\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff\" mask=\"url(#myMask2)\"></rect>\r\n                    <!-- <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" rx=\"1\" fill=\"#00000080\"></rect>\r\n                    <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" rx=\"1\" fill=\"#ffffff\" mask=\"url(#myMask2)\"></rect> -->\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -418,7 +562,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>flip-horizontal</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"flip-horizontal\">\n            <g transform=\"translate(2.000000, 3.000000)\">\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>flip-horizontal</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"flip-horizontal\">\r\n            <g transform=\"translate(2.000000, 3.000000)\">\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\r\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\r\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -442,7 +586,79 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>flip-vertical</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"flip-vertical\">\n            <g id=\"flip-horizontal\" transform=\"translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>flip-vertical</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"flip-vertical\">\r\n            <g id=\"flip-horizontal\" transform=\"translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)\">\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"0.75\" r=\"1\"></circle>\r\n                <circle id=\"Oval\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"13.25\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"3.875\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-2\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"7\" r=\"1\"></circle>\r\n                <circle id=\"Oval-Copy-3\" fill=\"#575E75\" opacity=\"0.5\" cx=\"8\" cy=\"10.125\" r=\"1\"></circle>\r\n                <path d=\"M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423\" id=\"Fill-11\" fill=\"#855CD6\" opacity=\"0.5\"></path>\r\n                <path d=\"M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458\" id=\"Fill-14\" fill=\"#855CD6\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg":
+/*!*************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>mask</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <mask id=\"myMask\">\r\n        <!-- Everything under a white pixel will be visible -->\r\n        <rect x=\"0\" y=\"0\" width=\"20\" height=\"20\" fill=\"black\" />\r\n\r\n        <!-- Everything under a black pixel will be invisible -->\r\n        <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n            <g transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                <rect x=\"2.6\" y=\"7.75\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n            </g>\r\n        </g>\r\n    </mask>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"#ffffff80\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\" mask=\"url(#myMask)\"></circle>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg":
+/*!**************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>merge</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"white\"></circle>\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"miter\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -466,7 +682,79 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\n    <title>paste v2</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"paste-v2\">\n            <g id=\"paste\" transform=\"translate(3.000000, 2.000000)\">\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" transform=\"translate(6.748413, 6.750000) scale(1, -1) translate(-6.748413, -6.750000) \" points=\"0.5 0.5 0.5 13 12.9968262 13\"></polyline>\n                <path d=\"M2,3.00684547 C2,2.45078007 2.45303631,2 2.99703014,2 L10,2 L10,4.34995317 C10,5.26124887 10.7336617,6 11.6500468,6 L14,6 L14,15.0046024 C14,15.5543453 13.544239,16 12.9975267,16 L3.00247329,16 C2.44882258,16 2,15.5500512 2,14.9931545 L2,3.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\n                <path d=\"M11,2 L14,5 L11.9989566,5 C11.4472481,5 11,4.55733967 11,4.00104344 L11,2 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\n                <path d=\"M8.34791833,12.8771885 C8.26180668,12.9633001 8.14699113,13.0063559 8.03217559,13.0063559 C7.9030081,13.0063559 7.78819256,12.9633001 7.70208091,12.8771885 L5.86503222,11.0401398 C5.73586474,10.8966203 5.69280891,10.7100451 5.76456862,10.5378218 C5.83632834,10.3655985 5.99419971,10.2651349 6.18077497,10.2651349 L6.92707599,10.2651349 L7.28587456,7.66743321 C7.31457845,7.46650601 7.41504205,7.27993075 7.57291342,7.16511521 C7.73078479,7.03594773 7.94606393,6.97853995 8.13263919,7.00724384 C8.47708582,7.06321642 8.74977273,7.33733852 8.79282856,7.66743321 L9.16597907,10.2651349 L9.86922427,10.2651349 C10.0557995,10.2651349 10.2136709,10.3799504 10.2854306,10.5521737 C10.3571903,10.7100451 10.3141345,10.9109723 10.184967,11.0401398 L8.34791833,12.8771885 Z\" id=\"Fill-1\" fill=\"#FFFFFF\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>paste v2</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"paste-v2\">\r\n            <g id=\"paste\" transform=\"translate(3.000000, 2.000000)\">\r\n                <polyline id=\"Path-3\" stroke-opacity=\"0.5\" stroke=\"#575E75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"1,2\" transform=\"translate(6.748413, 6.750000) scale(1, -1) translate(-6.748413, -6.750000) \" points=\"0.5 0.5 0.5 13 12.9968262 13\"></polyline>\r\n                <path d=\"M2,3.00684547 C2,2.45078007 2.45303631,2 2.99703014,2 L10,2 L10,4.34995317 C10,5.26124887 10.7336617,6 11.6500468,6 L14,6 L14,15.0046024 C14,15.5543453 13.544239,16 12.9975267,16 L3.00247329,16 C2.44882258,16 2,15.5500512 2,14.9931545 L2,3.00684547 Z\" id=\"Rectangle-4\" fill=\"#855CD6\"></path>\r\n                <path d=\"M11,2 L14,5 L11.9989566,5 C11.4472481,5 11,4.55733967 11,4.00104344 L11,2 Z\" id=\"Rectangle-5\" fill=\"#855CD6\"></path>\r\n                <path d=\"M8.34791833,12.8771885 C8.26180668,12.9633001 8.14699113,13.0063559 8.03217559,13.0063559 C7.9030081,13.0063559 7.78819256,12.9633001 7.70208091,12.8771885 L5.86503222,11.0401398 C5.73586474,10.8966203 5.69280891,10.7100451 5.76456862,10.5378218 C5.83632834,10.3655985 5.99419971,10.2651349 6.18077497,10.2651349 L6.92707599,10.2651349 L7.28587456,7.66743321 C7.31457845,7.46650601 7.41504205,7.27993075 7.57291342,7.16511521 C7.73078479,7.03594773 7.94606393,6.97853995 8.13263919,7.00724384 C8.47708582,7.06321642 8.74977273,7.33733852 8.79282856,7.66743321 L9.16597907,10.2651349 L9.86922427,10.2651349 C10.0557995,10.2651349 10.2136709,10.3799504 10.2854306,10.5521737 C10.3571903,10.7100451 10.3141345,10.9109723 10.184967,11.0401398 L8.34791833,12.8771885 Z\" id=\"Fill-1\" fill=\"#FFFFFF\"></path>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg":
+/*!************************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" fill=\"#855CD6\" fill-opacity=\"0.25\" stroke-width=\"4\" stroke-linejoin=\"round\"><path d=\"M3,17 L10,3 L17,17\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg":
+/*!*******************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"round\" stroke=\"#855CD6\" stroke-width=\"6\"><path d=\"M3,17 L17,3\"/></g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg":
+/*!********************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg ***!
+  \********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<svg width=\"20px\" height=\"20px\" viewBox=\"0,0,20,20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <g stroke-linecap=\"butt\" stroke=\"#855CD6\" stroke-width=\"6\"><path d=\"M3,17 L17,3\"/></g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -490,7 +778,31 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>straight-point</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"straight-point\" fill=\"#855CD6\">\n            <polyline id=\"Path-2\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"2 15 10 7 18 15\"></polyline>\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\n            <circle id=\"Oval-4\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\n        </g>\n    </g>\n</svg>\n";
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\r\n    <title>straight-point</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"straight-point\" fill=\"#855CD6\">\r\n            <polyline id=\"Path-2\" stroke=\"#855CD6\" stroke-width=\"0.75\" fill-opacity=\"0.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"2 15 10 7 18 15\"></polyline>\r\n            <circle id=\"Oval-4\" fill-opacity=\"0.25\" cx=\"10\" cy=\"7\" r=\"3\"></circle>\r\n            <circle id=\"Oval-4\" cx=\"10\" cy=\"7\" r=\"2\"></circle>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
+
+    const getSRC = () => {
+        const recolored = typeof Recolor === 'object' ? (
+            original.replace(/#855cd6/gi, Recolor.primary)
+        ) : original;
+        return 'data:image/svg+xml;,' + encodeURIComponent(recolored);
+    };
+
+    /* harmony default export */ __webpack_exports__["default"] = (getSRC);
+
+
+/***/ }),
+
+/***/ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg":
+/*!*****************************************************************************************************************************!*\
+  !*** ../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+    const original = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\r\n    <title>subtract</title>\r\n    <desc>Created with Sketch.</desc>\r\n    <defs></defs>\r\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\r\n        <g id=\"copy-v2\">\r\n            <g id=\"copy\" transform=\"translate(0.000000, 0.000000)\">\r\n                <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#855CD6\"></circle>\r\n                <g id=\"copy\" transform=\"translate(1.000000, 1.000000) scale(0.9)\">\r\n                    <rect x=\"2.5\" y=\"8\" width=\"8.5\" height=\"8.5\" rx=\"1\" fill=\"white\"></rect>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#855CD6\"></circle>\r\n                    <circle cx=\"12.5\" cy=\"7.5\" r=\"5\" fill=\"#ffffff80\"></circle>\r\n                </g>\r\n            </g>\r\n        </g>\r\n    </g>\r\n</svg>\r\n";
 
     const getSRC = () => {
         const recolored = typeof Recolor === 'object' ? (
@@ -512,7 +824,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.27147c6da536247291f4.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.0b5a4422a603d9849871.js");
 };
 
 /***/ }),
@@ -62529,7 +62841,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_2fP99 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_2fP99:active {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.button_highlighted_2SR_W.button_button_2fP99 {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.button_mod-disabled_i1gjZ {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_i1gjZ:active {\n    background: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_2fP99 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_2fP99:active {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_highlighted_2SR_W.button_button_2fP99 {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_mod-disabled_i1gjZ {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_i1gjZ:active {\n    background: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62553,7 +62865,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.color-button_color-button_3Q_sy {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_YMqXc {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_YMqXc {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_YMqXc {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1FX6z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #575e75;\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1FX6z {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1FX6z {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_Q4JW6 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2XkDH:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.color-button_color-button_3Q_sy {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_YMqXc {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .color-button_color-button-swatch_YMqXc {\n    border-color: rgba(255, 255, 255, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_YMqXc {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_YMqXc {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1FX6z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: var(--paint-text-primary, #575e75);\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1FX6z {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1FX6z {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_Q4JW6 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2XkDH:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62583,7 +62895,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n\n    /* color-scheme: dark causes very strange issues */\n    color-scheme: light;\n}\n\n.Popover-body {\n    color: var(--paint-text-primary, #575e75);\n    background: var(--paint-popover-background, #FFFFFF);\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px var(--paint-ui-pane-border, #D9D9D9);\n            box-shadow: 0px 0px 8px 1px var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.Popover-tipShape {\n    fill: var(--paint-popover-background, #FFFFFF);\n    stroke: var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.color-picker_clickable_3WU-R {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1bfn0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_1F-KU {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    margin: 8px 8px 0 8px;\n}\n\n.color-picker_label-name_3Ohhm {\n    font-weight: bold;\n}\n\n.color-picker_divider_1rrhm {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    margin: 8px;\n}\n\n.color-picker_swap-button_1IHVI {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_1IxyF {\n    margin: 8px;\n}\n\n.color-picker_swatch_v12lU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_large-swatch-icon_1jo3W {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_VnybH {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_cOpcH {\n    border: 1px solid var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.color-picker_swatch-icon_sM_0v {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_picker-icon_16nsr {\n    -webkit-filter: var(--paint-filter-icon-gray, none);\n            filter: var(--paint-filter-icon-gray, none);\n}\n\n.color-picker_inactive-gradient_1IOdw {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2lMgC {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2u1cR {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_1ykn1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-color_3BecP {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n}\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_3WU-R {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1bfn0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_1F-KU {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: var(--paint-text-primary, #575e75);\n    margin: 8px 8px 0 8px;\n}\n\n[theme=\"dark\"] .color-picker_row-header_1F-KU {\n    color: #ccc;\n}\n\n.color-picker_label-name_3Ohhm {\n    font-weight: bold;\n}\n\n.color-picker_divider_1rrhm {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n[theme=\"dark\"] .color-picker_divider_1rrhm {\n    border-color: #333;\n}\n\n.color-picker_swap-button_1IHVI {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_1IxyF {\n    margin: 8px;\n}\n\n.color-picker_swatch_v12lU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[theme=\"dark\"] .color-picker_swatch_v12lU {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.color-picker_large-swatch-icon_1jo3W {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_VnybH {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_cOpcH {\n    border: 1px solid var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.color-picker_swatch-icon_sM_0v {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_1IOdw {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2lMgC {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2u1cR {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_1ykn1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-color_3BecP {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62607,8 +62919,6 @@ exports.locals = {
 	"activeSwatch": "color-picker_active-swatch_cOpcH",
 	"swatch-icon": "color-picker_swatch-icon_sM_0v",
 	"swatchIcon": "color-picker_swatch-icon_sM_0v",
-	"picker-icon": "color-picker_picker-icon_16nsr",
-	"pickerIcon": "color-picker_picker-icon_16nsr",
 	"inactive-gradient": "color-picker_inactive-gradient_1IOdw",
 	"inactiveGradient": "color-picker_inactive-gradient_1IOdw",
 	"gradient-picker-row": "color-picker_gradient-picker-row_2lMgC",
@@ -62621,6 +62931,37 @@ exports.locals = {
 	"pickerColor": "color-picker_picker-color_3BecP",
 	"picker-text": "color-picker_picker-text_3udQu",
 	"pickerText": "color-picker_picker-text_3udQu"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css ***!
+  \******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3Ot4F {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV {\n    display: block;\n}\n\n.dash-array-dropdown_table_3aijj {\n    width: 9rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_2Ajdm {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1lX6d {\n    font-size: 0.65rem !important;\n    width: 100%;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1lX6d::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1lX6d::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_1pXMe {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_EJUiU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n    cursor: pointer;\n}\n\n.dash-array-dropdown_button_EJUiU > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"mod-unselect": "dash-array-dropdown_mod-unselect_3Ot4F",
+	"modUnselect": "dash-array-dropdown_mod-unselect_3Ot4F",
+	"dash-array-dropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
+	"dashArrayDropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
+	"dash-array-context-menu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
+	"dashArrayContextMenu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
+	"table": "dash-array-dropdown_table_3aijj",
+	"item": "dash-array-dropdown_item_2Ajdm",
+	"readout": "dash-array-dropdown_readout_1lX6d",
+	"row": "dash-array-dropdown_row_1pXMe",
+	"button": "dash-array-dropdown_button_EJUiU"
 };
 
 /***/ }),
@@ -62664,7 +63005,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_192N0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_2KLYL {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_3d7b0 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_27c1u {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_JkaPk {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_JkaPk {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3teHu {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_2Azhw {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_32Oly {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_2yK8h {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_32Oly:hover {\n    background: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.fixed-tools_mod-disabled_2yK8h:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_d411G {\n    margin-right: calc(2 * .25rem);\n    width: 1.25rem;\n    height: 1.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_d411G {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_192N0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_2KLYL {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_3d7b0 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_27c1u {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_JkaPk {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_JkaPk {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3teHu {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_2Azhw {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_32Oly {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_2yK8h {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_32Oly:hover {\n    background: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.fixed-tools_mod-disabled_2yK8h:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_d411G {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_d411G {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62709,7 +63050,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1dyzY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1dyzY:hover {\n    background: var(--paint-looks-secondary, #855CD6);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_1mbHa {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_mod-unselect_j-wDj {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_QKz-V {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_2Xsc8 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1dyzY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1dyzY:hover {\n    background: var(--paint-looks-secondary, #855CD6);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_1mbHa {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_font-context-menu_3dgaQ {\n    display: grid;\n    grid-template-columns: auto auto auto;\n}\n\n.font-dropdown_mod-unselect_j-wDj {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_QKz-V {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_2Xsc8 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62717,6 +63058,8 @@ exports.locals = {
 	"modMenuItem": "font-dropdown_mod-menu-item_1dyzY",
 	"mod-context-menu": "font-dropdown_mod-context-menu_1mbHa",
 	"modContextMenu": "font-dropdown_mod-context-menu_1mbHa",
+	"font-context-menu": "font-dropdown_font-context-menu_3dgaQ",
+	"fontContextMenu": "font-dropdown_font-context-menu_3dgaQ",
 	"mod-unselect": "font-dropdown_mod-unselect_j-wDj",
 	"modUnselect": "font-dropdown_mod-unselect_j-wDj",
 	"displayed-font-name": "font-dropdown_displayed-font-name_QKz-V",
@@ -62739,7 +63082,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_K5SYW {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n    background-color: var(--paint-input-background, #FFFFFF);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n.input_input-form_K5SYW:hover {\n    border-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.input_input-form_K5SYW:focus {\n    border-color: var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.input_input-small_BxP6l {\n    width: 3rem;\n    text-align: center;\n}\n\n.input_input-small-range_300XG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_K5SYW {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW {\n    background: rgb(30, 30, 30);\n    border-color: rgba(255, 255, 255, 0.15);\n}\n\n.input_input-form_K5SYW:focus {\n    border-color: var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:hover {\n    border-color: #333;\n}\n\n.input_input-small_BxP6l {\n    width: 3rem;\n    text-align: center;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:focus {\n    border-color: #333;\n}\n\n.input_input-small-range_300XG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62838,7 +63181,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button_mod-edit-field_3PjcQ {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button_edit-field-icon_3PW5V {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button_edit-field-icon_3PW5V.labeled-icon-button_gray_2Y94b {\n    -webkit-filter: var(--paint-filter-icon-gray, none);\n            filter: var(--paint-filter-icon-gray, none);\n}\n\n.labeled-icon-button_edit-field-title_386D1 {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button_mod-edit-field_3PjcQ {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button_edit-field-icon_3PW5V {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button_edit-field-title_386D1 {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -62846,7 +63189,6 @@ exports.locals = {
 	"modEditField": "labeled-icon-button_mod-edit-field_3PjcQ",
 	"edit-field-icon": "labeled-icon-button_edit-field-icon_3PW5V",
 	"editFieldIcon": "labeled-icon-button_edit-field-icon_3PW5V",
-	"gray": "labeled-icon-button_gray_2Y94b",
 	"edit-field-title": "labeled-icon-button_edit-field-title_386D1",
 	"editFieldTitle": "labeled-icon-button_edit-field-title_386D1"
 };
@@ -62887,7 +63229,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n    -webkit-filter: var(--paint-filter-icon-gray, none);\n            filter: var(--paint-filter-icon-gray, none);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3iBKV {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3G70N {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3G70N:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_3Yp7m {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_3Yp7m {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}", ""]);
 
 // exports
 exports.locals = {
@@ -62898,7 +63240,17 @@ exports.locals = {
 	"mod-dashed-border": "mode-tools_mod-dashed-border_2PWVn",
 	"modDashedBorder": "mode-tools_mod-dashed-border_2PWVn",
 	"mod-labeled-icon-height": "mode-tools_mod-labeled-icon-height_2kFDJ",
-	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_2kFDJ"
+	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_2kFDJ",
+	"dropdown-max-item-list": "mode-tools_dropdown-max-item-list_1PCmc",
+	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_1PCmc",
+	"flex-centerer": "mode-tools_flex-centerer_28XZK",
+	"flexCenterer": "mode-tools_flex-centerer_28XZK",
+	"drop-item-shape-tool-menu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
+	"dropItemShapeToolMenu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
+	"drop-item-shape-tool": "mode-tools_drop-item-shape-tool_3G70N",
+	"dropItemShapeTool": "mode-tools_drop-item-shape-tool_3G70N",
+	"drop-item-shape-tool-label": "mode-tools_drop-item-shape-tool-label_3Yp7m",
+	"dropItemShapeToolLabel": "mode-tools_drop-item-shape-tool-label_3Yp7m"
 };
 
 /***/ }),
@@ -62915,7 +63267,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3mcqk {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n.paint-editor_row_oGw4Z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_XIsRw {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_1oxJ7 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_oGw4Z + .paint-editor_row_oGw4Z {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_TCDxZ {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_2V2si {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_1umM4 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n    -webkit-filter: var(--paint-filter-icon-gray, none);\n            filter: var(--paint-filter-icon-gray, none);\n}\n\n.paint-editor_mod-mode-tools_3BF19 {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_XwwmY {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_yBxFI {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n.paint-editor_mode-selector_8xIj1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_2GbPM {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3JSD5 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_3qGlY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_OA7-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: var(--paint-looks-secondary, #855CD6);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3mcqk {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_8xIj1 {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_XwwmY {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_2Oupu {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_12Gpr {\n    width: 100%; /* Fixes button text wrapping in Edge */\n    white-space: nowrap;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3mcqk {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n[theme=\"dark\"] .paint-editor_editor-container_3mcqk {\n    color-scheme: dark;\n}\n\n.paint-editor_row_oGw4Z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_XIsRw {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_1oxJ7 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_oGw4Z + .paint-editor_row_oGw4Z {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_TCDxZ {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_2V2si {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_1umM4 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] .paint-editor_button-group-button-icon_1umM4 {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.paint-editor_mod-mode-tools_3BF19 {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_XwwmY {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_yBxFI {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n[theme=\"dark\"] .paint-editor_canvas-container_yBxFI {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.paint-editor_mode-selector_8xIj1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_2GbPM {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3JSD5 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_3qGlY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_OA7-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: var(--paint-looks-secondary, #855CD6);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3mcqk {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_8xIj1 {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_XwwmY {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_2Oupu {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_12Gpr {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -63010,7 +63362,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_8BmWU {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e {\n    background-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.tool-select-base_mod-tool-select_8BmWU:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2pPoi {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n    -webkit-filter: var(--paint-filter-icon-gray, none);\n            filter: var(--paint-filter-icon-gray, none);\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e .tool-select-base_tool-select-icon_2pPoi {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_8BmWU {\n        margin: 0;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_8BmWU {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e {\n    background-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.tool-select-base_mod-tool-select_8BmWU:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2pPoi {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] img.tool-select-base_tool-select-icon_2pPoi {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e .tool-select-base_tool-select-icon_2pPoi {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_8BmWU {\n        margin: 0;\n    }\n\n    img.tool-select-base_tool-select-icon_2pPoi {\n        width: 1rem;\n        height: 1rem;\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -63041,6 +63393,34 @@ exports.push([module.i, ".tw-color-readout_readout_2gMxr {\n  width: 28px;\n  he
 // exports
 exports.locals = {
 	"readout": "tw-color-readout_readout_2gMxr"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/containers/confirmation.css":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./node_modules/scratch-paint/src/containers/confirmation.css ***!
+  \***************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".confirmation_base_HS71i {\n    background-color: hsla(194, 100%, 50%, 0.5);\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    z-index: 999999;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.confirmation_promptBox_1k7rG {\n    width: 540px;\n    height: 380px;\n    background-color: white;\n    border-radius: 8px;\n    outline-color: hsla(0, 0%, 100%, 0.25);\n    outline-width: 4px;\n    outline-style: solid;\n    overflow: hidden;\n    position: relative;\n    color: black;\n}\n\n.confirmation_header_1uEKd {\n    width: 100%;\n    height: 3.125em;\n    background-color: hsla(194, 100%, 50%, 1);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: white;\n}\n\n.confirmation_buttonRow_1VOAw {\n    height: 2.125em;\n    position: absolute;\n    right: 0px;\n    bottom: 0px;\n    margin: 16px;\n}\n\n.confirmation_promptButton_3nvgb {\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    padding: 0.75rem 1rem;\n    font-weight: 600;\n    font-size: 0.85rem;\n    border: 0px;\n    border-radius: 4px;\n}\n\n.confirmation_promptButton_3nvgb:focus {\n    outline-color: hsla(194, 100%, 50%, 0.35);\n    outline-width: 4px;\n    outline-style: solid;\n}\n\n.confirmation_accept_12kXJ {\n    background-color: hsla(194, 100%, 50%, 1);\n    color: white;\n}\n\n.confirmation_deny_Ony24 {\n    background-color: white;\n    outline-width: 1px;\n    outline-style: solid;\n    outline-color: rgba(0, 0, 0, 0.15);\n    color: black;\n}\n\n.confirmation_filePicker_O0lu2 {\n    border: 0;\n    background-color: hsla(194, 100%, 50%, 1);\n    border-radius: 4px;\n    font-weight: 600;\n    color: white;\n    font-size: 0.85rem;\n    padding: 0.75rem 1rem;\n    cursor: pointer;\n}", ""]);
+
+// exports
+exports.locals = {
+	"base": "confirmation_base_HS71i",
+	"promptBox": "confirmation_promptBox_1k7rG",
+	"header": "confirmation_header_1uEKd",
+	"buttonRow": "confirmation_buttonRow_1VOAw",
+	"promptButton": "confirmation_promptButton_3nvgb",
+	"accept": "confirmation_accept_12kXJ",
+	"deny": "confirmation_deny_Ony24",
+	"filePicker": "confirmation_filePicker_O0lu2"
 };
 
 /***/ }),
@@ -157402,6 +157782,601 @@ module.exports = throttle;
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/node_modules/microee/index.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/microee/index.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function M() { this._events = {}; }
+M.prototype = {
+  on: function(ev, cb) {
+    this._events || (this._events = {});
+    var e = this._events;
+    (e[ev] || (e[ev] = [])).push(cb);
+    return this;
+  },
+  removeListener: function(ev, cb) {
+    var e = this._events[ev] || [], i;
+    for(i = e.length-1; i >= 0 && e[i]; i--){
+      if(e[i] === cb || e[i].cb === cb) { e.splice(i, 1); }
+    }
+  },
+  removeAllListeners: function(ev) {
+    if(!ev) { this._events = {}; }
+    else { this._events[ev] && (this._events[ev] = []); }
+  },
+  listeners: function(ev) {
+    return (this._events ? this._events[ev] || [] : []);
+  },
+  emit: function(ev) {
+    this._events || (this._events = {});
+    var args = Array.prototype.slice.call(arguments, 1), i, e = this._events[ev] || [];
+    for(i = e.length-1; i >= 0 && e[i]; i--){
+      e[i].apply(this, args);
+    }
+    return this;
+  },
+  when: function(ev, cb) {
+    return this.once(ev, cb, true);
+  },
+  once: function(ev, cb, when) {
+    if(!cb) return this;
+    function c() {
+      if(!when) this.removeListener(ev, c);
+      if(cb.apply(this, arguments) && when) this.removeListener(ev, c);
+    }
+    c.cb = cb;
+    this.on(ev, c);
+    return this;
+  }
+};
+M.mixin = function(dest) {
+  var o = M.prototype, k;
+  for (k in o) {
+    o.hasOwnProperty(k) && (dest.prototype[k] = o[k]);
+  }
+};
+module.exports = M;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/common/filter.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/common/filter.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// default filter
+var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js");
+
+var levelMap = { debug: 1, info: 2, warn: 3, error: 4 };
+
+function Filter() {
+  this.enabled = true;
+  this.defaultResult = true;
+  this.clear();
+}
+
+Transform.mixin(Filter);
+
+// allow all matching, with level >= given level
+Filter.prototype.allow = function(name, level) {
+  this._white.push({ n: name, l: levelMap[level] });
+  return this;
+};
+
+// deny all matching, with level <= given level
+Filter.prototype.deny = function(name, level) {
+  this._black.push({ n: name, l: levelMap[level] });
+  return this;
+};
+
+Filter.prototype.clear = function() {
+  this._white = [];
+  this._black = [];
+  return this;
+};
+
+function test(rule, name) {
+  // use .test for RegExps
+  return (rule.n.test ? rule.n.test(name) : rule.n == name);
+};
+
+Filter.prototype.test = function(name, level) {
+  var i, len = Math.max(this._white.length, this._black.length);
+  for(i = 0; i < len; i++) {
+    if(this._white[i] && test(this._white[i], name) && levelMap[level] >= this._white[i].l) {
+      return true;
+    }
+    if(this._black[i] && test(this._black[i], name) && levelMap[level] <= this._black[i].l) {
+      return false;
+    }
+  }
+  return this.defaultResult;
+};
+
+Filter.prototype.write = function(name, level, args) {
+  if(!this.enabled || this.test(name, level)) {
+    return this.emit('item', name, level, args);
+  }
+};
+
+module.exports = Filter;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/common/minilog.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/common/minilog.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js"),
+    Filter = __webpack_require__(/*! ./filter.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/filter.js");
+
+var log = new Transform(),
+    slice = Array.prototype.slice;
+
+exports = module.exports = function create(name) {
+  var o   = function() { log.write(name, undefined, slice.call(arguments)); return o; };
+  o.debug = function() { log.write(name, 'debug', slice.call(arguments)); return o; };
+  o.info  = function() { log.write(name, 'info',  slice.call(arguments)); return o; };
+  o.warn  = function() { log.write(name, 'warn',  slice.call(arguments)); return o; };
+  o.error = function() { log.write(name, 'error', slice.call(arguments)); return o; };
+  o.log   = o.debug; // for interface compliance with Node and browser consoles
+  o.suggest = exports.suggest;
+  o.format = log.format;
+  return o;
+};
+
+// filled in separately
+exports.defaultBackend = exports.defaultFormatter = null;
+
+exports.pipe = function(dest) {
+  return log.pipe(dest);
+};
+
+exports.end = exports.unpipe = exports.disable = function(from) {
+  return log.unpipe(from);
+};
+
+exports.Transform = Transform;
+exports.Filter = Filter;
+// this is the default filter that's applied when .enable() is called normally
+// you can bypass it completely and set up your own pipes
+exports.suggest = new Filter();
+
+exports.enable = function() {
+  if(exports.defaultFormatter) {
+    return log.pipe(exports.suggest) // filter
+              .pipe(exports.defaultFormatter) // formatter
+              .pipe(exports.defaultBackend); // backend
+  }
+  return log.pipe(exports.suggest) // filter
+            .pipe(exports.defaultBackend); // formatter
+};
+
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var microee = __webpack_require__(/*! microee */ "./node_modules/scratch-paint/node_modules/microee/index.js");
+
+// Implements a subset of Node's stream.Transform - in a cross-platform manner.
+function Transform() {}
+
+microee.mixin(Transform);
+
+// The write() signature is different from Node's
+// --> makes it much easier to work with objects in logs.
+// One of the lessons from v1 was that it's better to target
+// a good browser rather than the lowest common denominator
+// internally.
+// If you want to use external streams, pipe() to ./stringify.js first.
+Transform.prototype.write = function(name, level, args) {
+  this.emit('item', name, level, args);
+};
+
+Transform.prototype.end = function() {
+  this.emit('end');
+  this.removeAllListeners();
+};
+
+Transform.prototype.pipe = function(dest) {
+  var s = this;
+  // prevent double piping
+  s.emit('unpipe', dest);
+  // tell the dest that it's being piped to
+  dest.emit('pipe', s);
+
+  function onItem() {
+    dest.write.apply(dest, Array.prototype.slice.call(arguments));
+  }
+  function onEnd() { !dest._isStdio && dest.end(); }
+
+  s.on('item', onItem);
+  s.on('end', onEnd);
+
+  s.when('unpipe', function(from) {
+    var match = (from === dest) || typeof from == 'undefined';
+    if(match) {
+      s.removeListener('item', onItem);
+      s.removeListener('end', onEnd);
+      dest.emit('unpipe');
+    }
+    return match;
+  });
+
+  return dest;
+};
+
+Transform.prototype.unpipe = function(from) {
+  this.emit('unpipe', from);
+  return this;
+};
+
+Transform.prototype.format = function(dest) {
+  throw new Error([
+    'Warning: .format() is deprecated in Minilog v2! Use .pipe() instead. For example:',
+    'var Minilog = require(\'minilog\');',
+    'Minilog',
+    '  .pipe(Minilog.backends.console.formatClean)',
+    '  .pipe(Minilog.backends.console);'].join('\n'));
+};
+
+Transform.mixin = function(dest) {
+  var o = Transform.prototype, k;
+  for (k in o) {
+    o.hasOwnProperty(k) && (dest.prototype[k] = o[k]);
+  }
+};
+
+module.exports = Transform;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/array.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/array.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js"),
+    cache = [ ];
+
+var logger = new Transform();
+
+logger.write = function(name, level, args) {
+  cache.push([ name, level, args ]);
+};
+
+// utility functions
+logger.get = function() { return cache; };
+logger.empty = function() { cache = []; };
+
+module.exports = logger;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/console.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/console.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js");
+
+var newlines = /\n+$/,
+    logger = new Transform();
+
+logger.write = function(name, level, args) {
+  var i = args.length-1;
+  if (typeof console === 'undefined' || !console.log) {
+    return;
+  }
+  if(console.log.apply) {
+    return console.log.apply(console, [name, level].concat(args));
+  } else if(JSON && JSON.stringify) {
+    // console.log.apply is undefined in IE8 and IE9
+    // for IE8/9: make console.log at least a bit less awful
+    if(args[i] && typeof args[i] == 'string') {
+      args[i] = args[i].replace(newlines, '');
+    }
+    try {
+      for(i = 0; i < args.length; i++) {
+        args[i] = JSON.stringify(args[i]);
+      }
+    } catch(e) {}
+    console.log(args.join(' '));
+  }
+};
+
+logger.formatters = ['color', 'minilog'];
+logger.color = __webpack_require__(/*! ./formatters/color.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/color.js");
+logger.minilog = __webpack_require__(/*! ./formatters/minilog.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/minilog.js");
+
+module.exports = logger;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/color.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/color.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/util.js");
+
+var colors = { debug: ['cyan'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
+    logger = new Transform();
+
+logger.write = function(name, level, args) {
+  var fn = console.log;
+  if(console[level] && console[level].apply) {
+    fn = console[level];
+    fn.apply(console, [ '%c'+name+' %c'+level, color('gray'), color.apply(color, colors[level])].concat(args));
+  }
+};
+
+// NOP, because piping the formatted logs can only cause trouble.
+logger.pipe = function() { };
+
+module.exports = logger;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/minilog.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/minilog.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/util.js"),
+    colors = { debug: ['gray'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
+    logger = new Transform();
+
+logger.write = function(name, level, args) {
+  var fn = console.log;
+  if(level != 'debug' && console[level]) {
+    fn = console[level];
+  }
+
+  var subset = [], i = 0;
+  if(level != 'info') {
+    for(; i < args.length; i++) {
+      if(typeof args[i] != 'string') break;
+    }
+    fn.apply(console, [ '%c'+name +' '+ args.slice(0, i).join(' '), color.apply(color, colors[level]) ].concat(args.slice(i)));
+  } else {
+    fn.apply(console, [ '%c'+name, color.apply(color, colors[level]) ].concat(args));
+  }
+};
+
+// NOP, because piping the formatted logs can only cause trouble.
+logger.pipe = function() { };
+
+module.exports = logger;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/util.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/formatters/util.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var hex = {
+  black: '#000',
+  red: '#c23621',
+  green: '#25bc26',
+  yellow: '#bbbb00',
+  blue:  '#492ee1',
+  magenta: '#d338d3',
+  cyan: '#33bbc8',
+  gray: '#808080',
+  purple: '#708'
+};
+function color(fg, isInverse) {
+  if(isInverse) {
+    return 'color: #fff; background: '+hex[fg]+';';
+  } else {
+    return 'color: '+hex[fg]+';';
+  }
+}
+
+module.exports = color;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/index.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/index.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Minilog = __webpack_require__(/*! ../common/minilog.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/minilog.js");
+
+var oldEnable = Minilog.enable,
+    oldDisable = Minilog.disable,
+    isChrome = (typeof navigator != 'undefined' && /chrome/i.test(navigator.userAgent)),
+    console = __webpack_require__(/*! ./console.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/console.js");
+
+// Use a more capable logging backend if on Chrome
+Minilog.defaultBackend = (isChrome ? console.minilog : console);
+
+// apply enable inputs from localStorage and from the URL
+if(typeof window != 'undefined') {
+  try {
+    Minilog.enable(JSON.parse(window.localStorage['minilogSettings']));
+  } catch(e) {}
+  if(window.location && window.location.search) {
+    var match = RegExp('[?&]minilog=([^&]*)').exec(window.location.search);
+    match && Minilog.enable(decodeURIComponent(match[1]));
+  }
+}
+
+// Make enable also add to localStorage
+Minilog.enable = function() {
+  oldEnable.call(Minilog, true);
+  try { window.localStorage['minilogSettings'] = JSON.stringify(true); } catch(e) {}
+  return this;
+};
+
+Minilog.disable = function() {
+  oldDisable.call(Minilog);
+  try { delete window.localStorage.minilogSettings; } catch(e) {}
+  return this;
+};
+
+exports = module.exports = Minilog;
+
+exports.backends = {
+  array: __webpack_require__(/*! ./array.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/array.js"),
+  browser: Minilog.defaultBackend,
+  localStorage: __webpack_require__(/*! ./localstorage.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/localstorage.js"),
+  jQuery: __webpack_require__(/*! ./jquery_simple.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/jquery_simple.js")
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/jquery_simple.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/jquery_simple.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js");
+
+var cid = new Date().valueOf().toString(36);
+
+function AjaxLogger(options) {
+  this.url = options.url || '';
+  this.cache = [];
+  this.timer = null;
+  this.interval = options.interval || 30*1000;
+  this.enabled = true;
+  this.jQuery = window.jQuery;
+  this.extras = {};
+}
+
+Transform.mixin(AjaxLogger);
+
+AjaxLogger.prototype.write = function(name, level, args) {
+  if(!this.timer) { this.init(); }
+  this.cache.push([name, level].concat(args));
+};
+
+AjaxLogger.prototype.init = function() {
+  if(!this.enabled || !this.jQuery) return;
+  var self = this;
+  this.timer = setTimeout(function() {
+    var i, logs = [], ajaxData, url = self.url;
+    if(self.cache.length == 0) return self.init();
+    // Test each log line and only log the ones that are valid (e.g. don't have circular references).
+    // Slight performance hit but benefit is we log all valid lines.
+    for(i = 0; i < self.cache.length; i++) {
+      try {
+        JSON.stringify(self.cache[i]);
+        logs.push(self.cache[i]);
+      } catch(e) { }
+    }
+    if(self.jQuery.isEmptyObject(self.extras)) {
+        ajaxData = JSON.stringify({ logs: logs });
+        url = self.url + '?client_id=' + cid;
+    } else {
+        ajaxData = JSON.stringify(self.jQuery.extend({logs: logs}, self.extras));
+    }
+
+    self.jQuery.ajax(url, {
+      type: 'POST',
+      cache: false,
+      processData: false,
+      data: ajaxData,
+      contentType: 'application/json',
+      timeout: 10000
+    }).success(function(data, status, jqxhr) {
+      if(data.interval) {
+        self.interval = Math.max(1000, data.interval);
+      }
+    }).error(function() {
+      self.interval = 30000;
+    }).always(function() {
+      self.init();
+    });
+    self.cache = [];
+  }, this.interval);
+};
+
+AjaxLogger.prototype.end = function() {};
+
+// wait until jQuery is defined. Useful if you don't control the load order.
+AjaxLogger.jQueryWait = function(onDone) {
+  if(typeof window !== 'undefined' && (window.jQuery || window.$)) {
+    return onDone(window.jQuery || window.$);
+  } else if (typeof window !== 'undefined') {
+    setTimeout(function() { AjaxLogger.jQueryWait(onDone); }, 200);
+  }
+};
+
+module.exports = AjaxLogger;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/node_modules/minilog/lib/web/localstorage.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/node_modules/minilog/lib/web/localstorage.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-paint/node_modules/minilog/lib/common/transform.js"),
+    cache = false;
+
+var logger = new Transform();
+
+logger.write = function(name, level, args) {
+  if(typeof window == 'undefined' || typeof JSON == 'undefined' || !JSON.stringify || !JSON.parse) return;
+  try {
+    if(!cache) { cache = (window.localStorage.minilog ? JSON.parse(window.localStorage.minilog) : []); }
+    cache.push([ new Date().toString(), name, level, args ]);
+    window.localStorage.minilog = JSON.stringify(cache);
+  } catch(e) {}
+};
+
+module.exports = logger;
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/node_modules/ms/index.js":
 /*!*************************************************************!*\
   !*** ./node_modules/scratch-paint/node_modules/ms/index.js ***!
@@ -184824,6 +185799,53 @@ function symbolObservablePonyfill(root) {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/arrow-mode/arrow-mode.jsx":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/arrow-mode/arrow-mode.jsx ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../tool-select-base/tool-select-base.jsx */ "./node_modules/scratch-paint/src/components/tool-select-base/tool-select-base.jsx");
+/* harmony import */ var _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/messages.js */ "./node_modules/scratch-paint/src/lib/messages.js");
+/* harmony import */ var _arrow_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./arrow.svg */ "./node_modules/scratch-paint/src/components/arrow-mode/arrow.svg");
+/* harmony import */ var _arrow_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_arrow_svg__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+const ArrowModeComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  imgDescriptor: _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__["default"].arrow,
+  imgSrc: _arrow_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+  isSelected: props.isSelected,
+  onMouseDown: props.onMouseDown
+});
+ArrowModeComponent.propTypes = {
+  isSelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (ArrowModeComponent);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/arrow-mode/arrow.svg":
+/*!************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/arrow-mode/arrow.svg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLCA3KSBzY2FsZSgxLjE1KSI+DQogICAgICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjNTc1ZTc1IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTAsMGg3LjA2NTR2LTQuMTQ0MDlsNi45MDY4MSw2LjkwNjgxbC02LjkwNjgxLDYuOTA2ODF2LTQuMTQ0MDloLTcuMDY1NHoiIC8+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/bit-brush-mode/bit-brush-mode.jsx":
 /*!*************************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/bit-brush-mode/bit-brush-mode.jsx ***!
@@ -184868,7 +185890,7 @@ BitBrushModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5icnVzaDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJicnVzaCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTkuNTAwNjI2NjMsMTEuNDk4MTczNCBMMTAuNDk5NTczNCwxMS40OTgxNzM0IEwxMC40OTk1NzM0LDE0LjQ5OTAxMzQgTDkuNDk5NjI2NjksMTQuNDk5MDEzNCBMOS40OTk2MjY2OSwxMS40OTkxNzM0IEw2LjQ5OTc4NjY4LDExLjQ5OTE3MzQgTDYuNDk5Nzg2NjgsMTAuNDk5MjI2NyBMOS41MDA2MjY2MywxMC40OTkyMjY3IEw5LjUwMDYyNjYzLDExLjQ5ODE3MzQgWiBNMTMuNDk5MjEzNCwzLjUgTDE2LjUwMDA1MzMsMy41IEwxNi41MDAwNTMzLDQuNDk5OTQ2NjcgTDE3LjUsNC40OTk5NDY2NyBMMTcuNSw3LjQ5OTc4NjY4IEwxNi41MDAwNTMzLDcuNDk5Nzg2NjggTDE2LjUwMDA1MzMsOC40OTg3MzM0IEwxNS40OTkxMDY3LDguNDk4NzMzNCBMMTUuNDk5MTA2Nyw5LjQ5ODY4MDA3IEwxNC40OTkxNiw5LjQ5ODY4MDA3IEwxNC40OTkxNiwxMC40OTg2MjY3IEwxMi40OTkyNjY3LDEwLjQ5ODYyNjcgTDEyLjQ5OTI2NjcsMTEuNDk4NTczNCBMMTEuNDk5MzIsMTEuNDk4NTczNCBMMTEuNDk5MzIsMTAuNDk4NjI2NyBMMTAuNDk5MzczNCwxMC40OTg2MjY3IEwxMC40OTkzNzM0LDkuNDk4NjgwMDcgTDkuNDk5NDI2Nyw5LjQ5ODY4MDA3IEw5LjQ5OTQyNjcsNy40OTk3ODY2OCBMMTAuNDk5MzczNCw3LjQ5OTc4NjY4IEwxMC40OTkzNzM0LDYuNDk5ODQwMDEgTDExLjQ5OTMyLDYuNDk5ODQwMDEgTDExLjQ5OTMyLDUuNDk5ODkzMzQgTDEyLjQ5OTI2NjcsNS40OTk4OTMzNCBMMTIuNDk5MjY2Nyw0LjQ5OTk0NjY3IEwxMy40OTkyMTM0LDQuNDk5OTQ2NjcgTDEzLjQ5OTIxMzQsMy41IFogTTUuNDk5NTQwMDIsMTEuNDk4NzczNCBMNi40OTk0ODY2OSwxMS40OTg3NzM0IEw2LjQ5OTQ4NjY5LDEyLjQ5OTcyIEw3LjUwMDQzMzMxLDEyLjQ5OTcyIEw3LjUwMDQzMzMxLDEzLjQ5OTY2NjcgTDguNTAwMzc5OTgsMTMuNDk5NjY2NyBMOC41MDAzNzk5OCwxNC40OTk2MTM0IEw5LjUwMDMyNjY1LDE0LjQ5OTYxMzQgTDkuNTAwMzI2NjUsMTUuNDk5NTYgTDguNTAwMzc5OTgsMTUuNDk5NTYgTDguNTAwMzc5OTgsMTYuNDk4NTA2NyBMNC40OTk1OTMzNiwxNi40OTg1MDY3IEw0LjQ5OTU5MzM2LDE1LjQ5OTU2IEwzLjQ5OTY0NjY5LDE1LjQ5OTU2IEwzLjQ5OTY0NjY5LDEzLjQ5OTY2NjcgTDUuNDk5NTQwMDIsMTMuNDk5NjY2NyBMNS40OTk1NDAwMiwxMS40OTg3NzM0IFogTTIuNSwxMy40OTkwNjY3IEwyLjUsMTIuNDk5MTIgTDMuNDk5OTQ2NjcsMTIuNDk5MTIgTDMuNDk5OTQ2NjcsMTMuNDk5MDY2NyBMMi41LDEzLjQ5OTA2NjcgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjNTc1RTc1Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5icnVzaDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJicnVzaCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxwYXRoIGQ9Ik05LjUwMDYyNjYzLDExLjQ5ODE3MzQgTDEwLjQ5OTU3MzQsMTEuNDk4MTczNCBMMTAuNDk5NTczNCwxNC40OTkwMTM0IEw5LjQ5OTYyNjY5LDE0LjQ5OTAxMzQgTDkuNDk5NjI2NjksMTEuNDk5MTczNCBMNi40OTk3ODY2OCwxMS40OTkxNzM0IEw2LjQ5OTc4NjY4LDEwLjQ5OTIyNjcgTDkuNTAwNjI2NjMsMTAuNDk5MjI2NyBMOS41MDA2MjY2MywxMS40OTgxNzM0IFogTTEzLjQ5OTIxMzQsMy41IEwxNi41MDAwNTMzLDMuNSBMMTYuNTAwMDUzMyw0LjQ5OTk0NjY3IEwxNy41LDQuNDk5OTQ2NjcgTDE3LjUsNy40OTk3ODY2OCBMMTYuNTAwMDUzMyw3LjQ5OTc4NjY4IEwxNi41MDAwNTMzLDguNDk4NzMzNCBMMTUuNDk5MTA2Nyw4LjQ5ODczMzQgTDE1LjQ5OTEwNjcsOS40OTg2ODAwNyBMMTQuNDk5MTYsOS40OTg2ODAwNyBMMTQuNDk5MTYsMTAuNDk4NjI2NyBMMTIuNDk5MjY2NywxMC40OTg2MjY3IEwxMi40OTkyNjY3LDExLjQ5ODU3MzQgTDExLjQ5OTMyLDExLjQ5ODU3MzQgTDExLjQ5OTMyLDEwLjQ5ODYyNjcgTDEwLjQ5OTM3MzQsMTAuNDk4NjI2NyBMMTAuNDk5MzczNCw5LjQ5ODY4MDA3IEw5LjQ5OTQyNjcsOS40OTg2ODAwNyBMOS40OTk0MjY3LDcuNDk5Nzg2NjggTDEwLjQ5OTM3MzQsNy40OTk3ODY2OCBMMTAuNDk5MzczNCw2LjQ5OTg0MDAxIEwxMS40OTkzMiw2LjQ5OTg0MDAxIEwxMS40OTkzMiw1LjQ5OTg5MzM0IEwxMi40OTkyNjY3LDUuNDk5ODkzMzQgTDEyLjQ5OTI2NjcsNC40OTk5NDY2NyBMMTMuNDk5MjEzNCw0LjQ5OTk0NjY3IEwxMy40OTkyMTM0LDMuNSBaIE01LjQ5OTU0MDAyLDExLjQ5ODc3MzQgTDYuNDk5NDg2NjksMTEuNDk4NzczNCBMNi40OTk0ODY2OSwxMi40OTk3MiBMNy41MDA0MzMzMSwxMi40OTk3MiBMNy41MDA0MzMzMSwxMy40OTk2NjY3IEw4LjUwMDM3OTk4LDEzLjQ5OTY2NjcgTDguNTAwMzc5OTgsMTQuNDk5NjEzNCBMOS41MDAzMjY2NSwxNC40OTk2MTM0IEw5LjUwMDMyNjY1LDE1LjQ5OTU2IEw4LjUwMDM3OTk4LDE1LjQ5OTU2IEw4LjUwMDM3OTk4LDE2LjQ5ODUwNjcgTDQuNDk5NTkzMzYsMTYuNDk4NTA2NyBMNC40OTk1OTMzNiwxNS40OTk1NiBMMy40OTk2NDY2OSwxNS40OTk1NiBMMy40OTk2NDY2OSwxMy40OTk2NjY3IEw1LjQ5OTU0MDAyLDEzLjQ5OTY2NjcgTDUuNDk5NTQwMDIsMTEuNDk4NzczNCBaIE0yLjUsMTMuNDk5MDY2NyBMMi41LDEyLjQ5OTEyIEwzLjQ5OTk0NjY3LDEyLjQ5OTEyIEwzLjQ5OTk0NjY3LDEzLjQ5OTA2NjcgTDIuNSwxMy40OTkwNjY3IFoiIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzU3NUU3NSI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg=="
 
 /***/ }),
 
@@ -184916,7 +185938,7 @@ BitEraserComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5lcmFzZXI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iZXJhc2VyIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBkPSJNOS4zMDAyMjkwNCwxNC4xOTk2OTQ2IEw3Ljg5OTg0NzIzLDE0LjE5OTY5NDYgTDcuODk5ODQ3MjMsMTIuNzk5NzMyNyBMNi40OTk4ODU0MSwxMi43OTk3MzI3IEw2LjQ5OTg4NTQxLDExLjM5OTc3MDkgTDUuMDk5OTIzNTksMTEuMzk5NzcwOSBMNS4wOTk5MjM1OSw5Ljk5ODQwOTEzIEwzLjY5OTk2MTc3LDkuOTk4NDA5MTMgTDMuNjk5OTYxNzcsOC41OTk4NDcyOCBMMi4yOTk5OTk5NSw4LjU5OTg0NzI4IEwyLjI5OTk5OTk1LDcuMTk5ODg1NDYgTDMuNjk5OTYxNzcsNy4xOTk4ODU0NiBMMy42OTk5NjE3Nyw1Ljc5OTkyMzY0IEw1LjA5OTkyMzU5LDUuNzk5OTIzNjQgTDUuMDk5OTIzNTksNC4zOTk5NjE4MiBMNi40OTk4ODU0MSw0LjM5OTk2MTgyIEw2LjQ5OTg4NTQxLDMgTDcuODk5ODQ3MjMsMyBMNy44OTk4NDcyMyw0LjM5OTk2MTgyIEw5LjMwMTIwOTAxLDQuMzk5OTYxODIgTDkuMzAxMjA5MDEsNS43OTk5MjM2NCBMMTAuNzAxMTcwOCw1Ljc5OTkyMzY0IEwxMC43MDExNzA4LDcuMTk5ODg1NDYgTDEyLjEwMTEzMjYsNy4xOTk4ODU0NiBMMTIuMTAxMTMyNiw4LjU5OTg0NzI4IEwxMy40OTk2OTQ1LDguNTk5ODQ3MjggTDEzLjQ5OTY5NDUsOS45OTg0MDkxMyBMMTIuMTAxMTMyNiw5Ljk5ODQwOTEzIEwxMi4xMDExMzI2LDExLjM5OTc3MDkgTDEwLjcwMTE3MDgsMTEuMzk5NzcwOSBMMTAuNzAxMTcwOCwxMi43OTk3MzI3IEw5LjMwMTIwOTAxLDEyLjc5OTczMjcgTDkuMzAxMjA5MDEsMTQuMTk5NTU0NiBMMTAuNzAwMTkwOSwxNC4xOTk1NTQ2IEwxMC43MDAxOTA5LDE1LjU5OTUxNjQgTDkuMzAwMjI5MDQsMTUuNTk5NTE2NCBMOS4zMDAyMjkwNCwxNC4xOTk2OTQ2IFogTTEwLjcwMDE5MDksMTYuOTk5NDc4MiBMMTAuNzAwMTkwOSwxNS41OTk1MTY0IEwxNC45MDAwNzYzLDE1LjU5OTUxNjQgTDE0LjkwMDA3NjMsMTYuOTk5NDc4MiBMMTAuNzAwMTkwOSwxNi45OTk0NzgyIFogTTE0LjkwMDA3NjMsMTUuNTk5NTE2NCBMMTQuOTAwMDc2MywxNC4xOTk1NTQ2IEwxNi4zMDAwMzgxLDE0LjE5OTU1NDYgTDE2LjMwMDAzODEsMTUuNTk5NTE2NCBMMTQuOTAwMDc2MywxNS41OTk1MTY0IFogTTE0LjkwMDA3NjMsMTIuNzk5NTkyNyBMMTQuOTAwMDc2MywxMS4zOTk2MzA5IEwxNi4zMDAwMzgxLDExLjM5OTYzMDkgTDE2LjMwMDAzODEsMTIuNzk5NTkyNyBMMTQuOTAwMDc2MywxMi43OTk1OTI3IFogTTE2LjMwMDAzODEsMTQuMTk5NTU0NiBMMTYuMzAwMDM4MSwxMi43OTk1OTI3IEwxNy43LDEyLjc5OTU5MjcgTDE3LjcsMTQuMTk5NTU0NiBMMTYuMzAwMDM4MSwxNC4xOTk1NTQ2IFogTTEzLjUwMDExNDUsMTEuMzk5NjMwOSBMMTMuNTAwMTE0NSw5Ljk5ODI2OTE0IEwxNC45MDAwNzYzLDkuOTk4MjY5MTQgTDE0LjkwMDA3NjMsMTEuMzk5NjMwOSBMMTMuNTAwMTE0NSwxMS4zOTk2MzA5IFoiIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzU3NUU3NSI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5lcmFzZXI8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iZXJhc2VyIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTkuMzAwMjI5MDQsMTQuMTk5Njk0NiBMNy44OTk4NDcyMywxNC4xOTk2OTQ2IEw3Ljg5OTg0NzIzLDEyLjc5OTczMjcgTDYuNDk5ODg1NDEsMTIuNzk5NzMyNyBMNi40OTk4ODU0MSwxMS4zOTk3NzA5IEw1LjA5OTkyMzU5LDExLjM5OTc3MDkgTDUuMDk5OTIzNTksOS45OTg0MDkxMyBMMy42OTk5NjE3Nyw5Ljk5ODQwOTEzIEwzLjY5OTk2MTc3LDguNTk5ODQ3MjggTDIuMjk5OTk5OTUsOC41OTk4NDcyOCBMMi4yOTk5OTk5NSw3LjE5OTg4NTQ2IEwzLjY5OTk2MTc3LDcuMTk5ODg1NDYgTDMuNjk5OTYxNzcsNS43OTk5MjM2NCBMNS4wOTk5MjM1OSw1Ljc5OTkyMzY0IEw1LjA5OTkyMzU5LDQuMzk5OTYxODIgTDYuNDk5ODg1NDEsNC4zOTk5NjE4MiBMNi40OTk4ODU0MSwzIEw3Ljg5OTg0NzIzLDMgTDcuODk5ODQ3MjMsNC4zOTk5NjE4MiBMOS4zMDEyMDkwMSw0LjM5OTk2MTgyIEw5LjMwMTIwOTAxLDUuNzk5OTIzNjQgTDEwLjcwMTE3MDgsNS43OTk5MjM2NCBMMTAuNzAxMTcwOCw3LjE5OTg4NTQ2IEwxMi4xMDExMzI2LDcuMTk5ODg1NDYgTDEyLjEwMTEzMjYsOC41OTk4NDcyOCBMMTMuNDk5Njk0NSw4LjU5OTg0NzI4IEwxMy40OTk2OTQ1LDkuOTk4NDA5MTMgTDEyLjEwMTEzMjYsOS45OTg0MDkxMyBMMTIuMTAxMTMyNiwxMS4zOTk3NzA5IEwxMC43MDExNzA4LDExLjM5OTc3MDkgTDEwLjcwMTE3MDgsMTIuNzk5NzMyNyBMOS4zMDEyMDkwMSwxMi43OTk3MzI3IEw5LjMwMTIwOTAxLDE0LjE5OTU1NDYgTDEwLjcwMDE5MDksMTQuMTk5NTU0NiBMMTAuNzAwMTkwOSwxNS41OTk1MTY0IEw5LjMwMDIyOTA0LDE1LjU5OTUxNjQgTDkuMzAwMjI5MDQsMTQuMTk5Njk0NiBaIE0xMC43MDAxOTA5LDE2Ljk5OTQ3ODIgTDEwLjcwMDE5MDksMTUuNTk5NTE2NCBMMTQuOTAwMDc2MywxNS41OTk1MTY0IEwxNC45MDAwNzYzLDE2Ljk5OTQ3ODIgTDEwLjcwMDE5MDksMTYuOTk5NDc4MiBaIE0xNC45MDAwNzYzLDE1LjU5OTUxNjQgTDE0LjkwMDA3NjMsMTQuMTk5NTU0NiBMMTYuMzAwMDM4MSwxNC4xOTk1NTQ2IEwxNi4zMDAwMzgxLDE1LjU5OTUxNjQgTDE0LjkwMDA3NjMsMTUuNTk5NTE2NCBaIE0xNC45MDAwNzYzLDEyLjc5OTU5MjcgTDE0LjkwMDA3NjMsMTEuMzk5NjMwOSBMMTYuMzAwMDM4MSwxMS4zOTk2MzA5IEwxNi4zMDAwMzgxLDEyLjc5OTU5MjcgTDE0LjkwMDA3NjMsMTIuNzk5NTkyNyBaIE0xNi4zMDAwMzgxLDE0LjE5OTU1NDYgTDE2LjMwMDAzODEsMTIuNzk5NTkyNyBMMTcuNywxMi43OTk1OTI3IEwxNy43LDE0LjE5OTU1NDYgTDE2LjMwMDAzODEsMTQuMTk5NTU0NiBaIE0xMy41MDAxMTQ1LDExLjM5OTYzMDkgTDEzLjUwMDExNDUsOS45OTgyNjkxNCBMMTQuOTAwMDc2Myw5Ljk5ODI2OTE0IEwxNC45MDAwNzYzLDExLjM5OTYzMDkgTDEzLjUwMDExNDUsMTEuMzk5NjMwOSBaIiBpZD0iQ29tYmluZWQtU2hhcGUiIGZpbGw9IiM1NzVFNzUiPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ }),
 
@@ -184964,7 +185986,7 @@ BitFillComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5maWxsPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9ImZpbGwiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0xMC43MDAwNjM0LDUuODAxMzc0NDYgTDkuMjk5Nzk2MTQsNS44MDEzNzQ0NiBMOS4yOTk3OTYxNCw4LjU5OTk0ODk1IEw3Ljg5OTgwODkxLDguNTk5OTQ4OTUgTDcuODk5ODA4OTEsNC4zOTk5ODcyNCBMNi40OTk4MjE2Nyw0LjM5OTk4NzI0IEw2LjQ5OTgyMTY3LDUuODAxMzc0NDYgTDUuMDk5ODM0NDMsNS44MDEzNzQ0NiBMNS4wOTk4MzQ0MywzIEw5LjI5OTc5NjE0LDMgTDkuMjk5Nzk2MTQsNC4zOTk5ODcyNCBMMTAuNzAxMTgzNCw0LjM5OTk4NzI0IEwxMC43MDExODM0LDUuODAxMjM0NDYgTDEyLjEwMDA1MDYsNS44MDEyMzQ0NiBMMTIuMTAwMDUwNiw3LjIwMTIyMTcgTDEwLjcwMDA2MzQsNy4yMDEyMjE3IEwxMC43MDAwNjM0LDUuODAxMzc0NDYgWiBNNS4xMDAxMTQ0Myw4LjYwMTIwODk0IEw1LjEwMDExNDQzLDcuMjAxMjIxNyBMNi41MDAxMDE2Nyw3LjIwMTIyMTcgTDYuNTAwMTAxNjcsOC42MDEyMDg5NCBMNS4xMDAxMTQ0Myw4LjYwMTIwODk0IFogTTE2LjMwMDAxMjMsMTYuOTk5NzMyNCBMMTYuMzAwMDEyMywxMC4wMDExOTYyIEwxNy42OTk5OTk2LDEwLjAwMTE5NjIgTDE3LjY5OTk5OTYsMTYuOTk5NzMyNCBMMTYuMzAwMDEyMywxNi45OTk3MzI0IFogTTEyLjEwMDMzMDYsNy4yMDA4MDE3MSBMMTMuNTAwMzE3OSw3LjIwMDgwMTcxIEwxMy41MDAzMTc5LDguNjAwNzg4OTQgTDE2LjMwMDI5MjMsOC42MDA3ODg5NCBMMTYuMzAwMjkyMywxMC4wMDA3NzYyIEwxNC45MDAzMDUxLDEwLjAwMDc3NjIgTDE0LjkwMDMwNTEsMTEuMzU3MzYzOCBMMTMuNTAwMzE3OSwxMS4zNTczNjM4IEwxMy41MDAzMTc5LDEyLjc1ODc1MSBMMTIuMTAwMzMwNiwxMi43NTg3NTEgTDEyLjEwMDMzMDYsMTQuMTU4NzM4MyBMMTAuNzAwMzQzNCwxNC4xNTg3MzgzIEwxMC43MDAzNDM0LDE1LjU1ODcyNTUgTDkuMjk4OTU2MTUsMTUuNTU4NzI1NSBMOS4yOTg5NTYxNSwxNi45NTg3MTI4IEw3Ljg5ODk2ODkxLDE2Ljk1ODcxMjggTDcuODk4OTY4OTEsMTUuNTU4NzI1NSBMNi40OTg5ODE2OCwxNS41NTg3MjU1IEw2LjQ5ODk4MTY4LDE0LjE1ODczODMgTDUuMTAwMzk0NDIsMTQuMTU4NzM4MyBMNS4xMDAzOTQ0MiwxMi43NTg3NTEgTDMuNzAwNDA3MTksMTIuNzU4NzUxIEwzLjcwMDQwNzE5LDExLjM1NzM2MzggTDYuNDk4OTgxNjgsMTEuMzU3MzYzOCBMNi40OTg5ODE2OCwxMS4zNzEzNjM3IEw5LjI5ODk1NjE1LDExLjM3MTM2MzcgTDkuMjk4OTU2MTUsMTAuMDAwNzc2MiBMMTIuMTAwMzMwNiwxMC4wMDA3NzYyIEwxMi4xMDAzMzA2LDcuMjAwODAxNzEgWiBNMy42OTk5ODcxOSw4LjYwMDY0ODk1IEw1LjA5OTk3NDQzLDguNjAwNjQ4OTUgTDUuMDk5OTc0NDMsMTAuMDAwNjM2MiBMMy42OTk5ODcxOSwxMC4wMDA2MzYyIEwzLjY5OTk4NzE5LDExLjM1NzIyMzggTDIuMjk5OTk5OTUsMTEuMzU3MjIzOCBMMi4yOTk5OTk5NSw5Ljk1NzIzNjU4IEwzLjY5OTk4NzE5LDkuOTU3MjM2NTggTDMuNjk5OTg3MTksOC42MDA2NDg5NSBaIiBpZD0iQ29tYmluZWQtU2hhcGUiIGZpbGw9IiM1NzVFNzUiPjwvcGF0aD4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5maWxsPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9ImZpbGwiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cGF0aCBkPSJNMTAuNzAwMDYzNCw1LjgwMTM3NDQ2IEw5LjI5OTc5NjE0LDUuODAxMzc0NDYgTDkuMjk5Nzk2MTQsOC41OTk5NDg5NSBMNy44OTk4MDg5MSw4LjU5OTk0ODk1IEw3Ljg5OTgwODkxLDQuMzk5OTg3MjQgTDYuNDk5ODIxNjcsNC4zOTk5ODcyNCBMNi40OTk4MjE2Nyw1LjgwMTM3NDQ2IEw1LjA5OTgzNDQzLDUuODAxMzc0NDYgTDUuMDk5ODM0NDMsMyBMOS4yOTk3OTYxNCwzIEw5LjI5OTc5NjE0LDQuMzk5OTg3MjQgTDEwLjcwMTE4MzQsNC4zOTk5ODcyNCBMMTAuNzAxMTgzNCw1LjgwMTIzNDQ2IEwxMi4xMDAwNTA2LDUuODAxMjM0NDYgTDEyLjEwMDA1MDYsNy4yMDEyMjE3IEwxMC43MDAwNjM0LDcuMjAxMjIxNyBMMTAuNzAwMDYzNCw1LjgwMTM3NDQ2IFogTTUuMTAwMTE0NDMsOC42MDEyMDg5NCBMNS4xMDAxMTQ0Myw3LjIwMTIyMTcgTDYuNTAwMTAxNjcsNy4yMDEyMjE3IEw2LjUwMDEwMTY3LDguNjAxMjA4OTQgTDUuMTAwMTE0NDMsOC42MDEyMDg5NCBaIE0xNi4zMDAwMTIzLDE2Ljk5OTczMjQgTDE2LjMwMDAxMjMsMTAuMDAxMTk2MiBMMTcuNjk5OTk5NiwxMC4wMDExOTYyIEwxNy42OTk5OTk2LDE2Ljk5OTczMjQgTDE2LjMwMDAxMjMsMTYuOTk5NzMyNCBaIE0xMi4xMDAzMzA2LDcuMjAwODAxNzEgTDEzLjUwMDMxNzksNy4yMDA4MDE3MSBMMTMuNTAwMzE3OSw4LjYwMDc4ODk0IEwxNi4zMDAyOTIzLDguNjAwNzg4OTQgTDE2LjMwMDI5MjMsMTAuMDAwNzc2MiBMMTQuOTAwMzA1MSwxMC4wMDA3NzYyIEwxNC45MDAzMDUxLDExLjM1NzM2MzggTDEzLjUwMDMxNzksMTEuMzU3MzYzOCBMMTMuNTAwMzE3OSwxMi43NTg3NTEgTDEyLjEwMDMzMDYsMTIuNzU4NzUxIEwxMi4xMDAzMzA2LDE0LjE1ODczODMgTDEwLjcwMDM0MzQsMTQuMTU4NzM4MyBMMTAuNzAwMzQzNCwxNS41NTg3MjU1IEw5LjI5ODk1NjE1LDE1LjU1ODcyNTUgTDkuMjk4OTU2MTUsMTYuOTU4NzEyOCBMNy44OTg5Njg5MSwxNi45NTg3MTI4IEw3Ljg5ODk2ODkxLDE1LjU1ODcyNTUgTDYuNDk4OTgxNjgsMTUuNTU4NzI1NSBMNi40OTg5ODE2OCwxNC4xNTg3MzgzIEw1LjEwMDM5NDQyLDE0LjE1ODczODMgTDUuMTAwMzk0NDIsMTIuNzU4NzUxIEwzLjcwMDQwNzE5LDEyLjc1ODc1MSBMMy43MDA0MDcxOSwxMS4zNTczNjM4IEw2LjQ5ODk4MTY4LDExLjM1NzM2MzggTDYuNDk4OTgxNjgsMTEuMzcxMzYzNyBMOS4yOTg5NTYxNSwxMS4zNzEzNjM3IEw5LjI5ODk1NjE1LDEwLjAwMDc3NjIgTDEyLjEwMDMzMDYsMTAuMDAwNzc2MiBMMTIuMTAwMzMwNiw3LjIwMDgwMTcxIFogTTMuNjk5OTg3MTksOC42MDA2NDg5NSBMNS4wOTk5NzQ0Myw4LjYwMDY0ODk1IEw1LjA5OTk3NDQzLDEwLjAwMDYzNjIgTDMuNjk5OTg3MTksMTAuMDAwNjM2MiBMMy42OTk5ODcxOSwxMS4zNTcyMjM4IEwyLjI5OTk5OTk1LDExLjM1NzIyMzggTDIuMjk5OTk5OTUsOS45NTcyMzY1OCBMMy42OTk5ODcxOSw5Ljk1NzIzNjU4IEwzLjY5OTk4NzE5LDguNjAwNjQ4OTUgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjNTc1RTc1Ij48L3BhdGg+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185012,7 +186034,7 @@ BitLineComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5saW5lPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9ImxpbmUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0xMiw3Ljk5OCBMMTIsNiBMMTQsNiBMMTQsOCBMMTIuMDAyLDggTDEyLjAwMiwxMCBMMTAsMTAgTDEwLDcuOTk4IEwxMiw3Ljk5OCBaIE04LDEyIEw4LDEwIEwxMCwxMCBMMTAsMTIgTDgsMTIgWiBNMTQsNiBMMTQsNCBMMTYsNCBMMTYsNiBMMTQsNiBaIE00LDE2IEw0LDE0IEw2LDE0IEw2LDE2IEw0LDE2IFogTTYsMTQgTDYsMTIgTDgsMTIgTDgsMTQgTDYsMTQgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjNTc1RTc1Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5saW5lPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9ImxpbmUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cGF0aCBkPSJNMTIsNy45OTggTDEyLDYgTDE0LDYgTDE0LDggTDEyLjAwMiw4IEwxMi4wMDIsMTAgTDEwLDEwIEwxMCw3Ljk5OCBMMTIsNy45OTggWiBNOCwxMiBMOCwxMCBMMTAsMTAgTDEwLDEyIEw4LDEyIFogTTE0LDYgTDE0LDQgTDE2LDQgTDE2LDYgTDE0LDYgWiBNNCwxNiBMNCwxNCBMNiwxNCBMNiwxNiBMNCwxNiBaIE02LDE0IEw2LDEyIEw4LDEyIEw4LDE0IEw2LDE0IFoiIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzU3NUU3NSI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg=="
 
 /***/ }),
 
@@ -185060,7 +186082,7 @@ BitOvalComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUwLjIgKDU1MDQ3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5vdmFsLW91dGxpbmVkPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Im92YWwtb3V0bGluZWQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wMDAwMDAsIDQuMDAwMDAwKSIgZmlsbD0iIzU3NUU3NSI+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTEiIHBvaW50cz0iMCA5LjMzMzMzMzMzIDEuMzMzMzMzMzMgOS4zMzMzMzMzMyAxLjMzMzMzMzMzIDIuNjY2NjY2NjcgMCAyLjY2NjY2NjY3Ij48L3BvbHlnb24+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTIiIHBvaW50cz0iMS4zMzMzMzMzMyAyLjY2NjY2NjY3IDIuNjY2NjY2NjcgMi42NjY2NjY2NyAyLjY2NjY2NjY3IDEuMzMzMzMzMzMgMS4zMzMzMzMzMyAxLjMzMzMzMzMzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTMiIHBvaW50cz0iMS4zMzMzMzMzMyAxMC42NjY2NjY3IDIuNjY2NjY2NjcgMTAuNjY2NjY2NyAyLjY2NjY2NjY3IDkuMzMzMzMzMzMgMS4zMzMzMzMzMyA5LjMzMzMzMzMzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTQiIHBvaW50cz0iMi42NjY2NjY2NyAxLjMzMzMzMzMzIDkuMzMzMzMzMzMgMS4zMzMzMzMzMyA5LjMzMzMzMzMzIDAgMi42NjY2NjY2NyAwIj48L3BvbHlnb24+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTUiIHBvaW50cz0iOS4zMzMzMzMzMyAyLjY2NjY2NjY3IDEwLjY2NjY2NjcgMi42NjY2NjY2NyAxMC42NjY2NjY3IDEuMzMzMzMzMzMgOS4zMzMzMzMzMyAxLjMzMzMzMzMzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTYiIHBvaW50cz0iMTAuNjY2NjY2NyA5LjMzMzMzMzMzIDEyIDkuMzMzMzMzMzMgMTIgMi42NjY2NjY2NyAxMC42NjY2NjY3IDIuNjY2NjY2NjciPjwvcG9seWdvbj4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkZpbGwtNyIgcG9pbnRzPSI5LjMzMzMzMzMzIDEwLjY2NjY2NjcgMTAuNjY2NjY2NyAxMC42NjY2NjY3IDEwLjY2NjY2NjcgOS4zMzMzMzMzMyA5LjMzMzMzMzMzIDkuMzMzMzMzMzMiPjwvcG9seWdvbj4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkZpbGwtOCIgcG9pbnRzPSIyLjY2NjY2NjY3IDEyIDkuMzMzMzMzMzMgMTIgOS4zMzMzMzMzMyAxMC42NjY2NjY3IDIuNjY2NjY2NjcgMTAuNjY2NjY2NyI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5vdmFsLW91dGxpbmVkPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9Im92YWwtb3V0bGluZWQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQuMDAwMDAwLCA0LjAwMDAwMCkiIGZpbGw9IiM1NzVFNzUiPg0KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkZpbGwtMSIgcG9pbnRzPSIwIDkuMzMzMzMzMzMgMS4zMzMzMzMzMyA5LjMzMzMzMzMzIDEuMzMzMzMzMzMgMi42NjY2NjY2NyAwIDIuNjY2NjY2NjciPjwvcG9seWdvbj4NCiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTIiIHBvaW50cz0iMS4zMzMzMzMzMyAyLjY2NjY2NjY3IDIuNjY2NjY2NjcgMi42NjY2NjY2NyAyLjY2NjY2NjY3IDEuMzMzMzMzMzMgMS4zMzMzMzMzMyAxLjMzMzMzMzMzIj48L3BvbHlnb24+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0iRmlsbC0zIiBwb2ludHM9IjEuMzMzMzMzMzMgMTAuNjY2NjY2NyAyLjY2NjY2NjY3IDEwLjY2NjY2NjcgMi42NjY2NjY2NyA5LjMzMzMzMzMzIDEuMzMzMzMzMzMgOS4zMzMzMzMzMyI+PC9wb2x5Z29uPg0KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkZpbGwtNCIgcG9pbnRzPSIyLjY2NjY2NjY3IDEuMzMzMzMzMzMgOS4zMzMzMzMzMyAxLjMzMzMzMzMzIDkuMzMzMzMzMzMgMCAyLjY2NjY2NjY3IDAiPjwvcG9seWdvbj4NCiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJGaWxsLTUiIHBvaW50cz0iOS4zMzMzMzMzMyAyLjY2NjY2NjY3IDEwLjY2NjY2NjcgMi42NjY2NjY2NyAxMC42NjY2NjY3IDEuMzMzMzMzMzMgOS4zMzMzMzMzMyAxLjMzMzMzMzMzIj48L3BvbHlnb24+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0iRmlsbC02IiBwb2ludHM9IjEwLjY2NjY2NjcgOS4zMzMzMzMzMyAxMiA5LjMzMzMzMzMzIDEyIDIuNjY2NjY2NjcgMTAuNjY2NjY2NyAyLjY2NjY2NjY3Ij48L3BvbHlnb24+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0iRmlsbC03IiBwb2ludHM9IjkuMzMzMzMzMzMgMTAuNjY2NjY2NyAxMC42NjY2NjY3IDEwLjY2NjY2NjcgMTAuNjY2NjY2NyA5LjMzMzMzMzMzIDkuMzMzMzMzMzMgOS4zMzMzMzMzMyI+PC9wb2x5Z29uPg0KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IkZpbGwtOCIgcG9pbnRzPSIyLjY2NjY2NjY3IDEyIDkuMzMzMzMzMzMgMTIgOS4zMzMzMzMzMyAxMC42NjY2NjY3IDIuNjY2NjY2NjcgMTAuNjY2NjY2NyI+PC9wb2x5Z29uPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185071,7 +186093,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5vdmFsPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Im92YWwiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwb2x5Z29uIGlkPSJQYWdlLTEiIGZpbGw9IiM1NzVFNzUiIHBvaW50cz0iNi42NjY2NjY2NyA0IDYuNjY2NjY2NjcgNS4zMzMzMzMzMyA1LjMzMzMzMzMzIDUuMzMzMzMzMzMgNS4zMzMzMzMzMyA2LjY2NjY2NjY3IDQgNi42NjY2NjY2NyA0IDEzLjMzMzMzMzMgNS4zMzMzMzMzMyAxMy4zMzMzMzMzIDUuMzMzMzMzMzMgMTQuNjY2NjY2NyA2LjY2NjY2NjY3IDE0LjY2NjY2NjcgNi42NjY2NjY2NyAxNiAxMy4zMzMzMzMzIDE2IDEzLjMzMzMzMzMgMTQuNjY2NjY2NyAxNC42NjY2NjY3IDE0LjY2NjY2NjcgMTQuNjY2NjY2NyAxMy4zMzMzMzMzIDE2IDEzLjMzMzMzMzMgMTYgNi42NjY2NjY2NyAxNC42NjY2NjY3IDYuNjY2NjY2NjcgMTQuNjY2NjY2NyA1LjMzMzMzMzMzIDEzLjMzMzMzMzMgNS4zMzMzMzMzMyAxMy4zMzMzMzMzIDQiPjwvcG9seWdvbj4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5vdmFsPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9Im92YWwiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cG9seWdvbiBpZD0iUGFnZS0xIiBmaWxsPSIjNTc1RTc1IiBwb2ludHM9IjYuNjY2NjY2NjcgNCA2LjY2NjY2NjY3IDUuMzMzMzMzMzMgNS4zMzMzMzMzMyA1LjMzMzMzMzMzIDUuMzMzMzMzMzMgNi42NjY2NjY2NyA0IDYuNjY2NjY2NjcgNCAxMy4zMzMzMzMzIDUuMzMzMzMzMzMgMTMuMzMzMzMzMyA1LjMzMzMzMzMzIDE0LjY2NjY2NjcgNi42NjY2NjY2NyAxNC42NjY2NjY3IDYuNjY2NjY2NjcgMTYgMTMuMzMzMzMzMyAxNiAxMy4zMzMzMzMzIDE0LjY2NjY2NjcgMTQuNjY2NjY2NyAxNC42NjY2NjY3IDE0LjY2NjY2NjcgMTMuMzMzMzMzMyAxNiAxMy4zMzMzMzMzIDE2IDYuNjY2NjY2NjcgMTQuNjY2NjY2NyA2LjY2NjY2NjY3IDE0LjY2NjY2NjcgNS4zMzMzMzMzMyAxMy4zMzMzMzMzIDUuMzMzMzMzMzMgMTMuMzMzMzMzMyA0Ij48L3BvbHlnb24+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185119,7 +186141,7 @@ BitRectComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUwLjIgKDU1MDQ3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5yZWN0YW5nZS1vdXRsaW5lZDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJyZWN0YW5nZS1vdXRsaW5lZCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEuMzMzMzMzMzMiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3QgaWQ9InJlY3RhbmdsZS1pY29uIiBzdHJva2U9IiM1NzVFNzUiIHg9IjQuNSIgeT0iNC41IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiPjwvcmVjdD4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5yZWN0YW5nZS1vdXRsaW5lZDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJyZWN0YW5nZS1vdXRsaW5lZCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEuMzMzMzMzMzMiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxyZWN0IGlkPSJyZWN0YW5nbGUtaWNvbiIgc3Ryb2tlPSIjNTc1RTc1IiB4PSI0LjUiIHk9IjQuNSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIj48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185130,7 +186152,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5yZWN0YW5nZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJyZWN0YW5nZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3QgaWQ9InJlY3RhbmdsZS1pY29uIiBmaWxsPSIjNTc1RTc1IiB4PSI0IiB5PSI0IiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiPjwvcmVjdD4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5yZWN0YW5nZTwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJyZWN0YW5nZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxyZWN0IGlkPSJyZWN0YW5nbGUtaWNvbiIgZmlsbD0iIzU3NUU3NSIgeD0iNCIgeT0iNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIj48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185178,7 +186200,7 @@ BitSelectComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/bf550f4c2ff75abf5d2d76e87470af92.svg";
+module.exports = __webpack_require__.p + "static/assets/ddda7be6cc86ab6613c6367ce4748d4a.svg";
 
 /***/ }),
 
@@ -185226,7 +186248,7 @@ BitTextComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjMgKDUxMTY3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT50ZXh0PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9InRleHQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwb2x5Z29uIGlkPSJQYWdlLTEiIGZpbGw9IiM1NzVFNzUiIHBvaW50cz0iNCA0IDQgOCA2IDggNiA2IDkgNiA5IDE0IDcgMTQgNyAxNiAxMyAxNiAxMyAxNCAxMSAxNCAxMSA2IDE0IDYgMTQgOCAxNiA4IDE2IDQiPjwvcG9seWdvbj4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT50ZXh0PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9InRleHQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cG9seWdvbiBpZD0iUGFnZS0xIiBmaWxsPSIjNTc1RTc1IiBwb2ludHM9IjQgNCA0IDggNiA4IDYgNiA5IDYgOSAxNCA3IDE0IDcgMTYgMTMgMTYgMTMgMTQgMTEgMTQgMTEgNiAxNCA2IDE0IDggMTYgOCAxNiA0Ij48L3BvbHlnb24+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185410,7 +186432,7 @@ BrushModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+YnJ1c2g8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgICAgIDxnIGlkPSJicnVzaCIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjAuNSIgZmlsbD0iIzU3NUU3NSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMi41Nzg3MjI1LDExLjIxMDIwMjYgQzExLjYxOTYyODQsMTIuMTY5Mjk2NyAxMC45MTI5Mjc0LDEyLjY2MTQ2MzQgMTAuMzU3NjYyNCwxMi44NTA3NTgzIEMxMC4xOTM2MDY5LDEyLjM0NTk3MTkgOS45MTU5NzQzNywxMS44NzkwNDQ1IDkuNTI0NzY0OTQsMTEuNDg3ODM1MSBDOS4xMjA5MzU4NSwxMS4wOTY2MjU3IDguNjU0MDA4NDYsMTAuODE4OTkzMiA4LjE0OTIyMjA5LDEwLjY0MjMxNzkgQzguMzUxMTM2NjQsMTAuMDg3MDUyOSA4Ljg0MzMwMzM1LDkuMzgwMzUyMDMgOS43ODk3Nzc3OCw4LjQzMzg3NzU5IEMxMi4wNjEzMTY0LDYuMTQ5NzE5MjkgMTYuMDk5NjA3NCwzLjM2MDc3NDYxIDE2Ljg2OTQwNjYsNC4xMzA1NzM4MiBDMTcuNjM5MjA1OCw0LjkwMDM3MzAzIDE0Ljg1MDI2MTEsOC45Mzg2NjM5NiAxMi41Nzg3MjI1LDExLjIxMDIwMjYgWiBNOC4zOTEyNDMzNCwxNS40MTIwMTA0IEM4LjAxNTY5MTk3LDE1Ljc3NDg2NTcgNy41MzExMDk1NSwxNS45NjIxNDU5IDcuMDQ2NTI3MTMsMTUuOTg1NTU1OSBMNy4wNDY1MjcxMywxNS45OTcyNjA5IEw2LjkyNTM4MTUzLDE1Ljk5NzI2MDkgQzMuNjc4Njc5MzQsMTYuMTE0MzExIDIuMjYxMjc1NzcsMTIuNDM4OTM3OSAzLjM3NTgxNTMzLDEyLjgyNTIwMzIgQzQuODQxNjc3MTQsMTMuMzI4NTE4NiA1LjQzNjUwMjA1LDEyLjYwMjgwOCA1LjQ1OTUxOTcyLDEyLjU3OTM5OCBDNi4yNzExOTUyNywxMS44MDY4NjczIDcuNTc5NTY3NzksMTEuODA2ODY3MyA4LjM5MTI0MzM0LDEyLjU3OTM5OCBDOS4yMDI5MTg4OSwxMy4zNjM2MzM3IDkuMjAyOTE4ODksMTQuNjM5NDc5OCA4LjM5MTI0MzM0LDE1LjQxMjAxMDQgWiIgaWQ9ImJ1cnNoLWljb24iPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+YnJ1c2g8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICAgICAgICA8ZyBpZD0iYnJ1c2giIHN0cm9rZT0iIzU3NUU3NSIgc3Ryb2tlLXdpZHRoPSIwLjUiIGZpbGw9IiM1NzVFNzUiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTEyLjU3ODcyMjUsMTEuMjEwMjAyNiBDMTEuNjE5NjI4NCwxMi4xNjkyOTY3IDEwLjkxMjkyNzQsMTIuNjYxNDYzNCAxMC4zNTc2NjI0LDEyLjg1MDc1ODMgQzEwLjE5MzYwNjksMTIuMzQ1OTcxOSA5LjkxNTk3NDM3LDExLjg3OTA0NDUgOS41MjQ3NjQ5NCwxMS40ODc4MzUxIEM5LjEyMDkzNTg1LDExLjA5NjYyNTcgOC42NTQwMDg0NiwxMC44MTg5OTMyIDguMTQ5MjIyMDksMTAuNjQyMzE3OSBDOC4zNTExMzY2NCwxMC4wODcwNTI5IDguODQzMzAzMzUsOS4zODAzNTIwMyA5Ljc4OTc3Nzc4LDguNDMzODc3NTkgQzEyLjA2MTMxNjQsNi4xNDk3MTkyOSAxNi4wOTk2MDc0LDMuMzYwNzc0NjEgMTYuODY5NDA2Niw0LjEzMDU3MzgyIEMxNy42MzkyMDU4LDQuOTAwMzczMDMgMTQuODUwMjYxMSw4LjkzODY2Mzk2IDEyLjU3ODcyMjUsMTEuMjEwMjAyNiBaIE04LjM5MTI0MzM0LDE1LjQxMjAxMDQgQzguMDE1NjkxOTcsMTUuNzc0ODY1NyA3LjUzMTEwOTU1LDE1Ljk2MjE0NTkgNy4wNDY1MjcxMywxNS45ODU1NTU5IEw3LjA0NjUyNzEzLDE1Ljk5NzI2MDkgTDYuOTI1MzgxNTMsMTUuOTk3MjYwOSBDMy42Nzg2NzkzNCwxNi4xMTQzMTEgMi4yNjEyNzU3NywxMi40Mzg5Mzc5IDMuMzc1ODE1MzMsMTIuODI1MjAzMiBDNC44NDE2NzcxNCwxMy4zMjg1MTg2IDUuNDM2NTAyMDUsMTIuNjAyODA4IDUuNDU5NTE5NzIsMTIuNTc5Mzk4IEM2LjI3MTE5NTI3LDExLjgwNjg2NzMgNy41Nzk1Njc3OSwxMS44MDY4NjczIDguMzkxMjQzMzQsMTIuNTc5Mzk4IEM5LjIwMjkxODg5LDEzLjM2MzYzMzcgOS4yMDI5MTg4OSwxNC42Mzk0Nzk4IDguMzkxMjQzMzQsMTUuNDEyMDEwNCBaIiBpZD0iYnVyc2gtaWNvbiI+PC9wYXRoPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -185693,7 +186715,7 @@ ColorButtonComponent.defaultProps = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+bWl4ZWQtZmlsbDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtb3BhY2l0eT0iMC43NSI+CiAgICAgICAgPGcgaWQ9Im1peGVkLWZpbGwiPgogICAgICAgICAgICA8ZyBpZD0ibWl4ZWQtZmlsbC1pY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjAwMDAwMCwgMi41MDAwMDApIj4KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9ImJsdWUiIGZpbGw9IiM0Qzk3RkYiIGN4PSI0LjUiIGN5PSIxMC41IiByPSI0LjUiPjwvY2lyY2xlPgogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0icmVkIiBmaWxsPSIjRkY1NTAwIiBjeD0iOCIgY3k9IjQuNSIgcj0iNC41Ij48L2NpcmNsZT4KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9InllbGxvdyIgZmlsbD0iI0ZGQkYwMCIgY3g9IjExLjQwOTk5OTgiIGN5PSIxMC41IiByPSI0LjUiPjwvY2lyY2xlPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bWl4ZWQtZmlsbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtb3BhY2l0eT0iMC43NSI+DQogICAgICAgIDxnIGlkPSJtaXhlZC1maWxsIj4NCiAgICAgICAgICAgIDxnIGlkPSJtaXhlZC1maWxsLWljb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMDAwMDAwLCAyLjUwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9ImJsdWUiIGZpbGw9IiM0Qzk3RkYiIGN4PSI0LjUiIGN5PSIxMC41IiByPSI0LjUiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9InJlZCIgZmlsbD0iI0ZGNTUwMCIgY3g9IjgiIGN5PSI0LjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0ieWVsbG93IiBmaWxsPSIjRkZCRjAwIiBjeD0iMTEuNDA5OTk5OCIgY3k9IjEwLjUiIHI9IjQuNSI+PC9jaXJjbGU+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
 
@@ -185704,7 +186726,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+bm8tZmlsbDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgIDxnIGlkPSJuby1maWxsIiBzdHJva2U9IiNGRjY2MUEiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zLDE3IEwxNywzIiBpZD0iTGluZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bm8tZmlsbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPg0KICAgICAgICA8ZyBpZD0ibm8tZmlsbCIgc3Ryb2tlPSIjRkY2NjFBIiBzdHJva2Utd2lkdGg9IjIiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTMsMTcgTDE3LDMiIGlkPSJMaW5lIj48L3BhdGg+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ }),
 
@@ -186151,7 +187173,7 @@ class ColorPickerComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.
       }),
       onClick: this.props.onActivateEyeDropper
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.pickerIcon),
+      className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon,
       draggable: false,
       src: _icons_eye_dropper_svg__WEBPACK_IMPORTED_MODULE_10___default.a
     })))));
@@ -186198,7 +187220,134 @@ ColorPickerComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/589eaf6a247df5343b584fd0fa848489.svg";
+module.exports = __webpack_require__.p + "static/assets/73e5faa7d606ea47bc2aa9d71c5bd3c9.svg";
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../css-loader??ref--5-1!../../../../postcss-loader/src??postcss!./dash-array-dropdown.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/scratch-paint/node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dropdown/dropdown.jsx */ "./node_modules/scratch-paint/src/components/dropdown/dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
+/* harmony import */ var _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dash-array-dropdown.css */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.css");
+/* harmony import */ var _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _tw_recolor_build_add_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../tw-recolor/build!./add.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/add.svg");
+/* harmony import */ var _tw_recolor_build_delete_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../tw-recolor/build!./delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/dash-array-dropdown/delete.svg");
+
+
+
+
+
+
+
+
+
+
+
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_7__["default"]);
+const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modUnselect, _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.dashArrayDropdown),
+  enterExitTransitionDurationMs: 60,
+  popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.dashArrayContextMenu
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.table
+  }, props.dashArray.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.item
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(LiveInput, {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.readout,
+    min: "0",
+    max: "1000",
+    type: "number",
+    value: item,
+    onSubmit: value => props.handleChange(value, index)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.button,
+    onClick: () => props.handleDelete(index)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    draggable: false,
+    src: _tw_recolor_build_delete_svg__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.row
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.button,
+    onClick: props.handleAdd
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    draggable: false,
+    src: _tw_recolor_build_add_svg__WEBPACK_IMPORTED_MODULE_10__["default"]
+  })))),
+  ref: props.componentRef,
+  tipSize: .01,
+  onOpen: props.onOpenDropdown,
+  onOuterAction: props.onClickOutsideDropdown
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("svg", {
+  width: "64",
+  height: "4"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("line", {
+  x1: "0",
+  y1: "2",
+  x2: "64",
+  y2: "2",
+  strokeWidth: "4",
+  strokeDasharray: props.dashArray.length === 0 ? "0" : props.dashArray.join(" ")
+})));
+ModeToolsComponent.propTypes = {
+  componentRef: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number),
+  onClickOutsideDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  handleAdd: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  handleChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  handleDelete: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (ModeToolsComponent);
 
 /***/ }),
 
@@ -186365,7 +187514,7 @@ EraserModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+ZXJhc2VyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9ImVyYXNlciIgZmlsbD0iIzU3NUU3NSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMy41MzcwMDYxLDE0LjgyOTE1OTcgTDEwLjk2NjA1NDUsMTQuODI5MTU5NyBMOC4zMDE2MTM4LDEyLjE2NDcxOSBMMTEuMTY4NjE0NCw5LjI5NzcxODQyIEwxNS4xMjYzMjE2LDEzLjI1NTQyNTcgTDEzLjUzNzAwNjEsMTQuODI5MTU5NyBaIE0xNi43Nzc5NjMzLDEyLjY5NDQ5MDggTDExLjE2ODYxNDQsNy4xMDA3MjM0MyBMOC4zMDE2MTM4LDQuMjMzNzIyODcgQzguMDA1NTY0ODMsMy45MjIwOTIzOCA3LjUwNjk1NjA0LDMuOTIyMDkyMzggNy4xOTUzMjU1NCw0LjIzMzcyMjg3IEwzLjIyMjAzNjczLDguMjA3MDExNjkgQzIuOTI1OTg3NzYsOC41MDMwNjA2NiAyLjkyNTk4Nzc2LDkuMDAxNjY5NDUgMy4yMjIwMzY3Myw5LjI5NzcxODQyIEw2LjEwNDYxODgxLDEyLjE2NDcxOSBMMTAuMDkzNDg5MSwxNi4xNTM1ODkzIEMxMC4yMzM3MjI5LDE2LjMwOTQwNDYgMTAuNDM2MjgyNywxNi4zODczMTIyIDEwLjYzODg0MjUsMTYuMzg3MzEyMiBMMTMuODY0MjE4MSwxNi4zODczMTIyIEMxNC4wNjY3NzgsMTYuMzg3MzEyMiAxNC4yNjkzMzc4LDE2LjMwOTQwNDYgMTQuNDA5NTcxNSwxNi4xNTM1ODkzIEwxNi43Nzc5NjMzLDEzLjgwMDc3OTEgQzE3LjA3NDAxMjIsMTMuNTA0NzMwMSAxNy4wNzQwMTIyLDEzLjAwNjEyMTMgMTYuNzc3OTYzMywxMi42OTQ0OTA4IEwxNi43Nzc5NjMzLDEyLjY5NDQ5MDggWiIgaWQ9ImVyYXNlci1pY29uIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+ZXJhc2VyPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJlcmFzZXIiIGZpbGw9IiM1NzVFNzUiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTEzLjUzNzAwNjEsMTQuODI5MTU5NyBMMTAuOTY2MDU0NSwxNC44MjkxNTk3IEw4LjMwMTYxMzgsMTIuMTY0NzE5IEwxMS4xNjg2MTQ0LDkuMjk3NzE4NDIgTDE1LjEyNjMyMTYsMTMuMjU1NDI1NyBMMTMuNTM3MDA2MSwxNC44MjkxNTk3IFogTTE2Ljc3Nzk2MzMsMTIuNjk0NDkwOCBMMTEuMTY4NjE0NCw3LjEwMDcyMzQzIEw4LjMwMTYxMzgsNC4yMzM3MjI4NyBDOC4wMDU1NjQ4MywzLjkyMjA5MjM4IDcuNTA2OTU2MDQsMy45MjIwOTIzOCA3LjE5NTMyNTU0LDQuMjMzNzIyODcgTDMuMjIyMDM2NzMsOC4yMDcwMTE2OSBDMi45MjU5ODc3Niw4LjUwMzA2MDY2IDIuOTI1OTg3NzYsOS4wMDE2Njk0NSAzLjIyMjAzNjczLDkuMjk3NzE4NDIgTDYuMTA0NjE4ODEsMTIuMTY0NzE5IEwxMC4wOTM0ODkxLDE2LjE1MzU4OTMgQzEwLjIzMzcyMjksMTYuMzA5NDA0NiAxMC40MzYyODI3LDE2LjM4NzMxMjIgMTAuNjM4ODQyNSwxNi4zODczMTIyIEwxMy44NjQyMTgxLDE2LjM4NzMxMjIgQzE0LjA2Njc3OCwxNi4zODczMTIyIDE0LjI2OTMzNzgsMTYuMzA5NDA0NiAxNC40MDk1NzE1LDE2LjE1MzU4OTMgTDE2Ljc3Nzk2MzMsMTMuODAwNzc5MSBDMTcuMDc0MDEyMiwxMy41MDQ3MzAxIDE3LjA3NDAxMjIsMTMuMDA2MTIxMyAxNi43Nzc5NjMzLDEyLjY5NDQ5MDggTDE2Ljc3Nzk2MzMsMTIuNjk0NDkwOCBaIiBpZD0iZXJhc2VyLWljb24iPjwvcGF0aD4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
 
 /***/ }),
 
@@ -186413,7 +187562,7 @@ FillModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/cee477fa706ab6fe733a65edd475c41b.svg";
+module.exports = __webpack_require__.p + "static/assets/01e0098527430f986dd02f985271549b.svg";
 
 /***/ }),
 
@@ -186832,7 +187981,7 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modUnselect, _font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.fontDropdown),
   enterExitTransitionDurationMs: 60,
   popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modContextMenu
+    className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.fontContextMenu
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
     onClick: props.onChoose,
@@ -186878,9 +188027,107 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
     onClick: props.onChoose,
-    onMouseOver: props.onHoverMopedLike
+    onMouseOver: props.onHoverScratch
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
-    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].MOPED_LIKE,
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].SCRATCH,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverBranches
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BRANCHES,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverPlayful
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].PLAYFUL,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverBubbly
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BUBBLY,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverArcade
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCADE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverBitsAndBytes
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].BITSANDBYTES,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverTechnological
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].TECHNOLOGICAL,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverArchivo
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCHIVO,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverArchivoBlack
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].ARCHIVOBLACK,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverGogono
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].GOGONO,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverJustBubble
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JUSTBUBBLE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverLilitaOne
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].LILITAONE,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverMinecrafter
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].MINECRAFTER,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverObelixPro
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].OBELIXPRO,
+    getFontName: props.getFontName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
+    onClick: props.onChoose,
+    onMouseOver: props.onHoverJetBrainsMono
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
+    font: _lib_fonts__WEBPACK_IMPORTED_MODULE_7__["default"].JETBRAINSMONO,
     getFontName: props.getFontName
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.modMenuItem),
@@ -186924,16 +188171,25 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
   onOpen: props.onOpenDropdown,
   onOuterAction: props.onClickOutsideDropdown
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-  className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.displayedFontName
+  className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.displayedFontName,
+  style: props.font === "Bits and Bytes" ? {
+    transform: "scale(0.5)",
+    transformOrigin: "left"
+  } : {}
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(DisplayFont, {
   font: props.font,
   getFontName: props.getFontName
 })));
 ModeToolsComponent.propTypes = {
   componentRef: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  customExists: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  customClass: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  customName: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   font: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   getFontName: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   onChoose: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onChooseCustom: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onChooseExisting: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onClickOutsideDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   customFonts: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
     name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
@@ -186948,7 +188204,21 @@ ModeToolsComponent.propTypes = {
   onHoverKorean: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverMarker: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverPixel: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onHoverMopedLike: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverScratch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverBranches: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverPlayful: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverBubbly: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverBitsAndBytes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverTechnological: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverArcade: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverArchivo: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverArchivoBlack: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverGogono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverJustBubble: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverLilitaOne: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverMinecrafter: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverObelixPro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onHoverJetBrainsMono: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSansSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onHoverSerif: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
@@ -187268,6 +188538,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
   LiveInput.propTypes = {
     max: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
     min: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
+    step: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
     onSubmit: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
     value: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number])
   };
@@ -187544,7 +188815,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../tw-recolor/render.jsx */ "./node_modules/scratch-paint/src/tw-recolor/render.jsx");
 /* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./labeled-icon-button.css */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.css");
 /* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5__);
-const _excluded = ["className", "hideLabel", "imgAlt", "imgSrc", "onClick", "title", "gray"];
+const _excluded = ["className", "hideLabel", "imgAlt", "imgSrc", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
@@ -187565,8 +188836,7 @@ const LabeledIconButton = _ref => {
       imgAlt,
       imgSrc,
       onClick,
-      title,
-      gray
+      title
     } = _ref,
     props = _objectWithoutProperties(_ref, _excluded);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
@@ -187574,9 +188844,7 @@ const LabeledIconButton = _ref => {
     onClick: onClick
   }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_tw_recolor_render_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
     alt: imgAlt || title,
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.editFieldIcon, {
-      [_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.gray]: gray
-    }),
+    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_5___default.a.editFieldIcon,
     draggable: false,
     src: imgSrc,
     title: title
@@ -187591,8 +188859,7 @@ LabeledIconButton.propTypes = {
   imgAlt: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   imgSrc: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string]),
   onClick: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
-  gray: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool
+  title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (LabeledIconButton);
 
@@ -187642,7 +188909,7 @@ LineModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+bGluZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgIDxnIGlkPSJsaW5lIiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01LDE1IEwxNSw1IiBpZD0iTGluZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+bGluZTwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPg0KICAgICAgICA8ZyBpZD0ibGluZSIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjIiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTUsMTUgTDE1LDUiIGlkPSJMaW5lIj48L3BhdGg+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ }),
 
@@ -187797,6 +189064,61 @@ LoupeComponent.propTypes = {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg":
+/*!************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+YWxpZ248L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBsdWwuPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBEb28gRG9vPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCB5b3VyIG1vbS48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIxIiB5PSIyIiB3aWR0aD0iMTgiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIzIiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIyIiB5PSIxMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjIiPjwvcmVjdD4NCiAgICAgICAgPHJlY3QgZmlsbD0iIzU3NUU3NSIgeD0iNCIgeT0iMTQiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyIj48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+"
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+YWxpZ248L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBsdWwuPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBEb28gRG9vPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCB5b3VyIG1vbS48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIxIiB5PSIyIiB3aWR0aD0iMTgiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIxIiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIxIiB5PSIxMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjIiPjwvcmVjdD4NCiAgICAgICAgPHJlY3QgZmlsbD0iIzU3NUU3NSIgeD0iMSIgeT0iMTQiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyIj48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+"
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+YWxpZ248L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBsdWwuPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBEb28gRG9vPC9kZXNjPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCB5b3VyIG1vbS48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIxIiB5PSIyIiB3aWR0aD0iMTgiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSI1IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMiI+PC9yZWN0Pg0KICAgICAgICA8cmVjdCBmaWxsPSIjNTc1RTc1IiB4PSIzIiB5PSIxMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjIiPjwvcmVjdD4NCiAgICAgICAgPHJlY3QgZmlsbD0iIzU3NUU3NSIgeD0iNyIgeT0iMTQiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyIj48L3JlY3Q+DQogICAgPC9nPg0KPC9zdmc+"
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwLDAsMjAsMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+DQogICAgPGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWRhc2hhcnJheT0iMiA3Ij48cGF0aCBkPSJNMywxNyBMMTcsMyIvPjwvZz4NCjwvc3ZnPg0K"
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+cmVjdGFuZ2xlPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4NCiAgICAgICAgPGcgaWQ9InJlY3RhbmdsZSIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjEuNSI+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0icmVjdGFuZ2xlLWljb24iIHBvaW50cz0iMTAsMi41LCAxMiw4LCAxNy41LDEwLCAxMiwxMiwgMTAsMTcuNSwgOCwxMiwgMi41LDEwLCA4LDgiPjwvcG9seWdvbj4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css":
 /*!*****************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css ***!
@@ -187843,49 +189165,87 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _reducers_brush_mode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../reducers/brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
-/* harmony import */ var _reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../reducers/eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
-/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
-/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
-/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
-/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
-/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
-/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
-/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/copy.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
-/* harmony import */ var _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/paste.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
-/* harmony import */ var _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
-/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
-/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
-/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
-/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/curved-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
-/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-horizontal.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
-/* harmony import */ var _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-vertical.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
-/* harmony import */ var _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/straight-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
-/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
-/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
-/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dropdown/dropdown.jsx */ "./node_modules/scratch-paint/src/components/dropdown/dropdown.jsx");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-responsive */ "./node_modules/scratch-paint/node_modules/react-responsive/dist/react-responsive.js");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/layout-constants */ "./node_modules/scratch-paint/src/lib/layout-constants.js");
+/* harmony import */ var _reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../reducers/brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
+/* harmony import */ var _reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../reducers/eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
+/* harmony import */ var _reducers_pen_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../reducers/pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../reducers/bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
+/* harmony import */ var _reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../reducers/bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
+/* harmony import */ var _reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../reducers/fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
+/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/font-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/font-dropdown.jsx");
+/* harmony import */ var _containers_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx");
+/* harmony import */ var _forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../forms/live-input-hoc.jsx */ "./node_modules/scratch-paint/src/components/forms/live-input-hoc.jsx");
+/* harmony import */ var _forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../forms/label.jsx */ "./node_modules/scratch-paint/src/components/forms/label.jsx");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _forms_input_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../forms/input.jsx */ "./node_modules/scratch-paint/src/components/forms/input.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./node_modules/scratch-paint/src/components/labeled-icon-button/labeled-icon-button.jsx");
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../lib/hide-label */ "./node_modules/scratch-paint/src/lib/hide-label.js");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./mode-tools.css */ "./node_modules/scratch-paint/src/components/mode-tools/mode-tools.css");
+/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../helper/selectable-shapes.js */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+/* harmony import */ var _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/copy.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/copy.svg");
+/* harmony import */ var _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/cut.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/cut.svg");
+/* harmony import */ var _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/paste.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/paste.svg");
+/* harmony import */ var _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/delete.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/delete.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/square-line.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/square-line.svg");
+/* harmony import */ var _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/miter-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/miter-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/round-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/round-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/bevel-line-join.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/bevel-line-join.svg");
+/* harmony import */ var _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/merge.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/merge.svg");
+/* harmony import */ var _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/mask.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/mask.svg");
+/* harmony import */ var _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/subtract.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/subtract.svg");
+/* harmony import */ var _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/filter.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/filter.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/alignLeft.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignLeft.svg");
+/* harmony import */ var _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./icons/alignRight.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignRight.svg");
+/* harmony import */ var _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./icons/alignCenter.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/alignCenter.svg");
+/* harmony import */ var _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(_icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../bit-brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/bit-brush-mode/brush.svg");
+/* harmony import */ var _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../bit-eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/bit-eraser-mode/eraser.svg");
+/* harmony import */ var _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../bit-line-mode/line.svg */ "./node_modules/scratch-paint/src/components/bit-line-mode/line.svg");
+/* harmony import */ var _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../brush-mode/brush.svg */ "./node_modules/scratch-paint/src/components/brush-mode/brush.svg");
+/* harmony import */ var _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/curved-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/curved-point.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../eraser-mode/eraser.svg */ "./node_modules/scratch-paint/src/components/eraser-mode/eraser.svg");
+/* harmony import */ var _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../rounded-rect-mode/rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
+/* harmony import */ var _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(_rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../triangle-mode/triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
+/* harmony import */ var _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(_triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./icons/triangle-spike-ratio.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/triangle-spike-ratio.svg");
+/* harmony import */ var _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(_icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56__);
+/* harmony import */ var _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-horizontal.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-horizontal.svg");
+/* harmony import */ var _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/flip-vertical.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/flip-vertical.svg");
+/* harmony import */ var _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/centerSelection.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/centerSelection.svg");
+/* harmony import */ var _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../../tw-recolor/build!./icons/straight-point.svg */ "../PenguinMod-Paint/src/tw-recolor/build.js!./node_modules/scratch-paint/src/components/mode-tools/icons/straight-point.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../bit-oval-mode/oval.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval.svg");
+/* harmony import */ var _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61__);
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../bit-rect-mode/rectangle.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62__);
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../bit-oval-mode/oval-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-oval-mode/oval-outlined.svg");
+/* harmony import */ var _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(_bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63__);
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ../bit-rect-mode/rectangle-outlined.svg */ "./node_modules/scratch-paint/src/components/bit-rect-mode/rectangle-outlined.svg");
+/* harmony import */ var _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(_bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64__);
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./icons/dash-array.svg */ "./node_modules/scratch-paint/src/components/mode-tools/icons/dash-array.svg");
+/* harmony import */ var _icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65___default = /*#__PURE__*/__webpack_require__.n(_icons_dash_array_svg__WEBPACK_IMPORTED_MODULE_65__);
+/* eslint-disable no-case-declarations */
 
 
 
@@ -187923,20 +189283,77 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_13__["default"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const LiveInput = Object(_forms_live_input_hoc_jsx__WEBPACK_IMPORTED_MODULE_20__["default"])(_forms_input_jsx__WEBPACK_IMPORTED_MODULE_23__["default"]);
 const ModeToolsComponent = props => {
-  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_12__["defineMessages"])({
+  const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_22__["defineMessages"])({
     brushSize: {
       "id": "paint.modeTools.brushSize",
       "defaultMessage": "Size"
+    },
+    brushSimplify: {
+      "id": "paint.modeTools.brushSimplify",
+      "defaultMessage": "Smoothing"
     },
     eraserSize: {
       "id": "paint.modeTools.eraserSize",
       "defaultMessage": "Eraser size"
     },
+    eraserSimplify: {
+      "id": "paint.modeTools.eraserSimplify",
+      "defaultMessage": "Smoothing"
+    },
+    roundedCornerSize: {
+      "id": "paint.modeTools.roundedCornerSize",
+      "defaultMessage": "Rounded corner size"
+    },
+    currentSideCount: {
+      "id": "paint.modeTools.currentSideCount",
+      "defaultMessage": "Polygon side count"
+    },
+    spokeRatio: {
+      "id": "paint.modeTools.spikeRatio",
+      "defaultMessage": "Star spoke ratio"
+    },
+    penSimplify: {
+      "id": "paint.modeTools.penSimplify",
+      "defaultMessage": "Smoothing"
+    },
     copy: {
       "id": "paint.modeTools.copy",
       "defaultMessage": "Copy"
+    },
+    cut: {
+      "id": "paint.modeTools.cut",
+      "defaultMessage": "Cut"
     },
     paste: {
       "id": "paint.modeTools.paste",
@@ -187973,168 +189390,468 @@ const ModeToolsComponent = props => {
     outlined: {
       "id": "paint.modeTools.outlined",
       "defaultMessage": "Outlined"
+    },
+    movementCenter: {
+      "id": "paint.modeTools.movementCenter",
+      "defaultMessage": "Center"
+    },
+    more: {
+      "id": "paint.paintEditor.more",
+      "defaultMessage": "More"
     }
   });
   switch (props.mode) {
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_BRUSH:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_BRUSH:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_LINE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_26___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_25___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_23___default.a;
-        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
-        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isVector"])(props.format) ? _brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_51___default.a : props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE ? _bit_line_mode_line_svg__WEBPACK_IMPORTED_MODULE_50___default.a : _bit_brush_mode_brush_svg__WEBPACK_IMPORTED_MODULE_48___default.a;
+        const currentBrushValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.bitBrushSize : props.brushValue;
+        const currentSimplifyValue = props.simplifyValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
+        const changeFunctionSimplify = props.onSimplifySliderChange;
+        const currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BRUSH;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(currentMessage),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
+          title: props.intl.formatMessage(currentMessage),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_36__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentBrushValue,
           onSubmit: changeFunction
-        }));
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+          text: props.intl.formatMessage(messages.brushSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_ERASER:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].ERASER:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ERASER:
       {
-        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_28___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_24___default.a;
-        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
-        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
+        const currentIcon = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isVector"])(props.format) ? _eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_53___default.a : _bit_eraser_mode_eraser_svg__WEBPACK_IMPORTED_MODULE_49___default.a;
+        const currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
+        const currentEraserSimplifyValue = props.eraserSimplifyValue;
+        const changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_27__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
+        const changeFunctionSimplify = props.onEraserSimplifySliderChange;
+        const hasSimplifyOption = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ERASER;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.eraserSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
+          title: props.intl.formatMessage(messages.eraserSize),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_36__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: currentEraserValue,
           onSubmit: changeFunction
+        }), hasSimplifyOption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+          text: props.intl.formatMessage(messages.eraserSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentEraserSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT:
+    /* falls through */
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].RECT:
+      {
+        // NOTE: BIT_RECT doesnt use Path, so this can't be added there the same way as RECT has it.
+        const currentCornerValue = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT ? props.roundedRectCornerValue : props.roundedCornerValue;
+        const changeFunction = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ROUNDED_RECT ? props.onRoundedRectCornerSliderChange : props.onRoundedCornerSliderChange;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          alt: props.intl.formatMessage(messages.roundedCornerSize),
+          title: props.intl.formatMessage(messages.roundedCornerSize),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
+          draggable: false,
+          src: _rounded_rect_mode_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_54___default.a
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          min: 0,
+          max: 1000,
+          type: "number",
+          value: currentCornerValue,
+          onSubmit: changeFunction
         }));
       }
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].RESHAPE:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].TRIANGLE:
+      {
+        const currentSideValue = props.trianglePolyValue;
+        const currentPointValue = props.trianglePointValue;
+        const changeFunction = props.onPolyCountSliderChange;
+        const changeFunctionPoint = props.onPointCountSliderChange;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          alt: props.intl.formatMessage(messages.currentSideCount),
+          title: props.intl.formatMessage(messages.currentSideCount),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
+          draggable: false,
+          src: _triangle_mode_triangle_svg__WEBPACK_IMPORTED_MODULE_55___default.a
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "3",
+          type: "number",
+          value: currentSideValue,
+          onSubmit: changeFunction
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          alt: props.intl.formatMessage(messages.spokeRatio),
+          title: props.intl.formatMessage(messages.spokeRatio),
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeToolsIcon,
+          draggable: false,
+          src: _icons_triangle_spike_ratio_svg__WEBPACK_IMPORTED_MODULE_56___default.a
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0" // Spike ratio is limited to 0.01, but setting that here makes the number input arrows work really ugly
+          ,
+          step: "0.1",
+          type: "number",
+          value: currentPointValue,
+          onSubmit: changeFunctionPoint
+        }));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SUSSY:
+      {
+        const currentlySelectedShape = props.currentlySelectedShape;
+        const changeFunction = props.onCurrentlySelectedShapeChange;
+        const selectedShapeObject = _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["selectableShapes"].filter(shape => shape.id === currentlySelectedShape)[0];
+        const categorizedShapes = Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["categorizeShapes"])(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["selectableShapes"]);
+        const selectableShapesList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeToolMenu, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropdownMaxItemList)
+        }, Object.keys(categorizedShapes).map(categoryId => categorizedShapes[categoryId].length === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
+          key: categoryId
+        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
+          key: categoryId
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeToolLabel)
+        }, _helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["categories"][categoryId]), categorizedShapes[categoryId].map(shape => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+          key: shape.id,
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.dropItemShapeTool),
+          hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+          imgSrc: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["generateShapeSVG"])(shape))),
+          title: shape.name,
+          onClick: () => changeFunction(shape.id)
+        })))));
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
+          enterExitTransitionDurationMs: 20,
+          popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+            className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
+            rtl: props.rtl
+          }, selectableShapesList),
+          tipSize: .01
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+          src: "data:image/svg+xml,".concat(encodeURIComponent(Object(_helper_selectable_shapes_js__WEBPACK_IMPORTED_MODULE_31__["generateShapeSVG"])(selectedShapeObject))),
+          alt: selectedShapeObject.name,
+          title: selectedShapeObject.name,
+          height: 16
+        })));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].PEN:
+      {
+        const currentPenSimplifyValue = props.penSimplifyValue;
+        const changeFunctionSimplify = props.onPenSimplifySliderChange;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+          text: props.intl.formatMessage(messages.eraserSimplify)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
+          range: true,
+          small: true,
+          max: 1000,
+          min: "0",
+          type: "number",
+          value: currentPenSimplifyValue,
+          onSubmit: changeFunctionSimplify
+        })));
+      }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].RESHAPE:
+      const lineJoinReshape = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: props.hasSelectedMiterLineJoin,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_miter_line_join_svg__WEBPACK_IMPORTED_MODULE_38__["default"],
+        title: 'Spiked',
+        onClick: props.onMiterLineJoin
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: props.hasSelectedRoundLineJoin,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_round_line_join_svg__WEBPACK_IMPORTED_MODULE_39__["default"],
+        title: 'Rounded',
+        onClick: props.onRoundLineJoin
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: props.hasSelectedBevelLineJoin,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_bevel_line_join_svg__WEBPACK_IMPORTED_MODULE_40__["default"],
+        title: 'Beveled',
+        onClick: props.onBevelLineJoin
+      }));
+      const deleteSelectedNodes = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
+        title: props.intl.formatMessage(messages.delete),
+        onClick: props.onDelete
+      }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+        onUpdateImage: props.onUpdateImage
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_27__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_curved_point_svg__WEBPACK_IMPORTED_MODULE_52__["default"],
         title: props.intl.formatMessage(messages.curved),
         onClick: props.onCurvePoints
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         disabled: !props.hasSelectedUnpointedPoints,
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_31__["default"],
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_straight_point_svg__WEBPACK_IMPORTED_MODULE_60__["default"],
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_22__["default"],
-        title: props.intl.formatMessage(messages.delete),
-        onClick: props.onDelete
-      })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_SELECT:
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: props.hasSelectedRoundEnds,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_round_line_svg__WEBPACK_IMPORTED_MODULE_36__["default"],
+        title: 'Rounded',
+        onClick: props.onRoundEnds
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: props.hasSelectedSquareEnds,
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_square_line_svg__WEBPACK_IMPORTED_MODULE_37__["default"],
+        title: 'Squared',
+        onClick: props.onSquareEnds
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
+      }, lineJoinReshape, deleteSelectedNodes), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
+        enterExitTransitionDurationMs: 20,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
+          rtl: props.rtl
+        }, lineJoinReshape, deleteSelectedNodes),
+        tipSize: .01
+      }, props.intl.formatMessage(messages.more)))));
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_SELECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].SELECT:
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_20__["default"],
-        title: props.intl.formatMessage(messages.copy),
-        onClick: props.onCopyToClipboard
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        disabled: !(props.clipboardItems.length > 0),
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_21__["default"],
-        title: props.intl.formatMessage(messages.paste),
-        onClick: props.onPasteFromClipboard
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
-        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_22__["default"],
-        title: props.intl.formatMessage(messages.delete),
-        onClick: props.onDelete
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT:
+      const reshapingMethods = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_merge_svg__WEBPACK_IMPORTED_MODULE_41__["default"],
+        title: 'Merge',
+        onClick: props.onMergeShape
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_mask_svg__WEBPACK_IMPORTED_MODULE_42__["default"],
+        title: 'Mask',
+        onClick: props.onMaskShape
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_subtract_svg__WEBPACK_IMPORTED_MODULE_43__["default"],
+        title: 'Subtract',
+        onClick: props.onSubtractShape
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_filter_svg__WEBPACK_IMPORTED_MODULE_44__["default"],
+        title: 'Filter',
+        onClick: props.onExcludeShape
+      }));
+      const flipOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_29__["default"],
+        imgSrc: _tw_recolor_build_icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_57__["default"],
         title: props.intl.formatMessage(messages.flipHorizontal),
         onClick: props.onFlipHorizontal
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
         hideLabel: props.intl.locale !== 'en',
-        imgSrc: _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_30__["default"],
+        imgSrc: _tw_recolor_build_icons_flip_vertical_svg__WEBPACK_IMPORTED_MODULE_58__["default"],
         title: props.intl.formatMessage(messages.flipVertical),
         onClick: props.onFlipVertical
-      })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_TEXT:
-    /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].TEXT:
+      }));
+      const movementOptions = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: props.intl.locale !== 'en',
+        imgSrc: _tw_recolor_build_icons_centerSelection_svg__WEBPACK_IMPORTED_MODULE_59__["default"],
+        title: props.intl.formatMessage(messages.movementCenter),
+        onClick: props.onCenterSelection
+      }));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_copy_svg__WEBPACK_IMPORTED_MODULE_32__["default"],
+        title: props.intl.formatMessage(messages.copy),
+        onClick: props.onCopyToClipboard
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        disabled: !(props.clipboardItems.length > 0),
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_paste_svg__WEBPACK_IMPORTED_MODULE_34__["default"],
+        title: props.intl.formatMessage(messages.paste),
+        onClick: props.onPasteFromClipboard
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_cut_svg__WEBPACK_IMPORTED_MODULE_33__["default"],
+        title: props.intl.formatMessage(messages.cut),
+        onClick: props.onCutToClipboard
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_28__["hideLabel"])(props.intl.locale),
+        imgSrc: _tw_recolor_build_icons_delete_svg__WEBPACK_IMPORTED_MODULE_35__["default"],
+        title: props.intl.formatMessage(messages.delete),
+        onClick: props.onDelete
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed
+      }, flipOptions, movementOptions, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools
+      }, reshapingMethods) : null, props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].SELECT ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraTools - 1
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
+        enterExitTransitionDurationMs: 20,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
+          rtl: props.rtl
+        }, reshapingMethods),
+        tipSize: .01
+      }, props.intl.formatMessage(messages.more)))) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_6__["default"].fullSizeEditorMinWidthExtraToolsCollapsed - 1
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modUnselect,
+        enterExitTransitionDurationMs: 20,
+        popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modContextMenu,
+          rtl: props.rtl
+        }, flipOptions, movementOptions, reshapingMethods),
+        tipSize: .01
+      }, props.intl.formatMessage(messages.more)))));
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_TEXT:
+    /* falls through */
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].TEXT:
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
         onUpdateImage: props.onUpdateImage,
         onManageFonts: props.onManageFonts
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modLabeledIconHeight)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: true,
+        imgSrc: _icons_alignLeft_svg__WEBPACK_IMPORTED_MODULE_45___default.a,
+        title: 'Left Align',
+        onClick: props.onTextAlignLeft
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: true,
+        imgSrc: _icons_alignCenter_svg__WEBPACK_IMPORTED_MODULE_47___default.a,
+        title: 'Center Align',
+        onClick: props.onTextAlignCenter
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        hideLabel: true,
+        imgSrc: _icons_alignRight_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
+        title: 'Right Align',
+        onClick: props.onTextAlignRight
       })));
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_RECT:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT:
     /* falls through */
-    case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_OVAL:
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_OVAL:
       {
-        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_33___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_32___default.a;
-        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_35___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_34___default.a;
+        const fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_62___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_61___default.a;
+        const outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_64___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_63___default.a;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
           highlighted: props.fillBitmapShapes,
           imgSrc: fillIcon,
           title: props.intl.formatMessage(messages.filled),
-          onClick: props.onFillShapes,
-          gray: true
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          onClick: props.onFillShapes
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
           highlighted: !props.fillBitmapShapes,
           imgSrc: outlineIcon,
           title: props.intl.formatMessage(messages.outlined),
-          onClick: props.onOutlineShapes,
-          gray: true
-        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          onClick: props.onOutlineShapes
+        })), props.fillBitmapShapes ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
           text: props.intl.formatMessage(messages.thickness)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
           range: true,
           small: true,
-          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_36__["MAX_STROKE_WIDTH"],
+          max: _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_30__["MAX_STROKE_WIDTH"],
           min: "1",
           type: "number",
           value: props.bitBrushSize,
           onSubmit: props.onBitBrushSliderChange
         }))));
       }
+    case _lib_modes__WEBPACK_IMPORTED_MODULE_26__["default"].ARROW:
+      {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, "Hold Alt + Shift to resize arrow tip"));
+      }
     default:
       // Leave empty for now, if mode not supported
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_29___default.a.modeTools)
       });
   }
 };
@@ -188142,30 +189859,47 @@ ModeToolsComponent.propTypes = {
   bitBrushSize: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   bitEraserSize: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   brushValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  simplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   className: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   clipboardItems: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.array),
   eraserValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  eraserSimplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  penSimplifyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  roundedCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  roundedRectCornerValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  trianglePolyValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  trianglePointValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  currentlySelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   fillBitmapShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_17__["default"])),
+  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_27__["default"])),
   hasSelectedUncurvedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   hasSelectedUnpointedPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_12__["intlShape"].isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_22__["intlShape"].isRequired,
   mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   onBitBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBitEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onBrushSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onCopyToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onCutToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onCurvePoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onDelete: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onEraserSliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  onEraserSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  onPenSimplifySliderChange: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onFillShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onFlipHorizontal: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onFlipVertical: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onCenterSelection: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onOutlineShapes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onPasteFromClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onPointPoints: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onMergeShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onMaskShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onSubtractShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onExcludeShape: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   mode: state.scratchPaint.mode,
@@ -188174,30 +189908,71 @@ const mapStateToProps = state => ({
   bitBrushSize: state.scratchPaint.bitBrushSize,
   bitEraserSize: state.scratchPaint.bitEraserSize,
   brushValue: state.scratchPaint.brushMode.brushSize,
+  simplifyValue: state.scratchPaint.brushMode.simplifySize,
   clipboardItems: state.scratchPaint.clipboard.items,
-  eraserValue: state.scratchPaint.eraserMode.brushSize
+  eraserValue: state.scratchPaint.eraserMode.brushSize,
+  eraserSimplifyValue: state.scratchPaint.eraserMode.simplifySize,
+  penSimplifyValue: state.scratchPaint.penMode.simplifySize,
+  roundedRectCornerValue: state.scratchPaint.roundedRectMode.roundedCornerSize,
+  roundedCornerValue: state.scratchPaint.rectMode.roundedCornerSize,
+  trianglePolyValue: state.scratchPaint.triangleMode.trianglePolyCount,
+  trianglePointValue: state.scratchPaint.triangleMode.trianglePointCount,
+  currentlySelectedShape: state.scratchPaint.sussyMode.shape
 });
 const mapDispatchToProps = dispatch => ({
   onBrushSliderChange: brushSize => {
-    dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_4__["changeBrushSize"])(brushSize));
+    dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeBrushSize"])(brushSize));
+  },
+  onSimplifySliderChange: brushSize => {
+    dispatch(Object(_reducers_brush_mode__WEBPACK_IMPORTED_MODULE_7__["changeSimplifySize"])(brushSize));
+  },
+  onRoundedRectCornerSliderChange: roundedCornerSize => {
+    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_10__["changeRoundedRectCornerSize"])(roundedCornerSize));
+  },
+  onRoundedCornerSliderChange: roundedCornerSize => {
+    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_11__["changeRoundedCornerSize"])(roundedCornerSize));
+  },
+  onPolyCountSliderChange: polyCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__["changeTrianglePolyCount"])(polyCount));
+  },
+  onPointCountSliderChange: polyCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_12__["changeTrianglePointCount"])(polyCount));
+  },
+  onCurrentlySelectedShapeChange: shape => {
+    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_13__["changeCurrentlySelectedShape"])(shape));
   },
   onBitBrushSliderChange: bitBrushSize => {
-    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_6__["changeBitBrushSize"])(bitBrushSize));
+    dispatch(Object(_reducers_bit_brush_size__WEBPACK_IMPORTED_MODULE_14__["changeBitBrushSize"])(bitBrushSize));
   },
   onBitEraserSliderChange: eraserSize => {
-    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_7__["changeBitEraserSize"])(eraserSize));
+    dispatch(Object(_reducers_bit_eraser_size__WEBPACK_IMPORTED_MODULE_15__["changeBitEraserSize"])(eraserSize));
   },
   onEraserSliderChange: eraserSize => {
-    dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_5__["changeBrushSize"])(eraserSize));
+    dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__["changeBrushSize"])(eraserSize));
+  },
+  onEraserSimplifySliderChange: eraserSize => {
+    dispatch(Object(_reducers_eraser_mode__WEBPACK_IMPORTED_MODULE_8__["changeSimplifySize"])(eraserSize));
+  },
+  onPenSimplifySliderChange: eraserSize => {
+    dispatch(Object(_reducers_pen_mode__WEBPACK_IMPORTED_MODULE_9__["changeSimplifySize"])(eraserSize));
   },
   onFillShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_8__["setShapesFilled"])(true));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__["setShapesFilled"])(true));
   },
   onOutlineShapes: () => {
-    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_8__["setShapesFilled"])(false));
+    dispatch(Object(_reducers_fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_16__["setShapesFilled"])(false));
+  },
+  onTextAlignLeft: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("left"));
+  },
+  onTextAlignRight: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("right"));
+  },
+  onTextAlignCenter: () => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_17__["setTextAlignment"])("center"));
   }
 });
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_12__["injectIntl"])(ModeToolsComponent)));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_22__["injectIntl"])(ModeToolsComponent)));
 
 /***/ }),
 
@@ -188245,7 +190020,7 @@ OvalModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+b3ZhbDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJvdmFsIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlPSIjNTc1RTc1Ij4KICAgICAgICAgICAgPGNpcmNsZSBpZD0ib3ZhbC1pY29uIiBjeD0iMTAiIGN5PSIxMCIgcj0iNSI+PC9jaXJjbGU+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+b3ZhbDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0ib3ZhbCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iIzU3NUU3NSI+DQogICAgICAgICAgICA8Y2lyY2xlIGlkPSJvdmFsLWljb24iIGN4PSIxMCIgY3k9IjEwIiByPSI1Ij48L2NpcmNsZT4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
 
 /***/ }),
 
@@ -188256,7 +190031,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0Ny4xICg0NTQyMikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+Yml0bWFwPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9ImJpdG1hcCIgZmlsbD0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00LDMgTDE2LDMgTDE2LDQgTDQsNCBMNCwzIFogTTIsNSBMMyw1IEwzLDEzIEwyLDEzIEwyLDUgWiBNMTcsNSBMMTgsNSBMMTgsMTMgTDE3LDEzIEwxNyw1IFogTTIsMTMgTDE4LDEzIEwxOCwxNSBMMiwxNSBMMiwxMyBaIE00LDEyIEwxNiwxMiBMMTYsMTMgTDQsMTMgTDQsMTIgWiBNNSwxMSBMOCwxMSBMOCwxMiBMNSwxMiBMNSwxMSBaIE02LDEwIEw3LDEwIEw3LDExIEw2LDExIEw2LDEwIFogTTksMTEgTDE2LDExIEwxNiwxMiBMOSwxMiBMOSwxMSBaIE0xMCwxMCBMMTUsMTAgTDE1LDExIEwxMCwxMSBMMTAsMTAgWiBNMTEsOSBMMTQsOSBMMTQsMTAgTDExLDEwIEwxMSw5IFogTTEyLDggTDEzLDggTDEzLDkgTDEyLDkgTDEyLDggWiBNMTYsMTIgTDE3LDEyIEwxNywxMyBMMTYsMTMgTDE2LDEyIFogTTMsMTUgTDE3LDE1IEwxNywxNiBMMywxNiBMMywxNSBaIE0zLDQgTDQsNCBMNCw1IEwzLDUgTDMsNCBaIE0xNiw0IEwxNyw0IEwxNyw1IEwxNiw1IEwxNiw0IFogTTQsMTYgTDE2LDE2IEwxNiwxNyBMNCwxNyBMNCwxNiBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ3LjEgKDQ1NDIyKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+Yml0bWFwPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJiaXRtYXAiIGZpbGw9IiNGRkZGRkYiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTQsMyBMMTYsMyBMMTYsNCBMNCw0IEw0LDMgWiBNMiw1IEwzLDUgTDMsMTMgTDIsMTMgTDIsNSBaIE0xNyw1IEwxOCw1IEwxOCwxMyBMMTcsMTMgTDE3LDUgWiBNMiwxMyBMMTgsMTMgTDE4LDE1IEwyLDE1IEwyLDEzIFogTTQsMTIgTDE2LDEyIEwxNiwxMyBMNCwxMyBMNCwxMiBaIE01LDExIEw4LDExIEw4LDEyIEw1LDEyIEw1LDExIFogTTYsMTAgTDcsMTAgTDcsMTEgTDYsMTEgTDYsMTAgWiBNOSwxMSBMMTYsMTEgTDE2LDEyIEw5LDEyIEw5LDExIFogTTEwLDEwIEwxNSwxMCBMMTUsMTEgTDEwLDExIEwxMCwxMCBaIE0xMSw5IEwxNCw5IEwxNCwxMCBMMTEsMTAgTDExLDkgWiBNMTIsOCBMMTMsOCBMMTMsOSBMMTIsOSBMMTIsOCBaIE0xNiwxMiBMMTcsMTIgTDE3LDEzIEwxNiwxMyBMMTYsMTIgWiBNMywxNSBMMTcsMTUgTDE3LDE2IEwzLDE2IEwzLDE1IFogTTMsNCBMNCw0IEw0LDUgTDMsNSBMMyw0IFogTTE2LDQgTDE3LDQgTDE3LDUgTDE2LDUgTDE2LDQgWiBNNCwxNiBMMTYsMTYgTDE2LDE3IEw0LDE3IEw0LDE2IFoiIGlkPSJDb21iaW5lZC1TaGFwZSI+PC9wYXRoPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -188267,7 +190042,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSBodHRwczovL21hdGVyaWFsLmlvL3Jlc291cmNlcy9pY29ucy8/c2VhcmNoPWJyaWdodG5lc3NfMyZpY29uPWJyaWdodG5lc3NfMyZzdHlsZT1iYXNlbGluZSAtLT4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiBmaWxsPSJ3aGl0ZSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtOS41OTE5IDMuNjkxMWMtMC44NzI0MyAwLTEuNzAzMyAwLjEzMjk0LTIuNDkyNyAwLjM4MjIxIDMuMzczNCAxLjA1NTIgNS44MTYyIDQuMjA0MyA1LjgxNjIgNy45MjY3IDAgMy43MjI0LTIuNDQyOCA2Ljg3MTQtNS44MTYyIDcuOTI2NyAwLjc4OTM0IDAuMjQ5MjcgMS42MjAyIDAuMzgyMjEgMi40OTI3IDAuMzgyMjEgNC41ODY1IDAgOC4zMDg5LTMuNzIyNCA4LjMwODktOC4zMDg5IDAtNC41ODY1LTMuNzIyNC04LjMwODktOC4zMDg5LTguMzA4OXoiIGZpbGw9IiM1NzVlNzUiIHN0cm9rZS13aWR0aD0iLjgzMDg5Ii8+Cjwvc3ZnPgo="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gaHR0cHM6Ly9tYXRlcmlhbC5pby9yZXNvdXJjZXMvaWNvbnMvP3NlYXJjaD1icmlnaHRuZXNzXzMmaWNvbj1icmlnaHRuZXNzXzMmc3R5bGU9YmFzZWxpbmUgLS0+DQo8c3ZnIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIGZpbGw9IndoaXRlIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiA8cGF0aCBkPSJtOS41OTE5IDMuNjkxMWMtMC44NzI0MyAwLTEuNzAzMyAwLjEzMjk0LTIuNDkyNyAwLjM4MjIxIDMuMzczNCAxLjA1NTIgNS44MTYyIDQuMjA0MyA1LjgxNjIgNy45MjY3IDAgMy43MjI0LTIuNDQyOCA2Ljg3MTQtNS44MTYyIDcuOTI2NyAwLjc4OTM0IDAuMjQ5MjcgMS42MjAyIDAuMzgyMjEgMi40OTI3IDAuMzgyMjEgNC41ODY1IDAgOC4zMDg5LTMuNzIyNCA4LjMwODktOC4zMDg5IDAtNC41ODY1LTMuNzIyNC04LjMwODktOC4zMDg5LTguMzA4OXoiIGZpbGw9IiM1NzVlNzUiIHN0cm9rZS13aWR0aD0iLjgzMDg5Ii8+DQo8L3N2Zz4NCg=="
 
 /***/ }),
 
@@ -188278,7 +190053,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB2aWV3Qm94PSI2IDYgMjQgMjQiPgo8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgICAuY2xzLTR7ZmlsbDpub25lO3N0cm9rZTojNTc1ZTc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6MS41cHg7fQogICAgPC9zdHlsZT4KPC9kZWZzPgo8dGl0bGU+em9vbS1pbjwvdGl0bGU+CjxnIGNsYXNzPSJjbHMtMyI+CiAgICA8Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjE4IiBjeT0iMTgiIHI9IjciLz4KICAgIDxsaW5lIGNsYXNzPSJjbHMtNCIgeDE9IjIzIiB5MT0iMjMiIHgyPSIyNiIgeTI9IjI2Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTQiIHgxPSIxNiIgeTE9IjE4IiB4Mj0iMjAiIHkyPSIxOCIvPgogICAgPGxpbmUgY2xhc3M9ImNscy00IiB4MT0iMTgiIHkxPSIxNiIgeDI9IjE4IiB5Mj0iMjAiLz4KPC9nPgo8L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9IkxheWVyXzEiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iNiA2IDI0IDI0Ij4NCjxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgICAgLmNscy00e2ZpbGw6bm9uZTtzdHJva2U6IzU3NWU3NTtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjEuNXB4O30NCiAgICA8L3N0eWxlPg0KPC9kZWZzPg0KPHRpdGxlPnpvb20taW48L3RpdGxlPg0KPGcgY2xhc3M9ImNscy0zIj4NCiAgICA8Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjE4IiBjeT0iMTgiIHI9IjciLz4NCiAgICA8bGluZSBjbGFzcz0iY2xzLTQiIHgxPSIyMyIgeTE9IjIzIiB4Mj0iMjYiIHkyPSIyNiIvPg0KICAgIDxsaW5lIGNsYXNzPSJjbHMtNCIgeDE9IjE2IiB5MT0iMTgiIHgyPSIyMCIgeTI9IjE4Ii8+DQogICAgPGxpbmUgY2xhc3M9ImNscy00IiB4MT0iMTgiIHkxPSIxNiIgeDI9IjE4IiB5Mj0iMjAiLz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
 
@@ -188289,7 +190064,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB2aWV3Qm94PSI2IDYgMjQgMjQiPgo8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgICAuY2xzLTR7ZmlsbDpub25lO3N0cm9rZTojNTc1ZTc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6MS41cHg7fQogICAgPC9zdHlsZT4KPC9kZWZzPgo8dGl0bGU+em9vbS1vdXQ8L3RpdGxlPgo8ZyBjbGFzcz0iY2xzLTMiPgogICAgPGNpcmNsZSBjbGFzcz0iY2xzLTQiIGN4PSIxOCIgY3k9IjE4IiByPSI3Ii8+CiAgICA8bGluZSBjbGFzcz0iY2xzLTQiIHgxPSIyMyIgeTE9IjIzIiB4Mj0iMjYiIHkyPSIyNiIvPgogICAgPGxpbmUgY2xhc3M9ImNscy00IiB4MT0iMTYiIHkxPSIxOCIgeDI9IjIwIiB5Mj0iMTgiLz4KPC9nPgo8L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9IkxheWVyXzEiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iNiA2IDI0IDI0Ij4NCjxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgICAgLmNscy00e2ZpbGw6bm9uZTtzdHJva2U6IzU3NWU3NTtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjEuNXB4O30NCiAgICA8L3N0eWxlPg0KPC9kZWZzPg0KPHRpdGxlPnpvb20tb3V0PC90aXRsZT4NCjxnIGNsYXNzPSJjbHMtMyI+DQogICAgPGNpcmNsZSBjbGFzcz0iY2xzLTQiIGN4PSIxOCIgY3k9IjE4IiByPSI3Ii8+DQogICAgPGxpbmUgY2xhc3M9ImNscy00IiB4MT0iMjMiIHkxPSIyMyIgeDI9IjI2IiB5Mj0iMjYiLz4NCiAgICA8bGluZSBjbGFzcz0iY2xzLTQiIHgxPSIxNiIgeTE9IjE4IiB4Mj0iMjAiIHkyPSIxOCIvPg0KPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
 
@@ -188300,7 +190075,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB2aWV3Qm94PSI2IDYgMjQgMjQiPgo8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgICAuY2xzLTR7ZmlsbDojNTc1ZTc1O30KICAgIDwvc3R5bGU+CjwvZGVmcz4KPHRpdGxlPnpvb20tcmVzZXQ8L3RpdGxlPgo8ZyBjbGFzcz0iY2xzLTMiPgogICAgPHJlY3QgY2xhc3M9ImNscy00IiB4PSIxMyIgeT0iMTQiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyIiByeD0iMSIgcnk9IjEiLz4KICAgIDxyZWN0IGNsYXNzPSJjbHMtNCIgeD0iMTMiIHk9IjIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMiIgcng9IjEiIHJ5PSIxIi8+CjwvZz4KPC9zdmc+Cg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9IkxheWVyXzEiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iNiA2IDI0IDI0Ij4NCjxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgICAgLmNscy00e2ZpbGw6IzU3NWU3NTt9DQogICAgPC9zdHlsZT4NCjwvZGVmcz4NCjx0aXRsZT56b29tLXJlc2V0PC90aXRsZT4NCjxnIGNsYXNzPSJjbHMtMyI+DQogICAgPHJlY3QgY2xhc3M9ImNscy00IiB4PSIxMyIgeT0iMTQiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyIiByeD0iMSIgcnk9IjEiLz4NCiAgICA8cmVjdCBjbGFzcz0iY2xzLTQiIHg9IjEzIiB5PSIyMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjIiIHJ4PSIxIiByeT0iMSIvPg0KPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
 
@@ -188347,52 +190122,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/scratch-paint/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../containers/paper-canvas.jsx */ "./node_modules/scratch-paint/src/containers/paper-canvas.jsx");
-/* harmony import */ var _containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../containers/scrollable-canvas.jsx */ "./node_modules/scratch-paint/src/containers/scrollable-canvas.jsx");
-/* harmony import */ var _containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/bit-brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-brush-mode.jsx");
-/* harmony import */ var _containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../containers/bit-line-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-line-mode.jsx");
-/* harmony import */ var _containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/bit-oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-oval-mode.jsx");
-/* harmony import */ var _containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../containers/bit-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-rect-mode.jsx");
-/* harmony import */ var _containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../containers/bit-fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-fill-mode.jsx");
-/* harmony import */ var _containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../containers/bit-eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-eraser-mode.jsx");
-/* harmony import */ var _containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../containers/bit-select-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-select-mode.jsx");
-/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../box/box.jsx */ "./node_modules/scratch-paint/src/components/box/box.jsx");
-/* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../button/button.jsx */ "./node_modules/scratch-paint/src/components/button/button.jsx");
-/* harmony import */ var _button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../button-group/button-group.jsx */ "./node_modules/scratch-paint/src/components/button-group/button-group.jsx");
-/* harmony import */ var _containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../containers/brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/brush-mode.jsx");
-/* harmony import */ var _containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx");
-/* harmony import */ var _containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/fill-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/fill-color-indicator.jsx");
-/* harmony import */ var _containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../containers/fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/fill-mode.jsx");
-/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
-/* harmony import */ var _containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../containers/line-mode.jsx */ "./node_modules/scratch-paint/src/containers/line-mode.jsx");
-/* harmony import */ var _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../loupe/loupe.jsx */ "./node_modules/scratch-paint/src/components/loupe/loupe.jsx");
-/* harmony import */ var _containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../containers/fixed-tools.jsx */ "./node_modules/scratch-paint/src/containers/fixed-tools.jsx");
-/* harmony import */ var _containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/mode-tools.jsx */ "./node_modules/scratch-paint/src/containers/mode-tools.jsx");
-/* harmony import */ var _containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../containers/oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/oval-mode.jsx");
-/* harmony import */ var _containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../containers/rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rect-mode.jsx");
-/* harmony import */ var _containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../containers/reshape-mode.jsx */ "./node_modules/scratch-paint/src/containers/reshape-mode.jsx");
-/* harmony import */ var _containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../containers/select-mode.jsx */ "./node_modules/scratch-paint/src/containers/select-mode.jsx");
-/* harmony import */ var _containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../containers/stroke-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-color-indicator.jsx");
-/* harmony import */ var _containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../containers/stroke-width-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-width-indicator.jsx");
-/* harmony import */ var _containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../containers/text-mode.jsx */ "./node_modules/scratch-paint/src/containers/text-mode.jsx");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./paint-editor.css */ "./node_modules/scratch-paint/src/components/paint-editor/paint-editor.css");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/bitmap.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/bitmap.svg");
-/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/zoom-in.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-in.svg");
-/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./icons/zoom-out.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-out.svg");
-/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./icons/zoom-reset.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-reset.svg");
-/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./icons/theme.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/theme.svg");
-/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_icons_theme_svg__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/scratch-paint/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../containers/paper-canvas.jsx */ "./node_modules/scratch-paint/src/containers/paper-canvas.jsx");
+/* harmony import */ var _containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/scrollable-canvas.jsx */ "./node_modules/scratch-paint/src/containers/scrollable-canvas.jsx");
+/* harmony import */ var _containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../containers/bit-brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-brush-mode.jsx");
+/* harmony import */ var _containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/bit-line-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-line-mode.jsx");
+/* harmony import */ var _containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../containers/bit-oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-oval-mode.jsx");
+/* harmony import */ var _containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../containers/bit-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-rect-mode.jsx");
+/* harmony import */ var _containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../containers/bit-fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-fill-mode.jsx");
+/* harmony import */ var _containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../containers/bit-eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-eraser-mode.jsx");
+/* harmony import */ var _containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../containers/bit-select-mode.jsx */ "./node_modules/scratch-paint/src/containers/bit-select-mode.jsx");
+/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../box/box.jsx */ "./node_modules/scratch-paint/src/components/box/box.jsx");
+/* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../button/button.jsx */ "./node_modules/scratch-paint/src/components/button/button.jsx");
+/* harmony import */ var _button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../button-group/button-group.jsx */ "./node_modules/scratch-paint/src/components/button-group/button-group.jsx");
+/* harmony import */ var _containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../containers/brush-mode.jsx */ "./node_modules/scratch-paint/src/containers/brush-mode.jsx");
+/* harmony import */ var _containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../containers/eraser-mode.jsx */ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx");
+/* harmony import */ var _containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../containers/fill-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/fill-color-indicator.jsx");
+/* harmony import */ var _containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../containers/fill-mode.jsx */ "./node_modules/scratch-paint/src/containers/fill-mode.jsx");
+/* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./node_modules/scratch-paint/src/components/input-group/input-group.jsx");
+/* harmony import */ var _containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../containers/line-mode.jsx */ "./node_modules/scratch-paint/src/containers/line-mode.jsx");
+/* harmony import */ var _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../loupe/loupe.jsx */ "./node_modules/scratch-paint/src/components/loupe/loupe.jsx");
+/* harmony import */ var _containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../containers/fixed-tools.jsx */ "./node_modules/scratch-paint/src/containers/fixed-tools.jsx");
+/* harmony import */ var _containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../containers/mode-tools.jsx */ "./node_modules/scratch-paint/src/containers/mode-tools.jsx");
+/* harmony import */ var _containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../containers/oval-mode.jsx */ "./node_modules/scratch-paint/src/containers/oval-mode.jsx");
+/* harmony import */ var _containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../containers/pen-mode.jsx */ "./node_modules/scratch-paint/src/containers/pen-mode.jsx");
+/* harmony import */ var _containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../containers/rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rect-mode.jsx");
+/* harmony import */ var _containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../containers/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/containers/rounded-rect-mode.jsx");
+/* harmony import */ var _containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../containers/sussy-mode.jsx */ "./node_modules/scratch-paint/src/containers/sussy-mode.jsx");
+/* harmony import */ var _containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../containers/triangle-mode.jsx */ "./node_modules/scratch-paint/src/containers/triangle-mode.jsx");
+/* harmony import */ var _containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../containers/arrow-mode.jsx */ "./node_modules/scratch-paint/src/containers/arrow-mode.jsx");
+/* harmony import */ var _containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../containers/reshape-mode.jsx */ "./node_modules/scratch-paint/src/containers/reshape-mode.jsx");
+/* harmony import */ var _containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../containers/select-mode.jsx */ "./node_modules/scratch-paint/src/containers/select-mode.jsx");
+/* harmony import */ var _containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../containers/stroke-color-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-color-indicator.jsx");
+/* harmony import */ var _containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../containers/stroke-width-indicator.jsx */ "./node_modules/scratch-paint/src/containers/stroke-width-indicator.jsx");
+/* harmony import */ var _containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../containers/text-mode.jsx */ "./node_modules/scratch-paint/src/containers/text-mode.jsx");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./paint-editor.css */ "./node_modules/scratch-paint/src/components/paint-editor/paint-editor.css");
+/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./icons/bitmap.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/bitmap.svg");
+/* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./icons/zoom-in.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-in.svg");
+/* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./icons/zoom-out.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-out.svg");
+/* harmony import */ var _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./icons/zoom-reset.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/zoom-reset.svg");
+/* harmony import */ var _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./icons/theme.svg */ "./node_modules/scratch-paint/src/components/paint-editor/icons/theme.svg");
+/* harmony import */ var _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_icons_theme_svg__WEBPACK_IMPORTED_MODULE_45__);
 
 
 
@@ -188433,7 +190214,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"])({
+
+
+
+
+
+
+const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["defineMessages"])({
   bitmap: {
     "id": "paint.paintEditor.bitmap",
     "defaultMessage": "Convert to Bitmap"
@@ -188443,18 +190230,18 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"
     "defaultMessage": "Convert to Vector"
   }
 });
-const PaintEditorComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainer,
+const PaintEditorComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.editorContainer,
   dir: props.rtl ? 'rtl' : 'ltr',
   "data-paint-theme": props.theme
 }, props.canvas !== null ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainerTop
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.editorContainerTop
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
   canRedo: props.canRedo,
   canUndo: props.canUndo,
   name: props.name,
@@ -188463,90 +190250,104 @@ react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
   onUpdateImage: props.onUpdateImage,
   onUpdateName: props.onUpdateName,
   width: props.width
-})), Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
+})), Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modLabeledIconHeight)
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modMarginAfter,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_36__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_37__["default"], {
   onUpdateImage: props.onUpdateImage
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modModeTools
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
   onUpdateImage: props.onUpdateImage,
+  width: props.width,
+  height: props.height,
   onManageFonts: props.onManageFonts
-}))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
+}))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modLabeledIconHeight)
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modMarginAfter,
   onUpdateImage: props.onUpdateImage
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modModeTools
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
   onUpdateImage: props.onUpdateImage,
+  width: props.width,
+  height: props.height,
   onManageFonts: props.onManageFonts
-}))) : null) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.topAlignRow
-}, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ?
+}))) : null) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.topAlignRow
+}, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modeSelector
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_35__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_34__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
+  onUpdateSvg: props.onUpdateImage
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__["default"], {
   textArea: props.textArea,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_line_mode_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_27__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_27__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], {
   onUpdateImage: props.onUpdateImage
-})) : null, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isBitmap"])(props.format) ?
+}), props.showRoundedRectMode && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
+  onUpdateImage: props.onUpdateImage
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], {
+  onUpdateImage: props.onUpdateImage
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
+  onUpdateImage: props.onUpdateImage
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_33__["default"], {
+  onUpdateImage: props.onUpdateImage
+})) : null, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ?
 /*#__PURE__*/
 // eslint-disable-line no-negated-condition
-react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.modeSelector
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_oval_mode_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_32__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_38__["default"], {
   isBitmap: true,
   textArea: props.textArea,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_fill_mode_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_eraser_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
   onUpdateImage: props.onUpdateImage
-})) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.controlsContainer
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+})) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.controlsContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
   canvas: props.canvas,
   hideScrollbars: props.isEyeDropping,
-  style: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasContainer
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  style: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.canvasContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
   canvasRef: props.setCanvas,
   image: props.image,
   imageFormat: props.imageFormat,
@@ -188556,105 +190357,159 @@ react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
   theme: props.theme,
   zoomLevelId: props.zoomLevelId,
   onUpdateImage: props.onUpdateImage
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("textarea", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.textArea,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("textarea", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.textArea,
   ref: props.setTextArea,
   spellCheck: false
-}), props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.colorPickerWrapper
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
+}), props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.colorPickerWrapper
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
   colorInfo: props.colorInfo,
   pixelRatio: _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.view.pixelRatio,
   theme: props.theme
-})) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasControls
-}, Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
+})) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.canvasControls
+}, Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButton,
   onClick: props.onSwitchToBitmap
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButtonIcon,
   draggable: false,
-  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default.a
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
-}, props.intl.formatMessage(messages.bitmap))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
+  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default.a
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonText
+}, props.intl.formatMessage(messages.bitmap))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_39__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButton,
   onClick: props.onSwitchToVector
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.bitmapButtonIcon,
   draggable: false,
-  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default.a
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
-}, props.intl.formatMessage(messages.vector))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.zoomControls
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+  src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_41___default.a
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonText
+}, props.intl.formatMessage(messages.vector))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.zoomControls
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomOut
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom Out",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_37___default.a
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+  src: _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_43___default.a
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomReset
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom Reset",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_38___default.a
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+  src: _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_44___default.a
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onZoomIn
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Zoom In",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36___default.a
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+  src: _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_42___default.a
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButton,
   onClick: props.onChangeTheme
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
   alt: "Change theme",
-  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+  className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_40___default.a.buttonGroupButtonIcon,
   draggable: false,
-  src: _icons_theme_svg__WEBPACK_IMPORTED_MODULE_39___default.a
+  src: _icons_theme_svg__WEBPACK_IMPORTED_MODULE_45___default.a
 }))))))));
 PaintEditorComponent.propTypes = {
-  canRedo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  canUndo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  canvas: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(Element),
-  colorInfo: _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__["default"].propTypes.colorInfo,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_33__["default"])),
-  image: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(HTMLImageElement)]),
-  imageFormat: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  imageId: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_2__["intlShape"],
-  isEyeDropping: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-  name: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  onChangeTheme: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-  onRedo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onSwitchToBitmap: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onSwitchToVector: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUndo: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onUpdateName: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomIn: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomOut: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  onZoomReset: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  rotationCenterX: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  rotationCenterY: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  rtl: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-  setCanvas: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  setTextArea: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func.isRequired,
-  textArea: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(Element),
-  theme: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-  width: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number,
-  zoomLevelId: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string
+  canRedo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  canUndo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  canvas: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(Element),
+  colorInfo: _loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_24__["default"].propTypes.colorInfo,
+  format: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_39__["default"])),
+  image: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(HTMLImageElement)]),
+  imageFormat: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  imageId: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_3__["intlShape"],
+  isEyeDropping: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  name: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  onChangeTheme: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func,
+  onRedo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onSwitchToBitmap: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onSwitchToVector: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUndo: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onUpdateName: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomIn: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomOut: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  onZoomReset: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  rotationCenterX: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  rotationCenterY: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  rtl: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  setCanvas: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  setTextArea: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired,
+  showRoundedRectMode: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.bool,
+  textArea: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.instanceOf(Element),
+  theme: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string,
+  width: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  height: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.number,
+  zoomLevelId: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string
 };
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["injectIntl"])(PaintEditorComponent));
+const mapStateToProps = state => ({
+  showRoundedRectMode: state.scratchPaint.addonUtil.showRoundedRectMode
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["injectIntl"])(PaintEditorComponent)));
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx":
+/*!*************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../tool-select-base/tool-select-base.jsx */ "./node_modules/scratch-paint/src/components/tool-select-base/tool-select-base.jsx");
+/* harmony import */ var _pen_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pen.svg */ "./node_modules/scratch-paint/src/components/pen-mode/pen.svg");
+/* harmony import */ var _pen_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pen_svg__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+const PenModeComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  imgDescriptor: {
+    defaultMessage: 'Pen',
+    description: 'Label for the pen tool, which draws outlines',
+    id: 'paint.penMode.pen'
+  },
+  imgSrc: _pen_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+  isSelected: props.isSelected,
+  onMouseDown: props.onMouseDown
+});
+PenModeComponent.propTypes = {
+  isSelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (PenModeComponent);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/pen-mode/pen.svg":
+/*!********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/pen-mode/pen.svg ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/0f08d2c6ad5729b7ab93387a68354689.svg";
 
 /***/ }),
 
@@ -188702,7 +190557,7 @@ RectModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+cmVjdGFuZ2xlPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0icmVjdGFuZ2xlIiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS13aWR0aD0iMS41Ij4KICAgICAgICAgICAgPHJlY3QgaWQ9InJlY3RhbmdsZS1pY29uIiB4PSI1IiB5PSI1IiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPjwvcmVjdD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+cmVjdGFuZ2xlPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4NCiAgICAgICAgPGcgaWQ9InJlY3RhbmdsZSIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjEuNSI+DQogICAgICAgICAgICA8cmVjdCBpZD0icmVjdGFuZ2xlLWljb24iIHg9IjUiIHk9IjUiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+PC9yZWN0Pg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
 
 /***/ }),
 
@@ -188750,7 +190605,54 @@ ReshapeModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/3e6a0a68ee1872bee1f93e4428bcb993.svg";
+module.exports = __webpack_require__.p + "static/assets/eb138a6f5fe0c21e58696218b7ce6b2a.svg";
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rect-mode.jsx":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rect-mode.jsx ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib_messages_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../lib/messages.js */ "./node_modules/scratch-paint/src/lib/messages.js");
+/* harmony import */ var _tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../tool-select-base/tool-select-base.jsx */ "./node_modules/scratch-paint/src/components/tool-select-base/tool-select-base.jsx");
+/* harmony import */ var _rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./rounded-rectangle.svg */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg");
+/* harmony import */ var _rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+const RoundedRectModeComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  imgDescriptor: _lib_messages_js__WEBPACK_IMPORTED_MODULE_2__["default"].roundedRect,
+  imgSrc: _rounded_rectangle_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+  isSelected: props.isSelected,
+  onMouseDown: props.onMouseDown
+});
+RoundedRectModeComponent.propTypes = {
+  isSelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (RoundedRectModeComponent);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rectangle.svg ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+cm91bmRlZC1yZWN0YW5nbGU8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9InJvdW5kZWQtcmVjdGFuZ2xlIiBzdHJva2U9IiM1NzVFNzUiIHN0cm9rZS13aWR0aD0iMS41Ij4NCiAgICAgICAgICAgIDxyZWN0IGlkPSJyb3VuZGVkLXJlY3RhbmdsZS1pY29uIiB4PSI1IiB5PSI1IiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHJ4PSIyIj48L3JlY3Q+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ }),
 
@@ -188898,7 +190800,7 @@ SelectModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+c2VsZWN0PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InNlbGVjdCIgZmlsbD0iIzU3NUU3NSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik05LjA4NDgwNzA5LDEyLjc1MTkxMzEgTDEwLjI2OTI5MzcsMTUuMzkxMDc1MyBDMTAuNTAyNTI4MSwxNS45MTI4NDggMTEuMTEwNTA5OCwxNi4xNDMyNzU1IDExLjYyNjc3MDEsMTUuOTA3NTUwOCBDMTIuMTQzMDMwNCwxNS42NzA1MDE4IDEyLjM3MTAyMzYsMTUuMDU2MDI4NCAxMi4xMzc3ODkyLDE0LjUzNTU4IEwxMC45NjY5NjI3LDExLjkyNTcyOCBMMTMuOTI1ODUzLDExLjkyNTcyOCBDMTQuNTEzMDQ4NiwxMS45MjU3MjggMTQuNzkzNzY5MywxMS4yMTIxOTQ4IDE0LjM2MjM4NjUsMTAuODE5MDQ5NSBMNy4wNzkxMDA3LDQuMTcwMDQyOTQgQzYuNjY3MDMzNiwzLjc5MzQ5MTQgNiw0LjA4MzI0NDYyIDYsNC42Mzg0OTg1NyBMNiwxNC41MDI4NzIyIEM2LDE1LjA5MDAzNzMgNi43MzAxMzEzOCwxNS4zNjU3NDk2IDcuMTIyODgyODIsMTQuOTI3OTI4NyBMOS4wODQ4MDcwOSwxMi43NTE5MTMxIFoiIGlkPSJzZWxlY3QtaWNvbiI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+c2VsZWN0PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJzZWxlY3QiIGZpbGw9IiM1NzVFNzUiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTkuMDg0ODA3MDksMTIuNzUxOTEzMSBMMTAuMjY5MjkzNywxNS4zOTEwNzUzIEMxMC41MDI1MjgxLDE1LjkxMjg0OCAxMS4xMTA1MDk4LDE2LjE0MzI3NTUgMTEuNjI2NzcwMSwxNS45MDc1NTA4IEMxMi4xNDMwMzA0LDE1LjY3MDUwMTggMTIuMzcxMDIzNiwxNS4wNTYwMjg0IDEyLjEzNzc4OTIsMTQuNTM1NTggTDEwLjk2Njk2MjcsMTEuOTI1NzI4IEwxMy45MjU4NTMsMTEuOTI1NzI4IEMxNC41MTMwNDg2LDExLjkyNTcyOCAxNC43OTM3NjkzLDExLjIxMjE5NDggMTQuMzYyMzg2NSwxMC44MTkwNDk1IEw3LjA3OTEwMDcsNC4xNzAwNDI5NCBDNi42NjcwMzM2LDMuNzkzNDkxNCA2LDQuMDgzMjQ0NjIgNiw0LjYzODQ5ODU3IEw2LDE0LjUwMjg3MjIgQzYsMTUuMDkwMDM3MyA2LjczMDEzMTM4LDE1LjM2NTc0OTYgNy4xMjI4ODI4MiwxNC45Mjc5Mjg3IEw5LjA4NDgwNzA5LDEyLjc1MTkxMzEgWiIgaWQ9InNlbGVjdC1pY29uIj48L3BhdGg+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4="
 
 /***/ }),
 
@@ -188947,6 +190849,53 @@ StrokeWidthIndicatorComponent.propTypes = {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/sussy-mode/sussy-mode.jsx":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/sussy-mode/sussy-mode.jsx ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../tool-select-base/tool-select-base.jsx */ "./node_modules/scratch-paint/src/components/tool-select-base/tool-select-base.jsx");
+/* harmony import */ var _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/messages.js */ "./node_modules/scratch-paint/src/lib/messages.js");
+/* harmony import */ var _sussy_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sussy.svg */ "./node_modules/scratch-paint/src/components/sussy-mode/sussy.svg");
+/* harmony import */ var _sussy_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sussy_svg__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+const SussyModeComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  imgDescriptor: _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__["default"].sussy,
+  imgSrc: _sussy_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+  isSelected: props.isSelected,
+  onMouseDown: props.onMouseDown
+});
+SussyModeComponent.propTypes = {
+  isSelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (SussyModeComponent);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/sussy-mode/sussy.svg":
+/*!************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/sussy-mode/sussy.svg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNS44OTQxMiINCiAgICBoZWlnaHQ9IjE1Ljg5NDEyIiB2aWV3Qm94PSItMiwtMiwyMCwyMCI+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIzMi4wNTI5NCwtMTcyLjA1Mjk0KSI+DQogICAgICAgIDxnIGRhdGEtcGFwZXItZGF0YT0ieyZxdW90O2lzUGFpbnRpbmdMYXllciZxdW90Ozp0cnVlfSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiDQogICAgICAgICAgICBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj4NCiAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgZD0iTTIzMi44MDI5NCwxODBjMCwtMy45NzQ4MyAzLjIyMjIzLC03LjE5NzA2IDcuMTk3MDYsLTcuMTk3MDZjMy45NzQ4MywwIDcuMTk3MDYsMy4yMjIyMyA3LjE5NzA2LDcuMTk3MDZjMCwzLjk3NDgzIC0zLjIyMjIzLDcuMTk3MDYgLTcuMTk3MDYsNy4xOTcwNmMtMy45NzQ4MywwIC03LjE5NzA2LC0zLjIyMjIzIC03LjE5NzA2LC03LjE5NzA2eiINCiAgICAgICAgICAgICAgICBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzU3NWU3NSIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+DQogICAgICAgICAgICA8cGF0aA0KICAgICAgICAgICAgICAgIGQ9Ik0yMzcuMDg0NzgsMTc4LjIxNjg4YzAsLTAuNDE0MjEgMC4zMzU3OSwtMC43NSAwLjc1LC0wLjc1YzAuNDE0MjEsMCAwLjc1LDAuMzM1NzkgMC43NSwwLjc1YzAsMC40MTQyMSAtMC4zMzU3OSwwLjc1IC0wLjc1LDAuNzVjLTAuNDE0MjEsMCAtMC43NSwtMC4zMzU3OSAtMC43NSwtMC43NXoiDQogICAgICAgICAgICAgICAgZmlsbD0iIzU3NWU3NSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9IiM1NzVlNzUiIHN0cm9rZS13aWR0aD0iMC41IiAvPg0KICAgICAgICAgICAgPHBhdGgNCiAgICAgICAgICAgICAgICBkPSJNMjQxLjQxNTIyLDE3OC4yMTY4OGMwLC0wLjQxNDIxIDAuMzM1NzksLTAuNzUgMC43NSwtMC43NWMwLjQxNDIxLDAgMC43NSwwLjMzNTc5IDAuNzUsMC43NWMwLDAuNDE0MjEgLTAuMzM1NzksMC43NSAtMC43NSwwLjc1Yy0wLjQxNDIxLDAgLTAuNzUsLTAuMzM1NzkgLTAuNzUsLTAuNzV6Ig0KICAgICAgICAgICAgICAgIGZpbGw9IiM1NzVlNzUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjNTc1ZTc1IiBzdHJva2Utd2lkdGg9IjAuNSIgLz4NCiAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgZD0iTTIzNi4wNzQ2MSwxODEuNTIyOTJjMCwtMC4wMDA0MyAzLjkyNTM5LDAuMDA0MzQgMy45MjUzOSwwLjAwNDM0YzAsMCAzLjkyNTM5LC0wLjAwNDc3IDMuOTI1MzksLTAuMDA0MzRjMCwyLjExOTI4IC0xLjc1NzQ2LDMuODM3MjkgLTMuOTI1MzksMy44MzcyOWMtMi4xNjc5MywwIC0zLjkyNTM5LC0xLjcxODAxIC0zLjkyNTM5LC0zLjgzNzI5eiINCiAgICAgICAgICAgICAgICBmaWxsPSIjNTc1ZTc1IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iIzU3NWU3NSIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0eWxlPSJ0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoM3B4KSBzY2FsZVkoMC45OCkiIC8+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz48IS0tcm90YXRpb25DZW50ZXI6Ny45NDcwNTc1OTEzNjQxOTk6Ny45NDcwNTc1OTEzNjQxNDMtLT4="
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx":
 /*!***************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx ***!
@@ -188991,7 +190940,7 @@ TextModeComponent.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0My4yICgzOTA2OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+dGV4dDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJ0ZXh0IiBmaWxsPSIjNTc1RTc1Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTE2LDQuMzUyOTQxMTggTDE2LDYuODUxNzY0NzEgQzE2LDcuMDQ5NDExNzYgMTUuODQ0NzA1OSw3LjIwNDcwNTg4IDE1LjY0NzA1ODgsNy4yMDQ3MDU4OCBMMTQuODk4ODIzNSw3LjIwNDcwNTg4IEMxNC43NTc2NDcxLDcuMjA0NzA1ODggMTQuNjE2NDcwNiw3LjEyIDE0LjU3NDExNzYsNi45OTI5NDExOCBMMTQuMjA3MDU4OCw2LjExNzY0NzA2IEwxMS4wNTg4MjM1LDYuMTE3NjQ3MDYgTDExLjA1ODgyMzUsMTQuMjkxNzY0NyBMMTEuOTIsMTQuNjE2NDcwNiBDMTIuMDYxMTc2NSwxNC42NzI5NDEyIDEyLjE2LDE0LjggMTIuMTYsMTQuOTU1Mjk0MSBMMTIuMTYsMTUuNjQ3MDU4OCBDMTIuMTYsMTUuODQ0NzA1OSAxMS45OTA1ODgyLDE2IDExLjgwNzA1ODgsMTYgTDguMjA3MDU4ODIsMTYgQzguMDIzNTI5NDEsMTYgNy44NTQxMTc2NSwxNS44NDQ3MDU5IDcuODU0MTE3NjUsMTUuNjQ3MDU4OCBMNy44NTQxMTc2NSwxNC45NTUyOTQxIEM3Ljg1NDExNzY1LDE0LjggNy45NTI5NDExOCwxNC42NzI5NDEyIDguMDgsMTQuNjE2NDcwNiBMOC45NDExNzY0NywxNC4yOTE3NjQ3IEw4Ljk0MTE3NjQ3LDYuMTE3NjQ3MDYgTDUuODA3MDU4ODIsNi4xMTc2NDcwNiBMNS40NCw2Ljk5Mjk0MTE4IEM1LjM4MzUyOTQxLDcuMTIgNS4yNTY0NzA1OSw3LjIwNDcwNTg4IDUuMTE1Mjk0MTIsNy4yMDQ3MDU4OCBMNC4zNTI5NDExOCw3LjIwNDcwNTg4IEM0LjE2OTQxMTc2LDcuMjA0NzA1ODggNCw3LjA0OTQxMTc2IDQsNi44NTE3NjQ3MSBMNCw0LjM1Mjk0MTE4IEM0LDQuMTU1Mjk0MTIgNC4xNjk0MTE3Niw0IDQuMzUyOTQxMTgsNCBMMTUuNjQ3MDU4OCw0IEMxNS44NDQ3MDU5LDQgMTYsNC4xNTUyOTQxMiAxNiw0LjM1Mjk0MTE4IiBpZD0idGV4dC1pY29uIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+dGV4dDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+PC9kZWZzPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0idGV4dCIgZmlsbD0iIzU3NUU3NSI+DQogICAgICAgICAgICA8cGF0aCBkPSJNMTYsNC4zNTI5NDExOCBMMTYsNi44NTE3NjQ3MSBDMTYsNy4wNDk0MTE3NiAxNS44NDQ3MDU5LDcuMjA0NzA1ODggMTUuNjQ3MDU4OCw3LjIwNDcwNTg4IEwxNC44OTg4MjM1LDcuMjA0NzA1ODggQzE0Ljc1NzY0NzEsNy4yMDQ3MDU4OCAxNC42MTY0NzA2LDcuMTIgMTQuNTc0MTE3Niw2Ljk5Mjk0MTE4IEwxNC4yMDcwNTg4LDYuMTE3NjQ3MDYgTDExLjA1ODgyMzUsNi4xMTc2NDcwNiBMMTEuMDU4ODIzNSwxNC4yOTE3NjQ3IEwxMS45MiwxNC42MTY0NzA2IEMxMi4wNjExNzY1LDE0LjY3Mjk0MTIgMTIuMTYsMTQuOCAxMi4xNiwxNC45NTUyOTQxIEwxMi4xNiwxNS42NDcwNTg4IEMxMi4xNiwxNS44NDQ3MDU5IDExLjk5MDU4ODIsMTYgMTEuODA3MDU4OCwxNiBMOC4yMDcwNTg4MiwxNiBDOC4wMjM1Mjk0MSwxNiA3Ljg1NDExNzY1LDE1Ljg0NDcwNTkgNy44NTQxMTc2NSwxNS42NDcwNTg4IEw3Ljg1NDExNzY1LDE0Ljk1NTI5NDEgQzcuODU0MTE3NjUsMTQuOCA3Ljk1Mjk0MTE4LDE0LjY3Mjk0MTIgOC4wOCwxNC42MTY0NzA2IEw4Ljk0MTE3NjQ3LDE0LjI5MTc2NDcgTDguOTQxMTc2NDcsNi4xMTc2NDcwNiBMNS44MDcwNTg4Miw2LjExNzY0NzA2IEw1LjQ0LDYuOTkyOTQxMTggQzUuMzgzNTI5NDEsNy4xMiA1LjI1NjQ3MDU5LDcuMjA0NzA1ODggNS4xMTUyOTQxMiw3LjIwNDcwNTg4IEw0LjM1Mjk0MTE4LDcuMjA0NzA1ODggQzQuMTY5NDExNzYsNy4yMDQ3MDU4OCA0LDcuMDQ5NDExNzYgNCw2Ljg1MTc2NDcxIEw0LDQuMzUyOTQxMTggQzQsNC4xNTUyOTQxMiA0LjE2OTQxMTc2LDQgNC4zNTI5NDExOCw0IEwxNS42NDcwNTg4LDQgQzE1Ljg0NDcwNTksNCAxNiw0LjE1NTI5NDEyIDE2LDQuMzUyOTQxMTgiIGlkPSJ0ZXh0LWljb24iPjwvcGF0aD4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg=="
 
 /***/ }),
 
@@ -189087,6 +191036,53 @@ ToolSelectComponent.propTypes = {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/components/triangle-mode/triangle-mode.jsx":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/triangle-mode/triangle-mode.jsx ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../tool-select-base/tool-select-base.jsx */ "./node_modules/scratch-paint/src/components/tool-select-base/tool-select-base.jsx");
+/* harmony import */ var _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/messages.js */ "./node_modules/scratch-paint/src/lib/messages.js");
+/* harmony import */ var _triangle_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./triangle.svg */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg");
+/* harmony import */ var _triangle_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_triangle_svg__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+const TriangleModeComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tool_select_base_tool_select_base_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  imgDescriptor: _lib_messages_js__WEBPACK_IMPORTED_MODULE_3__["default"].triangle,
+  imgSrc: _triangle_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+  isSelected: props.isSelected,
+  onMouseDown: props.onMouseDown
+});
+TriangleModeComponent.propTypes = {
+  isSelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (TriangleModeComponent);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg":
+/*!******************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/components/triangle-mode/triangle.svg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQzLjIgKDM5MDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4NCiAgICA8dGl0bGU+cmVjdGFuZ2xlPC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz48L2RlZnM+DQogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4NCiAgICAgICAgPGcgaWQ9InJlY3RhbmdsZSIgc3Ryb2tlPSIjNTc1RTc1IiBzdHJva2Utd2lkdGg9IjEuNSI+DQogICAgICAgICAgICA8cG9seWdvbiBpZD0icmVjdGFuZ2xlLWljb24iIHBvaW50cz0iMi41LDE3LjUgMTcuNSwxNy41IDEwLDIuNSI+PC9wb2x5Z29uPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+"
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/components/tw-color-readout/tw-color-readout.css":
 /*!*****************************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/components/tw-color-readout/tw-color-readout.css ***!
@@ -189170,6 +191166,195 @@ TWColorReadout.propTypes = {
   onChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
 /* harmony default export */ __webpack_exports__["default"] = (TWColorReadout);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/containers/arrow-mode.jsx":
+/*!******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/arrow-mode.jsx ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/gradient-types */ "./node_modules/scratch-paint/src/lib/gradient-types.js");
+/* harmony import */ var _reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../reducers/fill-style */ "./node_modules/scratch-paint/src/reducers/fill-style.js");
+/* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_arrow_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/arrow-tool */ "./node_modules/scratch-paint/src/helper/tools/arrow-tool.js");
+/* harmony import */ var _components_arrow_mode_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/arrow-mode/arrow-mode.jsx */ "./node_modules/scratch-paint/src/components/arrow-mode/arrow-mode.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class ArrowMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['activateTool', 'deactivateTool', 'validateColorState']);
+  }
+  componentDidMount() {
+    if (this.props.isArrowModeActive) {
+      this.activateTool(this.props);
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+    if (this.tool && nextProps.colorState !== this.props.colorState) {
+      this.tool.setColorState(nextProps.colorState);
+    }
+    if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
+      this.tool.onSelectionChanged(nextProps.selectedItems);
+    }
+    if (nextProps.isArrowModeActive && !this.props.isArrowModeActive) {
+      this.activateTool();
+    } else if (!nextProps.isArrowModeActive && this.props.isArrowModeActive) {
+      this.deactivateTool();
+    }
+  }
+  shouldComponentUpdate(nextProps) {
+    return nextProps.isArrowModeActive !== this.props.isArrowModeActive;
+  }
+  componentWillUnmount() {
+    if (this.tool) {
+      this.deactivateTool();
+    }
+  }
+  activateTool() {
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    this.validateColorState();
+    this.tool = new _helper_tools_arrow_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setColorState(this.props.colorState);
+    this.tool.activate();
+  }
+  validateColorState() {
+    // TODO move to shared class
+    // Make sure that at least one of fill/stroke is set, and that MIXED is not one of the colors.
+    // If fill and stroke color are both missing, set fill to default and stroke to transparent.
+    // If exactly one of fill or stroke color is set, set the other one to transparent.
+    const {
+      strokeWidth
+    } = this.props.colorState;
+    const fillColor1 = this.props.colorState.fillColor.primary;
+    let fillColor2 = this.props.colorState.fillColor.secondary;
+    let fillGradient = this.props.colorState.fillColor.gradientType;
+    const strokeColor1 = this.props.colorState.strokeColor.primary;
+    let strokeColor2 = this.props.colorState.strokeColor.secondary;
+    let strokeGradient = this.props.colorState.strokeColor.gradientType;
+    if (fillColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearFillGradient();
+      fillColor2 = null;
+      fillGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    if (strokeColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearStrokeGradient();
+      strokeColor2 = null;
+      strokeGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    const fillColorMissing = fillColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || fillGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null || fillGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null && fillColor2 === null;
+    const strokeColorMissing = strokeColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || strokeWidth === null || strokeWidth === 0 || strokeGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null || strokeGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null && strokeColor2 === null;
+    if (fillColorMissing && strokeColorMissing) {
+      this.props.onChangeFillColor(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["DEFAULT_COLOR"]);
+      this.props.clearFillGradient();
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    } else if (fillColorMissing && !strokeColorMissing) {
+      this.props.onChangeFillColor(null);
+      this.props.clearFillGradient();
+    } else if (!fillColorMissing && strokeColorMissing) {
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    }
+  }
+  deactivateTool() {
+    this.tool.deactivateTool();
+    this.tool.remove();
+    this.tool = null;
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_arrow_mode_arrow_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      isSelected: this.props.isArrowModeActive,
+      onMouseDown: this.props.handleMouseDown
+    });
+  }
+}
+ArrowMode.propTypes = {
+  clearFillGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearStrokeGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    fillColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  }).isRequired,
+  handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  isArrowModeActive: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeFillColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
+  setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  colorState: state.scratchPaint.color,
+  isArrowModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].ARROW,
+  selectedItems: state.scratchPaint.selectedItems
+});
+const mapDispatchToProps = dispatch => ({
+  clearSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["clearSelectedItems"])());
+  },
+  clearFillGradient: () => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["clearFillGradient"])());
+  },
+  clearStrokeGradient: () => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
+  },
+  setSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+  },
+  setCursor: cursorString => {
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
+  },
+  handleMouseDown: () => {
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_11__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].ARROW));
+  },
+  onChangeFillColor: fillColor => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["changeFillColor"])(fillColor));
+  },
+  onChangeStrokeColor: strokeColor => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(ArrowMode));
 
 /***/ }),
 
@@ -190210,7 +192395,8 @@ class BrushMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 }
 BrushMode.propTypes = {
   brushModeState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired
+    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired,
+    simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }),
   clearGradient: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
@@ -190674,6 +192860,167 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/containers/confirmation.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/confirmation.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../css-loader??ref--5-1!../../../postcss-loader/src??postcss!./confirmation.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/scratch-paint/src/containers/confirmation.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx":
+/*!***************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/dash-array-dropdown.jsx ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/dash-array-dropdown/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+
+
+
+
+
+
+
+
+
+class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleAdd', 'handleChange', 'handleDelete']);
+    this.dashArray = [];
+  }
+  handleOpenDropdown() {
+    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    alert("Open dasharray dropdown | Selection: ".concat(this.savedSelection.length));
+    this.dashArray = this.getDashArray(this.savedSelection);
+    this.forceUpdate();
+  }
+  handleClickOutsideDropdown(e) {
+    e.stopPropagation();
+    this.cancelChange();
+  }
+  cancelChange() {
+    this.dropDown.handleClosePopover();
+    this.dashArray = [];
+    this.savedSelection = null;
+    this.forceUpdate();
+  }
+  setDropdown(element) {
+    this.dropDown = element;
+  }
+  getDashArray(selectedItems) {
+    if (selectedItems.length === 0) {
+      return [];
+    }
+    const firstStyle = selectedItems[0].getStyle().getDashArray();
+    for (const item of selectedItems) {
+      if (item.getStyle().getDashArray().join(' ') !== firstStyle.join(' ')) {
+        return [];
+      }
+    }
+    return firstStyle;
+  }
+  handleDashArray(selectedItems, value) {
+    alert("Some changes in dasharray | Selection: ".concat(selectedItems.length));
+    let changed;
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getDashArray().join(' ') !== value.join(' ')) {
+        styles.setDashArray(value);
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+    this.forceUpdate();
+  }
+  handleAdd() {
+    if (this.dropDown.isOpen()) {
+      this.dashArray.push(0);
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  handleChange(value, index) {
+    if (this.dropDown.isOpen()) {
+      this.dashArray[index] = value;
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  handleDelete(index) {
+    if (this.dropDown.isOpen()) {
+      this.dashArray.splice(index, 1);
+      this.handleDashArray(this.savedSelection, this.dashArray);
+    }
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      componentRef: this.setDropdown,
+      dashArray: this.dashArray,
+      onClickOutsideDropdown: this.handleClickOutsideDropdown,
+      onOpenDropdown: this.handleOpenDropdown,
+      handleAdd: this.handleAdd,
+      handleChange: this.handleChange,
+      handleDelete: this.handleDelete
+    });
+  }
+}
+DashArrayDropdown.propTypes = {
+  format: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_6__["default"])),
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  format: state.scratchPaint.format
+});
+const mapDispatchToProps = dispatch => ({
+  setSelectedItems: format => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), Object(_lib_format__WEBPACK_IMPORTED_MODULE_6__["isBitmap"])(format)));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(DashArrayDropdown));
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/containers/eraser-mode.jsx":
 /*!*******************************************************************!*\
   !*** ./node_modules/scratch-paint/src/containers/eraser-mode.jsx ***!
@@ -190759,7 +193106,8 @@ class EraserMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component 
 EraserMode.propTypes = {
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   eraserModeState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired
+    brushSize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired,
+    simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
   }),
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   isEraserModeActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired,
@@ -190824,7 +193172,7 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_1__["defineMessages"
 const FillColorIndicator = Object(_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_10__["default"])(messages.label, false);
 const mapStateToProps = state => ({
   colorIndex: state.scratchPaint.fillMode.colorIndex,
-  disabled: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_8__["default"].LINE,
+  disabled: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_8__["default"].PEN || state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_8__["default"].LINE,
   color: state.scratchPaint.color.fillColor.primary,
   color2: state.scratchPaint.color.fillColor.secondary,
   colorModalVisible: state.scratchPaint.modals.fillColor,
@@ -191202,6 +193550,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_fonts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/fonts */ "./node_modules/scratch-paint/src/lib/fonts.js");
 /* harmony import */ var _reducers_font__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/font */ "./node_modules/scratch-paint/src/reducers/font.js");
 /* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _confirmation_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./confirmation.css */ "./node_modules/scratch-paint/src/containers/confirmation.css");
+/* harmony import */ var _confirmation_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_confirmation_css__WEBPACK_IMPORTED_MODULE_9__);
+
 
 
 
@@ -191214,7 +193565,10 @@ __webpack_require__.r(__webpack_exports__);
 class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontMopedLike', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['getFontName', 'handleHoverCustom', 'handleManageFonts', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontPlayful', 'handleChangeFontBubbly', 'handleChangeFontTechnological', 'handleChangeFontBitsAndBytes', 'handleChangeFontArcade', 'handleChangeFontGogono', 'handleChangeFontJustBubble', 'handleChangeFontLilitaOne', 'handleChangeFontMinecrafter', 'handleChangeFontObelixPro', 'handleChangeFontJetBrainsMono', 'handleChangeFontScratch', 'handleChangeFontBranches', 'handleChangeFontArchivo', 'handleChangeFontArchivoBlack', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose', 'handleChooseCustom', 'handleChooseExisting']);
+    this.customFonts = {};
+    this.acceptedCustomFontAgreement = false;
+    this.latestCustomFont = null;
   }
   getFontName(font) {
     const NATIVE_FONTS = Object.values(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"]);
@@ -191226,8 +193580,6 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
           return '한국어';
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE:
           return '日本語';
-        case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MOPED_LIKE:
-          return 'Mopeds';
         default:
           return font;
       }
@@ -191246,6 +193598,120 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
   handleManageFonts() {
     this.cancelFontChange();
     this.props.onManageFonts();
+  }
+  displayConfirmMessage(titlehtml, html, acceptInstantlyIfTrue) {
+    return new Promise((resolve, reject) => {
+      if (acceptInstantlyIfTrue === true) {
+        return resolve(true);
+      }
+      const div = document.createElement("div");
+      document.body.append(div);
+      div.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.base);
+      const box = document.createElement("div");
+      div.append(box);
+      box.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptBox);
+      const header = document.createElement("div");
+      box.append(header);
+      header.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.header);
+      header.innerHTML = titlehtml;
+      box.innerHTML += "<div>".concat(html, "</div>");
+      const buttonRow = document.createElement("div");
+      box.append(buttonRow);
+      buttonRow.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.buttonRow);
+      const deny = document.createElement("button");
+      buttonRow.append(deny);
+      deny.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptButton);
+      deny.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.deny);
+      deny.innerHTML = "Deny";
+      const accept = document.createElement("button");
+      buttonRow.append(accept);
+      accept.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptButton);
+      accept.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.accept);
+      accept.innerHTML = "Accept";
+      accept.onclick = () => {
+        div.remove();
+        resolve(true);
+      };
+      deny.onclick = () => {
+        div.remove();
+        reject(false);
+      };
+    });
+  }
+  displayPopup(title, width, height, accepted, cancelled) {
+    const div = document.createElement("div");
+    document.body.append(div);
+    div.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.base);
+    const box = document.createElement("div");
+    div.append(box);
+    box.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptBox);
+    box.style.width = "".concat(width, "px");
+    box.style.height = "".concat(height, "px");
+    const header = document.createElement("div");
+    box.append(header);
+    header.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.header);
+    header.innerText = title;
+    const textarea = document.createElement("div");
+    box.append(textarea);
+    const buttonRow = document.createElement("div");
+    box.append(buttonRow);
+    buttonRow.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.buttonRow);
+    const deny = document.createElement("button");
+    buttonRow.append(deny);
+    deny.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptButton);
+    deny.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.deny);
+    deny.innerHTML = "Cancel";
+    const accept = document.createElement("button");
+    buttonRow.append(accept);
+    accept.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.promptButton);
+    accept.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.accept);
+    accept.innerHTML = "OK";
+    accept.onclick = () => {
+      div.remove();
+      if (accepted) accepted();
+    };
+    deny.onclick = () => {
+      div.remove();
+      if (cancelled) cancelled();
+    };
+    return {
+      popup: div,
+      container: box,
+      header: header,
+      buttonRow: buttonRow,
+      textarea: textarea,
+      cancel: deny,
+      ok: accept
+    };
+  }
+  loadAndUseFontBlob(blob) {
+    const fileNameSplit = String(blob.name).split(".");
+    if (!["ttf", "woff", "woff2", "otf"].includes(fileNameSplit.pop().toLowerCase())) {
+      console.log(blob.name, "not usable");
+      return alert("Only .ttf, .woff, .woff2 and .otf files can be used for custom fonts.");
+    }
+    const fr = new FileReader();
+    fr.onload = e => {
+      const uri = e.target.result;
+      const fontName = "PENGUINMOD_CustomFontPicker_".concat(uri.substring(100, 200), "_PM").replace(/[^A-Za-z0-9_]+/gmi, "");
+      this.customFonts[fontName] = "".concat(fileNameSplit.join("."));
+      let style;
+      if (document.getElementById("penguinmod-custom-fonts")) {
+        style = document.getElementById("penguinmod-custom-fonts");
+      } else {
+        style = document.createElement("style");
+        style.id = "penguinmod-custom-fonts";
+        document.body.prepend(style);
+      }
+      style.innerHTML += "@font-face { font-family: \"".concat(fontName, "\"; src: url(\"").concat(uri, "\"); }\n\n.").concat(fontName, " { font-family: \"").concat(fontName, "\"; }\n\n");
+      this.latestCustomFont = {
+        name: this.customFonts[fontName],
+        class: fontName
+      };
+      this.props.changeFont(fontName);
+      this.props.onUpdateImage();
+    };
+    fr.readAsDataURL(blob);
   }
   handleChangeFontSansSerif() {
     if (this.dropDown.isOpen()) {
@@ -191277,9 +193743,79 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].PIXEL);
     }
   }
-  handleChangeFontMopedLike() {
+  handleChangeFontPlayful() {
     if (this.dropDown.isOpen()) {
-      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MOPED_LIKE);
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].PLAYFUL);
+    }
+  }
+  handleChangeFontBitsAndBytes() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BITSANDBYTES);
+    }
+  }
+  handleChangeFontBubbly() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BUBBLY);
+    }
+  }
+  handleChangeFontTechnological() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].TECHNOLOGICAL);
+    }
+  }
+  handleChangeFontArcade() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].ARCADE);
+    }
+  }
+  handleChangeFontArchivo() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].ARCHIVO);
+    }
+  }
+  handleChangeFontArchivoBlack() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].ARCHIVOBLACK);
+    }
+  }
+  handleChangeFontGogono() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].GOGONO);
+    }
+  }
+  handleChangeFontJustBubble() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JUSTBUBBLE);
+    }
+  }
+  handleChangeFontLilitaOne() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].LILITAONE);
+    }
+  }
+  handleChangeFontMinecrafter() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MINECRAFTER);
+    }
+  }
+  handleChangeFontObelixPro() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].OBELIXPRO);
+    }
+  }
+  handleChangeFontJetBrainsMono() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JETBRAINSMONO);
+    }
+  }
+  handleChangeFontScratch() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SCRATCH);
+    }
+  }
+  handleChangeFontBranches() {
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].BRANCHES);
     }
   }
   handleChangeFontChinese() {
@@ -191301,6 +193837,50 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
     if (this.dropDown.isOpen()) {
       this.dropDown.handleClosePopover();
       this.props.onUpdateImage();
+    }
+  }
+  handleChooseExisting() {
+    if (!this.latestCustomFont) return;
+    if (this.dropDown.isOpen()) {
+      this.props.changeFont(this.latestCustomFont.class);
+      this.dropDown.handleClosePopover();
+      this.props.onUpdateImage();
+    }
+  }
+  handleChooseCustom() {
+    if (this.dropDown.isOpen()) {
+      this.dropDown.handleClosePopover();
+      this.displayConfirmMessage("<p>Read this before continuing!</p>", "<div style=\"width:100%;height:100%;text-align:center;\"><br><p>To use a custom font, you will need a .ttf, .woff, .woff2, or .otf file.<br><b>ONLY USE FONTS YOU HAVE THE LICENSE TO USE!</b><br>If you are downloading online fonts, you should use the ones that are either listed as 100% free, OFL / GPL, or Public Domain.<br>If you get in trouble for using a font that you weren't allowed to legally use, it's YOUR fault, not ours.</p><br><p><b>You are also only able to use custom fonts properly in Bitmap mode currently.</b> Using them in Vector mode will cause it to appear as a different font on the stage.</p></div>", this.acceptedCustomFontAgreement).then(() => {
+        this.acceptedCustomFontAgreement = true;
+        const filePicker = document.createElement("input");
+        const prompt = this.displayPopup("Import a Font", 460, 360, () => {
+          if (!filePicker.files[0]) return;
+          this.loadAndUseFontBlob(filePicker.files[0]);
+        });
+        prompt.textarea.style = "width: 100%;height: 75%;display: flex;justify-content: center;align-items: center;flex-direction: column;";
+        prompt.textarea.append(filePicker);
+        filePicker.type = "file";
+        filePicker.accept = ".ttf,.otf,.woff,.woff2";
+        // dont make the file input hidden otherwise you cant press Tab to get to it
+        filePicker.style = "width:0px;height:0px;";
+        filePicker.id = "filePicker-penguinmod-paint-font-dropdown-903274031753195632894310537203491-32957197531-4815-3715489-abc";
+        const fakeFileButton = document.createElement("label");
+        fakeFileButton.setAttribute("for", filePicker.id);
+        fakeFileButton.classList.add(_confirmation_css__WEBPACK_IMPORTED_MODULE_9___default.a.filePicker);
+        fakeFileButton.innerHTML = "Choose a file";
+        prompt.textarea.append(fakeFileButton);
+        const fileNameLabel = document.createElement("p");
+        prompt.textarea.append(fileNameLabel);
+        fileNameLabel.innerHTML = "No font file selected";
+        prompt.textarea.append(document.createElement("br"));
+        const fileTypesLabel = document.createElement("p");
+        prompt.textarea.append(fileTypesLabel);
+        fileTypesLabel.innerHTML = "Select a file of .ttf, .otf, .woff, or .woff2 type";
+        filePicker.onchange = () => {
+          fileNameLabel.innerText = filePicker.files[0].name;
+        };
+      });
+      return;
     }
   }
   handleOpenDropdown() {
@@ -191336,6 +193916,8 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverCustom: this.handleHoverCustom,
       onManageFonts: this.props.onManageFonts && this.handleManageFonts,
       onChoose: this.handleChoose,
+      onChooseCustom: this.handleChooseCustom,
+      onChooseExisting: this.handleChooseExisting,
       onClickOutsideDropdown: this.handleClickOutsideDropdown,
       onHoverChinese: this.handleChangeFontChinese,
       onHoverCurly: this.handleChangeFontCurly,
@@ -191344,10 +193926,27 @@ class FontDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Componen
       onHoverKorean: this.handleChangeFontKorean,
       onHoverMarker: this.handleChangeFontMarker,
       onHoverPixel: this.handleChangeFontPixel,
-      onHoverMopedLike: this.handleChangeFontMopedLike,
+      onHoverPlayful: this.handleChangeFontPlayful,
+      onHoverBubbly: this.handleChangeFontBubbly,
+      onHoverBitsAndBytes: this.handleChangeFontBitsAndBytes,
+      onHoverTechnological: this.handleChangeFontTechnological,
+      onHoverArcade: this.handleChangeFontArcade,
+      onHoverArchivo: this.handleChangeFontArchivo,
+      onHoverArchivoBlack: this.handleChangeFontArchivoBlack,
+      onHoverGogono: this.handleChangeFontGogono,
+      onHoverJustBubble: this.handleChangeFontJustBubble,
+      onHoverLilitaOne: this.handleChangeFontLilitaOne,
+      onHoverMinecrafter: this.handleChangeFontMinecrafter,
+      onHoverObelixPro: this.handleChangeFontObelixPro,
+      onHoverJetBrainsMono: this.handleChangeFontJetBrainsMono,
+      onHoverScratch: this.handleChangeFontScratch,
+      onHoverBranches: this.handleChangeFontBranches,
       onHoverSansSerif: this.handleChangeFontSansSerif,
       onHoverSerif: this.handleChangeFontSerif,
-      onOpenDropdown: this.handleOpenDropdown
+      onOpenDropdown: this.handleOpenDropdown,
+      customExists: this.latestCustomFont !== null,
+      customClass: this.latestCustomFont ? this.latestCustomFont.class : null,
+      customName: this.latestCustomFont ? this.latestCustomFont.name : null
     });
   }
 }
@@ -191715,10 +194314,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
 /* harmony import */ var _helper_math__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/math */ "./node_modules/scratch-paint/src/helper/math.js");
-/* harmony import */ var _helper_layer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../helper/layer */ "./node_modules/scratch-paint/src/helper/layer.js");
-/* harmony import */ var _helper_bitmap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helper/bitmap */ "./node_modules/scratch-paint/src/helper/bitmap.js");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _helper_group__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../helper/group */ "./node_modules/scratch-paint/src/helper/group.js");
+/* harmony import */ var _helper_layer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helper/layer */ "./node_modules/scratch-paint/src/helper/layer.js");
+/* harmony import */ var _helper_bitmap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/bitmap */ "./node_modules/scratch-paint/src/helper/bitmap.js");
+/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+
 
 
 
@@ -191736,7 +194337,7 @@ __webpack_require__.r(__webpack_exports__);
 class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['_getSelectedUncurvedPoints', '_getSelectedUnpointedPoints', 'hasSelectedUncurvedPoints', 'hasSelectedUnpointedPoints', 'handleCurvePoints', 'handleFlipHorizontal', 'handleFlipVertical', 'handleDelete', 'handlePasteFromClipboard', 'handlePointPoints']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['_getSelectedUncurvedPoints', '_getSelectedUnpointedPoints', 'hasSelectedUncurvedPoints', 'hasSelectedUnpointedPoints', 'handleCurvePoints', 'handleFlipHorizontal', 'handleFlipVertical', 'handleCenterSelection', 'handleDelete', 'handlePasteFromClipboard', 'handlePointPoints', 'handleMergeShape', 'handleMaskShape', 'handleSubtractShape', 'handleExcludeShape', 'handleRoundEnds', 'handleSquareEnds', 'handleMiterLineJoin', 'handleRoundLineJoin', 'handleBevelLineJoin']);
   }
   _getSelectedUncurvedPoints() {
     const items = [];
@@ -191835,6 +194436,184 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       this.props.onUpdateImage();
     }
   }
+  hasSelectedRoundEnds() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const style = item.getStyle().getStrokeCap();
+      if (style === 'round') {
+        return true;
+      }
+    }
+    return false;
+  }
+  hasSelectedSquareEnds() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const style = item.getStyle().getStrokeCap();
+      if (style !== 'round') {
+        return true;
+      }
+    }
+    return false;
+  }
+  handleRoundEnds() {
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getStrokeCap() !== 'round') {
+        styles.setStrokeCap('round');
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
+  handleSquareEnds() {
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      console.log(styles.getStrokeCap());
+      if (styles.getStrokeCap() === 'round') {
+        styles.setStrokeCap('butt');
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
+  hasSelectedMiterLineJoins() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const style = item.getStyle().getStrokeJoin();
+      if (style === 'miter') {
+        return true;
+      }
+    }
+    return false;
+  }
+  hasSelectedRoundLineJoins() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const style = item.getStyle().getStrokeJoin();
+      if (style === 'round') {
+        return true;
+      }
+    }
+    return false;
+  }
+  hasSelectedBevelLineJoins() {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const style = item.getStyle().getStrokeJoin();
+      if (style === 'bevel') {
+        return true;
+      }
+    }
+    return false;
+  }
+  handleMiterLineJoin() {
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getStrokeJoin() !== 'miter') {
+        styles.setStrokeJoin('miter');
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
+  handleRoundLineJoin() {
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getStrokeJoin() !== 'round') {
+        styles.setStrokeJoin('round');
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
+  handleBevelLineJoin() {
+    let changed;
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
+    for (const item of selectedItems) {
+      const styles = item.getStyle();
+      if (styles.getStrokeJoin() !== 'bevel') {
+        styles.setStrokeJoin('bevel');
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.props.setSelectedItems(this.props.format);
+      this.props.onUpdateImage();
+    }
+  }
+  handleMergeShape(specificOperation) {
+    const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
+    if (selectedItems.length < 2) {
+      // If nothing or not enough items are selected,
+      // we probably shouldnt select and merge everything
+      return;
+    }
+    if (!selectedItems[0].unite) {
+      // we cant unite this item, cancel
+      return;
+    }
+    const results = [];
+    // unite the shapes together, creating a clone on top of the original
+    if (typeof specificOperation === "string") {
+      let idx = 0;
+      selectedItems.forEach(item => {
+        if (idx === 0) {
+          idx++;
+          return;
+        }
+        const result = selectedItems[0][specificOperation](item);
+        results.push(result);
+        idx++;
+      });
+    } else {
+      let idx = 0;
+      selectedItems.forEach(item => {
+        if (idx === 0) {
+          idx++;
+          return;
+        }
+        const result = selectedItems[0].unite(item);
+        results.push(result);
+        idx++;
+      });
+    }
+    if (results.length <= 1) {
+      Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["setItemSelection"])(results[0], true);
+      this.props.onUpdateImage();
+    } else {
+      Object(_helper_group__WEBPACK_IMPORTED_MODULE_10__["groupItems"])(results, this.props.clearSelectedItems, this.props.setSelectedItems, this.props.onUpdateImage);
+    }
+  }
+  handleMaskShape() {
+    this.handleMergeShape("intersect");
+  }
+  handleSubtractShape() {
+    this.handleMergeShape("subtract");
+  }
+  handleExcludeShape() {
+    this.handleMergeShape("exclude");
+  }
   _handleFlip(horizontalScale, verticalScale, selectedItems) {
     if (selectedItems.length === 0) {
       // If nothing is selected, select everything
@@ -191861,8 +194640,8 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   }
   handleFlipHorizontal() {
     const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
-    if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isBitmap"])(this.props.format) && selectedItems.length === 0) {
-      Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().canvas = Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_11__["flipBitmapHorizontal"])(Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().canvas);
+    if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format) && selectedItems.length === 0) {
+      Object(_helper_layer__WEBPACK_IMPORTED_MODULE_11__["getRaster"])().canvas = Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_12__["flipBitmapHorizontal"])(Object(_helper_layer__WEBPACK_IMPORTED_MODULE_11__["getRaster"])().canvas);
       this.props.onUpdateImage();
     } else {
       this._handleFlip(-1, 1, selectedItems);
@@ -191870,12 +194649,35 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   }
   handleFlipVertical() {
     const selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
-    if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isBitmap"])(this.props.format) && selectedItems.length === 0) {
-      Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().canvas = Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_11__["flipBitmapVertical"])(Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().canvas);
+    if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format) && selectedItems.length === 0) {
+      Object(_helper_layer__WEBPACK_IMPORTED_MODULE_11__["getRaster"])().canvas = Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_12__["flipBitmapVertical"])(Object(_helper_layer__WEBPACK_IMPORTED_MODULE_11__["getRaster"])().canvas);
       this.props.onUpdateImage();
     } else {
       this._handleFlip(1, -1, selectedItems);
     }
+  }
+  handleCenterSelection() {
+    // https://github.com/Nitro-Bolt/scratch-paint/blob/develop/src/containers/mode-tools.jsx#L203-L216
+    let selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedRootItems"])();
+    if (selectedItems.length === 0) {
+      if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format)) {
+        return;
+      }
+      selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getAllRootItems"])();
+    }
+    for (const item of selectedItems) {
+      item.data.originalIndex = item.index;
+    }
+    const group = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Group(selectedItems);
+    group.position = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(this.props.width, this.props.height);
+    for (let i = 0; i < selectedItems.length; i++) {
+      const item = selectedItems[i];
+      group.layer.insertChild(item.data.originalIndex, item);
+      delete item.data.originalIndex;
+    }
+    group.remove();
+    this.props.setSelectedItems(this.props.format);
+    this.props.onUpdateImage();
   }
   handlePasteFromClipboard() {
     if (this.props.onPasteFromClipboard()) {
@@ -191884,9 +194686,9 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   }
   handleDelete() {
     if (!this.props.selectedItems.length) {
-      if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isBitmap"])(this.props.format)) {
-        Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_11__["selectAllBitmap"])(this.props.clearSelectedItems);
-      } else if (this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_13__["default"].RESHAPE) {
+      if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(this.props.format)) {
+        Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_12__["selectAllBitmap"])(this.props.clearSelectedItems);
+      } else if (this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_14__["default"].RESHAPE) {
         Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["selectAllSegments"])();
       } else {
         Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["selectAllItems"])();
@@ -191901,25 +194703,44 @@ class ModeTools extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       hasSelectedUncurvedPoints: this.hasSelectedUncurvedPoints(),
       hasSelectedUnpointedPoints: this.hasSelectedUnpointedPoints(),
       onCopyToClipboard: this.props.onCopyToClipboard,
+      onCutToClipboard: this.props.onCutToClipboard,
       onCurvePoints: this.handleCurvePoints,
       onDelete: this.handleDelete,
       onFlipHorizontal: this.handleFlipHorizontal,
       onFlipVertical: this.handleFlipVertical,
+      onCenterSelection: this.handleCenterSelection,
       onManageFonts: this.props.onManageFonts,
       onPasteFromClipboard: this.handlePasteFromClipboard,
       onPointPoints: this.handlePointPoints,
-      onUpdateImage: this.props.onUpdateImage
+      onUpdateImage: this.props.onUpdateImage,
+      hasSelectedRoundEnds: this.hasSelectedRoundEnds(),
+      hasSelectedSquareEnds: this.hasSelectedSquareEnds(),
+      onRoundEnds: this.handleRoundEnds,
+      onSquareEnds: this.handleSquareEnds,
+      hasSelectedMiterLineJoin: this.hasSelectedMiterLineJoins(),
+      hasSelectedRoundLineJoin: this.hasSelectedRoundLineJoins(),
+      hasSelectedBevelLineJoin: this.hasSelectedBevelLineJoins(),
+      onMiterLineJoin: this.handleMiterLineJoin,
+      onRoundLineJoin: this.handleRoundLineJoin,
+      onBevelLineJoin: this.handleBevelLineJoin,
+      onMergeShape: this.handleMergeShape,
+      onMaskShape: this.handleMaskShape,
+      onSubtractShape: this.handleSubtractShape,
+      onExcludeShape: this.handleExcludeShape
     });
   }
 }
 ModeTools.propTypes = {
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
-  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_12__["default"])),
-  mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_modes__WEBPACK_IMPORTED_MODULE_13__["default"])),
+  format: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_13__["default"])),
+  mode: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(_lib_modes__WEBPACK_IMPORTED_MODULE_14__["default"])),
   onCopyToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  onCutToClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onManageFonts: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onPasteFromClipboard: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  width: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  height: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   // Listen on selected items to update hasSelectedPoints
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   // eslint-disable-line react/no-unused-prop-types
@@ -191935,7 +194756,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["clearSelectedItems"])());
   },
   setSelectedItems: format => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isBitmap"])(format)));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), Object(_lib_format__WEBPACK_IMPORTED_MODULE_13__["isBitmap"])(format)));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(_hocs_copy_paste_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(ModeTools)));
@@ -192343,12 +195164,18 @@ class PaintEditor extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component
         case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].BRUSH:
           this.props.changeMode(_lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].BIT_BRUSH);
           break;
+        case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].ARROW:
+        /* falls through */
         case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].LINE:
           this.props.changeMode(_lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].BIT_LINE);
           break;
         case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].OVAL:
           this.props.changeMode(_lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].BIT_OVAL);
           break;
+        case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].ROUNDED_RECT:
+        /* falls through */
+        case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].SUSSY:
+        /* falls through */
         case _lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].RECT:
           this.props.changeMode(_lib_modes__WEBPACK_IMPORTED_MODULE_23__["default"].BIT_RECT);
           break;
@@ -192481,6 +195308,7 @@ class PaintEditor extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component
       textArea: this.state.textArea,
       theme: this.getEffectiveTheme(),
       width: this.props.width,
+      height: this.props.height,
       zoomLevelId: this.props.zoomLevelId,
       onChangeTheme: this.handleChangeTheme,
       onManageFonts: this.props.onManageFonts,
@@ -193051,6 +195879,152 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/containers/pen-mode.jsx":
+/*!****************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/pen-mode.jsx ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
+/* harmony import */ var _reducers_stroke_width__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/stroke-width */ "./node_modules/scratch-paint/src/reducers/stroke-width.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _reducers_pen_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../helper/tools/pen-tool */ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js");
+/* harmony import */ var _components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/pen-mode/pen-mode.jsx */ "./node_modules/scratch-paint/src/components/pen-mode/pen-mode.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class PenMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  static get DEFAULT_COLOR() {
+    return '#000000';
+  }
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default()(this, ['activateTool', 'deactivateTool']);
+  }
+  componentDidMount() {
+    if (this.props.isPenModeActive) {
+      this.activateTool(this.props);
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+    if (this.tool && (nextProps.colorState.strokeColor !== this.props.colorState.strokeColor || nextProps.colorState.strokeWidth !== this.props.colorState.strokeWidth)) {
+      this.tool.setColorState(nextProps.colorState);
+    }
+    if (this.tool && nextProps.simplifySize !== this.props.simplifySize) {
+      this.tool.setSimplifySize(nextProps.simplifySize);
+    }
+    if (nextProps.isPenModeActive && !this.props.isPenModeActive) {
+      this.activateTool();
+    } else if (!nextProps.isPenModeActive && this.props.isPenModeActive) {
+      this.deactivateTool();
+    }
+  }
+  shouldComponentUpdate(nextProps) {
+    return nextProps.isPenModeActive !== this.props.isPenModeActive;
+  }
+  activateTool() {
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_12__["clearSelection"])(this.props.clearSelectedItems);
+    // Force the default pen color if stroke is MIXED or transparent
+    const {
+      strokeColor
+    } = this.props.colorState;
+    if (strokeColor === _helper_style_path__WEBPACK_IMPORTED_MODULE_9__["MIXED"] || strokeColor === null) {
+      this.props.onChangeStrokeColor(PenMode.DEFAULT_COLOR);
+    }
+    // Force a minimum stroke width
+    if (!this.props.colorState.strokeWidth) {
+      this.props.onChangeStrokeWidth(1);
+    }
+    if (typeof this.props.simplifySize !== "number") {
+      this.props.onChangeSimplifySize(2);
+    }
+    this.tool = new _helper_tools_pen_tool__WEBPACK_IMPORTED_MODULE_13__["default"](this.props.clearSelectedItems, this.props.onUpdateSvg);
+    this.tool.setColorState(this.props.colorState);
+    this.tool.setSimplifySize(this.props.simplifySize);
+    this.tool.activate();
+  }
+  deactivateTool() {
+    this.tool.deactivateTool();
+    this.tool.remove();
+    this.tool = null;
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_pen_mode_pen_mode_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      isSelected: this.props.isPenModeActive,
+      onMouseDown: this.props.handleMouseDown
+    });
+  }
+}
+PenMode.propTypes = {
+  clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  colorState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
+    fillStyle: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_11__["default"],
+    strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
+  }).isRequired,
+  simplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
+  handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  isPenModeActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired,
+  onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  onChangeStrokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  onChangeSimplifySize: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
+  onUpdateSvg: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  colorState: state.scratchPaint.color,
+  isPenModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].PEN,
+  simplifySize: state.scratchPaint.penMode.simplifySize
+});
+const mapDispatchToProps = dispatch => ({
+  clearSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__["clearSelectedItems"])());
+  },
+  handleMouseDown: () => {
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_7__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].PEN));
+  },
+  deactivateTool() {},
+  onChangeStrokeColor: strokeColor => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_5__["changeStrokeColor"])(strokeColor));
+  },
+  onChangeStrokeWidth: strokeWidth => {
+    dispatch(Object(_reducers_stroke_width__WEBPACK_IMPORTED_MODULE_6__["changeStrokeWidth"])(strokeWidth));
+  },
+  onChangeSimplifySize: simplifySize => {
+    dispatch(Object(_reducers_pen_mode__WEBPACK_IMPORTED_MODULE_10__["changeSimplifySize"])(simplifySize));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(PenMode));
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/containers/rect-mode.jsx":
 /*!*****************************************************************!*\
   !*** ./node_modules/scratch-paint/src/containers/rect-mode.jsx ***!
@@ -193078,9 +196052,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
 /* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/tools/rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rect-tool.js");
-/* harmony import */ var _components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/rect-mode/rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rect-mode/rect-mode.jsx");
+/* harmony import */ var _reducers_rect_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rect-tool.js");
+/* harmony import */ var _components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/rect-mode/rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rect-mode/rect-mode.jsx");
+
 
 
 
@@ -193115,6 +196091,9 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
       this.tool.onSelectionChanged(nextProps.selectedItems);
     }
+    if (this.tool && nextProps.roundedCornerSize !== this.props.roundedCornerSize) {
+      this.tool.setRoundedCornerSize(nextProps.roundedCornerSize);
+    }
     if (nextProps.isRectModeActive && !this.props.isRectModeActive) {
       this.activateTool();
     } else if (!nextProps.isRectModeActive && this.props.isRectModeActive) {
@@ -193130,9 +196109,13 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }
   }
   activateTool() {
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
     this.validateColorState();
-    this.tool = new _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_15__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    if (typeof this.props.roundedCornerSize !== "number") {
+      this.props.onChangeRoundedCornerSize(0);
+    }
+    this.tool = new _helper_tools_rect_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setRoundedCornerSize(this.props.roundedCornerSize);
     this.tool.setColorState(this.props.colorState);
     this.tool.activate();
   }
@@ -193181,7 +196164,7 @@ class RectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     this.tool = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rect_mode_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
       isSelected: this.props.isRectModeActive,
       onMouseDown: this.props.handleMouseDown
     });
@@ -193203,12 +196186,15 @@ RectMode.propTypes = {
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
   setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  roundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onChangeRoundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
   colorState: state.scratchPaint.color,
   isRectModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].RECT,
-  selectedItems: state.scratchPaint.selectedItems
+  selectedItems: state.scratchPaint.selectedItems,
+  roundedCornerSize: state.scratchPaint.rectMode.roundedCornerSize
 });
 const mapDispatchToProps = dispatch => ({
   clearSelectedItems: () => {
@@ -193221,7 +196207,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_14__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   setCursor: cursorString => {
     dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
@@ -193234,6 +196220,9 @@ const mapDispatchToProps = dispatch => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onChangeRoundedCornerSize: roundedCornerSize => {
+    dispatch(Object(_reducers_rect_mode__WEBPACK_IMPORTED_MODULE_14__["changeRoundedCornerSize"])(roundedCornerSize));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(RectMode));
@@ -193356,6 +196345,210 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(ReshapeMode));
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/containers/rounded-rect-mode.jsx":
+/*!*************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/rounded-rect-mode.jsx ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/gradient-types */ "./node_modules/scratch-paint/src/lib/gradient-types.js");
+/* harmony import */ var _reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../reducers/fill-style */ "./node_modules/scratch-paint/src/reducers/fill-style.js");
+/* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/rounded-rect-tool */ "./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js");
+/* harmony import */ var _components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/rounded-rect-mode/rounded-rect-mode.jsx */ "./node_modules/scratch-paint/src/components/rounded-rect-mode/rounded-rect-mode.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class RoundedRectMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['activateTool', 'deactivateTool', 'validateColorState']);
+  }
+  componentDidMount() {
+    if (this.props.isRoundedRectModeActive) {
+      this.activateTool(this.props);
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+    if (this.tool && nextProps.colorState !== this.props.colorState) {
+      this.tool.setColorState(nextProps.colorState);
+    }
+    if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
+      this.tool.onSelectionChanged(nextProps.selectedItems);
+    }
+    if (this.tool && nextProps.roundedCornerSize !== this.props.roundedCornerSize) {
+      this.tool.setRoundedCornerSize(nextProps.roundedCornerSize);
+    }
+    if (nextProps.isRoundedRectModeActive && !this.props.isRoundedRectModeActive) {
+      this.activateTool();
+    } else if (!nextProps.isRoundedRectModeActive && this.props.isRoundedRectModeActive) {
+      this.deactivateTool();
+    }
+  }
+  shouldComponentUpdate(nextProps) {
+    return nextProps.isRoundedRectModeActive !== this.props.isRoundedRectModeActive;
+  }
+  componentWillUnmount() {
+    if (this.tool) {
+      this.deactivateTool();
+    }
+  }
+  activateTool() {
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
+    this.validateColorState();
+    if (typeof this.props.roundedCornerSize !== "number") {
+      this.props.onChangeRoundedCornerSize(0);
+    }
+    this.tool = new _helper_tools_rounded_rect_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setRoundedCornerSize(this.props.roundedCornerSize);
+    this.tool.setColorState(this.props.colorState);
+    this.tool.activate();
+  }
+  validateColorState() {
+    // TODO move to shared class
+    // Make sure that at least one of fill/stroke is set, and that MIXED is not one of the colors.
+    // If fill and stroke color are both missing, set fill to default and stroke to transparent.
+    // If exactly one of fill or stroke color is set, set the other one to transparent.
+    const {
+      strokeWidth
+    } = this.props.colorState;
+    const fillColor1 = this.props.colorState.fillColor.primary;
+    let fillColor2 = this.props.colorState.fillColor.secondary;
+    let fillGradient = this.props.colorState.fillColor.gradientType;
+    const strokeColor1 = this.props.colorState.strokeColor.primary;
+    let strokeColor2 = this.props.colorState.strokeColor.secondary;
+    let strokeGradient = this.props.colorState.strokeColor.gradientType;
+    if (fillColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearFillGradient();
+      fillColor2 = null;
+      fillGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    if (strokeColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearStrokeGradient();
+      strokeColor2 = null;
+      strokeGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    const fillColorMissing = fillColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || fillGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null || fillGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null && fillColor2 === null;
+    const strokeColorMissing = strokeColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || strokeWidth === null || strokeWidth === 0 || strokeGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null || strokeGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null && strokeColor2 === null;
+    if (fillColorMissing && strokeColorMissing) {
+      this.props.onChangeFillColor(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["DEFAULT_COLOR"]);
+      this.props.clearFillGradient();
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    } else if (fillColorMissing && !strokeColorMissing) {
+      this.props.onChangeFillColor(null);
+      this.props.clearFillGradient();
+    } else if (!fillColorMissing && strokeColorMissing) {
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    }
+  }
+  deactivateTool() {
+    this.tool.deactivateTool();
+    this.tool.remove();
+    this.tool = null;
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_rounded_rect_mode_rounded_rect_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+      isSelected: this.props.isRoundedRectModeActive,
+      onMouseDown: this.props.handleMouseDown
+    });
+  }
+}
+RoundedRectMode.propTypes = {
+  clearFillGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearStrokeGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    fillColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  }).isRequired,
+  handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  isRoundedRectModeActive: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeFillColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
+  setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  roundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onChangeRoundedCornerSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  colorState: state.scratchPaint.color,
+  isRoundedRectModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].ROUNDED_RECT,
+  selectedItems: state.scratchPaint.selectedItems,
+  roundedCornerSize: state.scratchPaint.roundedRectMode.roundedCornerSize
+});
+const mapDispatchToProps = dispatch => ({
+  clearSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["clearSelectedItems"])());
+  },
+  clearFillGradient: () => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["clearFillGradient"])());
+  },
+  clearStrokeGradient: () => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
+  },
+  setSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
+  },
+  setCursor: cursorString => {
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
+  },
+  handleMouseDown: () => {
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_11__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].ROUNDED_RECT));
+  },
+  onChangeFillColor: fillColor => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["changeFillColor"])(fillColor));
+  },
+  onChangeStrokeColor: strokeColor => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onChangeRoundedCornerSize: roundedCornerSize => {
+    dispatch(Object(_reducers_rounded_rect_mode__WEBPACK_IMPORTED_MODULE_14__["changeRoundedRectCornerSize"])(roundedCornerSize));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(RoundedRectMode));
 
 /***/ }),
 
@@ -193931,6 +197124,210 @@ StrokeWidthIndicator.propTypes = {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/containers/sussy-mode.jsx":
+/*!******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/sussy-mode.jsx ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/gradient-types */ "./node_modules/scratch-paint/src/lib/gradient-types.js");
+/* harmony import */ var _reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../reducers/fill-style */ "./node_modules/scratch-paint/src/reducers/fill-style.js");
+/* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/sussy-tool */ "./node_modules/scratch-paint/src/helper/tools/sussy-tool.js");
+/* harmony import */ var _components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/sussy-mode/sussy-mode.jsx */ "./node_modules/scratch-paint/src/components/sussy-mode/sussy-mode.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class SussyMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['activateTool', 'deactivateTool', 'validateColorState']);
+  }
+  componentDidMount() {
+    if (this.props.isSussyModeActive) {
+      this.activateTool(this.props);
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+    if (this.tool && nextProps.colorState !== this.props.colorState) {
+      this.tool.setColorState(nextProps.colorState);
+    }
+    if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
+      this.tool.onSelectionChanged(nextProps.selectedItems);
+    }
+    if (this.tool && nextProps.shape !== this.props.shape) {
+      this.tool.setShape(nextProps.shape);
+    }
+    if (nextProps.isSussyModeActive && !this.props.isSussyModeActive) {
+      this.activateTool();
+    } else if (!nextProps.isSussyModeActive && this.props.isSussyModeActive) {
+      this.deactivateTool();
+    }
+  }
+  shouldComponentUpdate(nextProps) {
+    return nextProps.isSussyModeActive !== this.props.isSussyModeActive;
+  }
+  componentWillUnmount() {
+    if (this.tool) {
+      this.deactivateTool();
+    }
+  }
+  activateTool() {
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
+    this.validateColorState();
+    if (!this.props.shape) {
+      this.props.onSetSelectedShape("smile");
+    }
+    this.tool = new _helper_tools_sussy_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setColorState(this.props.colorState);
+    this.tool.setShape(this.props.shape);
+    this.tool.activate();
+  }
+  validateColorState() {
+    // TODO move to shared class
+    // Make sure that at least one of fill/stroke is set, and that MIXED is not one of the colors.
+    // If fill and stroke color are both missing, set fill to default and stroke to transparent.
+    // If exactly one of fill or stroke color is set, set the other one to transparent.
+    const {
+      strokeWidth
+    } = this.props.colorState;
+    const fillColor1 = this.props.colorState.fillColor.primary;
+    let fillColor2 = this.props.colorState.fillColor.secondary;
+    let fillGradient = this.props.colorState.fillColor.gradientType;
+    const strokeColor1 = this.props.colorState.strokeColor.primary;
+    let strokeColor2 = this.props.colorState.strokeColor.secondary;
+    let strokeGradient = this.props.colorState.strokeColor.gradientType;
+    if (fillColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearFillGradient();
+      fillColor2 = null;
+      fillGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    if (strokeColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearStrokeGradient();
+      strokeColor2 = null;
+      strokeGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    const fillColorMissing = fillColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || fillGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null || fillGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null && fillColor2 === null;
+    const strokeColorMissing = strokeColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || strokeWidth === null || strokeWidth === 0 || strokeGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null || strokeGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null && strokeColor2 === null;
+    if (fillColorMissing && strokeColorMissing) {
+      this.props.onChangeFillColor(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["DEFAULT_COLOR"]);
+      this.props.clearFillGradient();
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    } else if (fillColorMissing && !strokeColorMissing) {
+      this.props.onChangeFillColor(null);
+      this.props.clearFillGradient();
+    } else if (!fillColorMissing && strokeColorMissing) {
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    }
+  }
+  deactivateTool() {
+    this.tool.deactivateTool();
+    this.tool.remove();
+    this.tool = null;
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_sussy_mode_sussy_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+      isSelected: this.props.isSussyModeActive,
+      onMouseDown: this.props.handleMouseDown
+    });
+  }
+}
+SussyMode.propTypes = {
+  clearFillGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearStrokeGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    fillColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  }).isRequired,
+  shape: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  isSussyModeActive: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeFillColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onSetSelectedShape: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
+  setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  colorState: state.scratchPaint.color,
+  isSussyModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].SUSSY,
+  selectedItems: state.scratchPaint.selectedItems,
+  shape: state.scratchPaint.sussyMode.shape
+});
+const mapDispatchToProps = dispatch => ({
+  clearSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["clearSelectedItems"])());
+  },
+  clearFillGradient: () => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["clearFillGradient"])());
+  },
+  clearStrokeGradient: () => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
+  },
+  setSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
+  },
+  setCursor: cursorString => {
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
+  },
+  handleMouseDown: () => {
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_11__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].SUSSY));
+  },
+  onChangeFillColor: fillColor => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["changeFillColor"])(fillColor));
+  },
+  onChangeStrokeColor: strokeColor => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onSetSelectedShape: shape => {
+    dispatch(Object(_reducers_sussy_mode__WEBPACK_IMPORTED_MODULE_14__["changeCurrentlySelectedShape"])(shape));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(SussyMode));
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/containers/text-mode.jsx":
 /*!*****************************************************************!*\
   !*** ./node_modules/scratch-paint/src/containers/text-mode.jsx ***!
@@ -193958,12 +197355,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
 /* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
 /* harmony import */ var _reducers_text_edit_target__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../helper/tools/text-tool */ "./node_modules/scratch-paint/src/helper/tools/text-tool.js");
-/* harmony import */ var _components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/text-mode/text-mode.jsx */ "./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx");
-/* harmony import */ var _components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/bit-text-mode/bit-text-mode.jsx */ "./node_modules/scratch-paint/src/components/bit-text-mode/bit-text-mode.jsx");
+/* harmony import */ var _reducers_text_alignment__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../helper/tools/text-tool */ "./node_modules/scratch-paint/src/helper/tools/text-tool.js");
+/* harmony import */ var _components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/text-mode/text-mode.jsx */ "./node_modules/scratch-paint/src/components/text-mode/text-mode.jsx");
+/* harmony import */ var _components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/bit-text-mode/bit-text-mode.jsx */ "./node_modules/scratch-paint/src/components/bit-text-mode/bit-text-mode.jsx");
+
 
 
 
@@ -194011,8 +197410,8 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
       if (nextProps.font !== this.props.font) {
         this.tool.setFont(nextProps.font);
       }
-      if (nextProps.rtl !== this.props.rtl) {
-        this.tool.setRtl(nextProps.rtl);
+      if (nextProps.alignment !== this.props.alignment) {
+        this.tool.setAlignment(nextProps.alignment);
       }
     }
     if (nextProps.isTextModeActive && !this.props.isTextModeActive) {
@@ -194030,12 +197429,12 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }
   }
   activateTool(nextProps) {
-    const selected = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["getSelectedLeafItems"])();
+    const selected = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["getSelectedLeafItems"])();
     let textBoxToStartEditing = null;
     if (selected.length === 1 && selected[0] instanceof _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.PointText) {
       textBoxToStartEditing = selected[0];
     }
-    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["clearSelection"])(this.props.clearSelectedItems);
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["clearSelection"])(this.props.clearSelectedItems);
     this.props.clearGradient();
 
     // If fill and stroke color are both mixed/transparent/absent, set fill to default and stroke to transparent.
@@ -194059,10 +197458,13 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     if (!nextProps.font) {
       this.props.changeFont(_lib_fonts__WEBPACK_IMPORTED_MODULE_5__["default"].SANS_SERIF);
     }
-    this.tool = new _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_17__["default"](this.props.textArea, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage, this.props.setTextEditTarget, this.props.changeFont, nextProps.isBitmap);
-    this.tool.setRtl(this.props.rtl);
+    if (!nextProps.alignment) {
+      this.props.changeAlignment("left");
+    }
+    this.tool = new _helper_tools_text_tool__WEBPACK_IMPORTED_MODULE_18__["default"](this.props.textArea, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage, this.props.setTextEditTarget, this.props.changeFont, this.props.changeAlignment, nextProps.isBitmap);
     this.tool.setColorState(nextProps.colorState);
     this.tool.setFont(nextProps.font);
+    this.tool.setAlignment(nextProps.alignment);
     this.tool.activate();
     if (textBoxToStartEditing) {
       this.tool.beginTextEdit(textBoxToStartEditing);
@@ -194075,10 +197477,10 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     this.tool = null;
   }
   render() {
-    return this.props.isBitmap ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    return this.props.isBitmap ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_bit_text_mode_bit_text_mode_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
       isSelected: this.props.isTextModeActive,
       onMouseDown: this.props.handleChangeModeBitText
-    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_text_mode_text_mode_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
       isSelected: this.props.isTextModeActive,
       onMouseDown: this.props.handleChangeModeText
     });
@@ -194086,6 +197488,7 @@ class TextMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
 }
 TextMode.propTypes = {
   changeFont: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  changeAlignment: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -194094,6 +197497,7 @@ TextMode.propTypes = {
     strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
   }).isRequired,
   font: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  alignment: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   handleChangeModeBitText: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   handleChangeModeText: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   isBitmap: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
@@ -194113,6 +197517,7 @@ TextMode.propTypes = {
 const mapStateToProps = (state, ownProps) => ({
   colorState: state.scratchPaint.color,
   font: state.scratchPaint.font,
+  alignment: state.scratchPaint.textAlignment.alignment,
   isTextModeActive: ownProps.isBitmap ? state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].BIT_TEXT : state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].TEXT,
   rtl: state.scratchPaint.layout.rtl,
   selectedItems: state.scratchPaint.selectedItems,
@@ -194124,7 +197529,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     dispatch(Object(_reducers_font__WEBPACK_IMPORTED_MODULE_9__["changeFont"])(font));
   },
   clearSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__["clearSelectedItems"])());
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__["clearSelectedItems"])());
   },
   clearGradient: () => {
     dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_10__["clearFillGradient"])());
@@ -194136,10 +197541,10 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_12__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_6__["default"].TEXT));
   },
   setCursor: cursorString => {
-    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_15__["setCursor"])(cursorString));
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_16__["setCursor"])(cursorString));
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_14__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_16__["getSelectedLeafItems"])(), ownProps.isBitmap));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_15__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_17__["getSelectedLeafItems"])(), ownProps.isBitmap));
   },
   setTextEditTarget: targetId => {
     dispatch(Object(_reducers_text_edit_target__WEBPACK_IMPORTED_MODULE_13__["setTextEditTarget"])(targetId));
@@ -194149,9 +197554,229 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
   },
   onChangeStrokeColor: strokeColor => {
     dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_11__["changeStrokeColor"])(strokeColor));
+  },
+  changeAlignment: alignment => {
+    dispatch(Object(_reducers_text_alignment__WEBPACK_IMPORTED_MODULE_14__["setTextAlignment"])(alignment));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(TextMode));
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/containers/triangle-mode.jsx":
+/*!*********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/containers/triangle-mode.jsx ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/scratch-paint/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/scratch-paint/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helper/style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/color-style-proptype */ "./node_modules/scratch-paint/src/lib/color-style-proptype.js");
+/* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/gradient-types */ "./node_modules/scratch-paint/src/lib/gradient-types.js");
+/* harmony import */ var _reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../reducers/fill-style */ "./node_modules/scratch-paint/src/reducers/fill-style.js");
+/* harmony import */ var _reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../reducers/stroke-style */ "./node_modules/scratch-paint/src/reducers/stroke-style.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _reducers_cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../reducers/cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../reducers/triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helper/tools/triangle-tool */ "./node_modules/scratch-paint/src/helper/tools/triangle-tool.js");
+/* harmony import */ var _components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/triangle-mode/triangle-mode.jsx */ "./node_modules/scratch-paint/src/components/triangle-mode/triangle-mode.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class TriangleMode extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_4___default()(this, ['activateTool', 'deactivateTool', 'validateColorState']);
+  }
+  componentDidMount() {
+    if (this.props.isTriangleModeActive) {
+      this.activateTool(this.props);
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+    if (this.tool && nextProps.colorState !== this.props.colorState) {
+      this.tool.setColorState(nextProps.colorState);
+    }
+    if (this.tool && nextProps.selectedItems !== this.props.selectedItems) {
+      this.tool.onSelectionChanged(nextProps.selectedItems);
+    }
+    if (this.tool && nextProps.sideCount !== this.props.sideCount) {
+      this.tool.setSideCount(nextProps.sideCount);
+    }
+    if (this.tool && nextProps.pointCount !== this.props.pointCount) {
+      this.tool.setPointCount(nextProps.pointCount);
+    }
+    if (nextProps.isTriangleModeActive && !this.props.isTriangleModeActive) {
+      this.activateTool();
+    } else if (!nextProps.isTriangleModeActive && this.props.isTriangleModeActive) {
+      this.deactivateTool();
+    }
+  }
+  shouldComponentUpdate(nextProps) {
+    return nextProps.isTriangleModeActive !== this.props.isTriangleModeActive;
+  }
+  componentWillUnmount() {
+    if (this.tool) {
+      this.deactivateTool();
+    }
+  }
+  activateTool() {
+    Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["clearSelection"])(this.props.clearSelectedItems);
+    this.validateColorState();
+    if (typeof this.props.sideCount !== "number") {
+      this.props.onSetSideCount(3);
+    }
+    if (typeof this.props.pointCount !== "number") {
+      this.props.onSetPointCount(1);
+    }
+    this.tool = new _helper_tools_triangle_tool__WEBPACK_IMPORTED_MODULE_16__["default"](this.props.setSelectedItems, this.props.clearSelectedItems, this.props.setCursor, this.props.onUpdateImage);
+    this.tool.setSideCount(this.props.sideCount);
+    this.tool.setPointCount(this.props.pointCount);
+    this.tool.setColorState(this.props.colorState);
+    this.tool.activate();
+  }
+  validateColorState() {
+    // TODO move to shared class
+    // Make sure that at least one of fill/stroke is set, and that MIXED is not one of the colors.
+    // If fill and stroke color are both missing, set fill to default and stroke to transparent.
+    // If exactly one of fill or stroke color is set, set the other one to transparent.
+    const {
+      strokeWidth
+    } = this.props.colorState;
+    const fillColor1 = this.props.colorState.fillColor.primary;
+    let fillColor2 = this.props.colorState.fillColor.secondary;
+    let fillGradient = this.props.colorState.fillColor.gradientType;
+    const strokeColor1 = this.props.colorState.strokeColor.primary;
+    let strokeColor2 = this.props.colorState.strokeColor.secondary;
+    let strokeGradient = this.props.colorState.strokeColor.gradientType;
+    if (fillColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearFillGradient();
+      fillColor2 = null;
+      fillGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    if (strokeColor2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"]) {
+      this.props.clearStrokeGradient();
+      strokeColor2 = null;
+      strokeGradient = _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID;
+    }
+    const fillColorMissing = fillColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || fillGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null || fillGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && fillColor1 === null && fillColor2 === null;
+    const strokeColorMissing = strokeColor1 === _helper_style_path__WEBPACK_IMPORTED_MODULE_6__["MIXED"] || strokeWidth === null || strokeWidth === 0 || strokeGradient === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null || strokeGradient !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID && strokeColor1 === null && strokeColor2 === null;
+    if (fillColorMissing && strokeColorMissing) {
+      this.props.onChangeFillColor(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["DEFAULT_COLOR"]);
+      this.props.clearFillGradient();
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    } else if (fillColorMissing && !strokeColorMissing) {
+      this.props.onChangeFillColor(null);
+      this.props.clearFillGradient();
+    } else if (!fillColorMissing && strokeColorMissing) {
+      this.props.onChangeStrokeColor(null);
+      this.props.clearStrokeGradient();
+    }
+  }
+  deactivateTool() {
+    this.tool.deactivateTool();
+    this.tool.remove();
+    this.tool = null;
+  }
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_triangle_mode_triangle_mode_jsx__WEBPACK_IMPORTED_MODULE_17__["default"], {
+      isSelected: this.props.isTriangleModeActive,
+      onMouseDown: this.props.handleMouseDown
+    });
+  }
+}
+TriangleMode.propTypes = {
+  clearFillGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearStrokeGradient: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  colorState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    fillColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeColor: _lib_color_style_proptype__WEBPACK_IMPORTED_MODULE_7__["default"],
+    strokeWidth: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  }).isRequired,
+  handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  isTriangleModeActive: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeFillColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onChangeStrokeColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  selectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Item)),
+  setCursor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  sideCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  pointCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+  onSetSideCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onSetPointCount: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+const mapStateToProps = state => ({
+  colorState: state.scratchPaint.color,
+  isTriangleModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].TRIANGLE,
+  selectedItems: state.scratchPaint.selectedItems,
+  sideCount: state.scratchPaint.triangleMode.trianglePolyCount,
+  pointCount: state.scratchPaint.triangleMode.trianglePointCount
+});
+const mapDispatchToProps = dispatch => ({
+  clearSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["clearSelectedItems"])());
+  },
+  clearFillGradient: () => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["clearFillGradient"])());
+  },
+  clearStrokeGradient: () => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["clearStrokeGradient"])());
+  },
+  setSelectedItems: () => {
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_12__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_15__["getSelectedLeafItems"])(), false /* bitmapMode */));
+  },
+  setCursor: cursorString => {
+    dispatch(Object(_reducers_cursor__WEBPACK_IMPORTED_MODULE_13__["setCursor"])(cursorString));
+  },
+  handleMouseDown: () => {
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_11__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_5__["default"].TRIANGLE));
+  },
+  onChangeFillColor: fillColor => {
+    dispatch(Object(_reducers_fill_style__WEBPACK_IMPORTED_MODULE_9__["changeFillColor"])(fillColor));
+  },
+  onChangeStrokeColor: strokeColor => {
+    dispatch(Object(_reducers_stroke_style__WEBPACK_IMPORTED_MODULE_10__["changeStrokeColor"])(strokeColor));
+  },
+  onSetSideCount: sideCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__["changeTrianglePolyCount"])(sideCount));
+  },
+  onSetPointCount: pointCount => {
+    dispatch(Object(_reducers_triangle_mode__WEBPACK_IMPORTED_MODULE_14__["changeTrianglePointCount"])(pointCount));
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(TriangleMode));
 
 /***/ }),
 
@@ -195705,7 +199330,7 @@ const convertToBitmap = function convertToBitmap(clearSelectedItems, onUpdateIma
     }
     for (let i = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.activeLayer.children.length - 1; i >= 0; i--) {
       const item = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.activeLayer.children[i];
-      if (item.clipMask === false || !item.guide) {
+      if (item.clipMask === false) {
         item.remove();
       } else {
         // Resize mask for bitmap bounds
@@ -195734,7 +199359,7 @@ const convertToBitmap = function convertToBitmap(clearSelectedItems, onUpdateIma
 const convertToVector = function convertToVector(clearSelectedItems, onUpdateImage) {
   Object(_selection__WEBPACK_IMPORTED_MODULE_3__["clearSelection"])(clearSelectedItems);
   for (const item of _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.activeLayer.children) {
-    if (item.clipMask === true && item.guide) {
+    if (item.clipMask === true) {
       // Resize mask for vector bounds
       item.size.height = _view__WEBPACK_IMPORTED_MODULE_4__["MAX_WORKSPACE_BOUNDS"].height;
       item.size.width = _view__WEBPACK_IMPORTED_MODULE_4__["MAX_WORKSPACE_BOUNDS"].width;
@@ -196678,7 +200303,7 @@ class BroadBrushHelper {
     // Add an end cap if the mouse has changed direction very quickly
     if (this.lastVec) {
       const angle = this.lastVec.getDirectedAngle(step);
-      if (Math.abs(angle) > 126) {
+      if (Math.abs(angle) > 126 && options.simplifySize > 0) {
         // This will cause us to skip simplifying this sharp angle. Running simplify on
         // sharp angles causes the stroke to blob outwards.
         this.simplify(1);
@@ -196721,8 +200346,10 @@ class BroadBrushHelper {
     }
     this.finalPath.add(event.point.add(step));
     this.finalPath.insert(0, event.point.subtract(step));
-    if (this.finalPath.segments.length > this.smoothed + this.smoothingThreshold * 2) {
-      this.simplify(1);
+    if (options.simplifySize > 0) {
+      if (this.finalPath.segments.length > this.smoothed + this.smoothingThreshold * 2) {
+        this.simplify(options.simplifySize);
+      }
     }
     this.lastVec = event.delta;
     this.lastPoint = event.point;
@@ -196818,7 +200445,9 @@ class BroadBrushHelper {
     }
 
     // Simplify before adding end cap so cap doesn't get warped
-    this.simplify(1);
+    if (options.simplifySize > 0) {
+      this.simplify(1);
+    }
     const handleVec = delta.normalize(options.brushSize / 2);
     this.finalPath.add(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Segment(event.point.add(handleVec), handleVec.rotate(90), handleVec.rotate(-90)));
     this.finalPath.closePath();
@@ -196938,7 +200567,7 @@ class SegmentBrushHelper {
     this.finalPath.remove();
     this.finalPath = newPath;
   }
-  onSegmentMouseUp(event) {
+  onSegmentMouseUp(event, tool, options) {
     if (event.event.button > 0) return; // only first mouse button
 
     // TODO: This smoothing tends to cut off large portions of the path! Would like to eventually
@@ -196948,7 +200577,9 @@ class SegmentBrushHelper {
     // paths tends to cut off the path.
     if (this.finalPath.segments && this.finalPath.segments.length > 4) {
       this.finalPath.closed = false;
-      this.finalPath.simplify(2);
+      if (options.simplifySize > 0) {
+        this.finalPath.simplify(options.simplifySize);
+      }
       this.finalPath.closed = true;
       // Merge again with the first point, since it gets distorted when we unclose the path.
       const temp = this.finalPath.unite(this.firstCircle);
@@ -198051,6 +201682,385 @@ const shouldShowBringForward = function shouldShowBringForward() {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/helper/selectable-shapes.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/selectable-shapes.js ***!
+  \********************************************************************/
+/*! exports provided: selectableShapes, selectablePaths, categories, generateShapeSVG, categorizeShapes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectableShapes", function() { return selectableShapes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectablePaths", function() { return selectablePaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "categories", function() { return categories; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateShapeSVG", function() { return generateShapeSVG; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "categorizeShapes", function() { return categorizeShapes; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+
+// TODO: would be nice if these could be automatically used for the icons
+const selectablePaths = {
+  blank: '',
+  sussy: 'm 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0',
+  speechBubble: 'M204.14966,175.04472c-0.31482,-15.49173 8.58161,-20.45314 15.2824,-20.45314c8.15418,0 26.20534,-0.47063 40.10194,0c6.7857,0.22981 16.64329,5.37466 16.31655,20.45314c-0.30922,14.27018 -11.32079,18.61465 -16.43145,18.61465c-4.65217,0 -12.43125,0 -21.25748,0c-2.33362,0 -8.8706,12.31777 -19.5339,11.95015c-7.56289,-0.26073 4.2991,-11.95015 1.26396,-11.95015c-9.00032,0 -15.52291,-7.83267 -15.74202,-18.61465z',
+  thinkingBubble: 'M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z',
+  squareBubble: 'M 189 156 C 189 152 192 149 201 149 L 280 149 C 288 149 291 152 291 156 L 291 190.1874 C 291 195 288 198 282.5854 198.259 L 237.8872 198.259 C 234.5436 198.259 225.1776 213.7976 209.8995 213.3339 C 199.0636 213.005 216.0591 198.259 211.7105 198.259 L 198 198.259 C 192 198 189 195 189 189.9301 Z',
+  shoutBubble: 'M227.11094,208.57049c-5.92772,5.58295 -15.6124,15.76793 -29.02488,15.33964c-11.40942,-0.36435 0.9565,-15.09531 2.93147,-18.17751c3.24637,-5.06637 1.63986,-8.52859 1.63986,-8.52859l-21.47242,5.86044l4.84649,-13.34467l-21.15795,-1.09108l23.26277,-13.82792l-20.14297,-9.34374l22.87578,-5.70891l-10.25508,-14.51162l19.58978,8.2709l-1.70024,-12.65976l16.59077,13.46143l1.10608,-13.38683l15.56167,11.24624l12.10608,-16.09172l5.91725,15.89507l18.12276,-12.77889l-3.24144,15.28333l22.11413,-10.58546l-4.54409,17.01121l23.95449,-11.29693l-8.61338,14.50991l16.14654,3.46186l-20.56767,7.84186l21.96975,8.07507l-23.41162,4.65774l18.31315,10.48796l-30.03068,-1.02513l3.75565,11.52599l-26.77205,-10.86823l-7.93841,9.53141l-12.67597,-9.86071c0,0 -3.17514,4.90084 -9.25562,10.62767z',
+  smile: 'M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39292,9.57794 21.39292,21.39292c0,11.81499 -9.57794,21.39293 -21.39292,21.39293c-11.81499,0 -21.39292,-9.57794 -21.39292,-21.39293zM239.89701,196.60775c14.70959,0.07281 16.22782,-13.7612 16.22782,-13.7612h-31.54689c0,0 1.12947,13.69096 15.31907,13.7612zM247.80316,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933zM232.19685,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933z',
+  frown: 'M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39293,9.57794 21.39293,21.39292c0,11.81499 -9.57794,21.39292 -21.39293,21.39292c-11.81498,0 -21.39292,-9.57794 -21.39292,-21.39292zM247.80316,176.22993c1.59793,0 2.89331,-1.29538 2.89331,-2.8933c0,-1.59793 -1.29537,-2.89331 -2.89331,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29537,2.8933 2.8933,2.8933zM232.19685,176.22993c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.89331 -2.8933,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29538,2.8933 2.8933,2.8933zM226.26564,193.49228h28.1715c0,0 -1.35578,-10.96285 -14.49151,-10.90515c-12.67137,0.05566 -13.67999,10.90515 -13.67999,10.90515z',
+  codeblock: 'M191.07407,156c0,-2.20914 1.79086,-4 4,-4h8c2,0 3,1 4,2l4,4c1,1 2,2 4,2h12c2,0 3,-1 4,-2l4,-4c1,-1 2,-2 4,-2h45.85186c2.20914,0 4,1.79086 4,4v40c0,2.20914 -1.79086,4 -4,4h-45.85186c-2,0 -3,1 -4,2l-4,4c-1,1 -2,2 -4,2h-12c-2,0 -3,-1 -4,-2l-4,-4c-1,-1 -2,-2 -4,-2h-8c-2.20914,0 -4,-1.79086 -4,-4z',
+  codeblockHat: 'M 0.54 2.093 C 3.214 -0.191 6.978 0.899 8.068 2.093 L 11.667 2.093 Q 11.851 2.076 11.949 2.297 L 11.949 5.526 Q 11.925 5.747 11.741 5.809 L 4.177 5.809 C 3.904 5.969 3.725 6.335 3.43 6.439 L 2.359 6.439 C 2.051 6.337 1.897 5.975 1.598 5.83 L 0.797 5.83 Q 0.588 5.708 0.548 5.563 Z',
+  codeblockEndCap: 'M 0.554 6.094 Q 0.584 5.901 0.777 5.824 L 1.602 5.824 C 1.892 5.98 2.04 6.333 2.358 6.442 L 3.409 6.446 C 3.748 6.361 3.847 5.966 4.203 5.824 L 6.289 5.824 Q 6.515 5.885 6.561 6.1 L 6.561 9.253 Q 6.521 9.502 6.283 9.569 L 0.837 9.569 Q 0.614 9.538 0.554 9.308 Z',
+  codeblockReporter: 'M 11.864 6.638 L 15.403 6.644 C 17.396 6.894 17.338 9.532 15.403 9.765 L 11.864 9.77 C 10.045 9.643 9.778 6.905 11.864 6.638 Z',
+  codeblockBoolean: 'M 11.967 13.517 L 16.615 13.509 L 18.188 15.076 L 16.615 16.642 L 11.967 16.635 L 10.393 15.076 Z',
+  cloud: 'M158.70156,190.30055c5.28613,-2.83052 11.70216,-2.80297 14.45107,-3.01001c1.11791,-2.76161 17.92516,-32.66635 39.60873,-32.32664c21.75534,0.41423 30.07396,15.16631 40.51872,23.33781c12.96693,-9.11314 22.14689,-12.62033 35.86057,-9.23745c12.88406,3.27521 19.41273,22.07303 19.93181,22.83242c0.25097,0.37125 7.32687,-4.86498 13.30369,-3.82602c7.68158,1.33529 10.15773,16.75568 8.47916,16.75568c-2.13284,0 -176.99884,-0.27065 -181.13536,0.21264c-4.02823,-3.61485 4.21405,-12.184 8.98161,-14.73843z',
+  cloud2: 'M 13 18 A 1 1 0 0 1 13 6 A 1 1 0 0 1 29 6 A 1 0.75 0 0 1 39 6 A 1 1 0 0 1 39 18 Z',
+  heart: 'M182.17524,160.22928c-0.06174,-6.9356 0.38429,-9.6077 2.28538,-13.6958c0.21863,-0.47017 0.44452,-0.93216 0.67758,-1.38588c0.041,-0.08369 0.0824,-0.16634 0.12422,-0.24792c0.8012,-1.56302 1.70465,-3.01791 2.69546,-4.36451c2.87826,-3.97624 6.46849,-7.08113 10.70447,-9.24389c4.19614,-2.14228 6.35284,-3.1423 13.00539,-3.25541c0.73674,-0.02848 1.47326,-0.03072 2.20779,-0.0067c5.51272,0.05908 7.5834,0.72925 10.6475,2.33132c5.98584,2.56127 11.11488,7.22077 14.1395,13.99129l1.33748,2.99387l1.33748,-2.99387c3.02461,-6.77051 8.15365,-11.43 14.13948,-13.99128c3.06411,-1.60208 5.13479,-2.27226 10.64753,-2.33133c0.73452,-0.02402 1.47103,-0.02178 2.20776,0.0067c6.65256,0.11311 8.80926,1.11313 13.0054,3.25541c4.23591,2.16272 7.8261,5.26755 10.70433,9.24371c0.99086,1.34665 1.89437,2.8016 2.6956,4.36469c0.04183,0.08159 0.08324,0.16426 0.12425,0.24797c0.23305,0.45371 0.45893,0.91567 0.67755,1.38583c1.90109,4.0881 2.34712,6.7602 2.28538,13.6958c-0.00127,0.14305 -0.00303,0.28572 -0.00528,0.42802c0.10329,5.40072 -0.53917,10.86793 -1.9823,14.87168c-3.9932,11.0782 -11.61727,19.5239 -29.30813,32.466c-11.60195,8.4878 -24.70011,21.3299 -25.60268,23.1336c-0.49,0.97911 -1.36275,0.97911 -1.85275,0c-0.90257,-1.8037 -14.00072,-14.6458 -25.60268,-23.1336c-17.69086,-12.9421 -25.31493,-21.3878 -29.30813,-32.466c-1.44313,-4.00376 -2.0856,-9.47098 -1.9823,-14.87171c-0.00225,-0.14229 -0.004,-0.28495 -0.00528,-0.42799z',
+  check: 'M165.25,196.6109l22.7173,-22.8612l30.6088,24.281l71.6857,-83.9057l24.4882,22.1844l-94.7184,109.5656z',
+  cross: 'M199.65003,179.64477l-79.5,-77l38.00987,-40.68564l79.49013,76.68564l80.09184,-78.14413l39.93685,39.28777l-78.5287,79.35636l80.69993,77.78108l-39.28229,39.59957l-80.18174,-77.08931l-77.03078,80.06325l-41.49233,-38.94156z',
+  chevronArrow: 'M 0 0 L 4 0 L 6 3 L 4 6 L 0 6 L 2 3 Z',
+  pentagonArrow: 'M 0 0 L 4 0 L 6 3 L 4 6 L 0 6 Z',
+  lightningBolt: 'M 3.787 2.769 L 10.034 0.384 L 12.03 5.879 L 11.019 6.423 L 14.077 11.348 L 12.729 11.892 L 16.177 19.927 L 9.204 13.163 L 10.811 12.54 L 6.457 8.238 L 8.349 7.357 Z',
+  lightningBolt2: 'M 6.327 0.618 L 14.129 0.618 L 11.122 7.434 L 14.233 7.434 L 6.379 19.539 L 7.857 9.767 L 4.694 9.767 Z',
+  gear: 'M355.56099,206.36652c-2.17425,0.17536 -4.04645,1.55018 -4.8852,3.55905l-11.25255,27.1569c-0.83875,2.00887 -0.46805,4.31979 0.9361,5.96795l22.3104,26.09412c3.66639,4.29046 3.43237,10.68715 -0.57539,14.69491l-18.25396,18.25396c-3.99777,3.99777 -10.40445,4.24178 -14.69491,0.5654l-26.09412,-22.3104c-1.63818,-1.40415 -3.95908,-1.77485 -5.95797,-0.9361l-27.16626,11.25255c-2.00887,0.83875 -3.38369,2.72093 -3.55905,4.89518l-2.66227,34.20699c-0.43872,5.63657 -5.13857,9.99506 -10.79449,9.99506h-25.82077c-5.65592,0 -10.35577,-4.35911 -10.79449,-9.99506l-2.67163,-34.20699c-0.166,-2.17487 -1.54082,-4.05644 -3.54969,-4.89518l-27.16626,-11.25255c-2.00887,-0.83875 -4.31043,-0.46805 -5.96795,0.9361l-26.08413,22.3104c-4.29046,3.67638 -10.68715,3.43237 -14.69491,-0.5654l-18.25396,-18.25396c-3.99777,-4.00776 -4.24178,-10.40445 -0.57539,-14.69491l22.3104,-26.09412c1.40415,-1.64816 1.77485,-3.95908 0.9361,-5.96795l-11.25255,-27.1569c-0.8194,-2.00887 -2.72093,-3.38369 -4.87584,-3.55905l-34.22633,-2.66227c-5.63595,-0.43934 -9.98507,-5.14855 -9.98507,-10.80447v-25.81079c0,-5.65592 4.34912,-10.35577 9.98507,-10.80447l34.22571,-2.67038c2.15553,-0.166 4.05644,-1.53146 4.87584,-3.54969l11.25255,-27.1569c0.83875,-2.00887 0.46805,-4.30981 -0.9361,-5.95797l-22.3104,-26.09412c-3.66639,-4.30045 -3.42238,-10.69713 0.57539,-14.69491l18.25396,-18.25396c4.00776,-3.99777 10.40445,-4.25177 14.69491,-0.57539l26.08413,22.3104c1.65815,1.41414 3.95908,1.77485 5.96795,0.94609l27.16626,-11.26254c2.00887,-0.82876 3.38369,-2.72031 3.54969,-4.8852l2.67163,-34.20699c0.43872,-5.64593 5.13857,-9.99506 10.79449,-9.99506h25.82077c5.6553,0 10.35514,4.34912 10.79386,9.99319l2.66227,34.20699c0.17536,2.1549 1.55018,4.05644 3.55905,4.8852l27.16626,11.26254c1.99889,0.82876 4.30981,0.46805 5.95797,-0.94609l26.09412,-22.3104c4.29046,-3.67638 10.69713,-3.42238 14.69491,0.57539l18.25396,18.25396c4.00776,3.99777 4.24178,10.39446 0.57539,14.69491l-22.3104,26.09412c-1.4235,1.64816 -1.77485,3.9491 -0.9361,5.95797l11.25255,27.1569c0.83875,2.01886 2.71095,3.38369 4.8852,3.54969l34.21635,2.67163c5.63595,0.4487 9.98507,5.14855 9.98507,10.80447v25.82077c0,5.64593 -4.34912,10.35577 -9.98507,10.79449zM278.18542,218.18448c10.19975,-10.20911 15.81636,-23.76323 15.81636,-38.19478c0,-14.42157 -5.6166,-27.98566 -15.81636,-38.17543c-10.19975,-10.20974 -23.75386,-15.81636 -38.18542,-15.81636c-14.42219,0 -27.98566,5.60724 -38.18542,15.81636c-10.19975,10.18977 -15.81636,23.75386 -15.81636,38.17543c0,14.43155 5.6166,27.98566 15.81636,38.19478c10.19975,10.18977 23.76385,15.80637 38.18542,15.80637c14.43155,0 27.98566,-5.6166 38.18542,-15.80637z',
+  trapezoid: 'M 0 4 L 4 0 L 12 0 L 16 4 Z',
+  parallelogram: 'M 0 4 L 4 0 L 12 0 L 8 4 Z',
+  kite: 'M 0 4 L 4 0 L 8 4 L 4 12 Z',
+  fineman: 'M279.11508,185.745c-1.6966,3.204 -3.2904,7.867 -5.5968,10.7655c-1.0552,1.326 -2.4643,2.334 -3.5804,3.6092c-4.8915,5.5887 -9.2072,12.2896 -16.8603,14.6515c-1.422,0.4389 -2.9744,0.119 -4.4625,0.1361c-5.1267,0.059 -10.0508,5.3321 -14.8705,3.1868c-1.8615,-0.8286 -8.787,-1.8762 -10.6075,-2.7912c-1.506,-0.757 0.1421,-7.033 -1.256,-7.9744c-1.3297,-0.8955 -2.11,-2.4181 -3.2504,-3.5448c-0.3338,-0.3298 -6.2398,-5.4131 -6.7988,-6.6552c-0.81717,-1.81566 -1.09038,-3.62653 -1.17502,-5.46147c-1.3766,0.80315 -2.62347,1.91949 -4.15618,2.34537c-1.4506,0.4031 -3.0694,0.4408 -4.5164,0.0254c-8.6871,-2.4944 -5.9867,-15.5864 -3.3957,-21.95c1.8299,-4.4941 4.0739,-9.3912 7.0918,-13.2651c1.217,-1.5622 3.0424,-2.5541 4.3761,-4.018c0.7182,-0.7882 1.0233,-1.9342 1.8461,-2.6125c1.106,-0.9119 2.5337,-1.3416 3.7892,-2.0335c4.9733,-2.7408 9.6646,-4.9652 14.9498,-7.0813c7.2911,-2.9454 15.9349,-1.4641 23.371,0.1816c1.0722,0.2373 2.2339,0.1288 3.2486,0.5491c3.685,1.5264 5.0611,4.8449 7.9949,7.1687c0.7921,0.6273 5.568,3.7781 6.5521,4.6268c3.288,2.8359 4.7025,6.0578 7.0854,9.4147c0.1895,0.2307 0.3659,0.4735 0.5345,0.7232c1.285,1.6696 2.7787,3.1875 3.9054,4.9667c0,0 1.6892,2.7027 -0.5386,4.6822c-0.42573,0.62184 -1.1019,1.17609 -2.17578,1.36827c-0.00404,2.96432 -1.17068,6.3419 -1.50402,8.98633zM240.53818,174.9073c2.071,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.679,-3.75 -3.75,-3.75c-2.0711,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.6789,3.75 3.75,3.75zM275.15348,184.1381c2.0711,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.6789,-3.75 -3.75,-3.75c-2.071,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.679,3.75 3.75,3.75zM263.18718,195.6157l-0.3007,0.5823c-1.0607,1.0607 -1.8421,2.4427 -3.0962,3.2658c-1.4785,0.9703 -5.8341,0.2488 -7.3291,0.2512c-2.0854,0.0034 -5.8991,0.3437 -7.8123,-0.2393c-0.995,-0.3031 -1.6423,-1.3094 -2.587,-1.7448c-0.6173,-0.2846 -1.4509,0.022 -2.0051,-0.3717c-0.5058,-0.3593 -0.4529,-1.179 -0.8494,-1.6563c-1.3927,-1.6766 -5.4087,-4.3908 -5.7359,-7.0634c-0.1179,-0.9621 0.2756,-1.9189 0.4134,-2.8783c0,0 0.3732,-3.7314 -3.3582,-4.1045c-3.7314,-0.3732 -4.1046,3.3582 -4.1046,3.3582c-0.1185,1.6047 -0.6347,3.2294 -0.3557,4.8141c0.8558,4.861 4.3602,7.2383 7.3409,10.6288c0.8152,0.9273 1.2332,2.2274 2.2276,2.9592c0.9599,0.7063 2.3011,0.6594 3.3795,1.1668c1.2486,0.5874 2.2405,1.7206 3.5669,2.1013c2.5046,0.7187 7.1623,0.5259 9.8799,0.5299c3.6721,0.0054 7.7509,0.5945 11.1325,-1.2872c0.4769,-0.2654 3.932,-3.7625 4.5961,-4.4265l1.2378,-1.7254c0,0 2.0801,-3.1202 -1.0401,-5.2003c-3.1202,-2.0801 -5.2003,1.0401 -5.2003,1.0401z',
+  pin: 'M 21 28 A 1 1 0 0 1 79 28 Q 78 45 65 61 Q 52 78 50 100 Q 48 78 35 61 Q 22 45 21 28 Z M 40 28 A 1 1 0 0 0 60 28 A 1 1 0 0 0 40 28',
+  pinPush: 'M 7.379 3.051 Q 7.143 0.48 10.139 0.406 Q 13.444 0.48 13.165 3.006 Q 12.915 3.741 12.005 4.064 L 12.152 7.722 Q 14.957 8.662 14.752 11.306 Q 14.472 13.829 10.051 13.803 Q 5.248 13.48 5.541 10.748 Q 5.615 8.706 8.068 7.531 L 8.318 3.917 Q 7.596 3.581 7.379 3.051 Z M 9.587 13.764 L 9.435 18.06 C 10.121 20.37 9.551 20.308 10.389 18.123 L 10.565 13.794 Q 10.046 13.828 9.587 13.764 Z',
+  eye: 'M212.7952,179.99996c0,0 7.27068,-15.89135 27.2048,-15.80732c20.22188,0.08524 27.2048,15.80732 27.2048,15.80732c0,0 -7.1276,15.78741 -27.2048,15.80732c-19.93533,0.01977 -27.2048,-15.80732 -27.2048,-15.80732zM239.92857,190.14286c5.52285,0 10,-4.47715 10,-10c0,-5.52285 -4.47715,-10 -10,-10c-5.52285,0 -10,4.47715 -10,10c0,5.52285 4.47715,10 10,10z M235,180c0,-2.80087 2.27056,-5.07143 5.07143,-5.07143c2.80087,0 5.07143,2.27056 5.07143,5.07143c0,2.80087 -2.27056,5.07143 -5.07143,5.07143c-2.80087,0 -5.07143,-2.27056 -5.07143,-5.07143z',
+  bookmark: 'M 0 0 L 8 0 L 8 12 L 4 8 L 0 12 Z',
+  note: 'M 0 0 L 8 0 L 8 8 L 2 8 L 0 6 Z M 0 6 L 2 6 L 2 8 Z',
+  paper: 'M 0 0 L 601 0 L 841 240 L 841 1190 L 0 1190 Z M 841 240 L 601 240 L 601 0 Z',
+  lock: 'M 0.5 9 A 1 1 0 0 1 15.5 9 L 13.5 9 A 1 1 0 0 0 2.5 9 L 0.5 9 Z M 0 9 L 16 9 L 16 18 L 0 18 Z',
+  lockOpened: 'M 0.5 6 A 1 1 0 0 1 15.5 6 L 15.5 9 L 13.5 9 L 13.5 6 A 1 1 0 0 0 2.5 6 L 0.5 6 Z M 0 9 L 16 9 L 16 18 L 0 18 Z',
+  inbox: 'M 0 0 L 4 0 L 6 1 L 10 1 L 12 0 L 16 0 L 16 3 L 0 3 L 0 0 L 3 -3 L 13 -3 L 16 0 L 12 0 L 10 1 L 6 1 L 4 0 Z',
+  triangleRightAngle: 'M 1 1 L 8 8 L 1 8 L 1 1 Z',
+  person: 'M 0 0 A 1 1 0 0 0 3 0 A 1 1 0 0 0 0 0 Z M -1 4 A 1 1 0 0 1 4 4 Z',
+  crescentMoon: 'M196.70596,180c0,-27.2559 22.09528,-49.35118 49.35118,-49.35118c14.86178,0 28.18921,6.56931 37.23689,16.96252c-7.36039,-6.19606 -16.86269,-9.9291 -27.23689,-9.9291c-23.37145,0 -42.31776,18.9463 -42.31776,42.31776c0,23.37145 18.9463,42.31776 42.31776,42.31776c10.3742,0 19.8765,-3.73304 27.23689,-9.9291c-9.04768,10.39321 -22.37512,16.96252 -37.23689,16.96252c-27.2559,0 -49.35118,-22.09528 -49.35118,-49.35118z',
+  sun: 'M 208.8889 180 C 208.8889 162.8178 222.8178 148.8889 240 148.8889 C 257.1822 148.8889 271.1111 162.8178 271.1111 180 C 271.1111 197.1822 257.1822 211.1111 240 211.1111 C 222.8178 211.1111 208.8889 197.1822 208.8889 180 Z M 240 140.981 C 236.007 140.981 232.77 137.3993 232.77 132.981 V 98.1516 C 232.77 93.7333 236.007 90.1516 240 90.1516 V 90.1516 C 243.993 90.1516 247.23 93.7333 247.23 98.1516 V 132.981 C 247.23 137.3993 243.993 140.981 240 140.981 Z M 240 218.9805 C 243.993 218.9805 247.23 222.5622 247.23 226.9805 V 261.8099 C 247.23 266.2281 243.993 269.8099 240 269.8099 V 269.8099 C 236.007 269.8099 232.77 266.2281 232.77 261.8099 V 226.9805 C 232.77 222.5622 236.007 218.9805 240 218.9805 Z M 201.0003 179.9807 C 201.0003 183.9738 197.4186 187.2108 193.0003 187.2108 H 158.1709 C 153.7526 187.2108 150.1709 183.9738 150.1709 179.9807 V 179.9807 C 150.1709 175.9877 153.7526 172.7507 158.1709 172.7507 H 193.0003 C 197.4186 172.7507 201.0003 175.9877 201.0003 179.9807 Z M 278.9997 179.9807 C 278.9997 175.9877 282.5815 172.7507 286.9997 172.7507 H 321.8291 C 326.2474 172.7507 329.8291 175.9877 329.8291 179.9807 V 179.9807 C 329.8291 183.9738 326.2474 187.2108 321.8291 187.2108 H 286.9997 C 282.5815 187.2108 278.9997 183.9738 278.9997 179.9807 Z M 212.423 152.4038 C 209.5995 155.2273 204.778 154.9835 201.6538 151.8593 L 177.0257 127.2312 C 173.9015 124.107 173.6577 119.2855 176.4812 116.4619 V 116.4619 C 179.3047 113.6384 184.1263 113.8822 187.2505 117.0064 L 211.8786 141.6345 C 215.0028 144.7587 215.2465 149.5802 212.423 152.4038 Z M 267.577 207.5577 C 270.4005 204.7342 275.222 204.9779 278.3462 208.1021 L 302.9743 232.7302 C 306.0985 235.8544 306.3423 240.676 303.5188 243.4995 V 243.4995 C 300.6953 246.323 295.8737 246.0793 292.7495 242.9551 L 268.1214 218.327 C 264.9972 215.2028 264.7535 210.3812 267.577 207.5577 Z M 212.423 207.5577 C 215.2465 210.3812 215.0028 215.2028 211.8786 218.327 L 187.2505 242.9551 C 184.1263 246.0793 179.3047 246.323 176.4812 243.4995 V 243.4995 C 173.6577 240.676 173.9015 235.8544 177.0257 232.7302 L 201.6538 208.1021 C 204.778 204.9779 209.5995 204.7342 212.423 207.5577 Z M 267.577 152.4038 C 264.7535 149.5803 264.9972 144.7587 268.1214 141.6345 L 292.7495 117.0064 C 295.8737 113.8822 300.6953 113.6384 303.5188 116.462 V 116.462 C 306.3423 119.2855 306.0985 124.107 302.9743 127.2312 L 278.3462 151.8593 C 275.222 154.9835 270.4005 155.2273 267.577 152.4038 Z',
+  musicNote: 'M 13.3 6.7 L 36.9 0.9 L 36.9 28.2 A 1 0.84 0 0 1 24.2 28.2 Q 24.3 23.6 29.2 22.4 Q 33 21.6 34.7 23.6 L 34.7 9.2 L 15.6 13.9 L 15.6 33.8 A 1 0.8 0 0 1 2.8 33.4 Q 2.9 28.8 8.2 27.6 Q 11.3 26.8 13.3 28.9 Z',
+  musicNote2: 'M 21 0.8 Q 30.9 1.2 30 10.5 Q 29.6 16.1 33.8 18.3 Q 29.1 17.2 27.2 12 Q 24.9 5.9 22.6 5.5 L 22.6 34.9 A 1 0.75 4 0 1 8.9 33.4 Q 9.5 27.9 15.9 27.4 Q 20 27.3 21 29.4 Z',
+  musicNote3: 'M 19.2 37.3 A 1 1 0 0 0 18.1 32.5 Q 15.2 33.3 16.6 36.5 Q 17.9 38.9 20.5 38.7 Q 24.4 38.5 24.7 34.4 Q 24.8 32.9 23.9 29.6 Q 27.8 27.5 27.1 23 Q 26.3 19 21.6 18.7 L 20.8 15.5 Q 25.7 9.6 24.4 4.2 Q 22.4 -1.3 19.4 2.9 Q 17.2 6.2 18.9 12.6 Q 13 17.9 13.1 22.5 Q 13.3 28.9 21 30.2 Q 21.8 30.3 22.5 30.1 Q 25 38.4 19.2 37.3 Z M 22.2 21.9 Q 25.3 22.4 24.9 25.7 Q 24.7 27.5 23.6 28 Z M 20 11.6 Q 18.9 4.8 22.7 4.5 Q 23.7 8.4 20 11.6 Z M 20.8 27.6 Q 18.9 26 19.3 23.9 Q 19.6 22.7 20.9 22 L 22.3 28.6 Q 19.1 29.3 16.9 26.9 Q 14.5 23.7 16.3 20.5 Q 17.8 18.2 19.7 16.7 L 20.3 19.1 Q 16.9 21 17 23.9 Q 17.3 27.5 20.8 27.6 Z'
+};
+
+/*
+    TEMPLATE:
+    {
+        id: "item",
+        name: "item",
+        strokeWidth: 5,
+        icon: '',
+    },
+
+    Generate icon:
+    1. Set fill color to none
+    2. Clear the costume
+    3. Draw the shape using shape tool (make it look the way it should if drawn properly)
+    4. Run atob(vm.getExportedCostumeBase64(vm.editingTarget.sprite.costumes[0]))
+*/
+
+// Hopefully later on, the values of the keys in this object can be translated.
+const categories = {
+  "shapes": "Shapes",
+  "symbols": "Symbols",
+  "objects": "Objects",
+  "speech": "Speech",
+  "blocks": "Blocks",
+  "custom": "Custom" // Used when an object doesn't define a category, mutated into object's data
+};
+const selectableShapes = [{
+  id: "triangleRightAngle",
+  name: "Right Triangle",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"63.03012\" height=\"63.03012\" viewBox=\"-0.5,-1.20711,63.03012,63.03012\"><g transform=\"translate(-209.51527,-149.16172)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M209.76527,149.76527l60.46946,60.46946h-60.46946z\"/></g></g></svg><!--rotationCenter:30.484730830670827:30.83828422126419-->"
+}, {
+  id: "chevronArrow",
+  name: "Chevron Arrow",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"67.56311\" height=\"56.73942\" viewBox=\"-3.057,-1.5,67.56311,56.73942\"><g transform=\"translate(-208.59849,-153.13029)\"><g fill=\"#9966ff\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M209.10799,153.38029h41.18934l20.59467,26.61971l-20.59467,26.61971h-41.18934l20.59467,-26.61971z\"/></g></g></svg><!--rotationCenter:31.401508038655606:26.869708666134187-->"
+}, {
+  id: "pentagonArrow",
+  name: "Pentagon Arrow",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"71.15572\" height=\"66.81766\" viewBox=\"0,0,71.15572,66.81766\"><g transform=\"translate(-204.61934,-146.59117)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M206.36934,148.34117h44.84088l22.42044,31.65883l-22.42044,31.65883h-44.84088z\"/></g></g></svg><!--rotationCenter:35.38066074281147:33.408830471246006-->"
+}, {
+  id: "trapezoid",
+  name: "Trapezoid",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"78.8467\" height=\"37.02111\" viewBox=\"0,0,78.8467,37.02111\"><g transform=\"translate(-200.57665,-161.48944)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M203.52114,196.76056l18.23943,-33.52111h36.47886l18.23943,33.52111z\"/></g></g></svg><!--rotationCenter:39.42335003323694:18.510557308306687-->"
+}, {
+  id: "parallelogram",
+  name: "Parallelogram",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"80.04199\" height=\"47.31845\" viewBox=\"0,0,80.04199,47.31845\"><g transform=\"translate(-199.979,-156.34077)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M202.97341,201.90923l24.68439,-43.81845h49.36879l-24.68439,43.81845z\"/></g></g></svg><!--rotationCenter:40.020997452491144:23.659225239616603-->"
+}, {
+  id: "kite",
+  name: "Kite",
+  category: "shapes",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"60.08499\" height=\"93.07283\" viewBox=\"0,0,60.08499,93.07283\"><g transform=\"translate(-209.95751,-134.21364)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M212.06574,165.57643l27.93426,-28.84715l27.93426,28.84715l-27.93426,57.69429z\"/></g></g></svg><!--rotationCenter:30.042494505618436:45.78635774795376-->"
+}, {
+  id: "check",
+  name: "Checkmark",
+  category: "symbols",
+  strokeWidth: 11,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149.5" height="131.75" viewBox="0,0,149.5,131.75"><g transform="translate(-165.25,-114.125)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#00f31c" fill-rule="nonzero" stroke="none" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M165.25,196.6109l22.7173,-22.8612l30.6088,24.281l71.6857,-83.9057l24.4882,22.1844l-94.7184,109.5656z"/></g></g></svg><!--rotationCenter:74.74999999999997:65.87500000000003-->'
+}, {
+  id: "cross",
+  name: "Multiply",
+  category: "symbols",
+  strokeWidth: 16,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239.69993" height="238.99871" viewBox="0,0,239.69993,238.99871"><g transform="translate(-120.15003,-60.50064)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M199.65003,179.64477l-79.5,-77l38.00987,-40.68564l79.49013,76.68564l80.09184,-78.14413l39.93685,39.28777l-78.5287,79.35636l80.69993,77.78108l-39.28229,39.59957l-80.18174,-77.08931l-77.03078,80.06325l-41.49233,-38.94156z"/></g></g></svg><!--rotationCenter:119.84996640680819:119.49935645821554-->'
+}, {
+  id: "heart",
+  name: "Heart",
+  category: "symbols",
+  strokeWidth: 9,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.6604" height="103.85023" viewBox="0,0,115.6604,103.85023"><g transform="translate(-182.1698,-128.01269)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff0000" fill-rule="nonzero" stroke="none" stroke-width="0.18069" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M182.17524,160.22928c-0.06174,-6.9356 0.38429,-9.6077 2.28538,-13.6958c0.21863,-0.47017 0.44452,-0.93216 0.67758,-1.38588c0.041,-0.08369 0.0824,-0.16634 0.12422,-0.24792c0.8012,-1.56302 1.70465,-3.01791 2.69546,-4.36451c2.87826,-3.97624 6.46849,-7.08113 10.70447,-9.24389c4.19614,-2.14228 6.35284,-3.1423 13.00539,-3.25541c0.73674,-0.02848 1.47326,-0.03072 2.20779,-0.0067c5.51272,0.05908 7.5834,0.72925 10.6475,2.33132c5.98584,2.56127 11.11488,7.22077 14.1395,13.99129l1.33748,2.99387l1.33748,-2.99387c3.02461,-6.77051 8.15365,-11.43 14.13948,-13.99128c3.06411,-1.60208 5.13479,-2.27226 10.64753,-2.33133c0.73452,-0.02402 1.47103,-0.02178 2.20776,0.0067c6.65256,0.11311 8.80926,1.11313 13.0054,3.25541c4.23591,2.16272 7.8261,5.26755 10.70433,9.24371c0.99086,1.34665 1.89437,2.8016 2.6956,4.36469c0.04183,0.08159 0.08324,0.16426 0.12425,0.24797c0.23305,0.45371 0.45893,0.91567 0.67755,1.38583c1.90109,4.0881 2.34712,6.7602 2.28538,13.6958c-0.00127,0.14305 -0.00303,0.28572 -0.00528,0.42802c0.10329,5.40072 -0.53917,10.86793 -1.9823,14.87168c-3.9932,11.0782 -11.61727,19.5239 -29.30813,32.466c-11.60195,8.4878 -24.70011,21.3299 -25.60268,23.1336c-0.49,0.97911 -1.36275,0.97911 -1.85275,0c-0.90257,-1.8037 -14.00072,-14.6458 -25.60268,-23.1336c-17.69086,-12.9421 -25.31493,-21.3878 -29.30813,-32.466c-1.44313,-4.00376 -2.0856,-9.47098 -1.9823,-14.87171c-0.00225,-0.14229 -0.004,-0.28495 -0.00528,-0.42799z" data-paper-data="{&quot;index&quot;:null}"/></g></g></svg><!--rotationCenter:57.8301984423353:51.98731274940036-->'
+}, {
+  id: "pin",
+  name: "Pin",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"53.64396\" height=\"90.45145\" viewBox=\"0,0,53.64396,90.45145\"><g transform=\"translate(-218.55053,-143.78644)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M219.30053,170.07696c0,-14.10564 11.67282,-25.54052 26.07198,-25.54052c14.39915,0 26.07198,11.43488 26.07198,25.54052c-0.59936,9.98135 -4.79485,19.66913 -12.58647,29.06335c-7.79163,9.98135 -12.2868,21.43054 -13.48551,34.34759c-1.19871,-12.91705 -5.69388,-24.36624 -13.48551,-34.34759c-7.79163,-9.39422 -11.98712,-19.082 -12.58647,-29.06334zM236.38218,170.07696c0,4.86401 4.02511,8.80707 8.99034,8.80707c4.96523,0 8.99033,-3.94306 8.99033,-8.80707c0,-4.86401 -4.02511,-8.80707 -8.99033,-8.80707c-4.96523,0 -8.99034,3.94306 -8.99034,8.80707\"/></g></g></svg><!--rotationCenter:21.44946999999999:36.21356499999999-->"
+}, {
+  id: "smile",
+  name: "Smile",
+  category: "symbols",
+  strokeWidth: 3,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"42.78585\" height=\"42.78585\" viewBox=\"0,0,42.78585,42.78585\"><g transform=\"translate(-218.60707,-158.60707)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39292,9.57794 21.39292,21.39292c0,11.81499 -9.57794,21.39293 -21.39292,21.39293c-11.81499,0 -21.39292,-9.57794 -21.39292,-21.39293zM239.89701,196.60775c14.70959,0.07281 16.22782,-13.7612 16.22782,-13.7612h-31.54689c0,0 1.12947,13.69096 15.31907,13.7612zM247.80316,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933zM232.19685,176.22994c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.8933 -2.8933,-2.8933c-1.59793,0 -2.8933,1.29538 -2.8933,2.8933c0,1.59793 1.29538,2.8933 2.8933,2.8933z\"/></g></g></svg><!--rotationCenter:21.39292499999999:21.39292499999999-->"
+}, {
+  id: "frown",
+  name: "Frown",
+  category: "symbols",
+  strokeWidth: 3,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"42.78585\" height=\"42.78584\" viewBox=\"0,0,42.78585,42.78584\"><g transform=\"translate(-218.60708,-158.60708)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M218.60708,180c0,-11.81499 9.57794,-21.39292 21.39292,-21.39292c11.81499,0 21.39293,9.57794 21.39293,21.39292c0,11.81499 -9.57794,21.39292 -21.39293,21.39292c-11.81498,0 -21.39292,-9.57794 -21.39292,-21.39292zM247.80316,176.22993c1.59793,0 2.89331,-1.29538 2.89331,-2.8933c0,-1.59793 -1.29537,-2.89331 -2.89331,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29537,2.8933 2.8933,2.8933zM232.19685,176.22993c1.59793,0 2.8933,-1.29538 2.8933,-2.8933c0,-1.59793 -1.29538,-2.89331 -2.8933,-2.89331c-1.59793,0 -2.8933,1.29538 -2.8933,2.89331c0,1.59793 1.29538,2.8933 2.8933,2.8933zM226.26564,193.49228h28.1715c0,0 -1.35578,-10.96285 -14.49151,-10.90515c-12.67137,0.05566 -13.67999,10.90515 -13.67999,10.90515z\"/></g></g></svg><!--rotationCenter:21.392924999999963:21.392920000000004-->"
+}, {
+  id: "person",
+  name: "Person",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"80.05866\" height=\"87.06961\" viewBox=\"-1,-1,80.05866,87.06961\"><g transform=\"translate(-194.29311,-132.89364)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2.5\" stroke-miterlimit=\"10\"><path d=\"M210.05484,156.20808c0,12.73814 10.41726,23.06444 23.2676,23.06444c12.85034,0 23.2676,-10.3263 23.2676,-23.06444c0,-12.73814 -10.41726,-23.06444 -23.2676,-23.06444c-12.85034,0 -23.2676,10.3263 -23.2676,23.06444zM194.54311,217.71325c0,-21.23023 17.3621,-38.44073 38.77933,-38.44073c21.41723,0 38.77933,17.2105 38.77933,38.44073z\"/></g></g></svg><!--rotationCenter:45.706892611143076:47.10636102236421-->"
+}, {
+  id: "sun",
+  name: "Sun",
+  category: "symbols",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"75.21046\" height=\"75.21046\" viewBox=\"0,0,75.21046,75.21046\"><g transform=\"translate(-202.39477,-142.39477)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\"><path d=\"M227.06252,180.00801c0,-7.14518 5.7923,-12.93747 12.93748,-12.93747c7.14518,0 12.93748,5.7923 12.93748,12.93747c0,7.14518 -5.7923,12.93747 -12.93748,12.93747c-7.14518,0 -12.93748,-5.7923 -12.93748,-12.93747zM240,163.78205c-1.66048,0 -3.00658,-1.48944 -3.00658,-3.32678v-14.48372c0,-1.83734 1.3461,-3.32678 3.00658,-3.32678v0c1.66048,0 3.00658,1.48944 3.00658,3.32678v14.48372c0,1.83734 -1.3461,3.32678 -3.00658,3.32678zM240,196.21795c1.66048,0 3.00658,1.48944 3.00658,3.32678v14.48372c0,1.8373 -1.3461,3.32678 -3.00658,3.32678v0c-1.66048,0 -3.00658,-1.48948 -3.00658,-3.32678v-14.48372c0,-1.83734 1.3461,-3.32678 3.00658,-3.32678zM223.78206,179.99998c0,1.66052 -1.48944,3.00662 -3.32678,3.00662h-14.48373c-1.83734,0 -3.32678,-1.3461 -3.32678,-3.00662v0c0,-1.66048 1.48944,-3.00658 3.32678,-3.00658h14.48373c1.83734,0 3.32678,1.3461 3.32678,3.00658zM256.21794,179.99998c0,-1.66048 1.48948,-3.00658 3.32678,-3.00658h14.48373c1.83734,0 3.32678,1.3461 3.32678,3.00658v0c0,1.66052 -1.48944,3.00662 -3.32678,3.00662h-14.48373c-1.8373,0 -3.32678,-1.3461 -3.32678,-3.00662zM228.53217,168.53219c-1.17415,1.17415 -3.17916,1.07276 -4.47835,-0.22643l-10.24154,-10.24153c-1.29919,-1.29919 -1.40058,-3.3042 -0.22643,-4.47839v0c1.17415,-1.17415 3.1792,-1.07276 4.47839,0.22643l10.24154,10.24153c1.29919,1.29919 1.40053,3.3042 0.22639,4.47839zM251.46783,191.46781c1.17415,-1.17415 3.17916,-1.0728 4.47835,0.22639l10.24154,10.24153c1.29919,1.29919 1.40058,3.30424 0.22643,4.47839v0c-1.17415,1.17415 -3.1792,1.0728 -4.47839,-0.22639l-10.24154,-10.24153c-1.29919,-1.29919 -1.40053,-3.30424 -0.22639,-4.47839zM228.53217,191.46781c1.17415,1.17415 1.0728,3.1792 -0.22639,4.47839l-10.24154,10.24153c-1.29919,1.29919 -3.30424,1.40053 -4.47839,0.22639v0c-1.17415,-1.17415 -1.07276,-3.1792 0.22643,-4.47839l10.24154,-10.24153c1.29919,-1.29919 3.3042,-1.40053 4.47835,-0.22639zM251.46783,168.53219c-1.17415,-1.17415 -1.0728,-3.1792 0.22639,-4.47839l10.24154,-10.24153c1.29919,-1.29919 3.30424,-1.40057 4.47839,-0.22639v0c1.17415,1.17415 1.07276,3.17915 -0.22643,4.47835l-10.24154,10.24153c-1.29919,1.29919 -3.3042,1.40057 -4.47835,0.22643z\"/></g></g></svg><!--rotationCenter:37.605229033546294:37.605229033546294-->"
+}, {
+  id: "crescentMoon",
+  name: "Crescent Moon",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"86.58808\" height=\"98.70237\" viewBox=\"0,0,86.58808,98.70237\"><g transform=\"translate(-196.70596,-130.64882)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M196.70596,180c0,-27.2559 22.09528,-49.35118 49.35118,-49.35118c14.86178,0 28.18921,6.56931 37.23689,16.96252c-7.36039,-6.19606 -16.86269,-9.9291 -27.23689,-9.9291c-23.37145,0 -42.31776,18.9463 -42.31776,42.31776c0,23.37145 18.9463,42.31776 42.31776,42.31776c10.3742,0 19.8765,-3.73304 27.23689,-9.9291c-9.04768,10.39321 -22.37512,16.96252 -37.23689,16.96252c-27.2559,0 -49.35118,-22.09528 -49.35118,-49.35118z\"/></g></g></svg><!--rotationCenter:43.294038055506434:49.35118499999999-->"
+}, {
+  id: "musicNote",
+  name: "Slanted Beamed Note",
+  category: "symbols",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"76.05318\" height=\"83.11581\" viewBox=\"0,0,76.05318,83.11581\"><g transform=\"translate(-201.97341,-138.30671)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M225.78318,151.97441l51.24341,-12.39693v58.35107c0,6.29654 -6.17308,11.4009 -13.78795,11.4009c-7.61487,0 -13.78795,-5.10436 -13.78795,-11.4009c0.14476,-6.5547 3.76364,-10.68701 10.85665,-12.39693c5.5007,-1.13995 9.48148,-0.28499 11.94232,2.56488v-30.77859l-41.47242,10.04579v42.5343c-0.2998,6.04393 -6.76452,10.75211 -14.43935,10.51602c-7.67483,-0.23609 -13.65348,-5.32705 -13.35368,-11.37098c0.14476,-6.5547 4.05315,-10.68701 11.72519,-12.39693c4.48742,-1.13995 8.17868,-0.21374 11.07379,2.77862z\"/></g></g></svg><!--rotationCenter:38.026590654952116:41.69329016725993-->"
+}, {
+  id: "musicNote2",
+  name: "Eighth Note",
+  category: "symbols",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"66.47374\" height=\"88.80053\" viewBox=\"0,0,66.47374,88.80053\"><g transform=\"translate(-210.07982,-135.57974)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M239.23262,136.61973c15.30765,0.60044 22.26567,7.88082 20.87407,21.84113c-0.61849,8.40621 2.31934,14.26053 8.8135,17.56297c-7.26727,-1.65122 -12.36982,-6.37971 -15.30765,-14.18548c-3.55632,-9.15676 -7.11265,-14.03537 -10.66897,-14.63581v66.1989c-0.92204,6.37511 -8.78257,10.78707 -17.55698,9.8544c-8.77442,-0.93267 -15.14003,-6.85679 -14.21799,-13.2319c0.92774,-8.2561 6.33953,-12.75943 16.23539,-13.50998c6.33953,-0.15011 10.28241,1.351 11.82864,4.50333z\"/></g></g></svg><!--rotationCenter:29.92017731629366:44.42026004636199-->"
+}, {
+  id: "musicNote3",
+  name: "Treble Clef",
+  category: "symbols",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"47.69258\" height=\"119.4193\" viewBox=\"0,0,47.69258,119.4193\"><g transform=\"translate(-214.13341,-128.13708)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M234.89505,242.14033c4.29288,-0.94773 6.97543,-5.06855 5.99165,-9.20411c-0.98378,-4.13556 -5.26137,-6.7198 -9.55425,-5.77207c-6.26154,1.66402 -7.8809,5.82407 -4.85809,12.48015c2.8069,4.99206 7.01724,7.28009 12.63104,6.86408c8.42069,-0.416 12.95491,-4.88806 13.60266,-13.41616c0.21592,-3.12004 -0.64775,-8.1121 -2.59098,-14.97618c8.42069,-4.36805 11.87533,-11.23213 10.36393,-20.59225c-1.72732,-8.3201 -7.66499,-12.79215 -17.813,-13.41616l-2.59098,-9.98412c10.57984,-12.27215 14.46632,-24.02429 11.65942,-35.25642c-4.3183,-11.44014 -9.71618,-12.79215 -16.19364,-4.05605c-4.75013,6.86408 -5.28992,16.9522 -1.61936,30.26436c-12.739,11.02413 -19.00054,21.32026 -18.78462,30.88837c0.43183,13.31216 8.96048,21.32026 25.58595,24.02429c1.72732,0.208 3.34669,0.104 4.85809,-0.312c5.39788,17.26421 1.83528,24.7523 -10.6878,22.46427zM244.61123,194.09176c6.69337,1.04001 9.60823,4.99206 8.74456,11.85614c-0.43183,3.74404 -1.83528,6.13607 -4.21035,7.17609zM237.48603,161.95537c-2.37507,-14.14417 0.53979,-21.52826 8.74456,-22.15227c2.15915,8.1121 -0.7557,15.49619 -8.74456,22.15227zM240.07701,211.87597c-4.10239,-3.32804 -5.72175,-7.17609 -4.85809,-11.54414c0.64775,-2.49603 2.37507,-4.47205 5.18196,-5.92807l4.53422,20.59225c-6.90929,1.45602 -12.739,-0.312 -17.48913,-5.30406c-5.18196,-6.65608 -5.82971,-13.31216 -1.94324,-19.96824c3.23873,-4.78406 6.90929,-8.7361 11.01167,-11.85614l1.94324,7.48809c-7.34112,3.95205 -10.90372,8.94411 -10.6878,14.97618c0.64775,7.48809 4.75013,11.33614 12.30716,11.54414z\"/></g></g></svg><!--rotationCenter:25.86658642835556:51.86291570670727-->"
+}, {
+  id: "sussy",
+  name: "Sussy",
+  category: "symbols",
+  strokeWidth: 14,
+  icon: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg width=\"20px\" height=\"20px\" viewBox=\"-36 -55 161 192\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch --><title>sussy</title><desc>Created with Sketch.</desc><desc>jk its made with https://yqnn.github.io/svg-path-editor/ stupeit</desc><defs></defs><path stroke=\"none\" stroke-width=\"14\" fill=\"transparent\" d=\"m 77 0 h 28 a 20 20 0 0 1 20 20 v 0 a 20 20 0 0 1 -20 20 V 40 H 77 V 112 A 1 1 0 0 1 42 111 A 1 1 0 0 0 16 112 A 1 1 0 0 1 -18 111 V 74 H -29 C -35 74 -36 73 -36 67 V 5 C -36 -1 -35 -2 -29 -2 H -18 A 1 1 0 0 1 76 0\"/></svg>"
+}, {
+  id: "fineman",
+  name: "Fine Man",
+  category: "symbols",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.89383\" height=\"78.21422\" viewBox=\"0,0,88.89383,78.21422\"><g transform=\"translate(-195.55309,-140.89289)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M279.11508,185.745c-1.6966,3.204 -3.2904,7.867 -5.5968,10.7655c-1.0552,1.326 -2.4643,2.334 -3.5804,3.6092c-4.8915,5.5887 -9.2072,12.2896 -16.8603,14.6515c-1.422,0.4389 -2.9744,0.119 -4.4625,0.1361c-5.1267,0.059 -10.0508,5.3321 -14.8705,3.1868c-1.8615,-0.8286 -8.787,-1.8762 -10.6075,-2.7912c-1.506,-0.757 0.1421,-7.033 -1.256,-7.9744c-1.3297,-0.8955 -2.11,-2.4181 -3.2504,-3.5448c-0.3338,-0.3298 -6.2398,-5.4131 -6.7988,-6.6552c-0.81717,-1.81566 -1.09038,-3.62653 -1.17502,-5.46147c-1.3766,0.80315 -2.62347,1.91949 -4.15618,2.34537c-1.4506,0.4031 -3.0694,0.4408 -4.5164,0.0254c-8.6871,-2.4944 -5.9867,-15.5864 -3.3957,-21.95c1.8299,-4.4941 4.0739,-9.3912 7.0918,-13.2651c1.217,-1.5622 3.0424,-2.5541 4.3761,-4.018c0.7182,-0.7882 1.0233,-1.9342 1.8461,-2.6125c1.106,-0.9119 2.5337,-1.3416 3.7892,-2.0335c4.9733,-2.7408 9.6646,-4.9652 14.9498,-7.0813c7.2911,-2.9454 15.9349,-1.4641 23.371,0.1816c1.0722,0.2373 2.2339,0.1288 3.2486,0.5491c3.685,1.5264 5.0611,4.8449 7.9949,7.1687c0.7921,0.6273 5.568,3.7781 6.5521,4.6268c3.288,2.8359 4.7025,6.0578 7.0854,9.4147c0.1895,0.2307 0.3659,0.4735 0.5345,0.7232c1.285,1.6696 2.7787,3.1875 3.9054,4.9667c0,0 1.6892,2.7027 -0.5386,4.6822c-0.42573,0.62184 -1.1019,1.17609 -2.17578,1.36827c-0.00404,2.96432 -1.17068,6.3419 -1.50402,8.98633zM240.53818,174.9073c2.071,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.679,-3.75 -3.75,-3.75c-2.0711,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.6789,3.75 3.75,3.75zM275.15348,184.1381c2.0711,0 3.75,-1.6789 3.75,-3.75c0,-2.0711 -1.6789,-3.75 -3.75,-3.75c-2.071,0 -3.75,1.6789 -3.75,3.75c0,2.0711 1.679,3.75 3.75,3.75zM263.18718,195.6157l-0.3007,0.5823c-1.0607,1.0607 -1.8421,2.4427 -3.0962,3.2658c-1.4785,0.9703 -5.8341,0.2488 -7.3291,0.2512c-2.0854,0.0034 -5.8991,0.3437 -7.8123,-0.2393c-0.995,-0.3031 -1.6423,-1.3094 -2.587,-1.7448c-0.6173,-0.2846 -1.4509,0.022 -2.0051,-0.3717c-0.5058,-0.3593 -0.4529,-1.179 -0.8494,-1.6563c-1.3927,-1.6766 -5.4087,-4.3908 -5.7359,-7.0634c-0.1179,-0.9621 0.2756,-1.9189 0.4134,-2.8783c0,0 0.3732,-3.7314 -3.3582,-4.1045c-3.7314,-0.3732 -4.1046,3.3582 -4.1046,3.3582c-0.1185,1.6047 -0.6347,3.2294 -0.3557,4.8141c0.8558,4.861 4.3602,7.2383 7.3409,10.6288c0.8152,0.9273 1.2332,2.2274 2.2276,2.9592c0.9599,0.7063 2.3011,0.6594 3.3795,1.1668c1.2486,0.5874 2.2405,1.7206 3.5669,2.1013c2.5046,0.7187 7.1623,0.5259 9.8799,0.5299c3.6721,0.0054 7.7509,0.5945 11.1325,-1.2872c0.4769,-0.2654 3.932,-3.7625 4.5961,-4.4265l1.2378,-1.7254c0,0 2.0801,-3.1202 -1.0401,-5.2003c-3.1202,-2.0801 -5.2003,1.0401 -5.2003,1.0401z\"/></g></g></svg><!--rotationCenter:44.44691461881348:39.107105695858934-->"
+}, {
+  id: "gear",
+  name: "Gear",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"72.07587\" height=\"72.07587\" viewBox=\"0,0,72.07587,72.07587\"><g transform=\"translate(-203.96206,-143.96206)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M264.8017,185.65875c-0.46664,0.03764 -0.86845,0.3327 -1.04846,0.76384l-2.41502,5.82838c-0.18001,0.43114 -0.10045,0.92711 0.20091,1.28083l4.78826,5.60029c0.78688,0.92081 0.73666,2.29366 -0.12349,3.1538l-3.91766,3.91764c-0.858,0.858 -2.233,0.91037 -3.15382,0.12135l-5.60032,-4.78823c-0.35159,-0.30136 -0.8497,-0.38092 -1.2787,-0.2009l-5.83042,2.41501c-0.43114,0.18001 -0.72621,0.58396 -0.76384,1.0506l-0.57138,7.34146c-0.09416,1.20971 -1.10284,2.14513 -2.31671,2.14513h-5.54165c-1.21387,0 -2.22256,-0.93555 -2.31671,-2.14513l-0.57339,-7.34146c-0.03563,-0.46677 -0.33069,-0.87059 -0.76183,-1.0506l-5.83042,-2.41501c-0.43114,-0.18001 -0.9251,-0.10045 -1.28084,0.2009l-5.59818,4.78823c-0.92082,0.78902 -2.29368,0.73665 -3.15382,-0.12135l-3.91766,-3.91764c-0.858,-0.86014 -0.91037,-2.23299 -0.12349,-3.1538l4.78826,-5.60029c0.30136,-0.35373 0.38092,-0.84969 0.20091,-1.28083l-2.41502,-5.82838c-0.17586,-0.43114 -0.58397,-0.7262 -1.04645,-0.76384l-7.34565,-0.57137c-1.20959,-0.09429 -2.143,-1.10498 -2.143,-2.31884v-5.53948c0,-1.21387 0.93341,-2.22254 2.143,-2.31884l7.34552,-0.57311c0.46262,-0.03563 0.87059,-0.32868 1.04645,-0.76183l2.41502,-5.82838c0.18001,-0.43114 0.10045,-0.92497 -0.20091,-1.27869l-4.78826,-5.60029c-0.78688,-0.92296 -0.73451,-2.2958 0.12349,-3.1538l3.91766,-3.91764c0.86015,-0.858 2.233,-0.91251 3.15382,-0.12349l5.59818,4.78823c0.35587,0.3035 0.8497,0.38092 1.28084,0.20305l5.83042,-2.41715c0.43114,-0.17787 0.72621,-0.58383 0.76183,-1.04846l0.57339,-7.34146c0.09416,-1.21172 1.10284,-2.14513 2.31671,-2.14513h5.54165c1.21374,0 2.22242,0.9334 2.31658,2.14473l0.57138,7.34146c0.03764,0.46248 0.3327,0.87059 0.76384,1.04846l5.83042,2.41715c0.429,0.17787 0.92497,0.10045 1.2787,-0.20305l5.60032,-4.78823c0.92082,-0.78902 2.29582,-0.73451 3.15382,0.12349l3.91766,3.91764c0.86015,0.858 0.91037,2.23085 0.12349,3.1538l-4.78826,5.60029c-0.30551,0.35373 -0.38092,0.84755 -0.20091,1.27869l2.41502,5.82838c0.18001,0.43329 0.58182,0.7262 1.04846,0.76183l7.34351,0.57338c1.20959,0.0963 2.143,1.10498 2.143,2.31884v5.54162c0,1.21172 -0.93341,2.22254 -2.143,2.3167zM248.19535,188.19511c2.18907,-2.19107 3.39451,-5.10003 3.39451,-8.19732c0,-3.09514 -1.20543,-6.00625 -3.39451,-8.19316c-2.18907,-2.1912 -5.09805,-3.39449 -8.19535,-3.39449c-3.09529,0 -6.00628,1.20342 -8.19535,3.39449c-2.18907,2.18692 -3.39451,5.09802 -3.39451,8.19316c0,3.09728 1.20543,6.00625 3.39451,8.19732c2.18907,2.18692 5.1002,3.39234 8.19535,3.39234c3.0973,0 6.00628,-1.20543 8.19535,-3.39234z\"/></g></g></svg><!--rotationCenter:36.03793749999991:36.0379375-->"
+}, {
+  id: "lightningBolt",
+  name: "Lightning Bolt",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"78.18686\" height=\"109.94651\" viewBox=\"0,0,78.18686,109.94651\"><g transform=\"translate(-201.83621,-127.40166)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M205.16433,141.90813l35.12807,-12.29935l11.22389,28.33749l-5.68505,2.80539l17.19572,25.39802l-7.58006,2.80539l19.38876,41.43616l-39.21051,-34.88167l9.03647,-3.21279l-24.48337,-22.18523l10.63908,-4.54328z\"/></g></g></svg><!--rotationCenter:38.163794148185815:52.598340159906144-->"
+}, {
+  id: "lightningBolt2",
+  name: "Bolt",
+  category: "objects",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"62.07368\" height=\"109.86863\" viewBox=\"0,0,62.07368,109.86863\"><g transform=\"translate(-209.60633,-127.74924)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M221.41386,129.49924h46.23276l-17.81875,36.38425h18.43503l-46.5409,64.61728l8.75827,-52.16357h-18.74317z\"/></g></g></svg><!--rotationCenter:30.393667282737823:52.250764177316256-->"
+}, {
+  id: "cloud",
+  name: "Cloud",
+  category: "objects",
+  strokeWidth: 11,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.71119" height="50.07795" viewBox="0,0,182.71119,50.07795"><g transform="translate(-148.64441,-154.96103)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M158.70156,190.30055c5.28613,-2.83052 11.70216,-2.80297 14.45107,-3.01001c1.11791,-2.76161 17.92516,-32.66635 39.60873,-32.32664c21.75534,0.41423 30.07396,15.16631 40.51872,23.33781c12.96693,-9.11314 22.14689,-12.62033 35.86057,-9.23745c12.88406,3.27521 19.41273,22.07303 19.93181,22.83242c0.25097,0.37125 7.32687,-4.86498 13.30369,-3.82602c7.68158,1.33529 10.15773,16.75568 8.47916,16.75568c-2.13284,0 -176.99884,-0.27065 -181.13536,0.21264c-4.02823,-3.61485 4.21405,-12.184 8.98161,-14.73843z"/></g></g></svg><!--rotationCenter:91.35559376978156:25.038973609398028-->'
+}, {
+  id: "cloud2",
+  name: "Cloud 2",
+  category: "objects",
+  strokeWidth: 8,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.70967" height="52.3294" viewBox="-0.5,-0.5,95.70967,52.3294"><g transform="translate(-169.75478,-142.5337)"><g fill="#9966ff" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10"><path d="M184.87999,193.6131c-8.21535,0 -14.87521,-6.82713 -14.87521,-15.24882c0,-8.42169 6.65986,-15.24882 14.87521,-15.24882c0,-11.22892 8.87981,-20.33176 19.83361,-20.33176c10.9538,0 19.83361,9.10284 19.83361,20.33176c0,-5.26356 5.54988,-9.53051 12.39601,-9.53051c6.84613,0 12.39601,4.26696 12.39601,9.53051c8.21535,0 14.87521,6.82713 14.87521,15.24882c0,8.42169 -6.65986,15.24882 -14.87521,15.24882z"/></g></g></svg><!--rotationCenter:70.24522487951367:37.466301916932906-->'
+}, {
+  id: "pinPush",
+  name: "Push Pin",
+  category: "objects",
+  strokeWidth: 7,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"61.31219\" height=\"110.6081\" viewBox=\"0,0,61.31219,110.6081\"><g transform=\"translate(-209.34391,-124.69587)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M222.09831,140.344c-1.01825,-9.65411 4.93591,-14.6201 17.86248,-14.89798c14.25978,0.27787 20.78778,5.15938 19.58401,14.64452c-1.07865,2.75993 -3.58112,4.74632 -7.50742,5.95918l0.95137,20.6037c12.10248,3.52971 17.71147,10.25867 16.82698,20.18689c-1.20809,9.47387 -11.34958,14.162 -30.42447,14.06437c-20.72307,-1.21286 -30.45251,-6.94863 -29.18833,-17.2073c0.31928,-7.66771 5.77079,-13.70764 16.35452,-18.11976l1.61798,-20.35587c-3.11515,-1.26168 -5.14085,-2.8876 -6.07712,-4.87775zM236.3883,200.68502l-0.98373,24.19724c4.43974,13.01109 0.75074,12.66187 6.17421,0.35485l1.13906,-24.38311c-2.23928,0.12767 -4.34913,0.07134 -6.32953,-0.16898z\"/></g></g></svg><!--rotationCenter:30.656093794302706:55.30412930875097-->"
+}, {
+  id: "bookmark",
+  name: "Bookmark",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"58.96399\" height=\"87.07251\" viewBox=\"0,0,58.96399,87.07251\"><g transform=\"translate(-210.51801,-137.15338)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M211.51801,138.15338h56.96399v83.69324l-28.48199,-27.89775l-28.48199,27.89775z\"/></g></g></svg><!--rotationCenter:29.481992811501783:42.84662020766774-->"
+}, {
+  id: "note",
+  name: "Note",
+  category: "objects",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"74.4001\" height=\"74.4001\" viewBox=\"0,0,74.4001,74.4001\"><g transform=\"translate(-202.09284,-143.50706)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M204.50706,144.50706h70.98589v70.98589h-53.23942l-17.74647,-17.74647zM204.50706,197.74647h17.74647v17.74647z\"/></g></g></svg><!--rotationCenter:37.90715845055203:36.4929448881789-->"
+}, {
+  id: "paper",
+  name: "Paper",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.77773\" height=\"93.14673\" viewBox=\"0,0,70.77773,93.14673\"><g transform=\"translate(-205.36934,-132.76719)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M206.36934,135.08609h48.06665l19.19467,18.11654v71.71129h-67.26132zM273.63066,153.20262h-19.19467v-18.11654z\"/></g></g></svg><!--rotationCenter:34.6306607428115:47.23281356091735-->"
+}, {
+  id: "eye",
+  name: "Eye",
+  category: "objects",
+  strokeWidth: 4,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"54.4096\" height=\"31.61499\" viewBox=\"0,0,54.4096,31.61499\"><g transform=\"translate(-212.7952,-164.19231)\"><g fill=\"none\" stroke=\"none\" stroke-miterlimit=\"10\"><path d=\"M212.7952,179.99996c0,0 7.27068,-15.89135 27.2048,-15.80732c20.22188,0.08524 27.2048,15.80732 27.2048,15.80732c0,0 -7.1276,15.78741 -27.2048,15.80732c-19.93533,0.01977 -27.2048,-15.80732 -27.2048,-15.80732zM239.92857,190.14286c5.52285,0 10,-4.47715 10,-10c0,-5.52285 -4.47715,-10 -10,-10c-5.52285,0 -10,4.47715 -10,10c0,5.52285 4.47715,10 10,10z M235,180c0,-2.80087 2.27056,-5.07143 5.07143,-5.07143c2.80087,0 5.07143,2.27056 5.07143,5.07143c0,2.80087 -2.27056,5.07143 -5.07143,5.07143c-2.80087,0 -5.07143,-2.27056 -5.07143,-5.07143z\" stroke-width=\"0.5\"/></g></g></svg><!--rotationCenter:27.204800000000006:15.807692078366728-->"
+}, {
+  id: "lock",
+  name: "Lock",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.73315\" height=\"90.01327\" viewBox=\"0,0,70.73315,90.01327\"><g transform=\"translate(-206.93864,-138.74731)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M209.85218,179.73062c0,-22.22024 14.52972,-40.2333 32.45304,-40.2333c17.92332,0 32.45304,18.01306 32.45304,40.2333h-8.65414c0,-16.29484 -10.65513,-29.50442 -23.7989,-29.50442c-13.14377,0 -23.7989,13.20958 -23.7989,29.50442zM207.68864,179.73062h69.23315v48.27997h-69.23315z\"/></g></g></svg><!--rotationCenter:33.061357467373085:41.2526857028754-->"
+}, {
+  id: "lockOpened",
+  name: "Open Lock",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"70.51406\" height=\"98.11968\" viewBox=\"0,0,70.51406,98.11968\"><g transform=\"translate(-211.75867,-144.22462)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M214.66536,182.13604c0,-20.52368 14.48374,-37.16142 32.35034,-37.16142c17.8666,0 32.35034,16.63773 32.35034,37.16142v14.86457h-8.62676v-14.86457c0,-15.0507 -10.62141,-27.25171 -23.72358,-27.25171c-13.10217,0 -23.72358,12.201 -23.72358,27.25171zM212.50867,197.0006h69.01406v44.5937h-69.01406z\"/></g></g></svg><!--rotationCenter:28.241327914657404:35.775379392971274-->"
+}, {
+  id: "inbox",
+  name: "Inbox",
+  category: "objects",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.79055\" height=\"59.55945\" viewBox=\"0,0,88.79055,59.55945\"><g transform=\"translate(-197.29858,-146.19645)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M198.04858,175.97617h21.69013l10.84507,9.67657h21.69013l10.84507,-9.67657h21.69013v29.02972h-86.76053v-29.02972l16.2676,-29.02972h54.22533l16.2676,29.02972h-21.69013l-10.84507,9.67657h-21.69013l-10.84507,-9.67657z\"/></g></g></svg><!--rotationCenter:42.70141657280442:33.80354912140575-->"
+}, {
+  id: "speechBubble",
+  name: "Speech Bubble",
+  category: "speech",
+  strokeWidth: 5,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"71.71694\" height=\"51.23518\" viewBox=\"0,0,71.71694,51.23518\"><g transform=\"translate(-204.14153,-154.38241)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"#ff00ff\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"555\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M204.14966,175.04472c-0.31482,-15.49173 8.58161,-20.45314 15.2824,-20.45314c8.15418,0 26.20534,-0.47063 40.10194,0c6.7857,0.22981 16.64329,5.37466 16.31655,20.45314c-0.30922,14.27018 -11.32079,18.61465 -16.43145,18.61465c-4.65217,0 -12.43125,0 -21.25748,0c-2.33362,0 -8.8706,12.31777 -19.5339,11.95015c-7.56289,-0.26073 4.2991,-11.95015 1.26396,-11.95015c-9.00032,0 -15.52291,-7.83267 -15.74202,-18.61465z\"/></g></g></svg><!--rotationCenter:35.858470177379075:25.617591628072915-->"
+}, {
+  id: "thinkingBubble",
+  name: "Thinking Bubble",
+  category: "speech",
+  strokeWidth: 10,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"132.75\" height=\"100.25\" viewBox=\"0,0,132.75,100.25\"><g transform=\"translate(-173.625,-129.875)\"><g data-paper-data=\"{&quot;isPaintingLayer&quot;:true}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"none\" stroke-width=\"8\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" style=\"mix-blend-mode: normal\"><path d=\"M181.625,163.75c0,-9.03599 8.31115,-16.7148 19.88037,-19.50356c3.78813,-8.33365 14.94537,-14.37144 28.11963,-14.37144c10.60583,0 19.90445,3.91305 25.10344,9.78682c1.5942,-0.18873 3.22977,-0.28682 4.89656,-0.28682c7.20482,0 13.82617,1.83268 19.04507,4.89724c0.96891,-0.09722 1.95499,-0.14724 2.95493,-0.14724c13.66905,0 24.75,9.34606 24.75,20.875c0,6.80117 -3.85625,12.84269 -9.82521,16.65396c2.12223,2.1898 3.32521,4.69056 3.32521,7.34604c0,8.62945 -12.70392,15.625 -28.375,15.625c-5.79983,0 -11.19324,-0.9582 -15.68664,-2.60279c-5.37837,3.48673 -12.44651,5.60279 -20.18836,5.60279c-2.14277,0 -4.23392,-0.1621 -6.25193,-0.4705c0.00128,0.04563 0.00193,0.09136 0.00193,0.13717c0,4.55635 -6.37994,8.25 -14.25,8.25c-7.87006,0 -14.25,-3.69365 -14.25,-8.25c0,-1.85573 1.0583,-3.56835 2.84455,-4.9466c-12.33446,-0.48405 -22.09455,-6.7775 -22.09455,-14.47006c0,-4.13493 2.81999,-7.8656 7.34397,-10.50709c-4.57145,-3.63277 -7.34397,-8.39897 -7.34397,-13.61791zM202.125,220.66667c0,2.96853 -3.52576,5.375 -7.875,5.375c-4.34924,0 -7.875,-2.40647 -7.875,-5.375c0,-2.96853 3.52576,-5.375 7.875,-5.375c4.34924,0 7.875,2.40647 7.875,5.375zM183.375,226c0,2.27818 -2.18261,4.125 -4.875,4.125c-2.69239,0 -4.875,-1.84682 -4.875,-4.125c0,-2.27818 2.18261,-4.125 4.875,-4.125c2.69239,0 4.875,1.84682 4.875,4.125z\"/></g></g></svg><!--rotationCenter:66.37500000000003:50.12499999999997-->"
+}, {
+  id: "shoutBubble",
+  name: "Shout Bubble",
+  category: "speech",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"157.28437\" height=\"90.90803\" viewBox=\"0,0,157.28437,90.90803\"><g transform=\"translate(-161.5226,-134.01519)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\"><path d=\"M227.11094,208.57049c-5.92772,5.58295 -15.6124,15.76793 -29.02488,15.33964c-11.40942,-0.36435 0.9565,-15.09531 2.93147,-18.17751c3.24637,-5.06637 1.63986,-8.52859 1.63986,-8.52859l-21.47242,5.86044l4.84649,-13.34467l-21.15795,-1.09108l23.26277,-13.82792l-20.14297,-9.34374l22.87578,-5.70891l-10.25508,-14.51162l19.58978,8.2709l-1.70024,-12.65976l16.59077,13.46143l1.10608,-13.38683l15.56167,11.24624l12.10608,-16.09172l5.91725,15.89507l18.12276,-12.77889l-3.24144,15.28333l22.11413,-10.58546l-4.54409,17.01121l23.95449,-11.29693l-8.61338,14.50991l16.14654,3.46186l-20.56767,7.84186l21.96975,8.07507l-23.41162,4.65774l18.31315,10.48796l-30.03068,-1.02513l3.75565,11.52599l-26.77205,-10.86823l-7.93841,9.53141l-12.67597,-9.86071c0,0 -3.17514,4.90084 -9.25562,10.62767z\"/></g></g></svg><!--rotationCenter:78.47739959073004:45.984810725006156-->"
+}, {
+  id: "squareBubble",
+  name: "Square Bubble",
+  category: "speech",
+  strokeWidth: 8,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"88.69872\" height=\"63.7222\" viewBox=\"0,0,88.69872,63.7222\"><g transform=\"translate(-185.68669,-145.32008)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"><path d=\"M186.43669,152.83924c0,-3.86809 2.56467,-6.76916 10.25867,-6.76916h67.53626c6.83912,0 9.40378,2.90107 9.40378,6.76916v33.06c0,4.65389 -2.56467,7.55496 -7.19355,7.80542h-38.21202c-2.85841,0 -10.8653,15.02618 -23.92639,14.57777c-9.2635,-0.31805 5.26578,-14.57777 1.5482,-14.57777h-11.72096c-5.12934,-0.25046 -7.694,-3.15153 -7.694,-8.05424z\"/></g></g></svg><!--rotationCenter:54.31330594980122:34.679918130990416-->"
+}, {
+  id: "codeblock",
+  name: "Code Block",
+  category: "blocks",
+  strokeWidth: 9,
+  icon: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.85186" height="56" viewBox="0,0,97.85186,56"><g transform="translate(-191.07407,-152)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="#ff4ddf" fill-rule="nonzero" stroke="none" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.07407,156c0,-2.20914 1.79086,-4 4,-4h8c2,0 3,1 4,2l4,4c1,1 2,2 4,2h12c2,0 3,-1 4,-2l4,-4c1,-1 2,-2 4,-2h45.85186c2.20914,0 4,1.79086 4,4v40c0,2.20914 -1.79086,4 -4,4h-45.85186c-2,0 -3,1 -4,2l-4,4c-1,1 -2,2 -4,2h-12c-2,0 -3,-1 -4,-2l-4,-4c-1,-1 -2,-2 -4,-2h-8c-2.20914,0 -4,-1.79086 -4,-4z"/></g></g></svg><!--rotationCenter:48.92592750000003:28-->'
+}, {
+  id: "codeblockHat",
+  name: "Hat Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"84.78484\" height=\"47.53754\" viewBox=\"0,0,84.78484,47.53754\"><g transform=\"translate(-197.60677,-156.23123)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M199.35839,168.32892c19.05087,-17.70539 45.86742,-9.2558 53.63311,0h25.64101c0.87394,-0.08786 1.54364,0.43928 2.0091,1.58139v25.03096c-0.11399,1.14212 -0.60796,1.87338 -1.48189,2.19379h-53.88959c-1.94498,1.24031 -3.22027,4.07751 -5.32199,4.88371h-7.63032c-2.19434,-0.7907 -3.29151,-3.59689 -5.42173,-4.72092h-5.70671c-0.99268,-0.63049 -1.58401,-1.32041 -1.774,-2.06976z\"/></g></g></svg><!--rotationCenter:42.39322956915433:23.768771365814672-->"
+}, {
+  id: "codeblockEndCap",
+  name: "End-Cap Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"76.45772\" height=\"46.88027\" viewBox=\"0,0,76.45772,46.88027\"><g transform=\"translate(-201.77114,-156.55987)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M203.52114,161.43742c0.24291,-1.49041 1.14572,-2.53293 2.70844,-3.12755h10.02c3.52218,1.80703 5.31971,5.89601 9.18196,7.15861l12.76487,0.04633c4.11731,-0.9846 5.31971,-5.56009 9.64349,-7.20495h25.33541c1.82991,0.47106 2.9311,1.53675 3.30356,3.19705v36.52282c-0.32388,1.92286 -1.44936,3.14299 -3.37644,3.66039h-66.14412c-1.80562,-0.23939 -2.95134,-1.24716 -3.43716,-3.0233z\"/></g></g></svg><!--rotationCenter:38.22886002396157:23.44013298722041-->"
+}, {
+  id: "codeblockReporter",
+  name: "Reporter Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"85.65959\" height=\"40.96502\" viewBox=\"0,0,85.65959,40.96502\"><g transform=\"translate(-197.1702,-159.51744)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M217.51386,161.26761l44.88353,0.07177c25.27631,2.99048 24.54073,34.54606 0,37.33319l-44.88353,0.05981c-23.06955,-1.51917 -26.45579,-34.27094 0,-37.46478z\"/></g></g></svg><!--rotationCenter:42.82979732428112:20.482555890835414-->"
+}, {
+  id: "codeblockBoolean",
+  name: "Boolean Block",
+  category: "blocks",
+  strokeWidth: 6,
+  icon: "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"87.64482\" height=\"38.77643\" viewBox=\"0,0,87.64482,38.77643\"><g transform=\"translate(-196.17448,-160.6117)\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"3.5\" stroke-miterlimit=\"10\"><path d=\"M215.3143,162.45314l49.38202,-0.09007l16.71212,17.64256l-16.71212,17.6313l-49.38202,-0.07881l-16.72274,-17.55249z\"/></g></g></svg><!--rotationCenter:43.82552095025645:19.388299907582876-->"
+}];
+const generateShapeSVG = shapeObject => {
+  const strokeColor = '#575e75';
+  const icon = shapeObject.icon;
+  // extract viewbox
+  const viewBoxStart = icon.substring(icon.indexOf('viewBox="') + 9);
+  const viewBoxString = viewBoxStart.substring(0, viewBoxStart.indexOf('"'));
+  // extract fill color
+  const fillColorStart = icon.substring(icon.indexOf('fill="') + 6);
+  const fillColorString = fillColorStart.substring(0, fillColorStart.indexOf('"'));
+  // extract stroke width
+  const strokeWidthStart = icon.substring(icon.indexOf('stroke-width="') + 14);
+  const strokeWidthString = strokeWidthStart.substring(0, strokeWidthStart.indexOf('"'));
+  // extract viewbox to array
+  const viewBox = viewBoxString.replace(/ /gmi, ',').split(',').map(value => value.trim()).map(num => Number(num));
+  const newViewBox = [viewBox[0] - 1.5, viewBox[1] - 1.5, viewBox[2] + 1.5 * 2, viewBox[3] + 1.5 * 2].join(',');
+  const newIcon = icon.replace("viewBox=\"".concat(viewBoxString, "\""), "viewBox=\"".concat(newViewBox, "\"")).replace(/stroke="[^"]*"/, "stroke=\"".concat(strokeColor, "\"")).replace("fill=\"".concat(fillColorString, "\""), 'fill="none"').replace("stroke-width=\"".concat(strokeWidthString, "\""), "stroke-width=\"".concat(shapeObject.strokeWidth, "\""));
+  return "".concat(newIcon);
+};
+const categorizeShapes = shapes => {
+  const categorized = {};
+  for (const categoryId in categories) {
+    categorized[categoryId] = [];
+  }
+  for (const shape of shapes) {
+    let targetCategory = shape.category || "custom";
+    if (!categorized[targetCategory]) {
+      _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid shape category: ".concat(targetCategory));
+      targetCategory = "custom";
+    }
+    categorized[targetCategory].push(shape);
+  }
+  return categorized;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js":
 /*!************************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js ***!
@@ -198930,11 +202940,15 @@ class PointTool {
       if (!seg.origPoint) {
         seg.origPoint = seg.point.clone();
       }
+      let constrainedDelta = delta;
       if (event.modifiers.shift) {
-        seg.point = seg.origPoint.add(Object(_math__WEBPACK_IMPORTED_MODULE_0__["snapDeltaToAngle"])(dragVector, Math.PI / 4));
-      } else {
-        seg.point = seg.point.add(delta);
+        // horizontal movement only
+        constrainedDelta = new paper.Point(delta.x, 0);
+      } else if (event.modifiers.control || event.modifiers.meta) {
+        // vertical movement only
+        constrainedDelta = new paper.Point(0, delta.y);
       }
+      seg.point = seg.point.add(constrainedDelta);
     }
   }
   onMouseUp() {
@@ -199315,6 +203329,21 @@ class ReshapeTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.
       translation = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(-nudgeAmount, 0);
     } else if (event.key === 'right') {
       translation = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(nudgeAmount, 0);
+    } else if (event.key == 'i' || event.key == 'o') {
+      const segments = Object(_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedSegments"])();
+      for (const seg of segments) {
+        let parent = seg.path;
+        let p = seg.point;
+        let o = parent.getOffsetOf(p);
+        let o1 = o + 0.01;
+        let o2 = o + (parent.length - 0.01);
+        let n = parent.getNormalAt(o1 % parent.length).add(parent.getNormalAt(o2 % parent.length)).divide(2);
+        if (event.key == 'o') {
+          seg.point = p.add(n);
+        } else {
+          seg.point = p.subtract(n);
+        }
+      }
     }
     if (translation) {
       const segments = Object(_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedSegments"])();
@@ -199469,6 +203498,7 @@ class ScaleTool {
    */
   onMouseDown(hitResult, boundsPath, selectedItems) {
     if (this.active) return;
+    this.index = hitResult.item.data.index;
     this.active = true;
     const index = hitResult.item.data.index;
     this.pivot = boundsPath.bounds[this._getOpposingRectCornerNameByIndex(index)].clone();
@@ -199502,23 +203532,54 @@ class ScaleTool {
     this.itemGroup.addChild(boundsPath);
     this.itemGroup.insertBelow(this.itemToInsertBelow);
     this.itemGroup.data.isHelperItem = true;
+    this.isSkew = false;
+    this.skewCenter = false;
+    this.lastSkx = 0;
+    this.lastSky = 0;
+    this.skewBounds = this.itemGroup.bounds.clone();
   }
   onMouseDrag(event) {
     if (!this.active) return;
-    const point = event.point;
-    const bounds = Object(_view__WEBPACK_IMPORTED_MODULE_2__["getActionBounds"])(this.isBitmap);
-    point.x = Math.max(bounds.left, Math.min(point.x, bounds.right));
-    point.y = Math.max(bounds.top, Math.min(point.y, bounds.bottom));
-    if (!this.lastPoint) this.lastPoint = event.lastPoint;
-    const delta = point.subtract(this.lastPoint);
-    this.lastPoint = point;
-    if (event.modifiers.alt) {
-      this.centered = true;
-      this.itemGroup.position = this.origCenter;
-      this.pivot = this.origCenter;
-    } else {
-      if (this.centered) {
-        // Reset position if we were just in alt
+    const skewBounds = this.skewBounds;
+    const doShear = (skx, sky) => {
+      if (skx === 0 && sky === 0) return;
+      let offcenterPosition;
+      if (!this.skewCenter) {
+        switch (this._getRectCornerNameByIndex(this.index)) {
+          case 'topCenter':
+          case 'leftCenter':
+            offcenterPosition = this.itemGroup.position.add(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(skewBounds.width / 2, skewBounds.height / 2));
+            break;
+          case 'bottomCenter':
+          case 'rightCenter':
+            offcenterPosition = this.itemGroup.position.subtract(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(skewBounds.width / 2, skewBounds.height / 2));
+            break;
+        }
+      }
+      const position = this.skewCenter ? this.itemGroup.position : offcenterPosition;
+      const shearMult = this.skewCenter ? 2 : 1;
+      // swap width and height because apparently
+      // shearing is based on the dimension perpendicular
+      // to the one that is being skewed
+      const shearX = skx / skewBounds.height * shearMult;
+      const shearY = sky / skewBounds.width * shearMult;
+      this.itemGroup.shear(shearX, shearY, position);
+      if (this.selectionAnchor) {
+        this.selectionAnchor.shear(-shearX, -shearY);
+      }
+    };
+
+    // Revert skew
+    doShear(-this.lastSkx, -this.lastSky);
+    this.skewCenter = event.modifiers.alt;
+    let skx = 0;
+    let sky = 0;
+    this.lastSkx = 0;
+    this.lastSky = 0;
+    if (event.modifiers.control && !this.isCorner) {
+      // Skew
+      if (this.isSkew === false) {
+        // Reset position
         this.centered = false;
         this.itemGroup.scale(1 / this.lastSx, 1 / this.lastSy, this.pivot);
         if (this.selectionAnchor) {
@@ -199527,36 +203588,86 @@ class ScaleTool {
         this.lastSx = 1;
         this.lastSy = 1;
       }
-      this.pivot = this.origPivot;
+      const delta = event.point.subtract(this.pivot);
+      switch (this._getRectCornerNameByIndex(this.index)) {
+        case 'topCenter':
+          delta.x *= -1;
+          delta.y = 0;
+          break;
+        case 'bottomCenter':
+          delta.y = 0;
+          break;
+        case 'leftCenter':
+          delta.y *= -1;
+          delta.x = 0;
+          break;
+        case 'rightCenter':
+          delta.x = 0;
+          break;
+        default:
+          delta.x = 0;
+          delta.y = 0;
+      }
+      skx = delta.x;
+      sky = delta.y;
+      doShear(skx, sky);
+    } else {
+      // Scale
+      const point = event.point;
+      const bounds = Object(_view__WEBPACK_IMPORTED_MODULE_2__["getActionBounds"])(this.isBitmap);
+      point.x = Math.max(bounds.left, Math.min(point.x, bounds.right));
+      point.y = Math.max(bounds.top, Math.min(point.y, bounds.bottom));
+      if (!this.lastPoint) this.lastPoint = event.lastPoint;
+      const delta = point.subtract(this.lastPoint);
+      this.lastPoint = point;
+      if (event.modifiers.alt) {
+        this.centered = true;
+        this.itemGroup.position = this.origCenter;
+        this.pivot = this.origCenter;
+      } else {
+        if (this.centered) {
+          // Reset position if we were just in alt
+          this.centered = false;
+          this.itemGroup.scale(1 / this.lastSx, 1 / this.lastSy, this.pivot);
+          if (this.selectionAnchor) {
+            this.selectionAnchor.scale(this.lastSx, this.lastSy);
+          }
+          this.lastSx = 1;
+          this.lastSy = 1;
+        }
+        this.pivot = this.origPivot;
+      }
+      this.corner = this.corner.add(delta);
+      let size = this.corner.subtract(this.pivot);
+      if (event.modifiers.alt) {
+        size = size.multiply(2);
+      }
+      let sx = 1.0;
+      let sy = 1.0;
+      if (Math.abs(this.origSize.x) > 0.0000001) {
+        sx = size.x / this.origSize.x;
+      }
+      if (Math.abs(this.origSize.y) > 0.0000001) {
+        sy = size.y / this.origSize.y;
+      }
+      const signx = sx > 0 ? 1 : -1;
+      const signy = sy > 0 ? 1 : -1;
+      if (this.isCorner && !event.modifiers.shift) {
+        sx = sy = Math.max(Math.abs(sx), Math.abs(sy));
+        sx *= signx;
+        sy *= signy;
+      }
+      sx = signx * Math.max(Math.abs(sx), MIN_SCALE_FACTOR);
+      sy = signy * Math.max(Math.abs(sy), MIN_SCALE_FACTOR);
+      this.itemGroup.scale(sx / this.lastSx, sy / this.lastSy, this.pivot);
+      if (this.selectionAnchor) {
+        this.selectionAnchor.scale(this.lastSx / sx, this.lastSy / sy);
+      }
+      this.lastSx = sx;
+      this.lastSy = sy;
     }
-    this.corner = this.corner.add(delta);
-    let size = this.corner.subtract(this.pivot);
-    if (event.modifiers.alt) {
-      size = size.multiply(2);
-    }
-    let sx = 1.0;
-    let sy = 1.0;
-    if (Math.abs(this.origSize.x) > 0.0000001) {
-      sx = size.x / this.origSize.x;
-    }
-    if (Math.abs(this.origSize.y) > 0.0000001) {
-      sy = size.y / this.origSize.y;
-    }
-    const signx = sx > 0 ? 1 : -1;
-    const signy = sy > 0 ? 1 : -1;
-    if (this.isCorner && !event.modifiers.shift) {
-      sx = sy = Math.max(Math.abs(sx), Math.abs(sy));
-      sx *= signx;
-      sy *= signy;
-    }
-    sx = signx * Math.max(Math.abs(sx), MIN_SCALE_FACTOR);
-    sy = signy * Math.max(Math.abs(sy), MIN_SCALE_FACTOR);
-    this.itemGroup.scale(sx / this.lastSx, sy / this.lastSy, this.pivot);
-    if (this.selectionAnchor) {
-      this.selectionAnchor.scale(this.lastSx / sx, this.lastSy / sy);
-    }
-    this.lastSx = sx;
-    this.lastSy = sy;
+    this.lastSkx = skx;
+    this.lastSky = sky;
   }
   onMouseUp() {
     if (!this.active) return;
@@ -200449,7 +204560,7 @@ const endPointHit = function endPointHit(point, tolerance, excludePath) {
 /*!*************************************************************!*\
   !*** ./node_modules/scratch-paint/src/helper/style-path.js ***!
   \*************************************************************/
-/*! exports provided: applyColorToSelection, applyGradientTypeToSelection, applyStrokeWidthToSelection, createGradientObject, getColorsFromSelection, generateSecondaryColor, MIXED, styleBlob, styleShape, styleCursorPreview, swapColorsInSelection */
+/*! exports provided: applyColorToSelection, applyGradientTypeToSelection, applyStrokeWidthToSelection, createGradientObject, getColorsFromSelection, generateSecondaryColor, MIXED, styleBlob, styleShape, stylePath, styleCursorPreview, swapColorsInSelection */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -200463,6 +204574,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MIXED", function() { return MIXED; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styleBlob", function() { return styleBlob; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styleShape", function() { return styleShape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "stylePath", function() { return stylePath; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styleCursorPreview", function() { return styleCursorPreview; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "swapColorsInSelection", function() { return swapColorsInSelection; });
 /* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
@@ -201040,6 +205152,11 @@ const styleBlob = function styleBlob(path, options) {
     path.fillColor = 'black';
   }
 };
+const stylePath = function stylePath(path, strokeColor, strokeWidth) {
+  // Make sure a visible line is drawn
+  path.setStrokeColor(strokeColor === MIXED || strokeColor === null ? 'black' : strokeColor);
+  path.setStrokeWidth(strokeWidth === null || strokeWidth === 0 ? 1 : strokeWidth);
+};
 const styleCursorPreview = function styleCursorPreview(path, options) {
   if (options.isEraser) {
     path.fillColor = 'white';
@@ -201070,9 +205187,296 @@ const styleShape = function styleShape(path, options) {
       );
     }
   }
-  if (Object.prototype.hasOwnProperty.call(options, 'strokeWidth')) path.strokeWidth = options.strokeWidth;
+  if (options.hasOwnProperty('strokeWidth')) path.strokeWidth = options.strokeWidth;
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/helper/tools/arrow-tool.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/tools/arrow-tool.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _style_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../math */ "./node_modules/scratch-paint/src/helper/math.js");
+/* harmony import */ var _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../selection-tools/bounding-box-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js");
+/* harmony import */ var _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../selection-tools/nudge-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/nudge-tool.js");
+
+
+
+
+
+
+
+const constructArrowPath = (left, lineWidth, lineLength, headWidth, headLength) => {
+  if (typeof lineWidth !== "number") {
+    lineWidth = 24;
+  }
+  if (typeof lineLength !== "number") {
+    lineLength = 60;
+  }
+  if (typeof headWidth !== "number") {
+    headWidth = 60;
+  }
+  if (typeof headLength !== "number") {
+    headLength = 60;
+  }
+  if (left) {
+    return "M 0 ".concat(lineWidth, " H ").concat(0 - lineLength, " V ").concat(headWidth, " L ").concat(0 - (lineLength + headLength), " 0 L ").concat(0 - lineLength, " ").concat(0 - headWidth, " V ").concat(0 - lineWidth, " H 0 Z");
+  }
+  return "M 0 ".concat(0 - lineWidth, " H ").concat(lineLength, " V ").concat(0 - headWidth, " L ").concat(lineLength + headLength, " 0 L ").concat(lineLength, " ").concat(headWidth, " V ").concat(lineWidth, " H 0 Z");
+};
+
+/**
+ * Tool for drawing arrows.
+ */
+class ArrowTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
+  static get TOLERANCE() {
+    return 2;
+  }
+  /**
+   * @param {function} setSelectedItems Callback to set the set of selected items in the Redux state
+   * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
+   * @param {function} setCursor Callback to set the visible mouse cursor
+   * @param {!function} onUpdateImage A callback to call when the image visibly changes
+   */
+  constructor(setSelectedItems, clearSelectedItems, setCursor, onUpdateImage) {
+    super();
+    this.setSelectedItems = setSelectedItems;
+    this.clearSelectedItems = clearSelectedItems;
+    this.onUpdateImage = onUpdateImage;
+    this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].ARROW, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
+    const nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].ARROW, this.boundingBoxTool, onUpdateImage);
+
+    // We have to set these functions instead of just declaring them because
+    // paper.js tools hook up the listeners in the setter functions.
+    this.onMouseDown = this.handleMouseDown;
+    this.onMouseMove = this.handleMouseMove;
+    this.onMouseDrag = this.handleMouseDrag;
+    this.onMouseUp = this.handleMouseUp;
+    this.onKeyUp = nudgeTool.onKeyUp;
+    this.onKeyDown = nudgeTool.onKeyDown;
+    this.tri = null;
+    this.colorState = null;
+    this.isBoundingBoxMode = null;
+    this.active = false;
+    this.canModifyState = true;
+    this.arrowPathState = {
+      length: 60,
+      angle: 0,
+      width: 24,
+      head: {
+        length: 60,
+        width: 60
+      }
+    };
+    this.arrowPathLocked = false;
+    this.arrowPathLockedState = {};
+    this.arrowPathLockedPositionSet = false;
+    this.arrowPathLockedPosition = {
+      x: 0,
+      y: 0
+    };
+  }
+  getHitOptions() {
+    return {
+      segments: true,
+      stroke: true,
+      curves: true,
+      fill: true,
+      guide: false,
+      match: hitResult => hitResult.item.data && (hitResult.item.data.isScaleHandle || hitResult.item.data.isRotHandle) || hitResult.item.selected,
+      // Allow hits on bounding box and selected only
+      tolerance: ArrowTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom
+    };
+  }
+  /**
+   * Should be called if the selection changes to update the bounds of the bounding box.
+   * @param {Array<paper.Item>} selectedItems Array of selected items.
+   */
+  onSelectionChanged(selectedItems) {
+    this.boundingBoxTool.onSelectionChanged(selectedItems);
+  }
+  setColorState(colorState) {
+    this.colorState = colorState;
+  }
+  handleMouseDown(event) {
+    if (event.event.button > 0) return; // only first mouse button
+    this.active = true;
+    const pathOptions = {
+      length: 60,
+      angle: 0,
+      width: 24,
+      head: {
+        length: 60,
+        width: 60
+      }
+    };
+    this.arrowPathState = pathOptions;
+    this.canModifyState = true;
+    this.arrowPathLocked = false;
+    this.arrowPathLockedState = {};
+    this.arrowPathLockedPositionSet = false;
+    this.arrowPathLockedPosition = {
+      x: 0,
+      y: 0
+    };
+    if (this.boundingBoxTool.onMouseDown(event, false /* clone */, false /* multiselect */, false /* doubleClicked */, this.getHitOptions())) {
+      this.isBoundingBoxMode = true;
+    } else {
+      this.isBoundingBoxMode = false;
+      Object(_selection__WEBPACK_IMPORTED_MODULE_3__["clearSelection"])(this.clearSelectedItems);
+    }
+  }
+  radToDeg(rad) {
+    return rad * 180 / Math.PI;
+  }
+  calculateDirection(x1, y1, x2, y2) {
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const direction = 90 - this.radToDeg(Math.atan2(dy, dx));
+    return direction;
+  }
+  calculateDistance(x1, y1, x2, y2) {
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+  handleMouseDrag(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseDrag(event);
+      return;
+    }
+    if (this.tri) {
+      this.tri.remove();
+    }
+
+    // set some stuff for locking if alt is pressed
+    // alt allows other pieces of the arrow to be modified
+    const pathOptions = this.arrowPathState;
+    if (event.modifiers.alt) {
+      this.canModifyState = false;
+      this.arrowPathLocked = true;
+      if (!this.arrowPathLockedPositionSet) {
+        this.arrowPathLockedPosition = {
+          x: event.point.x,
+          y: event.point.y
+        };
+      }
+      this.arrowPathLockedPositionSet = true;
+    } else {
+      this.canModifyState = true;
+      this.arrowPathLocked = false;
+      this.arrowPathLockedPositionSet = false;
+      this.arrowPathLockedPosition = {
+        x: 0,
+        y: 0
+      };
+    }
+    if (this.canModifyState) {
+      const x1 = event.downPoint.x;
+      const y1 = event.downPoint.y;
+      const x2 = event.point.x;
+      const y2 = event.point.y;
+      pathOptions.length = this.calculateDistance(x1, y1, x2, y2);
+    }
+    if (this.canModifyState) {
+      const x1 = event.downPoint.x;
+      const y1 = event.downPoint.y;
+      const x2 = event.point.x;
+      const y2 = event.point.y;
+      pathOptions.angle = 90 - this.calculateDirection(x1, y1, x2, y2);
+      if (event.modifiers.shift) {
+        pathOptions.angle = Math.round(pathOptions.angle / 360 * 8) * 45;
+      }
+    }
+
+    // set extra modifications
+    if (event.modifiers.alt) {
+      if (event.modifiers.shift) {
+        // edit arrow point
+        const x1 = this.arrowPathLockedPosition.x;
+        const y1 = this.arrowPathLockedPosition.y;
+        const x2 = event.point.x;
+        const y2 = event.point.y;
+        pathOptions.head.length = this.calculateDistance(x1, y1, x2, y1);
+        pathOptions.head.width = this.calculateDistance(x1, y1, x1, y2);
+      } else {
+        // edit arrow width
+        const x1 = this.arrowPathLockedPosition.x;
+        const y1 = this.arrowPathLockedPosition.y;
+        const x2 = event.point.x;
+        const y2 = event.point.y;
+        pathOptions.width = this.calculateDistance(x1, y1, x2, y2);
+      }
+    }
+    this.tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path(constructArrowPath(event.modifiers.control, pathOptions.width, pathOptions.length, pathOptions.head.width, pathOptions.head.length));
+
+    // create new position
+    if (!this.arrowPathLocked && this.arrowPathLockedState) {
+      this.tri.position = event.downPoint;
+      const dimensions = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(event.point.getDistance(event.downPoint), 0);
+      this.tri.position = event.downPoint.add(dimensions.multiply(0.5));
+    } else if (this.arrowPathLocked) {
+      this.tri.position = this.arrowPathLockedState;
+    }
+    if (this.canModifyState) {
+      this.tri.rotate(pathOptions.angle, event.downPoint);
+    }
+    this.arrowPathLockedState = {
+      x: this.tri.position.x,
+      y: this.tri.position.y
+    };
+    // console.log(this.arrowPathLockedState)
+
+    Object(_style_path__WEBPACK_IMPORTED_MODULE_2__["styleShape"])(this.tri, this.colorState);
+  }
+  handleMouseUp(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseUp(event);
+      this.isBoundingBoxMode = null;
+      return;
+    }
+    this.arrowPathLockedPositionSet = false;
+    this.arrowPathLockedPosition = {
+      x: 0,
+      y: 0
+    };
+    if (this.tri) {
+      if (this.tri.area < ArrowTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
+        // Tiny arrow created unintentionally?
+        this.tri.remove();
+        this.tri = null;
+      } else {
+        this.tri.selected = true;
+        this.setSelectedItems();
+        this.onUpdateImage();
+        this.tri = null;
+      }
+    }
+    this.active = false;
+  }
+  handleMouseMove(event) {
+    this.boundingBoxTool.onMouseMove(event, this.getHitOptions());
+  }
+  deactivateTool() {
+    this.boundingBoxTool.deactivateTool();
+  }
+}
+/* harmony default export */ __webpack_exports__["default"] = (ArrowTool);
 
 /***/ }),
 
@@ -201617,6 +206021,204 @@ class OvalTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/helper/tools/pen-tool.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/tools/pen-tool.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _snapping__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../snapping */ "./node_modules/scratch-paint/src/helper/snapping.js");
+/* harmony import */ var _guides__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../guides */ "./node_modules/scratch-paint/src/helper/guides.js");
+
+
+
+
+
+/**
+ * Tool to handle freehand drawing of lines.
+ */
+class PenTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
+  static get SNAP_TOLERANCE() {
+    return 5;
+  }
+
+  /**
+   * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
+   * @param {!function} onUpdateSvg A callback to call when the image visibly changes
+   */
+  constructor(clearSelectedItems, onUpdateSvg) {
+    super();
+    this.clearSelectedItems = clearSelectedItems;
+    this.onUpdateSvg = onUpdateSvg;
+    this.colorState = null;
+    this.path = null;
+    this.hitResult = null;
+
+    // Piece of whole path that was added by last stroke. Used to smooth just the added part.
+    this.subpath = null;
+    this.subpathIndex = 0;
+
+    // We have to set these functions instead of just declaring them because
+    // paper.js tools hook up the listeners in the setter functions.
+    this.onMouseDown = this.handleMouseDown;
+    this.onMouseMove = this.handleMouseMove;
+    this.onMouseDrag = this.handleMouseDrag;
+    this.onMouseUp = this.handleMouseUp;
+    this.fixedDistance = 2;
+    /** Smaller numbers match the line more closely, larger numbers for smoother curves */
+    this.simplifySize = 2;
+  }
+  setColorState(colorState) {
+    this.colorState = colorState;
+  }
+  setSimplifySize(simplifySize) {
+    this.simplifySize = simplifySize;
+  }
+  drawHitPoint(hitResult) {
+    // If near another path's endpoint, draw hit point to indicate that paths would merge
+    if (hitResult) {
+      const hitPath = hitResult.path;
+      if (hitResult.isFirst) {
+        Object(_guides__WEBPACK_IMPORTED_MODULE_3__["drawHitPoint"])(hitPath.firstSegment.point);
+      } else {
+        Object(_guides__WEBPACK_IMPORTED_MODULE_3__["drawHitPoint"])(hitPath.lastSegment.point);
+      }
+    }
+  }
+  handleMouseDown(event) {
+    if (event.event.button > 0) return; // only first mouse button
+    this.subpath = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path({
+      insert: false
+    });
+    this.subpath.strokeCap = 'round';
+
+    // If you click near a point, continue that line instead of making a new line
+    this.hitResult = Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["endPointHit"])(event.point, PenTool.SNAP_TOLERANCE);
+    if (this.hitResult) {
+      this.path = this.hitResult.path;
+      Object(_style_path__WEBPACK_IMPORTED_MODULE_1__["styleShape"])(this.path, {
+        fillColor: null,
+        strokeColor: this.colorState.strokeColor,
+        strokeWidth: this.colorState.strokeWidth
+      });
+      if (this.hitResult.isFirst) {
+        this.path.reverse();
+      }
+      this.subpathIndex = this.path.segments.length;
+      this.path.lastSegment.handleOut = null; // Don't interfere with the curvature of the existing path
+      this.path.lastSegment.handleIn = null;
+    }
+
+    // If not near other path, start a new path
+    if (!this.path) {
+      this.path = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path();
+      Object(_style_path__WEBPACK_IMPORTED_MODULE_1__["styleShape"])(this.path, {
+        fillColor: null,
+        strokeColor: this.colorState.strokeColor,
+        strokeWidth: this.colorState.strokeWidth
+      });
+      this.path.strokeCap = 'round';
+      this.path.add(event.point);
+      this.subpath.add(event.point);
+      _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.draw();
+    }
+  }
+  handleMouseMove(event) {
+    // If near another path's endpoint, or this path's beginpoint, clip to it to suggest
+    // joining/closing the paths.
+    if (this.hitResult) {
+      Object(_guides__WEBPACK_IMPORTED_MODULE_3__["removeHitPoint"])();
+    }
+    this.hitResult = Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["endPointHit"])(event.point, PenTool.SNAP_TOLERANCE);
+    this.drawHitPoint(this.hitResult);
+  }
+  handleMouseDrag(event) {
+    if (event.event.button > 0) return; // only first mouse button
+
+    // If near another path's endpoint, or this path's beginpoint, highlight it to suggest
+    // joining/closing the paths.
+    if (this.hitResult) {
+      Object(_guides__WEBPACK_IMPORTED_MODULE_3__["removeHitPoint"])();
+      this.hitResult = null;
+    }
+    if (this.path && !this.path.closed && this.path.segments.length > 3 && Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["touching"])(this.path.firstSegment.point, event.point, PenTool.SNAP_TOLERANCE)) {
+      this.hitResult = {
+        path: this.path,
+        segment: this.path.firstSegment,
+        isFirst: true
+      };
+    } else {
+      this.hitResult = Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["endPointHit"])(event.point, PenTool.SNAP_TOLERANCE, this.path);
+    }
+    if (this.hitResult) {
+      this.drawHitPoint(this.hitResult);
+    }
+    this.path.add(event.point);
+    this.subpath.add(event.point);
+  }
+  handleMouseUp(event) {
+    if (event.event.button > 0) return; // only first mouse button
+
+    // If I single clicked, don't do anything
+    if (!this.hitResult && (
+    // Might be connecting 2 points that are very close
+    this.path.segments.length < 2 || this.path.segments.length === 2 && Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["touching"])(this.path.firstSegment.point, event.point, PenTool.SNAP_TOLERANCE))) {
+      this.path.remove();
+      this.path = null;
+      return;
+    }
+
+    // Smooth only the added portion
+    const hasStartConnection = this.subpathIndex > 0;
+    const hasEndConnection = !!this.hitResult;
+    this.path.removeSegments(this.subpathIndex);
+    if (this.simplifySize > 0) {
+      this.subpath.simplify(this.simplifySize);
+    }
+    if (hasStartConnection && this.subpath.length > 0) {
+      this.subpath.removeSegment(0);
+    }
+    if (hasEndConnection && this.subpath.length > 0) {
+      this.subpath.removeSegment(this.subpath.length - 1);
+    }
+    this.path.insertSegments(this.subpathIndex, this.subpath.segments);
+    this.subpath = null;
+    this.subpathIndex = 0;
+
+    // If I intersect other line end points, join or close
+    if (this.hitResult) {
+      if (Object(_snapping__WEBPACK_IMPORTED_MODULE_2__["touching"])(this.path.firstSegment.point, this.hitResult.segment.point, PenTool.SNAP_TOLERANCE)) {
+        // close path
+        this.path.closed = true;
+      } else {
+        // joining two paths
+        if (!this.hitResult.isFirst) {
+          this.hitResult.path.reverse();
+        }
+        this.path.join(this.hitResult.path);
+      }
+      Object(_guides__WEBPACK_IMPORTED_MODULE_3__["removeHitPoint"])();
+      this.hitResult = null;
+    }
+    if (this.path) {
+      this.onUpdateSvg();
+      this.path = null;
+    }
+  }
+  deactivateTool() {
+    this.fixedDistance = 1;
+  }
+}
+/* harmony default export */ __webpack_exports__["default"] = (PenTool);
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/helper/tools/rect-tool.js":
 /*!******************************************************************!*\
   !*** ./node_modules/scratch-paint/src/helper/tools/rect-tool.js ***!
@@ -201675,6 +206277,7 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.colorState = null;
     this.isBoundingBoxMode = null;
     this.active = false;
+    this.roundedCornerSize = 0;
   }
   getHitOptions() {
     return {
@@ -201697,6 +206300,20 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
   setColorState(colorState) {
     this.colorState = colorState;
+  }
+  setRoundedCornerSize(newCornerSize) {
+    this.roundedCornerSize = newCornerSize;
+
+    // if editing a rect, update the curves
+    const oldRect = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldRect) {
+      const rounded = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(oldRect.bounds, newCornerSize);
+      oldRect.segments = rounded.segments;
+      oldRect.closed = true;
+      rounded.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
   }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
@@ -201723,7 +206340,7 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     if (event.modifiers.shift) {
       rect.size = squareDimensions.size.abs();
     }
-    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect);
+    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect, this.roundedCornerSize === 0 ? null : this.roundedCornerSize);
     if (event.modifiers.alt) {
       this.rect.position = event.downPoint;
     } else if (event.modifiers.shift) {
@@ -201764,6 +206381,330 @@ class RectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
 }
 /* harmony default export */ __webpack_exports__["default"] = (RectTool);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/tools/rounded-rect-tool.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _style_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../math */ "./node_modules/scratch-paint/src/helper/math.js");
+/* harmony import */ var _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../selection-tools/bounding-box-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js");
+/* harmony import */ var _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../selection-tools/nudge-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/nudge-tool.js");
+
+
+
+
+
+
+
+
+/**
+ * Tool for drawing rounded rectangles.
+ */
+class RoundedRectTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
+  static get TOLERANCE() {
+    return 2;
+  }
+  /**
+   * @param {function} setSelectedItems Callback to set the set of selected items in the Redux state
+   * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
+   * @param {function} setCursor Callback to set the visible mouse cursor
+   * @param {!function} onUpdateImage A callback to call when the image visibly changes
+   */
+  constructor(setSelectedItems, clearSelectedItems, setCursor, onUpdateImage) {
+    super();
+    this.setSelectedItems = setSelectedItems;
+    this.clearSelectedItems = clearSelectedItems;
+    this.onUpdateImage = onUpdateImage;
+    this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].ROUNDED_RECT, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
+    const nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].ROUNDED_RECT, this.boundingBoxTool, onUpdateImage);
+
+    // We have to set these functions instead of just declaring them because
+    // paper.js tools hook up the listeners in the setter functions.
+    this.onMouseDown = this.handleMouseDown;
+    this.onMouseMove = this.handleMouseMove;
+    this.onMouseDrag = this.handleMouseDrag;
+    this.onMouseUp = this.handleMouseUp;
+    this.onKeyUp = nudgeTool.onKeyUp;
+    this.onKeyDown = nudgeTool.onKeyDown;
+    this.rect = null;
+    this.colorState = null;
+    this.isBoundingBoxMode = null;
+    this.active = false;
+    this.roundedCornerSize = 0;
+  }
+  getHitOptions() {
+    return {
+      segments: true,
+      stroke: true,
+      curves: true,
+      fill: true,
+      guide: false,
+      match: hitResult => hitResult.item.data && (hitResult.item.data.isScaleHandle || hitResult.item.data.isRotHandle) || hitResult.item.selected,
+      // Allow hits on bounding box and selected only
+      tolerance: RoundedRectTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom
+    };
+  }
+  /**
+   * Should be called if the selection changes to update the bounds of the bounding box.
+   * @param {Array<paper.Item>} selectedItems Array of selected items.
+   */
+  onSelectionChanged(selectedItems) {
+    this.boundingBoxTool.onSelectionChanged(selectedItems);
+  }
+  setColorState(colorState) {
+    this.colorState = colorState;
+  }
+  setRoundedCornerSize(newCornerSize) {
+    this.roundedCornerSize = newCornerSize;
+
+    // if editing a rect, update the curves
+    const oldRect = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldRect) {
+      const rounded = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(oldRect.bounds, newCornerSize);
+      oldRect.segments = rounded.segments;
+      oldRect.closed = true;
+      rounded.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
+  }
+  handleMouseDown(event) {
+    if (event.event.button > 0) return; // only first mouse button
+    this.active = true;
+    if (this.boundingBoxTool.onMouseDown(event, false /* clone */, false /* multiselect */, false /* doubleClicked */, this.getHitOptions())) {
+      this.isBoundingBoxMode = true;
+    } else {
+      this.isBoundingBoxMode = false;
+      Object(_selection__WEBPACK_IMPORTED_MODULE_3__["clearSelection"])(this.clearSelectedItems);
+    }
+  }
+  handleMouseDrag(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseDrag(event);
+      return;
+    }
+    if (this.rect) {
+      this.rect.remove();
+    }
+    const rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Rectangle(event.downPoint, event.point);
+    const squareDimensions = Object(_math__WEBPACK_IMPORTED_MODULE_4__["getSquareDimensions"])(event.downPoint, event.point);
+    if (event.modifiers.shift) {
+      rect.size = squareDimensions.size.abs();
+    }
+    this.rect = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path.Rectangle(rect, this.roundedCornerSize === 0 ? null : this.roundedCornerSize);
+    if (event.modifiers.alt) {
+      this.rect.position = event.downPoint;
+    } else if (event.modifiers.shift) {
+      this.rect.position = squareDimensions.position;
+    } else {
+      const dimensions = event.point.subtract(event.downPoint);
+      this.rect.position = event.downPoint.add(dimensions.multiply(0.5));
+    }
+    Object(_style_path__WEBPACK_IMPORTED_MODULE_2__["styleShape"])(this.rect, this.colorState);
+  }
+  handleMouseUp(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseUp(event);
+      this.isBoundingBoxMode = null;
+      return;
+    }
+    if (this.rect) {
+      if (this.rect.area < RoundedRectTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
+        // Tiny rectangle created unintentionally?
+        this.rect.remove();
+        this.rect = null;
+      } else {
+        this.rect.selected = true;
+        this.setSelectedItems();
+        this.onUpdateImage();
+        this.rect = null;
+      }
+    }
+    this.active = false;
+  }
+  handleMouseMove(event) {
+    this.boundingBoxTool.onMouseMove(event, this.getHitOptions());
+  }
+  deactivateTool() {
+    this.boundingBoxTool.deactivateTool();
+  }
+}
+/* harmony default export */ __webpack_exports__["default"] = (RoundedRectTool);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/helper/tools/sussy-tool.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/tools/sussy-tool.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _style_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../math */ "./node_modules/scratch-paint/src/helper/math.js");
+/* harmony import */ var _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../selection-tools/bounding-box-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js");
+/* harmony import */ var _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../selection-tools/nudge-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/nudge-tool.js");
+/* harmony import */ var _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../selectable-shapes */ "./node_modules/scratch-paint/src/helper/selectable-shapes.js");
+
+
+
+
+
+
+
+
+
+/**
+ * Tool for drawing sussys.
+ */
+class SussyTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
+  static get TOLERANCE() {
+    return 2;
+  }
+  /**
+   * @param {function} setSelectedItems Callback to set the set of selected items in the Redux state
+   * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
+   * @param {function} setCursor Callback to set the visible mouse cursor
+   * @param {!function} onUpdateImage A callback to call when the image visibly changes
+   */
+  constructor(setSelectedItems, clearSelectedItems, setCursor, onUpdateImage) {
+    super();
+    this.setSelectedItems = setSelectedItems;
+    this.clearSelectedItems = clearSelectedItems;
+    this.onUpdateImage = onUpdateImage;
+    this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].SUSSY, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
+    const nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].SUSSY, this.boundingBoxTool, onUpdateImage);
+
+    // We have to set these functions instead of just declaring them because
+    // paper.js tools hook up the listeners in the setter functions.
+    this.onMouseDown = this.handleMouseDown;
+    this.onMouseMove = this.handleMouseMove;
+    this.onMouseDrag = this.handleMouseDrag;
+    this.onMouseUp = this.handleMouseUp;
+    this.onKeyUp = nudgeTool.onKeyUp;
+    this.onKeyDown = nudgeTool.onKeyDown;
+    this.sussy = null;
+    this.colorState = null;
+    this.isBoundingBoxMode = null;
+    this.active = false;
+    this.shape = "smile";
+  }
+  getHitOptions() {
+    return {
+      segments: true,
+      stroke: true,
+      curves: true,
+      fill: true,
+      guide: false,
+      match: hitResult => hitResult.item.data && (hitResult.item.data.isScaleHandle || hitResult.item.data.isRotHandle) || hitResult.item.selected,
+      // Allow hits on bounding box and selected only
+      tolerance: SussyTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom
+    };
+  }
+  /**
+   * Should be called if the selection changes to update the bounds of the bounding box.
+   * @param {Array<paper.Item>} selectedItems Array of selected items.
+   */
+  onSelectionChanged(selectedItems) {
+    this.boundingBoxTool.onSelectionChanged(selectedItems);
+  }
+  setColorState(colorState) {
+    this.colorState = colorState;
+  }
+  setShape(shape) {
+    // NOTE: Purposefully not doing live updates here since users probably dont want that for this tool.
+    this.shape = shape;
+  }
+  handleMouseDown(event) {
+    if (event.event.button > 0) return; // only first mouse button
+    this.active = true;
+    if (this.boundingBoxTool.onMouseDown(event, false /* clone */, false /* multiselect */, false /* doubleClicked */, this.getHitOptions())) {
+      this.isBoundingBoxMode = true;
+    } else {
+      this.isBoundingBoxMode = false;
+      Object(_selection__WEBPACK_IMPORTED_MODULE_3__["clearSelection"])(this.clearSelectedItems);
+    }
+  }
+  handleMouseDrag(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseDrag(event);
+      return;
+    }
+    if (this.sussy) {
+      this.sussy.remove();
+    }
+    const sussy = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Rectangle(event.downPoint, event.point);
+    const squareDimensions = Object(_math__WEBPACK_IMPORTED_MODULE_4__["getSquareDimensions"])(event.downPoint, event.point);
+    if (event.modifiers.shift) {
+      sussy.size = squareDimensions.size.abs();
+    }
+    const path = _selectable_shapes__WEBPACK_IMPORTED_MODULE_7__["selectablePaths"][this.shape];
+    this.sussy = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.CompoundPath(path);
+    this.sussy.bounds = sussy;
+    if (event.modifiers.alt) {
+      this.sussy.position = event.downPoint;
+    } else if (event.modifiers.shift) {
+      this.sussy.position = squareDimensions.position;
+    } else {
+      const dimensions = event.point.subtract(event.downPoint);
+      this.sussy.position = event.downPoint.add(dimensions.multiply(0.5));
+    }
+    Object(_style_path__WEBPACK_IMPORTED_MODULE_2__["styleShape"])(this.sussy, this.colorState);
+  }
+  handleMouseUp(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseUp(event);
+      this.isBoundingBoxMode = null;
+      return;
+    }
+    if (this.sussy) {
+      if (Math.abs(this.sussy.area) < SussyTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
+        // Tiny sussy created unintentionally?
+        this.sussy.remove();
+        this.sussy = null;
+      } else {
+        this.sussy.selected = true;
+        this.setSelectedItems();
+        this.onUpdateImage();
+        this.sussy = null;
+      }
+    }
+    this.active = false;
+  }
+  handleMouseMove(event) {
+    this.boundingBoxTool.onMouseMove(event, this.getHitOptions());
+  }
+  deactivateTool() {
+    this.boundingBoxTool.deactivateTool();
+  }
+}
+/* harmony default export */ __webpack_exports__["default"] = (SussyTool);
 
 /***/ }),
 
@@ -201834,9 +206775,10 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
    * @param {!function} onUpdateImage A callback to call when the image visibly changes
    * @param {!function} setTextEditTarget Call to set text editing target whenever text editing is active
    * @param {!function} changeFont Call to change the font in the dropdown
+   * @param {!function} changeAlignment Call to change the current text alignment
    * @param {?boolean} isBitmap True if text should be rasterized once it's deselected
    */
-  constructor(textAreaElement, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage, setTextEditTarget, changeFont, isBitmap) {
+  constructor(textAreaElement, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage, setTextEditTarget, changeFont, changeAlignment, isBitmap) {
     super();
     this.element = textAreaElement;
     this.setSelectedItems = setSelectedItems;
@@ -201844,6 +206786,7 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.onUpdateImage = onUpdateImage;
     this.setTextEditTarget = setTextEditTarget;
     this.changeFont = changeFont;
+    this.changeAlignment = changeAlignment;
     const paintMode = isBitmap ? _lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].BIT_TEXT : _lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].TEXT;
     this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_3__["default"](paintMode, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
     this.nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_4__["default"](paintMode, this.boundingBoxTool, onUpdateImage);
@@ -201919,6 +206862,13 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.fontFamily = font;
     this.setSelectedItems();
   }
+  setAlignment(alignment) {
+    this.alignment = alignment;
+    if (this.textBox) {
+      this.textBox.justification = alignment;
+    }
+    this.setSelectedItems();
+  }
   // Allow other tools to cancel text edit mode
   onTextEditCancelled() {
     if (this.mode !== TextTool.TEXT_EDIT_MODE) {
@@ -201944,8 +206894,11 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     // In RTL, the element is moved relative to its parent's right edge instead of its left
     // edge. We need to correct for this in order for the element to overlap the object in paper.
     let tx = 0;
-    if (this.rtl && this.element.parentElement) {
+    if (this.alignment === "right" && this.element.parentElement) {
       tx = -this.element.parentElement.clientWidth;
+    }
+    if (this.alignment === "center" && this.element.parentElement) {
+      tx = -this.element.parentElement.clientWidth / 2;
     }
     // The transform origin in paper is x at justification side, y at the baseline of the text.
     // The offset from (0, 0) to the upper left corner is recorded by internalBounds
@@ -201960,10 +206913,6 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
   setColorState(colorState) {
     this.colorState = colorState;
-  }
-  /** @param {boolean} isRtl True if paint editor is in right-to-left layout (e.g. Hebrew language) */
-  setRtl(isRtl) {
-    this.rtl = isRtl;
   }
   handleMouseMove(event) {
     const hitResults = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.hitTestAll(event.point, this.getTextEditHitOptions());
@@ -202091,8 +207040,11 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.height = "".concat(this.textBox.internalBounds.height, "px");
     // The transform origin needs to be updated in RTL because this.textBox.internalBounds.x
     // changes as you type
-    if (this.rtl) {
+    if (this.alignment === "right") {
       this.element.style.transformOrigin = "".concat(-this.textBox.internalBounds.x, "px ").concat(-this.textBox.internalBounds.y, "px");
+    }
+    if (this.alignment === "center") {
+      this.element.style.transformOrigin = "".concat(-this.textBox.internalBounds.x / 2, "px ").concat(-this.textBox.internalBounds.y, "px");
     }
   }
   beginSelect() {
@@ -202116,6 +207068,9 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     if (this.font !== this.textBox.font) {
       this.changeFont(this.textBox.font);
     }
+    if (this.alignment !== this.textBox.justification) {
+      this.changeAlignment(this.textBox.justification);
+    }
     this.element.style.fontSize = "".concat(this.textBox.fontSize, "px");
     this.element.style.lineHeight = this.textBox.leading / this.textBox.fontSize;
     const fillColor = getTextColor(textBox);
@@ -202123,12 +207078,7 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
     this.element.style.display = 'initial';
     this.element.value = textBox.content ? textBox.content : '';
     this.calculateMatrix(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.matrix);
-    if (this.rtl) {
-      // make both the textbox and the textarea element grow to the left
-      this.textBox.justification = 'right';
-    } else {
-      this.textBox.justification = 'left';
-    }
+    this.textBox.justification = this.alignment;
     this.element.focus({
       preventScroll: true
     });
@@ -202191,6 +207141,198 @@ class TextTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.T
   }
 }
 /* harmony default export */ __webpack_exports__["default"] = (TextTool);
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/helper/tools/triangle-tool.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/helper/tools/triangle-tool.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/paper */ "./node_modules/scratch-paint/node_modules/@turbowarp/paper/dist/paper-full.js");
+/* harmony import */ var _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_paper__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
+/* harmony import */ var _style_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style-path */ "./node_modules/scratch-paint/src/helper/style-path.js");
+/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../math */ "./node_modules/scratch-paint/src/helper/math.js");
+/* harmony import */ var _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../selection-tools/bounding-box-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/bounding-box-tool.js");
+/* harmony import */ var _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../selection-tools/nudge-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/nudge-tool.js");
+
+
+
+
+
+
+
+
+/**
+ * Tool for drawing triangles.
+ */
+class TriangleTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Tool {
+  static get TOLERANCE() {
+    return 2;
+  }
+  /**
+   * @param {function} setSelectedItems Callback to set the set of selected items in the Redux state
+   * @param {function} clearSelectedItems Callback to clear the set of selected items in the Redux state
+   * @param {function} setCursor Callback to set the visible mouse cursor
+   * @param {!function} onUpdateImage A callback to call when the image visibly changes
+   */
+  constructor(setSelectedItems, clearSelectedItems, setCursor, onUpdateImage) {
+    super();
+    this.setSelectedItems = setSelectedItems;
+    this.clearSelectedItems = clearSelectedItems;
+    this.onUpdateImage = onUpdateImage;
+    this.boundingBoxTool = new _selection_tools_bounding_box_tool__WEBPACK_IMPORTED_MODULE_5__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].TRIANGLE, setSelectedItems, clearSelectedItems, setCursor, onUpdateImage);
+    const nudgeTool = new _selection_tools_nudge_tool__WEBPACK_IMPORTED_MODULE_6__["default"](_lib_modes__WEBPACK_IMPORTED_MODULE_1__["default"].TRIANGLE, this.boundingBoxTool, onUpdateImage);
+
+    // We have to set these functions instead of just declaring them because
+    // paper.js tools hook up the listeners in the setter functions.
+    this.onMouseDown = this.handleMouseDown;
+    this.onMouseMove = this.handleMouseMove;
+    this.onMouseDrag = this.handleMouseDrag;
+    this.onMouseUp = this.handleMouseUp;
+    this.onKeyUp = nudgeTool.onKeyUp;
+    this.onKeyDown = nudgeTool.onKeyDown;
+    this.tri = null;
+    this.colorState = null;
+    this.isBoundingBoxMode = null;
+    this.active = false;
+    this.sideCount = 3;
+    this.pointCount = 1;
+  }
+  getHitOptions() {
+    return {
+      segments: true,
+      stroke: true,
+      curves: true,
+      fill: true,
+      guide: false,
+      match: hitResult => hitResult.item.data && (hitResult.item.data.isScaleHandle || hitResult.item.data.isRotHandle) || hitResult.item.selected,
+      // Allow hits on bounding box and selected only
+      tolerance: TriangleTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom
+    };
+  }
+  /**
+   * Should be called if the selection changes to update the bounds of the bounding box.
+   * @param {Array<paper.Item>} selectedItems Array of selected items.
+   */
+  onSelectionChanged(selectedItems) {
+    this.boundingBoxTool.onSelectionChanged(selectedItems);
+  }
+  setColorState(colorState) {
+    this.colorState = colorState;
+  }
+  setSideCount(sideCount) {
+    this.sideCount = sideCount;
+    this.updateExistingShape();
+  }
+  setPointCount(pointCount) {
+    this.pointCount = pointCount;
+    this.updateExistingShape();
+  }
+  calculateSegments() {
+    let segs = [];
+    for (let i = 0; i < this.sideCount; i++) {
+      let angle = i / this.sideCount * Math.PI * 2;
+      let angleIn = angle + 1 / this.sideCount * Math.PI;
+      segs.push(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(Math.sin(angle) * 50, -Math.cos(angle) * 50));
+      if (this.pointCount !== 1) {
+        segs.push(new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Point(Math.sin(angleIn) * 50 * this.pointCount, -Math.cos(angleIn) * 50 * this.pointCount));
+      }
+    }
+    return segs;
+  }
+  updateExistingShape() {
+    // if editing a tri, update the curves
+    const oldTri = _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.selectedItems[0];
+    if (oldTri) {
+      const path = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path({
+        segments: this.calculateSegments(),
+        closed: true
+      });
+      path.bounds = oldTri.bounds;
+      oldTri.segments = path.segments;
+      oldTri.closed = true;
+      path.remove();
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
+  }
+  handleMouseDown(event) {
+    if (event.event.button > 0) return; // only first mouse button
+    this.active = true;
+    if (this.boundingBoxTool.onMouseDown(event, false /* clone */, false /* multiselect */, false /* doubleClicked */, this.getHitOptions())) {
+      this.isBoundingBoxMode = true;
+    } else {
+      this.isBoundingBoxMode = false;
+      Object(_selection__WEBPACK_IMPORTED_MODULE_3__["clearSelection"])(this.clearSelectedItems);
+    }
+  }
+  handleMouseDrag(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseDrag(event);
+      return;
+    }
+    if (this.tri) {
+      this.tri.remove();
+    }
+    const bounds = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Rectangle(event.downPoint, event.point);
+    const squareDimensions = Object(_math__WEBPACK_IMPORTED_MODULE_4__["getSquareDimensions"])(event.downPoint, event.point);
+    if (event.modifiers.shift) {
+      bounds.size = squareDimensions.size.abs();
+    }
+    this.tri = new _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.Path({
+      segments: this.calculateSegments(),
+      closed: true
+    });
+    this.tri.bounds = bounds;
+    if (event.modifiers.alt) {
+      this.tri.position = event.downPoint;
+    } else if (event.modifiers.shift) {
+      this.tri.position = squareDimensions.position;
+    } else {
+      const dimensions = event.point.subtract(event.downPoint);
+      this.tri.position = event.downPoint.add(dimensions.multiply(0.5));
+    }
+    Object(_style_path__WEBPACK_IMPORTED_MODULE_2__["styleShape"])(this.tri, this.colorState);
+  }
+  handleMouseUp(event) {
+    if (event.event.button > 0 || !this.active) return; // only first mouse button
+
+    if (this.isBoundingBoxMode) {
+      this.boundingBoxTool.onMouseUp(event);
+      this.isBoundingBoxMode = null;
+      return;
+    }
+    if (this.tri) {
+      if (this.tri.area < TriangleTool.TOLERANCE / _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.view.zoom) {
+        // Tiny triangle created unintentionally?
+        this.tri.remove();
+        this.tri = null;
+      } else {
+        this.tri.selected = true;
+        this.setSelectedItems();
+        this.onUpdateImage();
+        this.tri = null;
+      }
+    }
+    this.active = false;
+  }
+  handleMouseMove(event) {
+    this.boundingBoxTool.onMouseMove(event, this.getHitOptions());
+  }
+  deactivateTool() {
+    this.boundingBoxTool.deactivateTool();
+  }
+}
+/* harmony default export */ __webpack_exports__["default"] = (TriangleTool);
 
 /***/ }),
 
@@ -202584,7 +207726,7 @@ const CopyPasteHOC = function CopyPasteHOC(WrappedComponent) {
   class CopyPasteWrapper extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
     constructor(props) {
       super(props);
-      lodash_bindall__WEBPACK_IMPORTED_MODULE_1___default()(this, ['handleCopy', 'handlePaste']);
+      lodash_bindall__WEBPACK_IMPORTED_MODULE_1___default()(this, ['handleCopy', 'handleCut', 'handlePaste']);
     }
     handleCopy() {
       let selectedItems = [];
@@ -202619,6 +207761,43 @@ const CopyPasteHOC = function CopyPasteHOC(WrappedComponent) {
       }
       this.props.setClipboardItems(clipboardItems);
     }
+    handleCut() {
+      let selectedItems = [];
+      if (this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_9__["default"].RESHAPE) {
+        const leafItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["getSelectedLeafItems"])();
+        // Copy root of compound paths
+        for (const item of leafItems) {
+          if (item.parent && item.parent instanceof _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.a.CompoundPath) {
+            selectedItems.push(item.parent);
+          } else {
+            selectedItems.push(item);
+          }
+        }
+      } else {
+        selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["getSelectedRootItems"])();
+      }
+      if (selectedItems.length === 0) {
+        if (Object(_lib_format__WEBPACK_IMPORTED_MODULE_8__["isBitmap"])(this.props.format)) {
+          const raster = Object(_helper_bitmap__WEBPACK_IMPORTED_MODULE_7__["getTrimmedRaster"])(false /* shouldInsert */);
+          if (!raster) return;
+          selectedItems.push(raster);
+        } else {
+          selectedItems = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["getAllRootItems"])();
+        }
+      }
+      const clipboardItems = [];
+      for (let i = 0; i < selectedItems.length; i++) {
+        const jsonItem = selectedItems[i].exportJSON({
+          asString: false
+        });
+        clipboardItems.push(jsonItem);
+      }
+      this.props.setClipboardItems(clipboardItems);
+      // delete items
+      if (Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["deleteSelection"])(this.props.mode, this.props.onUpdateImage)) {
+        Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["clearSelection"])(this.props.clearSelectedItems);
+      }
+    }
     handlePaste() {
       Object(_helper_selection__WEBPACK_IMPORTED_MODULE_6__["clearSelection"])(this.props.clearSelectedItems);
       if (this.props.clipboardItems.length === 0) return;
@@ -202650,6 +207829,7 @@ const CopyPasteHOC = function CopyPasteHOC(WrappedComponent) {
       const componentProps = lodash_omit__WEBPACK_IMPORTED_MODULE_4___default()(this.props, ['clearSelectedItems', 'clipboardItems', 'format', 'incrementPasteOffset', 'mode', 'pasteOffset', 'setClipboardItems', 'setSelectedItems']);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(WrappedComponent, _extends({
         onCopyToClipboard: this.handleCopy,
+        onCutToClipboard: this.handleCut,
         onPasteFromClipboard: this.handlePaste
       }, componentProps));
     }
@@ -203343,7 +208523,21 @@ const Fonts = {
   MARKER: 'Marker',
   CURLY: 'Curly',
   PIXEL: 'Pixel',
-  MOPED_LIKE: 'Scratch',
+  PLAYFUL: 'Playful',
+  BUBBLY: 'Bubbly',
+  BITSANDBYTES: 'Bits and Bytes',
+  TECHNOLOGICAL: 'Technological',
+  ARCADE: 'Arcade',
+  ARCHIVO: 'Archivo',
+  ARCHIVOBLACK: 'Archivo Black',
+  GOGONO: 'Gogono',
+  JUSTBUBBLE: 'Just Bubble',
+  LILITAONE: 'Lilita One Regular',
+  MINECRAFTER: 'Minecrafter',
+  OBELIXPRO: 'Obelix Pro',
+  JETBRAINSMONO: 'Jet Brains Mono',
+  SCRATCH: 'Scratch',
+  BRANCHES: 'Branches',
   CHINESE: '"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑"',
   JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
   KOREAN: 'Malgun Gothic'
@@ -203432,7 +208626,9 @@ const hideLabel = locale => localeTooBig.includes(locale);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  fullSizeEditorMinWidth: 1274,
+  fullSizeEditorMinWidth: 1150,
+  fullSizeEditorMinWidthExtraTools: 1575,
+  fullSizeEditorMinWidthExtraToolsCollapsed: 1445,
   referenceWidth: 480
 });
 
@@ -203611,6 +208807,22 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["defineMessages"
   text: {
     "id": "paint.textMode.text",
     "defaultMessage": "Text"
+  },
+  sussy: {
+    "id": "paint.shapeMode.shape",
+    "defaultMessage": "Shapes"
+  },
+  dragon: {
+    "id": "paint.dragonMode.dragon",
+    "defaultMessage": "Dragon"
+  },
+  triangle: {
+    "id": "paint.triangleMode.triangle",
+    "defaultMessage": "Triangle"
+  },
+  arrow: {
+    "id": "paint.arrowMode.arrow",
+    "defaultMessage": "Arrow"
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (messages);
@@ -203645,10 +208857,14 @@ const vectorModesObj = {
   FILL: null,
   SELECT: null,
   RESHAPE: null,
+  PEN: null,
   OVAL: null,
   RECT: null,
   ROUNDED_RECT: null,
-  TEXT: null
+  TEXT: null,
+  SUSSY: null,
+  TRIANGLE: null,
+  ARROW: null
 };
 const bitmapModesObj = {
   BIT_BRUSH: null,
@@ -203669,12 +208885,16 @@ const GradientToolsModes = keymirror__WEBPACK_IMPORTED_MODULE_0___default()({
   RESHAPE: null,
   OVAL: null,
   RECT: null,
+  ROUNDED_RECT: null,
   LINE: null,
   BIT_OVAL: null,
   BIT_RECT: null,
   BIT_SELECT: null,
   BIT_FILL: null,
-  TEXT: null
+  TEXT: null,
+  SUSSY: null,
+  TRIANGLE: null,
+  ARROW: null
 });
 
 
@@ -203823,11 +209043,49 @@ const setImportingImage = newImporting => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _turbowarp_nanolog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @turbowarp/nanolog */ "./node_modules/@turbowarp/nanolog/index.js");
-/* harmony import */ var _turbowarp_nanolog__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_turbowarp_nanolog__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var minilog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! minilog */ "./node_modules/scratch-paint/node_modules/minilog/lib/web/index.js");
+/* harmony import */ var minilog__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(minilog__WEBPACK_IMPORTED_MODULE_0__);
 
-_turbowarp_nanolog__WEBPACK_IMPORTED_MODULE_0___default.a.enable();
-/* harmony default export */ __webpack_exports__["default"] = (_turbowarp_nanolog__WEBPACK_IMPORTED_MODULE_0___default()('scratch-paint'));
+minilog__WEBPACK_IMPORTED_MODULE_0___default.a.enable();
+/* harmony default export */ __webpack_exports__["default"] = (minilog__WEBPACK_IMPORTED_MODULE_0___default()('scratch-paint'));
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/addon-util.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/addon-util.js ***!
+  \***************************************************************/
+/*! exports provided: default, toggleRoundedRectMode */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toggleRoundedRectMode", function() { return toggleRoundedRectMode; });
+const TOGGLE_ROUNDED_RECT_MODE = 'scratch-paint/addon-util/TOGGLE_ROUNDED_RECT_MODE';
+const initialState = {
+  showRoundedRectMode: false
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case TOGGLE_ROUNDED_RECT_MODE:
+      return {
+        showRoundedRectMode: action.enabled === true
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const toggleRoundedRectMode = function toggleRoundedRectMode(enabled) {
+  return {
+    type: TOGGLE_ROUNDED_RECT_MODE,
+    enabled: enabled
+  };
+};
+
 
 /***/ }),
 
@@ -203936,21 +209194,28 @@ const changeBitEraserSize = function changeBitEraserSize(eraserSize) {
 /*!***************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/brush-mode.js ***!
   \***************************************************************/
-/*! exports provided: default, changeBrushSize */
+/*! exports provided: default, changeBrushSize, changeSimplifySize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeBrushSize", function() { return changeBrushSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
 
 const CHANGE_BRUSH_SIZE = 'scratch-paint/brush-mode/CHANGE_BRUSH_SIZE';
+const CHANGE_SIMPLIFY_SIZE = 'scratch-paint/brush-mode/CHANGE_SIMPLIFY_SIZE';
 const initialState = {
-  brushSize: 10
+  brushSize: 10,
+  simplifySize: 10
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
+  let {
+    simplifySize,
+    brushSize
+  } = state;
   switch (action.type) {
     case CHANGE_BRUSH_SIZE:
       if (isNaN(action.brushSize)) {
@@ -203958,7 +209223,17 @@ const reducer = function reducer(state, action) {
         return state;
       }
       return {
-        brushSize: Math.max(1, action.brushSize)
+        brushSize: Math.max(1, action.brushSize),
+        simplifySize
+      };
+    case CHANGE_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
+        return state;
+      }
+      return {
+        brushSize,
+        simplifySize: Math.max(0, action.simplifySize)
       };
     default:
       return state;
@@ -203970,6 +209245,12 @@ const changeBrushSize = function changeBrushSize(brushSize) {
   return {
     type: CHANGE_BRUSH_SIZE,
     brushSize: brushSize
+  };
+};
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
+  return {
+    type: CHANGE_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
   };
 };
 
@@ -204210,21 +209491,28 @@ const setCustomFonts = fonts => ({
 /*!****************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/eraser-mode.js ***!
   \****************************************************************/
-/*! exports provided: default, changeBrushSize */
+/*! exports provided: default, changeBrushSize, changeSimplifySize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeBrushSize", function() { return changeBrushSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
 
 const CHANGE_ERASER_SIZE = 'scratch-paint/eraser-mode/CHANGE_ERASER_SIZE';
+const CHANGE_ERASER_SIMPLIFY_SIZE = 'scratch-paint/eraser-mode/CHANGE_ERASER_SIMPLIFY_SIZE';
 const initialState = {
-  brushSize: 40
+  brushSize: 40,
+  simplifySize: 10
 };
 const reducer = function reducer(state, action) {
   if (typeof state === 'undefined') state = initialState;
+  let {
+    simplifySize,
+    brushSize
+  } = state;
   switch (action.type) {
     case CHANGE_ERASER_SIZE:
       if (isNaN(action.brushSize)) {
@@ -204232,7 +209520,17 @@ const reducer = function reducer(state, action) {
         return state;
       }
       return {
-        brushSize: Math.max(1, action.brushSize)
+        brushSize: Math.max(1, action.brushSize),
+        simplifySize
+      };
+    case CHANGE_ERASER_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
+        return state;
+      }
+      return {
+        brushSize,
+        simplifySize: Math.max(0, action.simplifySize)
       };
     default:
       return state;
@@ -204244,6 +209542,12 @@ const changeBrushSize = function changeBrushSize(brushSize) {
   return {
     type: CHANGE_ERASER_SIZE,
     brushSize: brushSize
+  };
+};
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
+  return {
+    type: CHANGE_ERASER_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
   };
 };
 
@@ -204784,6 +210088,138 @@ const changeMode = function changeMode(mode) {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/reducers/pen-mode.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/pen-mode.js ***!
+  \*************************************************************/
+/*! exports provided: default, changeSimplifySize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeSimplifySize", function() { return changeSimplifySize; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_PEN_SIMPLIFY_SIZE = 'scratch-paint/pen-mode/CHANGE_PEN_SIMPLIFY_SIZE';
+const initialState = {
+  simplifySize: 2
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_PEN_SIMPLIFY_SIZE:
+      if (isNaN(action.simplifySize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid simplify setting: ".concat(action.simplifySize));
+        return state;
+      }
+      return {
+        simplifySize: Math.max(0, action.simplifySize)
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const changeSimplifySize = function changeSimplifySize(simplifySize) {
+  return {
+    type: CHANGE_PEN_SIMPLIFY_SIZE,
+    simplifySize: simplifySize
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/rect-mode.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/rect-mode.js ***!
+  \**************************************************************/
+/*! exports provided: default, changeRoundedCornerSize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeRoundedCornerSize", function() { return changeRoundedCornerSize; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_ROUNDED_CORNER_SIZE = 'scratch-paint/rect-mode/CHANGE_ROUNDED_CORNER_SIZE';
+const initialState = {
+  roundedCornerSize: 0
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_ROUNDED_CORNER_SIZE:
+      if (isNaN(action.roundedCornerSize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid rounded corner size: ".concat(action.roundedCornerSize));
+        return state;
+      }
+      return {
+        roundedCornerSize: Math.floor(Math.max(0, action.roundedCornerSize))
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const changeRoundedCornerSize = function changeRoundedCornerSize(roundedCornerSize) {
+  return {
+    type: CHANGE_ROUNDED_CORNER_SIZE,
+    roundedCornerSize: roundedCornerSize
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js ***!
+  \**********************************************************************/
+/*! exports provided: default, changeRoundedRectCornerSize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeRoundedRectCornerSize", function() { return changeRoundedRectCornerSize; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_ROUNDED_CORNER_SIZE = 'scratch-paint/rounded-rect-mode/CHANGE_ROUNDED_CORNER_SIZE';
+const initialState = {
+  roundedCornerSize: 0
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_ROUNDED_CORNER_SIZE:
+      if (isNaN(action.roundedCornerSize)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid rounded corner size: ".concat(action.roundedCornerSize));
+        return state;
+      }
+      return {
+        roundedCornerSize: Math.floor(Math.max(0, action.roundedCornerSize))
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const changeRoundedRectCornerSize = function changeRoundedRectCornerSize(roundedCornerSize) {
+  return {
+    type: CHANGE_ROUNDED_CORNER_SIZE,
+    roundedCornerSize: roundedCornerSize
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/reducers/scratch-paint-reducer.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/scratch-paint-reducer.js ***!
@@ -204795,27 +210231,41 @@ const changeMode = function changeMode(mode) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/scratch-paint/node_modules/redux/es/index.js");
 /* harmony import */ var _modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
-/* harmony import */ var _bit_brush_size__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
-/* harmony import */ var _bit_eraser_size__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
-/* harmony import */ var _brush_mode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
-/* harmony import */ var _eraser_mode__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
-/* harmony import */ var _color__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./color */ "./node_modules/scratch-paint/src/reducers/color.js");
-/* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./clipboard */ "./node_modules/scratch-paint/src/reducers/clipboard.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
-/* harmony import */ var _custom_fonts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./custom-fonts */ "./node_modules/scratch-paint/src/reducers/custom-fonts.js");
-/* harmony import */ var _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
-/* harmony import */ var _fill_mode__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fill-mode */ "./node_modules/scratch-paint/src/reducers/fill-mode.js");
-/* harmony import */ var _font__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./font */ "./node_modules/scratch-paint/src/reducers/font.js");
-/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
-/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
-/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
-/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
-/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
-/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
-/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
-/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+/* harmony import */ var _addon_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addon-util */ "./node_modules/scratch-paint/src/reducers/addon-util.js");
+/* harmony import */ var _bit_brush_size__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bit-brush-size */ "./node_modules/scratch-paint/src/reducers/bit-brush-size.js");
+/* harmony import */ var _bit_eraser_size__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./bit-eraser-size */ "./node_modules/scratch-paint/src/reducers/bit-eraser-size.js");
+/* harmony import */ var _brush_mode__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./brush-mode */ "./node_modules/scratch-paint/src/reducers/brush-mode.js");
+/* harmony import */ var _eraser_mode__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./eraser-mode */ "./node_modules/scratch-paint/src/reducers/eraser-mode.js");
+/* harmony import */ var _rect_mode__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./rect-mode */ "./node_modules/scratch-paint/src/reducers/rect-mode.js");
+/* harmony import */ var _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./rounded-rect-mode */ "./node_modules/scratch-paint/src/reducers/rounded-rect-mode.js");
+/* harmony import */ var _triangle_mode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./triangle-mode */ "./node_modules/scratch-paint/src/reducers/triangle-mode.js");
+/* harmony import */ var _sussy_mode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sussy-mode */ "./node_modules/scratch-paint/src/reducers/sussy-mode.js");
+/* harmony import */ var _color__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./color */ "./node_modules/scratch-paint/src/reducers/color.js");
+/* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./clipboard */ "./node_modules/scratch-paint/src/reducers/clipboard.js");
+/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./cursor */ "./node_modules/scratch-paint/src/reducers/cursor.js");
+/* harmony import */ var _custom_fonts__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./custom-fonts */ "./node_modules/scratch-paint/src/reducers/custom-fonts.js");
+/* harmony import */ var _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
+/* harmony import */ var _fill_mode__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./fill-mode */ "./node_modules/scratch-paint/src/reducers/fill-mode.js");
+/* harmony import */ var _font__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./font */ "./node_modules/scratch-paint/src/reducers/font.js");
+/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
+/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
+/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
+/* harmony import */ var _pen_mode__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
+/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
+/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
+/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+
+
+
+
+
+
+
 
 
 
@@ -204841,27 +210291,34 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
   mode: _modes__WEBPACK_IMPORTED_MODULE_1__["default"],
-  bitBrushSize: _bit_brush_size__WEBPACK_IMPORTED_MODULE_2__["default"],
-  bitEraserSize: _bit_eraser_size__WEBPACK_IMPORTED_MODULE_3__["default"],
-  brushMode: _brush_mode__WEBPACK_IMPORTED_MODULE_4__["default"],
-  color: _color__WEBPACK_IMPORTED_MODULE_6__["default"],
-  clipboard: _clipboard__WEBPACK_IMPORTED_MODULE_7__["default"],
-  cursor: _cursor__WEBPACK_IMPORTED_MODULE_8__["default"],
-  customFonts: _custom_fonts__WEBPACK_IMPORTED_MODULE_9__["default"],
-  eraserMode: _eraser_mode__WEBPACK_IMPORTED_MODULE_5__["default"],
-  fillBitmapShapes: _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_10__["default"],
-  fillMode: _fill_mode__WEBPACK_IMPORTED_MODULE_11__["default"],
-  font: _font__WEBPACK_IMPORTED_MODULE_12__["default"],
-  format: _format__WEBPACK_IMPORTED_MODULE_13__["default"],
-  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_14__["default"],
-  layout: _layout__WEBPACK_IMPORTED_MODULE_15__["default"],
-  modals: _modals__WEBPACK_IMPORTED_MODULE_16__["default"],
-  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_17__["default"],
-  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_18__["default"],
-  theme: _theme__WEBPACK_IMPORTED_MODULE_19__["default"],
-  undo: _undo__WEBPACK_IMPORTED_MODULE_21__["default"],
-  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_20__["default"],
-  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_22__["default"]
+  addonUtil: _addon_util__WEBPACK_IMPORTED_MODULE_2__["default"],
+  bitBrushSize: _bit_brush_size__WEBPACK_IMPORTED_MODULE_3__["default"],
+  bitEraserSize: _bit_eraser_size__WEBPACK_IMPORTED_MODULE_4__["default"],
+  brushMode: _brush_mode__WEBPACK_IMPORTED_MODULE_5__["default"],
+  color: _color__WEBPACK_IMPORTED_MODULE_11__["default"],
+  clipboard: _clipboard__WEBPACK_IMPORTED_MODULE_12__["default"],
+  cursor: _cursor__WEBPACK_IMPORTED_MODULE_13__["default"],
+  customFonts: _custom_fonts__WEBPACK_IMPORTED_MODULE_14__["default"],
+  eraserMode: _eraser_mode__WEBPACK_IMPORTED_MODULE_6__["default"],
+  rectMode: _rect_mode__WEBPACK_IMPORTED_MODULE_7__["default"],
+  roundedRectMode: _rounded_rect_mode__WEBPACK_IMPORTED_MODULE_8__["default"],
+  triangleMode: _triangle_mode__WEBPACK_IMPORTED_MODULE_9__["default"],
+  sussyMode: _sussy_mode__WEBPACK_IMPORTED_MODULE_10__["default"],
+  fillBitmapShapes: _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["default"],
+  fillMode: _fill_mode__WEBPACK_IMPORTED_MODULE_16__["default"],
+  font: _font__WEBPACK_IMPORTED_MODULE_17__["default"],
+  format: _format__WEBPACK_IMPORTED_MODULE_18__["default"],
+  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_19__["default"],
+  layout: _layout__WEBPACK_IMPORTED_MODULE_20__["default"],
+  modals: _modals__WEBPACK_IMPORTED_MODULE_21__["default"],
+  penMode: _pen_mode__WEBPACK_IMPORTED_MODULE_22__["default"],
+  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_23__["default"],
+  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_24__["default"],
+  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_25__["default"],
+  theme: _theme__WEBPACK_IMPORTED_MODULE_26__["default"],
+  undo: _undo__WEBPACK_IMPORTED_MODULE_28__["default"],
+  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_27__["default"],
+  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_29__["default"]
 }));
 
 /***/ }),
@@ -205083,6 +210540,94 @@ const changeStrokeWidth = function changeStrokeWidth(strokeWidth) {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/reducers/sussy-mode.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/sussy-mode.js ***!
+  \***************************************************************/
+/*! exports provided: default, changeCurrentlySelectedShape */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeCurrentlySelectedShape", function() { return changeCurrentlySelectedShape; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE = 'scratch-paint/sussy-mode/CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE';
+const initialState = {
+  shape: "smile"
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE:
+      if (typeof action.shape !== "string") {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid shape: ".concat(action.shape));
+        return state;
+      }
+      return {
+        shape: String(action.shape)
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ===================================
+const changeCurrentlySelectedShape = function changeCurrentlySelectedShape(shape) {
+  return {
+    type: CHANGE_SUSSY_CURRENTLY_SELECTED_SHAPE,
+    shape: shape
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/text-alignment.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/text-alignment.js ***!
+  \*******************************************************************/
+/*! exports provided: default, setTextAlignment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setTextAlignment", function() { return setTextAlignment; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const SET_TEXT_ALIGNMENT = 'scratch-paint/text-alignment/SET_TEXT_ALIGNMENT';
+const initialState = {
+  alignment: "left"
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case SET_TEXT_ALIGNMENT:
+      if (!["left", "center", "right"].includes(action.alignment)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid text alignment: ".concat(action.alignment));
+        return state;
+      }
+      return {
+        alignment: action.alignment
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const setTextAlignment = function setTextAlignment(alignment) {
+  return {
+    type: SET_TEXT_ALIGNMENT,
+    alignment: alignment
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/reducers/text-edit-target.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/text-edit-target.js ***!
@@ -205158,6 +210703,69 @@ const setTheme = function setTheme(theme) {
   return {
     type: SET_THEME,
     theme
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-paint/src/reducers/triangle-mode.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/triangle-mode.js ***!
+  \******************************************************************/
+/*! exports provided: default, changeTrianglePolyCount, changeTrianglePointCount */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeTrianglePolyCount", function() { return changeTrianglePolyCount; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeTrianglePointCount", function() { return changeTrianglePointCount; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const CHANGE_TRIANGLE_SIDE_COUNT = 'scratch-paint/triangle-mode/CHANGE_TRIANGLE_SIDE_COUNT';
+const CHANGE_TRIANGLE_POINT_COUNT = 'scratch-paint/triangle-mode/CHANGE_TRIANGLE_POINT_COUNT';
+const initialState = {
+  trianglePolyCount: 3,
+  trianglePointCount: 1
+};
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case CHANGE_TRIANGLE_SIDE_COUNT:
+      if (isNaN(action.trianglePolyCount)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid side count: ".concat(action.trianglePolyCount));
+        return state;
+      }
+      return {
+        trianglePolyCount: Math.floor(Math.max(3, action.trianglePolyCount)),
+        trianglePointCount: state.trianglePointCount
+      };
+    case CHANGE_TRIANGLE_POINT_COUNT:
+      if (isNaN(action.trianglePointCount)) {
+        _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid spike ratio: ".concat(action.trianglePointCount));
+        return state;
+      }
+      return {
+        trianglePointCount: Math.max(0.01, action.trianglePointCount),
+        trianglePolyCount: state.trianglePolyCount
+      };
+    default:
+      return state;
+  }
+};
+
+// Action creators ===================================
+const changeTrianglePolyCount = function changeTrianglePolyCount(trianglePolyCount) {
+  return {
+    type: CHANGE_TRIANGLE_SIDE_COUNT,
+    trianglePolyCount: trianglePolyCount
+  };
+};
+const changeTrianglePointCount = function changeTrianglePointCount(trianglePointCount) {
+  return {
+    type: CHANGE_TRIANGLE_POINT_COUNT,
+    trianglePointCount: trianglePointCount
   };
 };
 
@@ -251350,6 +256958,94 @@ function version(uuid) {
 
 /***/ }),
 
+/***/ "./node_modules/scratch-vm/src/blocks/dash_json.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/scratch-vm/src/blocks/dash_json.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+class DashJSONBlocks {
+  constructor(runtime) {
+    /**
+     * The runtime instantiating this block package.
+     * @type {Runtime}
+     */
+    this.runtime = runtime;
+  }
+
+  /**
+   * Retrieve the block primitives implemented by this package.
+   * @return {object.<string, Function>} Mapping of opcode to Function.
+   */
+  getPrimitives() {
+    return {
+      json_array_empty: this.arrayEmpty,
+      json_array_item_of: this.arrayItemOf,
+      json_array_item_no_of: this.arrayItemNoOf,
+      json_array_contains: this.arrayContains,
+      json_array_length: this.arrayLength,
+      json_array_in_front_of: this.arrayAddFront,
+      json_array_behind: this.arrayAddBack,
+      json_array_at: this.arrayInsertAt,
+      json_array_split: this.arraySplit
+    };
+  }
+  arrayEmpty() {
+    return [];
+  }
+  arrayItemOf(args) {
+    const array = Cast.toList(args.VALUE);
+    const index = Cast.toListIndex(args.INDEX, array.length, false);
+    if (index === Cast.LIST_INVALID) {
+      return '';
+    }
+    return array[index - 1];
+  }
+  arrayItemNoOf(args) {
+    const array = Cast.toList(args.ARRAY);
+    const item = args.VALUE;
+    return array.indexOf(item) + 1;
+  }
+  arrayContains(args) {
+    const array = Cast.toList(args.ARRAY);
+    const item = args.VALUE;
+    return array.includes(item);
+  }
+  arrayLength(args) {
+    const array = Cast.toList(args.VALUE);
+    return array.length;
+  }
+  arrayAddFront(args) {
+    const array = Cast.toList(args.ARRAY);
+    const item = args.ITEM;
+    return [...array, item];
+  }
+  arrayAddBack(args) {
+    const array = Cast.toList(args.ARRAY);
+    const item = args.ITEM;
+    return [item, ...array];
+  }
+  arrayInsertAt(args) {
+    const array = Cast.toList(args.ARRAY);
+    const index = Cast.toListIndex(args.INDEX, array.length, false);
+    const item = args.ITEM;
+    if (index === Cast.LIST_INVALID) {
+      return array;
+    }
+    return array.toSpliced(index - 1, 0, item);
+  }
+  arraySplit(args) {
+    const text = Cast.toString(args.TEXT);
+    const delimiter = Cast.toString(args.DELIM);
+    return text.split(delimiter);
+  }
+}
+module.exports = DashJSONBlocks;
+
+/***/ }),
+
 /***/ "./node_modules/scratch-vm/src/blocks/scratch3_control.js":
 /*!****************************************************************!*\
   !*** ./node_modules/scratch-vm/src/blocks/scratch3_control.js ***!
@@ -251358,6 +257054,11 @@ function version(uuid) {
 /***/ (function(module, exports, __webpack_require__) {
 
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+const {
+  isPaused,
+  setPaused
+} = __webpack_require__(/*! ../../../../src/addons/addons/debugger/module */ "./src/addons/addons/debugger/module.js"); // For web
+
 class Scratch3ControlBlocks {
   constructor(runtime) {
     /**
@@ -251373,6 +257074,9 @@ class Scratch3ControlBlocks {
     this._counter = 0; // used by compiler
 
     this.runtime.on('RUNTIME_DISPOSED', this.clearCounter.bind(this));
+
+    // Check if the pause button exists, we will use that if availiable
+    this.pauseButton = document.querySelector(typeof scaffolding !== "undefined" ? "[class*=\"pause-button\"]" : "img.pause-btn.addons-display-none-pause");
   }
 
   /**
@@ -251390,6 +257094,10 @@ class Scratch3ControlBlocks {
       control_wait_until: this.waitUntil,
       control_if: this.if,
       control_if_else: this.ifElse,
+      control_if_then_else: this.ifThenElse,
+      control_resume: this.resume,
+      control_pause: this.pause,
+      control_is_paused: this.isPaused,
       control_stop: this.stop,
       control_create_clone_of: this.createClone,
       control_delete_this_clone: this.deleteClone,
@@ -251479,6 +257187,21 @@ class Scratch3ControlBlocks {
     } else {
       util.startBranch(2, false);
     }
+  }
+  ifThenElse(args, util) {
+    const condition = Cast.toBoolean(args.CONDITION);
+    return condition ? args.THEN : args.ELSE;
+  }
+  resume(args, util) {
+    try {
+      if (this.pauseButton) this.pauseButton.click();else setPaused(false);
+    } catch (_unused) {/* generator is running error - lies */}
+  }
+  pause(args, util) {
+    if (this.pauseButton) this.pauseButton.click();else setPaused(true);
+  }
+  isPaused(args, util) {
+    return isPaused();
   }
   stop(args, util) {
     const option = args.STOP_OPTION;
@@ -251865,6 +257588,7 @@ class Scratch3EventBlocks {
       event_whentouchingobject: this.touchingObject,
       event_broadcast: this.broadcast,
       event_broadcastandwait: this.broadcastAndWait,
+      event_when: this.when,
       event_whengreaterthan: this.hatGreaterThanPredicate
     };
   }
@@ -251889,6 +257613,10 @@ class Scratch3EventBlocks {
       event_whenbackdropswitchesto: {
         restartExistingThreads: true
       },
+      event_when: {
+        restartExistingThreads: false,
+        edgeActivated: true
+      },
       event_whengreaterthan: {
         restartExistingThreads: false,
         edgeActivated: true
@@ -251900,6 +257628,10 @@ class Scratch3EventBlocks {
   }
   touchingObject(args, util) {
     return util.target.isTouchingObject(args.TOUCHINGOBJECTMENU);
+  }
+  when(args, util) {
+    const condition = Cast.toBoolean(args.CONDITION);
+    return condition;
   }
   hatGreaterThanPredicate(args, util) {
     const option = Cast.toString(args.WHENGREATERTHANMENU).toLowerCase();
@@ -252863,6 +258595,7 @@ class Scratch3OperatorsBlocks {
       operator_not: this.not,
       operator_random: this.random,
       operator_join: this.join,
+      operator_newline: this.newline,
       operator_letter_of: this.letterOf,
       operator_length: this.length,
       operator_contains: this.contains,
@@ -252919,6 +258652,9 @@ class Scratch3OperatorsBlocks {
   }
   join(args) {
     return Cast.toString(args.STRING1) + Cast.toString(args.STRING2);
+  }
+  newline(args) {
+    return "\n";
   }
   letterOf(args) {
     const index = Cast.toNumber(args.LETTER) - 1;
@@ -253108,7 +258844,7 @@ class Scratch3ProcedureBlocks {
       if (util.target.runtime.compilerOptions.enabled && lowercaseValue === 'is compiled?') {
         return true;
       }
-      if (lowercaseValue === 'is turbowarp?') {
+      if (lowercaseValue === 'is dash?' || lowercaseValue === 'is turbowarp?') {
         return true;
       }
       // When the parameter is not found in the most recent procedure
@@ -253182,6 +258918,9 @@ class Scratch3SensingBlocks {
    */
   getPrimitives() {
     return {
+      sensing_alert: this.alert,
+      sensing_prompt: this.prompt,
+      sensing_confirm: this.confirm,
       sensing_touchingobject: this.touchingObject,
       sensing_touchingcolor: this.touchingColor,
       sensing_coloristouchingcolor: this.colorTouchingColor,
@@ -253295,6 +259034,17 @@ class Scratch3SensingBlocks {
   }
   getAnswer() {
     return this._answer;
+  }
+  alert(args) {
+    return alert(args.MESSAGE);
+  }
+  prompt(args) {
+    const answer = prompt(args.MESSAGE, args.VALUE);
+    if (!answer) return '';
+    return answer;
+  }
+  confirm(args) {
+    return confirm(args.MESSAGE);
   }
   touchingObject(args, util) {
     return util.target.isTouchingObject(args.TOUCHINGOBJECTMENU);
@@ -253896,8 +259646,23 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
-const inputs = ['motion_xscroll', 'motion_yscroll', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
+const stacked = [
+// 'control_if_then_else',
+// 'control_resume',
+// 'control_pause',
+// 'control_is_paused',
+'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'operator_newline',
+// 'sensing_alert',
+// 'sensing_prompt',
+// 'sensing_confirm',
+'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const inputs = [
+// 'control_if_then_else',
+// 'control_is_paused',
+'motion_xscroll', 'motion_yscroll', 'operator_newline',
+// 'sensing_prompt',
+// 'sensing_confirm',
+'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,
   inputs
@@ -254302,7 +260067,7 @@ class ScriptTreeGenerator {
           const name = block.fields.VALUE.value;
           const index = this.script.arguments.lastIndexOf(name);
           if (index === -1) {
-            if (name.toLowerCase() === 'is compiled?' || name.toLowerCase() === 'is turbowarp?') {
+            if (name.toLowerCase() === 'is compiled?' || name.toLowerCase() === 'is dash?' || name.toLowerCase() === 'is turbowarp?') {
               return {
                 kind: 'constant',
                 value: true
@@ -254318,6 +260083,17 @@ class ScriptTreeGenerator {
             index: index
           };
         }
+      case 'control_if_then_else':
+        return {
+          kind: 'control.ifThenElse',
+          condition: this.descendInputOfBlock(block, 'CONDITION'),
+          then: this.descendInputOfBlock(block, 'THEN'),
+          else: this.descendInputOfBlock(block, 'ELSE')
+        };
+      case 'control_is_paused':
+        return {
+          kind: 'control.isPaused'
+        };
       case 'control_get_counter':
         return {
           kind: 'counter.get'
@@ -254645,6 +260421,17 @@ class ScriptTreeGenerator {
         };
       case 'procedures_call':
         return this.descendProcedure(block);
+      case 'sensing_prompt':
+        return {
+          kind: 'sensing.prompt',
+          message: this.descendInputOfBlock(block, 'MESSAGE'),
+          value: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'sensing_confirm':
+        return {
+          kind: 'sensing.confirm',
+          message: this.descendInputOfBlock(block, 'MESSAGE')
+        };
       case 'sensing_answer':
         return {
           kind: 'sensing.answer'
@@ -254746,6 +260533,58 @@ class ScriptTreeGenerator {
         return {
           kind: 'constant',
           value: block.fields.SOUND_MENU.value
+        };
+      case 'json_array_empty':
+        return {
+          kind: 'json.arrayEmpty'
+        };
+      case 'json_array_item_of':
+        return {
+          kind: 'json.arrayItemOf',
+          array: this.descendInputOfBlock(block, 'VALUE'),
+          index: this.descendInputOfBlock(block, 'INDEX')
+        };
+      case 'json_array_item_no_of':
+        return {
+          kind: 'json.arrayItemNoOf',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          item: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'json_array_contains':
+        return {
+          kind: 'json.arrayContains',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          item: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'json_array_length':
+        return {
+          kind: 'json.arrayLength',
+          array: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'json_array_in_front_of':
+        return {
+          kind: 'json.arrayInFrontOf',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        };
+      case 'json_array_behind':
+        return {
+          kind: 'json.arrayBehind',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        };
+      case 'json_array_at':
+        return {
+          kind: 'json.arrayAt',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          index: this.descendInputOfBlock(block, 'INDEX'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        };
+      case 'json_array_split':
+        return {
+          kind: 'json.arraySplit',
+          text: this.descendInputOfBlock(block, 'TEXT'),
+          delimiter: this.descendInputOfBlock(block, 'DELIM')
         };
       case 'tw_getLastKeyPressed':
         return {
@@ -254879,6 +260718,18 @@ class ScriptTreeGenerator {
             },
             do: this.descendSubstack(block, 'SUBSTACK'),
             warpTimer: needsWarpTimer
+          };
+        }
+      case 'control_resume':
+        {
+          return {
+            kind: 'control.resume'
+          };
+        }
+      case 'control_pause':
+        {
+          return {
+            kind: 'control.pause'
           };
         }
       case 'control_stop':
@@ -255238,6 +261089,11 @@ class ScriptTreeGenerator {
         return {
           kind: 'procedures.return',
           value: this.descendInputOfBlock(block, 'VALUE')
+        };
+      case 'sensing_alert':
+        return {
+          kind: 'sensing.alert',
+          message: this.descendInputOfBlock(block, 'MESSAGE')
         };
       case 'sensing_resettimer':
         return {
@@ -256500,6 +262356,14 @@ class JSGenerator {
         return new TypedInput("(".concat(this.generateCompatibilityLayerCall(node, false), ")"), TYPE_UNKNOWN);
       case 'constant':
         return this.safeConstantInput(node.value);
+      case 'control.ifThenElse':
+        {
+          const args = "\n            \"CONDITION\":".concat(this.descendInput(node.condition).asBoolean(), ",\n            \"THEN\":").concat(this.descendInput(node.then).asString(), ",\n            \"ELSE\":").concat(this.descendInput(node.else).asString(), "\n            ");
+          return new TypedInput("runtime.ext_scratch3_control.ifThenElse({".concat(args, "})"), TYPE_STRING);
+        }
+      case 'control.isPaused':
+        return new TypedInput('runtime.ext_scratch3_control.isPaused()', TYPE_BOOLEAN);
+      // TODO: Remake
       case 'counter.get':
         return new TypedInput('runtime.ext_scratch3_control._counter', TYPE_NUMBER);
       case 'keyboard.pressed':
@@ -256718,6 +262582,16 @@ class JSGenerator {
         }
       case 'procedures.argument':
         return new TypedInput("p".concat(node.index), TYPE_UNKNOWN);
+      case 'sensing.prompt':
+        {
+          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString(), ",\"VALUE\":").concat(this.descendInput(node.value).asString());
+          return new TypedInput("runtime.ext_scratch3_sensing.prompt({".concat(args, "})"), TYPE_STRING);
+        }
+      case 'sensing.confirm':
+        {
+          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
+          return new TypedInput("runtime.ext_scratch3_sensing.confirm({".concat(args, "})"), TYPE_BOOLEAN);
+        }
       case 'sensing.answer':
         return new TypedInput("runtime.ext_scratch3_sensing._answer", TYPE_STRING);
       case 'sensing.colorTouchingColor':
@@ -256794,6 +262668,50 @@ class JSGenerator {
         return new TypedInput('runtime.ioDevices.keyboard.getLastKeyPressed()', TYPE_STRING);
       case 'var.get':
         return this.descendVariable(node.variable);
+      case 'json.arrayEmpty':
+        return new TypedInput('[]', TYPE_UNKNOWN);
+      case 'json.arrayItemOf':
+        {
+          const index = this.descendInput(node.index);
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayItemOf({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arrayItemNoOf':
+        {
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"VALUE\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayItemNoOf({".concat(args, "})"), TYPE_NUMBER);
+        }
+      case 'json.arrayContains':
+        {
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"VALUE\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayContains({".concat(args, "})"), TYPE_BOOLEAN);
+        }
+      case 'json.arrayLength':
+        {
+          const args = "\"ARRAY\":".concat(this.descendInput(node.array).asUnknown());
+          return new TypedInput("runtime.ext_dash_json.arrayLength({".concat(args, "})"), TYPE_NUMBER);
+        }
+      case 'json.arrayAt':
+        {
+          const index = this.descendInput(node.index);
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayInsertAt({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arrayInFrontOf':
+        {
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayAddFront({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arrayBehind':
+        {
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayAddBack({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arraySplit':
+        {
+          const args = "\n            \"TEXT\":".concat(this.descendInput(node.text).asString(), ",\n            \"DELIM\":").concat(this.descendInput(node.delimeter).asString(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arraySplit({".concat(args, "})"), TYPE_UNKNOWN);
+        }
       default:
         log.warn("JS: Unknown input: ".concat(node.kind), node);
         throw new Error("JS: Unknown input: ".concat(node.kind));
@@ -256924,6 +262842,12 @@ class JSGenerator {
           this.yieldLoop();
         }
         this.source += "}\n";
+        break;
+      case 'control.resume':
+        this.source += 'runtime.ext_scratch3_control.resume();\n';
+        break;
+      case 'control.pause':
+        this.source += 'runtime.ext_scratch3_control.pause();\n';
         break;
       case 'counter.clear':
         this.source += 'runtime.ext_scratch3_control._counter = 0;\n';
@@ -257175,6 +263099,10 @@ class JSGenerator {
         }
       case 'procedures.return':
         this.stopScriptAndReturn(this.descendInput(node.value).asSafe());
+        break;
+      case 'sensing.alert':
+        const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
+        this.source += "runtime.ext_scratch3_sensing.alert({".concat(args, "});\n");
         break;
       case 'timer.reset':
         this.source += 'runtime.ioDevices.clock.resetProjectTimer();\n';
@@ -261023,6 +266951,7 @@ const defaultBlockPackages = {
   scratch3_sound: __webpack_require__(/*! ../blocks/scratch3_sound */ "./node_modules/scratch-vm/src/blocks/scratch3_sound.js"),
   scratch3_sensing: __webpack_require__(/*! ../blocks/scratch3_sensing */ "./node_modules/scratch-vm/src/blocks/scratch3_sensing.js"),
   scratch3_data: __webpack_require__(/*! ../blocks/scratch3_data */ "./node_modules/scratch-vm/src/blocks/scratch3_data.js"),
+  dash_json: __webpack_require__(/*! ../blocks/dash_json */ "./node_modules/scratch-vm/src/blocks/dash_json.js"),
   scratch3_procedures: __webpack_require__(/*! ../blocks/scratch3_procedures */ "./node_modules/scratch-vm/src/blocks/scratch3_procedures.js")
 };
 const interpolate = __webpack_require__(/*! ./tw-interpolate */ "./node_modules/scratch-vm/src/engine/tw-interpolate.js");
@@ -261069,6 +266998,9 @@ const ArgumentTypeMap = (() => {
   };
   map[ArgumentType.BOOLEAN] = {
     check: 'Boolean'
+  };
+  map[ArgumentType.ARRAY] = {
+    check: 'Array'
   };
   map[ArgumentType.MATRIX] = {
     shadow: {
@@ -263712,7 +269644,7 @@ class Runtime extends EventEmitter {
   storeProjectOptions() {
     const options = this.generateDifferingProjectOptions();
     // TODO: translate
-    const text = "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n".concat(ExtendedJSON.stringify(options)).concat(COMMENT_CONFIG_MAGIC);
+    const text = "Configuration for https://dashblocks.github.io/ (scratch mod)\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n".concat(ExtendedJSON.stringify(options)).concat(COMMENT_CONFIG_MAGIC);
     const existingComment = this.findProjectOptionsComment();
     if (existingComment) {
       existingComment.text = text;
@@ -266541,8 +272473,8 @@ module.exports = {
 // This can be accessed externally on `vm.runtime.platform`
 
 module.exports = {
-  name: 'TurboWarp',
-  url: 'https://turbowarp.org/'
+  name: 'Dash',
+  url: 'https://dashblocks.github.io/'
 };
 
 /***/ }),
@@ -266644,6 +272576,10 @@ const ArgumentType = {
    */
   BOOLEAN: 'Boolean',
   /**
+   * Array value with square placeholder
+   */
+  ARRAY: 'Array',
+  /**
    * Numeric value with color picker
    */
   COLOR: 'color',
@@ -266731,6 +272667,10 @@ const BlockType = {
    * General reporter with numeric or string value
    */
   REPORTER: 'reporter',
+  /**
+   * Array reporter with square shape
+   */
+  ARRAY: 'array',
   /**
    * Arbitrary scratch-blocks XML.
    */
@@ -279958,7 +285898,7 @@ const ArgumentType = __webpack_require__(/*! ../../extension-support/argument-ty
 const Cast = __webpack_require__(/*! ../../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
 
 // eslint-disable-next-line max-len
-const iconURI = "data:image/svg+xml;base64,".concat(btoa('<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="none" stroke="#fff" stroke-width="11.51815371" d="M24.457 7.707a18.41 18.41 0 0 0-.365 2.31c-.02.224 0 .507.06.852.061.405.092.689.092.851 0 .527-.345.79-1.034.79-.446 0-.74-.131-.881-.395-.02-.446-.01-1.054.03-1.824.04-.912.061-1.52.061-1.824-.02 0-.05-.02-.091-.06a98.522 98.522 0 0 0-5.32.364c-.04.264-.04.588 0 .973l.122 1.094c-.081.629-.122 1.56-.122 2.797.061.527.091 2.786.091 6.779v2.219c0 .344.051.587.152.73h1.885c.77-.102 1.155.222 1.155.972 0 .446-.213.76-.638.942-.264.102-.73.122-1.399.061-.405-.04-.881-.05-1.428-.03-.75.101-1.662.182-2.736.243-1.094.06-1.763-.091-2.006-.456-.162-.243-.162-.496 0-.76.283-.446 1.023-.669 2.219-.669.628 0 .942-.172.942-.516 0-.183-.01-.355-.03-.517 0-.507.01-.953.03-1.338.06-1.094.06-2.634 0-4.62-.081-2.878-.05-5.462.091-7.752l-.09-.09c-.63.04-1.805.03-3.527-.031-.081 0-.7.04-1.854.121.283 1.946.446 3.334.486 4.165l-.06.82c-.021.305-.274.457-.76.457-.386 0-.71-.73-.973-2.19-.122-.87-.244-1.752-.365-2.644 0-.142-.071-.385-.213-.73-.122-.364-.39-.97-.39-1.152 0-.641.593-.489 1.363-.61.06 0 .162.01.304.03.142.02.243.03.304.03H17.1a57.098 57.098 0 0 0 5.411-.486c.122-.06.304-.121.547-.182.426-.04.79.06 1.095.304.304.223.405.547.304.972z"/><path fill="none" stroke="#ff4c4c" stroke-width="5.75909785" d="M24.333 7.71q-.244 1.065-.365 2.311-.03.335.06.851.092.608.092.851 0 .79-1.034.79-.669 0-.881-.394-.03-.67.03-1.824.06-1.368.06-1.824-.03 0-.09-.061-2.827.122-5.32.365-.06.395 0 .973l.122 1.094q-.122.942-.122 2.796.091.79.091 6.78v2.218q0 .517.152.73h1.885q1.155-.152 1.155.973 0 .668-.638.942-.396.152-1.399.06-.608-.06-1.428-.03-1.125.152-2.736.243-1.642.092-2.006-.456-.244-.364 0-.76.425-.668 2.219-.668.942 0 .942-.517 0-.274-.03-.517 0-.76.03-1.337.091-1.642 0-4.62-.122-4.317.091-7.752l-.091-.091q-.942.06-3.526-.03-.122 0-1.854.12.425 2.919.486 4.165l-.06.821q-.031.456-.76.456-.578 0-.974-2.189-.182-1.307-.364-2.644 0-.213-.213-.73-.182-.547-.182-.82 0-.76 1.155-.943.09 0 .304.03.212.03.304.03h7.538q2.797-.12 5.411-.485.182-.092.547-.183.639-.06 1.095.304.456.335.304.973z"/><path fill="#fff" d="M24.31 7.714q-.243 1.064-.365 2.31-.03.335.061.852.091.608.091.85 0 .791-1.033.791-.67 0-.882-.395-.03-.669.03-1.824.061-1.368.061-1.824-.03 0-.09-.06-2.828.121-5.32.364-.061.396 0 .973l.121 1.094q-.121.943-.121 2.797.09.79.09 6.779v2.219q0 .517.153.73h1.884q1.156-.153 1.156.972 0 .669-.639.942-.395.152-1.398.061-.608-.06-1.429-.03-1.125.152-2.736.243-1.641.091-2.006-.456-.243-.365 0-.76.426-.669 2.22-.669.941 0 .941-.516 0-.274-.03-.517 0-.76.03-1.338.092-1.641 0-4.62-.121-4.317.092-7.752l-.092-.09q-.942.06-3.526-.031-.121 0-1.854.121.426 2.919.486 4.165l-.06.82q-.03.457-.76.457-.578 0-.973-2.19-.182-1.306-.365-2.644 0-.212-.213-.73-.182-.546-.182-.82 0-.76 1.155-.942.091 0 .304.03t.304.03h7.539q2.796-.121 5.41-.486.183-.091.548-.182.638-.061 1.094.304.456.334.304.972z"/></svg>'));
+const iconURI = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAADGCAYAAABo8OoMAAAAAXNSR0IArs4c6QAAFiRJREFUeF7tnb+y5cQRxqUHADIIgLI3BZNDBBSUiRwSeBPY4gVwiBN2Ezs0L0AZEggIHeGCMkRsbiD1UkAAGfAA8n7nqO+doysdzXzdPTM6GlXB3t07kmZ6ftPzTc8f9d1Gr2EYfi9Z7/v+wUaL0bKd2QJ95vdFvW6EGUC/2HUd/hS4w5+XniXwT//8suu63wU3fRf8HDaYB60BRVXTJhNVAfwI+Btd1700/leLMcNGE/4sjeXq31ojqaXKzuejGPAB5He3YarVXM41DvQquNBrfLH6hJbA3QJZgQ8gfzOQKe6FrOgF0igEfjSI1hgyVlAW4C/Qm3tUERqD/NcagoeFu65zBb6Brq61sEf4sMkitT19gG+g6ytm4QnSA0ASfdkaQLqdzT38MAyItPxzpxo9vQZ0d6ABCPwf6B61j7tNgR+G4d2HZruUqMvWCBD5c6/v+wb/Qu2ZAD9KGHh1ePd2lbcA4Af0TfZM6kIN/DAMCDEC9nbVaQHA37z+WDcq4BvsdRJ+ZsALvb/raA8NfNPrm4J9mll4/Tt7jPJQwA/DAAkDKVPu+vXn63c/+ni5fGz7zdD5kDu7WW2aDHw22AXobz47IvXD1133609dF4I+hS0E/9Enuu6xsSE8+dwxJe6XC7+XS9Lh7/j3fTUgCW3uAvwk4N1lDGAG4N9+fh7sHF51qfE88vixUeBCQ7mcBiKRHWj8i/X40cCPE0r/MWetJsg1hZMGIj2L9CrbaxQH8Pu+v6cxR633RgE/xtn/Z1oIAf3+x6aPrfZh0iCeHuUVGgQaw1Pj3+vL+EWCHws8PLvdpNJXH3XdXkCPARmNIewZ6moIFzWwXQXeVLfDq3/6Xtf98N8YDPadBo0AvQF6gmdfKW2Li/H2Z4E31e3ffN51/36vdMVt8/0ih5555dgIyskgaPs72zTiMddrwNtImU/+2ry6JSVlvf+mvf0i8GbevcFuifrNZwF+eP5nX809f3B3i5Gcc8DrvXuD3Rf28Oni9QF/PskDb//yluL2s8CbLAprsOeDffqmvF5/UxJnCXjE3K9O9kquuRZ2TDaZyw0C/gu3XR4/eegmJM4N4NXeHSFHePd21WOBfOBXD/0c8Lx2R5z9/bfqqeiWk1ML5AG/al1/Arw6MoM4O+Lt7arbAv7gVwv9FHh+nXuTMnVDPpc7gP/6373CmVUOZqfA84PVFpXZHvDIsa+3rw76K+BVg9W2bGCbsE/j+D7eviroQ+B5OdO0+/aB9/X21UAfAs/LmX/86TIqvJXiaAEfbV8F9CHwA1XfTc5QZqv+Jh9tXxz6A/Aq/Z5zsCqVcPBCwSbtX8YTDLBJ+7fx5/Df5k44OLcZvHoaM2bw+T93ne1MbVHo9cB7yxkfT3NNTAg+GkxK48nIXdFXYTHa63+zzEKx09AEeG7A6i1n7A1tU2nSSKSBSM8ijeUSd3TZ6/oih0EJ8NyA1XORGLa1/fFtG0BLPAWNIuwxfvzvsffYcmMA9K+9bbn8ODv0OuC9wpG1enarhoPG8P24rxcNAT9vZUxhLzGzLkPQAe81YIVezLeJwQpj3XOkEeAQqi30AraDWXzY7ZbOgHF3C/BcSBIrI60909alTJzdz6cS+Gv3/rbQZ9kgrgPeI0Jja0QL/Mo+o3bPb1tf7uvp6wN+j3ImtknVelqbHfTug9j6gG+SZh1/8fr3P7KXlOtvn09hC73bxnDdoNVDw9vHe9kqrP++2g6iNYTeaxArwHPb+ryiNA36tMZWk9Sxg95lEFsn8LJiD2es2K7jSANpa6lrAd8OevNBrA54z5lWgU0mOkqdqYjlE9DKsmANf+J03+mHEWqaNwD4n7xTVt9jllx/CKz5IFaA5z4onHsfa3imonymJvwCh8wJHGYufzp+Jgd51EyJx5YxPP+9hrPfS3t7O1lqOiklwOPs9/Sve2zpWA62m40Ffkn+lDkC7zo3yD+OKLeeIIyReyj7W+/HpFxLY6bnBXicMsZ94cNr4LpmgtTfs8bXAh/ms9SpvyW9vc26KDNpE+544iI1lkCkQpySngXeqxcrAX+OMddcnbC96+mzTKSNHnhkaiteHt2raO3YxuIF/NTz54pIlXJQNtCrpU0IPDdwRcV5bwSJhXMtHbNsIQfw04iU91nvJaI4msDBab1iFvaLtape+n0IPK/jt/LtptqBD8FHGNbzrPdS0OvPvlFJm+nJY5yOR0WV6ipTmjobG/ZYFRqbb8Syn7+dLsVinl9iMGsziKWlje1hqrVr+S0Cf5jwGj9r4zHrXAJ6Gz1/p+97fFIz6ZoCD1kDL899DKFEN5lSXNbQHovkUvI91fjW4OeG3mZSipI2c+fD84NXVEzOQV4qNFsHPgRfr4VPrZd7HGYjbZK9/Bzw/OBVTFhr1IYFvkap5iFzckPP1sd1U0328jeAx7NMvr5dI/Ts5pIagQ+9veXRGTmhtwlVJg1gl4DXaflaPT3bjdYMvMegNudYjJ0BD7x8yqczZ4EfvfybXdfhRDLdldN4azm9VOCl3Gz55uyWs9700ibayy8CP0LPx+VDI+aOAiyBzwLhdeDUWgNlfm8TATm+Odfcil7aRGv5NeD1A9iw0kotXgr1LrNcdUvAi8SxiuLkqjPWGV3zFeXlzwJvKm0kYyW9PasXc1U649GX7rH09LnKzyz9SIzYrAJvFrWZVkwJ8PcEvKWnzxW5Yevnmq3VuHws8JA2GMBiZ5TtJWes5DpT8S//Ss9/Lg+XnrP1O6w8fa5BLLv842iJVS0fBfzo5W1CleeqKMc5K8ya+BrnFNZRv05hBX2OQazey59dPhwNfAA9txUwpYI8IwR7BN5S3uTo7XRe/ou+719ewi0J+Gye3hN4ZmCUw7OlOgQmvd57HtdKeR8BosvnWVmTDHw26L0g2zPwqDx2eUXYwLzqJnwHU0/X9y8e4EQBnwV6r1WXjCFzVDDjsdl7LKD3lja6uPyil6eBD6D3i95gHbr1xehDr8ZnXbaU52mn83NIG8Y5XdtgdvCqAl6ebbK6cq6yPLbWNeCPltZP5/vvfdD1RLMzrybAu0kcD+AZz3aJHt4qcuO57MJh8GoGfAD9Gw9/vpvSuy6m9dhaxwCPDHo0PhMjKR+i08r+Xp7pkc/IGlPgA4mDSSo9+A14Jc2Rt7NOQB7vOTGna5A3ZI0L8BPwsUcWa+vTL4+NF6wu9Gh86Rbxu0MzQPSWfHzebkRrXIEPwOfW1XsAz3qMSwdep5e7zjNMqeuBTqI1DfhYn+nR+GLfnSsd2/shf55eXtcYT5Ya5AIesfp0WeMRAWA9/B6A14YqPepLGruRrKkbeI9ukvUWewBeQpXMrjBvL6/pfbruStbkAp473Kkm4D29Vy7JEvseTSjQyzGwjupY5qu1NfsDHsVnNoHsCXgNXJ4hSl7WXOn4XMBzR354GY8B3qO3ifW4JdKxXt5z8MpHa67Ck3UD77VKkdkEsjfgNV6+Tllz0PG5gOe+EtiAL+Hbr9/JenmvemPl6LFEOwae0YJe8qos0uffznp5T1nD1N2xlIdlBrk8PHegk5fhGKN5eq2aoWdshfJ4yRpexx8Grg34WNj2Cjw7UedlLzY/4xEe+wSe0aZeFRjb4Eqlq03WsPnJCTzq6uGuqIGqM4916AzwXvKKMkrmmxh7ecoaJqx8NNmtLB6+OuAZHbhn4FkZ4RXKZccViNTk8hXDMOAAp/SPpXksy23Ap1U7KyO8ZOBFA+8x2mcXInnIqzT0yqVmIPPqFVmJ1XV5wpKjpKlnEwgLvEdvUw7htDczvSLe4OEk2LxgEVlaqfnUwzDUAzyrSfcMfE02u2jgPVYpspXnIa94H5L3TlbHe9iM7aEx25rLasMwtF1PuYzt9R5m0d2Ogd/+JhCPyvOC0+O5zMDVo4feiIffPvAelecBptczG/DxlqXPn/RapcjM1u0deCYc6GGzjXj4tusp3j/UmZKJjuwY+LYJpE6M43PVgI+31TAM2wfeS17Fm7FsSkZKeAz0mXwcLZc1LFkX8MwAzGttSFmM49/OePgdA992PcWjVWdKZtDqMTu9EQ/fgK8T4/hc1QI809McS5l1LQ0HPLLpsQCJqTyv1X/xyJVNydislro7Wi7fakm8rapdT4yX2DvwzNKCnQO/7U0gXr1NWb8d//bUyTovB8H0NIU8/PaB9xiExSNXLiUzUPQK4zIRtqPl8m3xGyVNPWvimQpEIfYKPCMBvYBnpNUR+HybuKsDvq2JT+stGMg8lhUg10xeGvDPdR26xtTLYyIlNQ+507ObP7x6w9SxxGivHlcu2w3DgLAk95l6D0/BeniPvOSqBPY97CDRI0LDStGu67IAPy4LxkrJ9CM6pII8zjdhvdYegWckhJd+Z8YSR458D1Ol17/PeaGagPfIC+t5c9zHelQv6cf2Nl7Aj9IF0Rjeo08r0gMy1sN75CUHuOw7GO/uFX/XDVjv9H1vt1pSpdHXKsOre2QGP155WbNBid+z3t1T9jF1JhGavn9gMmil17rHVqLXslzGe3nlJdYWOdMx9kH+vKIzbAMcB6zImhp4U62+VJlekDEV6pWXnCDHvIuFy7MHVOp3NfD0aWIxBg/TeEHGTFF76tNUu3imZ6WDl3fX6Xfdd1pd9fpcJXpB1oCfbzKsJ/Uc0LPzJscSHgaslIcfYccisHyXF/BsxXp6sXxWnX8TC5ZXHUku2boKBqzJwBeBHbn0kjTsJIZXjLk07Hg/0+vhPm+bsBIrGLAmAZ9VxsBbfPNZ1/3w9RF2r6sBf2pZ1ot6OSTJHTuAPt5/mGGVR0VHadwHqAL5/Y+98L75XNaQnlo1X+lP38R6dm8po+l1jiU8fJA4CXg32AXybz/vOvyc+2L16iUBjxnn197uOtiCubylDPLEy5nDt1nDYq16+GEYuCPyzhkPcN//qOsQsy15scsLvLvwXDZhyy/5ywE7K7OOebyKzkR5eJcZ1Jq8I1vhlwA827sJObnqkZkcvHYYt/q+fxDt4U2lDCD59L0y0mXJY7LA59Ctnl6eHaxLnnI1eF0+Twarqx6e/mLHtKIAB0D3jLZo4GD04VaB1+p12Nlz6UBYj6wzun7GyWD1LPBm8fbaYYcV2C5za5NPOm955CWXjMG72KjRSPbSbr7ZQauJlNkC7BrD5hiwaXouudfCq+NZnkt+p+XUji8msfezGt5koLoV2C8deAuvXqIuld79cBzHZLC6KGnU3r2EgTSekDVuzu49tXzwkIitw7trLtTlJ+/kDTSwk4HX5ZwdrM4CbxJz30pXLxZg47w1Am8lX3IOTqcNkgkinD5jdrC6BDx3Mpg8LafO03iu8F4W+FyhuZhyAvRnXum6F27HpD6fpmQPzfa2kd4dya4GrerITE0ApFQ7q3NrKK8l6CW9Ot7N1kNQ1zHnLIXAc1/KlhduTcpIvllDl4zFW0oX2KGkV8f79VEZPOXGMoI5vxcCP6Q4xpO0NerZ2MKwwOP5Hidrncs38vrsq/rBaPiO0nWnn2BCaW4sElsy4wF41WC1hq49Fu65dJqoQI7JJ2vZIjaoZamHXrejRGcHqmG164Hf4kA1tIAGeC8ZJ5Bbe3ORL7lDjUsOyQb2aO9+NWhVxd5zd+sab27t4S2B94S8Bp0+tb2NbsdTFyeZFjU8/e2l0vrPAn6Nh9eUXwBHGSzCiUu2qGXvQZg/O9ivjt+IRaFX6fccGja2JGw6b+BltvPp57rukXHm0xPwUKN/9XF9q1TtYE+SMmIWHfA55Yx4xEefuIn2j+NG71/GbYK//hQ/Ha4BHt7z+4VN5o89zm+bYxsv7kOvU2rL5Fq+7WBPljJ64HOsiwbkz9/uOkDJXrJXFo1g7mL3crL58bivxAb41HLYwh4dlZlmEx7+3Yf/eDc1/+5rozXx8eTCbPSGLYAO09rCnqzbw9oF8NwMq2c40iZctVGKI7KN3hWb4Euc9BCRvZMkGsl4812Ubp8Czy0Y8wK+efZ5pDBRhPFCznN7UuGepretywd939/SZgkengPeMgYtpbCZZtbapJ77tyJZphazXutzfD6t2208fAPep2FsFXKxhq1el6eawI6H1afh96bfJbSJKNKW5Mpcc7eVMPIG1SC1/iiN7SDHxwtrnprroFhNHlPv9ZEwyIV6kGoHvOcqSR9PkVqNuvQSQcFAE97b+yRkXW75u30kDPJzdm8qm2F+ptV7A4TH2m/GStPQn0xgYVZXfv7t566Tv28hVMjYIc/AVN7iArto+Je6rkOkJv3yGLiGuUBXiTUoT44n2y7NlqbmHIDKJcsR8Hd5/l6gTbWbpPftgU01+5ykwQeEuU/YeAPPVki7z8cCflpd8hu1TU9TONkAwsXiPXW8plTtXlsLeO26Os2lO+wHSYP/0etpvHW8bbW1pzEW8JUvkiOzOPtaEQX4enX8Wgna730skAd0nN0Oz371SRqfwlw/VYDndXzz8t51lPf5Vsf0refaPMa+/srTg5g4HY+3tMFrjK3rTuM/IA3L7xqJOWfo8Fwabl08nt4Gr3XDfC53eec7skuYadFD4Hkd37z8toDPE3WZ2qSIhFkEfozW8LKmafn6oS8DOuxSTMKsAa/z8jn2udaPVX05tNgbzJUKEgYhx5Mv6XGPsrnrxidv6A0hkh/NWS02ZWpPEQvk1eeh3QE41sPcq60y5oDXefnSJ9HWZuHc+SknW6SkVWj1JbPPAY+YPDZ2A3zuKvGpFC6nl3GXQI6FduWOHSkegYmpzKWv+Ok/N7/1rWox1iuZpg7IxQLVDErXqmQJeHh5RGzwp+5qml5nv/DuuiBHzj54uB7rXk2D0jVjzwKPm1RnTk7f2qI3a/Ww/Pv6IEdesfYFa2Cqib7EGngR+BF6fvZ1moM2mI2rE9n0goNXy2ryufxuQqefM/Qa8PoB7Jy338qpWXGI8qkANw6HfeoPNcIdlgugQ7pAwmz6Ogv86OXt9LyY6hJ37q9hIMdm4/OSuOrz3ksevcp4+pq5l36/CnwAPbcNcC1nNR7Yv5bn8PcCMjw1jsiWM+Dl7/hT+0XslPzYpL0Yjz41RxTwI/T6UOVaZcihRDjvfe0UAA1E4RnzgFQugRV/X0oj/655/5odyv0ep0h/uMXBaKzJooEfobcbxMbmEOnkFIHLhCzFEh5pq10G4FHYVOCh5994mJH08+Q9ct+eqbHArkAXQyUBLzfRm7411dPutbLA5iaLrAqO51DAZ9P0liXd97MO3vzS9XlMFdPAj9Dbhyxjct3SxFhAIP/uEuLnMQWOSaMCvkEfY+KsaRrkK+ZWAx9A3wazWdm+elmDPMHuJsAHg9kmcRKMr0jaICeNZwr8xNtjokq/vJgs2AXeJpB/mfOkrkuzoznwE2/fZA5HDODGf1iG2wDnbDh7lxvwM+A3j79cceK9kaIBbgj49FHuwIcvHIYB+2Th9QH/Hi/ZMNG8d6Hazwr8xOsD/hdHnc9vGC9kuOC1IcQiRfDr70ZZ0jXNXb6SJAdFgJ8WfxgGDG7xnzQAGezKv89ZTLO9LLx36WeBFn/eSHPJKwrrwdM+J1UAv1assUHAU2ogX3tN+/0OLPB/eyZbegMlnDAAAAAASUVORK5CYII=";
 
 /**
  * Class for TurboWarp blocks
@@ -279979,10 +285919,10 @@ class TurboWarpBlocks {
   getInfo() {
     return {
       id: 'tw',
-      name: 'TurboWarp',
-      color1: '#ff4c4c',
-      color2: '#e64444',
-      color3: '#c73a3a',
+      name: 'Dash',
+      color1: '#ffa34c',
+      color2: '#e68d44',
+      color3: '#c7693a',
       docsURI: 'https://docs.turbowarp.org/blocks',
       menuIconURI: iconURI,
       blockIconURI: iconURI,
@@ -284961,7 +290901,7 @@ const INPUT_DIFF_BLOCK_SHADOW = 3; // obscured shadow
 // There shouldn't be a case where block is null, but shadow is present...
 
 // Constants used during deserialization of an SB3 file
-const CORE_EXTENSIONS = ['argument', 'colour', 'control', 'data', 'event', 'looks', 'math', 'motion', 'operator', 'procedures', 'sensing', 'sound'];
+const CORE_EXTENSIONS = ['argument', 'colour', 'control', 'data', 'json', 'event', 'looks', 'math', 'motion', 'operator', 'procedures', 'sensing', 'sound'];
 
 // Constants referring to 'primitive' blocks that are usually shadows,
 // or in the case of variables and lists, appear quite often in projects
@@ -288222,6 +294162,23 @@ class Cast {
   }
 
   /**
+   * Scratch cast to array.
+   * @param {*} value Value to cast to array.
+   * @return {Array} The Scratch-casted array value.
+   */
+  static toList(value) {
+    if (Array.isArray(value)) {
+      return value;
+    }
+    try {
+      const result = JSON.parse(value);
+      return Array.isArray(result) ? result : [];
+    } catch (_unused) {
+      return [];
+    }
+  }
+
+  /**
    * Cast any Scratch argument to an RGB color array to be used for the renderer.
    * @param {*} value Value to convert to RGB color array.
    * @return {Array.<number>} [r,g,b], values between 0-255.
@@ -290268,7 +296225,7 @@ class VirtualMachine extends EventEmitter {
     return this._saveProjectZip().generateAsync({
       // Don't configure compression here. _saveProjectZip() will set it for each file.
       type: type || 'blob',
-      mimeType: 'application/x.scratch.sb3'
+      mimeType: 'application/x.dash.dbp'
     });
   }
 
@@ -290280,7 +296237,7 @@ class VirtualMachine extends EventEmitter {
   saveProjectSb3Stream(type) {
     return this._saveProjectZip().generateInternalStream({
       type: type || 'arraybuffer',
-      mimeType: 'application/x.scratch.sb3',
+      mimeType: 'application/x.dash.dbp',
       compression: 'DEFLATE'
     });
   }
