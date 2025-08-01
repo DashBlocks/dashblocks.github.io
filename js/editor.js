@@ -42899,6 +42899,17 @@ module.exports = __webpack_require__.p + "static/assets/cf07199bb768b01e6ac2a5c6
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/custom/legacy-lists.svg":
+/*!**************************************************************!*\
+  !*** ./src/lib/libraries/extensions/custom/legacy-lists.svg ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/2bc4228a45dc91945c326463dbba5bc8.svg";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/custom/return.svg":
 /*!********************************************************!*\
   !*** ./src/lib/libraries/extensions/custom/return.svg ***!
@@ -43066,10 +43077,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_svg__WEBPACK_IMPORTED_MODULE_32__);
 /* harmony import */ var _custom_return_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./custom/return.svg */ "./src/lib/libraries/extensions/custom/return.svg");
 /* harmony import */ var _custom_return_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_custom_return_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./gallery/gallery.svg */ "./src/lib/libraries/extensions/gallery/gallery.svg");
-/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../brand */ "./src/lib/brand.js");
-/* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_brand__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _custom_legacy_lists_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./custom/legacy-lists.svg */ "./src/lib/libraries/extensions/custom/legacy-lists.svg");
+/* harmony import */ var _custom_legacy_lists_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_custom_legacy_lists_svg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./gallery/gallery.svg */ "./src/lib/libraries/extensions/gallery/gallery.svg");
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../brand */ "./src/lib/brand.js");
+/* harmony import */ var _brand__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_brand__WEBPACK_IMPORTED_MODULE_36__);
 
 
 
@@ -43093,6 +43106,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -43341,7 +43355,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "dash.legacyLists.name"
   }),
   extensionId: 'data_lists_enable',
-  iconURL: _custom_return_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+  iconURL: _custom_legacy_lists_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Enable a vanilla lists system. Note that the JSON blocks are more flexible and should be used instead if possible.",
     id: "dash.legacyLists.description"
@@ -43353,7 +43367,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "{APP_NAME} Blocks",
     id: "tw.twExtension.name",
     values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_36__["APP_NAME"]
     }
   }),
   extensionId: 'tw',
@@ -43385,13 +43399,13 @@ const galleryLoading = {
     defaultMessage: "{APP_NAME} Extension Gallery",
     id: "tw.extensionGallery.name",
     values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_36__["APP_NAME"]
     }
   }),
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -43407,13 +43421,13 @@ const galleryMore = {
     defaultMessage: "{APP_NAME} Extension Gallery",
     id: "tw.extensionGallery.name",
     values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_36__["APP_NAME"]
     }
   }),
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -43429,13 +43443,13 @@ const galleryError = {
     defaultMessage: "{APP_NAME} Extension Gallery",
     id: "tw.extensionGallery.name",
     values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_36__["APP_NAME"]
     }
   }),
   // TODO: Make an Extension Gallery for Dash
   href: 'https://dashblocks.github.io/extensions',
   extensionId: 'gallery',
-  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
   // eslint-disable-next-line max-len
   , {
@@ -55191,6 +55205,39 @@ module.exports = __webpack_require__.p + "static/assets/30d09ba32a17082ef820b57d
 /*!**********************************!*\
   !*** ./node/extend.js (ignored) ***!
   \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 7:
+/*!*****************************************!*\
+  !*** ../locale-data/index.js (ignored) ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 8:
+/*!*******************************!*\
+  !*** ./lib/locales (ignored) ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 9:
+/*!*******************************!*\
+  !*** ./lib/locales (ignored) ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
