@@ -1,9 +1,9 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["sb"],{
 
-/***/ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js":
-/*!**************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ../scratch-blocks/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/messages.js ***!
-  \**************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/messages.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -51,9 +51,6 @@ Blockly.Msg.CONTROL_FOREVER = 'forever';
 Blockly.Msg.CONTROL_REPEAT = 'repeat %1';
 Blockly.Msg.CONTROL_IF = 'if %1 then';
 Blockly.Msg.CONTROL_ELSE = 'else';
-Blockly.Msg.CONTROL_RESUME = 'resume all';
-Blockly.Msg.CONTROL_PAUSE = 'pause all';
-Blockly.Msg.CONTROL_ISPAUSED = 'is paused?';
 Blockly.Msg.CONTROL_STOP = 'stop';
 Blockly.Msg.CONTROL_STOP_ALL = 'all';
 Blockly.Msg.CONTROL_STOP_THIS = 'this script';
@@ -99,7 +96,6 @@ Blockly.Msg.EVENT_WHENSTAGECLICKED = 'when stage clicked';
 Blockly.Msg.EVENT_WHENTOUCHINGOBJECT = 'when this sprite touches %1';
 Blockly.Msg.EVENT_WHENBROADCASTRECEIVED = 'when I receive %1';
 Blockly.Msg.EVENT_WHENBACKDROPSWITCHESTO = 'when backdrop switches to %1';
-Blockly.Msg.EVENT_WHEN = 'when %1';
 Blockly.Msg.EVENT_WHENGREATERTHAN = 'when %1 > %2';
 Blockly.Msg.EVENT_WHENGREATERTHAN_TIMER = 'timer';
 Blockly.Msg.EVENT_WHENGREATERTHAN_LOUDNESS = 'loudness';
@@ -210,7 +206,6 @@ Blockly.Msg.OPERATORS_AND = '%1 and %2';
 Blockly.Msg.OPERATORS_OR = '%1 or %2';
 Blockly.Msg.OPERATORS_NOT = 'not %1';
 Blockly.Msg.OPERATORS_JOIN = 'join %1 %2';
-Blockly.Msg.OPERATORS_NEWLINE = 'newline';
 Blockly.Msg.OPERATORS_JOIN_APPLE = 'apple';
 Blockly.Msg.OPERATORS_JOIN_BANANA = 'banana';
 Blockly.Msg.OPERATORS_LETTEROF = 'letter %1 of %2';
@@ -252,9 +247,6 @@ Blockly.Msg.SENSING_TOUCHINGCOLOR = 'touching color %1?';
 Blockly.Msg.SENSING_COLORISTOUCHINGCOLOR = 'color %1 is touching %2?';
 Blockly.Msg.SENSING_DISTANCETO = 'distance to %1';
 Blockly.Msg.SENSING_DISTANCETO_POINTER = 'mouse-pointer';
-Blockly.Msg.SENSING_ALERT = 'alert %1';
-Blockly.Msg.SENSING_PROMPT = 'prompt %1 with default value %2';
-Blockly.Msg.SENSING_CONFIRM = 'confirm %1';
 Blockly.Msg.SENSING_ASKANDWAIT = 'ask %1 and wait';
 Blockly.Msg.SENSING_ASK_TEXT = 'What\'s your name?';
 Blockly.Msg.SENSING_ANSWER = 'answer';
@@ -386,10 +378,10 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ../scratch-blocks/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23374,10 +23366,10 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ../scratch-blocks/node_modules/imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!../scratch-blocks/node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23429,10 +23421,10 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "../scratch-blocks/node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ../scratch-blocks/node_modules/imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!../scratch-blocks/node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23486,9 +23478,6 @@ Blockly.ScratchBlocks.VerticalExtensions.registerAll();Blockly.Blocks.control={}
 Blockly.Blocks.control_repeat={init:function(){this.jsonInit({id:"control_repeat",message0:Blockly.Msg.CONTROL_REPEAT,message1:"%1",message2:"%1",lastDummyAlign2:"RIGHT",args0:[{type:"input_value",name:"TIMES"}],args1:[{type:"input_statement",name:"SUBSTACK"}],args2:[{type:"field_image",src:Blockly.mainWorkspace.options.pathToMedia+"repeat.svg",width:24,height:24,alt:"*",flip_rtl:!0}],category:Blockly.Categories.control,extensions:["colours_control","shape_statement"]})}};
 Blockly.Blocks.control_if={init:function(){this.jsonInit({type:"control_if",message0:Blockly.Msg.CONTROL_IF,message1:"%1",args0:[{type:"input_value",name:"CONDITION",check:"Boolean"}],args1:[{type:"input_statement",name:"SUBSTACK"}],category:Blockly.Categories.control,extensions:["colours_control","shape_statement"]})}};
 Blockly.Blocks.control_if_else={init:function(){this.jsonInit({type:"control_if_else",message0:Blockly.Msg.CONTROL_IF,message1:"%1",message2:Blockly.Msg.CONTROL_ELSE,message3:"%1",args0:[{type:"input_value",name:"CONDITION",check:"Boolean"}],args1:[{type:"input_statement",name:"SUBSTACK"}],args3:[{type:"input_statement",name:"SUBSTACK2"}],category:Blockly.Categories.control,extensions:["colours_control","shape_statement"]})}};
-Blockly.Blocks.control_if_then_else={init:function(){this.jsonInit({type:"control_if_then_else",message0:Blockly.Msg.CONTROL_IF+" %2 "+Blockly.Msg.CONTROL_ELSE+" %3",args0:[{type:"input_value",name:"CONDITION",check:"Boolean"},{type:"input_value",name:"THEN"},{type:"input_value",name:"ELSE"}],category:Blockly.Categories.control,extensions:["colours_control","output_string"]})}};
-Blockly.Blocks.control_resume={init:function(){this.jsonInit({type:"control_resume",message0:Blockly.Msg.CONTROL_RESUME,args0:[],category:Blockly.Categories.control,extensions:["colours_control","shape_statement"]})}};Blockly.Blocks.control_pause={init:function(){this.jsonInit({type:"control_pause",message0:Blockly.Msg.CONTROL_PAUSE,args0:[],category:Blockly.Categories.control,extensions:["colours_control","shape_end"]})}};
-Blockly.Blocks.control_is_paused={init:function(){this.jsonInit({message0:Blockly.Msg.CONTROL_ISPAUSED,args0:[],checkboxInFlyout:!0,category:Blockly.Categories.control,extensions:["colours_control","output_boolean"]})}};
 Blockly.Blocks.control_stop={init:function(){var a=new Blockly.FieldDropdown(function(){return this.sourceBlock_&&this.sourceBlock_.nextConnection&&this.sourceBlock_.nextConnection.isConnected()?[[Blockly.Msg.CONTROL_STOP_OTHER,"other scripts in sprite"]]:[[Blockly.Msg.CONTROL_STOP_ALL,"all"],[Blockly.Msg.CONTROL_STOP_THIS,"this script"],[Blockly.Msg.CONTROL_STOP_OTHER,"other scripts in sprite"]]},function(a){Blockly.Events.setGroup(!0);var b=Blockly.Xml.domToText(this.sourceBlock_.mutationToDom());
 this.sourceBlock_.setNextStatement("other scripts in sprite"==a);var d=Blockly.Xml.domToText(this.sourceBlock_.mutationToDom());Blockly.Events.fire(new Blockly.Events.BlockChange(this.sourceBlock_,"mutation",null,b,d));this.setValue(a);Blockly.Events.setGroup(!1);return null});this.appendDummyInput().appendField(Blockly.Msg.CONTROL_STOP).appendField(a,"STOP_OPTION");this.setCategory(Blockly.Categories.control);this.setColour(Blockly.Colours.control.primary,Blockly.Colours.control.secondary,Blockly.Colours.control.tertiary,
 Blockly.Colours.control.quaternary);this.setPreviousStatement(!0)},mutationToDom:function(){var a=document.createElement("mutation");a.setAttribute("hasnext",null!=this.nextConnection);return a},domToMutation:function(a){a="true"==a.getAttribute("hasnext");this.setNextStatement(a)}};
@@ -23528,7 +23517,6 @@ Blockly.Blocks.event_whenflagclicked={init:function(){this.jsonInit({id:"event_w
 Blockly.Blocks.event_whenthisspriteclicked={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_WHENTHISSPRITECLICKED,category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};Blockly.Blocks.event_whenstageclicked={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_WHENSTAGECLICKED,category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};
 Blockly.Blocks.event_whenbroadcastreceived={init:function(){this.jsonInit({id:"event_whenbroadcastreceived",message0:Blockly.Msg.EVENT_WHENBROADCASTRECEIVED,args0:[{type:"field_variable",name:"BROADCAST_OPTION",variableTypes:[Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],variable:Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME}],category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};
 Blockly.Blocks.event_whenbackdropswitchesto={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_WHENBACKDROPSWITCHESTO,args0:[{type:"field_dropdown",name:"BACKDROP",options:[["backdrop1","BACKDROP1"]]}],category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};
-Blockly.Blocks.event_when={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_WHEN,args0:[{type:"input_value",name:"CONDITION",check:"Boolean"}],category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};
 Blockly.Blocks.event_whengreaterthan={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_WHENGREATERTHAN,args0:[{type:"field_dropdown",name:"WHENGREATERTHANMENU",options:[[Blockly.Msg.EVENT_WHENGREATERTHAN_LOUDNESS,"LOUDNESS"],[Blockly.Msg.EVENT_WHENGREATERTHAN_TIMER,"TIMER"]]},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.event,extensions:["colours_event","shape_hat"]})}};
 Blockly.Blocks.event_broadcast_menu={init:function(){this.jsonInit({message0:"%1",args0:[{type:"field_variable",name:"BROADCAST_OPTION",variableTypes:[Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],variable:Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME}],colour:Blockly.Colours.event.secondary,colourSecondary:Blockly.Colours.event.secondary,colourTertiary:Blockly.Colours.event.tertiary,colourQuaternary:Blockly.Colours.event.quaternary,extensions:["output_string"]})}};
 Blockly.Blocks.event_broadcast={init:function(){this.jsonInit({id:"event_broadcast",message0:Blockly.Msg.EVENT_BROADCAST,args0:[{type:"input_value",name:"BROADCAST_INPUT"}],category:Blockly.Categories.event,extensions:["colours_event","shape_statement"]})}};Blockly.Blocks.event_broadcastandwait={init:function(){this.jsonInit({message0:Blockly.Msg.EVENT_BROADCASTANDWAIT,args0:[{type:"input_value",name:"BROADCAST_INPUT"}],category:Blockly.Categories.event,extensions:["colours_event","shape_statement"]})}};
@@ -23591,8 +23579,8 @@ Blockly.Blocks.operator_gt={init:function(){this.jsonInit({message0:Blockly.Msg.
 Blockly.Blocks.operator_and={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_AND,args0:[{type:"input_value",name:"OPERAND1",check:"Boolean"},{type:"input_value",name:"OPERAND2",check:"Boolean"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_boolean"]})}};
 Blockly.Blocks.operator_or={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_OR,args0:[{type:"input_value",name:"OPERAND1",check:"Boolean"},{type:"input_value",name:"OPERAND2",check:"Boolean"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_boolean"]})}};
 Blockly.Blocks.operator_not={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_NOT,args0:[{type:"input_value",name:"OPERAND",check:"Boolean"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_boolean"]})}};Blockly.Blocks.operator_join={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_JOIN,args0:[{type:"input_value",name:"STRING1"},{type:"input_value",name:"STRING2"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_string"]})}};
-Blockly.Blocks.operator_newline={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_NEWLINE,args0:[],category:Blockly.Categories.operators,extensions:["colours_operators","output_number"]})}};Blockly.Blocks.operator_letter_of={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_LETTEROF,args0:[{type:"input_value",name:"LETTER"},{type:"input_value",name:"STRING"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_string"]})}};
-Blockly.Blocks.operator_length={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_LENGTH,args0:[{type:"input_value",name:"STRING"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_string"]})}};Blockly.Blocks.operator_contains={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_CONTAINS,args0:[{type:"input_value",name:"STRING1"},{type:"input_value",name:"STRING2"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_boolean"]})}};
+Blockly.Blocks.operator_letter_of={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_LETTEROF,args0:[{type:"input_value",name:"LETTER"},{type:"input_value",name:"STRING"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_string"]})}};Blockly.Blocks.operator_length={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_LENGTH,args0:[{type:"input_value",name:"STRING"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_string"]})}};
+Blockly.Blocks.operator_contains={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_CONTAINS,args0:[{type:"input_value",name:"STRING1"},{type:"input_value",name:"STRING2"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_boolean"]})}};
 Blockly.Blocks.operator_mod={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_MOD,args0:[{type:"input_value",name:"NUM1"},{type:"input_value",name:"NUM2"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_number"]})}};Blockly.Blocks.operator_round={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_ROUND,args0:[{type:"input_value",name:"NUM"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_number"]})}};
 Blockly.Blocks.operator_mathop={init:function(){this.jsonInit({message0:Blockly.Msg.OPERATORS_MATHOP,args0:[{type:"field_dropdown",name:"OPERATOR",options:[[Blockly.Msg.OPERATORS_MATHOP_ABS,"abs"],[Blockly.Msg.OPERATORS_MATHOP_FLOOR,"floor"],[Blockly.Msg.OPERATORS_MATHOP_CEILING,"ceiling"],[Blockly.Msg.OPERATORS_MATHOP_SQRT,"sqrt"],[Blockly.Msg.OPERATORS_MATHOP_SIN,"sin"],[Blockly.Msg.OPERATORS_MATHOP_COS,"cos"],[Blockly.Msg.OPERATORS_MATHOP_TAN,"tan"],[Blockly.Msg.OPERATORS_MATHOP_ASIN,"asin"],[Blockly.Msg.OPERATORS_MATHOP_ACOS,
 "acos"],[Blockly.Msg.OPERATORS_MATHOP_ATAN,"atan"],[Blockly.Msg.OPERATORS_MATHOP_LN,"ln"],[Blockly.Msg.OPERATORS_MATHOP_LOG,"log"],[Blockly.Msg.OPERATORS_MATHOP_EEXP,"e ^"],[Blockly.Msg.OPERATORS_MATHOP_10EXP,"10 ^"]]},{type:"input_value",name:"NUM"}],category:Blockly.Categories.operators,extensions:["colours_operators","output_number"]})}};Blockly.ScratchBlocks.ProcedureUtils={};Blockly.ScratchBlocks.ProcedureUtils.parseReturnMutation=function(a){return a.hasAttribute("return")&&(a=+a.getAttribute("return"),a===Blockly.PROCEDURES_CALL_TYPE_STATEMENT||a===Blockly.PROCEDURES_CALL_TYPE_REPORTER||a===Blockly.PROCEDURES_CALL_TYPE_BOOLEAN)?a:Blockly.PROCEDURES_CALL_TYPE_STATEMENT};
@@ -23633,8 +23621,7 @@ focusLastEditor_:Blockly.ScratchBlocks.ProcedureUtils.focusLastEditor_,getWarp:B
 Blockly.Blocks.argument_reporter_boolean={init:function(){this.jsonInit({message0:" %1",args0:[{type:"field_label_serializable",name:"VALUE",text:""}],extensions:["colours_more","output_boolean"]})}};Blockly.Blocks.argument_reporter_string_number={init:function(){this.jsonInit({message0:" %1",args0:[{type:"field_label_serializable",name:"VALUE",text:""}],extensions:["colours_more","output_number","output_string"]})}};
 Blockly.Blocks.argument_editor_boolean={init:function(){this.jsonInit({message0:" %1",args0:[{type:"field_input_removable",name:"TEXT",text:"foo"}],colour:Blockly.Colours.textField,colourSecondary:Blockly.Colours.textField,colourTertiary:Blockly.Colours.textField,colourQuaternary:Blockly.Colours.textField,extensions:["output_boolean"]})},removeFieldCallback:Blockly.ScratchBlocks.ProcedureUtils.removeArgumentCallback_};
 Blockly.Blocks.argument_editor_string_number={init:function(){this.jsonInit({message0:" %1",args0:[{type:"field_input_removable",name:"TEXT",text:"foo"}],colour:Blockly.Colours.textField,colourSecondary:Blockly.Colours.textField,colourTertiary:Blockly.Colours.textField,colourQuaternary:Blockly.Colours.textField,extensions:["output_number","output_string"]})},removeFieldCallback:Blockly.ScratchBlocks.ProcedureUtils.removeArgumentCallback_};
-Blockly.Blocks.procedures_return={init:function(){this.jsonInit({message0:Blockly.Msg.PROCEDURES_RETURN,args0:[{type:"input_value",name:"VALUE"}],extensions:["colours_more","shape_end"]});this.workspace.enableProcedureReturns()}};Blockly.Blocks.sensing={};Blockly.Blocks.sensing_alert={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_ALERT,args0:[{type:"input_value",name:"MESSAGE"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","shape_statement"]})}};Blockly.Blocks.sensing_prompt={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_PROMPT,args0:[{type:"input_value",name:"MESSAGE"},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_string"]})}};
-Blockly.Blocks.sensing_confirm={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_CONFIRM,args0:[{type:"input_value",name:"MESSAGE"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_boolean"]})}};Blockly.Blocks.sensing_touchingobject={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_TOUCHINGOBJECT,args0:[{type:"input_value",name:"TOUCHINGOBJECTMENU"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_boolean"]})}};
+Blockly.Blocks.procedures_return={init:function(){this.jsonInit({message0:Blockly.Msg.PROCEDURES_RETURN,args0:[{type:"input_value",name:"VALUE"}],extensions:["colours_more","shape_end"]});this.workspace.enableProcedureReturns()}};Blockly.Blocks.sensing={};Blockly.Blocks.sensing_touchingobject={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_TOUCHINGOBJECT,args0:[{type:"input_value",name:"TOUCHINGOBJECTMENU"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_boolean"]})}};
 Blockly.Blocks.sensing_touchingobjectmenu={init:function(){this.jsonInit({message0:"%1",args0:[{type:"field_dropdown",name:"TOUCHINGOBJECTMENU",options:[[Blockly.Msg.SENSING_TOUCHINGOBJECT_POINTER,"_mouse_"],[Blockly.Msg.SENSING_TOUCHINGOBJECT_EDGE,"_edge_"]]}],extensions:["colours_sensing","output_string"]})}};
 Blockly.Blocks.sensing_touchingcolor={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_TOUCHINGCOLOR,args0:[{type:"input_value",name:"COLOR"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_boolean"]})}};
 Blockly.Blocks.sensing_coloristouchingcolor={init:function(){this.jsonInit({message0:Blockly.Msg.SENSING_COLORISTOUCHINGCOLOR,args0:[{type:"input_value",name:"COLOR"},{type:"input_value",name:"COLOR2"}],category:Blockly.Categories.sensing,extensions:["colours_sensing","output_boolean"]})}};
@@ -23669,10 +23656,10 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "../scratch-blocks/node_modules/imports-loader/index.js?this=>window!../scratch-blocks/node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ../scratch-blocks/node_modules/imports-loader?this=>window!../scratch-blocks/node_modules/exports-loader?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/imports-loader?this=>window!./node_modules/exports-loader?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -25990,7 +25977,7 @@ exports["goog"] = (goog);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!exports-loader?Blockly!../blocks_compressed */ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!exports-loader?Blockly!../blocks_compressed */ "./node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js");
 
 
 /***/ }),
@@ -26026,7 +26013,7 @@ module.exports = __webpack_require__(/*! ./blockly_compressed_vertical */ "./nod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?this=>window!exports-loader?Blockly&goog!../blockly_compressed_vertical */ "../scratch-blocks/node_modules/imports-loader/index.js?this=>window!../scratch-blocks/node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js");
+module.exports = __webpack_require__(/*! imports-loader?this=>window!exports-loader?Blockly&goog!../blockly_compressed_vertical */ "./node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js");
 
 
 /***/ }),
@@ -26038,7 +26025,7 @@ module.exports = __webpack_require__(/*! imports-loader?this=>window!exports-loa
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/messages */ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/messages */ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js");
 
 
 /***/ }),
@@ -26050,7 +26037,7 @@ module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!exports-loader?Blockly!../blocks_compressed_vertical */ "../scratch-blocks/node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js");
+module.exports = __webpack_require__(/*! imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!exports-loader?Blockly!../blocks_compressed_vertical */ "./node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js");
 
 
 /***/ }),
@@ -26062,7 +26049,7 @@ module.exports = __webpack_require__(/*! imports-loader?goog=./shim/blockly_comp
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/scratch_msgs */ "../scratch-blocks/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../scratch-blocks/node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/scratch_msgs */ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js");
 
 
 /***/ })

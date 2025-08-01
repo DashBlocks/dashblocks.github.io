@@ -86,6 +86,51 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@turbowarp/nanolog/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@turbowarp/nanolog/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// only use colors in non-browser environments
+const addColors = typeof document === 'undefined';
+
+const RESET = addColors ? '\u001b[0m' : '';
+const GRAY = addColors ? '\u001b[90m' : '';
+const BLUE = addColors ? '\u001b[34m' : '';
+const CYAN = addColors ? '\u001b[36m' : '';
+const YELLOW = addColors ? '\u001b[33m' : '';
+const RED = addColors ? '\u001b[31m' : '';
+
+const DEBUG = `${BLUE}debug${RESET}`;
+const INFO = `${CYAN}info${RESET}`;
+const WARN = `${YELLOW}warn${RESET}`;
+const ERROR = `${RED}error${RESET}`;
+
+const createLog = (namespace = '') => {
+    const log = (childNamespace) => createLog(namespace ? `${namespace} ${childNamespace}` : childNamespace);
+
+    const formattedNamespace = namespace ? [`${GRAY}${namespace}${RESET}`] : [];
+
+    log.debug = log.log = console.debug.bind(console, ...formattedNamespace, DEBUG);
+    log.info = console.log.bind(console, ...formattedNamespace, INFO)
+    log.warn = log.warning = console.warn.bind(console, ...formattedNamespace, WARN)
+    log.error = console.error.bind(console, ...formattedNamespace, ERROR);
+
+    return log;
+};
+
+/**
+ * @deprecated does nothing
+ */
+createLog.enable = createLog.disable = () => {};
+
+module.exports = createLog;
+
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4!./node_modules/scratch-vm/src/extension-support/extension-worker.js ***!
@@ -195,55 +240,10 @@ global.ScratchExtensions = createScratchX(global.Scratch);
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/@turbowarp/nanolog/index.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/@turbowarp/nanolog/index.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// only use colors in non-browser environments
-const addColors = typeof document === 'undefined';
-
-const RESET = addColors ? '\u001b[0m' : '';
-const GRAY = addColors ? '\u001b[90m' : '';
-const BLUE = addColors ? '\u001b[34m' : '';
-const CYAN = addColors ? '\u001b[36m' : '';
-const YELLOW = addColors ? '\u001b[33m' : '';
-const RED = addColors ? '\u001b[31m' : '';
-
-const DEBUG = `${BLUE}debug${RESET}`;
-const INFO = `${CYAN}info${RESET}`;
-const WARN = `${YELLOW}warn${RESET}`;
-const ERROR = `${RED}error${RESET}`;
-
-const createLog = (namespace = '') => {
-    const log = (childNamespace) => createLog(namespace ? `${namespace} ${childNamespace}` : childNamespace);
-
-    const formattedNamespace = namespace ? [`${GRAY}${namespace}${RESET}`] : [];
-
-    log.debug = log.log = console.debug.bind(console, ...formattedNamespace, DEBUG);
-    log.info = console.log.bind(console, ...formattedNamespace, INFO)
-    log.warn = log.warning = console.warn.bind(console, ...formattedNamespace, WARN)
-    log.error = console.error.bind(console, ...formattedNamespace, ERROR);
-
-    return log;
-};
-
-/**
- * @deprecated does nothing
- */
-createLog.enable = createLog.disable = () => {};
-
-module.exports = createLog;
-
-
-/***/ }),
-
-/***/ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/format-message-formats/index.js ***!
-  \******************************************************************************/
+/***/ "./node_modules/format-message-formats/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/format-message-formats/index.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -444,19 +444,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/format-message-interpret/index.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/format-message-interpret/index.js ***!
-  \********************************************************************************/
+/***/ "./node_modules/format-message-interpret/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/format-message-interpret/index.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // @flow
 
-var formats = __webpack_require__(/*! format-message-formats */ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js")
-var plurals = __webpack_require__(/*! ./plurals */ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js")
+var formats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
+var plurals = __webpack_require__(/*! ./plurals */ "./node_modules/format-message-interpret/plurals.js")
 
 /*::
 import type {
@@ -659,10 +659,10 @@ exports.types = defaults
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js ***!
-  \**********************************************************************************/
+/***/ "./node_modules/format-message-interpret/plurals.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/format-message-interpret/plurals.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1230,10 +1230,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/format-message-parse/index.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/format-message-parse/index.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/format-message-parse/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/format-message-parse/index.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1686,21 +1686,21 @@ exports.SyntaxError = SyntaxError
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/format-message/index.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/format-message/index.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/format-message/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/format-message/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // @flow
 
-var parse = __webpack_require__(/*! format-message-parse */ "./node_modules/scratch-vm/node_modules/format-message-parse/index.js")
-var interpret = __webpack_require__(/*! format-message-interpret */ "./node_modules/scratch-vm/node_modules/format-message-interpret/index.js")
-var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js")
-var origFormats = __webpack_require__(/*! format-message-formats */ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js")
+var parse = __webpack_require__(/*! format-message-parse */ "./node_modules/format-message-parse/index.js")
+var interpret = __webpack_require__(/*! format-message-interpret */ "./node_modules/format-message-interpret/index.js")
+var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "./node_modules/format-message-interpret/plurals.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
+var origFormats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
 
 /*::
 import type { Types } from 'format-message-interpret'
@@ -1923,10 +1923,10 @@ module.exports = exports = namespace()
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js ***!
-  \*****************************************************************************/
+/***/ "./node_modules/lookup-closest-locale/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/lookup-closest-locale/index.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2529,7 +2529,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const formatMessage = __webpack_require__(/*! format-message */ "./node_modules/scratch-vm/node_modules/format-message/index.js");
+const formatMessage = __webpack_require__(/*! format-message */ "./node_modules/format-message/index.js");
 
 /**
  * @param {VM|null} vm
@@ -3329,7 +3329,7 @@ module.exports = Color;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const nanolog = __webpack_require__(/*! @turbowarp/nanolog */ "./node_modules/scratch-vm/node_modules/@turbowarp/nanolog/index.js");
+const nanolog = __webpack_require__(/*! @turbowarp/nanolog */ "./node_modules/@turbowarp/nanolog/index.js");
 nanolog.enable();
 module.exports = nanolog('vm');
 
@@ -3367,4 +3367,4 @@ module.exports = g;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=extension-worker.27147c6da536247291f4.js.map
+//# sourceMappingURL=extension-worker.d1e9c4028e53254a93c7.js.map

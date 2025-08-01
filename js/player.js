@@ -1311,9 +1311,9 @@ module.exports = "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAACXBIWXMAAAlyAA
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Archivo-Black.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Archivo-Black.ttf":
 /*!********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Archivo-Black.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Archivo-Black.ttf ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1322,9 +1322,9 @@ module.exports = "AAEAAAAQAQAABAAAR0RFRjKtMbEAAYZMAAAApEdQT1OCdKNaAAGG8AAAPEJHU1
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Archivo-Regular.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Archivo-Regular.ttf":
 /*!**********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Archivo-Regular.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Archivo-Regular.ttf ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1333,9 +1333,9 @@ module.exports = "AAEAAAAQAQAABAAAR0RFRjKtMbEAAYdwAAAApEdQT1MykzHmAAGIFAAAPmRHU1
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BLACKBOYSONMOPEDS.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/BLACKBOYSONMOPEDS.ttf":
 /*!************************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/BLACKBOYSONMOPEDS.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/BLACKBOYSONMOPEDS.ttf ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1344,9 +1344,9 @@ module.exports = "AAEAAAAPADAAAwDAT1MvMlDrWzIAAIlkAAAAVlBDTFR2RKmvAACJvAAAADZjbW
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BadComic-Regular.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/BadComic-Regular.ttf":
 /*!***********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/BadComic-Regular.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/BadComic-Regular.ttf ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1355,9 +1355,9 @@ module.exports = "AAEAAAATAQAABAAwRFNJRwAAAAEABNi0AAAACEdERUYAEAMOAAABPAAAABZHUE
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Grand9K-Pixel.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Grand9K-Pixel.ttf":
 /*!********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Grand9K-Pixel.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Grand9K-Pixel.ttf ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1366,9 +1366,9 @@ module.exports = "AAEAAAALAIAAAwAwT1MvMkI5aIoAAAE4AAAAVmNtYXCyQkCkAAAE9AAABEZnYX
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Griffy-Regular.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Griffy-Regular.ttf":
 /*!*********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Griffy-Regular.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Griffy-Regular.ttf ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1377,9 +1377,9 @@ module.exports = "AAEAAAAOAIAAAwBgT1MvMoC0NVIAAAFoAAAAYGNtYXCqFtWJAAAF0AAAA0hjdn
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/JetBrainsMono-Light.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/JetBrainsMono-Light.ttf":
 /*!**************************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/JetBrainsMono-Light.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/JetBrainsMono-Light.ttf ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1388,9 +1388,9 @@ module.exports = "AAEAAAARAQAABAAQR0RFRhhVFnQAA6iIAAACVEdQT1PZW9iNAAOq3AAAHcpHU1
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/JustBubble.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/JustBubble.ttf":
 /*!*****************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/JustBubble.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/JustBubble.ttf ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1399,9 +1399,9 @@ module.exports = "AAEAAAAPAIAAAwBwRkZUTY5WtX0AAXiIAAAAHEdERUYA/gGZAAEEnAAAACRHUE
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Knewave.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Knewave.ttf":
 /*!**************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Knewave.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Knewave.ttf ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1410,9 +1410,9 @@ module.exports = "AAEAAAANAIAAAwBQRkZUTXHtxcEAAK5cAAAAHE9TLzKEKKb2AAABWAAAAGBjbW
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Lilita One Regular.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Lilita One Regular.ttf":
 /*!*************************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Lilita One Regular.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Lilita One Regular.ttf ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1421,9 +1421,9 @@ module.exports = "AAEAAAAPAIAAAwBwRkZUTanACpQAAAD8AAAAHEdERUYAJwFVAAABGAAAAB5HUE
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Minecrafter.Reg.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Minecrafter.Reg.ttf":
 /*!**********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Minecrafter.Reg.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Minecrafter.Reg.ttf ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1432,9 +1432,9 @@ module.exports = "AAEAAAALAIAAAwAwT1MvMn/4e9kAAAE4AAAAYFZETVhwHXfEAAACoAAABeBjbW
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/MonospaceBold.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/MonospaceBold.ttf":
 /*!********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/MonospaceBold.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/MonospaceBold.ttf ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1443,9 +1443,9 @@ module.exports = "AAEAAAAOAIAAAwBgR0RFRgAlAAAAAADsAAAAGEdTVULaxd19AAABBAAAAF5PUy
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/NotoSans-Medium.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/NotoSans-Medium.ttf":
 /*!**********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/NotoSans-Medium.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/NotoSans-Medium.ttf ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1454,9 +1454,9 @@ module.exports = "AAEAAAASAQAABAAgR0RFRvDX3ecAAAEsAAAFwEdQT1MvEF4NAAAG7AAA6sZHU1
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/PressStart2P.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/PressStart2P.ttf":
 /*!*******************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/PressStart2P.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/PressStart2P.ttf ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1465,9 +1465,9 @@ module.exports = "AAEAAAAOAIAAAwBgRkZUTWMO5SUAAUIUAAAAHEdERUYCXgAkAAFB7AAAAChPUy
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/QTKooper.otf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/QTKooper.otf":
 /*!***************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/QTKooper.otf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/QTKooper.otf ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1476,9 +1476,9 @@ module.exports = "T1RUTwANAIAAAwBQQ0ZGIElTP9oAAAfUAABobkZGVE0Rab/oAAB2gAAAABxHRE
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/SourceSerifPro-Regular.otf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/SourceSerifPro-Regular.otf":
 /*!*****************************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/SourceSerifPro-Regular.otf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/SourceSerifPro-Regular.otf ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1487,9 +1487,9 @@ module.exports = "T1RUTwAOAIAAAwBgQkFTRYselLEAA0f4AAAAOkNGRiCkrsYlAAA1cAABsWFEU0
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Xtraflexidisc.otf":
 /*!********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/Xtraflexidisc.otf ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1498,9 +1498,9 @@ module.exports = "T1RUTwAJAIAAAwAQQ0ZGIDbVsQEAAA8kAABC709TLzJiEwJAAAABAAAAAGBjbW
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/freecam-v2.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/freecam-v2.ttf":
 /*!*****************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/freecam-v2.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/freecam-v2.ttf ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1509,9 +1509,9 @@ module.exports = "AAEAAAANAIAAAwBQRFNJRwAAAAEAAB1oAAAACEdERUYAZQAGAAAdcAAAACBPUy
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf":
 /*!**********************************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf ***!
   \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1520,9 +1520,9 @@ module.exports = "AAEAAAAOAIAAAwBgT1MvMoCuCA4AAAFoAAAAYGNtYXBY9QBeAAAGnAAAA5hjdn
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/handlee-regular.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/handlee-regular.ttf":
 /*!**********************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/handlee-regular.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/handlee-regular.ttf ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -1531,9 +1531,9 @@ module.exports = "AAEAAAARAQAABAAQRFNJRwAAAAEAAHTYAAAACEZGVE1flIgzAACYwAAAABxHRE
 
 /***/ }),
 
-/***/ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/obelix_pro.ttf":
+/***/ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/obelix_pro.ttf":
 /*!*****************************************************************************************!*\
-  !*** ./node_modules/base64-loader!./src/lib/penguinmod-render-fonts/src/obelix_pro.ttf ***!
+  !*** ./node_modules/base64-loader!./src/lib/tw-scratch-render-fonts/src/obelix_pro.ttf ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -4583,7 +4583,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\n    max-width: 750px;\n}\n\n.settings-modal_body_2_OnB {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n    min-height: 150px;\n    max-height: calc(100vh - 250px);\n    overflow-y: auto;\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\n    .settings-modal_modal-content_14XGC {\n        margin: 50px auto;\n    }\n    .settings-modal_body_2_OnB {\n        max-height: calc(100vh - 150px);\n    }\n}\n\n.settings-modal_setting_3KFrK {\n    display: flex;\n    flex-direction: column;\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\n    background: var(--badge-background);\n}\n\n.settings-modal_setting_3KFrK:hover,\n.settings-modal_setting_3KFrK:focus-within {\n    background: var(--badge-border);\n}\n\n.settings-modal_label_21R3L {\n    height: 32px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings-modal_setting_3KFrK table {\n    border-collapse: collapse;\n}\n\n.settings-modal_setting_3KFrK tr,\n.settings-modal_setting_3KFrK td,\n.settings-modal_setting_3KFrK th {\n    padding: 0;\n    margin: 0;\n    border: 1px solid var(--ui-tertiary);\n}\n\n.settings-modal_checkbox_3KZcV {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_help-icon__QQqI {\n    position: relative;\n    border: 0;\n    background-color: transparent;\n    width: 20px;\n    height: 20px;\n    background-size: 100%;\n    margin-left: 0.5rem;\n    cursor: pointer;\n}\n\n.settings-modal_help-icon__QQqI img {\n    display: block;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    filter: var(--filter-icon-black);\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\n    width: 80px;\n}\n\n.settings-modal_custom-cloud-var-server_1_r1f > * {\n    margin-right: 0.5rem;\n}\n\n.settings-modal_custom-cloud-var-server-input_379zi {\n    width: 80px; /* todo: make input-adaptive width */\n}\n\n.settings-modal_info_Ce_iV {\n    margin-bottom: 0.25rem;\n}\n\n.settings-modal_header_112iQ {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    margin: 0.5rem 0 0 0;\n    font-weight: bold;\n}\n\n.settings-modal_divider_3K8K_ {\n    flex-grow: 1;\n    margin-left: 1rem;\n    border-top: 1px dashed var(--ui-tertiary);\n}\n\n.settings-modal_button_ACn0P {\n    font-family: inherit;\n    font-size: 14px;\n    background-color: var(--looks-secondary);\n    color: white;\n    border: none;\n    padding: 0.5rem 1rem;\n    margin: 0;\n    border-radius: 4px;\n    cursor: pointer;\n    font-family: inherit;\n    font-weight: bold;\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings-modal_warning_3UmRm {\n    padding: 0.5rem 1rem;\n    margin: 0.25rem 0;\n    border-radius: 4px;\n    background: rgb(233, 233, 53);\n    color: var(--text-primary-default);\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\r\n    max-width: 750px;\r\n}\n\n.settings-modal_body_2_OnB {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    min-height: 150px;\r\n    max-height: calc(100vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\r\n    .settings-modal_modal-content_14XGC {\r\n        margin: 50px auto;\r\n    }\r\n    .settings-modal_body_2_OnB {\r\n        max-height: calc(100vh - 150px);\r\n    }\r\n}\n\n.settings-modal_setting_3KFrK {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\r\n    background: var(--badge-background);\r\n}\n\n.settings-modal_setting_3KFrK:hover,\r\n.settings-modal_setting_3KFrK:focus-within {\r\n    background: var(--badge-border);\r\n}\n\n.settings-modal_label_21R3L {\r\n    height: 32px;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.settings-modal_setting_3KFrK table {\r\n    border-collapse: collapse;\r\n}\n\n.settings-modal_setting_3KFrK tr,\r\n.settings-modal_setting_3KFrK td,\r\n.settings-modal_setting_3KFrK th {\r\n    padding: 0;\r\n    margin: 0;\r\n    border: 1px solid var(--ui-tertiary);\r\n}\n\n.settings-modal_checkbox_3KZcV {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_help-icon__QQqI {\r\n    position: relative;\r\n    border: 0;\r\n    background-color: transparent;\r\n    width: 20px;\r\n    height: 20px;\r\n    background-size: 100%;\r\n    margin-left: 0.5rem;\r\n    cursor: pointer;\r\n}\n\n.settings-modal_help-icon__QQqI img {\r\n    display: block;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    filter: var(--filter-icon-black);\r\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\r\n    width: 80px;\r\n}\n\n.settings-modal_custom-cloud-var-server_1_r1f > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-cloud-var-server-input_379zi {\r\n    width: 350px; /* todo: make input-adaptive width */\r\n}\n\n.settings-modal_info_Ce_iV {\r\n    margin-bottom: 0.25rem;\r\n}\n\n.settings-modal_header_112iQ {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    margin: 0.5rem 0 0 0;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_divider_3K8K_ {\r\n    flex-grow: 1;\r\n    margin-left: 1rem;\r\n    border-top: 1px dashed var(--ui-tertiary);\r\n}\n\n.settings-modal_button_ACn0P {\r\n    font-family: inherit;\r\n    font-size: 14px;\r\n    background-color: var(--looks-secondary);\r\n    color: white;\r\n    border: none;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    font-family: inherit;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\r\n    box-shadow: 0 0 0 3px var(--looks-transparent);\r\n}\n\n.settings-modal_warning_3UmRm {\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n    background: rgb(233, 233, 53);\r\n    color: var(--text-primary-default);\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -5869,412 +5869,6 @@ module.exports = function reactStringReplace(source, match, fn) {
   }));
 };
 
-
-/***/ }),
-
-/***/ "./src/addons/addons/debugger/module.js":
-/*!**********************************************!*\
-  !*** ./src/addons/addons/debugger/module.js ***!
-  \**********************************************/
-/*! exports provided: isPaused, setPaused, onPauseChanged, onSingleStep, getRunningThread, singleStep, setup */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isPaused", function() { return isPaused; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setPaused", function() { return setPaused; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onPauseChanged", function() { return onPauseChanged; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onSingleStep", function() { return onSingleStep; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRunningThread", function() { return getRunningThread; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "singleStep", function() { return singleStep; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setup", function() { return setup; });
-/* harmony import */ var _event_target_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../event-target.js */ "./src/addons/event-target.js");
- /* inserted by pull.js */
-
-// https://github.com/scratchfoundation/scratch-vm/blob/bb352913b57991713a5ccf0b611fda91056e14ec/src/engine/thread.js#L198
-const STATUS_RUNNING = 0;
-const STATUS_PROMISE_WAIT = 1;
-const STATUS_YIELD = 2;
-const STATUS_YIELD_TICK = 3;
-const STATUS_DONE = 4;
-const REACT_INTERNAL_PREFIX = "__reactInternalInstance$";
-let vm;
-let paused = false;
-let pausedThreadState = new WeakMap();
-let pauseNewThreads = false;
-let steppingThread = null;
-const eventTarget = new _event_target_js__WEBPACK_IMPORTED_MODULE_0__["default"]();
-let audioContextStateChange = Promise.resolve();
-const isPaused = () => paused;
-const pauseThread = thread => {
-  if (thread.updateMonitor || pausedThreadState.has(thread)) {
-    // Thread is already paused or shouldn't be paused.
-    return;
-  }
-  const pauseState = {
-    time: vm.runtime.currentMSecs,
-    status: thread.status
-  };
-  pausedThreadState.set(thread, pauseState);
-
-  // Pausing a thread now works by just setting its status to STATUS_PROMISE_WAIT.
-  // At the start of each frame, we make sure each paused thread is still paused.
-  // This is really the best way to implement this.
-  // Converting thread.status into a getter/setter causes Scratch's sequencer to permanently
-  //    perform significantly slower in some projects. I think this is because it causes some
-  //    very hot functions to be deoptimized.
-  // Trapping sequencer.stepThread to no-op for a paused thread causes Scratch's sequencer
-  //    to waste 24ms of CPU time every frame because it thinks a thread is running.
-  thread.status = STATUS_PROMISE_WAIT;
-};
-const ensurePausedThreadIsStillPaused = thread => {
-  if (thread.status === STATUS_DONE) {
-    // If a paused thread is finished by single stepping, let it keep being done.
-    return;
-  }
-  const pauseState = pausedThreadState.get(thread);
-  if (pauseState) {
-    if (thread.status !== STATUS_PROMISE_WAIT) {
-      // We'll record the change so we can properly resume the thread, but the thread must still be paused for now.
-      pauseState.status = thread.status;
-      thread.status = STATUS_PROMISE_WAIT;
-    }
-  }
-};
-const setSteppingThread = thread => {
-  steppingThread = thread;
-};
-const compensateForTimePassedWhilePaused = (thread, pauseState) => {
-  // TW: Compiled threads store their timer in a different place.
-  if (thread.timer) {
-    thread.timer.startTime += vm.runtime.currentMSecs - pauseState.time;
-  }
-  if (thread.compatibilityStackFrame && thread.compatibilityStackFrame.timer) {
-    thread.compatibilityStackFrame.timer.startTime += vm.runtime.currentMSecs - pauseState.time;
-  }
-  const stackFrame = thread.peekStackFrame();
-  if (stackFrame && stackFrame.executionContext && stackFrame.executionContext.timer) {
-    stackFrame.executionContext.timer.startTime += vm.runtime.currentMSecs - pauseState.time;
-  }
-};
-const stepUnsteppedThreads = lastSteppedThread => {
-  // If we paused in the middle of a tick, we need to make sure to step the scripts that didn't get
-  // stepped in that tick to avoid affecting project behavior.
-  const threads = vm.runtime.threads;
-  const startingIndex = getThreadIndex(lastSteppedThread);
-  if (startingIndex !== -1) {
-    for (let i = startingIndex; i < threads.length; i++) {
-      const thread = threads[i];
-      const status = thread.status;
-      if (status === STATUS_RUNNING || status === STATUS_YIELD || status === STATUS_YIELD_TICK) {
-        vm.runtime.sequencer.activeThread = thread;
-        vm.runtime.sequencer.stepThread(thread);
-      }
-    }
-  }
-};
-const setPaused = _paused => {
-  const didChange = paused !== _paused;
-  if (didChange) {
-    paused = _paused;
-    eventTarget.dispatchEvent(new CustomEvent("change"));
-
-    // TW: events for extensions
-    if (paused) {
-      vm.runtime.emit("RUNTIME_PAUSED");
-    } else {
-      vm.runtime.emit("RUNTIME_UNPAUSED");
-    }
-  }
-
-  // Don't check didChange as new threads could've started that we need to pause.
-  if (paused) {
-    audioContextStateChange = audioContextStateChange.then(() => {
-      return vm.runtime.audioEngine.audioContext.suspend();
-    });
-    if (!vm.runtime.ioDevices.clock._paused) {
-      vm.runtime.ioDevices.clock.pause();
-    }
-    vm.runtime.threads.forEach(pauseThread);
-    const activeThread = vm.runtime.sequencer.activeThread;
-    if (activeThread) {
-      setSteppingThread(activeThread);
-      eventTarget.dispatchEvent(new CustomEvent("step"));
-    }
-  }
-
-  // Only run unpausing logic when pause state changed to avoid unnecessary work
-  if (!paused && didChange) {
-    audioContextStateChange = audioContextStateChange.then(() => {
-      return vm.runtime.audioEngine.audioContext.resume();
-    });
-    vm.runtime.ioDevices.clock.resume();
-    for (const thread of vm.runtime.threads) {
-      const pauseState = pausedThreadState.get(thread);
-      if (pauseState) {
-        compensateForTimePassedWhilePaused(thread, pauseState);
-        thread.status = pauseState.status;
-      }
-    }
-    pausedThreadState = new WeakMap();
-    const lastSteppedThread = steppingThread;
-    // This must happen after the "change" event is fired to fix https://github.com/ScratchAddons/ScratchAddons/issues/4281
-    stepUnsteppedThreads(lastSteppedThread);
-    steppingThread = null;
-  }
-};
-const onPauseChanged = listener => {
-  eventTarget.addEventListener("change", () => listener(paused));
-};
-const onSingleStep = listener => {
-  eventTarget.addEventListener("step", listener);
-};
-const getRunningThread = () => steppingThread;
-
-// A modified version of this function
-// https://github.com/scratchfoundation/scratch-vm/blob/0e86a78a00db41af114df64255e2cd7dd881329f/src/engine/sequencer.js#L179
-// Returns if we should continue executing this thread.
-const singleStepThread = thread => {
-  if (thread.status === STATUS_DONE) {
-    return false;
-  }
-  // TW: Can't single-step compiled threads
-  if (thread.isCompiled) {
-    return false;
-  }
-  const currentBlockId = thread.peekStack();
-  if (!currentBlockId) {
-    thread.popStack();
-    if (thread.stack.length === 0) {
-      thread.status = STATUS_DONE;
-      return false;
-    }
-  }
-  pauseNewThreads = true;
-  vm.runtime.sequencer.activeThread = thread;
-
-  /*
-    We need to call execute(this, thread) like the original sequencer. We don't
-    have access to that method, so we need to force the original stepThread to run
-    execute for us then exit before it tries to run more blocks.
-    So, we make `thread.blockGlowInFrame = ...` throw an exception, so this line:
-    https://github.com/scratchfoundation/scratch-vm/blob/bb352913b57991713a5ccf0b611fda91056e14ec/src/engine/sequencer.js#L214
-    will end the function early. We then have to set it back to normal afterward.
-     Why are we here just to suffer?
-  */
-  const specialError = ["special error used by Scratch Addons for implementing single-stepping"];
-  Object.defineProperty(thread, "blockGlowInFrame", {
-    set(_block) {
-      throw specialError;
-    }
-  });
-  try {
-    thread.status = STATUS_RUNNING;
-
-    // Restart the warp timer on each step.
-    // If we don't do this, Scratch will think a lot of time has passed and may yield this thread.
-    if (thread.warpTimer) {
-      thread.warpTimer.start();
-    }
-    try {
-      vm.runtime.sequencer.stepThread(thread);
-    } catch (err) {
-      if (err !== specialError) throw err;
-    }
-    if (thread.status !== STATUS_RUNNING) {
-      return false;
-    }
-    if (thread.peekStack() === currentBlockId) {
-      thread.goToNextBlock();
-    }
-    while (!thread.peekStack()) {
-      thread.popStack();
-      if (thread.stack.length === 0) {
-        thread.status = STATUS_DONE;
-        return false;
-      }
-      const stackFrame = thread.peekStackFrame();
-      if (stackFrame.isLoop) {
-        if (thread.peekStackFrame().warpMode) {
-          continue;
-        } else {
-          return false;
-        }
-      } else if (stackFrame.waitingReporter) {
-        return false;
-      }
-      thread.goToNextBlock();
-    }
-    return true;
-  } finally {
-    pauseNewThreads = false;
-    vm.runtime.sequencer.activeThread = null;
-    Object.defineProperty(thread, "blockGlowInFrame", {
-      value: currentBlockId,
-      configurable: true,
-      enumerable: true,
-      writable: true
-    });
-
-    // Strictly this doesn't seem to be necessary, but let's make sure the thread is still paused after we step it.
-    if (thread.status !== STATUS_DONE) {
-      thread.status = STATUS_PROMISE_WAIT;
-    }
-  }
-};
-const getRealStatus = thread => {
-  const pauseState = pausedThreadState.get(thread);
-  if (pauseState) {
-    return pauseState.status;
-  }
-  return thread.status;
-};
-const getThreadIndex = thread => {
-  // We can't use vm.runtime.threads.indexOf(thread) because threads can be restarted.
-  // This can happens when, for example, a "when I receive message1" script broadcasts message1.
-  // The object in runtime.threads is replaced when this happens.
-  if (!thread) return -1;
-  return vm.runtime.threads.findIndex(otherThread => otherThread.target === thread.target && otherThread.topBlock === thread.topBlock && otherThread.stackClick === thread.stackClick && otherThread.updateMonitor === thread.updateMonitor);
-};
-const findNewSteppingThread = startingIndex => {
-  const threads = vm.runtime.threads;
-  for (let i = startingIndex; i < threads.length; i++) {
-    const possibleNewThread = threads[i];
-    if (possibleNewThread.updateMonitor) {
-      // Never single-step monitor update threads.
-      continue;
-    }
-    // TW: Can't single-step compiled threads
-    if (possibleNewThread.isCompiled) {
-      continue;
-    }
-    const status = getRealStatus(possibleNewThread);
-    if (status === STATUS_RUNNING || status === STATUS_YIELD || status === STATUS_YIELD_TICK) {
-      // Thread must not be running for single stepping to work.
-      pauseThread(possibleNewThread);
-      return possibleNewThread;
-    }
-  }
-  return null;
-};
-const singleStep = () => {
-  if (steppingThread) {
-    const pauseState = pausedThreadState.get(steppingThread);
-    // We can assume pauseState is defined as any single stepping threads must already be paused.
-
-    // Make it look like no time has passed
-    compensateForTimePassedWhilePaused(steppingThread, pauseState);
-    pauseState.time = vm.runtime.currentMSecs;
-
-    // Execute the block
-    const continueExecuting = singleStepThread(steppingThread);
-    if (!continueExecuting) {
-      // Try to move onto the next thread
-      steppingThread = findNewSteppingThread(getThreadIndex(steppingThread) + 1);
-    }
-  }
-
-  // If we don't have a thread, than we are between VM steps and should search for a new thread
-  if (!steppingThread) {
-    setSteppingThread(findNewSteppingThread(0));
-
-    // End of VM step, emulate one frame of time passing.
-    vm.runtime.ioDevices.clock._pausedTime += vm.runtime.currentStepTime;
-    // Skip all sounds forward by vm.runtime.currentStepTime milliseconds so it's as
-    //  if they where playing for one frame.
-    const audioContext = vm.runtime.audioEngine.audioContext;
-    for (const target of vm.runtime.targets) {
-      for (const soundId of Object.keys(target.sprite.soundBank.soundPlayers)) {
-        const soundPlayer = target.sprite.soundBank.soundPlayers[soundId];
-        if (soundPlayer.outputNode) {
-          soundPlayer.outputNode.stop(audioContext.currentTime);
-          soundPlayer._createSource();
-          soundPlayer.outputNode.start(audioContext.currentTime, audioContext.currentTime - soundPlayer.startingUntil + vm.runtime.currentStepTime / 1000);
-          soundPlayer.startingUntil -= vm.runtime.currentStepTime / 1000;
-        }
-      }
-    }
-    // Move all threads forward one frame in time. For blocks like `wait () seconds`
-    for (const thread of vm.runtime.threads) {
-      if (pausedThreadState.has(thread)) {
-        pausedThreadState.get(thread).time += vm.runtime.currentStepTime;
-      }
-    }
-
-    // Try to run edge activated hats
-    pauseNewThreads = true;
-    const hats = vm.runtime._hats;
-    for (const hatType in hats) {
-      if (!Object.prototype.hasOwnProperty.call(hats, hatType)) continue;
-      const hat = hats[hatType];
-      if (hat.edgeActivated) {
-        vm.runtime.startHats(hatType);
-      }
-    }
-    pauseNewThreads = false;
-  }
-  eventTarget.dispatchEvent(new CustomEvent("step"));
-};
-const setup = addon => {
-  if (vm) {
-    return;
-  }
-  vm = addon.tab.traps.vm;
-  const originalStepThreads = vm.runtime.sequencer.stepThreads;
-  vm.runtime.sequencer.stepThreads = function () {
-    if (isPaused()) {
-      for (const thread of this.runtime.threads) {
-        ensurePausedThreadIsStillPaused(thread);
-      }
-    }
-    return originalStepThreads.call(this);
-  };
-
-  // Unpause when green flag
-  const originalGreenFlag = vm.runtime.greenFlag;
-  vm.runtime.greenFlag = function () {
-    setPaused(false);
-    return originalGreenFlag.call(this);
-  };
-
-  // Disable edge-activated hats and hats like "when key pressed" while paused.
-  const originalStartHats = vm.runtime.startHats;
-  vm.runtime.startHats = function () {
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-    const hat = args[0];
-    // These hats can be manually started by the user when paused or while single stepping.
-    const isUserInitiated = hat === "event_whenbroadcastreceived" || hat === "control_start_as_clone";
-    if (pauseNewThreads) {
-      if (!isUserInitiated && !this.getIsEdgeActivatedHat(hat)) {
-        return [];
-      }
-      const newThreads = originalStartHats.apply(this, args);
-      for (const thread of newThreads) {
-        pauseThread(thread);
-      }
-      return newThreads;
-    } else if (paused && !isUserInitiated) {
-      return [];
-    }
-    return originalStartHats.apply(this, args);
-  };
-
-  // Paused threads should not be counted as running when updating GUI state.
-  const originalGetMonitorThreadCount = vm.runtime._getMonitorThreadCount;
-  vm.runtime._getMonitorThreadCount = function (threads) {
-    let count = originalGetMonitorThreadCount.call(this, threads);
-    if (paused) {
-      for (const thread of threads) {
-        if (pausedThreadState.has(thread)) {
-          count++;
-        }
-      }
-    }
-    return count;
-  };
-};
 
 /***/ }),
 
@@ -17518,6 +17112,8 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
       key,
       style
     } = _ref;
+    const value = this.props.values[index];
+    const isNestedArray = Array.isArray(value);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow,
       key: key,
@@ -17543,17 +17139,19 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
         color: this.props.categoryColor.text
       },
       type: "text",
-      value: this.props.activeValue,
+      value: isNestedArray ? "nested array" : this.props.activeValue,
       onBlur: this.props.onDeactivate,
       onChange: this.props.onInput,
       onFocus: this.props.onFocus,
       onKeyDown: this.props.onKeyPress // key down to get ahead of blur
+      ,
+      readOnly: isNestedArray
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.removeButton,
       onMouseDown: this.props.onRemove // mousedown to get ahead of blur
     }, '✖︎')) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.valueInner
-    }, this.props.values[index])));
+    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : value)));
   }
   render() {
     const {
@@ -17594,7 +17192,7 @@ ListMonitorScroller.propTypes = {
   onInput: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onKeyPress: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onRemove: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number])),
+  values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array])),
   width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
 };
 /* harmony default export */ __webpack_exports__["default"] = (ListMonitorScroller);
@@ -17800,76 +17398,79 @@ const getCategoryColor = (theme, category) => {
     text: colors.text
   };
 };
-const MonitorComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_contextmenu__WEBPACK_IMPORTED_MODULE_5__["ContextMenuTrigger"]
-// TW: if export is defined, we always show it, even outside of the editor
-, {
-  disable: !props.draggable && !props.onExport,
-  holdToDisplay: props.mode === 'slider' ? -1 : 1000,
-  id: "monitor-".concat(props.label)
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_draggable__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  bounds: ".monitor-overlay" // Class for monitor container
-  ,
-  cancel: ".no-drag" // Class used for slider input to prevent drag
-  ,
-  defaultClassNameDragging: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.dragging,
-  disabled: !props.draggable,
-  onStop: props.onDragEnd
+const MonitorComponent = props => {
+  const mode = Array.isArray(props.value) ? 'list' : props.mode;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_contextmenu__WEBPACK_IMPORTED_MODULE_5__["ContextMenuTrigger"]
+  // TW: if export is defined, we always show it, even outside of the editor
+  , {
+    disable: !props.draggable && !props.onExport,
+    holdToDisplay: mode === 'slider' ? -1 : 1000,
+    id: "monitor-".concat(props.label)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_draggable__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    bounds: ".monitor-overlay" // Class for monitor container
+    ,
+    cancel: ".no-drag" // Class used for slider input to prevent drag
+    ,
+    defaultClassNameDragging: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.dragging,
+    disabled: !props.draggable,
+    onStop: props.onDragEnd
 
-  // https://github.com/TurboWarp/scratch-gui/issues/950
-  ,
-  enableUserSelectHack: false
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-  className: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.monitorContainer,
-  componentRef: props.componentRef,
-  onDoubleClick: props.mode === 'list' || !props.draggable ? null : props.onNextMode,
-  "data-id": props.id,
-  "data-opcode": props.opcode
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(modes[props.mode], _objectSpread({
-  categoryColor: getCategoryColor(props.theme, props.category)
-}, props)))), /*#__PURE__*/react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.createPortal(
-/*#__PURE__*/
-// Use a portal to render the context menu outside the flow to avoid
-// positioning conflicts between the monitors `transform: scale` and
-// the context menus `position: fixed`. For more details, see
-// http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["ContextMenu"], {
-  id: "monitor-".concat(props.label)
-}, props.draggable && props.onSetModeToDefault && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
-  onClick: props.onSetModeToDefault
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "normal readout",
-  id: "gui.monitor.contextMenu.default"
-})), props.draggable && props.onSetModeToLarge && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
-  onClick: props.onSetModeToLarge
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "large readout",
-  id: "gui.monitor.contextMenu.large"
-})), props.draggable && props.onSetModeToSlider && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
-  onClick: props.onSetModeToSlider
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "slider",
-  id: "gui.monitor.contextMenu.slider"
-})), props.draggable && props.onSliderPromptOpen && props.mode === 'slider' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["BorderedMenuItem"], {
-  onClick: props.onSliderPromptOpen
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "change slider range",
-  id: "gui.monitor.contextMenu.sliderRange"
-})), props.onImport && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
-  onClick: props.onImport
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "import",
-  id: "gui.monitor.contextMenu.import"
-})), props.onExport && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
-  onClick: props.onExport
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "export",
-  id: "gui.monitor.contextMenu.export"
-})), props.draggable && props.onHide && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["BorderedMenuItem"], {
-  onClick: props.onHide
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "hide",
-  id: "gui.monitor.contextMenu.hide"
-}))), document.body));
+    // https://github.com/TurboWarp/scratch-gui/issues/950
+    ,
+    enableUserSelectHack: false
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.monitorContainer,
+    componentRef: props.componentRef,
+    onDoubleClick: mode === 'list' || !props.draggable ? null : props.onNextMode,
+    "data-id": props.id,
+    "data-opcode": props.opcode
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(modes[mode], _objectSpread({
+    categoryColor: getCategoryColor(props.theme, props.category)
+  }, props)))), /*#__PURE__*/react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.createPortal(
+  /*#__PURE__*/
+  // Use a portal to render the context menu outside the flow to avoid
+  // positioning conflicts between the monitors `transform: scale` and
+  // the context menus `position: fixed`. For more details, see
+  // http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["ContextMenu"], {
+    id: "monitor-".concat(props.label)
+  }, props.draggable && props.onSetModeToDefault && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
+    onClick: props.onSetModeToDefault
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "normal readout",
+    id: "gui.monitor.contextMenu.default"
+  })), props.draggable && props.onSetModeToLarge && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
+    onClick: props.onSetModeToLarge
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "large readout",
+    id: "gui.monitor.contextMenu.large"
+  })), props.draggable && props.onSetModeToSlider && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
+    onClick: props.onSetModeToSlider
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "slider",
+    id: "gui.monitor.contextMenu.slider"
+  })), props.draggable && props.onSliderPromptOpen && mode === 'slider' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["BorderedMenuItem"], {
+    onClick: props.onSliderPromptOpen
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "change slider range",
+    id: "gui.monitor.contextMenu.sliderRange"
+  })), props.onImport && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
+    onClick: props.onImport
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "import",
+    id: "gui.monitor.contextMenu.import"
+  })), props.onExport && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["MenuItem"], {
+    onClick: props.onExport
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "export",
+    id: "gui.monitor.contextMenu.export"
+  })), props.draggable && props.onHide && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_menu_context_menu_jsx__WEBPACK_IMPORTED_MODULE_6__["BorderedMenuItem"], {
+    onClick: props.onHide
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+    defaultMessage: "hide",
+    id: "gui.monitor.contextMenu.hide"
+  }))), document.body));
+};
 const monitorModes = Object.keys(modes);
 MonitorComponent.propTypes = {
   category: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOf(Object.keys(categoryColorMap)),
@@ -28523,7 +28124,7 @@ class Blocks extends react__WEBPACK_IMPORTED_MODULE_5___default.a.Component {
     _addons_hooks_js__WEBPACK_IMPORTED_MODULE_31__["default"].blockly = this.ScratchBlocks;
     _addons_hooks_js__WEBPACK_IMPORTED_MODULE_31__["default"].blocklyCallbacks.forEach(i => i());
     _addons_hooks_js__WEBPACK_IMPORTED_MODULE_31__["default"].blocklyCallbacks.length = [];
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['attachVM', 'detachVM', 'getToolboxXML', 'handleCategorySelected', 'handleConnectionModalStart', 'handleDrop', 'handleStatusButtonUpdate', 'handleOpenSoundRecorder', 'handlePromptStart', 'handlePromptCallback', 'handlePromptClose', 'handleCustomProceduresClose', 'onScriptGlowOn', 'onScriptGlowOff', 'onBlockGlowOn', 'onBlockGlowOff', 'handleMonitorsUpdate', 'handleExtensionAdded', 'handleBlocksInfoUpdate', 'onTargetsUpdate', 'onVisualReport', 'onWorkspaceUpdate', 'onWorkspaceMetricsChange', 'setBlocks', 'setLocale', 'handleEnableProcedureReturns']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['attachVM', 'detachVM', 'getToolboxXML', 'handleCategorySelected', 'handleConnectionModalStart', 'handleDrop', 'handleStatusButtonUpdate', 'handleOpenSoundRecorder', 'handlePromptStart', 'handlePromptCallback', 'handlePromptClose', 'handleCustomProceduresClose', 'onScriptGlowOn', 'onScriptGlowOff', 'onBlockGlowOn', 'onBlockGlowOff', 'handleMonitorsUpdate', 'handleExtensionAdded', 'handleBlocksInfoUpdate', 'onTargetsUpdate', 'onVisualReport', 'onWorkspaceUpdate', 'onWorkspaceMetricsChange', 'setBlocks', 'setLocale', 'handleEnableProcedureReturns', 'handleEnableLists']);
     this.ScratchBlocks.prompt = this.handlePromptStart;
     this.ScratchBlocks.statusButtonCallback = this.handleConnectionModalStart;
     this.ScratchBlocks.recordSoundCallback = this.handleOpenSoundRecorder;
@@ -29011,6 +28612,10 @@ class Blocks extends react__WEBPACK_IMPORTED_MODULE_5___default.a.Component {
     this.workspace.enableProcedureReturns();
     this.requestToolboxUpdate();
   }
+  handleEnableLists() {
+    this.workspace.enableLists();
+    this.requestToolboxUpdate();
+  }
   render() {
     /* eslint-disable no-unused-vars */
     const _this$props = this.props,
@@ -29059,6 +28664,7 @@ class Blocks extends react__WEBPACK_IMPORTED_MODULE_5___default.a.Component {
       vm: vm,
       onCategorySelected: this.handleCategorySelected,
       onEnableProcedureReturns: this.handleEnableProcedureReturns,
+      onEnableLists: this.handleEnableLists,
       onRequestClose: onRequestCloseExtensionLibrary,
       onOpenCustomExtensionModal: onOpenCustomExtensionModal || reduxOnOpenCustomExtensionModal
     }) : null, customProceduresVisible ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_custom_procedures_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -30890,6 +30496,11 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
       this.props.onCategorySelected('myBlocks');
       return;
     }
+    if (extensionId === 'data_lists_enable') {
+      this.props.onEnableLists();
+      this.props.onCategorySelected('data');
+      return;
+    }
     const url = item.extensionURL ? item.extensionURL : extensionId;
     if (!item.disabled) {
       if (this.props.vm.extensionManager.isExtensionLoaded(extensionId)) {
@@ -30951,6 +30562,7 @@ ExtensionLibrary.propTypes = {
   intl: react_intl__WEBPACK_IMPORTED_MODULE_6__["intlShape"].isRequired,
   onCategorySelected: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onEnableProcedureReturns: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onEnableLists: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onOpenCustomExtensionModal: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onRequestClose: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   visible: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
@@ -42808,7 +42420,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_omit__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_omit__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _reducers_fonts_loaded__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/fonts-loaded */ "./src/reducers/fonts-loaded.js");
-/* harmony import */ var scratch_render_fonts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/penguinmod-render-fonts/src/index.js");
+/* harmony import */ var scratch_render_fonts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! scratch-render-fonts */ "./src/lib/tw-scratch-render-fonts/src/index.js");
 /* harmony import */ var scratch_render_fonts__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(scratch_render_fonts__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -43708,7 +43320,7 @@ __webpack_require__.r(__webpack_exports__);
   }),
   helpLink: 'https://scratch.mit.edu/vernier'
 }, {
-  // not really an extension, but it's easiest to present it as one
+  // Not really an extension, but it's easiest to present it as one
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Custom Reporters",
     id: "tw.customReporters.name"
@@ -43721,6 +43333,20 @@ __webpack_require__.r(__webpack_exports__);
   }),
   tags: ['tw'],
   incompatibleWithScratch: true,
+  featured: true
+}, {
+  // Not really an extension, but it's easiest to present it as one
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Legacy Lists",
+    id: "dash.legacyLists.name"
+  }),
+  extensionId: 'data_lists_enable',
+  iconURL: _custom_return_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Enable a vanilla lists system. Note that the JSON blocks are more flexible and should be used instead if possible.",
+    id: "dash.legacyLists.description"
+  }),
+  tags: ['dash'],
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -44530,6 +44156,10 @@ const variables = function variables(isInitialSetup, isStage, targetId, colors) 
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
   return "\n    <category\n        name=\"%{BKY_CATEGORY_VARIABLES}\"\n        id=\"variables\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\"\n        custom=\"VARIABLE\">\n    </category>\n    ");
 };
+const json = function json(isInitialSetup, isStage, targetId, colors) {
+  // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_array_empty\" />\n        ").concat(blockSeparator, "\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"data_listindexrandom\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_length\" />\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"data_listindexrandom\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+};
 const myBlocks = function myBlocks(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
   return "\n    <category\n        name=\"%{BKY_CATEGORY_MYBLOCKS}\"\n        id=\"myBlocks\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\"\n        custom=\"PROCEDURE\">\n    </category>\n    ");
@@ -44589,6 +44219,7 @@ const makeToolboxXML = function makeToolboxXML(isInitialSetup) {
   const sensingXML = moveCategory('sensing') || sensing(isInitialSetup, isStage, targetId, colors.sensing);
   const operatorsXML = moveCategory('operators') || operators(isInitialSetup, isStage, targetId, colors.operators);
   const variablesXML = moveCategory('data') || variables(isInitialSetup, isStage, targetId, colors.data);
+  const jsonXML = moveCategory('json') || json(isInitialSetup, isStage, targetId, colors.json);
   const myBlocksXML = moveCategory('procedures') || myBlocks(isInitialSetup, isStage, targetId, colors.more);
 
   // Always display TurboWarp blocks as the first extension, if it exists,
@@ -44597,7 +44228,7 @@ const makeToolboxXML = function makeToolboxXML(isInitialSetup) {
   if (turbowarpXML && !turbowarpXML.includes(extraTurboWarpBlocks)) {
     turbowarpXML = turbowarpXML.replace('<block', "".concat(extraTurboWarpBlocks, "<block"));
   }
-  const everything = [xmlOpen, motionXML, gap, looksXML, gap, soundXML, gap, eventsXML, gap, controlXML, gap, sensingXML, gap, operatorsXML, gap, variablesXML, gap, myBlocksXML];
+  const everything = [xmlOpen, motionXML, gap, looksXML, gap, soundXML, gap, eventsXML, gap, controlXML, gap, sensingXML, gap, operatorsXML, gap, variablesXML, gap, jsonXML, gap, myBlocksXML];
   if (turbowarpXML) {
     everything.push(gap, turbowarpXML);
   }
@@ -45150,74 +44781,6 @@ class OpcodeLabels {
   }
 }
 /* harmony default export */ __webpack_exports__["default"] = (new OpcodeLabels());
-
-/***/ }),
-
-/***/ "./src/lib/penguinmod-render-fonts/src/index.js":
-/*!******************************************************!*\
-  !*** ./src/lib/penguinmod-render-fonts/src/index.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Synchronously load TTF fonts.
-// First, have Webpack load their data as Base 64 strings.
-let FONTS;
-const getFonts = function getFonts() {
-  if (FONTS) return FONTS;
-  /* eslint-disable global-require */
-  FONTS = {
-    // Scratch
-    'Sans Serif': __webpack_require__(/*! base64-loader!./NotoSans-Medium.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/NotoSans-Medium.ttf"),
-    'Serif': __webpack_require__(/*! base64-loader!./SourceSerifPro-Regular.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/SourceSerifPro-Regular.otf"),
-    'Handwriting': __webpack_require__(/*! base64-loader!./handlee-regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/handlee-regular.ttf"),
-    'Marker': __webpack_require__(/*! base64-loader!./Knewave.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Knewave.ttf"),
-    'Curly': __webpack_require__(/*! base64-loader!./Griffy-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Griffy-Regular.ttf"),
-    'Pixel': __webpack_require__(/*! base64-loader!./Grand9K-Pixel.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Grand9K-Pixel.ttf"),
-    // Xtraflexidisc is saved as Scratch for backwards-compat, this needs visual renaming
-    'Scratch': __webpack_require__(/*! base64-loader!./BLACKBOYSONMOPEDS.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BLACKBOYSONMOPEDS.ttf"),
-    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Xtraflexidisc.otf"),
-    // PenguinMod
-    'Technological': __webpack_require__(/*! base64-loader!./MonospaceBold.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/MonospaceBold.ttf"),
-    'Bubbly': __webpack_require__(/*! base64-loader!./QTKooper.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/QTKooper.otf"),
-    'Bits and Bytes': __webpack_require__(/*! base64-loader!./freecam-v2.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/freecam-v2.ttf"),
-    'Playful': __webpack_require__(/*! base64-loader!./BadComic-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/BadComic-Regular.ttf"),
-    'Arcade': __webpack_require__(/*! base64-loader!./PressStart2P.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/PressStart2P.ttf"),
-    'Archivo': __webpack_require__(/*! base64-loader!./Archivo-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Archivo-Regular.ttf"),
-    'Archivo Black': __webpack_require__(/*! base64-loader!./Archivo-Black.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Archivo-Black.ttf"),
-    // Dash
-    'Gogono': __webpack_require__(/*! base64-loader!./gogono-cocoa-mochi-cyrillic.otf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf"),
-    'Just Bubble': __webpack_require__(/*! base64-loader!./JustBubble.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/JustBubble.ttf"),
-    'Lilita One Regular': __webpack_require__(/*! base64-loader!./Lilita One Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Lilita One Regular.ttf"),
-    'Minecrafter': __webpack_require__(/*! base64-loader!./Minecrafter.Reg.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/Minecrafter.Reg.ttf"),
-    'Obelix Pro': __webpack_require__(/*! base64-loader!./obelix_pro.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/obelix_pro.ttf"),
-    'Jet Brains Mono': __webpack_require__(/*! base64-loader!./JetBrainsMono-Light.ttf */ "./node_modules/base64-loader/index.js!./src/lib/penguinmod-render-fonts/src/JetBrainsMono-Light.ttf")
-  };
-  /* eslint-enable global-require */
-
-  // For each Base 64 string,
-  // 1. Replace each with a usable @font-face tag that points to a Data URI.
-  // 2. Inject the font into a style on `document.body`, so measurements
-  //    can be accurately taken in SvgRenderer._transformMeasurements.
-  for (const fontName in FONTS) {
-    const fontData = FONTS[fontName];
-    FONTS[fontName] = '@font-face {' + "font-family: \"".concat(fontName, "\";src: url(\"data:application/x-font-ttf;charset=utf-8;base64,").concat(fontData, "\");}");
-  }
-  if (!document.getElementById('scratch-font-styles')) {
-    const documentStyleTag = document.createElement('style');
-    documentStyleTag.id = 'scratch-font-styles';
-    for (const fontName in FONTS) {
-      documentStyleTag.textContent += FONTS[fontName];
-    }
-    document.body.insertBefore(documentStyleTag, document.body.firstChild);
-  }
-  return FONTS;
-};
-const loadFonts = function loadFonts() {
-  return Promise.resolve(getFonts());
-};
-module.exports = getFonts;
-module.exports.loadFonts = loadFonts;
 
 /***/ }),
 
@@ -49737,6 +49300,74 @@ const ScratchPaintReducer = (state, action) => {
   return {};
 };
 
+
+/***/ }),
+
+/***/ "./src/lib/tw-scratch-render-fonts/src/index.js":
+/*!******************************************************!*\
+  !*** ./src/lib/tw-scratch-render-fonts/src/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Synchronously load TTF fonts.
+// First, have Webpack load their data as Base 64 strings.
+let FONTS;
+const getFonts = function getFonts() {
+  if (FONTS) return FONTS;
+  /* eslint-disable global-require */
+  FONTS = {
+    // Scratch
+    'Sans Serif': __webpack_require__(/*! base64-loader!./NotoSans-Medium.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/NotoSans-Medium.ttf"),
+    'Serif': __webpack_require__(/*! base64-loader!./SourceSerifPro-Regular.otf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/SourceSerifPro-Regular.otf"),
+    'Handwriting': __webpack_require__(/*! base64-loader!./handlee-regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/handlee-regular.ttf"),
+    'Marker': __webpack_require__(/*! base64-loader!./Knewave.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Knewave.ttf"),
+    'Curly': __webpack_require__(/*! base64-loader!./Griffy-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Griffy-Regular.ttf"),
+    'Pixel': __webpack_require__(/*! base64-loader!./Grand9K-Pixel.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Grand9K-Pixel.ttf"),
+    // Xtraflexidisc is saved as Scratch for backwards-compat, this needs visual renaming
+    'Scratch': __webpack_require__(/*! base64-loader!./BLACKBOYSONMOPEDS.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/BLACKBOYSONMOPEDS.ttf"),
+    'Branches': __webpack_require__(/*! base64-loader!./Xtraflexidisc.otf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Xtraflexidisc.otf"),
+    // PenguinMod
+    'Technological': __webpack_require__(/*! base64-loader!./MonospaceBold.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/MonospaceBold.ttf"),
+    'Bubbly': __webpack_require__(/*! base64-loader!./QTKooper.otf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/QTKooper.otf"),
+    'Bits and Bytes': __webpack_require__(/*! base64-loader!./freecam-v2.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/freecam-v2.ttf"),
+    'Playful': __webpack_require__(/*! base64-loader!./BadComic-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/BadComic-Regular.ttf"),
+    'Arcade': __webpack_require__(/*! base64-loader!./PressStart2P.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/PressStart2P.ttf"),
+    'Archivo': __webpack_require__(/*! base64-loader!./Archivo-Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Archivo-Regular.ttf"),
+    'Archivo Black': __webpack_require__(/*! base64-loader!./Archivo-Black.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Archivo-Black.ttf"),
+    // Dash
+    'Gogono': __webpack_require__(/*! base64-loader!./gogono-cocoa-mochi-cyrillic.otf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/gogono-cocoa-mochi-cyrillic.otf"),
+    'Just Bubble': __webpack_require__(/*! base64-loader!./JustBubble.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/JustBubble.ttf"),
+    'Lilita One Regular': __webpack_require__(/*! base64-loader!./Lilita One Regular.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Lilita One Regular.ttf"),
+    'Minecrafter': __webpack_require__(/*! base64-loader!./Minecrafter.Reg.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/Minecrafter.Reg.ttf"),
+    'Obelix Pro': __webpack_require__(/*! base64-loader!./obelix_pro.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/obelix_pro.ttf"),
+    'Jet Brains Mono': __webpack_require__(/*! base64-loader!./JetBrainsMono-Light.ttf */ "./node_modules/base64-loader/index.js!./src/lib/tw-scratch-render-fonts/src/JetBrainsMono-Light.ttf")
+  };
+  /* eslint-enable global-require */
+
+  // For each Base 64 string,
+  // 1. Replace each with a usable @font-face tag that points to a Data URI.
+  // 2. Inject the font into a style on `document.body`, so measurements
+  //    can be accurately taken in SvgRenderer._transformMeasurements.
+  for (const fontName in FONTS) {
+    const fontData = FONTS[fontName];
+    FONTS[fontName] = '@font-face {' + "font-family: \"".concat(fontName, "\";src: url(\"data:application/x-font-ttf;charset=utf-8;base64,").concat(fontData, "\");}");
+  }
+  if (!document.getElementById('scratch-font-styles')) {
+    const documentStyleTag = document.createElement('style');
+    documentStyleTag.id = 'scratch-font-styles';
+    for (const fontName in FONTS) {
+      documentStyleTag.textContent += FONTS[fontName];
+    }
+    document.body.insertBefore(documentStyleTag, document.body.firstChild);
+  }
+  return FONTS;
+};
+const loadFonts = function loadFonts() {
+  return Promise.resolve(getFonts());
+};
+module.exports = getFonts;
+module.exports.loadFonts = loadFonts;
 
 /***/ }),
 
@@ -55562,39 +55193,6 @@ module.exports = __webpack_require__.p + "static/assets/30d09ba32a17082ef820b57d
 /*!**********************************!*\
   !*** ./node/extend.js (ignored) ***!
   \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 7:
-/*!*****************************************!*\
-  !*** ../locale-data/index.js (ignored) ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 8:
-/*!*******************************!*\
-  !*** ./lib/locales (ignored) ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 9:
-/*!*******************************!*\
-  !*** ./lib/locales (ignored) ***!
-  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

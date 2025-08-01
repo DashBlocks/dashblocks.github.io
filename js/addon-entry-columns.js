@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
   const _CategoryMenuPopulate = Blockly.Toolbox.CategoryMenu.prototype.populate;
   Blockly.Toolbox.CategoryMenu.prototype.populate = function (domTree) {
     if (!domTree) return;
-    const Categories = ["motion", "looks", "sound", "events", "control", "sensing", "operators", "variables", "lists", "myBlocks"];
+    const Categories = ["motion", "looks", "sound", "events", "control", "sensing", "operators", "variables", "json", "myBlocks"];
     const extensionsNodes = [];
     const extensionTree = domTree.cloneNode(true);
     if (!addon.self.disabled) {
