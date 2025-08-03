@@ -496,6 +496,12 @@ const blockColors = {
     tertiary: '#FF661A',
     quaternary: '#FF661A'
   },
+  json: {
+    primary: "#1B1C2A",
+    secondary: "#4C4C4C",
+    tertiary: "#0E0F16",
+    quaternary: "#0E0F16"
+  },
   more: {
     primary: '#331419',
     secondary: '#4C4C4C',
@@ -678,6 +684,12 @@ const blockColors = {
     tertiary: '#E64D00',
     quaternary: '#FFDDCC'
   },
+  json: {
+    primary: "#B7BEF7",
+    secondary: "#B0B6E9",
+    tertiary: "#A8AEDC",
+    quaternary: "#A8AEDC"
+  },
   more: {
     primary: '#FF99AA',
     secondary: '#FFCCD5',
@@ -828,11 +840,10 @@ const blockColors = {
     quaternary: '#E64D00'
   },
   json: {
-    // todo: add json category colors to high-contrast and dark
     primary: "#748BEE",
-    secondary: "#4D60B4FF",
-    tertiary: "#2E3C7AFF",
-    quaternary: "#2E3C7AFF"
+    secondary: "#687DD6",
+    tertiary: "#5C6FBE",
+    quaternary: "#5C6FBE"
   },
   more: {
     primary: '#FF6680',

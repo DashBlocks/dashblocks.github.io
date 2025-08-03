@@ -192929,7 +192929,6 @@ class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Com
   }
   handleOpenDropdown() {
     this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
-    alert("Open dasharray dropdown | Selection: ".concat(this.savedSelection.length));
     this.dashArray = this.getDashArray(this.savedSelection);
     this.forceUpdate();
   }
@@ -192959,7 +192958,6 @@ class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Com
     return firstStyle;
   }
   handleDashArray(selectedItems, value) {
-    alert("Some changes in dasharray | Selection: ".concat(selectedItems.length));
     let changed;
     for (const item of selectedItems) {
       const styles = item.getStyle();
@@ -256989,7 +256987,9 @@ class DashJSONBlocks {
       json_array_in_front_of: this.arrayAddFront,
       json_array_behind: this.arrayAddBack,
       json_array_at: this.arrayInsertAt,
-      json_array_split: this.arraySplit
+      json_array_split: this.arraySplit,
+      json_array_delete: this.arrayDelete,
+      json_array_replace: this.arrayReplace
     };
   }
   arrayEmpty() {
@@ -257040,6 +257040,27 @@ class DashJSONBlocks {
     const text = Cast.toString(args.TEXT);
     const delimiter = Cast.toString(args.DELIM);
     return text.split(delimiter);
+  }
+  arrayDelete(args) {
+    const array = Cast.toList(args.ARRAY);
+    const index = Cast.toListIndex(args.INDEX, array.length, true);
+    const item = args.ITEM;
+    if (index === Cast.LIST_ALL) {
+      return [];
+    } else if (index === Cast.LIST_INVALID) {
+      return array;
+    }
+    return array.toSpliced(index - 1, 1);
+  }
+  arrayReplace(args) {
+    const array = Cast.toList(args.ARRAY);
+    const index = Cast.toListIndex(args.INDEX, array.length, false);
+    const item = args.ITEM;
+    if (index === Cast.LIST_INVALID) {
+      return array;
+    }
+    array[index] = item;
+    return array;
   }
 }
 module.exports = DashJSONBlocks;
@@ -260586,6 +260607,19 @@ class ScriptTreeGenerator {
           text: this.descendInputOfBlock(block, 'TEXT'),
           delimiter: this.descendInputOfBlock(block, 'DELIM')
         };
+      case 'json_array_delete':
+        return {
+          kind: 'json.arrayDelete',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          index: this.descendInputOfBlock(block, 'INDEX')
+        };
+      case 'json_array_replace':
+        return {
+          kind: 'json.arrayReplace',
+          array: this.descendInputOfBlock(block, 'ARRAY'),
+          index: this.descendInputOfBlock(block, 'INDEX'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        };
       case 'tw_getLastKeyPressed':
         return {
           kind: 'tw.lastKeyPressed'
@@ -262709,8 +262743,20 @@ class JSGenerator {
         }
       case 'json.arraySplit':
         {
-          const args = "\n            \"TEXT\":".concat(this.descendInput(node.text).asString(), ",\n            \"DELIM\":").concat(this.descendInput(node.delimeter).asString(), "\n            ");
+          const args = "\n            \"TEXT\":".concat(this.descendInput(node.text).asString(), ",\n            \"DELIM\":").concat(this.descendInput(node.delimiter).asString(), "\n            ");
           return new TypedInput("runtime.ext_dash_json.arraySplit({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arrayDelete':
+        {
+          const index = this.descendInput(node.index);
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayDelete({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.arrayReplace':
+        {
+          const index = this.descendInput(node.index);
+          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.arrayReplace({".concat(args, "})"), TYPE_UNKNOWN);
         }
       default:
         log.warn("JS: Unknown input: ".concat(node.kind), node);

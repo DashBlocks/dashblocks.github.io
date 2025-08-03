@@ -464,6 +464,10 @@ const categories = [{
   settingId: "data-lists-color",
   colorId: "data_lists"
 }, {
+  categoryId: "json",
+  settingId: "json-color",
+  colorId: "json"
+}, {
   categoryId: "myBlocks",
   settingId: "custom-color",
   colorId: "more"

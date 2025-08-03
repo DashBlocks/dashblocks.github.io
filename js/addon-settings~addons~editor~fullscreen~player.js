@@ -338,6 +338,12 @@ const manifest = {
     "default": true
   }, {
     "dynamic": true,
+    "name": "JSON blocks",
+    "id": "json",
+    "type": "boolean",
+    "default": true
+  }, {
+    "dynamic": true,
     "name": "Extension blocks",
     "id": "extension",
     "type": "boolean",
@@ -2001,6 +2007,13 @@ const manifest = {
     "allowTransparency": true
   }, {
     "dynamic": true,
+    "name": "json",
+    "id": "json-color",
+    "type": "color",
+    "default": "#748BEE",
+    "allowTransparency": true
+  }, {
+    "dynamic": true,
     "name": "custom",
     "id": "custom-color",
     "type": "color",
@@ -2072,6 +2085,7 @@ const manifest = {
       "operators-color": "#7ECE7E",
       "data-color": "#FFA54C",
       "data-lists-color": "#FF9966",
+      "json-color": "#B7BEF7",
       "custom-color": "#FF99AA",
       "Pen-color": "#13ECAF",
       "sa-color": "#34E4D0",
@@ -2093,6 +2107,7 @@ const manifest = {
       "operators-color": "#438C43",
       "data-color": "#B46313",
       "data-lists-color": "#A84210",
+      "json-color": "#4B5790",
       "custom-color": "#973545",
       "Pen-color": "#2A7468",
       "sa-color": "#2A797C",
@@ -2114,6 +2129,7 @@ const manifest = {
       "operators-color": "#235c23",
       "data-color": "#b35900",
       "data-lists-color": "#993300",
+      "json-color": "#373E65",
       "custom-color": "#99004d",
       "Pen-color": "#064734",
       "sa-color": "#166966",
@@ -2135,6 +2151,7 @@ const manifest = {
       "operators-color": "#59C059",
       "data-color": "#FF8C1A",
       "data-lists-color": "#FF661A",
+      "json-color": "#748BEE",
       "custom-color": "#5f49d8",
       "Pen-color": "#0FBD8C",
       "sa-color": "#29BEB8",
@@ -2156,6 +2173,7 @@ const manifest = {
       "operators-color": "#5cb712",
       "data-color": "#ee7d16",
       "data-lists-color": "#cc5b22",
+      "json-color": "#748BEE",
       "custom-color": "#632d99",
       "Pen-color": "#0e9a6c",
       "sa-color": "#29beb8",
@@ -2177,6 +2195,7 @@ const manifest = {
       "operators-color": "#7ECE7E",
       "data-color": "#FFA54C",
       "data-lists-color": "#FF9966",
+      "json-color": "#B7BEF7",
       "custom-color": "#FF99AA",
       "Pen-color": "#13ECAF",
       "sa-color": "#34E4D0",
