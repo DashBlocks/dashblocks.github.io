@@ -43,14 +43,17 @@ __webpack_require__.r(__webpack_exports__);
   // Used in setting change handler. Updated in getBlocksXML.
   // (Yes this is weird but it's how it was originally and I'm too scared to change it)
   let hasSeparateListCategory = false;
+  const makeLabel = l10n => {
+    const label = document.createElement("label");
+    label.setAttribute("text", msg(l10n));
+    return label;
+  };
   const separateVariablesByType = toolboxXML => {
     const listButtonIndex = toolboxXML.findIndex(i => i.getAttribute("callbackkey") === "CREATE_LIST" || i.getAttribute("type") === "data_addtolist");
     if (listButtonIndex === -1) {
-      const label = document.createElement("label");
-      label.setAttribute("text", "Enable \"Legacy Lists\"!");
       return {
         variables: toolboxXML,
-        lists: [label]
+        lists: []
       };
     } else {
       return {
@@ -64,11 +67,6 @@ __webpack_require__.r(__webpack_exports__);
       variables,
       lists
     } = separateVariablesByType(toolboxXML);
-    const makeLabel = l10n => {
-      const label = document.createElement("label");
-      label.setAttribute("text", msg(l10n));
-      return label;
-    };
     const fixGaps = variables => {
       if (variables.length > 0) {
         for (var i = 0; i < variables.length - 1; i++) {
@@ -154,6 +152,9 @@ __webpack_require__.r(__webpack_exports__);
       variables,
       lists
     } = separateVariablesByType(result);
+    if (lists.length === 0) {
+      lists[0] = makeLabel("enable-legacy-lists");
+    }
     variableCategory = variables;
     listCategory = lists;
     return variableCategory;

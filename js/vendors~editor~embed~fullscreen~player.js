@@ -262707,7 +262707,7 @@ class JSGenerator {
       case 'json.arrayItemOf':
         {
           const index = this.descendInput(node.index);
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
+          const args = "\n            \"VALUE\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
           return new TypedInput("runtime.ext_dash_json.arrayItemOf({".concat(args, "})"), TYPE_UNKNOWN);
         }
       case 'json.arrayItemNoOf':
@@ -262722,7 +262722,7 @@ class JSGenerator {
         }
       case 'json.arrayLength':
         {
-          const args = "\"ARRAY\":".concat(this.descendInput(node.array).asUnknown());
+          const args = "\"VALUE\":".concat(this.descendInput(node.array).asUnknown());
           return new TypedInput("runtime.ext_dash_json.arrayLength({".concat(args, "})"), TYPE_NUMBER);
         }
       case 'json.arrayAt':

@@ -966,32 +966,15 @@ __webpack_require__.r(__webpack_exports__);
     if (addon.settings.get("json")) {
       blockSwitches["json_array_in_front_of"] = [noopSwitch, {
         opcode: "json_array_behind"
-      }, {
-        opcode: "json_array_at",
-        createInputs: {
-          INDEX: {
-            shadowType: "math_integer",
-            value: "1"
-          }
-        }
       }];
       blockSwitches["json_array_behind"] = [{
         opcode: "json_array_in_front_of"
-      }, noopSwitch, {
-        opcode: "json_array_at",
-        createInputs: {
-          INDEX: {
-            shadowType: "math_integer",
-            value: "1"
-          }
-        }
+      }, noopSwitch];
+      blockSwitches["json_array_at"] = [noopSwitch, {
+        opcode: "json_array_replace"
       }];
-      blockSwitches["json_array_at"] = [{
-        opcode: "json_array_in_front_of",
-        splitInputs: ["INDEX"]
-      }, {
-        opcode: "json_array_behind",
-        splitInputs: ["INDEX"]
+      blockSwitches["json_array_replace"] = [{
+        opcode: "json_array_at"
       }, noopSwitch];
     }
     if (addon.settings.get("extension")) {

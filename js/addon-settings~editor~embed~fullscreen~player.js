@@ -650,10 +650,10 @@ const blockColors = {
     quaternary: '#FF661A'
   },
   json: {
-    primary: "#1B1C2A",
+    primary: "#24273D",
     secondary: "#4C4C4C",
-    tertiary: "#0E0F16",
-    quaternary: "#0E0F16"
+    tertiary: "#748BEE",
+    quaternary: "#748BEE"
   },
   more: {
     primary: '#331419',
@@ -839,9 +839,9 @@ const blockColors = {
   },
   json: {
     primary: "#B7BEF7",
-    secondary: "#B0B6E9",
-    tertiary: "#A8AEDC",
-    quaternary: "#A8AEDC"
+    secondary: "#DFE1FC",
+    tertiary: "#777CA1",
+    quaternary: "#777CA1"
   },
   more: {
     primary: '#FF99AA',
@@ -1321,7 +1321,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const BLOCK_COLOR_NAMES = [
 // Corresponds to the name of the object in blockColors
-'motion', 'looks', 'sounds', 'control', 'event', 'sensing', 'pen', 'operators', 'data', 'data_lists', 'more', 'addons'];
+'motion', 'looks', 'sounds', 'control', 'event', 'sensing', 'pen', 'operators', 'data', 'data_lists', 'json', 'more', 'addons'];
 
 /**
  * @param {string} css CSS color or var(--...)
