@@ -2291,9 +2291,9 @@ const ArgumentType = {
    */
   BOOLEAN: 'Boolean',
   /**
-   * Array value with square placeholder
+   * Array/object value with square placeholder
    */
-  ARRAY: 'Array',
+  JSON: 'JSON',
   /**
    * Numeric value with color picker
    */
@@ -2383,9 +2383,9 @@ const BlockType = {
    */
   REPORTER: 'reporter',
   /**
-   * Array reporter with square shape
+   * Array/object reporter with square shape
    */
-  ARRAY: 'array',
+  JSON: 'json',
   /**
    * Arbitrary scratch-blocks XML.
    */
@@ -3105,6 +3105,40 @@ class Cast {
       return Array.isArray(result) ? result : [];
     } catch (_unused) {
       return [];
+    }
+  }
+
+  /**
+   * Scratch cast to object.
+   * @param {*} value Value to cast to object.
+   * @return {Object} The Scratch-casted object value.
+   */
+  static toObject(value) {
+    if (typeof value === 'object' && value instanceof Object && !Array.isArray(value)) {
+      return value;
+    }
+    try {
+      const result = JSON.parse(value);
+      return typeof result === 'object' && result instanceof Object && !Array.isArray(result) ? result : {};
+    } catch (_unused2) {
+      return {};
+    }
+  }
+
+  /**
+   * Scratch cast to array or object.
+   * @param {*} value Value to cast to array or object.
+   * @param {boolean} arrayIfFail Whether it should return an array instead of an object when parsing fails or not.
+   * @return {(Array|Object)} The Scratch-casted array or object value.
+   */
+  static toJSON(value, arrayIfFail) {
+    if (typeof value === 'object' && value instanceof Object) {
+      return value;
+    }
+    try {
+      return JSON.parse(value);
+    } catch (_unused3) {
+      return arrayIfFail ? [] : {};
     }
   }
 

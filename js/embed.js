@@ -2377,7 +2377,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    flex-wrap: nowrap;\r\n    gap: 0.5rem;\r\n\r\n    /*\r\n        For most things, we shouldn't explicitly set height, and let the\r\n        content push the element to whatever fits. Using a fixed height\r\n        instead, will help us subtract the value we assign from the body,\r\n        adding up to a perfect 100%. This means we don't need to set\r\n        overflow: hidden, which makes it hard to debug. border-box\r\n        simplifies by all of this by removing padding from the equation.\r\n    */\r\n    box-sizing: border-box;\r\n    height: 3rem;\r\n\r\n    /*\r\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\r\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\r\n        width: 100%;\r\n    */\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-size: 0.75rem;\r\n    font-weight: bold;\r\n    background-color: var(--menu-bar-background);\r\n    background-image: var(--menu-bar-background-image);\r\n    color: var(--menu-bar-foreground);\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg {\r\n    justify-content: center;\r\n}\n\n.menu-bar_settings-menu_2S2hK {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n    position: absolute;\r\n    left: 0;\r\n}\n\n.menu-bar_main-menu_EyCGw {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_main-menu_EyCGw {\r\n    flex-grow: 0;\r\n}\n\n.menu-bar_inactive_2nFUV {\r\n    opacity: 0;\r\n}\n\n.menu-bar_dashLogo_3uF7q {\r\n    height: 2.25rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ {\r\n    display: flex;\r\n    text-decoration: none;\r\n    -webkit-user-select: none;\r\n       -moz-user-select: none;\r\n        -ms-user-select: none;\r\n            user-select: none;\r\n    align-self: center;\r\n    position: relative;\r\n    align-items: center;\r\n    white-space: nowrap;\r\n    height: 3rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\r\n    cursor: pointer;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\r\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\r\n    background-color: var(--ui-black-transparent);\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\r\n    max-width: 12rem;\r\n    flex: 1;\r\n}\n\n.menu-bar_title-field-growable_2DAmE {\r\n    flex-grow: 1;\r\n    width: 2rem;\r\n}\n\n.menu-bar_file-group_Ofb7F, .menu-bar_settings-group_3wMFc {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ, .menu-bar_settings-group_3wMFc .menu-bar_menu-bar-item_264qQ {\r\n    padding: 0 0.5rem;\r\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\r\n    margin-top: 3rem;\r\n    z-index: 491;\r\n}\n\n.menu-bar_feedback-link_2Op70 {\r\n    color: var(--menu-bar-background);\r\n    text-decoration: none;\r\n}\n\n.menu-bar_feedback-button_2XhjA {\r\n    background-color: white;\r\n    color: inherit;\r\n    height: 34px;\r\n}\n\n.menu-bar_divider_2bLcv {\r\n    height: 34px;\r\n}\n\n.menu-bar_author-info_3H1M3 {\r\n    margin-left: .25rem;\r\n    margin-right: .6875rem;\r\n}\n\n.menu-bar_menu-bar-button_45YjE {\r\n    height: 2rem;\r\n}\n\n.menu-bar_remix-button_22R_5 {\r\n    background-color: var(--pen-primary)\r\n}\n\n.menu-bar_remix-button-icon_120Az {\r\n    height: 1.25rem;\r\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_account-info-group_1CTpL {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_account-info-group_1CTpL {\r\n    flex-grow: 0;\r\n    position: absolute;\r\n    right: 0;\r\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\r\n    margin: 0 .25rem;\r\n    padding: 0 0.75rem;\r\n}\n\n.menu-bar_mystuff-icon_1f8Re {\r\n    margin: 0 .25rem;\r\n    height: 1rem;\r\n}\n\n.menu-bar_help-icon_ieE_q {\r\n    margin: 0 .25rem 0 0;\r\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\r\n    margin: 0 0 0 .25rem;\r\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\r\n    padding: 0 .25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_profile-icon_9WA-H {\r\n    margin: 0 .25rem;\r\n    width: 2rem;\r\n    border-radius: calc(0.5rem / 2);\r\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\r\n    width: 0.5rem;\r\n    height: 0.5rem;\r\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-left: .5rem;\r\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-right: .5rem;\r\n}\n\n.menu-bar_disabled_rGGrp {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  background-repeat: no-repeat;\r\n  background-position: center center;\r\n  background-size: 45%;\r\n  padding-right: 10px;\r\n  padding-left: 10px;\r\n  width: 30px;\r\n  overflow: hidden;\r\n  text-indent: 50px;\r\n  white-space: nowrap;\r\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\r\n  background-size: 50%;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  /* background-image: url(\"/images/mystuff.png\"); */\r\n}\n\n.menu-bar_about-icon_16Env {\r\n    height: 1.25rem;\r\n    margin: 0.5rem;\r\n    vertical-align: middle;\r\n}\n\n.menu-bar_collapsible-label_3ql7m {\r\n    margin: 0 .25rem;\r\n}\n\n@media only screen and (max-width: 1124px) {\r\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\r\n        display: none;\r\n    }\r\n\r\n    .menu-bar_help-icon_ieE_q {\r\n        margin-right: 0;\r\n    }\r\n}\n\n.menu-bar_menu-item-link_1-4xZ {\r\n    color: inherit;\r\n    text-decoration: none;\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n/*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/\n\n/* Toolbox z-index: 40; set in scratch-blocks */\n\n/* tooltips should go over add buttons if they overlap */\n\n/* monitors go over add buttons */\n\n/* \"ask\" block text input goes above monitors */\n\n/* menu-bar should go over monitors, alerts and tutorials */\n\n/* behind menu-bar */\n\n/* Block drag z-index: 1000; default 50 is overriden in blocks.css */\n\n/* so it is draggable into other panes */\n\n/* behind modals */\n\n/* behind modals */\n\n/* in most interfaces, the context menu is always on top */\n\n.menu-bar_menu-bar_1gLUp {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    flex-wrap: nowrap;\r\n    gap: 0.5rem;\r\n\r\n    /*\r\n        For most things, we shouldn't explicitly set height, and let the\r\n        content push the element to whatever fits. Using a fixed height\r\n        instead, will help us subtract the value we assign from the body,\r\n        adding up to a perfect 100%. This means we don't need to set\r\n        overflow: hidden, which makes it hard to debug. border-box\r\n        simplifies by all of this by removing padding from the equation.\r\n    */\r\n    box-sizing: border-box;\r\n    height: 3rem;\r\n\r\n    /*\r\n        @todo: This adds ~20px in Chrome, when scrolling to the right,\r\n        but fixes [FFx + Safari] [resize window down + scroll to the right] bug.\r\n        width: 100%;\r\n    */\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    font-size: 0.75rem;\r\n    font-weight: bold;\r\n    background-color: var(--menu-bar-background);\r\n    background-image: var(--menu-bar-background-image);\r\n    color: var(--menu-bar-foreground);\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg {\r\n    justify-content: center;\r\n}\n\n.menu-bar_settings-menu_2S2hK {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n    position: absolute;\r\n    left: 0;\r\n}\n\n.menu-bar_main-menu_EyCGw {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_main-menu_EyCGw {\r\n    flex-grow: 0;\r\n}\n\n.menu-bar_inactive_2nFUV {\r\n    opacity: 0;\r\n}\n\n.menu-bar_dash-logo_2A1Mp {\r\n    transition: height 0.3s ease;\r\n    height: 2.25rem;\r\n    color: inherit;\r\n}\n\n.menu-bar_dash-logo_2A1Mp:hover {\r\n    height: 2.40rem;\r\n}\n\n.menu-bar_dash-logo_2A1Mp:clickable {\r\n    cursor: pointer;\r\n}\n\n.menu-bar_menu-bar-item_264qQ {\r\n    display: flex;\r\n    text-decoration: none;\r\n    -webkit-user-select: none;\r\n       -moz-user-select: none;\r\n        -ms-user-select: none;\r\n            user-select: none;\r\n    align-self: center;\r\n    position: relative;\r\n    align-items: center;\r\n    white-space: nowrap;\r\n    height: 3rem;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj {\r\n    cursor: pointer;\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_active_qDap3,\r\n.menu-bar_menu-bar-item_264qQ.menu-bar_hoverable_2sbwj:hover {\r\n    background-color: var(--ui-black-transparent);\r\n}\n\n.menu-bar_menu-bar-item_264qQ.menu-bar_growable_gzAFf {\r\n    max-width: 12rem;\r\n    flex: 1;\r\n}\n\n.menu-bar_title-field-growable_2DAmE {\r\n    flex-grow: 1;\r\n    width: 2rem;\r\n}\n\n.menu-bar_file-group_Ofb7F, .menu-bar_settings-group_3wMFc {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    gap: 0.5rem;\r\n}\n\n.menu-bar_file-group_Ofb7F .menu-bar_menu-bar-item_264qQ, .menu-bar_settings-group_3wMFc .menu-bar_menu-bar-item_264qQ {\r\n    padding: 0 0.5rem;\r\n}\n\n.menu-bar_menu-bar-menu_3M6v8 {\r\n    margin-top: 3rem;\r\n    z-index: 491;\r\n}\n\n.menu-bar_feedback-link_2Op70 {\r\n    color: var(--menu-bar-background);\r\n    text-decoration: none;\r\n}\n\n.menu-bar_feedback-button_2XhjA {\r\n    background-color: white;\r\n    color: inherit;\r\n    height: 34px;\r\n}\n\n.menu-bar_divider_2bLcv {\r\n    height: 34px;\r\n}\n\n.menu-bar_author-info_3H1M3 {\r\n    margin-left: .25rem;\r\n    margin-right: .6875rem;\r\n}\n\n.menu-bar_menu-bar-button_45YjE {\r\n    height: 2rem;\r\n}\n\n.menu-bar_remix-button_22R_5 {\r\n    background-color: var(--pen-primary)\r\n}\n\n.menu-bar_remix-button-icon_120Az {\r\n    height: 1.25rem;\r\n}\n\n.menu-bar_coming-soon_1mxZx >:not(.menu-bar_coming-soon-tooltip_3ikkK) {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_account-info-group_1CTpL {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_menu-bar_1gLUp.menu-bar_centered_192Jg > .menu-bar_account-info-group_1CTpL {\r\n    flex-grow: 0;\r\n    position: absolute;\r\n    right: 0;\r\n}\n\n.menu-bar_account-info-group_1CTpL .menu-bar_menu-bar-item_264qQ {\r\n    margin: 0 .25rem;\r\n    padding: 0 0.75rem;\r\n}\n\n.menu-bar_mystuff-icon_1f8Re {\r\n    margin: 0 .25rem;\r\n    height: 1rem;\r\n}\n\n.menu-bar_help-icon_ieE_q {\r\n    margin: 0 .25rem 0 0;\r\n}\n\n[dir=\"rtl\"] .menu-bar_help-icon_ieE_q {\r\n    margin: 0 0 0 .25rem;\r\n}\n\n.menu-bar_account-nav-menu_1ts18, .menu-bar_mystuff-button_3aa9D {\r\n    padding: 0 .25rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.menu-bar_profile-icon_9WA-H {\r\n    margin: 0 .25rem;\r\n    width: 2rem;\r\n    border-radius: calc(0.5rem / 2);\r\n}\n\n.menu-bar_dropdown-caret-icon_3aBkY {\r\n    width: 0.5rem;\r\n    height: 0.5rem;\r\n}\n\n[dir=\"ltr\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-left: .5rem;\r\n}\n\n[dir=\"rtl\"] .menu-bar_dropdown-caret-icon_3aBkY {\r\n    margin-right: .5rem;\r\n}\n\n.menu-bar_disabled_rGGrp {\r\n    opacity: 0.5;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  background-repeat: no-repeat;\r\n  background-position: center center;\r\n  background-size: 45%;\r\n  padding-right: 10px;\r\n  padding-left: 10px;\r\n  width: 30px;\r\n  overflow: hidden;\r\n  text-indent: 50px;\r\n  white-space: nowrap;\r\n}\n\n.menu-bar_mystuff_gxcZo > a:hover {\r\n  background-size: 50%;\r\n}\n\n.menu-bar_mystuff_gxcZo > a {\r\n  /* background-image: url(\"/images/mystuff.png\"); */\r\n}\n\n.menu-bar_about-icon_16Env {\r\n    height: 1.25rem;\r\n    margin: 0.5rem;\r\n    vertical-align: middle;\r\n}\n\n.menu-bar_collapsible-label_3ql7m {\r\n    margin: 0 .25rem;\r\n}\n\n@media only screen and (max-width: 1124px) {\r\n    .menu-bar_tutorials-label_23wK2, .menu-bar_collapsible-label_3ql7m {\r\n        display: none;\r\n    }\r\n\r\n    .menu-bar_help-icon_ieE_q {\r\n        margin-right: 0;\r\n    }\r\n}\n\n.menu-bar_menu-item-link_1-4xZ {\r\n    color: inherit;\r\n    text-decoration: none;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -2389,7 +2389,8 @@ exports.locals = {
 	"main-menu": "menu-bar_main-menu_EyCGw",
 	"mainMenu": "menu-bar_main-menu_EyCGw",
 	"inactive": "menu-bar_inactive_2nFUV",
-	"dashLogo": "menu-bar_dashLogo_3uF7q",
+	"dash-logo": "menu-bar_dash-logo_2A1Mp",
+	"dashLogo": "menu-bar_dash-logo_2A1Mp",
 	"menu-bar-item": "menu-bar_menu-bar-item_264qQ",
 	"menuBarItem": "menu-bar_menu-bar-item_264qQ",
 	"hoverable": "menu-bar_hoverable_2sbwj",
@@ -3971,7 +3972,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\r\n    max-width: 750px;\r\n}\n\n.settings-modal_body_2_OnB {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    min-height: 150px;\r\n    max-height: calc(100vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\r\n    .settings-modal_modal-content_14XGC {\r\n        margin: 50px auto;\r\n    }\r\n    .settings-modal_body_2_OnB {\r\n        max-height: calc(100vh - 150px);\r\n    }\r\n}\n\n.settings-modal_setting_3KFrK {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\r\n    background: var(--badge-background);\r\n}\n\n.settings-modal_setting_3KFrK:hover,\r\n.settings-modal_setting_3KFrK:focus-within {\r\n    background: var(--badge-border);\r\n}\n\n.settings-modal_label_21R3L {\r\n    height: 32px;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.settings-modal_setting_3KFrK table {\r\n    border-collapse: collapse;\r\n}\n\n.settings-modal_setting_3KFrK tr,\r\n.settings-modal_setting_3KFrK td,\r\n.settings-modal_setting_3KFrK th {\r\n    padding: 0;\r\n    margin: 0;\r\n    border: 1px solid var(--ui-tertiary);\r\n}\n\n.settings-modal_checkbox_3KZcV {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_help-icon__QQqI {\r\n    position: relative;\r\n    border: 0;\r\n    background-color: transparent;\r\n    width: 20px;\r\n    height: 20px;\r\n    background-size: 100%;\r\n    margin-left: 0.5rem;\r\n    cursor: pointer;\r\n}\n\n.settings-modal_help-icon__QQqI img {\r\n    display: block;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    filter: var(--filter-icon-black);\r\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\r\n    width: 80px;\r\n}\n\n.settings-modal_custom-cloud-var-server_1_r1f > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-cloud-var-server-input_379zi {\r\n    width: 350px; /* todo: make input-adaptive width */\r\n}\n\n.settings-modal_info_Ce_iV {\r\n    margin-bottom: 0.25rem;\r\n}\n\n.settings-modal_header_112iQ {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    margin: 0.5rem 0 0 0;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_divider_3K8K_ {\r\n    flex-grow: 1;\r\n    margin-left: 1rem;\r\n    border-top: 1px dashed var(--ui-tertiary);\r\n}\n\n.settings-modal_button_ACn0P {\r\n    font-family: inherit;\r\n    font-size: 14px;\r\n    background-color: var(--looks-secondary);\r\n    color: white;\r\n    border: none;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    font-family: inherit;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\r\n    box-shadow: 0 0 0 3px var(--looks-transparent);\r\n}\n\n.settings-modal_warning_3UmRm {\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n    background: rgb(233, 233, 53);\r\n    color: var(--text-primary-default);\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.settings-modal_modal-content_14XGC {\r\n    max-width: 750px;\r\n}\n\n.settings-modal_body_2_OnB {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n    min-height: 150px;\r\n    max-height: calc(100vh - 250px);\r\n    overflow-y: auto;\r\n}\n\n/* For small screens, such as in the embed */\n\n@media (max-height: 600px) {\r\n    .settings-modal_modal-content_14XGC {\r\n        margin: 50px auto;\r\n    }\r\n    .settings-modal_body_2_OnB {\r\n        max-height: calc(100vh - 150px);\r\n    }\r\n}\n\n.settings-modal_setting_3KFrK {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n}\n\n.settings-modal_setting_3KFrK.settings-modal_active_1Tl18 {\r\n    background: var(--badge-background);\r\n}\n\n.settings-modal_setting_3KFrK:hover,\r\n.settings-modal_setting_3KFrK:focus-within {\r\n    background: var(--badge-border);\r\n}\n\n.settings-modal_label_21R3L {\r\n    height: 32px;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n}\n\n.settings-modal_setting_3KFrK table {\r\n    border-collapse: collapse;\r\n}\n\n.settings-modal_setting_3KFrK tr,\r\n.settings-modal_setting_3KFrK td,\r\n.settings-modal_setting_3KFrK th {\r\n    padding: 0;\r\n    margin: 0;\r\n    border: 1px solid var(--ui-tertiary);\r\n}\n\n.settings-modal_checkbox_3KZcV {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_help-icon__QQqI {\r\n    position: relative;\r\n    border: 0;\r\n    background-color: transparent;\r\n    width: 20px;\r\n    height: 20px;\r\n    background-size: 100%;\r\n    margin-left: 0.5rem;\r\n    cursor: pointer;\r\n}\n\n.settings-modal_help-icon__QQqI img {\r\n    display: block;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    filter: var(--filter-icon-black);\r\n}\n\n.settings-modal_custom-fps_3VNUP > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-fps-input_s5p-n {\r\n    width: 50px;\r\n}\n\n.settings-modal_custom-stage-size_dr_Qv > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-stage-size-input_1Pr3z {\r\n    width: 80px;\r\n}\n\n.settings-modal_custom-cloud-var-server_1_r1f > * {\r\n    margin-right: 0.5rem;\r\n}\n\n.settings-modal_custom-cloud-var-server-input_379zi {\r\n    width: 350px; /* todo: make input-adaptive width */\r\n}\n\n.settings-modal_info_Ce_iV {\r\n    margin-bottom: 0.25rem;\r\n}\n\n.settings-modal_header_112iQ {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    margin: 0.5rem 0 0 0;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_divider_3K8K_ {\r\n    flex-grow: 1;\r\n    margin-left: 1rem;\r\n    border-top: 1px dashed var(--ui-tertiary);\r\n}\n\n.settings-modal_button_ACn0P {\r\n    font-family: inherit;\r\n    font-size: 14px;\r\n    background-color: var(--looks-secondary);\r\n    color: white;\r\n    border: none;\r\n    padding: 0.5rem 1rem;\r\n    margin: 0;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    font-family: inherit;\r\n    font-weight: bold;\r\n}\n\n.settings-modal_button_ACn0P:active, .settings-modal_button_ACn0P:focus-within {\r\n    box-shadow: 0 0 0 3px var(--looks-transparent);\r\n}\n\n.settings-modal_warning_3UmRm {\r\n    padding: 0.5rem 1rem;\r\n    margin: 0.25rem 0;\r\n    border-radius: 4px;\r\n    background: rgb(233, 233, 53);\r\n    color: var(--text-primary-default);\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -3984,6 +3985,10 @@ exports.locals = {
 	"checkbox": "settings-modal_checkbox_3KZcV",
 	"help-icon": "settings-modal_help-icon__QQqI",
 	"helpIcon": "settings-modal_help-icon__QQqI",
+	"custom-fps": "settings-modal_custom-fps_3VNUP",
+	"customFps": "settings-modal_custom-fps_3VNUP",
+	"custom-fps-input": "settings-modal_custom-fps-input_s5p-n",
+	"customFpsInput": "settings-modal_custom-fps-input_s5p-n",
 	"custom-stage-size": "settings-modal_custom-stage-size_dr_Qv",
 	"customStageSize": "settings-modal_custom-stage-size_dr_Qv",
 	"custom-stage-size-input": "settings-modal_custom-stage-size-input_1Pr3z",
@@ -13200,19 +13205,17 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       settingsMenuOpen: this.props.settingsMenuOpen
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.mainMenu
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
     }, this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-      href: "",
+      href: "/",
       rel: "noreferrer",
       target: "_blank"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarItem, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.hoverable)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.dashLogo,
       src: _dash_png__WEBPACK_IMPORTED_MODULE_50___default.a,
       draggable: false
-    }))), !this.props.isPlayerOnly && (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup
+    }, !this.props.isPlayerOnly && (this.props.canChangeTheme || this.props.canChangeLanguage) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_settings_menu_jsx__WEBPACK_IMPORTED_MODULE_26__["default"], {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.fileGroup,
       canChangeLanguage: this.props.canChangeLanguage,
       canChangeTheme: this.props.canChangeTheme,
@@ -13279,7 +13282,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       values: {
         APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_58__["APP_NAME"]
       }
-    })))), this.props.isPlayerOnly || this.props.canManageFiles && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    })))), !this.props.isPlayerOnly && this.props.canManageFiles && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_menu_label_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], {
       open: this.props.fileMenuOpen,
       onOpen: this.props.onClickFile,
       onClose: this.props.onRequestCloseFile
@@ -13324,7 +13327,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       onClick: this.props.onStartSelectingFileUpload
     }, this.props.intl.formatMessage(_lib_shared_messages__WEBPACK_IMPORTED_MODULE_55__["default"].loadFromComputerTitle)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_containers_sb3_downloader_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
       showSaveFilePicker: this.props.showSaveFilePicker
-    }, (_className, downloadProject, extended) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, extended.available && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, extended.name !== null &&
+    }, (_className, downloadProject, extended) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, !this.props.isPlayerOnly && extended.available && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, extended.name !== null &&
     /*#__PURE__*/
     // eslint-disable-next-line max-len
     react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
@@ -13346,7 +13349,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       ,
 
       id: "tw.saveAs"
-    }))), Object(_lib_isScratchDesktop_js__WEBPACK_IMPORTED_MODULE_57__["notScratchDesktop"])() && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
+    }))), !this.props.isPlayerOnly && Object(_lib_isScratchDesktop_js__WEBPACK_IMPORTED_MODULE_57__["notScratchDesktop"])() && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_menu_menu_jsx__WEBPACK_IMPORTED_MODULE_19__["MenuItem"], {
       onClick: this.getSaveToComputerHandler(downloadProject)
     }, extended.available ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
       defaultMessage: "Save to separate file..."
@@ -13493,7 +13496,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
     }, '✓'), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
       defaultMessage: "Caturday mode",
       id: "gui.menuBar.caturdayMode"
-    }))))), this.props.isPlayerOnly || this.props.onClickAddonSettings && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+    }))))), this.props.onClickAddonSettings && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.menuBarItem, _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.hoverable),
       onClick: this.props.onClickAddonSettings
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -13588,7 +13591,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       values: {
         APP_NAME: _lib_brand_js__WEBPACK_IMPORTED_MODULE_58__["APP_NAME"]
       }
-    }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+    }))))), !this.props.isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_38___default.a.accountInfoGroup
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_save_status_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
       showSaveFilePicker: this.props.showSaveFilePicker
@@ -15840,6 +15843,7 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
     } = _ref;
     const value = this.props.values[index];
     const isNestedArray = Array.isArray(value);
+    const isNestedObject = typeof value === 'object' && value instanceof Object && !Array.isArray(value);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow,
       key: key,
@@ -15865,19 +15869,19 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
         color: this.props.categoryColor.text
       },
       type: "text",
-      value: isNestedArray ? "nested array" : this.props.activeValue,
+      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : this.props.activeValue,
       onBlur: this.props.onDeactivate,
       onChange: this.props.onInput,
       onFocus: this.props.onFocus,
       onKeyDown: this.props.onKeyPress // key down to get ahead of blur
       ,
-      readOnly: isNestedArray
+      readOnly: isNestedArray || isNestedObject
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.removeButton,
       onMouseDown: this.props.onRemove // mousedown to get ahead of blur
     }, '✖︎')) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.valueInner
-    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : value)));
+    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : value)));
   }
   render() {
     const {
@@ -15918,7 +15922,7 @@ ListMonitorScroller.propTypes = {
   onInput: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onKeyPress: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   onRemove: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array])),
+  values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object])),
   width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
 };
 /* harmony default export */ __webpack_exports__["default"] = (ListMonitorScroller);
@@ -16078,14 +16082,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _large_monitor_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./large-monitor.jsx */ "./src/components/monitor/large-monitor.jsx");
 /* harmony import */ var _containers_slider_monitor_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../containers/slider-monitor.jsx */ "./src/containers/slider-monitor.jsx");
 /* harmony import */ var _containers_list_monitor_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../containers/list-monitor.jsx */ "./src/containers/list-monitor.jsx");
-/* harmony import */ var _lib_themes_index_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../lib/themes/index.js */ "./src/lib/themes/index.js");
-/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
-/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _containers_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../containers/object-monitor.jsx */ "./src/containers/object-monitor.jsx");
+/* harmony import */ var _lib_themes_index_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../lib/themes/index.js */ "./src/lib/themes/index.js");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_14__);
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
 
 
 
@@ -16115,7 +16121,8 @@ const modes = {
   default: _default_monitor_jsx__WEBPACK_IMPORTED_MODULE_8__["default"],
   large: _large_monitor_jsx__WEBPACK_IMPORTED_MODULE_9__["default"],
   slider: _containers_slider_monitor_jsx__WEBPACK_IMPORTED_MODULE_10__["default"],
-  list: _containers_list_monitor_jsx__WEBPACK_IMPORTED_MODULE_11__["default"]
+  list: _containers_list_monitor_jsx__WEBPACK_IMPORTED_MODULE_11__["default"],
+  object: _containers_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_12__["default"]
 };
 const getCategoryColor = (theme, category) => {
   const colors = theme.getStageBlockColors();
@@ -16125,7 +16132,7 @@ const getCategoryColor = (theme, category) => {
   };
 };
 const MonitorComponent = props => {
-  const mode = Array.isArray(props.value) ? 'list' : props.mode;
+  const mode = Array.isArray(props.value) ? 'list' : typeof props.value === 'object' && props.value instanceof Object && !Array.isArray(props.value) ? 'object' : props.mode;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_contextmenu__WEBPACK_IMPORTED_MODULE_5__["ContextMenuTrigger"]
   // TW: if export is defined, we always show it, even outside of the editor
   , {
@@ -16137,7 +16144,7 @@ const MonitorComponent = props => {
     ,
     cancel: ".no-drag" // Class used for slider input to prevent drag
     ,
-    defaultClassNameDragging: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.dragging,
+    defaultClassNameDragging: _monitor_css__WEBPACK_IMPORTED_MODULE_14___default.a.dragging,
     disabled: !props.draggable,
     onStop: props.onDragEnd
 
@@ -16145,7 +16152,7 @@ const MonitorComponent = props => {
     ,
     enableUserSelectHack: false
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: _monitor_css__WEBPACK_IMPORTED_MODULE_13___default.a.monitorContainer,
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_14___default.a.monitorContainer,
     componentRef: props.componentRef,
     onDoubleClick: mode === 'list' || !props.draggable ? null : props.onNextMode,
     "data-id": props.id,
@@ -16215,13 +16222,247 @@ MonitorComponent.propTypes = {
   onSetModeToLarge: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onSetModeToSlider: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
   onSliderPromptOpen: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-  theme: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.instanceOf(_lib_themes_index_js__WEBPACK_IMPORTED_MODULE_12__["Theme"]).isRequired
+  theme: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.instanceOf(_lib_themes_index_js__WEBPACK_IMPORTED_MODULE_13__["Theme"]).isRequired
 };
 MonitorComponent.defaultProps = {
   category: 'extension',
   mode: 'default'
 };
 
+
+/***/ }),
+
+/***/ "./src/components/monitor/object-monitor-scroller.jsx":
+/*!************************************************************!*\
+  !*** ./src/components/monitor/object-monitor-scroller.jsx ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_virtualized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-virtualized */ "./node_modules/react-virtualized/dist/es/index.js");
+
+
+
+
+
+
+
+class ObjectMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default()(this, ['rowRenderer', 'noRowsRenderer', 'handleEventFactory']);
+  }
+  handleEventFactory(index) {
+    return () => this.props.onActivate(index);
+  }
+  noRowsRenderer() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow, _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listEmpty)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
+      defaultMessage: "(empty)",
+      id: "gui.monitor.listMonitor.empty"
+    }));
+  }
+  rowRenderer(_ref) {
+    let {
+      index,
+      key,
+      style
+    } = _ref;
+    const value = Object.values(this.props.values)[index];
+    const isNestedArray = Array.isArray(value);
+    const isNestedObject = typeof value === 'object' && value instanceof Object && !Array.isArray(value);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow,
+      key: key,
+      style: style
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listIndex
+    }, Object.keys(this.props.values)[index]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listValue,
+      dataIndex: index,
+      style: {
+        background: this.props.categoryColor.background,
+        color: this.props.categoryColor.text
+      },
+      onClick: this.props.draggable ? this.handleEventFactory(index) : null
+    }, this.props.draggable && this.props.activeIndex === index ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.inputWrapper
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      autoFocus: true,
+      autoComplete: false,
+      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listInput, 'no-drag'),
+      spellCheck: false,
+      style: {
+        color: this.props.categoryColor.text
+      },
+      type: "text",
+      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : this.props.activeValue,
+      onBlur: this.props.onDeactivate,
+      onChange: this.props.onInput,
+      onFocus: this.props.onFocus,
+      onKeyDown: this.props.onKeyPress // key down to get ahead of blur
+      ,
+      readOnly: isNestedArray || isNestedObject
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.removeButton,
+      onMouseDown: this.props.onRemove // mousedown to get ahead of blur
+    }, '✖︎')) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.valueInner
+    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : value)));
+  }
+  render() {
+    const {
+      height,
+      values,
+      width,
+      activeIndex,
+      activeValue
+    } = this.props;
+    // Keep the active index in view if defined, else must be undefined for List component
+    const scrollToIndex = activeIndex === null ? undefined : activeIndex; /* eslint-disable-line no-undefined */
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_virtualized__WEBPACK_IMPORTED_MODULE_6__["List"], {
+      activeIndex: activeIndex,
+      activeValue: activeValue,
+      height: height - 42 /* Header/footer size, approx */,
+      noRowsRenderer: this.noRowsRenderer,
+      rowCount: Object.keys(values).length,
+      rowHeight: 24 /* Row size is same for all rows */,
+      rowRenderer: this.rowRenderer,
+      scrollToIndex: scrollToIndex /* eslint-disable-line no-undefined */,
+      values: Object.entries(values),
+      width: width
+    });
+  }
+}
+ObjectMonitorScroller.propTypes = {
+  activeIndex: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  activeValue: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  categoryColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    background: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+    text: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  }).isRequired,
+  draggable: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  onActivate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onDeactivate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onFocus: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onInput: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onKeyPress: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onRemove: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.objectOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object])),
+  width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+};
+/* harmony default export */ __webpack_exports__["default"] = (ObjectMonitorScroller);
+
+/***/ }),
+
+/***/ "./src/components/monitor/object-monitor.jsx":
+/*!***************************************************!*\
+  !*** ./src/components/monitor/object-monitor.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
+/* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _object_monitor_scroller_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./object-monitor-scroller.jsx */ "./src/components/monitor/object-monitor-scroller.jsx");
+const _excluded = ["draggable", "label", "width", "height", "value", "onResizeMouseDown", "onAdd"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
+
+
+
+
+
+const ObjectMonitor = _ref => {
+  let {
+      draggable,
+      label,
+      width,
+      height,
+      value,
+      onResizeMouseDown,
+      onAdd
+    } = _ref,
+    rowProps = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.listMonitor,
+    style: {
+      width: "".concat(width, "px"),
+      height: "".concat(height, "px")
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.listHeader
+  }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.listBody
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_object_monitor_scroller_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({
+    draggable: draggable,
+    height: height,
+    values: value,
+    width: width
+  }, rowProps))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.listFooter
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(draggable ? _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.addButton : null, 'no-drag'),
+    onClick: draggable ? onAdd : null
+  }, '+' /* TODO waiting on asset */), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.footerLength
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
+    defaultMessage: "length {length}",
+    id: "gui.monitor.listMonitor.listLength",
+    values: {
+      length: Object.keys(value).length
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(draggable ? _monitor_css__WEBPACK_IMPORTED_MODULE_4___default.a.resizeHandle : null, 'no-drag'),
+    onMouseDown: draggable ? onResizeMouseDown : null
+  }, '=' /* TODO waiting on asset */)));
+};
+ObjectMonitor.propTypes = {
+  activeIndex: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  categoryColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    background: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+    text: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  }).isRequired,
+  draggable: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  label: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  onActivate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onAdd: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  onResizeMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  value: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number]))]),
+  width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+};
+ObjectMonitor.defaultProps = {
+  width: 110,
+  height: 200
+};
+/* harmony default export */ __webpack_exports__["default"] = (ObjectMonitor);
 
 /***/ }),
 
@@ -23734,34 +23975,53 @@ const HighQualityPen = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___
   }),
   slug: "high-quality-pen"
 }));
-const CustomFPS = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(BooleanSetting, {
-  value: props.framerate !== 30,
-  onChange: props.onChange,
-  label: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
-    defaultMessage: "60 FPS (Custom FPS)",
-    id: "tw.settingsModal.fps"
-  }),
-  help: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"]
-  // eslint-disable-next-line max-len
-  , {
-    defaultMessage: "Runs scripts 60 times per second instead of 30. Most projects will not work properly with this enabled. You should try Interpolation with 60 FPS mode disabled if that is the case. {customFramerate}.",
-    id: "tw.settingsModal.fpsHelp",
-    values: {
-      customFramerate: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-        onClick: props.onCustomizeFramerate,
-        tabIndex: "0"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
-        defaultMessage: "Click to use a framerate other than 30 or 60",
-        id: "tw.settingsModal.fpsHelp.customFramerate"
-      }))
-    }
-  }),
-  slug: "custom-fps"
-});
+const CustomFPS = _ref2 => {
+  let {
+    framerate,
+    onFramerateChange
+  } = _ref2;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Setting, {
+    active: framerate !== 30,
+    primary: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.label, _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.customFps)
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
+      defaultMessage: "Custom FPS:",
+      id: "tw.settingsModal.fps"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(BufferedInput, {
+      value: framerate,
+      onSubmit: onFramerateChange,
+      className: _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.customFpsInput,
+      type: "number",
+      min: "10",
+      max: "250",
+      step: "1"
+    })),
+    help: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"]
+    // eslint-disable-next-line max-len
+    , {
+      defaultMessage: "Runs scripts with custom times per second instead of 30. 60 FPS recommended. Most projects will not work properly with this enabled. You should try Interpolation with Custom FPS mode disabled if that is the case.",
+      id: "tw.settingsModal.fpsHelp"
+      /*values={{
+          customFramerate: (
+              <a
+                  onClick={props.onCustomizeFramerate}
+                  tabIndex="0"
+              >
+                  <FormattedMessage
+                      defaultMessage="Click to use a framerate other than 30 or 60"
+                      description="FPS settings help"
+                      id="tw.settingsModal.fpsHelp.customFramerate"
+                  />
+              </a>
+          )
+      }}*/
+    }),
+    slug: "custom-fps"
+  });
+};
 CustomFPS.propTypes = {
   framerate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  onChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  onCustomizeFramerate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+  onFramerateChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
 const Interpolation = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(BooleanSetting, _extends({}, props, {
   label: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
@@ -23840,14 +24100,14 @@ const DisableCompiler = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__
   }),
   slug: "disable-compiler"
 }));
-const CustomStageSize = _ref2 => {
+const CustomStageSize = _ref3 => {
   let {
     customStageSizeEnabled,
     stageWidth,
     onStageWidthChange,
     stageHeight,
     onStageHeightChange
-  } = _ref2;
+  } = _ref3;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Setting, {
     active: customStageSizeEnabled,
     primary: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
@@ -23898,12 +24158,12 @@ CustomStageSize.propTypes = {
   stageHeight: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
   onStageHeightChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-const CustomCloudVarServer = _ref3 => {
+const CustomCloudVarServer = _ref4 => {
   let {
     customCloudVarServerEnabled,
     cloudHost,
     onCloudHostChange
-  } = _ref3;
+  } = _ref4;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Setting, {
     active: customCloudVarServerEnabled,
     primary: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
@@ -23931,10 +24191,10 @@ CustomCloudVarServer.propTypes = {
   cloudHost: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   onCloudHostChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-const StoreProjectOptions = _ref4 => {
+const StoreProjectOptions = _ref5 => {
   let {
     onStoreProjectOptions
-  } = _ref4;
+  } = _ref5;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: _settings_modal_css__WEBPACK_IMPORTED_MODULE_11___default.a.setting
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
@@ -23974,11 +24234,7 @@ const SettingsModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MOD
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"], {
   defaultMessage: "Featured",
   id: "tw.settingsModal.featured"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(CustomFPS, {
-  framerate: props.framerate,
-  onChange: props.onFramerateChange,
-  onCustomizeFramerate: props.onCustomizeFramerate
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Interpolation, {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(CustomFPS, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Interpolation, {
   value: props.interpolation,
   onChange: props.onInterpolationChange
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(HighQualityPen, {
@@ -29321,11 +29577,11 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 
 const availableModes = opcode => _components_monitor_monitor_jsx__WEBPACK_IMPORTED_MODULE_5__["monitorModes"].filter(t => {
   if (opcode === 'data_variable') {
-    return true;
+    return t !== 'list' && t !== 'object';
   } else if (opcode === 'data_listcontents') {
     return t === 'list';
   }
-  return t !== 'slider' && t !== 'list';
+  return t !== 'slider' && t !== 'list' && t !== 'object';
 });
 const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["defineMessages"])({
   columnPrompt: {
@@ -29513,6 +29769,7 @@ class Monitor extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     const monitorProps = Object(_lib_monitor_adapter_js__WEBPACK_IMPORTED_MODULE_4__["default"])(this.props);
     const showSliderOption = availableModes(this.props.opcode).indexOf('slider') !== -1;
     const isList = this.props.mode === 'list';
+    const isObject = this.props.mode === 'object';
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, this.state.sliderPrompt && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_slider_prompt_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
       isDiscrete: this.props.isDiscrete,
       maxValue: parseFloat(this.props.max),
@@ -29537,8 +29794,8 @@ class Monitor extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       onImport: isList ? this.handleImport : null,
       onHide: this.handleHide,
       onNextMode: this.handleNextMode,
-      onSetModeToDefault: isList ? null : this.handleSetModeToDefault,
-      onSetModeToLarge: isList ? null : this.handleSetModeToLarge,
+      onSetModeToDefault: isList || isObject ? null : this.handleSetModeToDefault,
+      onSetModeToLarge: isList || isObject ? null : this.handleSetModeToLarge,
       onSetModeToSlider: showSliderOption ? this.handleSetModeToSlider : null,
       onSliderPromptOpen: this.handleSliderPromptOpen
     })));
@@ -29595,6 +29852,222 @@ const mapDispatchToProps = dispatch => ({
   removeMonitorRect: id => dispatch(Object(_reducers_monitor_layout__WEBPACK_IMPORTED_MODULE_6__["removeMonitorRect"])(id))
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["injectIntl"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_12__["connect"])(mapStateToProps, mapDispatchToProps)(Monitor)));
+
+/***/ }),
+
+/***/ "./src/containers/object-monitor.jsx":
+/*!*******************************************!*\
+  !*** ./src/containers/object-monitor.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
+/* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _lib_touch_utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/touch-utils */ "./src/lib/touch-utils.js");
+/* harmony import */ var _lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/variable-utils */ "./src/lib/variable-utils.js");
+/* harmony import */ var _components_monitor_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/monitor/object-monitor.jsx */ "./src/components/monitor/object-monitor.jsx");
+/* harmony import */ var immutable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! immutable */ "./node_modules/immutable/dist/immutable.js");
+/* harmony import */ var immutable__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(immutable__WEBPACK_IMPORTED_MODULE_8__);
+const _excluded = ["vm"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+
+
+
+
+
+
+
+
+
+class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
+  constructor(props) {
+    super(props);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleActivate', 'handleDeactivate', 'handleInput', 'handleRemove', 'handleKeyPress', 'handleFocus', 'handleAdd', 'handleResizeMouseDown']);
+    this.state = {
+      activeIndex: null,
+      activeValue: null,
+      width: props.width || 100,
+      height: props.height || 200
+    };
+  }
+  handleActivate(index) {
+    // Do nothing if activating the currently active item
+    if (this.state.activeIndex === index) {
+      return;
+    }
+    this.setState({
+      activeIndex: index,
+      activeValue: Object.values(this.props.value)[index]
+    });
+  }
+  handleDeactivate() {
+    // Submit any in-progress value edits on blur
+    if (this.state.activeIndex !== null) {
+      const {
+        vm,
+        targetId,
+        id: variableId
+      } = this.props;
+      const newObjectValue = Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["getVariableValue"])(vm, targetId, variableId);
+      newObjectValue[Object.keys(newObjectValue)[this.state.activeIndex]] = this.state.activeValue;
+      Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["setVariableValue"])(vm, targetId, variableId, newObjectValue);
+      this.setState({
+        activeIndex: null,
+        activeValue: null
+      });
+    }
+  }
+  handleFocus(e) {
+    // Select all the text in the input when it is focused.
+    e.target.select();
+  }
+  handleKeyPress(e) {
+    // Special case for tab, arrow keys and enter.
+    // Tab / shift+tab navigate down / up the list.
+    // Arrow down / arrow up navigate down / up the list.
+    // Enter / shift+enter insert new blank item below / above.
+    const previouslyActiveIndex = this.state.activeIndex;
+    const {
+      vm,
+      targetId,
+      id: variableId
+    } = this.props;
+    let navigateDirection = 0;
+    if (e.key === 'Tab') navigateDirection = e.shiftKey ? -1 : 1;else if (e.key === 'ArrowUp') navigateDirection = -1;else if (e.key === 'ArrowDown') navigateDirection = 1;
+    if (navigateDirection) {
+      this.handleDeactivate(); // Submit in-progress edits
+      const newIndex = this.wrapListIndex(previouslyActiveIndex + navigateDirection, Object.keys(this.props.value).length);
+      this.setState({
+        activeIndex: newIndex,
+        activeValue: Object.values(this.props.value)[newIndex]
+      });
+      e.preventDefault(); // Stop default tab behavior, handled by this state change
+    }
+  }
+  handleInput(e) {
+    this.setState({
+      activeValue: e.target.value
+    });
+  }
+  handleRemove(e) {
+    e.preventDefault(); // Default would blur input, prevent that.
+    e.stopPropagation(); // Bubbling would activate, which will be handled here
+    const {
+      vm,
+      targetId,
+      id: variableId
+    } = this.props;
+    const newObjectValue = Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["getVariableValue"])(vm, targetId, variableId);
+    delete newObjectValue[Object.keys(newObjectValue)[this.state.activeIndex]];
+    Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["setVariableValue"])(vm, targetId, variableId, newObjectValue);
+    const newActiveIndex = Math.min(Object.keys(newObjectValue).length - 1, this.state.activeIndex);
+    this.setState({
+      activeIndex: newActiveIndex,
+      activeValue: Object.values(newObjectValue)[newActiveIndex]
+    });
+  }
+  handleAdd() {
+    // Add button appends a blank value and switches to it
+    const key = prompt('Enter key...', 'key'); // TODO: replace prompt method
+    const {
+      vm,
+      targetId,
+      id: variableId
+    } = this.props;
+    const newObjectValue = Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["getVariableValue"])(vm, targetId, variableId);
+    if (Object.keys(newObjectValue).includes(key)) {
+      alert("Value with the key \"".concat(key, "\" already exists!"));
+      return;
+    }
+    newObjectValue[key] = '';
+    Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["setVariableValue"])(vm, targetId, variableId, newObjectValue);
+    this.setState({
+      activeIndex: Object.keys(newObjectValue).length - 1,
+      activeValue: ''
+    });
+  }
+  handleResizeMouseDown(e) {
+    this.initialPosition = Object(_lib_touch_utils__WEBPACK_IMPORTED_MODULE_5__["getEventXY"])(e);
+    this.initialWidth = this.state.width;
+    this.initialHeight = this.state.height;
+    const onMouseMove = ev => {
+      const newPosition = Object(_lib_touch_utils__WEBPACK_IMPORTED_MODULE_5__["getEventXY"])(ev);
+      const dx = newPosition.x - this.initialPosition.x;
+      const dy = newPosition.y - this.initialPosition.y;
+      this.setState({
+        width: Math.max(Math.min(this.initialWidth + dx, this.props.customStageSize.width), 100),
+        height: Math.max(Math.min(this.initialHeight + dy, this.props.customStageSize.height), 60)
+      });
+    };
+    const onMouseUp = ev => {
+      onMouseMove(ev); // Make sure width/height are up-to-date
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+      this.props.vm.runtime.requestUpdateMonitor(Object(immutable__WEBPACK_IMPORTED_MODULE_8__["Map"])({
+        id: this.props.id,
+        height: this.state.height,
+        width: this.state.width
+      }));
+    };
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
+  }
+  wrapListIndex(index, length) {
+    return (index + length) % length;
+  }
+  render() {
+    const _this$props = this.props,
+      {
+        vm // eslint-disable-line no-unused-vars
+      } = _this$props,
+      props = _objectWithoutProperties(_this$props, _excluded);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_monitor_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], _extends({}, props, {
+      activeIndex: this.state.activeIndex,
+      activeValue: this.state.activeValue,
+      height: this.state.height,
+      width: this.state.width,
+      onActivate: this.handleActivate,
+      onAdd: this.handleAdd,
+      onDeactivate: this.handleDeactivate,
+      onFocus: this.handleFocus,
+      onInput: this.handleInput,
+      onKeyPress: this.handleKeyPress,
+      onRemove: this.handleRemove,
+      onResizeMouseDown: this.handleResizeMouseDown
+    }));
+  }
+}
+ObjectMonitor.propTypes = {
+  height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  id: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  customStageSize: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+    height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  }),
+  targetId: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  value: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
+  vm: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(scratch_vm__WEBPACK_IMPORTED_MODULE_3___default.a),
+  width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  x: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  y: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+};
+const mapStateToProps = state => ({
+  customStageSize: state.scratchGui.customStageSize,
+  vm: state.scratchGui.vm
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps)(ObjectMonitor));
 
 /***/ }),
 
@@ -35533,8 +36006,8 @@ class UsernameModal extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compone
     super(props);
     lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default()(this, ['handleFramerateChange', 'handleCustomizeFramerate', 'handleHighQualityPenChange', 'handleInterpolationChange', 'handleInfiniteClonesChange', 'handleRemoveFencingChange', 'handleRemoveLimitsChange', 'handleWarpTimerChange', 'handleStageWidthChange', 'handleStageHeightChange', 'handleCloudHostChange', 'handleDisableCompilerChange', 'handleStoreProjectOptions']);
   }
-  handleFramerateChange(e) {
-    this.props.vm.setFramerate(e.target.checked ? 60 : 30);
+  handleFramerateChange(value) {
+    this.props.vm.setFramerate(value);
   }
   async handleCustomizeFramerate() {
     // prompt() returns Promise in desktop app
@@ -41700,15 +42173,17 @@ const operators = function operators(isInitialSetup, isStage, targetId, colors) 
   const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
   const letter = translate('OPERATORS_LETTEROF_APPLE', 'a');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_join\">\n                <value name=\"STRING1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"STRING2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_join\">\n                <value name=\"STRING1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"STRING2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_in_range\">\n              <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">5</field>\n                </shadow>\n              </value>\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const variables = function variables(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
   return "\n    <category\n        name=\"%{BKY_CATEGORY_VARIABLES}\"\n        id=\"variables\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\"\n        custom=\"VARIABLE\">\n    </category>\n    ");
 };
 const json = function json(isInitialSetup, isStage, targetId, colors) {
+  const arrays = "Arrays";
+  const objects = "Objects";
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_length\" />\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_length\" />\n        ").concat(blockSeparator, "\n        <label text=\"").concat(arrays, "\"></label>\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <label text=\"").concat(objects, "\"></label>\n        <block type=\"json_object_empty\"/>\n        <block type=\"json_object_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key1:apple,key2:banana</field>\n                </shadow>\n            </value>\n            <value name=\"KEYDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">:</field>\n                </shadow>\n            </value>\n            <value name=\"PAIRDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_item_of\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_contains_key\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_set\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_delete\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const myBlocks = function myBlocks(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
