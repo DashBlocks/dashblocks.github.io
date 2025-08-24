@@ -263888,7 +263888,7 @@ class JSGenerator {
         }
       case 'json.objectEntries':
         {
-          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"PROPERTY\":").concat(sanitize(node.property), "\n            ");
+          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"PROPERTY\":\"").concat(sanitize(node.property), "\"\n            ");
           return new TypedInput("runtime.ext_dash_json.objectEntries({".concat(args, "})"), TYPE_UNKNOWN);
         }
       default:
