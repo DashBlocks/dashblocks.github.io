@@ -1765,12 +1765,13 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.custom-procedures_modal-content_1wJuI {\n    width: 700px;\n    margin: 50px auto; /* This modal is taller than most, reduce top margin */\n}\n\n.custom-procedures_body_1H7Iq {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n}\n\n.custom-procedures_body_1H7Iq input[type=\"checkbox\"],\n.custom-procedures_body_1H7Iq input[type=\"radio\"] {\n    margin: 3px;\n}\n\n/* Blocks workspace for custom procedure declaration editor */\n\n.custom-procedures_workspace_2fBw7 {\n    min-height: 200px;\n    position: relative;\n}\n\n.custom-procedures_workspace_2fBw7 .injectionDiv{\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n}\n\n.custom-procedures_workspace_2fBw7 .blocklySvg {\n    background-color: var(--ui-primary);\n}\n\n/* Row of \"card\" buttons for modifying custom procedures */\n\n.custom-procedures_options-row_2qj-y {\n    display: flex;\n    justify-content: space-between;\n}\n\n.custom-procedures_option-card_1Gtvt {\n    background: var(--ui-white);\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n    padding: calc(0.5rem * 2);\n    text-align: center;\n    flex-grow: 1;\n    cursor: pointer;\n    transition: all 0.2s;\n    flex-basis: 100px;\n}\n\n.custom-procedures_option-card_1Gtvt:hover {\n    border: 2px solid var(--looks-secondary);\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\n}\n\n.custom-procedures_option-card_1Gtvt + .custom-procedures_option-card_1Gtvt {\n    margin-left: 1rem;\n}\n\n.custom-procedures_option-icon_1q0dQ {\n    max-height: 48px;\n    margin-bottom: 0.5rem;\n}\n\n.custom-procedures_option-title_21_2M {\n    font-weight: bold;\n}\n\n/* \"Run without screen refresh\" row */\n\n.custom-procedures_checkbox-row_x0PwF {\n    margin-top: 1rem;\n}\n\n/* Confirmation buttons at the bottom of the modal */\n\n.custom-procedures_button-row_3EJDk {\n    margin-top: 1rem;\n    font-weight: bolder;\n    text-align: right;\n}\n\n.custom-procedures_button-row_3EJDk button {\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 0.25rem;\n    padding: 0.75rem 1rem;\n    background: white;\n    color: black;\n    font-weight: bold;\n    font-size: 0.85rem;\n}\n\n.custom-procedures_button-row_3EJDk button.custom-procedures_ok-button_3XcwO {\n    background: var(--looks-secondary);\n    border: var(--looks-secondary);\n    color: white;\n}\n\n[dir=\"ltr\"] .custom-procedures_button-row_3EJDk button + button {\n    margin-left: 0.5rem;\n}\n\n[dir=\"rtl\"] .custom-procedures_button-row_3EJDk button + button {\n    margin-right: 0.5rem;\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.custom-procedures_modal-content_1wJuI {\r\n    width: 700px;\r\n    margin: 50px auto; /* This modal is taller than most, reduce top margin */\r\n}\n\n.custom-procedures_body_1H7Iq {\r\n    background: var(--ui-modal-background);\r\n    padding: 1.5rem 2.25rem;\r\n}\n\n.custom-procedures_body_1H7Iq input[type=\"checkbox\"],\r\n.custom-procedures_body_1H7Iq input[type=\"radio\"] {\r\n    margin: 3px;\r\n}\n\n/* Blocks workspace for custom procedure declaration editor */\n\n.custom-procedures_workspace_2fBw7 {\r\n    min-height: 200px;\r\n    position: relative;\r\n}\n\n.custom-procedures_workspace_2fBw7 .injectionDiv{\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n}\n\n.custom-procedures_workspace_2fBw7 .blocklySvg {\r\n    background-color: var(--ui-primary);\r\n}\n\n/* Row of \"card\" buttons for modifying custom procedures */\n\n.custom-procedures_options-row_2qj-y {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\n\n.custom-procedures_option-card_1Gtvt {\r\n    background: var(--ui-white);\r\n    border: 2px solid var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    padding: calc(0.5rem * 2);\r\n    text-align: center;\r\n    flex-grow: 1;\r\n    cursor: pointer;\r\n    transition: all 0.2s;\r\n    flex-basis: 100px;\r\n}\n\n.custom-procedures_option-card_1Gtvt:hover {\r\n    border: 2px solid var(--looks-secondary);\r\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\r\n}\n\n.custom-procedures_option-card_1Gtvt + .custom-procedures_option-card_1Gtvt {\r\n    margin-left: 1rem;\r\n}\n\n.custom-procedures_option-icon_1q0dQ {\r\n    max-height: 48px;\r\n    margin-bottom: 0.5rem;\r\n}\n\n.custom-procedures_option-title_21_2M {\r\n    font-weight: bold;\r\n}\n\n/* Color options row */\n\n.custom-procedures_color-row_BnspR {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    text-align: center;\r\n    border: 2px solid var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n    padding: calc(0.5rem * 1);\r\n    margin-top: 1rem;\r\n    flex-grow: 1;\r\n    flex-basis: 100px;\r\n    gap: 0.5rem;\r\n    background: var(--ui-white);\r\n}\n\n.custom-procedures_color-option_1mFti {\r\n    cursor: pointer;\r\n    height: 35px;\r\n    width: 35px;\r\n    border: 2px solid var(--ui-black-transparent);\r\n    border-radius: 50%;\r\n    padding: calc(0.5rem * 1);\r\n    transition: background-color 0.2s;\r\n}\n\n.custom-procedures_color-option_1mFti:hover {\r\n    border: 2px solid var(--looks-secondary);\r\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\r\n}\n\n.custom-procedures_color-picker_kjxQy {\r\n    appearance: none;\r\n    -moz-appearance: none;\r\n    -webkit-appearance: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\n\n.custom-procedures_color-picker_kjxQy::-moz-color-swatch,\r\n.custom-procedures_color-picker_kjxQy::-webkit-color-swatch {\r\n    border: none;\r\n    height: 0;\r\n    width: 0;\r\n}\n\n.custom-procedures_color-picker_kjxQy::-webkit-color-swatch-wrapper {\r\n    height: 0;\r\n    width: 0;\r\n    padding: 0;\r\n}\n\n.custom-procedures_color-picker_kjxQy::after {\r\n    content: url(" + escape(__webpack_require__(/*! ./icon--palette.svg */ "./src/components/custom-procedures/icon--palette.svg")) + ");\r\n    position: absolute;\r\n    height: 24px;\r\n    width: 24px;\r\n}\n\n/* \"Run without screen refresh\" row */\n\n.custom-procedures_checkbox-row_x0PwF {\r\n    margin-top: 1rem;\r\n}\n\n/* Confirmation buttons at the bottom of the modal */\n\n.custom-procedures_button-row_3EJDk {\r\n    margin-top: 1rem;\r\n    font-weight: bolder;\r\n    text-align: right;\r\n}\n\n.custom-procedures_button-row_3EJDk button {\r\n    border: 1px solid var(--ui-black-transparent);\r\n    border-radius: 0.25rem;\r\n    padding: 0.75rem 1rem;\r\n    background: white;\r\n    color: black;\r\n    font-weight: bold;\r\n    font-size: 0.85rem;\r\n}\n\n.custom-procedures_button-row_3EJDk button.custom-procedures_ok-button_3XcwO {\r\n    background: var(--looks-secondary);\r\n    border: var(--looks-secondary);\r\n    color: white;\r\n}\n\n[dir=\"ltr\"] .custom-procedures_button-row_3EJDk button + button {\r\n    margin-left: 0.5rem;\r\n}\n\n[dir=\"rtl\"] .custom-procedures_button-row_3EJDk button + button {\r\n    margin-right: 0.5rem;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -1786,6 +1787,12 @@ exports.locals = {
 	"optionIcon": "custom-procedures_option-icon_1q0dQ",
 	"option-title": "custom-procedures_option-title_21_2M",
 	"optionTitle": "custom-procedures_option-title_21_2M",
+	"color-row": "custom-procedures_color-row_BnspR",
+	"colorRow": "custom-procedures_color-row_BnspR",
+	"color-option": "custom-procedures_color-option_1mFti",
+	"colorOption": "custom-procedures_color-option_1mFti",
+	"color-picker": "custom-procedures_color-picker_kjxQy",
+	"colorPicker": "custom-procedures_color-picker_kjxQy",
 	"checkbox-row": "custom-procedures_checkbox-row_x0PwF",
 	"checkboxRow": "custom-procedures_checkbox-row_x0PwF",
 	"button-row": "custom-procedures_button-row_3EJDk",
@@ -9050,21 +9057,26 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _containers_modal_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/modal.jsx */ "./src/containers/modal.jsx");
-/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../box/box.jsx */ "./src/components/box/box.jsx");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icon--boolean-input.svg */ "./src/components/custom-procedures/icon--boolean-input.svg");
-/* harmony import */ var _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icon--text-input.svg */ "./src/components/custom-procedures/icon--text-input.svg");
-/* harmony import */ var _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_icon_text_input_svg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _icon_label_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icon--label.svg */ "./src/components/custom-procedures/icon--label.svg");
-/* harmony import */ var _icon_label_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_icon_label_svg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./custom-procedures.css */ "./src/components/custom-procedures/custom-procedures.css");
-/* harmony import */ var _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_custom_procedures_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _containers_modal_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../containers/modal.jsx */ "./src/containers/modal.jsx");
+/* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../box/box.jsx */ "./src/components/box/box.jsx");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _lib_tw_lazy_scratch_blocks__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../lib/tw-lazy-scratch-blocks */ "./src/lib/tw-lazy-scratch-blocks.js");
+/* harmony import */ var _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/themes/blocks/three */ "./src/lib/themes/blocks/three.js");
+/* harmony import */ var _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icon--boolean-input.svg */ "./src/components/custom-procedures/icon--boolean-input.svg");
+/* harmony import */ var _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icon--text-input.svg */ "./src/components/custom-procedures/icon--text-input.svg");
+/* harmony import */ var _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_icon_text_input_svg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _icon_label_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icon--label.svg */ "./src/components/custom-procedures/icon--label.svg");
+/* harmony import */ var _icon_label_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_icon_label_svg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./custom-procedures.css */ "./src/components/custom-procedures/custom-procedures.css");
+/* harmony import */ var _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_custom_procedures_css__WEBPACK_IMPORTED_MODULE_12__);
 
 
 
@@ -9074,112 +9086,144 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_4__["defineMessages"])({
+
+
+
+
+const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"])({
   myblockModalTitle: {
     "id": "gui.customProcedures.myblockModalTitle",
     "defaultMessage": "Make a Block"
   }
 });
-const CustomProcedures = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_containers_modal_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.modalContent,
-  contentLabel: props.intl.formatMessage(messages.myblockModalTitle),
-  onRequestClose: props.onCancel,
-  id: "customProceduresModal"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.workspace,
-  componentRef: props.componentRef
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.body
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionsRow
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionCard,
-  role: "button",
-  tabIndex: "0",
-  onClick: props.onAddTextNumber
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionIcon,
-  src: _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
-  draggable: false
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionTitle
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "Add an input",
-  id: "gui.customProcedures.addAnInputNumberText"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionDescription
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "number or text",
-  id: "gui.customProcedures.numberTextType"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionCard,
-  role: "button",
-  tabIndex: "0",
-  onClick: props.onAddBoolean
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionIcon,
-  src: _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-  draggable: false
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionTitle
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "Add an input",
-  id: "gui.customProcedures.addAnInputBoolean"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionDescription
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "boolean",
-  id: "gui.customProcedures.booleanType"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionCard,
-  role: "button",
-  tabIndex: "0",
-  onClick: props.onAddLabel
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionIcon,
-  src: _icon_label_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
-  draggable: false
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.optionTitle
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "Add a label",
-  id: "gui.customProcedures.addALabel"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.checkboxRow
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-  checked: props.warp,
-  type: "checkbox",
-  onChange: props.onToggleWarp
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "Run without screen refresh",
-  id: "gui.customProcedures.runWithoutScreenRefresh"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.buttonRow
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.cancelButton,
-  onClick: props.onCancel
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "Cancel",
-  id: "gui.customProcedures.cancel"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-  className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_8___default.a.okButton,
-  onClick: props.onOk
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_4__["FormattedMessage"], {
-  defaultMessage: "OK",
-  id: "gui.customProcedures.ok"
-})))));
-CustomProcedures.propTypes = {
-  componentRef: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  intl: react_intl__WEBPACK_IMPORTED_MODULE_4__["intlShape"],
-  onAddBoolean: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  onAddLabel: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  onAddTextNumber: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  onCancel: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  onOk: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  onToggleWarp: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
-  warp: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired
+const CustomProcedures = props => {
+  var _props$color, _props$color2, _props$color3;
+  const ScratchBlocks = _lib_tw_lazy_scratch_blocks__WEBPACK_IMPORTED_MODULE_7__["default"].get();
+  const themeObj = props.theme.getCustomExtensionColors();
+  const categories = ["motion", "looks", "sounds", "event", "control", "sensing", "operators", "data", "data_lists", "json", "more", "pen"];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_modal_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.modalContent,
+    contentLabel: props.intl.formatMessage(messages.myblockModalTitle),
+    onRequestClose: props.onCancel,
+    id: "customProceduresModal"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.workspace,
+    componentRef: props.componentRef
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.body
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionsRow
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionCard,
+    role: "button",
+    tabIndex: "0",
+    onClick: props.onAddTextNumber
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionIcon,
+    src: _icon_text_input_svg__WEBPACK_IMPORTED_MODULE_10___default.a,
+    draggable: false
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionTitle
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Add an input",
+    id: "gui.customProcedures.addAnInputNumberText"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionDescription
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "number or text",
+    id: "gui.customProcedures.numberTextType"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionCard,
+    role: "button",
+    tabIndex: "0",
+    onClick: props.onAddBoolean
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionIcon,
+    src: _icon_boolean_input_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+    draggable: false
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionTitle
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Add an input",
+    id: "gui.customProcedures.addAnInputBoolean"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionDescription
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "boolean",
+    id: "gui.customProcedures.booleanType"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionCard,
+    role: "button",
+    tabIndex: "0",
+    onClick: props.onAddLabel
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionIcon,
+    src: _icon_label_svg__WEBPACK_IMPORTED_MODULE_11___default.a,
+    draggable: false
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.optionTitle
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Add a label",
+    id: "gui.customProcedures.addALabel"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.colorRow
+  }, categories.map((category, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    key: index,
+    style: {
+      backgroundColor: ScratchBlocks.Colours[category].primary
+    },
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.colorOption,
+    role: "button",
+    draggable: false,
+    onClick: () => props.setColor(_lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"][category].primary)
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+    style: {
+      backgroundColor: Object.keys(themeObj).length === 0 ? (_props$color = props.color) !== null && _props$color !== void 0 ? _props$color : _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"].more.primary : themeObj.primary((_props$color2 = props.color) !== null && _props$color2 !== void 0 ? _props$color2 : _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"].more.primary)
+    },
+    type: "color",
+    value: (_props$color3 = props.color) !== null && _props$color3 !== void 0 ? _props$color3 : _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"].more.primary,
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.colorOption, _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.colorPicker),
+    onChange: e => props.setColor(e.target.value)
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.checkboxRow
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+    checked: props.warp,
+    type: "checkbox",
+    onChange: props.onToggleWarp
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Run without screen refresh",
+    id: "gui.customProcedures.runWithoutScreenRefresh"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.buttonRow
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.cancelButton,
+    onClick: props.onCancel
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "Cancel",
+    id: "gui.customProcedures.cancel"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.okButton,
+    onClick: props.onOk
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+    defaultMessage: "OK",
+    id: "gui.customProcedures.ok"
+  })))));
 };
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_4__["injectIntl"])(CustomProcedures));
+CustomProcedures.propTypes = {
+  componentRef: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  intl: react_intl__WEBPACK_IMPORTED_MODULE_5__["intlShape"],
+  onAddBoolean: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onAddLabel: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onAddTextNumber: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onCancel: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onOk: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onToggleWarp: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  warp: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired
+};
+const mapStateToProps = state => ({
+  theme: state.scratchGui.theme.theme
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["injectIntl"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["connect"])(mapStateToProps)(CustomProcedures)));
 
 /***/ }),
 
@@ -9202,6 +9246,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NyA0OSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtvcGFjaXR5OjAuMzt9LmNscy0ye29wYWNpdHk6MC4xO30uY2xzLTN7ZmlsbDojZmY2NjgwO3N0cm9rZTojZjM1O3N0cm9rZS1taXRlcmxpbWl0OjEwO30uY2xzLTR7Zm9udC1zaXplOjEycHg7ZmlsbDojZmZmO2ZvbnQtZmFtaWx5OkhlbHZldGljYU5ldWUtQm9sZCwgSGVsdmV0aWNhIE5ldWUsIHNhbnMtc2VyaWY7Zm9udC13ZWlnaHQ6NzAwO2xldHRlci1zcGFjaW5nOjBlbTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlIxXyBDLlByb2NlZHVyZSBFZGl0YmxlIElucHV0czwvdGl0bGU+PGcgaWQ9ImJvb2xlYW5fYm9vbGVhbl9pbnB1dHMiIGRhdGEtbmFtZT0iYm9vbGVhbiArIGJvb2xlYW4gaW5wdXRzIj48cmVjdCBjbGFzcz0iY2xzLTMiIHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iNTYiIGhlaWdodD0iNDgiIHJ4PSI0IiByeT0iNCIvPjx0ZXh0IGNsYXNzPSJjbHMtNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTcuNTcgMjcuNSkiPnRleHQ8L3RleHQ+PC9nPjwvc3ZnPgo="
+
+/***/ }),
+
+/***/ "./src/components/custom-procedures/icon--palette.svg":
+/*!************************************************************!*\
+  !*** ./src/components/custom-procedures/icon--palette.svg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiIGZpbGw9IndoaXRlIj48cGF0aCBkPSJNNDgwLTgwcS04MiAwLTE1NS0zMS41dC0xMjcuNS04NlExNDMtMjUyIDExMS41LTMyNVQ4MC00ODBxMC04MyAzMi41LTE1NnQ4OC0xMjdRMjU2LTgxNyAzMzAtODQ4LjVUNDg4LTg4MHE4MCAwIDE1MSAyNy41dDEyNC41IDc2cTUzLjUgNDguNSA4NSAxMTVUODgwLTUxOHEwIDExNS03MCAxNzYuNVQ2NDAtMjgwaC03NHEtOSAwLTEyLjUgNXQtMy41IDExcTAgMTIgMTUgMzQuNXQxNSA1MS41cTAgNTAtMjcuNSA3NFQ0ODAtODBabTAtNDAwWm0tMjIwIDQwcTI2IDAgNDMtMTd0MTctNDNxMC0yNi0xNy00M3QtNDMtMTdxLTI2IDAtNDMgMTd0LTE3IDQzcTAgMjYgMTcgNDN0NDMgMTdabTEyMC0xNjBxMjYgMCA0My0xN3QxNy00M3EwLTI2LTE3LTQzdC00My0xN3EtMjYgMC00MyAxN3QtMTcgNDNxMCAyNiAxNyA0M3Q0MyAxN1ptMjAwIDBxMjYgMCA0My0xN3QxNy00M3EwLTI2LTE3LTQzdC00My0xN3EtMjYgMC00MyAxN3QtMTcgNDNxMCAyNiAxNyA0M3Q0MyAxN1ptMTIwIDE2MHEyNiAwIDQzLTE3dDE3LTQzcTAtMjYtMTctNDN0LTQzLTE3cS0yNiAwLTQzIDE3dC0xNyA0M3EwIDI2IDE3IDQzdDQzIDE3Wk00ODAtMTYwcTkgMCAxNC41LTV0NS41LTEzcTAtMTQtMTUtMzN0LTE1LTU3cTAtNDIgMjktNjd0NzEtMjVoNzBxNjYgMCAxMTMtMzguNVQ4MDAtNTE4cTAtMTIxLTkyLjUtMjAxLjVUNDg4LTgwMHEtMTM2IDAtMjMyIDkzdC05NiAyMjdxMCAxMzMgOTMuNSAyMjYuNVQ0ODAtMTYwWiIvPjwvc3ZnPgo="
 
 /***/ }),
 
@@ -16111,6 +16166,7 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
 const categoryColorMap = {
   data: 'data',
   sensing: 'sensing',
+  control: 'control',
   sound: 'sounds',
   looks: 'looks',
   motion: 'motion',
@@ -27511,10 +27567,11 @@ __webpack_require__.r(__webpack_exports__);
 class CustomProcedures extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleAddLabel', 'handleAddBoolean', 'handleAddTextNumber', 'handleToggleWarp', 'handleCancel', 'handleOk', 'setBlocks']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleAddLabel', 'handleAddBoolean', 'handleAddTextNumber', 'handleSetColor', 'handleToggleWarp', 'handleCancel', 'handleOk', 'setBlocks']);
     this.state = {
       rtlOffset: 0,
-      warp: false
+      warp: false,
+      color: null
     };
   }
   componentWillUnmount() {
@@ -27523,6 +27580,7 @@ class CustomProcedures extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Comp
     }
   }
   setBlocks(blocksRef) {
+    var _this$mutationRoot$cu;
     if (!blocksRef) return;
     this.blocks = blocksRef;
     const workspaceConfig = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_1___default()({}, CustomProcedures.defaultOptions, this.props.options, {
@@ -27600,12 +27658,23 @@ class CustomProcedures extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Comp
     this.mutationRoot.initSvg();
     this.mutationRoot.render();
     this.setState({
-      warp: this.mutationRoot.getWarp()
+      warp: this.mutationRoot.getWarp(),
+      color: (_this$mutationRoot$cu = this.mutationRoot.customColour_) !== null && _this$mutationRoot$cu !== void 0 ? _this$mutationRoot$cu : null
     });
     // Allow the initial events to run to position this block, then focus.
     setTimeout(() => {
       this.mutationRoot.focusLastEditor_();
     });
+  }
+  handleSetColor(color) {
+    if (this.mutationRoot) {
+      var _this$mutationRoot$cu2;
+      this.mutationRoot.customColour_ = color;
+      this.mutationRoot.updateDisplay_();
+      this.setState({
+        color: (_this$mutationRoot$cu2 = this.mutationRoot.customColour_) !== null && _this$mutationRoot$cu2 !== void 0 ? _this$mutationRoot$cu2 : null
+      });
+    }
   }
   handleCancel() {
     this.props.onRequestClose();
@@ -27642,8 +27711,10 @@ class CustomProcedures extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Comp
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_custom_procedures_custom_procedures_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
       componentRef: this.setBlocks,
       warp: this.state.warp,
+      color: this.state.color,
       onAddBoolean: this.handleAddBoolean,
       onAddLabel: this.handleAddLabel,
+      setColor: this.handleSetColor,
       onAddTextNumber: this.handleAddTextNumber,
       onCancel: this.handleCancel,
       onOk: this.handleOk,
@@ -42124,7 +42195,7 @@ const translate = (id, english) => {
 const motion = function motion(isInitialSetup, isStage, targetId, colors) {
   const stageSelected = translate('MOTION_STAGE_SELECTED', 'Stage selected: no motion blocks');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category name=\"%{BKY_CATEGORY_MOTION}\" id=\"motion\" colour=\"".concat(colors.primary, "\" secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? "\n        <label text=\"".concat(stageSelected, "\"></label>\n        ") : "\n        <block type=\"motion_movesteps\">\n            <value name=\"STEPS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_turnright\">\n            <value name=\"DEGREES\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">15</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_turnleft\">\n            <value name=\"DEGREES\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">15</field>\n                </shadow>\n            </value>\n        </block>\n        ".concat(blockSeparator, "\n        <block type=\"motion_goto\">\n            <value name=\"TO\">\n                <shadow type=\"motion_goto_menu\">\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_gotoxy\">\n            <value name=\"X\">\n                <shadow id=\"movex\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n            <value name=\"Y\">\n                <shadow id=\"movey\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_glideto\" id=\"motion_glideto\">\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"motion_glideto_menu\">\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_glidesecstoxy\">\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"X\">\n                <shadow id=\"glidex\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n            <value name=\"Y\">\n                <shadow id=\"glidey\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_pointindirection\">\n            <value name=\"DIRECTION\">\n                <shadow type=\"math_angle\">\n                    <field name=\"NUM\">90</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_pointtowards\">\n            <value name=\"TOWARDS\">\n                <shadow type=\"motion_pointtowards_menu\">\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_changexby\">\n            <value name=\"DX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_setx\">\n            <value name=\"X\">\n                <shadow id=\"setx\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_changeyby\">\n            <value name=\"DY\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_sety\">\n            <value name=\"Y\">\n                <shadow id=\"sety\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_ifonedgebounce\"/>\n        ").concat(blockSeparator, "\n        <block type=\"motion_setrotationstyle\"/>\n        ").concat(blockSeparator, "\n        <block id=\"").concat(targetId, "_xposition\" type=\"motion_xposition\"/>\n        <block id=\"").concat(targetId, "_yposition\" type=\"motion_yposition\"/>\n        <block id=\"").concat(targetId, "_direction\" type=\"motion_direction\"/>"), "\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category name=\"%{BKY_CATEGORY_MOTION}\" id=\"motion\" colour=\"".concat(colors.primary, "\" secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? "\n        <label text=\"".concat(stageSelected, "\"></label>\n        ") : "\n        <block type=\"motion_movesteps\">\n            <value name=\"STEPS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_turnright\">\n            <value name=\"DEGREES\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">15</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_turnleft\">\n            <value name=\"DEGREES\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">15</field>\n                </shadow>\n            </value>\n        </block>\n        ".concat(blockSeparator, "\n        <block type=\"motion_goto\">\n            <value name=\"TO\">\n                <shadow type=\"motion_goto_menu\">\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_gotoxy\">\n            <value name=\"X\">\n                <shadow id=\"movex\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n            <value name=\"Y\">\n                <shadow id=\"movey\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_glideto\" id=\"motion_glideto\">\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"motion_glideto_menu\">\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_glidesecstoxy\">\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"X\">\n                <shadow id=\"glidex\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n            <value name=\"Y\">\n                <shadow id=\"glidey\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_pointindirection\">\n            <value name=\"DIRECTION\">\n                <shadow type=\"math_angle\">\n                    <field name=\"NUM\">90</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_pointtowards\">\n            <value name=\"TOWARDS\">\n                <shadow type=\"motion_pointtowards_menu\">\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_changexby\">\n            <value name=\"DX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_setx\">\n            <value name=\"X\">\n                <shadow id=\"setx\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_changeyby\">\n            <value name=\"DY\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"motion_sety\">\n            <value name=\"Y\">\n                <shadow id=\"sety\" type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"motion_ifonedgebounce\"/>\n        ").concat(blockSeparator, "\n        <block type=\"motion_setrotationstyle\"/>\n        ").concat(blockSeparator, "\n        <block id=\"").concat(targetId, "_xposition\" type=\"motion_xposition\"/>\n        <block id=\"").concat(targetId, "_yposition\" type=\"motion_yposition\"/>\n        <block id=\"").concat(targetId, "_position\" type=\"motion_position\"/>\n        <block id=\"").concat(targetId, "_direction\" type=\"motion_direction\"/>"), "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const xmlEscape = function xmlEscape(unsafe) {
   return unsafe.replace(/[<>&'"]/g, c => {
@@ -42166,14 +42237,14 @@ const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
   const hello = translate('LOOKS_HELLO', 'Hello!');
   const name = translate('SENSING_ASK_TEXT', 'What\'s your name?');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_SENSING}\"\n        id=\"sensing\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n            <block type=\"sensing_touchingobject\">\n                <value name=\"TOUCHINGOBJECTMENU\">\n                    <shadow type=\"sensing_touchingobjectmenu\"/>\n                </value>\n            </block>\n            <block type=\"sensing_touchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_coloristouchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n                <value name=\"COLOR2\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_distanceto\">\n                <value name=\"DISTANCETOMENU\">\n                    <shadow type=\"sensing_distancetomenu\"/>\n                </value>\n            </block>\n            ".concat(blockSeparator, "\n        "), "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"sensing_alert\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(hello, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_prompt\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n                <value name=\"VALUE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\"/>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_confirm\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">Did you see that movie?</field>\n                    </shadow>\n                </value>\n            </block>\n            <block id=\"askandwait\" type=\"sensing_askandwait\">\n                <value name=\"QUESTION\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        <block id=\"answer\" type=\"sensing_answer\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_keypressed\">\n            <value name=\"KEY_OPTION\">\n                <shadow type=\"sensing_keyoptions\"/>\n            </value>\n        </block>\n        <block type=\"sensing_mousedown\"/>\n        <block type=\"sensing_mousex\"/>\n        <block type=\"sensing_mousey\"/>\n        ").concat(isStage ? '' : "\n            ".concat(blockSeparator, "\n            '<block type=\"sensing_setdragmode\" id=\"sensing_setdragmode\"></block>'+\n            ").concat(blockSeparator, "\n        "), "\n        ").concat(blockSeparator, "\n        <block id=\"loudness\" type=\"sensing_loudness\"/>\n        ").concat(blockSeparator, "\n        <block id=\"timer\" type=\"sensing_timer\"/>\n        <block type=\"sensing_resettimer\"/>\n        ").concat(blockSeparator, "\n        <block id=\"of\" type=\"sensing_of\">\n            <value name=\"OBJECT\">\n                <shadow id=\"sensing_of_object_menu\" type=\"sensing_of_object_menu\"/>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block id=\"current\" type=\"sensing_current\"/>\n        <block type=\"sensing_dayssince2000\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_username\"/>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_SENSING}\"\n        id=\"sensing\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n            <block type=\"sensing_touchingobject\">\n                <value name=\"TOUCHINGOBJECTMENU\">\n                    <shadow type=\"sensing_touchingobjectmenu\"/>\n                </value>\n            </block>\n            <block type=\"sensing_touchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_coloristouchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n                <value name=\"COLOR2\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_distanceto\">\n                <value name=\"DISTANCETOMENU\">\n                    <shadow type=\"sensing_distancetomenu\"/>\n                </value>\n            </block>\n            ".concat(blockSeparator, "\n        "), "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"sensing_alert\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(hello, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_prompt\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n                <value name=\"VALUE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\"/>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_confirm\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">Did you see that movie?</field>\n                    </shadow>\n                </value>\n            </block>\n            <block id=\"askandwait\" type=\"sensing_askandwait\">\n                <value name=\"QUESTION\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        <block id=\"answer\" type=\"sensing_answer\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_keypressed\">\n            <value name=\"KEY_OPTION\">\n                <shadow type=\"sensing_keyoptions\"/>\n            </value>\n        </block>\n        <block type=\"sensing_mousedown\"/>\n        <block type=\"sensing_mousex\"/>\n        <block type=\"sensing_mousey\"/>\n        <block type=\"sensing_mousexy\"/>\n        ").concat(isStage ? '' : "\n            ".concat(blockSeparator, "\n            '<block type=\"sensing_setdragmode\" id=\"sensing_setdragmode\"></block>'+\n            ").concat(blockSeparator, "\n        "), "\n        ").concat(blockSeparator, "\n        <block id=\"loudness\" type=\"sensing_loudness\"/>\n        ").concat(blockSeparator, "\n        <block id=\"timer\" type=\"sensing_timer\"/>\n        <block type=\"sensing_resettimer\"/>\n        ").concat(blockSeparator, "\n        <block id=\"of\" type=\"sensing_of\">\n            <value name=\"OBJECT\">\n                <shadow id=\"sensing_of_object_menu\" type=\"sensing_of_object_menu\"/>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block id=\"current\" type=\"sensing_current\"/>\n        <block type=\"sensing_dayssince2000\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_username\"/>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const operators = function operators(isInitialSetup, isStage, targetId, colors) {
   const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
   const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
   const letter = translate('OPERATORS_LETTEROF_APPLE', 'a');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_join\">\n                <value name=\"STRING1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"STRING2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_in_range\">\n              <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">5</field>\n                </shadow>\n              </value>\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_join\">\n                <value name=\"STRING1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"STRING2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_is_string\">\n              <value name=\"STRING\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_is_number\">\n              <value name=\"NUM\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">50</field>\n                </shadow>\n              </value>\n            </block>\n            ").concat(blockSeparator, "\n            <block type=\"operator_nums_in_range\">\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_in_range\">\n              <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">5</field>\n                </shadow>\n              </value>\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const variables = function variables(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
@@ -42183,7 +42254,7 @@ const json = function json(isInitialSetup, isStage, targetId, colors) {
   const arrays = "Arrays";
   const objects = "Objects";
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_length\" />\n        ").concat(blockSeparator, "\n        <label text=\"").concat(arrays, "\"></label>\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <label text=\"").concat(objects, "\"></label>\n        <block type=\"json_object_empty\"/>\n        <block type=\"json_object_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key1:apple,key2:banana</field>\n                </shadow>\n            </value>\n            <value name=\"KEYDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">:</field>\n                </shadow>\n            </value>\n            <value name=\"PAIRDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_item_of\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_contains_key\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_set\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_delete\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_length\" />\n        ").concat(blockSeparator, "\n        <label text=\"").concat(arrays, "\"></label>\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <label text=\"").concat(objects, "\"></label>\n        <block type=\"json_object_empty\"/>\n        <block type=\"json_object_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key1:apple,key2:banana</field>\n                </shadow>\n            </value>\n            <value name=\"KEYDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">:</field>\n                </shadow>\n            </value>\n            <value name=\"PAIRDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_item_of\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_contains_key\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_entries\"/>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_set\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_delete\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const myBlocks = function myBlocks(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
@@ -42497,13 +42568,23 @@ const isUndefined = a => typeof a === 'undefined';
     value = value.toString();
   }
 
-  // Lists can contain booleans, which should also be turned to strings
+  // Lists and Array values can contain booleans, which should also be turned to strings
   if (Array.isArray(value)) {
     value = value.slice();
     for (let i = 0; i < value.length; i++) {
       const item = value[i];
       if (typeof item === 'boolean') {
         value[i] = item.toString();
+      }
+    }
+  }
+
+  // Object values can contain booleans, which should also be turned to strings
+  if (typeof value == 'object' && value instanceof Object && !Array.isArray(value)) {
+    for (let i = 0; i < Object.keys(value).length; i++) {
+      const item = value[Object.keys(value)[i]];
+      if (typeof item === 'boolean') {
+        value[Object.keys(value)[i]] = item.toString();
       }
     }
   }
@@ -42541,6 +42622,10 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["defineMessages"
     "id": "gui.opcodeLabels.yposition",
     "defaultMessage": "y position"
   },
+  motion_position: {
+    "id": "dash.opcode.position",
+    "defaultMessage": "position"
+  },
   // Looks
   looks_size: {
     "id": "gui.opcodeLabels.size",
@@ -42571,6 +42656,11 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["defineMessages"
     "id": "gui.opcodeLabels.tempo",
     "defaultMessage": "tempo"
   },
+  // Control
+  control_is_paused: {
+    "id": "dash.opcode.ispaused",
+    "defaultMessage": "paused?"
+  },
   // Sensing
   sensing_answer: {
     "id": "gui.opcodeLabels.answer",
@@ -42587,6 +42677,10 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["defineMessages"
   sensing_mousey: {
     "id": "tw.opcode.mousey",
     "defaultMessage": "mouse y"
+  },
+  sensing_mousexy: {
+    "id": "dash.opcode.mousexy",
+    "defaultMessage": "mouse position"
   },
   sensing_loudness: {
     "id": "gui.opcodeLabels.loudness",
@@ -42658,6 +42752,9 @@ class OpcodeLabels {
       motion_yposition: {
         category: 'motion'
       },
+      motion_position: {
+        category: 'motion'
+      },
       // Looks
       looks_size: {
         category: 'looks'
@@ -42685,6 +42782,10 @@ class OpcodeLabels {
       sound_tempo: {
         category: 'sound'
       },
+      // Control
+      control_is_paused: {
+        category: 'control'
+      },
       // Sensing
       sensing_answer: {
         category: 'sensing'
@@ -42696,6 +42797,9 @@ class OpcodeLabels {
         category: 'sensing'
       },
       sensing_mousey: {
+        category: 'sensing'
+      },
+      sensing_mousexy: {
         category: 'sensing'
       },
       sensing_loudness: {
@@ -42738,6 +42842,7 @@ class OpcodeLabels {
     this._opcodeMap.motion_direction.labelFn = () => this._translator(messages.motion_direction);
     this._opcodeMap.motion_xposition.labelFn = () => this._translator(messages.motion_xposition);
     this._opcodeMap.motion_yposition.labelFn = () => this._translator(messages.motion_yposition);
+    this._opcodeMap.motion_position.labelFn = () => this._translator(messages.motion_position);
 
     // Looks
     this._opcodeMap.looks_size.labelFn = () => this._translator(messages.looks_size);
@@ -42763,11 +42868,15 @@ class OpcodeLabels {
     this._opcodeMap.sound_volume.labelFn = () => this._translator(messages.sound_volume);
     this._opcodeMap.sound_tempo.labelFn = () => this._translator(messages.sound_tempo);
 
+    // Control
+    this._opcodeMap.control_is_paused.labelFn = () => this._translator(messages.control_is_paused);
+
     // Sensing
     this._opcodeMap.sensing_answer.labelFn = () => this._translator(messages.sensing_answer);
     this._opcodeMap.sensing_mousedown.labelFn = () => this._translator(messages.sensing_mousedown);
     this._opcodeMap.sensing_mousex.labelFn = () => this._translator(messages.sensing_mousex);
     this._opcodeMap.sensing_mousey.labelFn = () => this._translator(messages.sensing_mousey);
+    this._opcodeMap.sensing_mousexy.labelFn = () => this._translator(messages.sensing_mousexy);
     this._opcodeMap.sensing_loudness.labelFn = () => this._translator(messages.sensing_loudness);
     this._opcodeMap.sensing_username.labelFn = () => this._translator(messages.sensing_username);
     this._opcodeMap.sensing_current.labelFn = params => {

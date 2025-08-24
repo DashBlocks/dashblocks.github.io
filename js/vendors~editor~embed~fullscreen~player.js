@@ -824,7 +824,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.fdc9074f3f792de90e9a.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.79c864322e336ace95b1.js");
 };
 
 /***/ }),
@@ -188070,7 +188070,7 @@ const ModeToolsComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_
     max: "1000",
     type: "number",
     value: item,
-    onSubmit: value => props.handleChange(value, index)
+    onSubmit: value => props.handleChange(index, value)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: _dash_array_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.button,
     onClick: () => props.handleDelete(index)
@@ -193672,10 +193672,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/scratch-paint/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/dash-array-dropdown/dash-array-dropdown.jsx */ "./node_modules/scratch-paint/src/components/dash-array-dropdown/dash-array-dropdown.jsx");
-/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/format */ "./node_modules/scratch-paint/src/lib/format.js");
-/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-
+/* harmony import */ var _reducers_dash_array__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/dash-array */ "./node_modules/scratch-paint/src/reducers/dash-array.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
 
 
 
@@ -193687,76 +193685,75 @@ __webpack_require__.r(__webpack_exports__);
 class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleAdd', 'handleChange', 'handleDelete']);
-    this.dashArray = [];
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleAdd', 'handleChange', 'handleDelete', 'handleChoose']);
+  }
+  handleChoose() {
+    if (this.dropDown.isOpen()) {
+      this.dropDown.handleClosePopover();
+      this.props.onUpdateImage();
+    }
   }
   handleOpenDropdown() {
-    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])();
-    this.dashArray = this.getDashArray(this.savedSelection);
-    this.forceUpdate();
+    this.savedSelection = Object(_helper_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])();
+    this.dashArray = this.props.dashArray;
   }
   handleClickOutsideDropdown(e) {
     e.stopPropagation();
-    this.cancelChange();
-  }
-  cancelChange() {
     this.dropDown.handleClosePopover();
+    this.props.onUpdateImage();
     this.dashArray = [];
     this.savedSelection = null;
-    this.forceUpdate();
   }
   setDropdown(element) {
     this.dropDown = element;
   }
-  getDashArray(selectedItems) {
-    if (selectedItems.length === 0) {
-      return [];
-    }
-    const firstStyle = selectedItems[0].getStyle().getDashArray();
-    for (const item of selectedItems) {
-      if (item.getStyle().getDashArray().join(' ') !== firstStyle.join(' ')) {
-        return [];
+  /*getDashArray (selectedItems) {
+      if (selectedItems.length === 0) {
+          return [];
       }
-    }
-    return firstStyle;
-  }
-  handleDashArray(selectedItems, value) {
-    let changed;
-    for (const item of selectedItems) {
-      const styles = item.getStyle();
-      if (styles.getDashArray().join(' ') !== value.join(' ')) {
-        styles.setDashArray(value);
-        changed = true;
+      const firstStyle = selectedItems[0].getStyle().getDashArray();
+      for (const item of selectedItems) {
+          if (item.getStyle().getDashArray().join(' ') !== firstStyle.join(' ')) {
+              return [];
+          }
       }
-    }
-    if (changed) {
-      this.props.setSelectedItems(this.props.format);
-      this.props.onUpdateImage();
-    }
-    this.forceUpdate();
+      return firstStyle;
   }
+  handleDashArray (selectedItems, value) {
+      let changed;
+      for (const item of selectedItems) {
+          const styles = item.getStyle();
+          if (styles.getDashArray().join(' ') !== value.join(' ')) {
+              styles.setDashArray(value);
+              changed = true;
+          }
+      }
+      if (changed) {
+          this.props.setSelectedItems(this.props.format);
+          this.props.onUpdateImage();
+      }
+      this.forceUpdate();
+  }*/
   handleAdd() {
     if (this.dropDown.isOpen()) {
-      this.dashArray.push(0);
-      this.handleDashArray(this.savedSelection, this.dashArray);
+      this.props.addValue();
     }
   }
-  handleChange(value, index) {
+  handleChange(index, value) {
     if (this.dropDown.isOpen()) {
-      this.dashArray[index] = value;
-      this.handleDashArray(this.savedSelection, this.dashArray);
+      this.props.changeValue(index, value);
     }
   }
   handleDelete(index) {
     if (this.dropDown.isOpen()) {
-      this.dashArray.splice(index, 1);
-      this.handleDashArray(this.savedSelection, this.dashArray);
+      this.props.deleteValue(index);
     }
   }
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_dash_array_dropdown_dash_array_dropdown_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
       componentRef: this.setDropdown,
-      dashArray: this.dashArray,
+      dashArray: this.props.dashArray,
+      onChoose: this.handleChoose,
       onClickOutsideDropdown: this.handleClickOutsideDropdown,
       onOpenDropdown: this.handleOpenDropdown,
       handleAdd: this.handleAdd,
@@ -193766,16 +193763,24 @@ class DashArrayDropdown extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Com
   }
 }
 DashArrayDropdown.propTypes = {
-  format: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(Object.keys(_lib_format__WEBPACK_IMPORTED_MODULE_6__["default"])),
-  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
-  setSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
+  addValue: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+  changeValue: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+  deleteValue: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired,
+  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.number),
+  onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
-  format: state.scratchPaint.format
+  dashArray: state.scratchPaint.dashArray
 });
 const mapDispatchToProps = dispatch => ({
-  setSelectedItems: format => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), Object(_lib_format__WEBPACK_IMPORTED_MODULE_6__["isBitmap"])(format)));
+  addValue: () => {
+    dispatch(Object(_reducers_dash_array__WEBPACK_IMPORTED_MODULE_6__["addValue"])());
+  },
+  changeValue: (index, value) => {
+    dispatch(Object(_reducers_dash_array__WEBPACK_IMPORTED_MODULE_6__["changeValue"])(index, value));
+  },
+  deleteValue: index => {
+    dispatch(Object(_reducers_dash_array__WEBPACK_IMPORTED_MODULE_6__["deleteValue"])(index));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(DashArrayDropdown));
@@ -197007,12 +197012,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/scratch-paint/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/modes */ "./node_modules/scratch-paint/src/lib/modes.js");
-/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
-/* harmony import */ var _reducers_hover__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
-/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
-/* harmony import */ var _helper_selection_tools_reshape_tool__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/selection-tools/reshape-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/reshape-tool.js");
-/* harmony import */ var _components_reshape_mode_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/reshape-mode/reshape-mode.jsx */ "./node_modules/scratch-paint/src/components/reshape-mode/reshape-mode.jsx");
+/* harmony import */ var _reducers_dash_array__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/dash-array */ "./node_modules/scratch-paint/src/reducers/dash-array.js");
+/* harmony import */ var _reducers_modes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/modes */ "./node_modules/scratch-paint/src/reducers/modes.js");
+/* harmony import */ var _reducers_hover__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
+/* harmony import */ var _reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helper/selection */ "./node_modules/scratch-paint/src/helper/selection.js");
+/* harmony import */ var _helper_selection_tools_reshape_tool__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../helper/selection-tools/reshape-tool */ "./node_modules/scratch-paint/src/helper/selection-tools/reshape-tool.js");
+/* harmony import */ var _components_reshape_mode_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/reshape-mode/reshape-mode.jsx */ "./node_modules/scratch-paint/src/components/reshape-mode/reshape-mode.jsx");
+
 
 
 
@@ -197035,8 +197042,13 @@ class ReshapeMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
     }
   }
   componentWillReceiveProps(nextProps) {
-    if (this.tool && nextProps.hoveredItemId !== this.props.hoveredItemId) {
-      this.tool.setPrevHoveredItemId(nextProps.hoveredItemId);
+    if (this.tool) {
+      if (nextProps.hoveredItemId !== this.props.hoveredItemId) {
+        this.tool.setPrevHoveredItemId(nextProps.hoveredItemId);
+      }
+      if (nextProps.dashArray !== this.props.dashArray) {
+        this.tool.setDashArray(nextProps.dashArray);
+      }
     }
     if (nextProps.isReshapeModeActive && !this.props.isReshapeModeActive) {
       this.activateTool();
@@ -197053,8 +197065,12 @@ class ReshapeMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
     }
   }
   activateTool() {
-    this.tool = new _helper_selection_tools_reshape_tool__WEBPACK_IMPORTED_MODULE_9__["default"](this.props.setHoveredItem, this.props.clearHoveredItem, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.onUpdateImage, this.props.switchToTextTool);
+    if (!this.props.dashArray) {
+      this.props.setDashArray([]);
+    }
+    this.tool = new _helper_selection_tools_reshape_tool__WEBPACK_IMPORTED_MODULE_10__["default"](this.props.setHoveredItem, this.props.clearHoveredItem, this.props.setSelectedItems, this.props.clearSelectedItems, this.props.onUpdateImage, this.props.switchToTextTool);
     this.tool.setPrevHoveredItemId(this.props.hoveredItemId);
+    this.tool.setDashArray(this.props.dashArray);
     this.tool.activate();
   }
   deactivateTool() {
@@ -197064,17 +197080,19 @@ class ReshapeMode extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
     this.hitResult = null;
   }
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_reshape_mode_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_reshape_mode_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], {
       isSelected: this.props.isReshapeModeActive,
       onMouseDown: this.props.handleMouseDown
     });
   }
 }
 ReshapeMode.propTypes = {
+  setDashArray: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   clearHoveredItem: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   clearSelectedItems: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   handleMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   hoveredItemId: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
+  dashArray: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number),
   isReshapeModeActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool.isRequired,
   onUpdateImage: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
   setHoveredItem: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired,
@@ -197082,27 +197100,31 @@ ReshapeMode.propTypes = {
   switchToTextTool: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func.isRequired
 };
 const mapStateToProps = state => ({
+  dashArray: state.scratchPaint.dashArray,
   isReshapeModeActive: state.scratchPaint.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].RESHAPE,
   hoveredItemId: state.scratchPaint.hoveredItemId
 });
 const mapDispatchToProps = dispatch => ({
+  setDashArray: dashArray => {
+    dispatch(Object(_reducers_dash_array__WEBPACK_IMPORTED_MODULE_5__["setDashArray"])(dashArray));
+  },
   setHoveredItem: hoveredItemId => {
-    dispatch(Object(_reducers_hover__WEBPACK_IMPORTED_MODULE_6__["setHoveredItem"])(hoveredItemId));
+    dispatch(Object(_reducers_hover__WEBPACK_IMPORTED_MODULE_7__["setHoveredItem"])(hoveredItemId));
   },
   clearHoveredItem: () => {
-    dispatch(Object(_reducers_hover__WEBPACK_IMPORTED_MODULE_6__["clearHoveredItem"])());
+    dispatch(Object(_reducers_hover__WEBPACK_IMPORTED_MODULE_7__["clearHoveredItem"])());
   },
   clearSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["clearSelectedItems"])());
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__["clearSelectedItems"])());
   },
   setSelectedItems: () => {
-    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_7__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_8__["getSelectedLeafItems"])(), false /* bitmapMode */));
+    dispatch(Object(_reducers_selected_items__WEBPACK_IMPORTED_MODULE_8__["setSelectedItems"])(Object(_helper_selection__WEBPACK_IMPORTED_MODULE_9__["getSelectedLeafItems"])(), false /* bitmapMode */));
   },
   handleMouseDown: () => {
-    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_5__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].RESHAPE));
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_6__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].RESHAPE));
   },
   switchToTextTool: () => {
-    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_5__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].TEXT));
+    dispatch(Object(_reducers_modes__WEBPACK_IMPORTED_MODULE_6__["changeMode"])(_lib_modes__WEBPACK_IMPORTED_MODULE_4__["default"].TEXT));
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(ReshapeMode));
@@ -203839,6 +203861,7 @@ class ReshapeTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.
     super();
     this.setHoveredItem = setHoveredItem;
     this.clearHoveredItem = clearHoveredItem;
+    this.setSelectedItems = setSelectedItems;
     this.onUpdateImage = onUpdateImage;
     this.prevHoveredItemId = null;
     this.lastEvent = null;
@@ -203986,6 +204009,21 @@ class ReshapeTool extends _turbowarp_paper__WEBPACK_IMPORTED_MODULE_0___default.
       }
     }
     return hitResult;
+  }
+  setDashArray(dashArray) {
+    let changed;
+    const selected = Object(_selection__WEBPACK_IMPORTED_MODULE_7__["getSelectedLeafItems"])();
+    for (const item of selected) {
+      const styles = item.getStyle();
+      if (styles.getDashArray().join(' ') !== dashArray.join(' ')) {
+        styles.setDashArray(dashArray);
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.setSelectedItems();
+      this.onUpdateImage();
+    }
   }
   handleMouseDown(event) {
     if (event.event.button > 0) return; // only first mouse button
@@ -210248,6 +210286,99 @@ const setCustomFonts = fonts => ({
 
 /***/ }),
 
+/***/ "./node_modules/scratch-paint/src/reducers/dash-array.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/scratch-paint/src/reducers/dash-array.js ***!
+  \***************************************************************/
+/*! exports provided: default, setDashArray, addValue, changeValue, deleteValue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return reducer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setDashArray", function() { return setDashArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addValue", function() { return addValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeValue", function() { return changeValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteValue", function() { return deleteValue; });
+/* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log/log */ "./node_modules/scratch-paint/src/log/log.js");
+
+const SET_DASH_ARRAY = 'scratch-paint/dash-array/SET_DASH_ARRAY';
+const ADD_VALUE = 'scratch-paint/dash-array/ADD_VALUE';
+const CHANGE_VALUE = 'scratch-paint/dash-array/CHANGE_VALUE';
+const DELETE_VALUE = 'scratch-paint/dash-array/DELETE_VALUE';
+const initialState = [];
+const reducer = function reducer(state, action) {
+  if (typeof state === 'undefined') state = initialState;
+  switch (action.type) {
+    case SET_DASH_ARRAY:
+      {
+        if (!Array.isArray(action.dashArray)) {
+          _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid dash array: ".concat(JSON.stringify(action.dashArray)));
+          return state;
+        }
+        return action.dashArray;
+      }
+    case ADD_VALUE:
+      {
+        state.push(0);
+        return state;
+      }
+    case CHANGE_VALUE:
+      {
+        if (isNaN(action.index)) {
+          _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid index: ".concat(action.index));
+          return state;
+        }
+        if (isNaN(action.value)) {
+          _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid value setting: ".concat(action.value));
+          return state;
+        }
+        state[Math.max(0, Math.min(state.length - 1, action.index))] = Math.max(0, action.value);
+        return state;
+      }
+    case DELETE_VALUE:
+      {
+        if (isNaN(action.index)) {
+          _log_log__WEBPACK_IMPORTED_MODULE_0__["default"].warn("Invalid index: ".concat(action.index));
+          return state;
+        }
+        state.splice(Math.max(0, Math.min(state.length - 1, action.index)), 1);
+        return state;
+      }
+    default:
+      return state;
+  }
+};
+
+// Action creators ==================================
+const setDashArray = function setDashArray(dashArray) {
+  return {
+    type: SET_DASH_ARRAY,
+    dashArray: dashArray
+  };
+};
+const addValue = function addValue() {
+  return {
+    type: ADD_VALUE
+  };
+};
+const changeValue = function changeValue(index, value) {
+  return {
+    type: CHANGE_VALUE,
+    index: index,
+    value: value
+  };
+};
+const deleteValue = function deleteValue(index) {
+  return {
+    type: DELETE_VALUE,
+    index: index
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/scratch-paint/src/reducers/eraser-mode.js":
 /*!****************************************************************!*\
   !*** ./node_modules/scratch-paint/src/reducers/eraser-mode.js ***!
@@ -211008,18 +211139,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./fill-bitmap-shapes */ "./node_modules/scratch-paint/src/reducers/fill-bitmap-shapes.js");
 /* harmony import */ var _fill_mode__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./fill-mode */ "./node_modules/scratch-paint/src/reducers/fill-mode.js");
 /* harmony import */ var _font__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./font */ "./node_modules/scratch-paint/src/reducers/font.js");
-/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
-/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
-/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
-/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
-/* harmony import */ var _pen_mode__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
-/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
-/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
-/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
-/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
-/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
-/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+/* harmony import */ var _dash_array__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./dash-array */ "./node_modules/scratch-paint/src/reducers/dash-array.js");
+/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./format */ "./node_modules/scratch-paint/src/reducers/format.js");
+/* harmony import */ var _hover__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./hover */ "./node_modules/scratch-paint/src/reducers/hover.js");
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./layout */ "./node_modules/scratch-paint/src/reducers/layout.js");
+/* harmony import */ var _modals__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modals */ "./node_modules/scratch-paint/src/reducers/modals.js");
+/* harmony import */ var _pen_mode__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pen-mode */ "./node_modules/scratch-paint/src/reducers/pen-mode.js");
+/* harmony import */ var _selected_items__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./selected-items */ "./node_modules/scratch-paint/src/reducers/selected-items.js");
+/* harmony import */ var _text_alignment__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./text-alignment */ "./node_modules/scratch-paint/src/reducers/text-alignment.js");
+/* harmony import */ var _text_edit_target__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./text-edit-target */ "./node_modules/scratch-paint/src/reducers/text-edit-target.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./theme */ "./node_modules/scratch-paint/src/reducers/theme.js");
+/* harmony import */ var _view_bounds__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./view-bounds */ "./node_modules/scratch-paint/src/reducers/view-bounds.js");
+/* harmony import */ var _undo__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./undo */ "./node_modules/scratch-paint/src/reducers/undo.js");
+/* harmony import */ var _zoom_levels__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./zoom-levels */ "./node_modules/scratch-paint/src/reducers/zoom-levels.js");
+
 
 
 
@@ -211068,18 +211201,19 @@ __webpack_require__.r(__webpack_exports__);
   fillBitmapShapes: _fill_bitmap_shapes__WEBPACK_IMPORTED_MODULE_15__["default"],
   fillMode: _fill_mode__WEBPACK_IMPORTED_MODULE_16__["default"],
   font: _font__WEBPACK_IMPORTED_MODULE_17__["default"],
-  format: _format__WEBPACK_IMPORTED_MODULE_18__["default"],
-  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_19__["default"],
-  layout: _layout__WEBPACK_IMPORTED_MODULE_20__["default"],
-  modals: _modals__WEBPACK_IMPORTED_MODULE_21__["default"],
-  penMode: _pen_mode__WEBPACK_IMPORTED_MODULE_22__["default"],
-  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_23__["default"],
-  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_24__["default"],
-  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_25__["default"],
-  theme: _theme__WEBPACK_IMPORTED_MODULE_26__["default"],
-  undo: _undo__WEBPACK_IMPORTED_MODULE_28__["default"],
-  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_27__["default"],
-  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_29__["default"]
+  dashArray: _dash_array__WEBPACK_IMPORTED_MODULE_18__["default"],
+  format: _format__WEBPACK_IMPORTED_MODULE_19__["default"],
+  hoveredItemId: _hover__WEBPACK_IMPORTED_MODULE_20__["default"],
+  layout: _layout__WEBPACK_IMPORTED_MODULE_21__["default"],
+  modals: _modals__WEBPACK_IMPORTED_MODULE_22__["default"],
+  penMode: _pen_mode__WEBPACK_IMPORTED_MODULE_23__["default"],
+  selectedItems: _selected_items__WEBPACK_IMPORTED_MODULE_24__["default"],
+  textAlignment: _text_alignment__WEBPACK_IMPORTED_MODULE_25__["default"],
+  textEditTarget: _text_edit_target__WEBPACK_IMPORTED_MODULE_26__["default"],
+  theme: _theme__WEBPACK_IMPORTED_MODULE_27__["default"],
+  undo: _undo__WEBPACK_IMPORTED_MODULE_29__["default"],
+  viewBounds: _view_bounds__WEBPACK_IMPORTED_MODULE_28__["default"],
+  zoomLevels: _zoom_levels__WEBPACK_IMPORTED_MODULE_30__["default"]
 }));
 
 /***/ }),
@@ -257758,7 +257892,8 @@ class DashJSONBlocks {
       json_object_item_of: this.objectItemOf,
       json_object_contains_key: this.objectContainsKey,
       json_object_set: this.objectSet,
-      json_object_delete: this.objectDelete
+      json_object_delete: this.objectDelete,
+      json_object_entries: this.objectEntries
     };
   }
   arrayEmpty() {
@@ -257876,6 +258011,19 @@ class DashJSONBlocks {
     const key = Cast.toString(args.KEY);
     delete object[key];
     return object;
+  }
+  objectEntries(args) {
+    const object = Cast.toObject(args.OBJECT);
+    switch (args.PROPERTY) {
+      case 'entries':
+        return Object.entries(object);
+      case 'keys':
+        return Object.keys(object);
+      case 'values':
+        return Object.values(object);
+      default:
+        return [];
+    }
   }
 }
 module.exports = DashJSONBlocks;
@@ -259156,6 +259304,7 @@ class Scratch3MotionBlocks {
       motion_sety: this.setY,
       motion_xposition: this.getX,
       motion_yposition: this.getY,
+      motion_position: this.getXY,
       motion_direction: this.getDirection,
       // Legacy no-op blocks:
       motion_scroll_right: () => {},
@@ -259381,6 +259530,9 @@ class Scratch3MotionBlocks {
   getY(args, util) {
     return this.limitPrecision(util.target.y);
   }
+  getXY(args, util) {
+    return [this.limitPrecision(util.target.x), this.limitPrecision(util.target.y)];
+  }
   getDirection(args, util) {
     return util.target.direction;
   }
@@ -259437,6 +259589,9 @@ class Scratch3OperatorsBlocks {
       operator_letter_of: this.letterOf,
       operator_length: this.length,
       operator_contains: this.contains,
+      operator_is_string: this.isString,
+      operator_is_number: this.isNumber,
+      operator_nums_in_range: this.numsInRange,
       operator_in_range: this.inRange,
       operator_mod: this.mod,
       operator_round: this.round,
@@ -259512,6 +259667,37 @@ class Scratch3OperatorsBlocks {
       return Cast.toString(string).toLowerCase();
     };
     return format(args.STRING1).includes(format(args.STRING2));
+  }
+  isString(args) {
+    const number = Cast.toNumber(args.STRING);
+    const string = Cast.toString(args.STRING);
+    if (number == 0 && args.STRING != '0' && args.STRING != '-0') {
+      if (Cast.isWhiteSpace(string)) {
+        return false;
+      } else {
+        return true;
+      }
+    }
+    return false;
+  }
+  isNumber(args) {
+    const number = Cast.toNumber(args.NUM);
+    if (number == 0 && args.NUM != '0' && args.NUM != '-0') {
+      return false;
+    }
+    return true;
+  }
+  numsInRange(args) {
+    const from = Cast.toNumber(args.FROM);
+    const to = Cast.toNumber(args.TO);
+    const nums = [];
+    if (from > to) {
+      return nums;
+    }
+    for (let i = from; i <= to; i++) {
+      nums.push(i);
+    }
+    return nums;
   }
   inRange(args) {
     const num = Cast.toNumber(args.NUM);
@@ -259775,6 +259961,7 @@ class Scratch3SensingBlocks {
       sensing_of: this.getAttributeOf,
       sensing_mousex: this.getMouseX,
       sensing_mousey: this.getMouseY,
+      sensing_mousexy: this.getMouseXY,
       sensing_setdragmode: this.setDragMode,
       sensing_mousedown: this.getMouseDown,
       sensing_keypressed: this.getKeyPressed,
@@ -259935,6 +260122,9 @@ class Scratch3SensingBlocks {
   }
   getMouseY(args, util) {
     return util.ioQuery('mouse', 'getScratchY');
+  }
+  getMouseXY(args, util) {
+    return [util.ioQuery('mouse', 'getScratchX'), util.ioQuery('mouse', 'getScratchY')];
   }
   getMouseDown(args, util) {
     return util.ioQuery('mouse', 'getIsDown');
@@ -261006,6 +261196,10 @@ class ScriptTreeGenerator {
         return {
           kind: 'motion.y'
         };
+      case 'motion_position':
+        return {
+          kind: 'motion.position'
+        };
       case 'operator_add':
         return {
           kind: 'op.add',
@@ -261024,6 +261218,29 @@ class ScriptTreeGenerator {
           string: this.descendInputOfBlock(block, 'STRING1'),
           contains: this.descendInputOfBlock(block, 'STRING2')
         };
+      case 'operator_is_string':
+        return {
+          kind: 'op.isString',
+          string: this.descendInputOfBlock(block, 'STRING')
+        };
+      case 'operator_is_number':
+        return {
+          kind: 'op.isNumber',
+          num: this.descendInputOfBlock(block, 'NUM')
+        };
+      case 'operator_in_range':
+        return {
+          kind: 'op.inRange',
+          num: this.descendInputOfBlock(block, 'NUM'),
+          from: this.descendInputOfBlock(block, 'FROM'),
+          to: this.descendInputOfBlock(block, 'TO')
+        };
+      case 'operator_nums_in_range':
+        return {
+          kind: 'op.numsInRange',
+          from: this.descendInputOfBlock(block, 'FROM'),
+          to: this.descendInputOfBlock(block, 'TO')
+        };
       case 'operator_divide':
         return {
           kind: 'op.divide',
@@ -261041,13 +261258,6 @@ class ScriptTreeGenerator {
           kind: 'op.greater',
           left: this.descendInputOfBlock(block, 'OPERAND1'),
           right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
-      case 'operator_in_range':
-        return {
-          kind: 'op.inRange',
-          num: this.descendInputOfBlock(block, 'NUM'),
-          from: this.descendInputOfBlock(block, 'FROM'),
-          to: this.descendInputOfBlock(block, 'TO')
         };
       case 'operator_join':
         return {
@@ -261340,6 +261550,10 @@ class ScriptTreeGenerator {
         return {
           kind: 'mouse.y'
         };
+      case 'sensing_mousexy':
+        return {
+          kind: 'mouse.xy'
+        };
       case 'sensing_of':
         return {
           kind: 'sensing.of',
@@ -261471,6 +261685,12 @@ class ScriptTreeGenerator {
           kind: 'json.objectDelete',
           object: this.descendInputOfBlock(block, 'OBJECT'),
           key: this.descendInputOfBlock(block, 'KEY')
+        };
+      case 'json_object_entries':
+        return {
+          kind: 'json.objectEntries',
+          object: this.descendInputOfBlock(block, 'OBJECT'),
+          property: block.fields.PROPERTY.value
         };
       case 'tw_getLastKeyPressed':
         return {
@@ -263291,12 +263511,16 @@ class JSGenerator {
         return new TypedInput('limitPrecision(target.x)', TYPE_NUMBER);
       case 'motion.y':
         return new TypedInput('limitPrecision(target.y)', TYPE_NUMBER);
+      case 'motion.position':
+        return new TypedInput('[limitPrecision(target.x), limitPrecision(target.y)]', TYPE_UNKNOWN);
       case 'mouse.down':
         return new TypedInput('runtime.ioDevices.mouse.getIsDown()', TYPE_BOOLEAN);
       case 'mouse.x':
         return new TypedInput('runtime.ioDevices.mouse.getScratchX()', TYPE_NUMBER);
       case 'mouse.y':
         return new TypedInput('runtime.ioDevices.mouse.getScratchY()', TYPE_NUMBER);
+      case 'mouse.xy':
+        return new TypedInput('[runtime.ioDevices.mouse.getScratchX(), runtime.ioDevices.mouse.getScratchY()]', TYPE_UNKNOWN);
       case 'noop':
         return new TypedInput('""', TYPE_STRING);
       case 'op.abs':
@@ -263318,6 +263542,31 @@ class JSGenerator {
         return new TypedInput("Math.ceil(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
       case 'op.contains':
         return new TypedInput("(".concat(this.descendInput(node.string).asString(), ".toLowerCase().indexOf(").concat(this.descendInput(node.contains).asString(), ".toLowerCase()) !== -1)"), TYPE_BOOLEAN);
+      case 'op.isString':
+        {
+          const args = "\n            \"STRING\":".concat(this.descendInput(node.string).asString(), "\n            ");
+          return new TypedInput("runtime.ext_scratch3_operators.isString({".concat(args, "})"), TYPE_BOOLEAN);
+        }
+      case 'op.isNumber':
+        {
+          const args = "\n            \"NUM\":".concat(this.descendInput(node.num).asString(), "\n            ");
+          return new TypedInput("runtime.ext_scratch3_operators.isNumber({".concat(args, "})"), TYPE_BOOLEAN);
+        }
+      case 'op.inRange':
+        {
+          return new TypedInput("(".concat(this.descendInput(node.num).asNumber(), " >= ").concat(this.descendInput(node.from).asNumber(), " && ").concat(this.descendInput(node.num).asNumber(), " <= ").concat(this.descendInput(node.to).asNumber(), ")"), TYPE_BOOLEAN);
+        }
+      case 'op.numsInRange':
+        const from = this.descendInput(node.from).asNumber();
+        const to = this.descendInput(node.to).asNumber();
+        const nums = [];
+        if (from > to) {
+          return new TypedInput("(".concat(nums, ")"), TYPE_UNKNOWN);
+        }
+        for (let i = from; i <= to; i++) {
+          nums.push(i);
+        }
+        return new TypedInput("([".concat(nums, "])"), TYPE_UNKNOWN);
       case 'op.cos':
         return new TypedInput("(Math.round(Math.cos((Math.PI * ".concat(this.descendInput(node.value).asNumber(), ") / 180) * 1e10) / 1e10)"), TYPE_NUMBER_NAN);
       case 'op.divide':
@@ -263370,8 +263619,6 @@ class JSGenerator {
           // No compile-time optimizations possible - use fallback method.
           return new TypedInput("compareGreaterThan(".concat(left.asUnknown(), ", ").concat(right.asUnknown(), ")"), TYPE_BOOLEAN);
         }
-      case 'op.inRange':
-        return new TypedInput("(".concat(this.descendInput(node.num).asNumber(), " >= ").concat(this.descendInput(node.from).asNumber(), " && ").concat(this.descendInput(node.num).asNumber(), " <= ").concat(this.descendInput(node.to).asNumber(), ")"), TYPE_BOOLEAN);
       case 'op.join':
         return new TypedInput("(".concat(this.descendInput(node.left).asString(), " + ").concat(this.descendInput(node.right).asString(), ")"), TYPE_STRING);
       case 'op.length':
@@ -263572,12 +263819,12 @@ class JSGenerator {
       case 'json.contains':
         {
           const args = "\n            \"JSON\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"VALUE\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayContains({".concat(args, "})"), TYPE_BOOLEAN);
+          return new TypedInput("runtime.ext_dash_json.contains({".concat(args, "})"), TYPE_BOOLEAN);
         }
       case 'json.length':
         {
           const args = "\"VALUE\":".concat(this.descendInput(node.array).asUnknown());
-          return new TypedInput("runtime.ext_dash_json.arrayLength({".concat(args, "})"), TYPE_NUMBER);
+          return new TypedInput("runtime.ext_dash_json.length({".concat(args, "})"), TYPE_NUMBER);
         }
       case 'json.arrayAt':
         {
@@ -263638,6 +263885,11 @@ class JSGenerator {
         {
           const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"KEY\":").concat(this.descendInput(node.key).asString(), "\n            ");
           return new TypedInput("runtime.ext_dash_json.objectDelete({".concat(args, "})"), TYPE_UNKNOWN);
+        }
+      case 'json.objectEntries':
+        {
+          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"PROPERTY\":").concat(sanitize(node.property), "\n            ");
+          return new TypedInput("runtime.ext_dash_json.objectEntries({".concat(args, "})"), TYPE_UNKNOWN);
         }
       default:
         log.warn("JS: Unknown input: ".concat(node.kind), node);
@@ -267926,8 +268178,11 @@ const ArgumentTypeMap = (() => {
   map[ArgumentType.BOOLEAN] = {
     check: 'Boolean'
   };
-  map[ArgumentType.JSON] = {
-    check: 'JSON'
+  map[ArgumentType.ARRAY] = {
+    check: 'Array'
+  };
+  map[ArgumentType.OBJECT] = {
+    check: 'Object'
   };
   map[ArgumentType.MATRIX] = {
     shadow: {
@@ -269181,8 +269436,12 @@ class Runtime extends EventEmitter {
         blockJSON.output = 'Boolean';
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_HEXAGONAL;
         break;
-      case BlockType.JSON:
-        blockJSON.output = 'JSON';
+      case BlockType.ARRAY:
+        blockJSON.output = 'Array';
+        blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE;
+        break;
+      case BlockType.OBJECT:
+        blockJSON.output = 'Object';
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE;
         break;
       case BlockType.HAT:
@@ -269235,7 +269494,7 @@ class Runtime extends EventEmitter {
         ++outLineNum;
       }
     }
-    if (blockInfo.blockType === BlockType.REPORTER || blockInfo.blockType === BlockType.BOOLEAN || blockInfo.blockType === BlockType.JSON) {
+    if (blockInfo.blockType === BlockType.REPORTER || blockInfo.blockType === BlockType.BOOLEAN || blockInfo.blockType === BlockType.ARRAY || blockInfo.blockType === BlockType.OBJECT) {
       if (!blockInfo.disableMonitor && context.inputList.length === 0) {
         blockJSON.checkboxInFlyout = true;
       }
@@ -273507,9 +273766,13 @@ const ArgumentType = {
    */
   BOOLEAN: 'Boolean',
   /**
-   * Array/object value with square placeholder
+   * Array value with square placeholder
    */
-  JSON: 'JSON',
+  ARRAY: 'Array',
+  /**
+   * Object value with square (currently) placeholder
+   */
+  OBJECT: 'Object',
   /**
    * Numeric value with color picker
    */
@@ -273599,9 +273862,13 @@ const BlockType = {
    */
   REPORTER: 'reporter',
   /**
-   * Array/object reporter with square shape
+   * Array reporter with square shape
    */
-  JSON: 'json',
+  ARRAY: 'Array',
+  /**
+   * Object reporter with square (currently) shape
+   */
+  OBJECT: 'Object',
   /**
    * Arbitrary scratch-blocks XML.
    */

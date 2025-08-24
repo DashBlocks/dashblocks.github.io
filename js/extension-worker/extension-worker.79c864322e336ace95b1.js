@@ -2365,9 +2365,13 @@ const ArgumentType = {
    */
   BOOLEAN: 'Boolean',
   /**
-   * Array/object value with square placeholder
+   * Array value with square placeholder
    */
-  JSON: 'JSON',
+  ARRAY: 'Array',
+  /**
+   * Object value with square (currently) placeholder
+   */
+  OBJECT: 'Object',
   /**
    * Numeric value with color picker
    */
@@ -2457,9 +2461,13 @@ const BlockType = {
    */
   REPORTER: 'reporter',
   /**
-   * Array/object reporter with square shape
+   * Array reporter with square shape
    */
-  JSON: 'json',
+  ARRAY: 'Array',
+  /**
+   * Object reporter with square (currently) shape
+   */
+  OBJECT: 'Object',
   /**
    * Arbitrary scratch-blocks XML.
    */
@@ -3426,4 +3434,4 @@ module.exports = g;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=extension-worker.fdc9074f3f792de90e9a.js.map
+//# sourceMappingURL=extension-worker.79c864322e336ace95b1.js.map
