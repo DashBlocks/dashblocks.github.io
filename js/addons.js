@@ -31,12 +31,12 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".modal_modal-content_vp9Mi {\n  background-color: var(--ui-modal-background);\n  color: var(--ui-modal-foreground);\n}\n", ""]);
+exports.push([module.i, ".modal_modal-content_fN1pD {\n  background-color: var(--ui-modal-background);\n  color: var(--ui-modal-foreground);\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"modal-content": "modal_modal-content_vp9Mi",
-	"modalContent": "modal_modal-content_vp9Mi"
+	"modal-content": "modal_modal-content_fN1pD",
+	"modalContent": "modal_modal-content_fN1pD"
 };
 
 /***/ }),
@@ -2047,14 +2047,14 @@ let initialized = false;
 let hasDynamicContextMenu = false;
 let contextMenus = [];
 const onReactContextMenu = function onReactContextMenu(e) {
-  var _ctxTarget$this$traps10, _ctxTarget$this$traps11, _ctxTarget$this$traps12, _ctxTarget$this$traps13, _ctxTarget$this$traps14, _ctxTarget$this$traps15;
+  var _ctxTarget$this$traps0, _ctxTarget$this$traps1, _ctxTarget$this$traps10, _ctxTarget$this$traps11, _ctxTarget$this$traps12, _ctxTarget$this$traps13;
   if (!e.target) return;
   const ctxTarget = e.target.closest(".react-contextmenu-wrapper");
   if (!ctxTarget) return;
   let ctxMenu = ctxTarget.querySelector("nav.react-contextmenu");
   let type;
   const extra = {};
-  if (false) { var _ctxTarget$this$traps, _ctxTarget$this$traps2, _ctxTarget$this$traps3, _ctxTarget$this$traps4, _ctxTarget$this$traps5, _ctxTarget$this$traps6, _ctxTarget$this$traps7, _ctxTarget$this$traps8, _ctxTarget$this$traps9; } else if ((_ctxTarget$this$traps10 = ctxTarget[this.traps.getInternalKey(ctxTarget)]) !== null && _ctxTarget$this$traps10 !== void 0 && (_ctxTarget$this$traps11 = _ctxTarget$this$traps10.return) !== null && _ctxTarget$this$traps11 !== void 0 && (_ctxTarget$this$traps12 = _ctxTarget$this$traps11.return) !== null && _ctxTarget$this$traps12 !== void 0 && (_ctxTarget$this$traps13 = _ctxTarget$this$traps12.return) !== null && _ctxTarget$this$traps13 !== void 0 && (_ctxTarget$this$traps14 = _ctxTarget$this$traps13.stateNode) !== null && _ctxTarget$this$traps14 !== void 0 && (_ctxTarget$this$traps15 = _ctxTarget$this$traps14.props) !== null && _ctxTarget$this$traps15 !== void 0 && _ctxTarget$this$traps15.dragType) {
+  if (false) { var _ctxTarget$this$traps, _ctxTarget$this$traps2, _ctxTarget$this$traps3, _ctxTarget$this$traps4, _ctxTarget$this$traps5, _ctxTarget$this$traps6, _ctxTarget$this$traps7, _ctxTarget$this$traps8, _ctxTarget$this$traps9; } else if ((_ctxTarget$this$traps0 = ctxTarget[this.traps.getInternalKey(ctxTarget)]) !== null && _ctxTarget$this$traps0 !== void 0 && (_ctxTarget$this$traps1 = _ctxTarget$this$traps0.return) !== null && _ctxTarget$this$traps1 !== void 0 && (_ctxTarget$this$traps10 = _ctxTarget$this$traps1.return) !== null && _ctxTarget$this$traps10 !== void 0 && (_ctxTarget$this$traps11 = _ctxTarget$this$traps10.return) !== null && _ctxTarget$this$traps11 !== void 0 && (_ctxTarget$this$traps12 = _ctxTarget$this$traps11.stateNode) !== null && _ctxTarget$this$traps12 !== void 0 && (_ctxTarget$this$traps13 = _ctxTarget$this$traps12.props) !== null && _ctxTarget$this$traps13 !== void 0 && _ctxTarget$this$traps13.dragType) {
     // SpriteSelectorItem which despite its name is used for costumes, sounds, backpacked script etc
     const props = ctxTarget[this.traps.getInternalKey(ctxTarget)].return.return.return.stateNode.props;
     type = props.dragType.toLowerCase();

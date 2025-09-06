@@ -231,121 +231,121 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/**\n * Copyright (C) 2021-2023 Thomas Weber\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License version 3 as\n * published by the Free Software Foundation.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see <https://www.gnu.org/licenses/>.\n */\n\n/* overridden by src/lib/themes/guiHelpers.js */\n\nbody {\n    background-color: var(--page-background);\n    color: var(--page-foreground);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n}\n\na[href] {\n    color: var(--link-color);\n    text-decoration: underline;\n}\n\na:active, a:focus {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_container_3vJ_s {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\n.settings_section_3XEVc {\n    max-width: 1280px;\n    margin: auto;\n}\n\n.settings_header_HXeeT {\n    position: relative;\n    padding: 8px 20px;\n    background-color: var(--ui-secondary);\n    box-shadow: 0 2px 5px var(--shadow);\n}\n\n@media (max-width: 700px) {\n    .settings_header_HXeeT {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_header_HXeeT .settings_section_3XEVc {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings_button_3Zf4L {\n    color: inherit;\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    padding: 8px 12px;\n    border-radius: 4px;\n    outline: none;\n    height: 32px;\n    font-family: inherit;\n    font-size: 14px;\n    transition: 0.25s ease;\n    transition-property: background;\n    display: flex;\n    align-items: center;\n}\n\n.settings_button_3Zf4L:hover {\n    background: var(--ui-tertiary);\n}\n\n.settings_button_3Zf4L:active, .settings_button_3Zf4L:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_search-container_14AR7 {\n    display: flex;\n    background-color: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 4px;\n}\n\n.settings_search-container_14AR7:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_search-input_1OS9U {\n    color: inherit;\n    width: 150px;\n    height: 16px;\n    padding: 10px 0 10px 15px;\n    border: none;\n    outline: none;\n    background-color: transparent;\n    font-size: 14px;\n}\n\n/* legacy edge */\n\n.settings_search-input_1OS9U::-ms-clear {\n    display: none;\n}\n\n.settings_search-button_1PO4j {\n    height: 36px;\n    width: 36px;\n    border: none;\n    outline: none;\n    cursor: pointer;\n    background-color: transparent;\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/search.svg */ "./src/addons/settings/icons/search.svg")) + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    filter: var(--filter-icon-black);\n}\n\n.settings_search-input_1OS9U:not([value=\"\"]) ~ .settings_search-button_1PO4j {\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/clear.svg */ "./src/addons/settings/icons/clear.svg")) + ") !important;\n}\n\n.settings_feedback-button-outer_3BvjT {\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    color: inherit !important; /* override <a> colors */\n    height: 36px;\n    box-sizing: border-box;\n    border-radius: 4px;\n    padding: 0 12px;\n    margin-left: 10px;\n    font-size: 12px;\n    outline: none;\n    display: flex;\n    align-items: center;\n    text-decoration: none !important;\n}\n\n.settings_feedback-button-outer_3BvjT:active, .settings_feedback-button-outer_3BvjT:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_feedback-button-inner_1iiHA {\n    text-decoration: none;\n    font-weight: bold;\n    text-align: center;\n}\n\n.settings_addons_WnqmP {\n    overflow-y: auto;\n    overflow-x: hidden;\n    padding: 10px 20px;\n    height: 100%;\n}\n\n@media (max-width: 700px) {\n    .settings_addons_WnqmP {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_addon-group_2YNj5 {\n    margin: 0 0 10px 0;\n}\n\n.settings_addon-group-name_3z8E3 {\n    background: none;\n    border: none;\n    width: 100%;\n    display: flex;\n    align-items: center;\n}\n\n.settings_addon-group-name_3z8E3::after {\n    margin-left: 16px;\n    content: '';\n    border-top: 1px solid var(--ui-black-transparent);\n    width: 100px;\n    flex: 1;\n}\n\n.settings_addon-group-expand-container_2_UtV {\n    margin-right: 8px;\n    border-radius: 5px;\n    width: 24px;\n    height: 24px;\n}\n\n.settings_addon-group-name_3z8E3:hover .settings_addon-group-expand-container_2_UtV {\n    background: var(--ui-black-transparent);\n}\n\n.settings_addon-group-expand-icon_e7U4g {\n    width: 100%;\n    height: 100%;\n    filter: var(--filter-icon-black);\n}\n\n.settings_addon-group-expand-icon_e7U4g[data-open=\"true\"] {\n    transform: scaleY(-1);\n}\n\n.settings_addon_2zhVU {\n    box-shadow: 0 2px 5px var(--shadow);\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 5px;\n    margin: 10px 0 10px 0;\n    font-size: 14px;\n}\n\n.settings_addon-dirty_TnKY5 {\n    background-color: var(--ui-tertiary);\n}\n\n.settings_addon-header_2QwGV {\n    padding: 0 10px;\n    height: 50px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_extension-image_2jXeB {\n    height: 16px;\n    width: 16px;\n    margin-right: 8px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_addon-title_1bgsn {\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    white-space: nowrap;\n}\n\n.settings_addon-switch_2apOl {\n    margin-right: 8px;\n}\n\n.settings_addon-title-text_Q9wTc {\n\n}\n\n.settings_addon-id_1l36Y {\n    margin-left: 10px;\n}\n\n.settings_inline-description_1zx5M {\n    opacity: 0.7;\n    margin-left: 10px;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n\n.settings_addon-operations_29Iap {\n    margin-left: auto;\n    padding-left: 4px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_reset-button_1rOZQ {\n    display: flex;\n    border-radius: 4px;\n    cursor: pointer;\n    border: none;\n    background-color: transparent;\n}\n\n.settings_reset-button_1rOZQ:hover {\n    background: var(--ui-black-transparent);\n}\n\n.settings_reset-button_1rOZQ:active, .settings_reset-button_1rOZQ:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_reset-button-image_2T0au {\n    padding: 1px 0;\n    height: 16px;\n    width: 16px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_switch_3uQIK {\n    display: block;\n    background: #333;\n    width: 40px;\n    height: 22px;\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 12px;\n    position: relative;\n    cursor: pointer;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_switch_3uQIK[state=\"on\"] {\n    background: var(--looks-secondary);\n}\n\n.settings_switch_3uQIK::before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 12px;\n    height: 12px;\n    background: #fff;\n    border-radius: 6px;\n    top: 4px;\n    left: 4px;\n    transition: 0.25s ease;\n    transition-property: background, left;\n}\n\n.settings_switch_3uQIK[state=\"on\"]::before {\n    background: #fff;\n    left: auto;\n    right: 3px;\n}\n\n.settings_switch_3uQIK:active, .settings_switch_3uQIK:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_tag-container_2c2bM {\n    display: flex;\n    align-items: center;\n}\n\n.settings_tag_7BYRi {\n    border-radius: 4px;\n    padding: 2px 5px;\n    margin-left: 10px;\n    border-bottom: 2px solid #111;\n    white-space: nowrap;\n}\n\n.settings_tag-recommended_2NobT {\n    color: white;\n    background-color: #175ef8;\n    border-color: #0e44b8;\n}\n\n.settings_tag-theme_2OxTA {\n    color: black;\n    background-color: #9ad4cf;\n    border-color: #628f8c;\n}\n\n.settings_tag-beta_3l83I {\n    color: white;\n    background-color: #fd662b;\n    border-color: #d84a12;\n}\n\n.settings_tag-easter-egg_9f6db {\n    color: black;\n    background-color: #b9f38d;\n    border-color: #8fce5e;\n}\n\n.settings_tag-new_2UTQQ {\n    color: white;\n    background: #b117f8;\n    border-color: #6f0073;\n}\n\n.settings_tag-danger_3yaCL {\n    color: white;\n    background: #fd2b2b;\n    border-color: #d81212;\n}\n\n@media (max-width: 550px) {\n    .settings_tag_7BYRi:not(.settings_tag-beta_3l83I) {\n        display: none;\n    }\n}\n\n.settings_addon-details_34Bpn {\n    padding: 0 20px;\n    margin-bottom: 10px;\n}\n\n.settings_credit-container_2f-MG {\n\n}\n\n.settings_credit-title_2ndRT {\n    padding-right: 5px;\n}\n\n.settings_credit_d1cAU {\n\n}\n\n.settings_description_1SX5a {\n\n}\n\n.settings_notice_1Yx9M {\n    color: black;\n    padding: 10px;\n    border-radius: 5px;\n    font-weight: bold;\n    margin: 10px 0;\n    display: flex;\n    align-items: center;\n    background: rgba(154, 212, 207, 0.7);\n}\n\n.settings_notice-icon_2Y3NN {\n    display: block;\n    height: 16px;\n    width: 16px;\n    margin-right: 10px;\n}\n\n.settings_setting-container_2hi13 {\n    margin-top: 10px;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.settings_setting_qydbq {\n    margin: 10px;\n    margin-right: 30px;\n    min-height: 35px;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n}\n\n.settings_setting-label_kOihj {\n    font-weight: bold;\n    text-transform: uppercase;\n    font-size: 12px;\n    margin-right: 10px;\n    opacity: 0.8;\n}\n\n.settings_setting_qydbq input {\n    background: var(--input-background);\n    border: 1px solid var(--ui-black-transparent);\n    padding: 8px 12px;\n    border-radius: 4px;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_setting_qydbq input:focus, .settings_setting_qydbq input:active {\n    outline: none;\n    border-color: var(--looks-secondary);\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_setting_qydbq input[type=\"checkbox\"] {\n    height: 20px;\n    width: 20px;\n    background-position: center center;\n}\n\n.settings_setting_qydbq input[type=\"number\"],\n.settings_setting_qydbq input[type=\"text\"] {\n    border-radius: 20px 0 0 20px;\n    font-size: 14px;\n    width: 75px;\n    height: 35px;\n    box-sizing: border-box;\n}\n\n.settings_setting_qydbq input[type=\"color\"] {\n    height: 30px;\n    width: 100px;\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n    outline: none;\n    border: 1px solid transparent;\n    border-radius: 4px 0px 0px 4px;\n}\n\n.settings_reset-setting-button_3Eb_D {\n    background-color: var(--input-background);\n    border-left-width: 0;\n    border-radius: 0 4px 4px 0px;\n    box-sizing: border-box;\n    height: 30px;\n}\n\n.settings_reset-setting-button_3Eb_D img {\n    width: 20px;\n    height: 20px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_reset-setting-button_3Eb_D[data-for-text-input=\"true\"] {\n    height: 35px;\n    border-radius: 0 20px 20px 0;\n}\n\n.settings_select_3gkhn {\n    display: flex;\n}\n\n.settings_select-option_1kghH {\n    cursor: pointer;\n    padding: 10px;\n    margin: 0;\n    background: transparent;\n    border: none;\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    border-right-width: 0;\n    transition: 0.25s ease;\n    transition-property: color, background, border;\n}\n\n.settings_select-option_1kghH:first-child {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n.settings_select-option_1kghH:last-child {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-right-width: 1px;\n}\n\n.settings_select-option_1kghH.settings_selected_216ME {\n    color: white;\n    background: var(--looks-secondary);\n}\n\n.settings_select-option_1kghH:active, .settings_select-option_1kghH:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n    z-index: 10;\n}\n\n.settings_presets_VTsxF {\n    width: 100%;\n}\n\n.settings_preset-button_2AjAU {\n    margin-right: 10px;\n}\n\n.settings_footer_1gjVj {\n    opacity: 0.8;\n}\n\n.settings_unsupported-container_3HTJ- {\n    margin-bottom: 10px;\n}\n\n.settings_unsupported-addon_SHirC {\n    padding-left: 5px;\n}\n\n.settings_version_3uqkC {\n    margin-bottom: 10px;\n    cursor: pointer;\n}\n\n.settings_footer-buttons_1qdL9 {\n    margin-bottom: 10px;\n    display: flex;\n}\n\n.settings_footer-buttons_1qdL9 > .settings_button_3Zf4L {\n    margin-right: 10px;\n}\n\n.settings_reset-all-button_1sZUk {\n\n}\n\n.settings_export-button_pOzkO {\n\n}\n\n.settings_import-button_nCk8B {\n\n}\n\n.settings_no-results_21WJ5 {\n    text-align: center;\n    font-style: italic;\n}\n\n.settings_dirty-outer_1v5px {\n    display: flex;\n    position: absolute;\n    top: calc(100% - 8px);\n    left: 0;\n    width: calc(100% - 20px);\n    margin-left: 10px;\n    z-index: 10;\n    justify-content: center;\n    animation: settings_dirty-appear_rQ_S_ 0.2s ease;\n    pointer-events: none;\n}\n\n.settings_dirty-inner_2AjRe {\n    padding: 8px;\n    background: var(--ui-tertiary);\n    box-shadow: 0 2px 5px var(--shadow);\n    border-radius: 4px;\n    pointer-events: auto;\n    display: flex;\n    align-items: center;\n    text-align: center;\n}\n\n.settings_dirty-button_48luC {\n    margin-left: 6px;\n}\n\n@keyframes settings_dirty-appear_rQ_S_ {\n    from {\n        transform: translateY(-100%);\n    }\n    to {\n        transform: translateY(0);\n    }\n}\n", ""]);
+exports.push([module.i, "/**\n * Copyright (C) 2021-2023 Thomas Weber\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License version 3 as\n * published by the Free Software Foundation.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see <https://www.gnu.org/licenses/>.\n */\n\n/* overridden by src/lib/themes/guiHelpers.js */\n\nbody {\n    background-color: var(--page-background);\n    color: var(--page-foreground);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n}\n\na[href] {\n    color: var(--link-color);\n    text-decoration: underline;\n}\n\na:active, a:focus {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_container_1qNQ3 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\n.settings_section_31t4Q {\n    max-width: 1280px;\n    margin: auto;\n}\n\n.settings_header_Y9USz {\n    position: relative;\n    padding: 8px 20px;\n    background-color: var(--ui-secondary);\n    box-shadow: 0 2px 5px var(--shadow);\n}\n\n@media (max-width: 700px) {\n    .settings_header_Y9USz {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_header_Y9USz .settings_section_31t4Q {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings_button_2ovv0 {\n    color: inherit;\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    padding: 8px 12px;\n    border-radius: 4px;\n    outline: none;\n    height: 32px;\n    font-family: inherit;\n    font-size: 14px;\n    transition: 0.25s ease;\n    transition-property: background;\n    display: flex;\n    align-items: center;\n}\n\n.settings_button_2ovv0:hover {\n    background: var(--ui-tertiary);\n}\n\n.settings_button_2ovv0:active, .settings_button_2ovv0:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_search-container_24OhB {\n    display: flex;\n    background-color: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 4px;\n}\n\n.settings_search-container_24OhB:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_search-input_9LNCl {\n    color: inherit;\n    width: 150px;\n    height: 16px;\n    padding: 10px 0 10px 15px;\n    border: none;\n    outline: none;\n    background-color: transparent;\n    font-size: 14px;\n}\n\n/* legacy edge */\n\n.settings_search-input_9LNCl::-ms-clear {\n    display: none;\n}\n\n.settings_search-button_LceHy {\n    height: 36px;\n    width: 36px;\n    border: none;\n    outline: none;\n    cursor: pointer;\n    background-color: transparent;\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/search.svg */ "./src/addons/settings/icons/search.svg")) + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    filter: var(--filter-icon-black);\n}\n\n.settings_search-input_9LNCl:not([value=\"\"]) ~ .settings_search-button_LceHy {\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/clear.svg */ "./src/addons/settings/icons/clear.svg")) + ") !important;\n}\n\n.settings_feedback-button-outer_3RXeq {\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    color: inherit !important; /* override <a> colors */\n    height: 36px;\n    box-sizing: border-box;\n    border-radius: 4px;\n    padding: 0 12px;\n    margin-left: 10px;\n    font-size: 12px;\n    outline: none;\n    display: flex;\n    align-items: center;\n    text-decoration: none !important;\n}\n\n.settings_feedback-button-outer_3RXeq:active, .settings_feedback-button-outer_3RXeq:focus-within {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_feedback-button-inner_2h_ch {\n    text-decoration: none;\n    font-weight: bold;\n    text-align: center;\n}\n\n.settings_addons_2LLFF {\n    overflow-y: auto;\n    overflow-x: hidden;\n    padding: 10px 20px;\n    height: 100%;\n}\n\n@media (max-width: 700px) {\n    .settings_addons_2LLFF {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_addon-group_3d-ZB {\n    margin: 0 0 10px 0;\n}\n\n.settings_addon-group-name_1h56B {\n    background: none;\n    border: none;\n    width: 100%;\n    display: flex;\n    align-items: center;\n}\n\n.settings_addon-group-name_1h56B::after {\n    margin-left: 16px;\n    content: '';\n    border-top: 1px solid var(--ui-black-transparent);\n    width: 100px;\n    flex: 1;\n}\n\n.settings_addon-group-expand-container_28XGS {\n    margin-right: 8px;\n    border-radius: 5px;\n    width: 24px;\n    height: 24px;\n}\n\n.settings_addon-group-name_1h56B:hover .settings_addon-group-expand-container_28XGS {\n    background: var(--ui-black-transparent);\n}\n\n.settings_addon-group-expand-icon_OHTZm {\n    width: 100%;\n    height: 100%;\n    filter: var(--filter-icon-black);\n}\n\n.settings_addon-group-expand-icon_OHTZm[data-open=\"true\"] {\n    transform: scaleY(-1);\n}\n\n.settings_addon_3Oi_z {\n    box-shadow: 0 2px 5px var(--shadow);\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 5px;\n    margin: 10px 0 10px 0;\n    font-size: 14px;\n}\n\n.settings_addon-dirty_2o20T {\n    background-color: var(--ui-tertiary);\n}\n\n.settings_addon-header_271wJ {\n    padding: 0 10px;\n    height: 50px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_extension-image_1HlEn {\n    height: 16px;\n    width: 16px;\n    margin-right: 8px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_addon-title_6MhRl {\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    white-space: nowrap;\n}\n\n.settings_addon-switch_2bf3g {\n    margin-right: 8px;\n}\n\n.settings_addon-title-text_3QjlP {\n\n}\n\n.settings_addon-id_2EeZw {\n    margin-left: 10px;\n}\n\n.settings_inline-description_SovV9 {\n    opacity: 0.7;\n    margin-left: 10px;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n\n.settings_addon-operations_28nBd {\n    margin-left: auto;\n    padding-left: 4px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_reset-button_1onc- {\n    display: flex;\n    border-radius: 4px;\n    cursor: pointer;\n    border: none;\n    background-color: transparent;\n}\n\n.settings_reset-button_1onc-:hover {\n    background: var(--ui-black-transparent);\n}\n\n.settings_reset-button_1onc-:active, .settings_reset-button_1onc-:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_reset-button-image_2Tgqe {\n    padding: 1px 0;\n    height: 16px;\n    width: 16px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_switch_2V1f5 {\n    display: block;\n    background: #333;\n    width: 40px;\n    height: 22px;\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 12px;\n    position: relative;\n    cursor: pointer;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_switch_2V1f5[state=\"on\"] {\n    background: var(--looks-secondary);\n}\n\n.settings_switch_2V1f5::before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 12px;\n    height: 12px;\n    background: #fff;\n    border-radius: 6px;\n    top: 4px;\n    left: 4px;\n    transition: 0.25s ease;\n    transition-property: background, left;\n}\n\n.settings_switch_2V1f5[state=\"on\"]::before {\n    background: #fff;\n    left: auto;\n    right: 3px;\n}\n\n.settings_switch_2V1f5:active, .settings_switch_2V1f5:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_tag-container_3yFc4 {\n    display: flex;\n    align-items: center;\n}\n\n.settings_tag_1c-GO {\n    border-radius: 4px;\n    padding: 2px 5px;\n    margin-left: 10px;\n    border-bottom: 2px solid #111;\n    white-space: nowrap;\n}\n\n.settings_tag-recommended_2k7Kt {\n    color: white;\n    background-color: #175ef8;\n    border-color: #0e44b8;\n}\n\n.settings_tag-theme_PbNiB {\n    color: black;\n    background-color: #9ad4cf;\n    border-color: #628f8c;\n}\n\n.settings_tag-beta_26ywj {\n    color: white;\n    background-color: #fd662b;\n    border-color: #d84a12;\n}\n\n.settings_tag-easter-egg_2M8qE {\n    color: black;\n    background-color: #b9f38d;\n    border-color: #8fce5e;\n}\n\n.settings_tag-new_1g9ff {\n    color: white;\n    background: #b117f8;\n    border-color: #6f0073;\n}\n\n.settings_tag-danger_2g6El {\n    color: white;\n    background: #fd2b2b;\n    border-color: #d81212;\n}\n\n@media (max-width: 550px) {\n    .settings_tag_1c-GO:not(.settings_tag-beta_26ywj) {\n        display: none;\n    }\n}\n\n.settings_addon-details_2CKwd {\n    padding: 0 20px;\n    margin-bottom: 10px;\n}\n\n.settings_credit-container_2mHq7 {\n\n}\n\n.settings_credit-title_3f-yX {\n    padding-right: 5px;\n}\n\n.settings_credit_3grR6 {\n\n}\n\n.settings_description_2MbZo {\n\n}\n\n.settings_notice_2q6Z2 {\n    color: black;\n    padding: 10px;\n    border-radius: 5px;\n    font-weight: bold;\n    margin: 10px 0;\n    display: flex;\n    align-items: center;\n    background: rgba(154, 212, 207, 0.7);\n}\n\n.settings_notice-icon_2lAT7 {\n    display: block;\n    height: 16px;\n    width: 16px;\n    margin-right: 10px;\n}\n\n.settings_setting-container_2BA7o {\n    margin-top: 10px;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.settings_setting_2i2j- {\n    margin: 10px;\n    margin-right: 30px;\n    min-height: 35px;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n}\n\n.settings_setting-label_2w3mJ {\n    font-weight: bold;\n    text-transform: uppercase;\n    font-size: 12px;\n    margin-right: 10px;\n    opacity: 0.8;\n}\n\n.settings_setting_2i2j- input {\n    background: var(--input-background);\n    border: 1px solid var(--ui-black-transparent);\n    padding: 8px 12px;\n    border-radius: 4px;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_setting_2i2j- input:focus, .settings_setting_2i2j- input:active {\n    outline: none;\n    border-color: var(--looks-secondary);\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"] {\n    height: 20px;\n    width: 20px;\n    background-position: center center;\n}\n\n.settings_setting_2i2j- input[type=\"number\"],\n.settings_setting_2i2j- input[type=\"text\"] {\n    border-radius: 20px 0 0 20px;\n    font-size: 14px;\n    width: 75px;\n    height: 35px;\n    box-sizing: border-box;\n}\n\n.settings_setting_2i2j- input[type=\"color\"] {\n    height: 30px;\n    width: 100px;\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n    outline: none;\n    border: 1px solid transparent;\n    border-radius: 4px 0px 0px 4px;\n}\n\n.settings_reset-setting-button_-WLwd {\n    background-color: var(--input-background);\n    border-left-width: 0;\n    border-radius: 0 4px 4px 0px;\n    box-sizing: border-box;\n    height: 30px;\n}\n\n.settings_reset-setting-button_-WLwd img {\n    width: 20px;\n    height: 20px;\n    filter: var(--filter-icon-black);\n}\n\n.settings_reset-setting-button_-WLwd[data-for-text-input=\"true\"] {\n    height: 35px;\n    border-radius: 0 20px 20px 0;\n}\n\n.settings_select_sIZno {\n    display: flex;\n}\n\n.settings_select-option_32Zqa {\n    cursor: pointer;\n    padding: 10px;\n    margin: 0;\n    background: transparent;\n    border: none;\n    background: var(--ui-secondary);\n    border: 1px solid var(--ui-black-transparent);\n    border-right-width: 0;\n    transition: 0.25s ease;\n    transition-property: color, background, border;\n}\n\n.settings_select-option_32Zqa:first-child {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n.settings_select-option_32Zqa:last-child {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-right-width: 1px;\n}\n\n.settings_select-option_32Zqa.settings_selected_38WtW {\n    color: white;\n    background: var(--looks-secondary);\n}\n\n.settings_select-option_32Zqa:active, .settings_select-option_32Zqa:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n    z-index: 10;\n}\n\n.settings_presets_3zawV {\n    width: 100%;\n}\n\n.settings_preset-button_3zYV3 {\n    margin-right: 10px;\n}\n\n.settings_footer_jjys0 {\n    opacity: 0.8;\n}\n\n.settings_unsupported-container_2vhiH {\n    margin-bottom: 10px;\n}\n\n.settings_unsupported-addon_1p57c {\n    padding-left: 5px;\n}\n\n.settings_version_2_cDA {\n    margin-bottom: 10px;\n    cursor: pointer;\n}\n\n.settings_footer-buttons_xTSXH {\n    margin-bottom: 10px;\n    display: flex;\n}\n\n.settings_footer-buttons_xTSXH > .settings_button_2ovv0 {\n    margin-right: 10px;\n}\n\n.settings_reset-all-button_2Q-Zi {\n\n}\n\n.settings_export-button_2PWOM {\n\n}\n\n.settings_import-button_1NMJN {\n\n}\n\n.settings_no-results_3bDSs {\n    text-align: center;\n    font-style: italic;\n}\n\n.settings_dirty-outer_WmNYy {\n    display: flex;\n    position: absolute;\n    top: calc(100% - 8px);\n    left: 0;\n    width: calc(100% - 20px);\n    margin-left: 10px;\n    z-index: 10;\n    justify-content: center;\n    animation: settings_dirty-appear_2Rcif 0.2s ease;\n    pointer-events: none;\n}\n\n.settings_dirty-inner_2tglM {\n    padding: 8px;\n    background: var(--ui-tertiary);\n    box-shadow: 0 2px 5px var(--shadow);\n    border-radius: 4px;\n    pointer-events: auto;\n    display: flex;\n    align-items: center;\n    text-align: center;\n}\n\n.settings_dirty-button_2adjE {\n    margin-left: 6px;\n}\n\n@keyframes settings_dirty-appear_2Rcif {\n    from {\n        transform: translateY(-100%);\n    }\n    to {\n        transform: translateY(0);\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "settings_container_3vJ_s",
-	"section": "settings_section_3XEVc",
-	"header": "settings_header_HXeeT",
-	"button": "settings_button_3Zf4L",
-	"search-container": "settings_search-container_14AR7",
-	"searchContainer": "settings_search-container_14AR7",
-	"search-input": "settings_search-input_1OS9U",
-	"searchInput": "settings_search-input_1OS9U",
-	"search-button": "settings_search-button_1PO4j",
-	"searchButton": "settings_search-button_1PO4j",
-	"feedback-button-outer": "settings_feedback-button-outer_3BvjT",
-	"feedbackButtonOuter": "settings_feedback-button-outer_3BvjT",
-	"feedback-button-inner": "settings_feedback-button-inner_1iiHA",
-	"feedbackButtonInner": "settings_feedback-button-inner_1iiHA",
-	"addons": "settings_addons_WnqmP",
-	"addon-group": "settings_addon-group_2YNj5",
-	"addonGroup": "settings_addon-group_2YNj5",
-	"addon-group-name": "settings_addon-group-name_3z8E3",
-	"addonGroupName": "settings_addon-group-name_3z8E3",
-	"addon-group-expand-container": "settings_addon-group-expand-container_2_UtV",
-	"addonGroupExpandContainer": "settings_addon-group-expand-container_2_UtV",
-	"addon-group-expand-icon": "settings_addon-group-expand-icon_e7U4g",
-	"addonGroupExpandIcon": "settings_addon-group-expand-icon_e7U4g",
-	"addon": "settings_addon_2zhVU",
-	"addon-dirty": "settings_addon-dirty_TnKY5",
-	"addonDirty": "settings_addon-dirty_TnKY5",
-	"addon-header": "settings_addon-header_2QwGV",
-	"addonHeader": "settings_addon-header_2QwGV",
-	"extension-image": "settings_extension-image_2jXeB",
-	"extensionImage": "settings_extension-image_2jXeB",
-	"addon-title": "settings_addon-title_1bgsn",
-	"addonTitle": "settings_addon-title_1bgsn",
-	"addon-switch": "settings_addon-switch_2apOl",
-	"addonSwitch": "settings_addon-switch_2apOl",
-	"addon-title-text": "settings_addon-title-text_Q9wTc",
-	"addonTitleText": "settings_addon-title-text_Q9wTc",
-	"addon-id": "settings_addon-id_1l36Y",
-	"addonId": "settings_addon-id_1l36Y",
-	"inline-description": "settings_inline-description_1zx5M",
-	"inlineDescription": "settings_inline-description_1zx5M",
-	"addon-operations": "settings_addon-operations_29Iap",
-	"addonOperations": "settings_addon-operations_29Iap",
-	"reset-button": "settings_reset-button_1rOZQ",
-	"resetButton": "settings_reset-button_1rOZQ",
-	"reset-button-image": "settings_reset-button-image_2T0au",
-	"resetButtonImage": "settings_reset-button-image_2T0au",
-	"switch": "settings_switch_3uQIK",
-	"tag-container": "settings_tag-container_2c2bM",
-	"tagContainer": "settings_tag-container_2c2bM",
-	"tag": "settings_tag_7BYRi",
-	"tag-recommended": "settings_tag-recommended_2NobT",
-	"tagRecommended": "settings_tag-recommended_2NobT",
-	"tag-theme": "settings_tag-theme_2OxTA",
-	"tagTheme": "settings_tag-theme_2OxTA",
-	"tag-beta": "settings_tag-beta_3l83I",
-	"tagBeta": "settings_tag-beta_3l83I",
-	"tag-easter-egg": "settings_tag-easter-egg_9f6db",
-	"tagEasterEgg": "settings_tag-easter-egg_9f6db",
-	"tag-new": "settings_tag-new_2UTQQ",
-	"tagNew": "settings_tag-new_2UTQQ",
-	"tag-danger": "settings_tag-danger_3yaCL",
-	"tagDanger": "settings_tag-danger_3yaCL",
-	"addon-details": "settings_addon-details_34Bpn",
-	"addonDetails": "settings_addon-details_34Bpn",
-	"credit-container": "settings_credit-container_2f-MG",
-	"creditContainer": "settings_credit-container_2f-MG",
-	"credit-title": "settings_credit-title_2ndRT",
-	"creditTitle": "settings_credit-title_2ndRT",
-	"credit": "settings_credit_d1cAU",
-	"description": "settings_description_1SX5a",
-	"notice": "settings_notice_1Yx9M",
-	"notice-icon": "settings_notice-icon_2Y3NN",
-	"noticeIcon": "settings_notice-icon_2Y3NN",
-	"setting-container": "settings_setting-container_2hi13",
-	"settingContainer": "settings_setting-container_2hi13",
-	"setting": "settings_setting_qydbq",
-	"setting-label": "settings_setting-label_kOihj",
-	"settingLabel": "settings_setting-label_kOihj",
-	"reset-setting-button": "settings_reset-setting-button_3Eb_D",
-	"resetSettingButton": "settings_reset-setting-button_3Eb_D",
-	"select": "settings_select_3gkhn",
-	"select-option": "settings_select-option_1kghH",
-	"selectOption": "settings_select-option_1kghH",
-	"selected": "settings_selected_216ME",
-	"presets": "settings_presets_VTsxF",
-	"preset-button": "settings_preset-button_2AjAU",
-	"presetButton": "settings_preset-button_2AjAU",
-	"footer": "settings_footer_1gjVj",
-	"unsupported-container": "settings_unsupported-container_3HTJ-",
-	"unsupportedContainer": "settings_unsupported-container_3HTJ-",
-	"unsupported-addon": "settings_unsupported-addon_SHirC",
-	"unsupportedAddon": "settings_unsupported-addon_SHirC",
-	"version": "settings_version_3uqkC",
-	"footer-buttons": "settings_footer-buttons_1qdL9",
-	"footerButtons": "settings_footer-buttons_1qdL9",
-	"reset-all-button": "settings_reset-all-button_1sZUk",
-	"resetAllButton": "settings_reset-all-button_1sZUk",
-	"export-button": "settings_export-button_pOzkO",
-	"exportButton": "settings_export-button_pOzkO",
-	"import-button": "settings_import-button_nCk8B",
-	"importButton": "settings_import-button_nCk8B",
-	"no-results": "settings_no-results_21WJ5",
-	"noResults": "settings_no-results_21WJ5",
-	"dirty-outer": "settings_dirty-outer_1v5px",
-	"dirtyOuter": "settings_dirty-outer_1v5px",
-	"dirty-appear": "settings_dirty-appear_rQ_S_",
-	"dirtyAppear": "settings_dirty-appear_rQ_S_",
-	"dirty-inner": "settings_dirty-inner_2AjRe",
-	"dirtyInner": "settings_dirty-inner_2AjRe",
-	"dirty-button": "settings_dirty-button_48luC",
-	"dirtyButton": "settings_dirty-button_48luC"
+	"container": "settings_container_1qNQ3",
+	"section": "settings_section_31t4Q",
+	"header": "settings_header_Y9USz",
+	"button": "settings_button_2ovv0",
+	"search-container": "settings_search-container_24OhB",
+	"searchContainer": "settings_search-container_24OhB",
+	"search-input": "settings_search-input_9LNCl",
+	"searchInput": "settings_search-input_9LNCl",
+	"search-button": "settings_search-button_LceHy",
+	"searchButton": "settings_search-button_LceHy",
+	"feedback-button-outer": "settings_feedback-button-outer_3RXeq",
+	"feedbackButtonOuter": "settings_feedback-button-outer_3RXeq",
+	"feedback-button-inner": "settings_feedback-button-inner_2h_ch",
+	"feedbackButtonInner": "settings_feedback-button-inner_2h_ch",
+	"addons": "settings_addons_2LLFF",
+	"addon-group": "settings_addon-group_3d-ZB",
+	"addonGroup": "settings_addon-group_3d-ZB",
+	"addon-group-name": "settings_addon-group-name_1h56B",
+	"addonGroupName": "settings_addon-group-name_1h56B",
+	"addon-group-expand-container": "settings_addon-group-expand-container_28XGS",
+	"addonGroupExpandContainer": "settings_addon-group-expand-container_28XGS",
+	"addon-group-expand-icon": "settings_addon-group-expand-icon_OHTZm",
+	"addonGroupExpandIcon": "settings_addon-group-expand-icon_OHTZm",
+	"addon": "settings_addon_3Oi_z",
+	"addon-dirty": "settings_addon-dirty_2o20T",
+	"addonDirty": "settings_addon-dirty_2o20T",
+	"addon-header": "settings_addon-header_271wJ",
+	"addonHeader": "settings_addon-header_271wJ",
+	"extension-image": "settings_extension-image_1HlEn",
+	"extensionImage": "settings_extension-image_1HlEn",
+	"addon-title": "settings_addon-title_6MhRl",
+	"addonTitle": "settings_addon-title_6MhRl",
+	"addon-switch": "settings_addon-switch_2bf3g",
+	"addonSwitch": "settings_addon-switch_2bf3g",
+	"addon-title-text": "settings_addon-title-text_3QjlP",
+	"addonTitleText": "settings_addon-title-text_3QjlP",
+	"addon-id": "settings_addon-id_2EeZw",
+	"addonId": "settings_addon-id_2EeZw",
+	"inline-description": "settings_inline-description_SovV9",
+	"inlineDescription": "settings_inline-description_SovV9",
+	"addon-operations": "settings_addon-operations_28nBd",
+	"addonOperations": "settings_addon-operations_28nBd",
+	"reset-button": "settings_reset-button_1onc-",
+	"resetButton": "settings_reset-button_1onc-",
+	"reset-button-image": "settings_reset-button-image_2Tgqe",
+	"resetButtonImage": "settings_reset-button-image_2Tgqe",
+	"switch": "settings_switch_2V1f5",
+	"tag-container": "settings_tag-container_3yFc4",
+	"tagContainer": "settings_tag-container_3yFc4",
+	"tag": "settings_tag_1c-GO",
+	"tag-recommended": "settings_tag-recommended_2k7Kt",
+	"tagRecommended": "settings_tag-recommended_2k7Kt",
+	"tag-theme": "settings_tag-theme_PbNiB",
+	"tagTheme": "settings_tag-theme_PbNiB",
+	"tag-beta": "settings_tag-beta_26ywj",
+	"tagBeta": "settings_tag-beta_26ywj",
+	"tag-easter-egg": "settings_tag-easter-egg_2M8qE",
+	"tagEasterEgg": "settings_tag-easter-egg_2M8qE",
+	"tag-new": "settings_tag-new_1g9ff",
+	"tagNew": "settings_tag-new_1g9ff",
+	"tag-danger": "settings_tag-danger_2g6El",
+	"tagDanger": "settings_tag-danger_2g6El",
+	"addon-details": "settings_addon-details_2CKwd",
+	"addonDetails": "settings_addon-details_2CKwd",
+	"credit-container": "settings_credit-container_2mHq7",
+	"creditContainer": "settings_credit-container_2mHq7",
+	"credit-title": "settings_credit-title_3f-yX",
+	"creditTitle": "settings_credit-title_3f-yX",
+	"credit": "settings_credit_3grR6",
+	"description": "settings_description_2MbZo",
+	"notice": "settings_notice_2q6Z2",
+	"notice-icon": "settings_notice-icon_2lAT7",
+	"noticeIcon": "settings_notice-icon_2lAT7",
+	"setting-container": "settings_setting-container_2BA7o",
+	"settingContainer": "settings_setting-container_2BA7o",
+	"setting": "settings_setting_2i2j-",
+	"setting-label": "settings_setting-label_2w3mJ",
+	"settingLabel": "settings_setting-label_2w3mJ",
+	"reset-setting-button": "settings_reset-setting-button_-WLwd",
+	"resetSettingButton": "settings_reset-setting-button_-WLwd",
+	"select": "settings_select_sIZno",
+	"select-option": "settings_select-option_32Zqa",
+	"selectOption": "settings_select-option_32Zqa",
+	"selected": "settings_selected_38WtW",
+	"presets": "settings_presets_3zawV",
+	"preset-button": "settings_preset-button_3zYV3",
+	"presetButton": "settings_preset-button_3zYV3",
+	"footer": "settings_footer_jjys0",
+	"unsupported-container": "settings_unsupported-container_2vhiH",
+	"unsupportedContainer": "settings_unsupported-container_2vhiH",
+	"unsupported-addon": "settings_unsupported-addon_1p57c",
+	"unsupportedAddon": "settings_unsupported-addon_1p57c",
+	"version": "settings_version_2_cDA",
+	"footer-buttons": "settings_footer-buttons_xTSXH",
+	"footerButtons": "settings_footer-buttons_xTSXH",
+	"reset-all-button": "settings_reset-all-button_2Q-Zi",
+	"resetAllButton": "settings_reset-all-button_2Q-Zi",
+	"export-button": "settings_export-button_2PWOM",
+	"exportButton": "settings_export-button_2PWOM",
+	"import-button": "settings_import-button_1NMJN",
+	"importButton": "settings_import-button_1NMJN",
+	"no-results": "settings_no-results_3bDSs",
+	"noResults": "settings_no-results_3bDSs",
+	"dirty-outer": "settings_dirty-outer_WmNYy",
+	"dirtyOuter": "settings_dirty-outer_WmNYy",
+	"dirty-appear": "settings_dirty-appear_2Rcif",
+	"dirtyAppear": "settings_dirty-appear_2Rcif",
+	"dirty-inner": "settings_dirty-inner_2tglM",
+	"dirtyInner": "settings_dirty-inner_2tglM",
+	"dirty-button": "settings_dirty-button_2adjE",
+	"dirtyButton": "settings_dirty-button_2adjE"
 };
 
 /***/ }),
@@ -1715,13 +1715,13 @@ Presets.propTypes = {
     values: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({})
   }))
 };
-const Addon = _ref10 => {
+const Addon = _ref0 => {
   let {
     id,
     settings,
     manifest,
     extended
-  } = _ref10;
+  } = _ref0;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addon, {
       [_settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addonDirty]: settings.dirty
@@ -1830,19 +1830,19 @@ const Dirty = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a
 Dirty.propTypes = {
   onReloadNow: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-const UnsupportedAddons = _ref11 => {
+const UnsupportedAddons = _ref1 => {
   let {
     addons: addonList
-  } = _ref11;
+  } = _ref1;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.unsupportedContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.unsupportedText
-  }, settingsTranslations.unsupported), addonList.map((_ref12, index) => {
+  }, settingsTranslations.unsupported), addonList.map((_ref10, index) => {
     let {
       id,
       manifest
-    } = _ref12;
+    } = _ref10;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       key: id,
       className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.unsupportedAddon
@@ -1857,17 +1857,17 @@ UnsupportedAddons.propTypes = {
     })
   }))
 };
-const InternalAddonList = _ref13 => {
+const InternalAddonList = _ref11 => {
   let {
     addons,
     extended
-  } = _ref13;
-  return addons.map(_ref14 => {
+  } = _ref11;
+  return addons.map(_ref12 => {
     let {
       id,
       manifest,
       state
-    } = _ref14;
+    } = _ref12;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Addon, {
       key: id,
       id: id,
@@ -1920,11 +1920,11 @@ AddonGroup.propTypes = {
   })).isRequired,
   extended: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired
 };
-const addonToSearchItem = _ref15 => {
+const addonToSearchItem = _ref13 => {
   let {
     id,
     manifest
-  } = _ref15;
+  } = _ref13;
   const texts = new Set();
   const addText = (score, text) => {
     if (text) {
@@ -1975,10 +1975,10 @@ class AddonList extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
   render() {
     if (this.props.search) {
-      const addons = this.search.search(this.props.search).slice(0, 20).map(_ref16 => {
+      const addons = this.search.search(this.props.search).slice(0, 20).map(_ref14 => {
         let {
           index
-        } = _ref16;
+        } = _ref14;
         return this.props.addons[index];
       });
       if (addons.length === 0) {
@@ -1991,12 +1991,12 @@ class AddonList extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         extended: this.props.extended
       }));
     }
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, Object.entries(groupedAddons).map(_ref17 => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, Object.entries(groupedAddons).map(_ref15 => {
       let [id, {
         label,
         addons,
         open
-      }] = _ref17;
+      }] = _ref15;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AddonGroup, {
         key: id,
         label: label,
@@ -2190,16 +2190,16 @@ class AddonSettingsComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.
     }
   }
   render() {
-    const addonState = Object.entries(supportedAddons).map(_ref18 => {
-      let [id, manifest] = _ref18;
+    const addonState = Object.entries(supportedAddons).map(_ref16 => {
+      let [id, manifest] = _ref16;
       return {
         id,
         manifest,
         state: this.state[id]
       };
     });
-    const unsupported = Object.entries(unsupportedAddons).map(_ref19 => {
-      let [id, manifest] = _ref19;
+    const unsupported = Object.entries(unsupportedAddons).map(_ref17 => {
+      let [id, manifest] = _ref17;
       return {
         id,
         manifest

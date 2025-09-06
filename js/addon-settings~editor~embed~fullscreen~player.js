@@ -13,11 +13,11 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.checkbox_checkbox_1UwGU {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n    width: 18px;\n    height: 18px;\n    border-radius: 4px;\n    transition: .2s;\n    background-color: var(--ui-white);\n    transition-property: background-color;\n    background-size: 100%;\n    border: 1px solid var(--ui-black-transparent);\n    outline: none;\n}\n\n.checkbox_checkbox_1UwGU:hover, .checkbox_checkbox_1UwGU:focus, .checkbox_checkbox_1UwGU:active, .checkbox_checkbox_1UwGU:checked {\n    border-color: var(--looks-secondary);\n}\n\n.checkbox_checkbox_1UwGU:focus, .checkbox_checkbox_1UwGU:active {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.checkbox_checkbox_1UwGU:checked {\n    background-color: var(--looks-secondary);\n    background-image: url(" + escape(__webpack_require__(/*! ./checkbox.svg */ "./src/components/tw-fancy-checkbox/checkbox.svg")) + ");\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.checkbox_checkbox_2QbUl {\n    -webkit-appearance: none;\n       -moz-appearance: none;\n            appearance: none;\n    width: 18px;\n    height: 18px;\n    border-radius: 4px;\n    transition: .2s;\n    background-color: var(--ui-white);\n    transition-property: background-color;\n    background-size: 100%;\n    border: 1px solid var(--ui-black-transparent);\n    outline: none;\n}\n\n.checkbox_checkbox_2QbUl:hover, .checkbox_checkbox_2QbUl:focus, .checkbox_checkbox_2QbUl:active, .checkbox_checkbox_2QbUl:checked {\n    border-color: var(--looks-secondary);\n}\n\n.checkbox_checkbox_2QbUl:focus, .checkbox_checkbox_2QbUl:active {\n    box-shadow: 0 0 0 3px var(--looks-transparent);\n}\n\n.checkbox_checkbox_2QbUl:checked {\n    background-color: var(--looks-secondary);\n    background-image: url(" + escape(__webpack_require__(/*! ./checkbox.svg */ "./src/components/tw-fancy-checkbox/checkbox.svg")) + ");\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"checkbox": "checkbox_checkbox_1UwGU"
+	"checkbox": "checkbox_checkbox_2QbUl"
 };
 
 /***/ }),
