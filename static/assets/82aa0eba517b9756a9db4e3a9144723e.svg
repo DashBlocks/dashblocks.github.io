@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 36 36"
+   id="svg9"
+   sodipodi:docname="tw-accent-rainbow.svg"
+   width="36"
+   height="36"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="15.596154"
+     inkscape:cx="30.231813"
+     inkscape:cy="17.087546"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <rect
+     style="fill:#ff4c4c;fill-opacity:1;stroke-width:1.59648"
+     id="rect9"
+     width="36"
+     height="6"
+     x="-36"
+     y="0"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#ff8c1a;fill-opacity:1;stroke-width:1.59648"
+     id="rect10"
+     width="36"
+     height="6"
+     x="-36"
+     y="6"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#ffbf00;fill-opacity:1;stroke-width:1.59648"
+     id="rect10-3"
+     width="36"
+     height="6"
+     x="-36"
+     y="12"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#59c059;fill-opacity:1;stroke-width:1.59648"
+     id="rect10-3-6"
+     width="36"
+     height="6"
+     x="-36"
+     y="18"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#4c97ff;fill-opacity:1;stroke-width:1.59648"
+     id="rect10-3-6-7"
+     width="36"
+     height="6"
+     x="-36"
+     y="24"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#9966ff;fill-opacity:1;stroke-width:1.59648"
+     id="rect11"
+     width="36"
+     height="6"
+     x="-36"
+     y="30"
+     transform="rotate(-90)" />
+</svg>
