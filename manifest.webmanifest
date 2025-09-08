@@ -1,7 +1,7 @@
 {
   "short_name": "Dash",
-  "name": "Dash",
-  "description": "Mod of TurboWarp and PenguinMod with new extensions, new color accents, and more features.",
+  "name": "DashBlocks",
+  "description": "Dash is based on Scratch, TurboWarp and other mods that adds more blocks, extensions, colors, compiles projects to JavaScript to make them run really fast and other features.",
   "icons": [
     {
       "src": "images/192.png",
