@@ -15189,6 +15189,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
+
 
 
 
@@ -15210,7 +15212,9 @@ const DefaultMonitor = _ref => {
       background: categoryColor.background,
       color: categoryColor.text
     }
-  }, value)));
+  }, typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string' && typeof (value === null || value === void 0 ? void 0 : value.toMonitorContent) === 'function' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    domElement: value.toMonitorContent()
+  }) : String(value))));
 };
 DefaultMonitor.propTypes = {
   categoryColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -15239,6 +15243,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
+
 
 
 
@@ -15255,7 +15261,9 @@ const LargeMonitor = _ref => {
       background: categoryColor.background,
       color: categoryColor.text
     }
-  }, value));
+  }, typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string' && typeof (value === null || value === void 0 ? void 0 : value.toMonitorContent) === 'function' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    domElement: value.toMonitorContent()
+  }) : String(value)));
 };
 LargeMonitor.propTypes = {
   categoryColor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -15289,6 +15297,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_virtualized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-virtualized */ "./node_modules/react-virtualized/dist/es/index.js");
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
+
 
 
 
@@ -15313,6 +15323,7 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
     }));
   }
   rowRenderer(_ref) {
+    var _value$constructor, _this$props$activeVal, _this$props$activeVal2;
     let {
       index,
       key,
@@ -15320,7 +15331,7 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
     } = _ref;
     const value = this.props.values[index];
     const isNestedArray = Array.isArray(value);
-    const isNestedObject = typeof value === 'object' && value instanceof Object && !Array.isArray(value);
+    const isNestedObject = (value === null || value === void 0 ? void 0 : (_value$constructor = value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) === Object.prototype;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow,
       key: key,
@@ -15346,7 +15357,7 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
         color: this.props.categoryColor.text
       },
       type: "text",
-      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : this.props.activeValue,
+      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : String(typeof ((_this$props$activeVal = this.props.activeValue) === null || _this$props$activeVal === void 0 ? void 0 : _this$props$activeVal.customId) === 'string' && typeof ((_this$props$activeVal2 = this.props.activeValue) === null || _this$props$activeVal2 === void 0 ? void 0 : _this$props$activeVal2.toListEditor) === 'function' ? this.props.activeValue.toListEditor() : this.props.activeValue),
       onBlur: this.props.onDeactivate,
       onChange: this.props.onInput,
       onFocus: this.props.onFocus,
@@ -15358,7 +15369,9 @@ class ListMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
       onMouseDown: this.props.onRemove // mousedown to get ahead of blur
     }, '✖︎')) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.valueInner
-    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : value)));
+    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string' && (typeof (value === null || value === void 0 ? void 0 : value.toListItem) === 'function' || typeof (value === null || value === void 0 ? void 0 : value.toMonitorContent) === 'function') ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      domElement: typeof (value === null || value === void 0 ? void 0 : value.toListItem) === 'function' ? value.toListItem() : value.toMonitorContent()
+    }) : String(value))));
   }
   render() {
     const {
@@ -15610,7 +15623,8 @@ const getCategoryColor = (theme, category) => {
   };
 };
 const MonitorComponent = props => {
-  const mode = Array.isArray(props.value) ? 'list' : typeof props.value === 'object' && props.value instanceof Object && !Array.isArray(props.value) ? 'object' : props.mode;
+  var _props$value, _props$value$construc;
+  const mode = Array.isArray(props.value) ? 'list' : ((_props$value = props.value) === null || _props$value === void 0 ? void 0 : (_props$value$construc = _props$value.constructor) === null || _props$value$construc === void 0 ? void 0 : _props$value$construc.prototype) === Object.prototype ? 'object' : props.mode;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_contextmenu__WEBPACK_IMPORTED_MODULE_5__["ContextMenuTrigger"]
   // TW: if export is defined, we always show it, even outside of the editor
   , {
@@ -15632,7 +15646,7 @@ const MonitorComponent = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
     className: _monitor_css__WEBPACK_IMPORTED_MODULE_14___default.a.monitorContainer,
     componentRef: props.componentRef,
-    onDoubleClick: mode === 'list' || !props.draggable ? null : props.onNextMode,
+    onDoubleClick: mode === 'list' || mode === 'object' || !props.draggable ? null : props.onNextMode,
     "data-id": props.id,
     "data-opcode": props.opcode
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(modes[mode], _objectSpread({
@@ -15731,6 +15745,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_virtualized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-virtualized */ "./node_modules/react-virtualized/dist/es/index.js");
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
+
 
 
 
@@ -15755,6 +15771,7 @@ class ObjectMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a
     }));
   }
   rowRenderer(_ref) {
+    var _value$constructor, _this$props$activeVal, _this$props$activeVal2;
     let {
       index,
       key,
@@ -15762,7 +15779,7 @@ class ObjectMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a
     } = _ref;
     const value = Object.values(this.props.values)[index];
     const isNestedArray = Array.isArray(value);
-    const isNestedObject = typeof value === 'object' && value instanceof Object && !Array.isArray(value);
+    const isNestedObject = (value === null || value === void 0 ? void 0 : (_value$constructor = value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) === Object.prototype;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.listRow,
       key: key,
@@ -15788,7 +15805,7 @@ class ObjectMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a
         color: this.props.categoryColor.text
       },
       type: "text",
-      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : this.props.activeValue,
+      value: isNestedArray ? "nested array" : isNestedObject ? "nested object" : String(typeof ((_this$props$activeVal = this.props.activeValue) === null || _this$props$activeVal === void 0 ? void 0 : _this$props$activeVal.customId) === 'string' && typeof ((_this$props$activeVal2 = this.props.activeValue) === null || _this$props$activeVal2 === void 0 ? void 0 : _this$props$activeVal2.toListEditor) === 'function' ? this.props.activeValue.toListEditor() : this.props.activeValue),
       onBlur: this.props.onDeactivate,
       onChange: this.props.onInput,
       onFocus: this.props.onFocus,
@@ -15800,7 +15817,9 @@ class ObjectMonitorScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a
       onMouseDown: this.props.onRemove // mousedown to get ahead of blur
     }, '✖︎')) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _monitor_css__WEBPACK_IMPORTED_MODULE_5___default.a.valueInner
-    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : value)));
+    }, isNestedArray ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested array") : isNestedObject ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "nested object") : typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string' && (typeof (value === null || value === void 0 ? void 0 : value.toListItem) === 'function' || typeof (value === null || value === void 0 ? void 0 : value.toMonitorContent) === 'function') ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      domElement: typeof (value === null || value === void 0 ? void 0 : value.toListItem) === 'function' ? value.toListItem() : value.toMonitorContent()
+    }) : String(value))));
   }
   render() {
     const {
@@ -15961,6 +15980,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./monitor.css */ "./src/components/monitor/monitor.css");
 /* harmony import */ var _monitor_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_monitor_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
+
 
 
 
@@ -15987,7 +16008,9 @@ const SliderMonitor = _ref => {
       background: categoryColor.background,
       color: categoryColor.text
     }
-  }, value)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string' && typeof (value === null || value === void 0 ? void 0 : value.toMonitorContent) === 'function' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    domElement: value.toMonitorContent()
+  }) : String(value))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _monitor_css__WEBPACK_IMPORTED_MODULE_3___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_monitor_css__WEBPACK_IMPORTED_MODULE_3___default.a.slider, 'no-drag') // Class used on parent Draggable to prevent drags
@@ -15996,7 +16019,7 @@ const SliderMonitor = _ref => {
     min: min,
     step: isDiscrete ? 1 : 0.01,
     type: "range",
-    value: value,
+    value: Number(value),
     onChange: onSliderUpdate
   })));
 };
@@ -27452,23 +27475,37 @@ class DOMElementRenderer extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Co
     this.setContainer = this.setContainer.bind(this);
   }
   componentDidMount() {
+    if (!this.props.domElement) return;
     this.container.appendChild(this.props.domElement);
   }
   componentWillUnmount() {
+    if (!this.props.domElement) return;
+    if (this.props.domElement.parentNode !== this.container) return;
     this.container.removeChild(this.props.domElement);
   }
   setContainer(c) {
     this.container = c;
   }
   render() {
+    let element = this.props.domElement;
+    if (!element) {
+      element = document.createElement('span');
+      element.innerText = 'Error: No element provided';
+      console.warn('No element provided to the DOMElementRenderer');
+    }
+
     // Apply props to the DOM element, so its attributes
     // are updated as if it were a normal component.
     // Look at me, I'm the React now!
-    Object.assign(this.props.domElement, lodash_omit__WEBPACK_IMPORTED_MODULE_0___default()(this.props, ['domElement', 'children', 'style']));
+    Object.assign(element, lodash_omit__WEBPACK_IMPORTED_MODULE_0___default()(this.props, ['domElement', 'children', 'style']));
 
     // Convert react style prop to dom element styling.
     if (this.props.style) {
-      this.props.domElement.style.cssText = to_style__WEBPACK_IMPORTED_MODULE_3___default.a.string(this.props.style);
+      element.style.cssText = to_style__WEBPACK_IMPORTED_MODULE_3___default.a.string(this.props.style);
+    }
+    if (this.container) {
+      this.container.innerHTML = '';
+      this.container.appendChild(element);
     }
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       ref: this.setContainer
@@ -35229,24 +35266,18 @@ class TWSecurityManagerComponent extends react__WEBPACK_IMPORTED_MODULE_0___defa
     const {
       showModal
     } = await this.acquireModalLock();
-    if (url.startsWith('data:')) {
-      const allowed = await showModal(_lib_tw_security_manager_constants__WEBPACK_IMPORTED_MODULE_6__["default"].LoadExtension, {
-        url,
-        unsandboxed: Object(_lib_tw_persisted_unsandboxed_js__WEBPACK_IMPORTED_MODULE_7__["getPersistedUnsandboxed"])(),
-        onChangeUnsandboxed: this.handleChangeUnsandboxed.bind(this)
-      });
-      if (allowed) {
-        Object(_lib_tw_persisted_unsandboxed_js__WEBPACK_IMPORTED_MODULE_7__["setPersistedUnsandboxed"])(this.state.data.unsandboxed);
-      }
-      if (allowed && this.state.data.unsandboxed) {
-        manuallyTrustExtension(url);
-      }
-      return allowed;
-    }
-    return showModal(_lib_tw_security_manager_constants__WEBPACK_IMPORTED_MODULE_6__["default"].LoadExtension, {
+    const allowed = await showModal(_lib_tw_security_manager_constants__WEBPACK_IMPORTED_MODULE_6__["default"].LoadExtension, {
       url,
-      unsandboxed: false
+      unsandboxed: Object(_lib_tw_persisted_unsandboxed_js__WEBPACK_IMPORTED_MODULE_7__["getPersistedUnsandboxed"])(),
+      onChangeUnsandboxed: this.handleChangeUnsandboxed.bind(this)
     });
+    if (allowed) {
+      Object(_lib_tw_persisted_unsandboxed_js__WEBPACK_IMPORTED_MODULE_7__["setPersistedUnsandboxed"])(this.state.data.unsandboxed);
+    }
+    if (allowed && this.state.data.unsandboxed) {
+      manuallyTrustExtension(url);
+    }
+    return allowed;
   }
 
   /**
@@ -41961,6 +41992,7 @@ const isUndefined = a => typeof a === 'undefined';
  * @return {object} The adapted monitor with label and category
  */
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var _value, _value$constructor;
   let {
     id,
     spriteName,
@@ -41987,7 +42019,7 @@ const isUndefined = a => typeof a === 'undefined';
 
   // If value is a number, round it to six decimal places
   if (typeof value === 'number') {
-    value = Number(value.toFixed(6));
+    value = Number(value.toFixed(8));
   }
 
   // Turn the value to a string, for handle boolean values
@@ -41995,7 +42027,12 @@ const isUndefined = a => typeof a === 'undefined';
     value = value.toString();
   }
 
-  // Lists and Array values can contain booleans, which should also be turned to strings
+  // Turn the value to a string, for handle null values
+  if (value === null) {
+    value = 'null';
+  }
+
+  // Lists and Array values can contain booleans and null, which should also be turned to strings
   if (Array.isArray(value)) {
     value = value.slice();
     for (let i = 0; i < value.length; i++) {
@@ -42003,15 +42040,21 @@ const isUndefined = a => typeof a === 'undefined';
       if (typeof item === 'boolean') {
         value[i] = item.toString();
       }
+      if (item === null) {
+        value[i] = 'null';
+      }
     }
   }
 
-  // Object values can contain booleans, which should also be turned to strings
-  if (typeof value == 'object' && value instanceof Object && !Array.isArray(value)) {
+  // Object values can contain booleans and null, which should also be turned to strings
+  if (((_value = value) === null || _value === void 0 ? void 0 : (_value$constructor = _value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) === Object.prototype) {
     for (let i = 0; i < Object.keys(value).length; i++) {
       const item = value[Object.keys(value)[i]];
       if (typeof item === 'boolean') {
         value[Object.keys(value)[i]] = item.toString();
+      }
+      if (item === null) {
+        value[Object.keys(value)[i]] = 'null';
       }
     }
   }

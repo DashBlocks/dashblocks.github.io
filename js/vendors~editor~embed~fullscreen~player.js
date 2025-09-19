@@ -82429,8 +82429,8 @@ const extensions = [
         name: "Playgama Bridge SDK",
         id: "playgama",
         description: "Blocks that initialize and interact with the Playgama Bridge SDK. Official.",
-        code: "https://github.com/Playgama/bridge-scratch/releases/download/v1.24.0-preview/PlaygamaBridge.js",
-        banner: "Playgama/PlaygamaBridge.svg",
+        code: "https://github.com/Playgama/bridge-scratch/releases/download/v1.25.0-preview/PlaygamaBridge.js",
+        // banner: "Playgama/PlaygamaBridge.svg",
         creator: ['Playgama', 'sergei-playgama', 'DBDev-git'],
         isGitHub: true,
     },
@@ -82467,6 +82467,13 @@ const extensions = [
         code: "Den4ik-12/WheelScroll 1.2.js",
         banner: "Den4ik-12/WheelScroll.svg",
         creator: "Den4ik-12",
+    },
+    {
+        name: "MediaRecorder",
+        id: "MediaRecord",
+        description: "Record your projects directly in Dash!",
+        code: "scratch_craft_2/MediaRecorder.js",
+        creator: "scratch_craft_2",
     },
     {
         name: "Modals",
@@ -179115,79 +179122,6 @@ module.exports = Scratch3ControlBlocks;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/blocks/scratch3_core_example.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/scratch-vm/src/blocks/scratch3_core_example.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-const BlockType = __webpack_require__(/*! ../extension-support/block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
-const ArgumentType = __webpack_require__(/*! ../extension-support/argument-type */ "./node_modules/scratch-vm/src/extension-support/argument-type.js");
-
-/* eslint-disable-next-line max-len */
-const blockIconURI = 'data:image/svg+xml,%3Csvg id="rotate-counter-clockwise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%233d79cc;%7D.cls-2%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Erotate-counter-clockwise%3C/title%3E%3Cpath class="cls-1" d="M22.68,12.2a1.6,1.6,0,0,1-1.27.63H13.72a1.59,1.59,0,0,1-1.16-2.58l1.12-1.41a4.82,4.82,0,0,0-3.14-.77,4.31,4.31,0,0,0-2,.8,4.25,4.25,0,0,0-1.34,1.73,5.06,5.06,0,0,0,.54,4.62A5.58,5.58,0,0,0,12,17.74h0a2.26,2.26,0,0,1-.16,4.52A10.25,10.25,0,0,1,3.74,18,10.14,10.14,0,0,1,2.25,8.78,9.7,9.7,0,0,1,5.08,4.64,9.92,9.92,0,0,1,9.66,2.5a10.66,10.66,0,0,1,7.72,1.68l1.08-1.35a1.57,1.57,0,0,1,1.24-.6,1.6,1.6,0,0,1,1.54,1.21l1.7,7.37A1.57,1.57,0,0,1,22.68,12.2Z"/%3E%3Cpath class="cls-2" d="M21.38,11.83H13.77a.59.59,0,0,1-.43-1l1.75-2.19a5.9,5.9,0,0,0-4.7-1.58,5.07,5.07,0,0,0-4.11,3.17A6,6,0,0,0,7,15.77a6.51,6.51,0,0,0,5,2.92,1.31,1.31,0,0,1-.08,2.62,9.3,9.3,0,0,1-7.35-3.82A9.16,9.16,0,0,1,3.17,9.12,8.51,8.51,0,0,1,5.71,5.4,8.76,8.76,0,0,1,9.82,3.48a9.71,9.71,0,0,1,7.75,2.07l1.67-2.1a.59.59,0,0,1,1,.21L22,11.08A.59.59,0,0,1,21.38,11.83Z"/%3E%3C/svg%3E';
-
-/**
- * An example core block implemented using the extension spec.
- * This is not loaded as part of the core blocks in the VM but it is provided
- * and used as part of tests.
- */
-class Scratch3CoreExample {
-  constructor(runtime) {
-    /**
-     * The runtime instantiating this block package.
-     * @type {Runtime}
-     */
-    this.runtime = runtime;
-  }
-
-  /**
-   * @returns {object} metadata for this extension and its blocks.
-   */
-  getInfo() {
-    return {
-      id: 'coreExample',
-      name: 'CoreEx',
-      // This string does not need to be translated as this extension is only used as an example.
-      blocks: [{
-        func: 'MAKE_A_VARIABLE',
-        blockType: BlockType.BUTTON,
-        text: 'make a variable (CoreEx)'
-      }, {
-        opcode: 'exampleOpcode',
-        blockType: BlockType.REPORTER,
-        text: 'example block'
-      }, {
-        opcode: 'exampleWithInlineImage',
-        blockType: BlockType.COMMAND,
-        text: 'block with image [CLOCKWISE] inline',
-        arguments: {
-          CLOCKWISE: {
-            type: ArgumentType.IMAGE,
-            dataURI: blockIconURI
-          }
-        }
-      }]
-    };
-  }
-
-  /**
-   * Example opcode just returns the name of the stage target.
-   * @returns {string} The name of the first target in the project.
-   */
-  exampleOpcode() {
-    const stage = this.runtime.getTargetForStage();
-    return stage ? stage.getName() : 'no stage yet';
-  }
-  exampleWithInlineImage() {
-    return;
-  }
-}
-module.exports = Scratch3CoreExample;
-
-/***/ }),
-
 /***/ "./node_modules/scratch-vm/src/blocks/scratch3_data.js":
 /*!*************************************************************!*\
   !*** ./node_modules/scratch-vm/src/blocks/scratch3_data.js ***!
@@ -180536,10 +180470,12 @@ class Scratch3OperatorsBlocks {
   }
   typeof(args) {
     const value = args.VALUE;
+    const lowerCase = Cast.toString(value).toLowerCase();
     // typeof returns 'object' for null
     if (value === null) return 'null';
     if (Array.isArray(value)) return 'array';
     if (typeof value === "object" && value instanceof Object && !Array.isArray(value)) return 'object';
+    if (lowerCase == 'true' || lowerCase == 'false') return 'boolean';
     return typeof value;
   }
   isType(args) {
@@ -180570,7 +180506,8 @@ class Scratch3OperatorsBlocks {
       case 'boolean':
         {
           if (typeof value == 'boolean') return true;
-          if (value.toLowerCase() == 'true' || value.toLowerCase() == 'false') return true;
+          const lowerCase = Cast.toString(value).toLowerCase();
+          if (lowerCase == 'true' || lowerCase == 'false' || lowerCase == '0' || lowerCase == '1') return true;
           return false;
         }
       case 'array':
@@ -189570,6 +189507,120 @@ class Runtime extends EventEmitter {
     this.extensionStorage = {};
 
     /**
+     * List of all custom serializers.
+     * @type {Object.<string, object>}
+     */
+    this.serializers = {
+      // Not actual a custom serializer, but it needed for serializing/deserializing Object/Array
+      json_json: {
+        isValueSafeForSerializedJSON: value => typeof value === 'number' || typeof value === 'string' || typeof value === 'boolean',
+        serialize: value => {
+          const indexes = [];
+          let run = true;
+          let startI = 0;
+          while (run) {
+            let obj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+            let objIsArray = Array.isArray(obj);
+            obj = Array.isArray(obj) ? obj : Object.values(obj);
+            let i = startI;
+            while (i < obj.length) {
+              var _obj$i, _obj$i$constructor, _obj$i2;
+              if (Array.isArray(obj[i])) {
+                startI = 0;
+                indexes.push(i);
+                break;
+              } else if (((_obj$i = obj[i]) === null || _obj$i === void 0 ? void 0 : (_obj$i$constructor = _obj$i.constructor) === null || _obj$i$constructor === void 0 ? void 0 : _obj$i$constructor.prototype) === Object.prototype) {
+                startI = 0;
+                indexes.push(i);
+                break;
+              } else if (typeof ((_obj$i2 = obj[i]) === null || _obj$i2 === void 0 ? void 0 : _obj$i2.customId) === 'string') {
+                if (obj[i].customId in this.serializers) {
+                  const {
+                    serialize
+                  } = this.serializers[obj[i].customId];
+                  let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                  rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = {
+                    customType: true,
+                    typeId: obj[i].customId,
+                    serialized: serialize(obj[i])
+                  };
+                } else {
+                  throw new Error("Unknown custom serializer with id: ".concat(obj[i].customId));
+                }
+              } else if (!this.serializers.json_json.isValueSafeForSerializedJSON(obj[i])) {
+                let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = String(obj[i]);
+              }
+              i++;
+            }
+            if (indexes.length > 0 && i >= obj.length) {
+              if (!objIsArray) {
+                let rawObj = indexes.toSpliced(indexes.length - 1, 1).reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                rawObj[Array.isArray(rawObj) ? indexes[indexes.length - 1] : Object.keys(rawObj)[indexes[indexes.length - 1]]] = {
+                  customType: false,
+                  serialized: rawObj[Array.isArray(rawObj) ? indexes[indexes.length - 1] : Object.keys(rawObj)[indexes[indexes.length - 1]]]
+                };
+              }
+              startI = indexes[indexes.length - 1] + 1;
+              indexes.splice(indexes.length - 1, 1);
+            } else if (i >= obj.length) {
+              run = false;
+            }
+          }
+          return value;
+        },
+        deserialize: (value, target) => {
+          const indexes = [];
+          let run = true;
+          let startI = 0;
+          while (run) {
+            let obj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+            obj = Array.isArray(obj) ? obj : Object.values(obj);
+            let i = startI;
+            while (i < obj.length) {
+              if (!(typeof obj[i] === 'object' && obj[i] instanceof Object)) {
+                i++;
+                continue;
+              }
+              if (Array.isArray(obj[i])) {
+                startI = 0;
+                indexes.push(i);
+                break;
+              } else if ('customType' in obj[i]) {
+                if (!obj[i].customType) {
+                  rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = obj[i].serialized;
+                  startI = 0;
+                  indexes.push(i);
+                  break;
+                } else if (obj[i].typeId in this.serializers) {
+                  const {
+                    deserialize
+                  } = this.serializers[obj[i].typeId];
+                  let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                  rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = deserialize(obj[i].serialized, target);
+                } else {
+                  throw new Error("Unknown custom serializer with id: ".concat(obj[i].typeId));
+                }
+              } else {
+                startI = 0;
+                indexes.push(i);
+                break;
+              }
+              i++;
+            }
+            if (indexes.length > 0 && i >= obj.length) {
+              startI = indexes[indexes.length - 1] + 1;
+              indexes.splice(indexes.length - 1, 1);
+            } else if (i >= obj.length) {
+              run = false;
+            }
+          }
+          return value;
+        }
+      }
+    };
+
+    /**
      * Total number of scratch-storage load() requests since the runtime was created or cleared.
      */
     this.totalAssetRequests = 0;
@@ -190946,6 +190997,25 @@ class Runtime extends EventEmitter {
     this.resetRunId();
   }
 
+  /**
+   * Registers a custom serializer to allow saving custom data into standard variables
+   * @param {string} id The id of a custom serializer
+   * @param {Function} serialize The function to be ran on serialized data in variables.
+   * @param {Function} deserialize The function to be ran on serialized data in variables
+   */
+  registerSerializer(id, serialize, deserialize) {
+    if (typeof serialize !== 'function') {
+      throw new TypeError('Serialize must be of type function');
+    }
+    if (typeof deserialize !== 'function') {
+      throw new TypeError('Deserialize must be of type function');
+    }
+    this.serializers[id] = {
+      serialize,
+      deserialize
+    };
+  }
+
   // -----------------------------------------------------------------------------
   // -----------------------------------------------------------------------------
 
@@ -191984,7 +192054,7 @@ class Runtime extends EventEmitter {
     if (target === this.getEditingTarget()) {
       this.emit(Runtime.VISUAL_REPORT, {
         id: blockId,
-        value: String(value)
+        value: value
       });
     }
   }
@@ -192123,9 +192193,45 @@ class Runtime extends EventEmitter {
   }
 
   /**
-   * Handle that the project has loaded in the Virtual Machine.
+   * Report that the project has loaded in the Virtual Machine.
+   * and also handle the parsing of custom values to allow for
+   * minimal code when making cross-target refences
    */
   handleProjectLoaded() {
+    for (const target of this.targets) {
+      for (const varId in target.variables) {
+        const variable = target.variables[varId];
+        if (!(typeof variable.value === "object" && variable.value instanceof Object)) {
+          continue;
+        }
+        const data = variable.value;
+        if (Array.isArray(data)) {
+          const {
+            deserialize
+          } = this.serializers.json_json;
+          variable.value = deserialize(data);
+        } else if ('customType' in data) {
+          if (!data.customType) {
+            const {
+              deserialize
+            } = this.serializers.json_json;
+            variable.value = deserialize(data.serialized, target);
+          } else if (data.typeId in this.serializers) {
+            const {
+              deserialize
+            } = this.serializers[data.typeId];
+            variable.value = deserialize(data.serialized, target);
+          } else {
+            throw new Error("Unknown custom serializer with id: ".concat(data.typeId));
+          }
+        } else {
+          const {
+            deserialize
+          } = this.serializers.json_json;
+          variable.value = deserialize(data);
+        }
+      }
+    }
     this.emit(Runtime.PROJECT_LOADED);
     this.resetRunId();
   }
@@ -194864,6 +194970,7 @@ const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/sr
 const maybeFormatMessage = __webpack_require__(/*! ../util/maybe-format-message */ "./node_modules/scratch-vm/src/util/maybe-format-message.js");
 const BlockType = __webpack_require__(/*! ./block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
 const SecurityManager = __webpack_require__(/*! ./tw-security-manager */ "./node_modules/scratch-vm/src/extension-support/tw-security-manager.js");
+const enableCoreEx = new URLSearchParams(location.search).has('enabletests');
 
 // These extensions are currently built into the VM repository but should not be loaded at startup.
 // TODO: move these out into a separate repository?
@@ -194872,7 +194979,7 @@ const SecurityManager = __webpack_require__(/*! ./tw-security-manager */ "./node
 const defaultBuiltinExtensions = {
   // This is an example that isn't loaded with the other core blocks,
   // but serves as a reference for loading core blocks as extensions.
-  coreExample: () => __webpack_require__(/*! ../blocks/scratch3_core_example */ "./node_modules/scratch-vm/src/blocks/scratch3_core_example.js"),
+  coreExample: () => __webpack_require__(/*! ../extensions/dash_core_example */ "./node_modules/scratch-vm/src/extensions/dash_core_example/index.js"),
   // These are the non-core built-in extensions.
   pen: () => __webpack_require__(/*! ../extensions/scratch3_pen */ "./node_modules/scratch-vm/src/extensions/scratch3_pen/index.js"),
   wedo2: () => __webpack_require__(/*! ../extensions/scratch3_wedo2 */ "./node_modules/scratch-vm/src/extensions/scratch3_wedo2/index.js"),
@@ -194986,6 +195093,9 @@ class ExtensionManager {
     dispatch.setService('extensions', createExtensionService(this)).catch(e => {
       log.error("ExtensionManager was unable to register extension service: ".concat(JSON.stringify(e)));
     });
+    if (enableCoreEx) {
+      this.loadExtensionIdSync('coreExample');
+    }
   }
 
   /**
@@ -196186,6 +196296,163 @@ module.exports = {
   load
 };
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/scratch-vm/src/extensions/dash_core_example/index.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/scratch-vm/src/extensions/dash_core_example/index.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+const BlockType = __webpack_require__(/*! ../../extension-support/block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
+const ArgumentType = __webpack_require__(/*! ../../extension-support/argument-type */ "./node_modules/scratch-vm/src/extension-support/argument-type.js");
+const Cast = __webpack_require__(/*! ../../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+
+/* eslint-disable-next-line max-len */
+const blockIconURI = 'data:image/svg+xml,%3Csvg id="rotate-counter-clockwise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%233d79cc;%7D.cls-2%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Erotate-counter-clockwise%3C/title%3E%3Cpath class="cls-1" d="M22.68,12.2a1.6,1.6,0,0,1-1.27.63H13.72a1.59,1.59,0,0,1-1.16-2.58l1.12-1.41a4.82,4.82,0,0,0-3.14-.77,4.31,4.31,0,0,0-2,.8,4.25,4.25,0,0,0-1.34,1.73,5.06,5.06,0,0,0,.54,4.62A5.58,5.58,0,0,0,12,17.74h0a2.26,2.26,0,0,1-.16,4.52A10.25,10.25,0,0,1,3.74,18,10.14,10.14,0,0,1,2.25,8.78,9.7,9.7,0,0,1,5.08,4.64,9.92,9.92,0,0,1,9.66,2.5a10.66,10.66,0,0,1,7.72,1.68l1.08-1.35a1.57,1.57,0,0,1,1.24-.6,1.6,1.6,0,0,1,1.54,1.21l1.7,7.37A1.57,1.57,0,0,1,22.68,12.2Z"/%3E%3Cpath class="cls-2" d="M21.38,11.83H13.77a.59.59,0,0,1-.43-1l1.75-2.19a5.9,5.9,0,0,0-4.7-1.58,5.07,5.07,0,0,0-4.11,3.17A6,6,0,0,0,7,15.77a6.51,6.51,0,0,0,5,2.92,1.31,1.31,0,0,1-.08,2.62,9.3,9.3,0,0,1-7.35-3.82A9.16,9.16,0,0,1,3.17,9.12,8.51,8.51,0,0,1,5.71,5.4,8.76,8.76,0,0,1,9.82,3.48a9.71,9.71,0,0,1,7.75,2.07l1.67-2.1a.59.59,0,0,1,1,.21L22,11.08A.59.59,0,0,1,21.38,11.83Z"/%3E%3C/svg%3E';
+class ExampleDataType {
+  constructor() {
+    let value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+    _defineProperty(this, "customId", 'coreExample_datatype');
+    this.value = Cast.toNumber(value);
+    this.value2 = Math.random();
+  }
+  toMonitorContent() {
+    let el = document.createElement('span');
+    el.textContent = this.value;
+    el.style.color = "#add7ff";
+    return el;
+  }
+  toReporterContent() {
+    let el = document.createElement('span');
+    el.textContent = "".concat(this.value, " (").concat(this.value2, ")");
+    el.style.color = "#0088ff";
+    return el;
+  }
+  toListItem() {
+    let el = document.createElement('span');
+    el.textContent = "".concat(this.value, " (").concat(this.value2, ")");
+    el.style.color = "#add7ff";
+    return el;
+  }
+  toListEditor() {
+    return "".concat(this.value, " (").concat(this.value2, ")");
+  }
+  get sum() {
+    return this.value + this.value2;
+  }
+}
+
+/**
+ * An example core block implemented using the extension spec.
+ * This is not loaded as part of the core blocks in the VM but it is provided
+ * and used as part of tests.
+ */
+class DashCoreExample {
+  constructor(runtime) {
+    /**
+     * The runtime instantiating this block package.
+     * @type {Runtime}
+     */
+    this.runtime = runtime;
+    this.runtime.registerSerializer('coreExample_datatype', value => [value.value, value.value2], value => {
+      const result = new ExampleDataType(value[0]);
+      result.value2 = Cast.toNumber(value[1]);
+      return result;
+    });
+  }
+
+  /**
+   * @returns {object} metadata for this extension and its blocks.
+   */
+  getInfo() {
+    return {
+      id: 'coreExample',
+      name: 'Dash Core Example',
+      // This string does not need to be translated as this extension is only used as an example.
+      blocks: [{
+        blockType: BlockType.XML,
+        xml: "<sep gap='6'/><label text='Warning: Don't use these blocks'/><sep gap='-12'/><label text='for real projects!'/><sep gap='24'/>"
+      }, {
+        func: 'MAKE_A_VARIABLE',
+        blockType: BlockType.BUTTON,
+        text: 'Make a Variable (example)'
+      }, {
+        opcode: 'exampleOpcode',
+        blockType: BlockType.REPORTER,
+        text: 'example block'
+      }, {
+        opcode: 'exampleWithInlineImage',
+        blockType: BlockType.COMMAND,
+        text: 'block with image [CLOCKWISE] inline',
+        arguments: {
+          CLOCKWISE: {
+            type: ArgumentType.IMAGE,
+            dataURI: blockIconURI
+          }
+        }
+      }, '---', {
+        opcode: 'exArray',
+        blockType: BlockType.ARRAY,
+        text: 'ARRAY block with ARRAY input [ARRAY]',
+        arguments: {
+          ARRAY: {
+            type: ArgumentType.ARRAY
+          }
+        }
+      }, {
+        opcode: 'exObject',
+        blockType: BlockType.OBJECT,
+        text: 'OBJECT block with OBJECT input [OBJECT]',
+        arguments: {
+          OBJECT: {
+            type: ArgumentType.OBJECT
+          }
+        }
+      }, '---', {
+        opcode: 'exCustomDataType',
+        blockType: BlockType.REPORTER,
+        text: 'ExampleDataType with number [NUMBER]',
+        arguments: {
+          NUMBER: {
+            type: ArgumentType.NUMBER,
+            defaultValue: 1
+          }
+        }
+      }, {
+        opcode: 'exCustomDataTypeGetter',
+        blockType: BlockType.REPORTER,
+        text: 'sum in ExampleDataType [EXDATATYPE]'
+      }]
+    };
+  }
+  exampleOpcode() {
+    const stage = this.runtime.getTargetForStage();
+    return stage ? stage.getName() : 'no stage yet';
+  }
+  exArray(args) {
+    return Cast.toList(args.ARRAY);
+  }
+  exObject(args) {
+    return Cast.toObject(args.OBJECT);
+  }
+  exCustomDataType(args) {
+    return new ExampleDataType(args.NUMBER);
+  }
+  exCustomDataTypeGetter(args) {
+    var _args$EXDATATYPE$sum, _args$EXDATATYPE;
+    return (_args$EXDATATYPE$sum = (_args$EXDATATYPE = args.EXDATATYPE) === null || _args$EXDATATYPE === void 0 ? void 0 : _args$EXDATATYPE.sum) !== null && _args$EXDATATYPE$sum !== void 0 ? _args$EXDATATYPE$sum : 0;
+  }
+  exampleWithInlineImage() {
+    return;
+  }
+}
+module.exports = DashCoreExample;
 
 /***/ }),
 
@@ -213482,28 +213749,39 @@ const serializeSound = function serializeSound(sound) {
 // variables or lists. This will cause make the project unusable after exporting without JSON editing
 // as it will fail validation in scratch-parser.
 // To avoid this, we'll convert those objects to strings before saving them.
-const isVariableValueSafeForJSON = value => typeof value === 'number' || typeof value === 'string' || typeof value === 'boolean' || typeof value === 'object' && value instanceof Object;
-const makeSafeForJSON = value => {
+const isVariableValueSafeForJSON = value => typeof value === 'number' || typeof value === 'string' || typeof value === 'boolean';
+const makeSafeForJSON = (runtime, value) => {
+  var _value$constructor;
   if (Array.isArray(value)) {
-    let copy = null;
-    for (let i = 0; i < value.length; i++) {
-      if (!isVariableValueSafeForJSON(value[i])) {
-        if (!copy) {
-          // Only copy the list when needed
-          copy = value.slice();
-        }
-        copy[i] = "".concat(copy[i]);
-      }
+    const {
+      serialize
+    } = runtime.serializers.json_json;
+    return serialize(value);
+  } else if ((value === null || value === void 0 ? void 0 : (_value$constructor = value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) === Object.prototype) {
+    const {
+      serialize
+    } = runtime.serializers.json_json;
+    return {
+      customType: false,
+      serialized: serialize(value)
+    };
+  } else if (typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string') {
+    if (value.customId in runtime.serializers) {
+      const {
+        serialize
+      } = runtime.serializers[value.customId];
+      return {
+        customType: true,
+        typeId: value.customId,
+        serialized: serialize(value)
+      };
+    } else {
+      throw new Error("Unknown custom serializer with id: ".concat(value.customId));
     }
-    if (copy) {
-      return copy;
-    }
-    return value;
+  } else if (!isVariableValueSafeForJSON(value)) {
+    return String(value);
   }
-  if (isVariableValueSafeForJSON(value)) {
-    return value;
-  }
-  return "".concat(value);
+  return value;
 };
 
 /**
@@ -213513,7 +213791,7 @@ const makeSafeForJSON = value => {
  * separated by type to compress the representation of each given variable and
  * reduce duplicate information.
  */
-const serializeVariables = function serializeVariables(variables) {
+const serializeVariables = function serializeVariables(runtime, variables) {
   const obj = Object.create(null);
   // separate out variables into types at the top level so we don't have
   // keep track of a type for each
@@ -213527,12 +213805,12 @@ const serializeVariables = function serializeVariables(variables) {
       continue;
     }
     if (v.type === Variable.LIST_TYPE) {
-      obj.lists[varId] = [v.name, makeSafeForJSON(v.value)];
+      obj.lists[varId] = [v.name, makeSafeForJSON(runtime, v.value)];
       continue;
     }
 
     // otherwise should be a scalar type
-    obj.variables[varId] = [v.name, makeSafeForJSON(v.value)];
+    obj.variables[varId] = [v.name, makeSafeForJSON(runtime, v.value)];
     // only scalar vars have the potential to be cloud vars
     if (v.isCloud) obj.variables[varId].push(true);
   }
@@ -213571,12 +213849,12 @@ const serializeComments = function serializeComments(comments) {
  * @param {Set} extensions A set of extensions to add extension IDs to
  * @return {object} A serialized representation of the given target.
  */
-const serializeTarget = function serializeTarget(target, extensions) {
+const serializeTarget = function serializeTarget(runtime, target, extensions) {
   const obj = Object.create(null);
   let targetExtensions = [];
   obj.isStage = target.isStage;
   obj.name = obj.isStage ? 'Stage' : target.name;
-  const vars = serializeVariables(target.variables);
+  const vars = serializeVariables(runtime, target.variables);
   obj.variables = vars.variables;
   obj.lists = vars.lists;
   obj.broadcasts = vars.broadcasts;
@@ -213717,7 +213995,7 @@ const serialize = function serialize(runtime, targetId) {
       t.layerOrder = layerOrdering[index];
     });
   }
-  const serializedTargets = flattenedOriginalTargets.map(t => serializeTarget(t, extensions)).map((serialized, index) => {
+  const serializedTargets = flattenedOriginalTargets.map(t => serializeTarget(runtime, t, extensions)).map((serialized, index) => {
     // can't serialize extensionStorage until the list of used extensions is fully known
     const target = originalTargetsToSerialize[index];
     const targetExtensionStorage = serializeExtensionStorage(target.extensionStorage, extensions);
