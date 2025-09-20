@@ -160386,7 +160386,7 @@ module.exports = JSON.parse("{\"$id\":\"https://scratch.mit.edu/sb2_schema.json\
 /*! exports provided: $id, $schema, description, definitions, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"$id\":\"https://scratch.mit.edu/sb3_definitions.json\",\"$schema\":\"http://json-schema.org/schema#\",\"description\":\"Scratch 3.0 Project and Sprite Schema Definitions\",\"definitions\":{\"optionalString\":{\"oneOf\":[{\"type\":\"string\"},{\"type\":\"null\"}]},\"optionalNumber\":{\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]},\"boolOrOptBoolString\":{\"oneOf\":[{\"type\":\"string\",\"enum\":[\"true\",\"false\",\"null\"]},{\"type\":\"boolean\"},{\"type\":\"null\"}]},\"stringOrNumber\":{\"oneOf\":[{\"type\":\"string\"},{\"type\":\"number\"}]},\"scalarVal\":{\"oneOf\":[{\"$ref\":\"#/definitions/stringOrNumber\"},{\"type\":\"boolean\"}]},\"assetId\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}$\"},\"costume\":{\"type\":\"object\",\"properties\":{\"assetId\":{\"$ref\":\"#/definitions/assetId\"},\"bitmapResolution\":{\"type\":\"integer\"},\"dataFormat\":{\"type\":\"string\",\"enum\":[\"png\",\"svg\",\"jpeg\",\"jpg\",\"bmp\",\"gif\"]},\"md5ext\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}\\\\.[a-zA-Z]+$\"},\"name\":{\"type\":\"string\"},\"rotationCenterX\":{\"type\":\"number\",\"description\":\"This property is not required, but is highly recommended.\"},\"rotationCenterY\":{\"type\":\"number\",\"description\":\"This property is not required, but is highly recommended.\"}},\"required\":[\"assetId\",\"dataFormat\",\"name\"]},\"sound\":{\"type\":\"object\",\"properties\":{\"assetId\":{\"$ref\":\"#/definitions/assetId\"},\"dataFormat\":{\"type\":\"string\",\"enum\":[\"wav\",\"wave\",\"mp3\"]},\"md5ext\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}\\\\.[a-zA-Z0-9]+$\"},\"name\":{\"type\":\"string\"},\"rate\":{\"type\":\"integer\"},\"sampleCount\":{\"type\":\"integer\"}},\"required\":[\"assetId\",\"dataFormat\",\"name\"]},\"scalar_variable\":{\"type\":\"array\",\"items\":[{\"type\":\"string\",\"description\":\"name of the variable\"},{\"$ref\":\"#/definitions/scalarVal\",\"description\":\"value of the variable\"}],\"additionalItems\":{\"type\":\"boolean\",\"enum\":[true],\"description\":\"Whether this is a cloud variable\"},\"maxItems\":3},\"list\":{\"type\":\"array\",\"items\":[{\"type\":\"string\",\"description\":\"name of the list\"},{\"type\":\"array\",\"description\":\"contents of the list\",\"items\":{\"$ref\":\"#/definitions/scalarVal\"}}],\"additionalItems\":false},\"broadcast_message\":{\"type\":\"string\",\"description\":\"the message being broadcasted\"},\"num_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[4,5,6,7,8]},{\"$ref\":\"#/definitions/stringOrNumber\"}],\"additionalItems\":false},\"color_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[9]},{\"type\":\"string\",\"pattern\":\"^#[a-fA-F0-9]{6}$\"}],\"additionalItems\":false},\"text_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[10]},{\"$ref\":\"#/definitions/stringOrNumber\"}],\"additionalItems\":false},\"broadcast_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[11]},{\"type\":\"string\",\"description\":\"broadcast message\"},{\"type\":\"string\",\"description\":\"broadcast message id\"}],\"additionalItems\":false},\"variable_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[12]},{\"type\":\"string\",\"description\":\"variable name\"},{\"type\":\"string\",\"description\":\"variable id\"}],\"additionalItems\":{\"type\":\"number\"},\"minItems\":3,\"maxItems\":5},\"list_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[13]},{\"type\":\"string\",\"description\":\"list name\"},{\"type\":\"string\",\"description\":\"list id\"}],\"additionalItems\":{\"type\":\"number\"},\"minItems\":3,\"maxItems\":5},\"topLevelPrimitive\":{\"oneOf\":[{\"$ref\":\"#/definitions/variable_primitive\"},{\"$ref\":\"#/definitions/list_primitive\"}]},\"inputPrimitive\":{\"oneOf\":[{\"$ref\":\"#/definitions/num_primitive\"},{\"$ref\":\"#/definitions/color_primitive\"},{\"$ref\":\"#/definitions/text_primitive\"},{\"$ref\":\"#/definitions/broadcast_primitive\"},{\"$ref\":\"#/definitions/variable_primitive\"},{\"$ref\":\"#/definitions/list_primitive\"}]},\"block\":{\"type\":\"object\",\"properties\":{\"opcode\":{\"type\":\"string\"},\"comment\":{\"type\":\"string\"},\"inputs\":{\"type\":\"object\",\"additionalProperties\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[1,2,3],\"description\":\"1 = unobscured shadow, 2 = no shadow, 3 = obscured shadow\"}],\"additionalItems\":{\"oneOf\":[{\"$ref\":\"#/definitions/optionalString\"},{\"$ref\":\"#/definitions/inputPrimitive\"}]}}},\"fields\":{\"type\":\"object\"},\"next\":{\"$ref\":\"#/definitions/optionalString\"},\"topLevel\":{\"type\":\"boolean\"},\"parent\":{\"$ref\":\"#/definitions/optionalString\"},\"shadow\":{\"type\":\"boolean\"},\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"mutation\":{\"type\":\"object\",\"properties\":{\"tagName\":{\"type\":\"string\",\"enum\":[\"mutation\"]},\"children\":{\"type\":\"array\"},\"proccode\":{\"type\":\"string\"},\"argumentids\":{\"type\":\"string\"},\"warp\":{\"$ref\":\"#/definitions/boolOrOptBoolString\"},\"hasnext\":{\"$ref\":\"#/definitions/boolOrOptBoolString\"}}}},\"required\":[\"opcode\"]},\"comment\":{\"type\":\"object\",\"properties\":{\"blockId\":{\"$ref\":\"#/definitions/optionalString\"},\"text\":{\"type\":\"string\",\"maxLength\":8000},\"minimized\":{\"type\":\"boolean\"},\"x\":{\"$ref\":\"#/definitions/optionalNumber\"},\"y\":{\"$ref\":\"#/definitions/optionalNumber\"},\"width\":{\"type\":\"number\"},\"height\":{\"type\":\"number\"}},\"required\":[\"text\"]},\"stage\":{\"type\":\"object\",\"description\":\"Description of property (and/or property/value pairs) that are unique to the stage.\",\"properties\":{\"name\":{\"type\":\"string\",\"enum\":[\"Stage\"]},\"isStage\":{\"type\":\"boolean\",\"enum\":[true]},\"tempo\":{\"type\":\"number\"},\"videoTransparency\":{\"type\":\"number\"},\"videoState\":{\"type\":\"string\",\"enum\":[\"on\",\"off\",\"on-flipped\"]},\"layerOrder\":{\"type\":\"integer\",\"enum\":[0],\"description\":\"The layer order of the stage should be 0, if specified.\"}},\"required\":[\"name\",\"isStage\"]},\"sprite\":{\"type\":\"object\",\"description\":\"Description of property (and/or property/value pairs) for sprites.\",\"properties\":{\"name\":{\"type\":\"string\",\"not\":{\"enum\":[\"_stage_\"]}},\"isStage\":{\"type\":\"boolean\",\"enum\":[false]},\"visible\":{\"type\":\"boolean\"},\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"size\":{\"type\":\"number\"},\"direction\":{\"type\":\"number\"},\"draggable\":{\"type\":\"boolean\"},\"rotationStyle\":{\"type\":\"string\",\"enum\":[\"all around\",\"don't rotate\",\"left-right\"]},\"layerOrder\":{\"type\":\"integer\",\"minimum\":1,\"description\":\"The layer order of a sprite should be a positive number, if specified.\"}},\"required\":[\"name\",\"isStage\"]},\"target\":{\"type\":\"object\",\"description\":\"Properties common to both Scratch 3.0 Stage and Sprite\",\"properties\":{\"currentCostume\":{\"type\":\"integer\",\"minimum\":0},\"blocks\":{\"type\":\"object\",\"additionalProperties\":{\"oneOf\":[{\"$ref\":\"#/definitions/block\"},{\"$ref\":\"#/definitions/topLevelPrimitive\"}]}},\"variables\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/scalar_variable\"}},\"lists\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/list\"}},\"broadcasts\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/broadcast_message\"}},\"comments\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/comment\"}},\"costumes\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/costume\"},\"minItems\":1,\"uniqueItems\":true},\"sounds\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/sound\"},\"uniqueItems\":true},\"volume\":{\"type\":\"number\"}},\"required\":[\"variables\",\"costumes\",\"sounds\",\"blocks\"]}}}");
+module.exports = JSON.parse("{\"$id\":\"https://scratch.mit.edu/sb3_definitions.json\",\"$schema\":\"http://json-schema.org/schema#\",\"description\":\"Scratch 3.0 Project and Sprite Schema Definitions\",\"definitions\":{\"optionalString\":{\"oneOf\":[{\"type\":\"string\"},{\"type\":\"null\"}]},\"optionalNumber\":{\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]},\"boolOrOptBoolString\":{\"oneOf\":[{\"type\":\"string\",\"enum\":[\"true\",\"false\",\"null\"]},{\"type\":\"boolean\"},{\"type\":\"null\"}]},\"stringOrNumber\":{\"oneOf\":[{\"type\":\"string\"},{\"type\":\"number\"}]},\"scalarVal\":{\"oneOf\":[{\"$ref\":\"#/definitions/stringOrNumber\"},{\"type\":\"boolean\"},{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/scalarVal\"}},{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/scalarVal\"}}]},\"assetId\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}$\"},\"costume\":{\"type\":\"object\",\"properties\":{\"assetId\":{\"$ref\":\"#/definitions/assetId\"},\"bitmapResolution\":{\"type\":\"integer\"},\"dataFormat\":{\"type\":\"string\",\"enum\":[\"png\",\"svg\",\"jpeg\",\"jpg\",\"bmp\",\"gif\"]},\"md5ext\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}\\\\.[a-zA-Z]+$\"},\"name\":{\"type\":\"string\"},\"rotationCenterX\":{\"type\":\"number\",\"description\":\"This property is not required, but is highly recommended.\"},\"rotationCenterY\":{\"type\":\"number\",\"description\":\"This property is not required, but is highly recommended.\"}},\"required\":[\"assetId\",\"dataFormat\",\"name\"]},\"sound\":{\"type\":\"object\",\"properties\":{\"assetId\":{\"$ref\":\"#/definitions/assetId\"},\"dataFormat\":{\"type\":\"string\",\"enum\":[\"wav\",\"wave\",\"mp3\"]},\"md5ext\":{\"type\":\"string\",\"pattern\":\"^[a-fA-F0-9]{32}\\\\.[a-zA-Z0-9]+$\"},\"name\":{\"type\":\"string\"},\"rate\":{\"type\":\"integer\"},\"sampleCount\":{\"type\":\"integer\"}},\"required\":[\"assetId\",\"dataFormat\",\"name\"]},\"scalar_variable\":{\"type\":\"array\",\"items\":[{\"type\":\"string\",\"description\":\"name of the variable\"},{\"$ref\":\"#/definitions/scalarVal\",\"description\":\"value of the variable\"}],\"additionalItems\":{\"type\":\"boolean\",\"enum\":[true],\"description\":\"Whether this is a cloud variable\"},\"maxItems\":3},\"list\":{\"type\":\"array\",\"items\":[{\"type\":\"string\",\"description\":\"name of the list\"},{\"type\":\"array\",\"description\":\"contents of the list\",\"items\":{\"$ref\":\"#/definitions/scalarVal\"}}],\"additionalItems\":false},\"broadcast_message\":{\"type\":\"string\",\"description\":\"the message being broadcasted\"},\"num_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[4,5,6,7,8]},{\"$ref\":\"#/definitions/stringOrNumber\"}],\"additionalItems\":false},\"color_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[9]},{\"type\":\"string\",\"pattern\":\"^#[a-fA-F0-9]{6}$\"}],\"additionalItems\":false},\"text_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[10]},{\"$ref\":\"#/definitions/stringOrNumber\"}],\"additionalItems\":false},\"broadcast_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[11]},{\"type\":\"string\",\"description\":\"broadcast message\"},{\"type\":\"string\",\"description\":\"broadcast message id\"}],\"additionalItems\":false},\"variable_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[12]},{\"type\":\"string\",\"description\":\"variable name\"},{\"type\":\"string\",\"description\":\"variable id\"}],\"additionalItems\":{\"type\":\"number\"},\"minItems\":3,\"maxItems\":5},\"list_primitive\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[13]},{\"type\":\"string\",\"description\":\"list name\"},{\"type\":\"string\",\"description\":\"list id\"}],\"additionalItems\":{\"type\":\"number\"},\"minItems\":3,\"maxItems\":5},\"topLevelPrimitive\":{\"oneOf\":[{\"$ref\":\"#/definitions/variable_primitive\"},{\"$ref\":\"#/definitions/list_primitive\"}]},\"inputPrimitive\":{\"oneOf\":[{\"$ref\":\"#/definitions/num_primitive\"},{\"$ref\":\"#/definitions/color_primitive\"},{\"$ref\":\"#/definitions/text_primitive\"},{\"$ref\":\"#/definitions/broadcast_primitive\"},{\"$ref\":\"#/definitions/variable_primitive\"},{\"$ref\":\"#/definitions/list_primitive\"}]},\"block\":{\"type\":\"object\",\"properties\":{\"opcode\":{\"type\":\"string\"},\"comment\":{\"type\":\"string\"},\"inputs\":{\"type\":\"object\",\"additionalProperties\":{\"type\":\"array\",\"items\":[{\"type\":\"number\",\"enum\":[1,2,3],\"description\":\"1 = unobscured shadow, 2 = no shadow, 3 = obscured shadow\"}],\"additionalItems\":{\"oneOf\":[{\"$ref\":\"#/definitions/optionalString\"},{\"$ref\":\"#/definitions/inputPrimitive\"}]}}},\"fields\":{\"type\":\"object\"},\"next\":{\"$ref\":\"#/definitions/optionalString\"},\"topLevel\":{\"type\":\"boolean\"},\"parent\":{\"$ref\":\"#/definitions/optionalString\"},\"shadow\":{\"type\":\"boolean\"},\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"mutation\":{\"type\":\"object\",\"properties\":{\"tagName\":{\"type\":\"string\",\"enum\":[\"mutation\"]},\"children\":{\"type\":\"array\"},\"proccode\":{\"type\":\"string\"},\"argumentids\":{\"type\":\"string\"},\"warp\":{\"$ref\":\"#/definitions/boolOrOptBoolString\"},\"hasnext\":{\"$ref\":\"#/definitions/boolOrOptBoolString\"}}}},\"required\":[\"opcode\"]},\"comment\":{\"type\":\"object\",\"properties\":{\"blockId\":{\"$ref\":\"#/definitions/optionalString\"},\"text\":{\"type\":\"string\",\"maxLength\":8000},\"minimized\":{\"type\":\"boolean\"},\"x\":{\"$ref\":\"#/definitions/optionalNumber\"},\"y\":{\"$ref\":\"#/definitions/optionalNumber\"},\"width\":{\"type\":\"number\"},\"height\":{\"type\":\"number\"}},\"required\":[\"text\"]},\"stage\":{\"type\":\"object\",\"description\":\"Description of property (and/or property/value pairs) that are unique to the stage.\",\"properties\":{\"name\":{\"type\":\"string\",\"enum\":[\"Stage\"]},\"isStage\":{\"type\":\"boolean\",\"enum\":[true]},\"tempo\":{\"type\":\"number\"},\"videoTransparency\":{\"type\":\"number\"},\"videoState\":{\"type\":\"string\",\"enum\":[\"on\",\"off\",\"on-flipped\"]},\"layerOrder\":{\"type\":\"integer\",\"enum\":[0],\"description\":\"The layer order of the stage should be 0, if specified.\"}},\"required\":[\"name\",\"isStage\"]},\"sprite\":{\"type\":\"object\",\"description\":\"Description of property (and/or property/value pairs) for sprites.\",\"properties\":{\"name\":{\"type\":\"string\",\"not\":{\"enum\":[\"_stage_\"]}},\"isStage\":{\"type\":\"boolean\",\"enum\":[false]},\"visible\":{\"type\":\"boolean\"},\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"size\":{\"type\":\"number\"},\"direction\":{\"type\":\"number\"},\"draggable\":{\"type\":\"boolean\"},\"rotationStyle\":{\"type\":\"string\",\"enum\":[\"all around\",\"don't rotate\",\"left-right\"]},\"layerOrder\":{\"type\":\"integer\",\"minimum\":1,\"description\":\"The layer order of a sprite should be a positive number, if specified.\"}},\"required\":[\"name\",\"isStage\"]},\"target\":{\"type\":\"object\",\"description\":\"Properties common to both Scratch 3.0 Stage and Sprite\",\"properties\":{\"currentCostume\":{\"type\":\"integer\",\"minimum\":0},\"blocks\":{\"type\":\"object\",\"additionalProperties\":{\"oneOf\":[{\"$ref\":\"#/definitions/block\"},{\"$ref\":\"#/definitions/topLevelPrimitive\"}]}},\"variables\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/scalar_variable\"}},\"lists\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/list\"}},\"broadcasts\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/broadcast_message\"}},\"comments\":{\"type\":\"object\",\"additionalProperties\":{\"$ref\":\"#/definitions/comment\"}},\"costumes\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/costume\"},\"minItems\":1,\"uniqueItems\":true},\"sounds\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/sound\"},\"uniqueItems\":true},\"volume\":{\"type\":\"number\"}},\"required\":[\"variables\",\"costumes\",\"sounds\",\"blocks\"]}}}");
 
 /***/ }),
 
@@ -178721,7 +178721,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.4ffa8875afcfcd9a30bb.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.34d36ba6cab19da29102.js");
 };
 
 /***/ }),
@@ -180469,13 +180469,16 @@ class Scratch3OperatorsBlocks {
     return format(args.STRING1).includes(format(args.STRING2));
   }
   typeof(args) {
+    var _value$constructor;
     const value = args.VALUE;
-    const lowerCase = Cast.toString(value).toLowerCase();
-    // typeof returns 'object' for null
     if (value === null) return 'null';
     if (Array.isArray(value)) return 'array';
-    if (typeof value === "object" && value instanceof Object && !Array.isArray(value)) return 'object';
-    if (lowerCase == 'true' || lowerCase == 'false') return 'boolean';
+    if ((value === null || value === void 0 ? void 0 : (_value$constructor = value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) !== Object.prototype && typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string') {
+      return {
+        customType: true,
+        typeId: value.customId
+      };
+    }
     return typeof value;
   }
   isType(args) {
@@ -180512,39 +180515,33 @@ class Scratch3OperatorsBlocks {
         }
       case 'array':
         {
-          // typeof returns 'object' for null
-          if (value == null) return false;
-          return typeof value == 'object' && Array.isArray(value);
+          return Array.isArray(value);
         }
       case 'object':
         {
-          // typeof returns 'object' for null
-          if (value == null) return false;
-          return typeof value === "object" && value instanceof Object && !Array.isArray(value);
+          var _value$constructor2;
+          return !((value === null || value === void 0 ? void 0 : (_value$constructor2 = value.constructor) === null || _value$constructor2 === void 0 ? void 0 : _value$constructor2.prototype) !== Object.prototype && typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string') && typeof value === 'object' && value instanceof Object && !Array.isArray(value);
+        }
+      case 'custom type':
+        {
+          var _value$constructor3;
+          return (value === null || value === void 0 ? void 0 : (_value$constructor3 = value.constructor) === null || _value$constructor3 === void 0 ? void 0 : _value$constructor3.prototype) !== Object.prototype && typeof (value === null || value === void 0 ? void 0 : value.customId) === 'string';
         }
       default:
         return false;
     }
   }
   isString(args) {
-    const number = Cast.toNumber(args.STRING);
-    const string = Cast.toString(args.STRING);
-    if (number == 0 && args.STRING != '0' && args.STRING != '-0') {
-      if (Cast.isWhiteSpace(string)) {
-        return false;
-      } else {
-        return true;
-      }
-    }
-    return false;
+    return this.isType({
+      VALUE: args.STRING,
+      TYPE: 'string'
+    });
   }
   isNumber(args) {
-    if (typeof args.NUM == 'number') return true;
-    const number = Cast.toNumber(args.NUM);
-    if (number == 0 && args.NUM != '0' && args.NUM != '-0') {
-      return false;
-    }
-    return true;
+    return this.isType({
+      VALUE: args.NUM,
+      TYPE: 'number'
+    });
   }
   cast(args) {
     const value = args.VALUE;
@@ -189587,6 +189584,7 @@ class Runtime extends EventEmitter {
                 indexes.push(i);
                 break;
               } else if ('customType' in obj[i]) {
+                let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
                 if (!obj[i].customType) {
                   rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = obj[i].serialized;
                   startI = 0;
@@ -189596,7 +189594,6 @@ class Runtime extends EventEmitter {
                   const {
                     deserialize
                   } = this.serializers[obj[i].typeId];
-                  let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
                   rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = deserialize(obj[i].serialized, target);
                 } else {
                   throw new Error("Unknown custom serializer with id: ".concat(obj[i].typeId));
@@ -196325,7 +196322,7 @@ class ExampleDataType {
   toMonitorContent() {
     let el = document.createElement('span');
     el.textContent = this.value;
-    el.style.color = "#add7ff";
+    el.style.color = "#abffab";
     return el;
   }
   toReporterContent() {
@@ -196336,8 +196333,8 @@ class ExampleDataType {
   }
   toListItem() {
     let el = document.createElement('span');
-    el.textContent = "".concat(this.value, " (").concat(this.value2, ")");
-    el.style.color = "#add7ff";
+    el.textContent = this.value;
+    el.style.color = "#abffab";
     return el;
   }
   toListEditor() {
@@ -196376,9 +196373,12 @@ class DashCoreExample {
       name: 'Dash Core Example',
       // This string does not need to be translated as this extension is only used as an example.
       blocks: [{
-        blockType: BlockType.XML,
-        xml: "<sep gap='6'/><label text='Warning: Don't use these blocks'/><sep gap='-12'/><label text='for real projects!'/><sep gap='24'/>"
+        blockType: BlockType.LABEL,
+        text: 'Warning: Don\'t use these blocks'
       }, {
+        blockType: BlockType.LABEL,
+        text: 'in real projects!'
+      }, '---', {
         func: 'MAKE_A_VARIABLE',
         blockType: BlockType.BUTTON,
         text: 'Make a Variable (example)'
@@ -216518,6 +216518,7 @@ module.exports = Base64Util;
 /***/ (function(module, exports, __webpack_require__) {
 
 const Color = __webpack_require__(/*! ../util/color */ "./node_modules/scratch-vm/src/util/color.js");
+const ExtendedJSON = __webpack_require__(/*! @turbowarp/json */ "./node_modules/@turbowarp/json/src/index.js");
 
 /**
  * @fileoverview
@@ -216608,6 +216609,11 @@ class Cast {
    * @return {string} The Scratch-casted string value.
    */
   static toString(value) {
+    // Stringify JSON values
+    if (typeof value === 'object') {
+      return ExtendedJSON.stringify(value);
+    }
+    // Coerce other values
     return String(value);
   }
 
@@ -216617,11 +216623,13 @@ class Cast {
    * @return {Array} The Scratch-casted array value.
    */
   static toList(value) {
+    // Already an array?
     if (Array.isArray(value)) {
       return value;
     }
     try {
-      const result = JSON.parse(value);
+      // Try to parse
+      const result = ExtendedJSON.parse(value);
       return Array.isArray(result) ? result : [];
     } catch (_unused) {
       return [];
@@ -216634,11 +216642,13 @@ class Cast {
    * @return {Object} The Scratch-casted object value.
    */
   static toObject(value) {
+    // Already an object?
     if (typeof value === 'object' && value instanceof Object && !Array.isArray(value)) {
       return value;
     }
     try {
-      const result = JSON.parse(value);
+      // Try to parse
+      const result = ExtendedJSON.parse(value);
       return typeof result === 'object' && result instanceof Object && !Array.isArray(result) ? result : {};
     } catch (_unused2) {
       return {};
@@ -216652,11 +216662,13 @@ class Cast {
    * @return {(Array|Object)} The Scratch-casted array or object value.
    */
   static toJSON(value, arrayIfFail) {
+    // Already an array or an object?
     if (typeof value === 'object' && value instanceof Object) {
       return value;
     }
     try {
-      return JSON.parse(value);
+      // Try to parse
+      return ExtendedJSON.parse(value);
     } catch (_unused3) {
       return arrayIfFail ? [] : {};
     }
