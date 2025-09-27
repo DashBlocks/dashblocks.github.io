@@ -182066,7 +182066,7 @@ class ScriptTreeGenerator {
       case 'looks_geteffect':
         return {
           kind: 'looks.geteffect',
-          effect: block.fields.EFFECT.value
+          effect: block.fields.EFFECT.value.toLowerCase()
         };
       case 'looks_backdropnumbername':
         if (block.fields.NUMBER_NAME.value === 'number') {
