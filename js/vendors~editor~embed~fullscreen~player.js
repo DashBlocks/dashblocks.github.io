@@ -179772,6 +179772,7 @@ class Scratch3LooksBlocks {
       looks_thinkforsecs: this.thinkforsecs,
       looks_show: this.show,
       looks_hide: this.hide,
+      looks_isvisible: this.isVisible,
       looks_hideallsprites: () => {},
       // legacy no-op block
       looks_switchcostumeto: this.switchCostume,
@@ -179782,6 +179783,7 @@ class Scratch3LooksBlocks {
       looks_changeeffectby: this.changeEffect,
       looks_seteffectto: this.setEffect,
       looks_cleargraphiceffects: this.clearEffects,
+      looks_geteffect: this.getEffect,
       looks_changesizeby: this.changeSize,
       looks_setsizeto: this.setSize,
       looks_changestretchby: () => {},
@@ -179799,6 +179801,10 @@ class Scratch3LooksBlocks {
       looks_size: {
         isSpriteSpecific: true,
         getId: targetId => "".concat(targetId, "_size")
+      },
+      looks_isvisible: {
+        isSpriteSpecific: true,
+        getId: targetId => "".concat(targetId, "_isvisible")
       },
       looks_costumenumbername: {
         isSpriteSpecific: true,
@@ -179858,6 +179864,9 @@ class Scratch3LooksBlocks {
   hide(args, util) {
     util.target.setVisible(false);
     this._renderBubble(util.target);
+  }
+  isVisible(_, util) {
+    return util.target.visible;
   }
 
   /**
@@ -180010,6 +180019,11 @@ class Scratch3LooksBlocks {
   clearEffects(args, util) {
     util.target.clearEffects();
   }
+  getEffect(args, util) {
+    const effect = Cast.toString(args.EFFECT).toLowerCase();
+    if (!Object.prototype.hasOwnProperty.call(util.target.effects, effect)) return '';
+    return util.target.effects[effect];
+  }
   changeSize(args, util) {
     const change = Cast.toNumber(args.CHANGE);
     util.target.setSize(util.target.size + change);
@@ -180120,6 +180134,10 @@ class Scratch3MotionBlocks {
       motion_yposition: {
         isSpriteSpecific: true,
         getId: targetId => "".concat(targetId, "_yposition")
+      },
+      motion_position: {
+        isSpriteSpecific: true,
+        getId: targetId => "".concat(targetId, "_position")
       },
       motion_direction: {
         isSpriteSpecific: true,
@@ -181088,8 +181106,12 @@ class Scratch3SensingBlocks {
           return attrTarget.x;
         case 'y position':
           return attrTarget.y;
+        case 'position':
+          return [attrTarget.x, attrTarget.y];
         case 'direction':
           return attrTarget.direction;
+        case 'visibility':
+          return attrTarget.visible;
         case 'costume #':
           return attrTarget.currentCostume + 1;
         case 'costume name':
@@ -182037,6 +182059,15 @@ class ScriptTreeGenerator {
             value: broadcastName
           };
         }
+      case 'looks_isvisible':
+        return {
+          kind: 'looks.isvisible'
+        };
+      case 'looks_geteffect':
+        return {
+          kind: 'looks.geteffect',
+          effect: block.fields.EFFECT.value
+        };
       case 'looks_backdropnumbername':
         if (block.fields.NUMBER_NAME.value === 'number') {
           return {
@@ -182600,7 +182631,7 @@ class ScriptTreeGenerator {
             const blockInfo = this.getBlockInfo(block.opcode);
             if (blockInfo) {
               const type = blockInfo.info.blockType;
-              if (type === BlockType.REPORTER || type === BlockType.BOOLEAN) {
+              if (type === BlockType.REPORTER || type === BlockType.BOOLEAN || type === BlockType.ARRAY || type === BlockType.OBJECT) {
                 return this.descendCompatLayer(block);
               }
             }
@@ -184387,6 +184418,13 @@ class JSGenerator {
         return new TypedInput("listIndexOf(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.item).asUnknown(), ")"), TYPE_NUMBER);
       case 'list.length':
         return new TypedInput("".concat(this.referenceVariable(node.list), ".value.length"), TYPE_NUMBER);
+      case 'looks.isvisible':
+        return new TypedInput('target.visible', TYPE_BOOLEAN);
+      case 'looks.geteffect':
+        if (this.evaluateOnce("Object.prototype.hasOwnProperty.call(target.effects, \"".concat(sanitize(node.effect), "\")"))) {
+          return new TypedInput("target.effects[\"".concat(sanitize(node.effect), "\"]"), TYPE_NUMBER);
+        }
+        return new TypedInput('""', TYPE_STRING);
       case 'looks.size':
         return new TypedInput('Math.round(target.size)', TYPE_NUMBER);
       case 'looks.backdropName':
@@ -184437,12 +184475,12 @@ class JSGenerator {
       case 'op.typeof':
         {
           const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.typeof({".concat(args, "})"), TYPE_BOOLEAN);
+          return new TypedInput("runtime.ext_scratch3_operators.typeof({".concat(args, "})"), TYPE_UNKNOWN);
         }
       case 'op.isType':
         {
           const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), ",\n            \"TYPE\":\"").concat(sanitize(node.type), "\"\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.isType({".concat(args, "})"), TYPE_UNKNOWN);
+          return new TypedInput("runtime.ext_scratch3_operators.isType({".concat(args, "})"), TYPE_BOOLEAN);
         }
       case 'op.isString':
         {
@@ -184680,8 +184718,12 @@ class JSGenerator {
                   return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".x : 0)"), TYPE_NUMBER);
                 case 'y position':
                   return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".y : 0)"), TYPE_NUMBER);
+                case 'position':
+                  return new TypedInput("(".concat(objectReference, " ? [").concat(objectReference, ".x, ").concat(objectReference, ".y] : 0)"), TYPE_UNKNOWN);
                 case 'direction':
                   return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".direction : 0)"), TYPE_NUMBER);
+                case 'visibility':
+                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".visible : 0)"), TYPE_UNKNOWN);
                 case 'costume #':
                   return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".currentCostume + 1 : 0)"), TYPE_NUMBER);
                 case 'costume name':
@@ -189511,22 +189553,28 @@ class Runtime extends EventEmitter {
       // Not actual a custom serializer, but it needed for serializing/deserializing Object/Array
       json_json: {
         isValueSafeForSerializedJSON: value => typeof value === 'number' || typeof value === 'string' || typeof value === 'boolean',
+        valueByPath: (json, path) => path.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], json),
         serialize: value => {
+          const jsonSerializer = this.serializers.json_json;
+          const result = Array.isArray(value) ? [] : {};
           const indexes = [];
           let run = true;
           let startI = 0;
           while (run) {
-            let obj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+            let obj = jsonSerializer.valueByPath(value, indexes);
             let objIsArray = Array.isArray(obj);
-            obj = Array.isArray(obj) ? obj : Object.values(obj);
+            obj = objIsArray ? obj : Object.values(obj);
             let i = startI;
             while (i < obj.length) {
               var _obj$i, _obj$i$constructor, _obj$i2;
+              let rawObj = jsonSerializer.valueByPath(result, indexes);
               if (Array.isArray(obj[i])) {
+                rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = [];
                 startI = 0;
                 indexes.push(i);
                 break;
               } else if (((_obj$i = obj[i]) === null || _obj$i === void 0 ? void 0 : (_obj$i$constructor = _obj$i.constructor) === null || _obj$i$constructor === void 0 ? void 0 : _obj$i$constructor.prototype) === Object.prototype) {
+                rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = {};
                 startI = 0;
                 indexes.push(i);
                 break;
@@ -189535,7 +189583,6 @@ class Runtime extends EventEmitter {
                   const {
                     serialize
                   } = this.serializers[obj[i].customId];
-                  let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
                   rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = {
                     customType: true,
                     typeId: obj[i].customId,
@@ -189544,15 +189591,16 @@ class Runtime extends EventEmitter {
                 } else {
                   throw new Error("Unknown custom serializer with id: ".concat(obj[i].customId));
                 }
-              } else if (!this.serializers.json_json.isValueSafeForSerializedJSON(obj[i])) {
-                let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+              } else if (!jsonSerializer.isValueSafeForSerializedJSON(obj[i])) {
                 rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = String(obj[i]);
+              } else {
+                rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = obj[i];
               }
               i++;
             }
             if (indexes.length > 0 && i >= obj.length) {
               if (!objIsArray) {
-                let rawObj = indexes.toSpliced(indexes.length - 1, 1).reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                let rawObj = jsonSerializer.valueByPath(result, indexes.toSpliced(indexes.length - 1, 1));
                 rawObj[Array.isArray(rawObj) ? indexes[indexes.length - 1] : Object.keys(rawObj)[indexes[indexes.length - 1]]] = {
                   customType: false,
                   serialized: rawObj[Array.isArray(rawObj) ? indexes[indexes.length - 1] : Object.keys(rawObj)[indexes[indexes.length - 1]]]
@@ -189564,14 +189612,15 @@ class Runtime extends EventEmitter {
               run = false;
             }
           }
-          return value;
+          return result;
         },
         deserialize: (value, target) => {
+          const jsonSerializer = this.serializers.json_json;
           const indexes = [];
           let run = true;
           let startI = 0;
           while (run) {
-            let obj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+            let obj = jsonSerializer.valueByPath(value, indexes);
             obj = Array.isArray(obj) ? obj : Object.values(obj);
             let i = startI;
             while (i < obj.length) {
@@ -189584,7 +189633,7 @@ class Runtime extends EventEmitter {
                 indexes.push(i);
                 break;
               } else if ('customType' in obj[i]) {
-                let rawObj = indexes.reduce((acc, i) => Array.isArray(acc) ? acc[i] : acc[Object.keys(acc)[i]], value);
+                let rawObj = jsonSerializer.valueByPath(value, indexes);
                 if (!obj[i].customType) {
                   rawObj[Array.isArray(rawObj) ? i : Object.keys(rawObj)[i]] = obj[i].serialized;
                   startI = 0;
@@ -196328,6 +196377,12 @@ class ExampleDataType {
   toReporterContent() {
     let el = document.createElement('span');
     el.textContent = "".concat(this.value, " (").concat(this.value2, ")");
+    el.style.color = "#0088ff";
+    return el;
+  }
+  toReporterJSONItem() {
+    let el = document.createElement('span');
+    el.textContent = this.value;
     el.style.color = "#0088ff";
     return el;
   }

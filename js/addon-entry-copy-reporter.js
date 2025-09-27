@@ -101,7 +101,18 @@ __webpack_require__.r(__webpack_exports__);
     let contentDiv = ScratchBlocks.DropDownDiv.getContentDiv();
     let valueReportBox = document.createElement("div");
     valueReportBox.setAttribute("class", "valueReportBox");
-    valueReportBox.innerText = value;
+    if (Array.isArray(value)) {
+      valueReportBox.appendChild(this.generateReporterJSONContent(value));
+    } else if (typeof value === 'object' && value !== null) {
+      var _value$constructor;
+      if ((value === null || value === void 0 ? void 0 : (_value$constructor = value.constructor) === null || _value$constructor === void 0 ? void 0 : _value$constructor.prototype) !== Object.prototype && typeof value.customId === 'string' && typeof value.toReporterContent === 'function') {
+        valueReportBox.appendChild(value.toReporterContent());
+      } else {
+        valueReportBox.appendChild(this.generateReporterJSONContent(value));
+      }
+    } else {
+      valueReportBox.textContent = String(value);
+    }
     if (!addon.self.disabled) {
       // use to get focus and event priority
       valueReportBox.setAttribute("tabindex", "0");
@@ -111,7 +122,7 @@ __webpack_require__.r(__webpack_exports__);
           event.stopPropagation();
         }
       };
-      if (value.length !== 0) {
+      if (value !== "" && !(typeof value === 'object' && value instanceof Object)) {
         const copyButton = document.createElement("img");
         copyButton.setAttribute("role", "button");
         copyButton.setAttribute("tabindex", "0");
@@ -119,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
         copyButton.setAttribute("src", addon.self.getResource("/copy.svg")) /* rewritten by pull.js */;
         copyButton.classList.add("sa-copy-reporter-icon");
         addon.tab.displayNoneWhileDisabled(copyButton);
-        copyButton.onclick = () => navigator.clipboard.writeText(value);
+        copyButton.onclick = () => navigator.clipboard.writeText(String(value));
         valueReportBox.appendChild(copyButton);
       }
     }

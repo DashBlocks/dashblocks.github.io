@@ -1193,7 +1193,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.custom-procedures_modal-content_Zjko5 {\n    width: 700px;\n    margin: 50px auto; /* This modal is taller than most, reduce top margin */\n}\n\n.custom-procedures_body_SQBv6 {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n}\n\n.custom-procedures_body_SQBv6 input[type=\"checkbox\"],\n.custom-procedures_body_SQBv6 input[type=\"radio\"] {\n    margin: 3px;\n}\n\n/* Blocks workspace for custom procedure declaration editor */\n\n.custom-procedures_workspace_1d2uW {\n    min-height: 200px;\n    position: relative;\n}\n\n.custom-procedures_workspace_1d2uW .injectionDiv{\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n}\n\n.custom-procedures_workspace_1d2uW .blocklySvg {\n    background-color: var(--ui-primary);\n}\n\n/* Row of \"card\" buttons for modifying custom procedures */\n\n.custom-procedures_options-row_1PqLE {\n    display: flex;\n    justify-content: space-between;\n}\n\n.custom-procedures_option-card_BtHt3 {\n    background: var(--ui-white);\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n    padding: calc(0.5rem * 2);\n    text-align: center;\n    flex-grow: 1;\n    cursor: pointer;\n    transition: all 0.2s;\n    flex-basis: 100px;\n}\n\n.custom-procedures_option-card_BtHt3:hover {\n    border: 2px solid var(--looks-secondary);\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\n}\n\n.custom-procedures_option-card_BtHt3 + .custom-procedures_option-card_BtHt3 {\n    margin-left: 1rem;\n}\n\n.custom-procedures_option-icon_2y7hh {\n    max-height: 48px;\n    margin-bottom: 0.5rem;\n}\n\n.custom-procedures_option-title_3v6va {\n    font-weight: bold;\n}\n\n/* Color options row */\n\n.custom-procedures_color-row_1yo9K {\n    display: flex;\n    justify-content: space-between;\n    text-align: center;\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n    padding: calc(0.5rem * 1);\n    margin-top: 1rem;\n    flex-grow: 1;\n    flex-basis: 100px;\n    gap: 0.5rem;\n    background: var(--ui-white);\n}\n\n.custom-procedures_color-option_2quGN {\n    cursor: pointer;\n    height: 35px;\n    width: 35px;\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 50%;\n    padding: calc(0.5rem * 1);\n    transition: all 0.2s;\n}\n\n.custom-procedures_color-option_2quGN:hover {\n    border: 2px solid var(--looks-secondary);\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\n}\n\n.custom-procedures_color-picker_2PKZR {\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.custom-procedures_color-picker_2PKZR::-moz-color-swatch,\n.custom-procedures_color-picker_2PKZR::-webkit-color-swatch {\n    border: none;\n    height: 0;\n    width: 0;\n}\n\n.custom-procedures_color-picker_2PKZR::-webkit-color-swatch-wrapper {\n    height: 0;\n    width: 0;\n    padding: 0;\n}\n\n.custom-procedures_color-picker_2PKZR::after {\n    content: url(" + escape(__webpack_require__(/*! ./icon--palette.svg */ "./src/components/custom-procedures/icon--palette.svg")) + ");\n    position: absolute;\n    height: 24px;\n    width: 24px;\n}\n\n/* \"Run without screen refresh\" row */\n\n.custom-procedures_checkbox-row_rPP8j {\n    margin-top: 1rem;\n}\n\n/* Confirmation buttons at the bottom of the modal */\n\n.custom-procedures_button-row_2jBu3 {\n    margin-top: 1rem;\n    font-weight: bolder;\n    text-align: right;\n}\n\n.custom-procedures_button-row_2jBu3 button {\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 0.25rem;\n    padding: 0.75rem 1rem;\n    background: white;\n    color: black;\n    font-weight: bold;\n    font-size: 0.85rem;\n}\n\n.custom-procedures_button-row_2jBu3 button.custom-procedures_ok-button_2X0Vj {\n    background: var(--looks-secondary);\n    border: var(--looks-secondary);\n    color: white;\n}\n\n[dir=\"ltr\"] .custom-procedures_button-row_2jBu3 button + button {\n    margin-left: 0.5rem;\n}\n\n[dir=\"rtl\"] .custom-procedures_button-row_2jBu3 button + button {\n    margin-right: 0.5rem;\n}\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* make sure to keep these in sync with other constants,\ne.g. STAGE_DIMENSION_DEFAULTS in lib/screen-utils.js */\n\n/* layout contants from `layout-constants.js` */\n\n.custom-procedures_modal-content_Zjko5 {\n    width: 700px;\n    margin: 50px auto; /* This modal is taller than most, reduce top margin */\n}\n\n.custom-procedures_body_SQBv6 {\n    background: var(--ui-modal-background);\n    padding: 1.5rem 2.25rem;\n}\n\n.custom-procedures_body_SQBv6 input[type=\"checkbox\"],\n.custom-procedures_body_SQBv6 input[type=\"radio\"] {\n    margin: 3px;\n}\n\n/* Blocks workspace for custom procedure declaration editor */\n\n.custom-procedures_workspace_1d2uW {\n    min-height: 200px;\n    position: relative;\n}\n\n.custom-procedures_workspace_1d2uW .injectionDiv{\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n}\n\n.custom-procedures_workspace_1d2uW .blocklySvg {\n    background-color: var(--ui-primary);\n}\n\n/* Row of \"card\" buttons for modifying custom procedures */\n\n.custom-procedures_options-row_1PqLE {\n    display: flex;\n    justify-content: space-between;\n}\n\n.custom-procedures_option-card_BtHt3 {\n    background: var(--ui-white);\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n    padding: calc(0.5rem * 2);\n    text-align: center;\n    flex-grow: 1;\n    cursor: pointer;\n    transition: all 0.2s;\n    flex-basis: 100px;\n}\n\n.custom-procedures_option-card_BtHt3:hover {\n    border: 2px solid var(--looks-secondary);\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\n}\n\n.custom-procedures_option-card_BtHt3 + .custom-procedures_option-card_BtHt3 {\n    margin-left: 1rem;\n}\n\n.custom-procedures_option-icon_2y7hh {\n    max-height: 48px;\n    margin-bottom: 0.5rem;\n}\n\n.custom-procedures_option-title_3v6va {\n    font-weight: bold;\n}\n\n/* Color options row */\n\n.custom-procedures_color-row_1yo9K {\n    display: flex;\n    justify-content: center;\n    text-align: center;\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n    padding: calc(0.5rem * 1);\n    margin-top: 1rem;\n    flex-wrap: wrap;\n    flex-grow: 1;\n    flex-basis: 100px;\n    gap: 0.5rem;\n    background: var(--ui-white);\n}\n\n.custom-procedures_color-option_2quGN {\n    cursor: pointer;\n    height: 35px;\n    width: 35px;\n    border: 2px solid var(--ui-black-transparent);\n    border-radius: 50%;\n    padding: calc(0.5rem * 1);\n    transition: all 0.2s;\n}\n\n.custom-procedures_color-option_2quGN:hover {\n    border: 2px solid var(--looks-secondary);\n    box-shadow: 0px 0px 0px 4px var(--looks-transparent);\n}\n\n.custom-procedures_color-picker_2PKZR {\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.custom-procedures_color-picker_2PKZR::-moz-color-swatch,\n.custom-procedures_color-picker_2PKZR::-webkit-color-swatch {\n    border: none;\n    height: 0;\n    width: 0;\n}\n\n.custom-procedures_color-picker_2PKZR::-webkit-color-swatch-wrapper {\n    height: 0;\n    width: 0;\n    padding: 0;\n}\n\n.custom-procedures_color-picker_2PKZR::after {\n    content: url(" + escape(__webpack_require__(/*! ./icon--palette.svg */ "./src/components/custom-procedures/icon--palette.svg")) + ");\n    position: absolute;\n    height: 24px;\n    width: 24px;\n}\n\n/* \"Run without screen refresh\" row */\n\n.custom-procedures_checkbox-row_rPP8j {\n    margin-top: 1rem;\n}\n\n/* Confirmation buttons at the bottom of the modal */\n\n.custom-procedures_button-row_2jBu3 {\n    margin-top: 1rem;\n    font-weight: bolder;\n    text-align: right;\n}\n\n.custom-procedures_button-row_2jBu3 button {\n    border: 1px solid var(--ui-black-transparent);\n    border-radius: 0.25rem;\n    padding: 0.75rem 1rem;\n    background: white;\n    color: black;\n    font-weight: bold;\n    font-size: 0.85rem;\n}\n\n.custom-procedures_button-row_2jBu3 button.custom-procedures_ok-button_2X0Vj {\n    background: var(--looks-secondary);\n    border: var(--looks-secondary);\n    color: white;\n}\n\n[dir=\"ltr\"] .custom-procedures_button-row_2jBu3 button + button {\n    margin-left: 0.5rem;\n}\n\n[dir=\"rtl\"] .custom-procedures_button-row_2jBu3 button + button {\n    margin-right: 0.5rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -5570,7 +5570,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/78e3f697df85275aa8d384ca6fc0e288.svg";
+module.exports = __webpack_require__.p + "static/assets/868ab27113a856134dccc46672769574.svg";
 
 /***/ }),
 
@@ -9792,6 +9792,15 @@ const CustomProcedures = props => {
     role: "button",
     draggable: false,
     onClick: () => props.setColor(_lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"][category].primary)
+  })), props.vm.runtime._blockInfo.filter(extInfo => extInfo.color1.toLowerCase() !== _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"].pen.primary.toLowerCase()).map((extInfo, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    key: index,
+    style: {
+      backgroundColor: Object.keys(themeObj).length === 0 ? extInfo.color1 : themeObj.primary(extInfo.color1)
+    },
+    className: _custom_procedures_css__WEBPACK_IMPORTED_MODULE_12___default.a.colorOption,
+    role: "button",
+    draggable: false,
+    onClick: () => props.setColor(extInfo.color1)
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
     style: {
       backgroundColor: Object.keys(themeObj).length === 0 ? (_props$color = props.color) !== null && _props$color !== void 0 ? _props$color : ScratchBlocks.Colours.more.primary : themeObj.primary((_props$color2 = props.color) !== null && _props$color2 !== void 0 ? _props$color2 : _lib_themes_blocks_three__WEBPACK_IMPORTED_MODULE_8__["blockColors"].more.primary)
@@ -9837,7 +9846,8 @@ CustomProcedures.propTypes = {
   warp: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired
 };
 const mapStateToProps = state => ({
-  theme: state.scratchGui.theme.theme
+  theme: state.scratchGui.theme.theme,
+  vm: state.scratchGui.vm
 });
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["injectIntl"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["connect"])(mapStateToProps)(CustomProcedures)));
 
@@ -12343,7 +12353,7 @@ class LibraryComponent extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Comp
       insetIconURL: dataItem.insetIconURL,
       internetConnectionRequired: dataItem.internetConnectionRequired,
       isPlaying: this.state.playingItem === index,
-      key: dataItem.key || (typeof dataItem.name === 'string' ? dataItem.name : dataItem.rawURL),
+      key: dataItem.key || (dataItem.id ? dataItem.id : typeof dataItem.name === 'string' ? dataItem.name : dataItem.rawURL),
       name: dataItem.name,
       credits: dataItem.credits,
       samples: dataItem.samples,
@@ -30188,7 +30198,7 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
     }
   }
   handleItemSelect(item) {
-    if (item.href) {
+    if (!item || item.href) {
       return;
     }
     const extensionId = item.extensionId;
@@ -31749,6 +31759,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_monitor_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/monitor/object-monitor.jsx */ "./src/components/monitor/object-monitor.jsx");
 /* harmony import */ var immutable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! immutable */ "./node_modules/immutable/dist/immutable.js");
 /* harmony import */ var immutable__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(immutable__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _prompt_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./prompt.jsx */ "./src/containers/prompt.jsx");
 const _excluded = ["vm"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -31762,11 +31773,14 @@ function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t =
 
 
 
+
 class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
   constructor(props) {
     super(props);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleActivate', 'handleDeactivate', 'handleInput', 'handleRemove', 'handleKeyPress', 'handleFocus', 'handleAdd', 'handleResizeMouseDown']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(this, ['handleActivate', 'handleDeactivate', 'handleInput', 'handleRemove', 'handleKeyPress', 'handleFocus', 'handleAdd', 'handleOk', 'handleCancel', 'handleResizeMouseDown']);
     this.state = {
+      prompt: false,
+      draggable: true,
       activeIndex: null,
       activeValue: null,
       width: props.width || 100,
@@ -31801,8 +31815,8 @@ class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compone
     }
   }
   handleFocus(e) {
-    // Select all the text in the input when it is focused.
-    e.target.select();
+    // Select all the text in the input when it is focused and prompt is not opened.
+    if (!this.state.prompt) e.target.select();
   }
   handleKeyPress(e) {
     // Special case for tab, arrow keys and enter.
@@ -31851,7 +31865,21 @@ class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compone
   }
   handleAdd() {
     // Add button appends a blank value and switches to it
-    const key = prompt('Enter key...', 'key'); // TODO: replace prompt method
+    this.handleDeactivate();
+    this.setState({
+      prompt: true,
+      draggable: false
+    });
+  }
+  handleOk(key) {
+    if (!key) {
+      this.setState({
+        prompt: false,
+        draggable: true
+      });
+      return;
+    }
+    ;
     const {
       vm,
       targetId,
@@ -31860,13 +31888,25 @@ class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compone
     const newObjectValue = Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["getVariableValue"])(vm, targetId, variableId);
     if (Object.keys(newObjectValue).includes(key)) {
       alert("Value with the key \"".concat(key, "\" already exists!"));
+      this.setState({
+        prompt: false,
+        draggable: true
+      });
       return;
     }
     newObjectValue[key] = '';
     Object(_lib_variable_utils__WEBPACK_IMPORTED_MODULE_6__["setVariableValue"])(vm, targetId, variableId, newObjectValue);
     this.setState({
       activeIndex: Object.keys(newObjectValue).length - 1,
-      activeValue: ''
+      activeValue: '',
+      prompt: false,
+      draggable: true
+    });
+  }
+  handleCancel() {
+    this.setState({
+      prompt: false,
+      draggable: true
     });
   }
   handleResizeMouseDown(e) {
@@ -31904,7 +31944,18 @@ class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compone
         vm // eslint-disable-line no-unused-vars
       } = _this$props,
       props = _objectWithoutProperties(_this$props, _excluded);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_monitor_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], _extends({}, props, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, this.state.prompt && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_prompt_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      title: "New Item",
+      label: "Enter key for new item in object.",
+      defaultValue: "key",
+      onOk: this.handleOk,
+      onCancel: this.handleCancel,
+      showVariableOptions: false,
+      showCloudOption: false,
+      showListMessage: false,
+      isStage: false,
+      vm: vm
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_monitor_object_monitor_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], _extends({}, props, {
       activeIndex: this.state.activeIndex,
       activeValue: this.state.activeValue,
       height: this.state.height,
@@ -31916,8 +31967,9 @@ class ObjectMonitor extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Compone
       onInput: this.handleInput,
       onKeyPress: this.handleKeyPress,
       onRemove: this.handleRemove,
-      onResizeMouseDown: this.handleResizeMouseDown
-    }));
+      onResizeMouseDown: this.handleResizeMouseDown,
+      draggable: this.state.draggable
+    })));
   }
 }
 ObjectMonitor.propTypes = {
@@ -32403,7 +32455,7 @@ class Prompt extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(this, ['handleOk', 'handleScopeOptionSelection', 'handleCancel', 'handleChange', 'handleKeyPress', 'handleCloudVariableOptionChange']);
     this.state = {
       isAddingCloudVariableScratchSafe: props.vm && props.vm.runtime.getNumberOfCloudVariables() < _lib_tw_cloud_limits_js__WEBPACK_IMPORTED_MODULE_5__["SCRATCH_MAX_CLOUD_VARIABLES"] || false,
-      inputValue: '',
+      inputValue: props.defaultValue || '',
       globalSelected: true,
       cloudSelected: false,
       canAddCloudVariable: props.vm && props.vm.runtime.canAddCloudVariable() || false
@@ -40372,7 +40424,7 @@ __webpack_require__.r(__webpack_exports__);
     // Called every time it opens since it depends on the values in the other block input.
     const menuFn = function menuFn() {
       const stageOptions = [[ScratchBlocks.Msg.SENSING_OF_BACKDROPNUMBER, 'backdrop #'], [ScratchBlocks.Msg.SENSING_OF_BACKDROPNAME, 'backdrop name'], [ScratchBlocks.Msg.SENSING_OF_VOLUME, 'volume']];
-      const spriteOptions = [[ScratchBlocks.Msg.SENSING_OF_XPOSITION, 'x position'], [ScratchBlocks.Msg.SENSING_OF_YPOSITION, 'y position'], [ScratchBlocks.Msg.SENSING_OF_DIRECTION, 'direction'], [ScratchBlocks.Msg.SENSING_OF_COSTUMENUMBER, 'costume #'], [ScratchBlocks.Msg.SENSING_OF_COSTUMENAME, 'costume name'], [ScratchBlocks.Msg.SENSING_OF_SIZE, 'size'], [ScratchBlocks.Msg.SENSING_OF_VOLUME, 'volume']];
+      const spriteOptions = [[ScratchBlocks.Msg.SENSING_OF_XPOSITION, 'x position'], [ScratchBlocks.Msg.SENSING_OF_YPOSITION, 'y position'], [ScratchBlocks.Msg.SENSING_OF_POSITION, 'position'], [ScratchBlocks.Msg.SENSING_OF_DIRECTION, 'direction'], [ScratchBlocks.Msg.SENSING_OF_ISVISIBLE, 'visibility'], [ScratchBlocks.Msg.SENSING_OF_COSTUMENUMBER, 'costume #'], [ScratchBlocks.Msg.SENSING_OF_COSTUMENAME, 'costume name'], [ScratchBlocks.Msg.SENSING_OF_SIZE, 'size'], [ScratchBlocks.Msg.SENSING_OF_VOLUME, 'volume']];
       if (vm.editingTarget) {
         let lookupBlocks = vm.editingTarget.blocks;
         let sensingOfBlock = lookupBlocks.getBlock(blockId);
@@ -44069,7 +44121,7 @@ const looks = function looks(isInitialSetup, isStage, targetId, costumeName, bac
   const hello = translate('LOOKS_HELLO', 'Hello!');
   const hmm = translate('LOOKS_HMM', 'Hmm...');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category name=\"%{BKY_CATEGORY_LOOKS}\" id=\"looks\" colour=\"".concat(colors.primary, "\" secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n        <block type=\"looks_sayforsecs\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">".concat(hello, "</field>\n                </shadow>\n            </value>\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">2</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_say\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hello, "</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_thinkforsecs\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hmm, "</field>\n                </shadow>\n            </value>\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">2</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_think\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hmm, "</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        "), "\n        ").concat(isStage ? "\n            <block type=\"looks_switchbackdropto\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">".concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_switchbackdroptoandwait\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">").concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextbackdrop\"/>\n        ") : "\n            <block id=\"".concat(targetId, "_switchcostumeto\" type=\"looks_switchcostumeto\">\n                <value name=\"COSTUME\">\n                    <shadow type=\"looks_costume\">\n                        <field name=\"COSTUME\">").concat(costumeName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextcostume\"/>\n            <block type=\"looks_switchbackdropto\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">").concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextbackdrop\"/>\n            ").concat(blockSeparator, "\n            <block type=\"looks_changesizeby\">\n                <value name=\"CHANGE\">\n                    <shadow type=\"math_number\">\n                        <field name=\"NUM\">10</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_setsizeto\">\n                <value name=\"SIZE\">\n                    <shadow type=\"math_number\">\n                        <field name=\"NUM\">100</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"looks_changeeffectby\">\n            <value name=\"CHANGE\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">25</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_seteffectto\">\n            <value name=\"VALUE\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_cleargraphiceffects\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? '' : "\n            <block type=\"looks_show\"/>\n            <block type=\"looks_hide\"/>\n        ".concat(blockSeparator, "\n            <block type=\"looks_gotofrontback\"/>\n            <block type=\"looks_goforwardbackwardlayers\">\n                <value name=\"NUM\">\n                    <shadow type=\"math_integer\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        ").concat(isStage ? "\n            <block id=\"backdropnumbername\" type=\"looks_backdropnumbername\"/>\n        " : "\n            <block id=\"".concat(targetId, "_costumenumbername\" type=\"looks_costumenumbername\"/>\n            <block id=\"backdropnumbername\" type=\"looks_backdropnumbername\"/>\n            <block id=\"").concat(targetId, "_size\" type=\"looks_size\"/>\n        "), "\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category name=\"%{BKY_CATEGORY_LOOKS}\" id=\"looks\" colour=\"".concat(colors.primary, "\" secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n        <block type=\"looks_sayforsecs\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">".concat(hello, "</field>\n                </shadow>\n            </value>\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">2</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_say\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hello, "</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_thinkforsecs\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hmm, "</field>\n                </shadow>\n            </value>\n            <value name=\"SECS\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">2</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_think\">\n            <value name=\"MESSAGE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(hmm, "</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        "), "\n        ").concat(isStage ? "\n            <block type=\"looks_switchbackdropto\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">".concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_switchbackdroptoandwait\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">").concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextbackdrop\"/>\n        ") : "\n            <block id=\"".concat(targetId, "_switchcostumeto\" type=\"looks_switchcostumeto\">\n                <value name=\"COSTUME\">\n                    <shadow type=\"looks_costume\">\n                        <field name=\"COSTUME\">").concat(costumeName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextcostume\"/>\n            <block type=\"looks_switchbackdropto\">\n                <value name=\"BACKDROP\">\n                    <shadow type=\"looks_backdrops\">\n                        <field name=\"BACKDROP\">").concat(backdropName, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_nextbackdrop\"/>\n            ").concat(blockSeparator, "\n            <block type=\"looks_changesizeby\">\n                <value name=\"CHANGE\">\n                    <shadow type=\"math_number\">\n                        <field name=\"NUM\">10</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"looks_setsizeto\">\n                <value name=\"SIZE\">\n                    <shadow type=\"math_number\">\n                        <field name=\"NUM\">100</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"looks_changeeffectby\">\n            <value name=\"CHANGE\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">25</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_seteffectto\">\n            <value name=\"VALUE\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">0</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"looks_cleargraphiceffects\"/>\n        <block type=\"looks_geteffect\"/>\n        ").concat(blockSeparator, "\n        ").concat(isStage ? '' : "\n            <block type=\"looks_show\"/>\n            <block type=\"looks_hide\"/>\n            <block type=\"looks_isvisible\"/>\n        ".concat(blockSeparator, "\n            <block type=\"looks_gotofrontback\"/>\n            <block type=\"looks_goforwardbackwardlayers\">\n                <value name=\"NUM\">\n                    <shadow type=\"math_integer\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        ").concat(isStage ? "\n            <block id=\"backdropnumbername\" type=\"looks_backdropnumbername\"/>\n        " : "\n            <block id=\"".concat(targetId, "_costumenumbername\" type=\"looks_costumenumbername\"/>\n            <block id=\"backdropnumbername\" type=\"looks_backdropnumbername\"/>\n            <block id=\"").concat(targetId, "_size\" type=\"looks_size\"/>\n        "), "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const sound = function sound(isInitialSetup, isStage, targetId, soundName, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
@@ -44491,6 +44543,10 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_0__["defineMessages"
     "defaultMessage": "position"
   },
   // Looks
+  looks_isvisible: {
+    "id": "dash.opcode.isvisible",
+    "defaultMessage": "visible?"
+  },
   looks_size: {
     "id": "gui.opcodeLabels.size",
     "defaultMessage": "size"
@@ -44620,6 +44676,9 @@ class OpcodeLabels {
         category: 'motion'
       },
       // Looks
+      looks_isvisible: {
+        category: 'looks'
+      },
       looks_size: {
         category: 'looks'
       },
@@ -44709,6 +44768,7 @@ class OpcodeLabels {
     this._opcodeMap.motion_position.labelFn = () => this._translator(messages.motion_position);
 
     // Looks
+    this._opcodeMap.looks_isvisible.labelFn = () => this._translator(messages.looks_isvisible);
     this._opcodeMap.looks_size.labelFn = () => this._translator(messages.looks_size);
     this._opcodeMap.looks_costumenumbername.labelFn = params => {
       if (params.NUMBER_NAME === 'number') {
@@ -47419,6 +47479,7 @@ const PackagerIntegrationHOC = function PackagerIntegrationHOC(WrappedComponent)
         return;
       }
       const packagerData = e.data.p4;
+      if (!packagerData) return;
       if (packagerData.type !== 'ready-for-import') {
         return;
       }

@@ -5783,7 +5783,7 @@ class BlockTypeInfo {
 
       // Adapted from https://github.com/scratchfoundation/scratch-gui/blob/cc6e6324064493cf1788f3c7c0ff31e4057964ee/src/lib/blocks.js#L230
       const stageOptions = [[Blockly.Msg.SENSING_OF_BACKDROPNUMBER, "backdrop #"], [Blockly.Msg.SENSING_OF_BACKDROPNAME, "backdrop name"], [Blockly.Msg.SENSING_OF_VOLUME, "volume"]];
-      const spriteOptions = [[Blockly.Msg.SENSING_OF_XPOSITION, "x position"], [Blockly.Msg.SENSING_OF_YPOSITION, "y position"], [Blockly.Msg.SENSING_OF_DIRECTION, "direction"], [Blockly.Msg.SENSING_OF_COSTUMENUMBER, "costume #"], [Blockly.Msg.SENSING_OF_COSTUMENAME, "costume name"], [Blockly.Msg.SENSING_OF_SIZE, "size"], [Blockly.Msg.SENSING_OF_VOLUME, "volume"]];
+      const spriteOptions = [[Blockly.Msg.SENSING_OF_XPOSITION, "x position"], [Blockly.Msg.SENSING_OF_YPOSITION, "y position"], [Blockly.Msg.SENSING_OF_POSITION, 'position'], [Blockly.Msg.SENSING_OF_DIRECTION, 'direction'], [Blockly.Msg.SENSING_OF_ISVISIBLE, 'visibility'], [Blockly.Msg.SENSING_OF_COSTUMENUMBER, "costume #"], [Blockly.Msg.SENSING_OF_COSTUMENAME, "costume name"], [Blockly.Msg.SENSING_OF_SIZE, "size"], [Blockly.Msg.SENSING_OF_VOLUME, "volume"]];
       for (const targetInput of baseTargetInput.values) {
         let options;
         const isStage = targetInput.value === "_stage_";
