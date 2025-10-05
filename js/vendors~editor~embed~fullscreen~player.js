@@ -65482,25 +65482,6 @@ module.exports = exports
 
 /***/ }),
 
-/***/ "./node_modules/fastestsmallesttextencoderdecoder/EncoderDecoderTogether.min.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/fastestsmallesttextencoderdecoder/EncoderDecoderTogether.min.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {(function(r){function x(){}function y(){}var z=String.fromCharCode,v={}.toString,A=v.call(r.SharedArrayBuffer),B=v(),q=r.Uint8Array,t=q||Array,w=q?ArrayBuffer:t,C=w.isView||function(g){return g&&"length"in g},D=v.call(w.prototype);w=y.prototype;var E=r.TextEncoder,a=new (q?Uint16Array:t)(32);x.prototype.decode=function(g){if(!C(g)){var l=v.call(g);if(l!==D&&l!==A&&l!==B)throw TypeError("Failed to execute 'decode' on 'TextDecoder': The provided value is not of type '(ArrayBuffer or ArrayBufferView)'");
-g=q?new t(g):g||[]}for(var f=l="",b=0,c=g.length|0,u=c-32|0,e,d,h=0,p=0,m,k=0,n=-1;b<c;){for(e=b<=u?32:c-b|0;k<e;b=b+1|0,k=k+1|0){d=g[b]&255;switch(d>>4){case 15:m=g[b=b+1|0]&255;if(2!==m>>6||247<d){b=b-1|0;break}h=(d&7)<<6|m&63;p=5;d=256;case 14:m=g[b=b+1|0]&255,h<<=6,h|=(d&15)<<6|m&63,p=2===m>>6?p+4|0:24,d=d+256&768;case 13:case 12:m=g[b=b+1|0]&255,h<<=6,h|=(d&31)<<6|m&63,p=p+7|0,b<c&&2===m>>6&&h>>p&&1114112>h?(d=h,h=h-65536|0,0<=h&&(n=(h>>10)+55296|0,d=(h&1023)+56320|0,31>k?(a[k]=n,k=k+1|0,n=-1):
-(m=n,n=d,d=m))):(d>>=8,b=b-d-1|0,d=65533),h=p=0,e=b<=u?32:c-b|0;default:a[k]=d;continue;case 11:case 10:case 9:case 8:}a[k]=65533}f+=z(a[0],a[1],a[2],a[3],a[4],a[5],a[6],a[7],a[8],a[9],a[10],a[11],a[12],a[13],a[14],a[15],a[16],a[17],a[18],a[19],a[20],a[21],a[22],a[23],a[24],a[25],a[26],a[27],a[28],a[29],a[30],a[31]);32>k&&(f=f.slice(0,k-32|0));if(b<c){if(a[0]=n,k=~n>>>31,n=-1,f.length<l.length)continue}else-1!==n&&(f+=z(n));l+=f;f=""}return l};w.encode=function(g){g=void 0===g?"":""+g;var l=g.length|
-0,f=new t((l<<1)+8|0),b,c=0,u=!q;for(b=0;b<l;b=b+1|0,c=c+1|0){var e=g.charCodeAt(b)|0;if(127>=e)f[c]=e;else{if(2047>=e)f[c]=192|e>>6;else{a:{if(55296<=e)if(56319>=e){var d=g.charCodeAt(b=b+1|0)|0;if(56320<=d&&57343>=d){e=(e<<10)+d-56613888|0;if(65535<e){f[c]=240|e>>18;f[c=c+1|0]=128|e>>12&63;f[c=c+1|0]=128|e>>6&63;f[c=c+1|0]=128|e&63;continue}break a}e=65533}else 57343>=e&&(e=65533);!u&&b<<1<c&&b<<1<(c-7|0)&&(u=!0,d=new t(3*l),d.set(f),f=d)}f[c]=224|e>>12;f[c=c+1|0]=128|e>>6&63}f[c=c+1|0]=128|e&63}}return q?
-f.subarray(0,c):f.slice(0,c)};E||(r.TextDecoder=x,r.TextEncoder=y)})(""+void 0==typeof global?""+void 0==typeof self?this:self:global);//AnonyCo
-//# sourceMappingURL=https://cdn.jsdelivr.net/gh/AnonyCo/FastestSmallestTextEncoderDecoder/EncoderDecoderTogether.min.js.map
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
 /***/ "./node_modules/ieee754/index.js":
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
@@ -68419,13 +68400,6 @@ module.exports = function (content, url) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// Use JS implemented TextDecoder and TextEncoder if it is not provided by the
-// browser.
-if (typeof TextDecoder === 'undefined' || typeof TextEncoder === 'undefined') {
-  // Wait to require the text encoding polyfill until we know it's needed.
-  // eslint-disable-next-line global-require
-  __webpack_require__(/*! fastestsmallesttextencoderdecoder */ "./node_modules/fastestsmallesttextencoderdecoder/EncoderDecoderTogether.min.js");
-}
 const md5 = __webpack_require__(/*! js-md5 */ "./node_modules/js-md5/src/md5.js");
 
 /**
@@ -82469,13 +82443,6 @@ const extensions = [
         creator: "Den4ik-12",
     },
     {
-        name: "MediaRecorder",
-        id: "MediaRecord",
-        description: "Record your projects directly in Dash!",
-        code: "scratch_craft_2/MediaRecorder.js",
-        creator: "scratch_craft_2",
-    },
-    {
         name: "Modals",
         id: "htmlalert",
         description: "Control classic modal windows in browsers!",
@@ -82484,11 +82451,26 @@ const extensions = [
         creator: "scratch_craft_2",
     },
     {
+        name: "MediaRecorder",
+        id: "MediaRecord",
+        description: "Record your projects directly in Dash!",
+        code: "scratch_craft_2/MediaRecorder.js",
+        creator: "scratch_craft_2",
+    },
+    {
         name: "Notification",
         id: "notification",
         description: "Send notifications with icons.",
         code: "shilenin/Notification.js",
         banner: "shilenin/Notification.svg",
+        creator: "shilenin",
+    },
+    {
+        name: "Code Cleaner",
+        id: "ultimateBlockCleaner",
+        description: "Clean and optimize your code!",
+        code: "shilenin/CodeCleaner.js",
+        banner: "https://raw.githubusercontent.com/Mirazstudio-offical/Dash_code_cleaner_extension/refs/heads/main/logo.svg",
         creator: "shilenin",
     },
 ];
@@ -178721,7 +178703,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.34d36ba6cab19da29102.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.628bcda0eba1ed92bf17.js");
 };
 
 /***/ }),
@@ -178733,6 +178715,11 @@ module.exports = function() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
 class DashJSONBlocks {
   constructor(runtime) {
@@ -178806,7 +178793,7 @@ class DashJSONBlocks {
   }
   arrayInsertAt(args) {
     const array = Cast.toList(args.ARRAY);
-    const index = Cast.toListIndex(args.INDEX, array.length, false);
+    const index = Cast.toListIndex(args.INDEX, array.length + 1, false);
     const item = args.ITEM;
     if (index === Cast.LIST_INVALID) {
       return array;
@@ -178821,7 +178808,6 @@ class DashJSONBlocks {
   arrayDelete(args) {
     const array = Cast.toList(args.ARRAY);
     const index = Cast.toListIndex(args.INDEX, array.length, true);
-    const item = args.ITEM;
     if (index === Cast.LIST_ALL) {
       return [];
     } else if (index === Cast.LIST_INVALID) {
@@ -178836,8 +178822,7 @@ class DashJSONBlocks {
     if (index === Cast.LIST_INVALID) {
       return array;
     }
-    array[index] = item;
-    return array;
+    return [...array.slice(0, index - 1), item, ...array.slice(index)];
   }
   objectEmpty() {
     return {};
@@ -178876,14 +178861,16 @@ class DashJSONBlocks {
     const object = Cast.toObject(args.OBJECT);
     const key = Cast.toString(args.KEY);
     const item = args.ITEM;
-    object[key] = item;
-    return object;
+    return _objectSpread(_objectSpread({}, object), {}, {
+      [key]: item
+    });
   }
   objectDelete(args) {
     const object = Cast.toObject(args.OBJECT);
     const key = Cast.toString(args.KEY);
-    delete object[key];
-    return object;
+    const clonedObject = _objectSpread({}, object);
+    delete clonedObject[key];
+    return clonedObject;
   }
   objectEntries(args) {
     const object = Cast.toObject(args.OBJECT);
@@ -179369,6 +179356,7 @@ class Scratch3EventBlocks {
   getPrimitives() {
     return {
       event_whentouchingobject: this.touchingObject,
+      event_open: this.open,
       event_broadcast: this.broadcast,
       event_broadcastandwait: this.broadcastAndWait,
       event_when: this.when,
@@ -179426,6 +179414,50 @@ class Scratch3EventBlocks {
         return this.runtime.audioEngine && this.runtime.audioEngine.getLoudness() > value;
     }
     return false;
+  }
+  async open(args) {
+    let parsed;
+    try {
+      parsed = new URL(args.OPEN_LINK, location.href);
+    } catch (_unused) {
+      return;
+    }
+    if (!parsed) return;
+    // Always reject protocols that would allow code execution.
+    // eslint-disable-next-line no-script-url
+    if (parsed.protocol === 'javascript:') return;
+    switch (args.OPEN_OPTION) {
+      case 'new tab':
+        {
+          return new Promise(async resolve => {
+            if (await this.runtime.extensionManager.vm.securityManager.canOpenWindow(parsed.href)) {
+              // Use noreferrer to prevent new tab from accessing `window.opener`
+              window.open(parsed.href, '_blank', 'noreferrer');
+            }
+            resolve();
+          });
+        }
+      case 'this tab':
+        {
+          return new Promise(async resolve => {
+            if (await this.runtime.extensionManager.vm.securityManager.canRedirect(parsed.href)) {
+              // Use noreferrer to prevent new tab from accessing `window.opener`
+              window.open(parsed.href, '_self', 'noreferrer');
+            }
+            resolve();
+          });
+        }
+      case 'new window':
+        {
+          return new Promise(async resolve => {
+            if (await this.runtime.extensionManager.vm.securityManager.canOpenWindow(parsed.href)) {
+              // Use noreferrer to prevent new tab from accessing `window.opener`
+              window.open(parsed.href, '_blank', 'noreferrer,menubar=no');
+            }
+            resolve();
+          });
+        }
+    }
   }
   broadcast(args, util) {
     const broadcastVar = util.runtime.getTargetForStage().lookupBroadcastMsg(args.BROADCAST_OPTION.id, args.BROADCAST_OPTION.name);
@@ -181524,14 +181556,18 @@ module.exports = Scratch3SoundBlocks;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+// @ts-check
+
 const BlockUtility = __webpack_require__(/*! ../engine/block-utility */ "./node_modules/scratch-vm/src/engine/block-utility.js");
 class CompatibilityLayerBlockUtility extends BlockUtility {
   constructor() {
     super();
+    this._stackFrame = {};
     this._startedBranch = null;
   }
   get stackFrame() {
-    return this.thread.compatibilityStackFrame;
+    var _this$thread;
+    return (_this$thread = this.thread) === null || _this$thread === void 0 ? void 0 : _this$thread.compatibilityStackFrame;
   }
   startBranch(branchNumber, isLoop) {
     this._startedBranch = [branchNumber, isLoop];
@@ -181571,6 +181607,8 @@ module.exports = new CompatibilityLayerBlockUtility();
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+// @ts-check
+
 /**
  * @fileoverview List of blocks to be supported in the compiler compatibility layer.
  * This is only for native blocks. Extensions should not be listed here.
@@ -181578,8 +181616,8 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
-const inputs = ['motion_xscroll', 'motion_yscroll', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
+const stacked = ['event_open', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'operator_newline', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stopallsounds'];
+const inputs = ['motion_xscroll', 'motion_yscroll', 'operator_newline', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_volume'];
 module.exports = {
   stacked,
   inputs
@@ -181594,16 +181632,23 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+// @ts-check
+
 const {
   IRGenerator
 } = __webpack_require__(/*! ./irgen */ "./node_modules/scratch-vm/src/compiler/irgen.js");
+const {
+  IROptimizer
+} = __webpack_require__(/*! ./iroptimizer */ "./node_modules/scratch-vm/src/compiler/iroptimizer.js");
 const JSGenerator = __webpack_require__(/*! ./jsgen */ "./node_modules/scratch-vm/src/compiler/jsgen.js");
-const compile = thread => {
+const compile = (/** @type {import("../engine/thread")} */thread) => {
   const irGenerator = new IRGenerator(thread);
   const ir = irGenerator.generate();
+  const irOptimizer = new IROptimizer(ir);
+  irOptimizer.optimize();
   const procedures = {};
   const target = thread.target;
-  const compileScript = script => {
+  const compileScript = (/** @type {import("./intermediate").IntermediateScript} */script) => {
     if (script.cachedCompileResult) {
       return script.cachedCompileResult;
     }
@@ -181628,6 +181673,330 @@ module.exports = compile;
 
 /***/ }),
 
+/***/ "./node_modules/scratch-vm/src/compiler/enums.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/scratch-vm/src/compiler/enums.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// @ts-check
+
+/**
+ * @fileoverview Common enums shared amongst parts of the compiler.
+ */
+
+/**
+ * Enum for the type of the value that is returned by reporter blocks and stored in constants.
+ *
+ * At compile time, often we don't know exactly type a value will be but we can tell it must be one of a
+ * set of types. For this reason, the number value of each type represents a possibility space, where set
+ * bits indicate that their corropoding type *could* be encountered at runtime.
+ * For example, a type of InputType.NUMBER | InputType.STRING means the value will be either a number or
+ * a string at runtime, the compiler can't tell which, but we do know that it's not a boolean or NaN as
+ * those bits are not set.
+ *
+ * @readonly
+ * @enum {number}
+ */
+const InputType = {
+  /** The value Infinity */
+  NUMBER_POS_INF: 0x001,
+  /** Any natural number */
+  NUMBER_POS_INT: 0x002,
+  /** Any positive fractional number, excluding integers. */
+  NUMBER_POS_FRACT: 0x004,
+  /** Any positive number excluding 0 and Infinity. Equal to NUMBER_POS_INT | NUMBER_POS_FRACT */
+  NUMBER_POS_REAL: 0x006,
+  /** The value 0 */
+  NUMBER_ZERO: 0x008,
+  /** The value -0 */
+  NUMBER_NEG_ZERO: 0x010,
+  /** Any negitive integer excluding -0 */
+  NUMBER_NEG_INT: 0x020,
+  /** Any negitive fractional number, excluding integers. */
+  NUMBER_NEG_FRACT: 0x040,
+  /** Any negitive number excluding -0 and -Infinity. Equal to NUMBER_NEG_INT | NUMBER_NEG_FRACT */
+  NUMBER_NEG_REAL: 0x060,
+  /** The value -Infinity */
+  NUMBER_NEG_INF: 0x080,
+  /** The value NaN */
+  NUMBER_NAN: 0x100,
+  /** Either 0 or -0. Equal to NUMBER_ZERO | NUMBER_NEG_ZERO */
+  NUMBER_ANY_ZERO: 0x018,
+  /** Either Infinity or -Infinity. Equal to NUMBER_POS_INF | NUMBER_NEG_INF */
+  NUMBER_INF: 0x081,
+  /** Any positive number, excluding 0. Equal to NUMBER_POS_REAL | NUMBER_POS_INF */
+  NUMBER_POS: 0x007,
+  /** Any negitive number, excluding -0. Equal to NUMBER_NEG_REAL | NUMBER_NEG_INF */
+  NUMBER_NEG: 0x0E0,
+  /** Any whole number. Equal to NUMBER_POS_INT | NUMBER_ZERO */
+  NUMBER_WHOLE: 0x00A,
+  /** Any integer. Equal to NUMBER_POS_INT | NUMBER_ANY_ZERO | NUMBER_NEG_INT */
+  NUMBER_INT: 0x03A,
+  /** Any number that works as an array index. Equal to NUMBER_INT | NUMBER_INF | NUMBER_NAN */
+  NUMBER_INDEX: 0x1BB,
+  /** Any fractional non-integer numbers. Equal to NUMBER_POS_FRACT | NUMBER_NEG_FRACT */
+  NUMBER_FRACT: 0x44,
+  /** Any real number. Equal to NUMBER_POS_REAL | NUMBER_ANY_ZERO | NUMBER_NEG_REAL */
+  NUMBER_REAL: 0x07E,
+  /** Any number, excluding NaN. Equal to NUMBER_REAL | NUMBER_INF */
+  NUMBER: 0x0FF,
+  /** Any number, including NaN. Equal to NUMBER | NUMBER_NAN */
+  NUMBER_OR_NAN: 0x1FF,
+  /** Anything that can be interperated as a number. Equal to NUMBER | STRING_NUM | BOOLEAN */
+  NUMBER_INTERPRETABLE: 0x12FF,
+  /** Any string which as a non-NaN neumeric interpretation, excluding ''.  */
+  STRING_NUM: 0x200,
+  /** Any string which has no non-NaN neumeric interpretation, including ''. */
+  STRING_NAN: 0x400,
+  /** Either of the strings 'true' or 'false'. */
+  STRING_BOOLEAN: 0x800,
+  /** Any string. Equal to STRING_NUM | STRING_NAN | STRING_BOOLEAN */
+  STRING: 0xE00,
+  /** Any boolean. */
+  BOOLEAN: 0x1000,
+  /** Any input that can be interperated as a boolean. Equal to BOOLEAN | STRING_BOOLEAN */
+  BOOLEAN_INTERPRETABLE: 0x1800,
+  /** An array of values in the form [R, G, B] */
+  COLOR: 0x2000,
+  /** Any array, excluding an array of values in the form [R, G, B] */
+  ARRAY_NON_COLOR: 0x4000,
+  /** Any array. Equal to COLOR | ARRAY_NON_COLOR */
+  ARRAY: 0x6000,
+  /** Any object. */
+  OBJECT: 0x8000,
+  /** Any JSON. Equal to ARRAY | OBJECT */
+  JSON: 0xE000,
+  /** Any value type (a type a scratch variable can hold). Equal to NUMBER_OR_NAN | STRING | BOOLEAN | JSON */
+  ANY: 0xFFFF
+};
+
+/**
+ * Enum for the opcodes of the stackable blocks used in the IR AST.
+ * @readonly
+ * @enum {string}
+ */
+const StackOpcode = {
+  NOP: 'noop',
+  ADDON_CALL: 'addons.call',
+  DEBUGGER: 'tw.debugger',
+  VISUAL_REPORT: 'visualReport',
+  COMPATIBILITY_LAYER: 'compat',
+  OLD_COMPILER_COMPATIBILITY_LAYER: 'oldCompiler',
+  HAT_EDGE: 'hat.edge',
+  HAT_PREDICATE: 'hat.predicate',
+  CONTROL_IF_ELSE: 'control.if',
+  CONTROL_CLONE_CREATE: 'control.createClone',
+  CONTROL_CLONE_DELETE: 'control.deleteClone',
+  CONTROL_WHILE: 'control.while',
+  CONTROL_FOR: 'control.for',
+  CONTROL_REPEAT: 'control.repeat',
+  CONTROL_RESUME: 'control.resume',
+  CONTROL_PAUSE: 'control.pause',
+  CONTROL_STOP_ALL: 'control.stopAll',
+  CONTROL_STOP_OTHERS: 'control.stopOthers',
+  CONTROL_STOP_SCRIPT: 'control.stopScript',
+  CONTROL_WAIT: 'control.wait',
+  CONTROL_WAIT_UNTIL: 'control.waitUntil',
+  CONTROL_CLEAR_COUNTER: 'control.counterClear',
+  CONTORL_INCR_COUNTER: 'control.counterIncr',
+  LIST_ADD: 'list.add',
+  LIST_INSERT: 'list.instert',
+  LIST_REPLACE: 'list.replace',
+  LIST_DELETE_ALL: 'list.deleteAll',
+  LIST_DELETE: 'list.delete',
+  LIST_SHOW: 'list.show',
+  LIST_HIDE: 'list.hide',
+  VAR_SET: 'var.set',
+  VAR_SHOW: 'var.show',
+  VAR_HIDE: 'var.hide',
+  EVENT_BROADCAST: 'event.broadcast',
+  EVENT_BROADCAST_AND_WAIT: 'event.broadcastAndWait',
+  LOOKS_EFFECT_SET: 'looks.setEffect',
+  LOOKS_EFFECT_CHANGE: 'looks.changeEffect',
+  LOOKS_EFFECT_CLEAR: 'looks.clearEffects',
+  LOOKS_SIZE_CHANGE: 'looks.changeSize',
+  LOOKS_SIZE_SET: 'looks.setSize',
+  LOOKS_LAYER_FORWARD: 'looks.forwardLayers',
+  LOOKS_LAYER_BACKWARD: 'looks.backwardLayers',
+  LOOKS_LAYER_FRONT: 'looks.goToFront',
+  LOOKS_LAYER_BACK: 'looks.goToBack',
+  LOOKS_HIDE: 'looks.hide',
+  LOOKS_SHOW: 'looks.show',
+  LOOKS_BACKDROP_NEXT: 'looks.nextBackdrop',
+  LOOKS_BACKDROP_SET: 'looks.switchBackdrop',
+  LOOKS_COSTUME_NEXT: 'looks.nextCostume',
+  LOOKS_COSTUME_SET: 'looks.switchCostume',
+  MOTION_X_SET: 'motion.setX',
+  MOTION_X_CHANGE: 'motion.changeX',
+  MOTION_Y_SET: 'motion.setY',
+  MOTION_Y_CHANGE: 'motion.changeY',
+  MOTION_XY_SET: 'motion.setXY',
+  MOTION_IF_ON_EDGE_BOUNCE: 'motion.ifOnEdgeBounce',
+  MOTION_STEP: 'motion.step',
+  MOTION_ROTATION_STYLE_SET: 'motion.setRotationStyle',
+  MOTION_DIRECTION_SET: 'motion.setDirection',
+  PEN_UP: 'pen.up',
+  PEN_DOWN: 'pen.down',
+  PEN_CLEAR: 'pen.clear',
+  PEN_COLOR_PARAM_SET: 'pen.setParam',
+  PEN_COLOR_PARAM_CHANGE: 'pen.changeParam',
+  PEN_COLOR_HUE_CHANGE_LEGACY: 'pen.legacyChangeHue',
+  PEN_COLOR_HUE_SET_LEGACY: 'pen_setPenHueToNumber',
+  PEN_COLOR_SHADE_CHANGE_LEGACY: 'pen.legacyChangeShade',
+  PEN_COLOR_SHADE_SET_LEGACY: 'pen.legacySetShade',
+  PEN_COLOR_SET: 'pen.setColor',
+  PEN_SIZE_SET: 'pen.setSize',
+  PEN_SIZE_CHANGE: 'pen.changeSize',
+  PEN_STAMP: 'pen.stamp',
+  SENSING_MODALS_ALERT: 'sensing.alert',
+  SENSING_TIMER_RESET: 'timer.reset',
+  PROCEDURE_RETURN: 'procedures.return',
+  PROCEDURE_CALL: 'procedures.call'
+};
+
+/**
+ * Enum for the opcodes of the reporter blocks used in the IR AST.
+ * @readonly
+ * @enum {string}
+ */
+const InputOpcode = {
+  NOP: 'noop',
+  ADDON_CALL: 'addons.call',
+  CONSTANT: 'constant',
+  CAST_NUMBER: 'cast.toNumber',
+  CAST_NUMBER_INDEX: 'cast.toInteger',
+  CAST_NUMBER_OR_NAN: 'cast.toNumberOrNaN',
+  CAST_STRING: 'cast.toString',
+  CAST_BOOLEAN: 'cast.toBoolean',
+  CAST_COLOR: 'cast.toColor',
+  CAST_ARRAY: 'cast.toArray',
+  CAST_OBJECT: 'cast.toObject',
+  CAST_JSON: 'cast.toJSON',
+  COMPATIBILITY_LAYER: 'compat',
+  OLD_COMPILER_COMPATIBILITY_LAYER: 'oldCompiler',
+  LOOKS_IS_VISIBLE: 'looks.isVisible',
+  LOOKS_EFFECT_GET: 'looks.getEffect',
+  LOOKS_BACKDROP_NUMBER: 'looks.backdropNumber',
+  LOOKS_BACKDROP_NAME: 'looks.backdropName',
+  LOOKS_COSTUME_NUMBER: 'looks.costumeNumber',
+  LOOKS_COSTUME_NAME: 'looks.costumeName',
+  LOOKS_SIZE_GET: 'looks.size',
+  VAR_GET: 'var.get',
+  LIST_GET: 'list.get',
+  LIST_LENGTH: 'list.length',
+  LIST_CONTAINS: 'list.contains',
+  LIST_INDEX_OF: 'list.indexOf',
+  LIST_CONTENTS: 'list.contents',
+  JSON_CONTAINS: 'json.contains',
+  JSON_LENGTH: 'json.length',
+  JSON_ARRAY_EMPTY: 'json.arrayEmpty',
+  JSON_ARRAY_ITEM_OF: 'json.arrayItemOf',
+  JSON_ARRAY_ITEM_NO_OF: 'json.arrayItemNoOf',
+  JSON_ARRAY_IN_FRONT_OF: 'json.arrayInFrontOf',
+  JSON_ARRAY_BEHIND: 'json.arrayBehind',
+  JSON_ARRAY_AT: 'json.arrayAt',
+  JSON_ARRAY_SPLIT: 'json.arraySplit',
+  JSON_ARRAY_DELETE: 'json.arrayDelete',
+  JSON_ARRAY_REPLACE: 'json.arrayReplace',
+  JSON_OBJECT_EMPTY: 'json.objectEmpty',
+  JSON_OBJECT_SPLIT: 'json.objectSplit',
+  JSON_OBJECT_ITEM_OF: 'json.objectItemOf',
+  JSON_OBJECT_CONTAINS_KEY: 'json.objectContainsKey',
+  JSON_OBJECT_SET: 'json.objectSet',
+  JSON_OBJECT_DELETE: 'json.objectDelete',
+  JSON_OBJECT_ENTRIES: 'json.objectEntries',
+  MOTION_X_GET: 'motion.x',
+  MOTION_Y_GET: 'motion.y',
+  MOTION_XY_GET: 'motion.xy',
+  MOTION_DIRECTION_GET: 'motion.direction',
+  OP_ADD: 'op.add',
+  OP_AND: 'op.and',
+  OP_CONTAINS: 'op.contains',
+  OP_DIVIDE: 'op.divide',
+  OP_EQUALS: 'op.equals',
+  OP_GREATER: 'op.greater',
+  OP_LESS: 'op.less',
+  OP_JOIN: 'op.join',
+  OP_LENGTH: 'op.length',
+  OP_LETTER_OF: 'op.letterOf',
+  OP_ABS: 'op.abs',
+  OP_FLOOR: 'op.floor',
+  OP_CEILING: 'op.ceiling',
+  OP_SQRT: 'op.sqrt',
+  OP_SIN: 'op.sin',
+  OP_COS: 'op.cos',
+  OP_TAN: 'op.tan',
+  OP_ASIN: 'op.asin',
+  OP_ACOS: 'op.acos',
+  OP_ATAN: 'op.atan',
+  OP_LOG_E: 'op.ln',
+  OP_LOG_10: 'op.log',
+  OP_POW_E: 'op.e^',
+  OP_POW_10: 'op.10^',
+  OP_MOD: 'op.mod',
+  OP_MULTIPLY: 'op.multiply',
+  OP_NOT: 'op.not',
+  OP_OR: 'op.or',
+  OP_RANDOM: 'op.random',
+  OP_ROUND: 'op.round',
+  OP_SUBTRACT: 'op.subtract',
+  OP_TYPE_OF: 'op.typeOf',
+  OP_IS_TYPE: 'op.isType',
+  OP_CAST: 'op.cast',
+  OP_NUMS_IN_RANGE: 'op.numsInRange',
+  OP_IN_RANGE: 'op.inRange',
+  SENSING_ANSWER: 'sensing.answer',
+  SENSING_COLOR_TOUCHING_COLOR: 'sensing.colorTouchingColor',
+  SENSING_TIME_YEAR: 'sensing.year',
+  SENSING_TIME_MONTH: 'sensing.month',
+  SENSING_TIME_DATE: 'sensing.date',
+  SENSING_TIME_WEEKDAY: 'sensing.dayofweek',
+  SENSING_TIME_HOUR: 'sensing.hour',
+  SENSING_TIME_MINUTE: 'sensing.minute',
+  SENSING_TIME_SECOND: 'sensing.second',
+  SENSING_TIME_DAYS_SINCE_2000: 'sensing.daysSince2000',
+  SENSING_DISTANCE: 'sensing.distance',
+  SENSING_KEY_DOWN: 'keyboard.pressed',
+  SENSING_MODALS_PROMPT: 'sensing.prompt',
+  SENSING_MODALS_CONFIRM: 'sensing.confirm',
+  SENSING_MOUSE_DOWN: 'mouse.down',
+  SENSING_MOUSE_X: 'mouse.x',
+  SENSING_MOUSE_Y: 'mouse.y',
+  SENSING_MOUSE_XY: 'mouse.xy',
+  SENSING_OF: 'sensing.of',
+  SENSING_OF_BACKDROP_NAME: 'sensing.of.backdropName',
+  SENSING_OF_BACKDROP_NUMBER: 'sensing.of.backdropNumber',
+  SENSING_OF_COSTUME_NAME: 'sensing.of.costumeName',
+  SENSING_OF_COSTUME_NUMBER: 'sensing.of.costumeNumber',
+  SENSING_OF_VOLUME: 'sensing.of.volume',
+  SENSING_OF_POS_X: 'sensing.of.x',
+  SENSING_OF_POS_Y: 'sensing.of.y',
+  SENSING_OF_POS_XY: 'sensing.of.xy',
+  SENSING_OF_DIRECTION: 'sensing.of.direction',
+  SENSING_OF_VISIBILITY: 'sensing.of.visibility',
+  SENSING_OF_SIZE: 'sensing.of.size',
+  SENSING_OF_VAR: 'sensing.of.var',
+  SENSING_TIMER_GET: 'timer.get',
+  SENSING_TOUCHING_COLOR: 'sensing.touchingColor',
+  SENSING_TOUCHING_OBJECT: 'sensing.touching',
+  SENSING_USERNAME: 'sensing.username',
+  PROCEDURE_CALL: 'procedures.call',
+  PROCEDURE_ARGUMENT: 'procedures.argument',
+  CONTROL_IF_THEN_ELSE: 'control.ifThenElse',
+  CONTROL_IS_PAUSED: 'control.isPaused',
+  CONTROL_COUNTER: 'control.counter',
+  TW_KEY_LAST_PRESSED: 'tw.lastKeyPressed'
+};
+module.exports = {
+  StackOpcode,
+  InputOpcode,
+  InputType
+};
+
+/***/ }),
+
 /***/ "./node_modules/scratch-vm/src/compiler/environment.js":
 /*!*************************************************************!*\
   !*** ./node_modules/scratch-vm/src/compiler/environment.js ***!
@@ -181635,6 +182004,7 @@ module.exports = compile;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+// @ts-check
 /* eslint-disable no-eval */
 
 /**
@@ -181662,11 +182032,296 @@ module.exports = {
   !*** ./node_modules/scratch-vm/src/compiler/intermediate.js ***!
   \**************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+const {
+  InputOpcode,
+  InputType
+} = __webpack_require__(/*! ./enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js");
+const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
 
 /**
  * @fileoverview Common intermediates shared amongst parts of the compiler.
  */
+
+/**
+ * Describes a 'stackable' block (eg. show)
+ */
+class IntermediateStackBlock {
+  /**
+   * @param {import("./enums").StackOpcode} opcode
+   * @param {Object} inputs
+   * @param {boolean} yields
+   */
+  constructor(opcode) {
+    let inputs = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    let yields = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+    /**
+     * The type of the stackable block.
+     * @type {import("./enums").StackOpcode}
+     */
+    this.opcode = opcode;
+
+    /**
+     * The inputs of this block.
+     * @type {Object}
+     */
+    this.inputs = inputs;
+
+    /**
+     * Does this block cause a yield
+     * @type {boolean}
+     */
+    this.yields = yields;
+
+    /**
+     * Should state changes made by this stack block be ignored? Used for testing.
+     * @type {boolean}
+     */
+    this.ignoreState = false;
+
+    /**
+     * @type {import("./iroptimizer").TypeState?}
+     */
+    this.entryState = null;
+
+    /**
+     * @type {import("./iroptimizer").TypeState?}
+     */
+    this.exitState = null;
+  }
+}
+
+/**
+ * Describes an input to a block.
+ * This could be a constant, variable or math operation.
+ */
+class IntermediateInput {
+  static getNumberInputType(number) {
+    if (typeof number !== 'number') throw new Error('Expected a number.');
+    if (number === Infinity) return InputType.NUMBER_POS_INF;
+    if (number === -Infinity) return InputType.NUMBER_NEG_INF;
+    if (number < 0) return Number.isInteger(number) ? InputType.NUMBER_NEG_INT : InputType.NUMBER_NEG_FRACT;
+    if (number > 0) return Number.isInteger(number) ? InputType.NUMBER_POS_INT : InputType.NUMBER_POS_FRACT;
+    if (Number.isNaN(number)) return InputType.NUMBER_NAN;
+    if (Object.is(number, -0)) return InputType.NUMBER_NEG_ZERO;
+    return InputType.NUMBER_ZERO;
+  }
+  static getJSONInputType(json) {
+    if (!(typeof json === 'object' && json instanceof Object)) throw new Error('Expected a JSON.');
+    if (Array.isArray(json)) return InputType.ARRAY;
+    return InputType.OBJECT;
+  }
+
+  /**
+   * @param {InputOpcode} opcode
+   * @param {InputType} type
+   * @param {Object} inputs
+   * @param {boolean} yields
+   */
+  constructor(opcode, type) {
+    let inputs = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    let yields = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+    /**
+     * @type {InputOpcode}
+     */
+    this.opcode = opcode;
+
+    /**
+     * @type {InputType}
+     */
+    this.type = type;
+
+    /**
+     * @type {Object}
+     */
+    this.inputs = inputs;
+
+    /**
+     * @type {boolean}
+     */
+    this.yields = yields;
+  }
+
+  /**
+   * Is this input a constant whos value equals value.
+   * @param {*} value The value
+   * @returns {boolean}
+   */
+  isConstant(value) {
+    if (this.opcode !== InputOpcode.CONSTANT) return false;
+    let equal = this.inputs.value === value;
+    if (!equal && typeof value === 'number') equal = +this.inputs.value === value;
+    return equal;
+  }
+
+  /**
+   * Is the type of this input guaranteed to always be the type at runtime.
+   * @param {InputType} type
+   * @returns {boolean}
+   */
+  isAlwaysType(type) {
+    return (this.type & type) === this.type;
+  }
+
+  /**
+   * Is it possible for this input to be the type at runtime.
+   * @param {InputType} type
+   * @returns
+   */
+  isSometimesType(type) {
+    return (this.type & type) !== 0;
+  }
+
+  /**
+   * Converts this input to a target type.
+   * If this input is a constant the conversion is performed now, at compile time.
+   * If the input changes, the conversion is performed at runtime.
+   * @param {InputType} targetType
+   * @returns {IntermediateInput} An input with the new type.
+   */
+  toType(targetType) {
+    let castOpcode;
+    switch (targetType) {
+      case InputType.BOOLEAN:
+        castOpcode = InputOpcode.CAST_BOOLEAN;
+        break;
+      case InputType.NUMBER:
+        castOpcode = InputOpcode.CAST_NUMBER;
+        break;
+      case InputType.NUMBER_INDEX:
+        castOpcode = InputOpcode.CAST_NUMBER_INDEX;
+        break;
+      case InputType.NUMBER_OR_NAN:
+        castOpcode = InputOpcode.CAST_NUMBER_OR_NAN;
+        break;
+      case InputType.STRING:
+        castOpcode = InputOpcode.CAST_STRING;
+        break;
+      case InputType.COLOR:
+        castOpcode = InputOpcode.CAST_COLOR;
+        break;
+      case InputType.ARRAY:
+        castOpcode = InputOpcode.CAST_ARRAY;
+        break;
+      case InputType.OBJECT:
+        castOpcode = InputOpcode.CAST_OBJECT;
+        break;
+      case InputType.JSON:
+        castOpcode = InputOpcode.CAST_JSON;
+        break;
+      default:
+        log.warn("Cannot cast to type: ".concat(targetType), this);
+        throw new Error("Cannot cast to type: ".concat(targetType));
+    }
+    if (this.isAlwaysType(targetType)) return this;
+    if (this.opcode === InputOpcode.CONSTANT) {
+      // If we are a constant, we can do the cast here at compile time
+      switch (castOpcode) {
+        case InputOpcode.CAST_BOOLEAN:
+          this.inputs.value = Cast.toBoolean(this.inputs.value);
+          this.type = InputType.BOOLEAN;
+          break;
+        case InputOpcode.CAST_NUMBER:
+        case InputOpcode.CAST_NUMBER_INDEX:
+        case InputOpcode.CAST_NUMBER_OR_NAN:
+          {
+            if (this.isAlwaysType(InputType.BOOLEAN_INTERPRETABLE)) {
+              this.type = InputType.NUMBER;
+              this.inputs.value = +Cast.toBoolean(this.inputs.value);
+            }
+            const numberValue = +this.inputs.value;
+            if (numberValue) {
+              this.inputs.value = numberValue;
+            } else /* numberValue is one of 0, -0, or NaN */if (Object.is(numberValue, -0)) {
+                this.inputs.value = -0;
+              } else {
+                this.inputs.value = 0; // Convert NaN to 0
+              }
+            if (castOpcode === InputOpcode.CAST_NUMBER_INDEX) {
+              // Round numberValue to an integer
+              this.inputs.value |= 0;
+            }
+            this.type = IntermediateInput.getNumberInputType(this.inputs.value);
+            break;
+          }
+        case InputOpcode.CAST_STRING:
+          this.inputs.value = Cast.toString(this.inputs.value);
+          this.type = InputType.STRING;
+          break;
+        case InputOpcode.CAST_COLOR:
+          this.inputs.value = Cast.toRgbColorList(this.inputs.value);
+          this.type = InputType.COLOR;
+          break;
+        case InputOpcode.CAST_ARRAY:
+        case InputOpcode.CAST_OBJECT:
+        case InputOpcode.CAST_JSON:
+          {
+            this.inputs.value = Cast.toJSON(this.inputs.value, true);
+            if (castOpcode === InputOpcode.CAST_ARRAY && !Array.isArray(this.inputs.value)) {
+              this.inputs.value = [];
+            }
+            if (castOpcode === InputOpcode.CAST_OBJECT && Array.isArray(this.inputs.value)) {
+              this.inputs.value = {};
+            }
+            this.type = IntermediateInput.getJSONInputType(this.inputs.value);
+            break;
+          }
+      }
+      return this;
+    }
+    return new IntermediateInput(castOpcode, targetType, {
+      target: this
+    });
+  }
+}
+
+/**
+ * @param {InputType} type
+ * @returns {string}
+ */
+const stringifyType = type => {
+  let formatFlags = [];
+  for (const enumValue in InputType) {
+    const testFormat = InputType[enumValue];
+    if ((testFormat & type) === testFormat) {
+      for (const existingFormat of formatFlags) {
+        if ((testFormat & InputType[existingFormat]) === testFormat) {
+          continue;
+        }
+      }
+      formatFlags = formatFlags.filter(value => (InputType[value] & testFormat) !== InputType[value]);
+      formatFlags.push(enumValue);
+    }
+  }
+  let str = null;
+  for (const formatFlag of formatFlags) {
+    if (str === null) {
+      str = formatFlag;
+    } else {
+      str = "".concat(str, " | ").concat(formatFlag);
+    }
+  }
+  if (str === null) {
+    return 'INVALID';
+  }
+  return str;
+};
+
+/**
+ * A 'stack' of blocks, like the contents of a script or the inside
+ * of a C block.
+ */
+class IntermediateStack {
+  /**
+   * @param {IntermediateStackBlock[]} [blocks]
+   */
+  constructor(blocks) {
+    /** @type {IntermediateStackBlock[]} */
+    this.blocks = blocks !== null && blocks !== void 0 ? blocks : [];
+  }
+}
 
 /**
  * An IntermediateScript describes a single script.
@@ -181676,13 +182331,13 @@ class IntermediateScript {
   constructor() {
     /**
      * The ID of the top block of this script.
-     * @type {string}
+     * @type {string?}
      */
     this.topBlockId = null;
 
     /**
      * List of nodes that make up this script.
-     * @type {Array|null}
+     * @type {IntermediateStack?}
      */
     this.stack = null;
 
@@ -181743,6 +182398,12 @@ class IntermediateScript {
     this.cachedCompileResult = null;
 
     /**
+     * Cached result of analysing this script.
+     * @type {import("./iroptimizer").TypeState|null}
+     */
+    this.cachedAnalysisEndState = null;
+
+    /**
      * Whether the top block of this script is an executable hat.
      * @type {boolean}
      */
@@ -181754,23 +182415,41 @@ class IntermediateScript {
  * An IntermediateRepresentation contains scripts.
  */
 class IntermediateRepresentation {
-  constructor() {
+  /**
+   *
+   * @param {IntermediateScript} entry
+   * @param {Object.<string, IntermediateScript>} procedures
+   */
+  constructor(entry, procedures) {
     /**
      * The entry point of this IR.
      * @type {IntermediateScript}
      */
-    this.entry = null;
+    this.entry = entry;
 
     /**
      * Maps procedure variants to their intermediate script.
      * @type {Object.<string, IntermediateScript>}
      */
-    this.procedures = {};
+    this.procedures = procedures;
+  }
+
+  /**
+   * Gets the first procedure with the given proccode.
+   * @param {string} proccode
+   * @returns {IntermediateScript | undefined}
+   */
+  getProcedure(proccode) {
+    return Object.values(this.procedures).find(procedure => procedure.procedureCode === proccode);
   }
 }
 module.exports = {
+  IntermediateStackBlock,
+  IntermediateInput,
+  IntermediateStack,
   IntermediateScript,
-  IntermediateRepresentation
+  IntermediateRepresentation,
+  stringifyType
 };
 
 /***/ }),
@@ -181787,28 +182466,34 @@ const StringUtil = __webpack_require__(/*! ../util/string-util */ "./node_module
 const BlockType = __webpack_require__(/*! ../extension-support/block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
 const Variable = __webpack_require__(/*! ../engine/variable */ "./node_modules/scratch-vm/src/engine/variable.js");
 const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const compatBlocks = __webpack_require__(/*! ./compat-blocks */ "./node_modules/scratch-vm/src/compiler/compat-blocks.js");
 const {
+  StackOpcode,
+  InputOpcode,
+  InputType
+} = __webpack_require__(/*! ./enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js");
+const {
+  IntermediateStackBlock,
+  IntermediateInput,
+  IntermediateStack,
   IntermediateScript,
   IntermediateRepresentation
 } = __webpack_require__(/*! ./intermediate */ "./node_modules/scratch-vm/src/compiler/intermediate.js");
-const compatBlocks = __webpack_require__(/*! ./compat-blocks */ "./node_modules/scratch-vm/src/compiler/compat-blocks.js");
+const oldCompilerCompatiblity = __webpack_require__(/*! ./old-compiler-compatibility.js */ "./node_modules/scratch-vm/src/compiler/old-compiler-compatibility.js");
 
 /**
  * @fileoverview Generate intermediate representations from Scratch blocks.
  */
 
+/* eslint-disable max-len */
+
 const SCALAR_TYPE = '';
 const LIST_TYPE = 'list';
 
 /**
- * @typedef {Object.<string, *>} Node
- * @property {string} kind
- */
-
-/**
  * @typedef DescendedVariable
  * @property {'target'|'stage'} scope
- * @property {string} id
+ * @property {string | null} id
  * @property {string} name
  * @property {boolean} isCloud
  */
@@ -181862,6 +182547,19 @@ class ScriptTreeGenerator {
      */
     this.variableCache = {};
     this.usesTimer = false;
+    this.namesOfCostumesAndSounds = new Set();
+    for (const target of this.runtime.targets) {
+      if (target.isOriginal) {
+        const sprite = target.sprite;
+        for (const costume of sprite.costumes) {
+          this.namesOfCostumesAndSounds.add(costume.name);
+        }
+        for (const sound of sprite.sounds) {
+          this.namesOfCostumesAndSounds.add(sound.name);
+        }
+      }
+    }
+    this.oldCompilerStub = oldCompilerCompatiblity.enabled ? new oldCompilerCompatiblity.ScriptTreeGeneratorStub(this) : null;
   }
   setProcedureVariant(procedureVariant) {
     const procedureCode = parseProcedureCode(procedureVariant);
@@ -181898,62 +182596,90 @@ class ScriptTreeGenerator {
     }
     return blockInfo;
   }
+  createConstantInput(constant) {
+    let preserveStrings = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    if (constant === null) throw new Error('IR: Constant cannot have a null value.');
+    constant += '';
+    const numConstant = +constant;
+    const preserve = preserveStrings && this.namesOfCostumesAndSounds.has(constant);
+    if (!Number.isNaN(numConstant) && (constant.trim() !== '' || constant.includes('\t'))) {
+      if (!preserve && numConstant.toString() === constant) {
+        return new IntermediateInput(InputOpcode.CONSTANT, IntermediateInput.getNumberInputType(numConstant), {
+          value: numConstant
+        });
+      }
+      return new IntermediateInput(InputOpcode.CONSTANT, InputType.STRING_NUM, {
+        value: constant
+      });
+    }
+    if (!preserve) {
+      if (constant === 'true') {
+        return new IntermediateInput(InputOpcode.CONSTANT, InputType.STRING_BOOLEAN, {
+          value: constant
+        });
+      } else if (constant === 'false') {
+        return new IntermediateInput(InputOpcode.CONSTANT, InputType.STRING_BOOLEAN, {
+          value: constant
+        });
+      }
+    }
+    return new IntermediateInput(InputOpcode.CONSTANT, InputType.STRING_NAN, {
+      value: constant
+    });
+  }
 
   /**
    * Descend into a child input of a block. (eg. the input STRING of "length of ( )")
    * @param {*} parentBlock The parent Scratch block that contains the input.
    * @param {string} inputName The name of the input to descend into.
+   * @param {boolean} preserveStrings Should this input keep the names of costumes and sounds at strings.
    * @private
-   * @returns {Node} Compiled input node for this input.
+   * @returns {IntermediateInput} Compiled input node for this input.
    */
   descendInputOfBlock(parentBlock, inputName) {
+    let preserveStrings = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
     const input = parentBlock.inputs[inputName];
     if (!input) {
       log.warn("IR: ".concat(parentBlock.opcode, ": missing input ").concat(inputName), parentBlock);
-      return {
-        kind: 'constant',
-        value: 0
-      };
+      return this.createConstantInput(0);
     }
     const inputId = input.block;
     const block = this.getBlockById(inputId);
     if (!block) {
       log.warn("IR: ".concat(parentBlock.opcode, ": could not find input ").concat(inputName, " with ID ").concat(inputId));
-      return {
-        kind: 'constant',
-        value: 0
-      };
+      return this.createConstantInput(0);
     }
-    return this.descendInput(block);
+    const intermediate = this.descendInput(block, preserveStrings);
+    this.script.yields = this.script.yields || intermediate.yields;
+    return intermediate;
   }
 
   /**
    * Descend into an input. (eg. "length of ( )")
    * @param {*} block The parent Scratch block input.
+   * @param {boolean} preserveStrings Should this input keep the names of costumes and sounds at strings.
    * @private
-   * @returns {Node} Compiled input node for this input.
+   * @returns {IntermediateInput} Compiled input node for this input.
    */
   descendInput(block) {
+    let preserveStrings = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    if (this.oldCompilerStub) {
+      const oldCompilerResult = this.oldCompilerStub.descendInputFromNewCompiler(block);
+      if (oldCompilerResult) {
+        return oldCompilerResult;
+      }
+    }
     switch (block.opcode) {
       case 'colour_picker':
-        return {
-          kind: 'constant',
-          value: block.fields.COLOUR.value
-        };
+        return this.createConstantInput(block.fields.COLOUR.value, true);
       case 'math_angle':
       case 'math_integer':
       case 'math_number':
       case 'math_positive_number':
       case 'math_whole_number':
-        return {
-          kind: 'constant',
-          value: block.fields.NUM.value
-        };
+        return this.createConstantInput(block.fields.NUM.value, preserveStrings);
       case 'text':
-        return {
-          kind: 'constant',
-          value: block.fields.TEXT.value
-        };
+        return this.createConstantInput(block.fields.TEXT.value, preserveStrings);
       case 'argument_reporter_string_number':
         {
           const name = block.fields.VALUE.value;
@@ -181962,21 +182688,15 @@ class ScriptTreeGenerator {
           if (index === -1) {
             // Legacy support
             if (name.toLowerCase() === 'last key pressed') {
-              return {
-                kind: 'tw.lastKeyPressed'
-              };
+              return new IntermediateInput(InputOpcode.TW_KEY_LAST_PRESSED, InputType.STRING);
             }
           }
           if (index === -1) {
-            return {
-              kind: 'constant',
-              value: 0
-            };
+            return this.createConstantInput(0);
           }
-          return {
-            kind: 'procedures.argument',
-            index: index
-          };
+          return new IntermediateInput(InputOpcode.PROCEDURE_ARGUMENT, InputType.ANY, {
+            index
+          });
         }
       case 'argument_reporter_boolean':
         {
@@ -181984,655 +182704,566 @@ class ScriptTreeGenerator {
           const name = block.fields.VALUE.value;
           const index = this.script.arguments.lastIndexOf(name);
           if (index === -1) {
-            if (name.toLowerCase() === 'is compiled?' || name.toLowerCase() === 'is dash?' || name.toLowerCase() === 'is turbowarp?') {
-              return {
-                kind: 'constant',
-                value: true
-              };
+            if (name.toLowerCase() === 'is compiled?' || name.toLowerCase() === 'is turbowarp?' || name.toLowerCase() === 'is dash?') {
+              return this.createConstantInput(true).toType(InputType.BOOLEAN);
             }
-            return {
-              kind: 'constant',
-              value: 0
-            };
+            return this.createConstantInput(0);
           }
-          return {
-            kind: 'procedures.argument',
-            index: index
-          };
+          return new IntermediateInput(InputOpcode.PROCEDURE_ARGUMENT, InputType.ANY, {
+            index
+          });
         }
-      case 'control_if_then_else':
-        return {
-          kind: 'control.ifThenElse',
-          condition: this.descendInputOfBlock(block, 'CONDITION'),
-          then: this.descendInputOfBlock(block, 'THEN'),
-          else: this.descendInputOfBlock(block, 'ELSE')
-        };
-      case 'control_is_paused':
-        return {
-          kind: 'control.isPaused'
-        };
-      case 'control_get_counter':
-        return {
-          kind: 'counter.get'
-        };
       case 'data_variable':
-        return {
-          kind: 'var.get',
+        return new IntermediateInput(InputOpcode.VAR_GET, InputType.ANY, {
           variable: this.descendVariable(block, 'VARIABLE', SCALAR_TYPE)
-        };
+        });
       case 'data_itemoflist':
-        return {
-          kind: 'list.get',
+        return new IntermediateInput(InputOpcode.LIST_GET, InputType.ANY, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
           index: this.descendInputOfBlock(block, 'INDEX')
-        };
+        });
       case 'data_lengthoflist':
-        return {
-          kind: 'list.length',
+        return new IntermediateInput(InputOpcode.LIST_LENGTH, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE)
-        };
+        });
       case 'data_listcontainsitem':
-        return {
-          kind: 'list.contains',
+        return new IntermediateInput(InputOpcode.LIST_CONTAINS, InputType.BOOLEAN, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
           item: this.descendInputOfBlock(block, 'ITEM')
-        };
+        });
       case 'data_itemnumoflist':
-        return {
-          kind: 'list.indexOf',
+        return new IntermediateInput(InputOpcode.LIST_INDEX_OF, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
           item: this.descendInputOfBlock(block, 'ITEM')
-        };
+        });
       case 'data_listcontents':
-        return {
-          kind: 'list.contents',
+        return new IntermediateInput(InputOpcode.LIST_CONTENTS, InputType.STRING, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE)
-        };
+        });
+      case 'json_contains':
+        return new IntermediateInput(InputOpcode.JSON_CONTAINS, InputType.BOOLEAN, {
+          json: this.descendInputOfBlock(block, 'JSON').toType(InputType.JSON),
+          value: this.descendInputOfBlock(block, 'VALUE')
+        });
+      case 'json_length':
+        return new IntermediateInput(InputOpcode.JSON_LENGTH, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO, {
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.JSON)
+        });
+      case 'json_array_empty':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_EMPTY, InputType.ARRAY);
+      case 'json_array_item_of':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_ITEM_OF, InputType.ANY, {
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.ARRAY),
+          index: this.descendInputOfBlock(block, 'INDEX')
+        });
+      case 'json_array_item_no_of':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_ITEM_NO_OF, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          value: this.descendInputOfBlock(block, 'VALUE')
+        });
+      case 'json_array_in_front_of':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_IN_FRONT_OF, InputType.ARRAY, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        });
+      case 'json_array_behind':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_BEHIND, InputType.ARRAY, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        });
+      case 'json_array_at':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_AT, InputType.ARRAY, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          index: this.descendInputOfBlock(block, 'INDEX'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        });
+      case 'json_array_split':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_SPLIT, InputType.ARRAY, {
+          text: this.descendInputOfBlock(block, 'TEXT').toType(InputType.STRING),
+          delim: this.descendInputOfBlock(block, 'DELIM').toType(InputType.STRING)
+        });
+      case 'json_array_delete':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_DELETE, InputType.ARRAY, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          index: this.descendInputOfBlock(block, 'INDEX')
+        });
+      case 'json_array_replace':
+        return new IntermediateInput(InputOpcode.JSON_ARRAY_REPLACE, InputType.ARRAY, {
+          array: this.descendInputOfBlock(block, 'ARRAY').toType(InputType.ARRAY),
+          index: this.descendInputOfBlock(block, 'INDEX'),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        });
+      case 'json_object_empty':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_EMPTY, InputType.OBJECT);
+      case 'json_object_split':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_SPLIT, InputType.OBJECT, {
+          text: this.descendInputOfBlock(block, 'TEXT').toType(InputType.STRING),
+          keydelim: this.descendInputOfBlock(block, 'KEYDELIM').toType(InputType.STRING),
+          pairdelim: this.descendInputOfBlock(block, 'PAIRDELIM').toType(InputType.STRING)
+        });
+      case 'json_object_item_of':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_ITEM_OF, InputType.ANY, {
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.OBJECT),
+          key: this.descendInputOfBlock(block, 'KEY').toType(InputType.STRING)
+        });
+      case 'json_object_contains_key':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_CONTAINS_KEY, InputType.BOOLEAN, {
+          object: this.descendInputOfBlock(block, 'OBJECT').toType(InputType.OBJECT),
+          key: this.descendInputOfBlock(block, 'KEY').toType(InputType.STRING)
+        });
+      case 'json_object_set':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_SET, InputType.OBJECT, {
+          object: this.descendInputOfBlock(block, 'OBJECT').toType(InputType.OBJECT),
+          key: this.descendInputOfBlock(block, 'KEY').toType(InputType.STRING),
+          item: this.descendInputOfBlock(block, 'ITEM')
+        });
+      case 'json_object_delete':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_DELETE, InputType.OBJECT, {
+          object: this.descendInputOfBlock(block, 'OBJECT').toType(InputType.OBJECT),
+          key: this.descendInputOfBlock(block, 'KEY').toType(InputType.STRING)
+        });
+      case 'json_object_entries':
+        return new IntermediateInput(InputOpcode.JSON_OBJECT_ENTRIES, InputType.ARRAY, {
+          object: this.descendInputOfBlock(block, 'OBJECT').toType(InputType.OBJECT),
+          property: block.fields.PROPERTY.value
+        });
       case 'event_broadcast_menu':
         {
           const broadcastOption = block.fields.BROADCAST_OPTION;
           const broadcastVariable = this.target.lookupBroadcastMsg(broadcastOption.id, broadcastOption.value);
           // TODO: empty string probably isn't the correct fallback
           const broadcastName = broadcastVariable ? broadcastVariable.name : '';
-          return {
-            kind: 'constant',
-            value: broadcastName
-          };
+          return this.createConstantInput(broadcastName);
         }
       case 'looks_isvisible':
-        return {
-          kind: 'looks.isvisible'
-        };
+        return new IntermediateInput(InputOpcode.LOOKS_IS_VISIBLE, InputType.BOOLEAN);
       case 'looks_geteffect':
-        return {
-          kind: 'looks.geteffect',
+        return new IntermediateInput(InputOpcode.LOOKS_EFFECT_GET, InputType.NUMBER, {
           effect: block.fields.EFFECT.value.toLowerCase()
-        };
+        });
       case 'looks_backdropnumbername':
         if (block.fields.NUMBER_NAME.value === 'number') {
-          return {
-            kind: 'looks.backdropNumber'
-          };
+          return new IntermediateInput(InputOpcode.LOOKS_BACKDROP_NUMBER, InputType.NUMBER_POS_INT);
         }
-        return {
-          kind: 'looks.backdropName'
-        };
+        return new IntermediateInput(InputOpcode.LOOKS_BACKDROP_NAME, InputType.STRING);
       case 'looks_costumenumbername':
         if (block.fields.NUMBER_NAME.value === 'number') {
-          return {
-            kind: 'looks.costumeNumber'
-          };
+          return new IntermediateInput(InputOpcode.LOOKS_COSTUME_NUMBER, InputType.NUMBER_POS_INT);
         }
-        return {
-          kind: 'looks.costumeName'
-        };
+        return new IntermediateInput(InputOpcode.LOOKS_COSTUME_NAME, InputType.STRING);
       case 'looks_size':
-        return {
-          kind: 'looks.size'
-        };
+        return new IntermediateInput(InputOpcode.LOOKS_SIZE_GET, InputType.NUMBER_POS);
       case 'motion_direction':
-        return {
-          kind: 'motion.direction'
-        };
+        return new IntermediateInput(InputOpcode.MOTION_DIRECTION_GET, InputType.NUMBER_REAL);
       case 'motion_xposition':
-        return {
-          kind: 'motion.x'
-        };
+        return new IntermediateInput(InputOpcode.MOTION_X_GET, InputType.NUMBER);
       case 'motion_yposition':
-        return {
-          kind: 'motion.y'
-        };
+        return new IntermediateInput(InputOpcode.MOTION_Y_GET, InputType.NUMBER);
       case 'motion_position':
-        return {
-          kind: 'motion.position'
-        };
+        return new IntermediateInput(InputOpcode.MOTION_XY_GET, InputType.ARRAY);
       case 'operator_add':
-        return {
-          kind: 'op.add',
-          left: this.descendInputOfBlock(block, 'NUM1'),
-          right: this.descendInputOfBlock(block, 'NUM2')
-        };
+        return new IntermediateInput(InputOpcode.OP_ADD, InputType.NUMBER_OR_NAN, {
+          left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
+          right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
+        });
       case 'operator_and':
-        return {
-          kind: 'op.and',
-          left: this.descendInputOfBlock(block, 'OPERAND1'),
-          right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
+        return new IntermediateInput(InputOpcode.OP_AND, InputType.BOOLEAN, {
+          left: this.descendInputOfBlock(block, 'OPERAND1').toType(InputType.BOOLEAN),
+          right: this.descendInputOfBlock(block, 'OPERAND2').toType(InputType.BOOLEAN)
+        });
       case 'operator_contains':
-        return {
-          kind: 'op.contains',
-          string: this.descendInputOfBlock(block, 'STRING1'),
-          contains: this.descendInputOfBlock(block, 'STRING2')
-        };
-      case 'operator_typeof':
-        return {
-          kind: 'op.typeof',
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'operator_is_type':
-        return {
-          kind: 'op.isType',
-          value: this.descendInputOfBlock(block, 'VALUE'),
-          type: block.fields.TYPE.value
-        };
-      case 'operator_is_string':
-        return {
-          kind: 'op.isString',
-          string: this.descendInputOfBlock(block, 'STRING')
-        };
-      case 'operator_is_number':
-        return {
-          kind: 'op.isNumber',
-          num: this.descendInputOfBlock(block, 'NUM')
-        };
-      case 'operator_cast':
-        return {
-          kind: 'op.cast',
-          value: this.descendInputOfBlock(block, 'VALUE'),
-          type: block.fields.TYPE.value
-        };
-      case 'operator_in_range':
-        return {
-          kind: 'op.inRange',
-          num: this.descendInputOfBlock(block, 'NUM'),
-          from: this.descendInputOfBlock(block, 'FROM'),
-          to: this.descendInputOfBlock(block, 'TO')
-        };
-      case 'operator_nums_in_range':
-        return {
-          kind: 'op.numsInRange',
-          from: this.descendInputOfBlock(block, 'FROM'),
-          to: this.descendInputOfBlock(block, 'TO')
-        };
+        return new IntermediateInput(InputOpcode.OP_CONTAINS, InputType.BOOLEAN, {
+          string: this.descendInputOfBlock(block, 'STRING1').toType(InputType.STRING),
+          contains: this.descendInputOfBlock(block, 'STRING2').toType(InputType.STRING)
+        });
       case 'operator_divide':
-        return {
-          kind: 'op.divide',
-          left: this.descendInputOfBlock(block, 'NUM1'),
-          right: this.descendInputOfBlock(block, 'NUM2')
-        };
+        return new IntermediateInput(InputOpcode.OP_DIVIDE, InputType.NUMBER_OR_NAN, {
+          left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
+          right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
+        });
       case 'operator_equals':
-        return {
-          kind: 'op.equals',
+        return new IntermediateInput(InputOpcode.OP_EQUALS, InputType.BOOLEAN, {
           left: this.descendInputOfBlock(block, 'OPERAND1'),
           right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
+        });
       case 'operator_gt':
-        return {
-          kind: 'op.greater',
+        return new IntermediateInput(InputOpcode.OP_GREATER, InputType.BOOLEAN, {
           left: this.descendInputOfBlock(block, 'OPERAND1'),
           right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
+        });
       case 'operator_join':
-        return {
-          kind: 'op.join',
-          left: this.descendInputOfBlock(block, 'STRING1'),
-          right: this.descendInputOfBlock(block, 'STRING2')
-        };
+        return new IntermediateInput(InputOpcode.OP_JOIN, InputType.STRING, {
+          left: this.descendInputOfBlock(block, 'STRING1').toType(InputType.STRING),
+          right: this.descendInputOfBlock(block, 'STRING2').toType(InputType.STRING)
+        });
       case 'operator_length':
-        return {
-          kind: 'op.length',
-          string: this.descendInputOfBlock(block, 'STRING')
-        };
+        return new IntermediateInput(InputOpcode.OP_LENGTH, InputType.NUMBER_REAL, {
+          string: this.descendInputOfBlock(block, 'STRING').toType(InputType.STRING)
+        });
       case 'operator_letter_of':
-        return {
-          kind: 'op.letterOf',
-          letter: this.descendInputOfBlock(block, 'LETTER'),
-          string: this.descendInputOfBlock(block, 'STRING')
-        };
+        return new IntermediateInput(InputOpcode.OP_LETTER_OF, InputType.STRING, {
+          letter: this.descendInputOfBlock(block, 'LETTER').toType(InputType.NUMBER_INDEX),
+          string: this.descendInputOfBlock(block, 'STRING').toType(InputType.STRING)
+        });
       case 'operator_lt':
-        return {
-          kind: 'op.less',
+        return new IntermediateInput(InputOpcode.OP_LESS, InputType.BOOLEAN, {
           left: this.descendInputOfBlock(block, 'OPERAND1'),
           right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
+        });
       case 'operator_mathop':
         {
-          const value = this.descendInputOfBlock(block, 'NUM');
+          const value = this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER);
           const operator = block.fields.OPERATOR.value.toLowerCase();
           switch (operator) {
             case 'abs':
-              return {
-                kind: 'op.abs',
+              return new IntermediateInput(InputOpcode.OP_ABS, InputType.NUMBER_POS | InputType.NUMBER_ZERO, {
                 value
-              };
+              });
             case 'floor':
-              return {
-                kind: 'op.floor',
+              return new IntermediateInput(InputOpcode.OP_FLOOR, InputType.NUMBER, {
                 value
-              };
+              });
             case 'ceiling':
-              return {
-                kind: 'op.ceiling',
+              return new IntermediateInput(InputOpcode.OP_CEILING, InputType.NUMBER, {
                 value
-              };
+              });
             case 'sqrt':
-              return {
-                kind: 'op.sqrt',
+              return new IntermediateInput(InputOpcode.OP_SQRT, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'sin':
-              return {
-                kind: 'op.sin',
+              return new IntermediateInput(InputOpcode.OP_SIN, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'cos':
-              return {
-                kind: 'op.cos',
+              return new IntermediateInput(InputOpcode.OP_COS, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'tan':
-              return {
-                kind: 'op.tan',
+              return new IntermediateInput(InputOpcode.OP_TAN, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'asin':
-              return {
-                kind: 'op.asin',
+              return new IntermediateInput(InputOpcode.OP_ASIN, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'acos':
-              return {
-                kind: 'op.acos',
+              return new IntermediateInput(InputOpcode.OP_ACOS, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'atan':
-              return {
-                kind: 'op.atan',
+              return new IntermediateInput(InputOpcode.OP_ATAN, InputType.NUMBER, {
                 value
-              };
+              });
             case 'ln':
-              return {
-                kind: 'op.ln',
+              return new IntermediateInput(InputOpcode.OP_LOG_E, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'log':
-              return {
-                kind: 'op.log',
+              return new IntermediateInput(InputOpcode.OP_LOG_10, InputType.NUMBER_OR_NAN, {
                 value
-              };
+              });
             case 'e ^':
-              return {
-                kind: 'op.e^',
+              return new IntermediateInput(InputOpcode.OP_POW_E, InputType.NUMBER, {
                 value
-              };
+              });
             case '10 ^':
-              return {
-                kind: 'op.10^',
+              return new IntermediateInput(InputOpcode.OP_POW_10, InputType.NUMBER, {
                 value
-              };
+              });
             default:
-              return {
-                kind: 'constant',
-                value: 0
-              };
+              return this.createConstantInput(0);
           }
         }
       case 'operator_mod':
-        return {
-          kind: 'op.mod',
-          left: this.descendInputOfBlock(block, 'NUM1'),
-          right: this.descendInputOfBlock(block, 'NUM2')
-        };
+        return new IntermediateInput(InputOpcode.OP_MOD, InputType.NUMBER_OR_NAN, {
+          left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
+          right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
+        });
       case 'operator_multiply':
-        return {
-          kind: 'op.multiply',
-          left: this.descendInputOfBlock(block, 'NUM1'),
-          right: this.descendInputOfBlock(block, 'NUM2')
-        };
+        return new IntermediateInput(InputOpcode.OP_MULTIPLY, InputType.NUMBER_OR_NAN, {
+          left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
+          right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
+        });
       case 'operator_not':
-        return {
-          kind: 'op.not',
-          operand: this.descendInputOfBlock(block, 'OPERAND')
-        };
+        return new IntermediateInput(InputOpcode.OP_NOT, InputType.BOOLEAN, {
+          operand: this.descendInputOfBlock(block, 'OPERAND').toType(InputType.BOOLEAN)
+        });
       case 'operator_or':
-        return {
-          kind: 'op.or',
-          left: this.descendInputOfBlock(block, 'OPERAND1'),
-          right: this.descendInputOfBlock(block, 'OPERAND2')
-        };
+        return new IntermediateInput(InputOpcode.OP_OR, InputType.BOOLEAN, {
+          left: this.descendInputOfBlock(block, 'OPERAND1').toType(InputType.BOOLEAN),
+          right: this.descendInputOfBlock(block, 'OPERAND2').toType(InputType.BOOLEAN)
+        });
       case 'operator_random':
         {
           const from = this.descendInputOfBlock(block, 'FROM');
           const to = this.descendInputOfBlock(block, 'TO');
           // If both values are known at compile time, we can do some optimizations.
           // TODO: move optimizations to jsgen?
-          if (from.kind === 'constant' && to.kind === 'constant') {
-            const sFrom = from.value;
-            const sTo = to.value;
+          if (from.opcode === InputOpcode.CONSTANT && to.opcode === InputOpcode.CONSTANT) {
+            const sFrom = from.inputs.value;
+            const sTo = to.inputs.value;
             const nFrom = Cast.toNumber(sFrom);
             const nTo = Cast.toNumber(sTo);
             // If both numbers are the same, random is unnecessary.
             // todo: this probably never happens so consider removing
             if (nFrom === nTo) {
-              return {
-                kind: 'constant',
-                value: nFrom
-              };
+              return this.createConstantInput(nFrom);
             }
             // If both are ints, hint this to the compiler
             if (Cast.isInt(sFrom) && Cast.isInt(sTo)) {
-              return {
-                kind: 'op.random',
-                low: nFrom <= nTo ? from : to,
-                high: nFrom <= nTo ? to : from,
+              // Both inputs are ints, so we know neither are NaN
+              return new IntermediateInput(InputOpcode.OP_RANDOM, InputType.NUMBER, {
+                low: (nFrom <= nTo ? from : to).toType(InputType.NUMBER),
+                high: (nFrom <= nTo ? to : from).toType(InputType.NUMBER),
                 useInts: true,
                 useFloats: false
-              };
+              });
             }
             // Otherwise hint that these are floats
-            return {
-              kind: 'op.random',
-              low: nFrom <= nTo ? from : to,
-              high: nFrom <= nTo ? to : from,
+            return new IntermediateInput(InputOpcode.OP_RANDOM, InputType.NUMBER_OR_NAN, {
+              low: (nFrom <= nTo ? from : to).toType(InputType.NUMBER),
+              high: (nFrom <= nTo ? to : from).toType(InputType.NUMBER),
               useInts: false,
               useFloats: true
-            };
-          } else if (from.kind === 'constant') {
+            });
+          } else if (from.opcode === InputOpcode.CONSTANT) {
             // If only one value is known at compile-time, we can still attempt some optimizations.
-            if (!Cast.isInt(Cast.toNumber(from.value))) {
-              return {
-                kind: 'op.random',
-                low: from,
-                high: to,
+            if (!Cast.isInt(Cast.toNumber(from.inputs.value))) {
+              return new IntermediateInput(InputOpcode.OP_RANDOM, InputType.NUMBER_OR_NAN, {
+                low: from.toType(InputType.NUMBER),
+                high: to.toType(InputType.NUMBER),
                 useInts: false,
                 useFloats: true
-              };
+              });
             }
-          } else if (to.kind === 'constant') {
-            if (!Cast.isInt(Cast.toNumber(to.value))) {
-              return {
-                kind: 'op.random',
-                low: from,
-                high: to,
+          } else if (to.opcode === InputOpcode.CONSTANT) {
+            if (!Cast.isInt(Cast.toNumber(from.inputs.value))) {
+              return new IntermediateInput(InputOpcode.OP_RANDOM, InputType.NUMBER_OR_NAN, {
+                low: from.toType(InputType.NUMBER),
+                high: to.toType(InputType.NUMBER),
                 useInts: false,
                 useFloats: true
-              };
+              });
             }
           }
           // No optimizations possible
-          return {
-            kind: 'op.random',
+          return new IntermediateInput(InputOpcode.OP_RANDOM, InputType.NUMBER_OR_NAN, {
             low: from,
             high: to,
             useInts: false,
             useFloats: false
-          };
+          });
         }
       case 'operator_round':
-        return {
-          kind: 'op.round',
-          value: this.descendInputOfBlock(block, 'NUM')
-        };
+        return new IntermediateInput(InputOpcode.OP_ROUND, InputType.NUMBER, {
+          value: this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER)
+        });
       case 'operator_subtract':
-        return {
-          kind: 'op.subtract',
-          left: this.descendInputOfBlock(block, 'NUM1'),
-          right: this.descendInputOfBlock(block, 'NUM2')
-        };
-      case 'procedures_call':
-        return this.descendProcedure(block);
-      case 'sensing_prompt':
-        return {
-          kind: 'sensing.prompt',
-          message: this.descendInputOfBlock(block, 'MESSAGE'),
+        return new IntermediateInput(InputOpcode.OP_SUBTRACT, InputType.NUMBER_OR_NAN, {
+          left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
+          right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
+        });
+      case 'operator_typeof':
+        return new IntermediateInput(InputOpcode.OP_TYPE_OF, InputType.STRING | InputType.OBJECT, {
           value: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'sensing_confirm':
-        return {
-          kind: 'sensing.confirm',
-          message: this.descendInputOfBlock(block, 'MESSAGE')
-        };
+        });
+      case 'operator_is_type':
+        return new IntermediateInput(InputOpcode.OP_IS_TYPE, InputType.BOOLEAN, {
+          value: this.descendInputOfBlock(block, 'VALUE'),
+          type: block.fields.TYPE.value
+        });
+      case 'operator_is_string':
+        return new IntermediateInput(InputOpcode.OP_IS_TYPE, InputType.BOOLEAN, {
+          value: this.descendInputOfBlock(block, 'STRING'),
+          type: 'string'
+        });
+      case 'operator_is_number':
+        return new IntermediateInput(InputOpcode.OP_IS_TYPE, InputType.BOOLEAN, {
+          value: this.descendInputOfBlock(block, 'NUM'),
+          type: 'number'
+        });
+      case 'operator_cast':
+        return new IntermediateInput(InputOpcode.OP_CAST, InputType.ANY, {
+          value: this.descendInputOfBlock(block, 'VALUE'),
+          type: block.fields.TYPE.value
+        });
+      case 'operator_nums_in_range':
+        return new IntermediateInput(InputOpcode.OP_NUMS_IN_RANGE, InputType.ARRAY, {
+          from: this.descendInputOfBlock(block, 'FROM').toType(InputType.NUMBER),
+          to: this.descendInputOfBlock(block, 'TO').toType(InputType.NUMBER)
+        });
+      case 'operator_in_range':
+        return new IntermediateInput(InputOpcode.OP_IN_RANGE, InputType.BOOLEAN, {
+          num: this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER),
+          from: this.descendInputOfBlock(block, 'FROM').toType(InputType.NUMBER),
+          to: this.descendInputOfBlock(block, 'TO').toType(InputType.NUMBER)
+        });
+      case 'procedures_call':
+        {
+          const procedureInfo = this.getProcedureInfo(block);
+          return new IntermediateInput(procedureInfo.opcode, InputType.ANY, procedureInfo.inputs, procedureInfo.yields);
+        }
       case 'sensing_answer':
-        return {
-          kind: 'sensing.answer'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_ANSWER, InputType.STRING);
       case 'sensing_coloristouchingcolor':
-        return {
-          kind: 'sensing.colorTouchingColor',
-          target: this.descendInputOfBlock(block, 'COLOR2'),
-          mask: this.descendInputOfBlock(block, 'COLOR')
-        };
+        return new IntermediateInput(InputOpcode.SENSING_COLOR_TOUCHING_COLOR, InputType.BOOLEAN, {
+          target: this.descendInputOfBlock(block, 'COLOR2').toType(InputType.COLOR),
+          mask: this.descendInputOfBlock(block, 'COLOR').toType(InputType.COLOR)
+        });
       case 'sensing_current':
         switch (block.fields.CURRENTMENU.value.toLowerCase()) {
           case 'year':
-            return {
-              kind: 'sensing.year'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_YEAR, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO);
           case 'month':
-            return {
-              kind: 'sensing.month'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_MONTH, InputType.NUMBER_POS_INT);
           case 'date':
-            return {
-              kind: 'sensing.date'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_DATE, InputType.NUMBER_POS_INT);
           case 'dayofweek':
-            return {
-              kind: 'sensing.dayofweek'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_WEEKDAY, InputType.NUMBER_POS_INT);
           case 'hour':
-            return {
-              kind: 'sensing.hour'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_HOUR, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO);
           case 'minute':
-            return {
-              kind: 'sensing.minute'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_MINUTE, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO);
           case 'second':
-            return {
-              kind: 'sensing.second'
-            };
+            return new IntermediateInput(InputOpcode.SENSING_TIME_SECOND, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO);
+          default:
+            return this.createConstantInput(0);
         }
-        return {
-          kind: 'constant',
-          value: 0
-        };
       case 'sensing_dayssince2000':
-        return {
-          kind: 'sensing.daysSince2000'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_TIME_DAYS_SINCE_2000, InputType.NUMBER);
       case 'sensing_distanceto':
-        return {
-          kind: 'sensing.distance',
-          target: this.descendInputOfBlock(block, 'DISTANCETOMENU')
-        };
+        return new IntermediateInput(InputOpcode.SENSING_DISTANCE, InputType.NUMBER_POS | InputType.NUMBER_ZERO, {
+          target: this.descendInputOfBlock(block, 'DISTANCETOMENU').toType(InputType.STRING)
+        });
       case 'sensing_keypressed':
-        return {
-          kind: 'keyboard.pressed',
-          key: this.descendInputOfBlock(block, 'KEY_OPTION')
-        };
+        return new IntermediateInput(InputOpcode.SENSING_KEY_DOWN, InputType.BOOLEAN, {
+          key: this.descendInputOfBlock(block, 'KEY_OPTION', true)
+        });
+      case 'sensing_prompt':
+        return new IntermediateInput(InputOpcode.SENSING_MODALS_PROMPT, InputType.STRING, {
+          message: this.descendInputOfBlock(block, 'MESSAGE').toType(InputType.STRING),
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.STRING)
+        });
+      case 'sensing_confirm':
+        return new IntermediateInput(InputOpcode.SENSING_MODALS_CONFIRM, InputType.BOOLEAN, {
+          message: this.descendInputOfBlock(block, 'MESSAGE').toType(InputType.STRING)
+        });
       case 'sensing_mousedown':
-        return {
-          kind: 'mouse.down'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_MOUSE_DOWN, InputType.BOOLEAN);
       case 'sensing_mousex':
-        return {
-          kind: 'mouse.x'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_MOUSE_X, InputType.NUMBER);
       case 'sensing_mousey':
-        return {
-          kind: 'mouse.y'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_MOUSE_Y, InputType.NUMBER);
       case 'sensing_mousexy':
-        return {
-          kind: 'mouse.xy'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_MOUSE_XY, InputType.ARRAY);
       case 'sensing_of':
-        return {
-          kind: 'sensing.of',
-          property: block.fields.PROPERTY.value,
-          object: this.descendInputOfBlock(block, 'OBJECT')
-        };
+        {
+          const property = block.fields.PROPERTY.value;
+          const object = this.descendInputOfBlock(block, 'OBJECT').toType(InputType.STRING);
+          if (object.opcode !== InputOpcode.CONSTANT) {
+            return new IntermediateInput(InputOpcode.SENSING_OF, InputType.ANY, {
+              object,
+              property
+            });
+          }
+          if (property === 'volume') {
+            return new IntermediateInput(InputOpcode.SENSING_OF_VOLUME, InputType.NUMBER_POS_REAL | InputType.NUMBER_ZERO, {
+              object,
+              property
+            });
+          }
+          if (object.isConstant('_stage_')) {
+            switch (property) {
+              case 'background #': // fallthrough for scratch 1.0 compatibility
+              case 'backdrop #':
+                return new IntermediateInput(InputOpcode.SENSING_OF_BACKDROP_NUMBER, InputType.NUMBER_POS_INT);
+              case 'backdrop name':
+                return new IntermediateInput(InputOpcode.SENSING_OF_BACKDROP_NAME, InputType.STRING);
+            }
+          } else {
+            switch (property) {
+              case 'x position':
+                return new IntermediateInput(InputOpcode.SENSING_OF_POS_X, InputType.NUMBER, {
+                  object
+                });
+              case 'y position':
+                return new IntermediateInput(InputOpcode.SENSING_OF_POS_Y, InputType.NUMBER, {
+                  object
+                });
+              case 'position':
+                return new IntermediateInput(InputOpcode.SENSING_OF_POS_XY, InputType.ARRAY, {
+                  object
+                });
+              case 'direction':
+                return new IntermediateInput(InputOpcode.SENSING_OF_DIRECTION, InputType.NUMBER_REAL, {
+                  object
+                });
+              case 'visibility':
+                return new IntermediateInput(InputOpcode.SENSING_OF_VISIBILITY, InputType.BOOLEAN | InputType.NUMBER_ZERO, {
+                  object
+                });
+              case 'costume #':
+                return new IntermediateInput(InputOpcode.SENSING_OF_COSTUME_NUMBER, InputType.NUMBER_POS_INT, {
+                  object
+                });
+              case 'costume name':
+                return new IntermediateInput(InputOpcode.SENSING_OF_COSTUME_NAME, InputType.STRING, {
+                  object
+                });
+              case 'size':
+                return new IntermediateInput(InputOpcode.SENSING_OF_SIZE, InputType.NUMBER_POS, {
+                  object
+                });
+            }
+          }
+          return new IntermediateInput(InputOpcode.SENSING_OF_VAR, InputType.ANY, {
+            object,
+            property
+          });
+        }
       case 'sensing_timer':
         this.usesTimer = true;
-        return {
-          kind: 'timer.get'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_TIMER_GET, InputType.NUMBER_POS_REAL | InputType.NUMBER_ZERO);
       case 'sensing_touchingcolor':
-        return {
-          kind: 'sensing.touchingColor',
-          color: this.descendInputOfBlock(block, 'COLOR')
-        };
+        return new IntermediateInput(InputOpcode.SENSING_TOUCHING_COLOR, InputType.BOOLEAN, {
+          color: this.descendInputOfBlock(block, 'COLOR').toType(InputType.COLOR)
+        });
       case 'sensing_touchingobject':
-        return {
-          kind: 'sensing.touching',
+        return new IntermediateInput(InputOpcode.SENSING_TOUCHING_OBJECT, InputType.BOOLEAN, {
           object: this.descendInputOfBlock(block, 'TOUCHINGOBJECTMENU')
-        };
+        });
       case 'sensing_username':
-        return {
-          kind: 'sensing.username'
-        };
+        return new IntermediateInput(InputOpcode.SENSING_USERNAME, InputType.STRING);
       case 'sound_sounds_menu':
         // This menu is special compared to other menus -- it actually has an opcode function.
-        return {
-          kind: 'constant',
-          value: block.fields.SOUND_MENU.value
-        };
-      case 'json_array_empty':
-        return {
-          kind: 'json.arrayEmpty'
-        };
-      case 'json_array_item_of':
-        return {
-          kind: 'json.arrayItemOf',
-          array: this.descendInputOfBlock(block, 'VALUE'),
-          index: this.descendInputOfBlock(block, 'INDEX')
-        };
-      case 'json_array_item_no_of':
-        return {
-          kind: 'json.arrayItemNoOf',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          item: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'json_contains':
-        return {
-          kind: 'json.contains',
-          json: this.descendInputOfBlock(block, 'JSON'),
-          item: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'json_length':
-        return {
-          kind: 'json.length',
-          json: this.descendInputOfBlock(block, 'VALUE')
-        };
-      case 'json_array_in_front_of':
-        return {
-          kind: 'json.arrayInFrontOf',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
-      case 'json_array_behind':
-        return {
-          kind: 'json.arrayBehind',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
-      case 'json_array_at':
-        return {
-          kind: 'json.arrayAt',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          index: this.descendInputOfBlock(block, 'INDEX'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
-      case 'json_array_split':
-        return {
-          kind: 'json.arraySplit',
-          text: this.descendInputOfBlock(block, 'TEXT'),
-          delimiter: this.descendInputOfBlock(block, 'DELIM')
-        };
-      case 'json_array_delete':
-        return {
-          kind: 'json.arrayDelete',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          index: this.descendInputOfBlock(block, 'INDEX')
-        };
-      case 'json_array_replace':
-        return {
-          kind: 'json.arrayReplace',
-          array: this.descendInputOfBlock(block, 'ARRAY'),
-          index: this.descendInputOfBlock(block, 'INDEX'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
-      case 'json_object_empty':
-        return {
-          kind: 'json.objectEmpty'
-        };
-      case 'json_object_split':
-        return {
-          kind: 'json.objectSplit',
-          text: this.descendInputOfBlock(block, 'TEXT'),
-          keyDelim: this.descendInputOfBlock(block, 'KEYDELIM'),
-          pairDelim: this.descendInputOfBlock(block, 'PAIRDELIM')
-        };
-      case 'json_object_item_of':
-        return {
-          kind: 'json.objectItemOf',
-          value: this.descendInputOfBlock(block, 'VALUE'),
-          key: this.descendInputOfBlock(block, 'KEY')
-        };
-      case 'json_object_contains_key':
-        return {
-          kind: 'json.objectContainsKey',
-          object: this.descendInputOfBlock(block, 'OBJECT'),
-          key: this.descendInputOfBlock(block, 'KEY')
-        };
-      case 'json_object_set':
-        return {
-          kind: 'json.objectSet',
-          object: this.descendInputOfBlock(block, 'OBJECT'),
-          key: this.descendInputOfBlock(block, 'KEY'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
-      case 'json_object_delete':
-        return {
-          kind: 'json.objectDelete',
-          object: this.descendInputOfBlock(block, 'OBJECT'),
-          key: this.descendInputOfBlock(block, 'KEY')
-        };
-      case 'json_object_entries':
-        return {
-          kind: 'json.objectEntries',
-          object: this.descendInputOfBlock(block, 'OBJECT'),
-          property: block.fields.PROPERTY.value
-        };
+        return this.createConstantInput(block.fields.SOUND_MENU.value, true);
+      case 'control_if_then_else':
+        return new IntermediateInput(InputOpcode.CONTROL_IF_THEN_ELSE, InputType.ANY, {
+          condition: this.descendInputOfBlock(block, 'CONDITION').toType(InputType.BOOLEAN),
+          then: this.descendInputOfBlock(block, 'THEN'),
+          else: this.descendInputOfBlock(block, 'ELSE')
+        });
+      case 'control_is_paused':
+        return new IntermediateInput(InputOpcode.CONTROL_IS_PAUSED, InputType.BOOLEAN);
+      case 'control_get_counter':
+        return new IntermediateInput(InputOpcode.CONTROL_COUNTER, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO);
       case 'tw_getLastKeyPressed':
-        return {
-          kind: 'tw.lastKeyPressed'
-        };
+        return new IntermediateInput(InputOpcode.TW_KEY_LAST_PRESSED, InputType.STRING);
       default:
         {
           const opcodeFunction = this.runtime.getOpcodeFunction(block.opcode);
           if (opcodeFunction) {
             // It might be a non-compiled primitive from a standard category
             if (compatBlocks.inputs.includes(block.opcode)) {
-              return this.descendCompatLayer(block);
+              return this.descendCompatLayerInput(block);
             }
             // It might be an extension block.
             const blockInfo = this.getBlockInfo(block.opcode);
             if (blockInfo) {
               const type = blockInfo.info.blockType;
               if (type === BlockType.REPORTER || type === BlockType.BOOLEAN || type === BlockType.ARRAY || type === BlockType.OBJECT) {
-                return this.descendCompatLayer(block);
+                return this.descendCompatLayerInput(block);
               }
             }
           }
@@ -182641,10 +183272,7 @@ class ScriptTreeGenerator {
           const inputs = Object.keys(block.inputs);
           const fields = Object.keys(block.fields);
           if (inputs.length === 0 && fields.length === 1) {
-            return {
-              kind: 'constant',
-              value: block.fields[fields[0]].value
-            };
+            return this.createConstantInput(block.fields[fields[0]].value, preserveStrings);
           }
           log.warn("IR: Unknown input: ".concat(block.opcode), block);
           throw new Error("IR: Unknown input: ".concat(block.opcode));
@@ -182656,448 +183284,332 @@ class ScriptTreeGenerator {
    * Descend into a stacked block. (eg. "move ( ) steps")
    * @param {*} block The Scratch block to parse.
    * @private
-   * @returns {Node} Compiled node for this block.
+   * @returns {IntermediateStackBlock} Compiled node for this block.
    */
   descendStackedBlock(block) {
+    if (this.oldCompilerStub) {
+      const oldCompilerResult = this.oldCompilerStub.descendStackedBlockFromNewCompiler(block);
+      if (oldCompilerResult) {
+        return oldCompilerResult;
+      }
+    }
     switch (block.opcode) {
       case 'control_all_at_once':
         // In Scratch 3, this block behaves like "if 1 = 1"
-        return {
-          kind: 'control.if',
-          condition: {
-            kind: 'constant',
-            value: true
-          },
+        return new IntermediateStackBlock(StackOpcode.CONTROL_IF_ELSE, {
+          condition: this.createConstantInput(true).toType(InputType.BOOLEAN),
           whenTrue: this.descendSubstack(block, 'SUBSTACK'),
-          whenFalse: []
-        };
-      case 'control_clear_counter':
-        return {
-          kind: 'counter.clear'
-        };
+          whenFalse: new IntermediateStack()
+        });
       case 'control_create_clone_of':
-        return {
-          kind: 'control.createClone',
-          target: this.descendInputOfBlock(block, 'CLONE_OPTION')
-        };
+        return new IntermediateStackBlock(StackOpcode.CONTROL_CLONE_CREATE, {
+          target: this.descendInputOfBlock(block, 'CLONE_OPTION').toType(InputType.STRING)
+        });
       case 'control_delete_this_clone':
-        this.script.yields = true;
-        return {
-          kind: 'control.deleteClone'
-        };
+        return new IntermediateStackBlock(StackOpcode.CONTROL_CLONE_DELETE, {}, true);
       case 'control_forever':
-        this.analyzeLoop();
-        return {
-          kind: 'control.while',
-          condition: {
-            kind: 'constant',
-            value: true
-          },
+        return new IntermediateStackBlock(StackOpcode.CONTROL_WHILE, {
+          condition: this.createConstantInput(true).toType(InputType.BOOLEAN),
           do: this.descendSubstack(block, 'SUBSTACK')
-        };
+        }, this.analyzeLoop());
       case 'control_for_each':
-        this.analyzeLoop();
-        return {
-          kind: 'control.for',
+        return new IntermediateStackBlock(StackOpcode.CONTROL_FOR, {
           variable: this.descendVariable(block, 'VARIABLE', SCALAR_TYPE),
-          count: this.descendInputOfBlock(block, 'VALUE'),
+          count: this.descendInputOfBlock(block, 'VALUE').toType(InputType.NUMBER),
           do: this.descendSubstack(block, 'SUBSTACK')
-        };
+        }, this.analyzeLoop());
       case 'control_if':
-        return {
-          kind: 'control.if',
-          condition: this.descendInputOfBlock(block, 'CONDITION'),
+        return new IntermediateStackBlock(StackOpcode.CONTROL_IF_ELSE, {
+          condition: this.descendInputOfBlock(block, 'CONDITION').toType(InputType.BOOLEAN),
           whenTrue: this.descendSubstack(block, 'SUBSTACK'),
-          whenFalse: []
-        };
+          whenFalse: new IntermediateStack()
+        });
       case 'control_if_else':
-        return {
-          kind: 'control.if',
-          condition: this.descendInputOfBlock(block, 'CONDITION'),
+        return new IntermediateStackBlock(StackOpcode.CONTROL_IF_ELSE, {
+          condition: this.descendInputOfBlock(block, 'CONDITION').toType(InputType.BOOLEAN),
           whenTrue: this.descendSubstack(block, 'SUBSTACK'),
           whenFalse: this.descendSubstack(block, 'SUBSTACK2')
-        };
-      case 'control_incr_counter':
-        return {
-          kind: 'counter.increment'
-        };
+        });
       case 'control_repeat':
-        this.analyzeLoop();
-        return {
-          kind: 'control.repeat',
-          times: this.descendInputOfBlock(block, 'TIMES'),
+        return new IntermediateStackBlock(StackOpcode.CONTROL_REPEAT, {
+          times: this.descendInputOfBlock(block, 'TIMES').toType(InputType.NUMBER),
           do: this.descendSubstack(block, 'SUBSTACK')
-        };
+        }, this.analyzeLoop());
       case 'control_repeat_until':
         {
-          this.analyzeLoop();
           // Dirty hack: automatically enable warp timer for this block if it uses timer
           // This fixes project that do things like "repeat until timer > 0.5"
           this.usesTimer = false;
           const condition = this.descendInputOfBlock(block, 'CONDITION');
           const needsWarpTimer = this.usesTimer;
-          if (needsWarpTimer) {
-            this.script.yields = true;
-          }
-          return {
-            kind: 'control.while',
-            condition: {
-              kind: 'op.not',
+          return new IntermediateStackBlock(StackOpcode.CONTROL_WHILE, {
+            condition: new IntermediateInput(InputOpcode.OP_NOT, InputType.BOOLEAN, {
               operand: condition
-            },
+            }),
             do: this.descendSubstack(block, 'SUBSTACK'),
             warpTimer: needsWarpTimer
-          };
+          }, this.analyzeLoop() || needsWarpTimer);
         }
       case 'control_resume':
         {
-          return {
-            kind: 'control.resume'
-          };
+          return new IntermediateStackBlock(StackOpcode.CONTROL_RESUME);
         }
       case 'control_pause':
         {
-          return {
-            kind: 'control.pause'
-          };
+          return new IntermediateStackBlock(StackOpcode.CONTROL_PAUSE);
         }
       case 'control_stop':
         {
           const level = block.fields.STOP_OPTION.value;
           if (level === 'all') {
-            this.script.yields = true;
-            return {
-              kind: 'control.stopAll'
-            };
+            return new IntermediateStackBlock(StackOpcode.CONTROL_STOP_ALL, {}, true);
           } else if (level === 'other scripts in sprite' || level === 'other scripts in stage') {
-            return {
-              kind: 'control.stopOthers'
-            };
+            return new IntermediateStackBlock(StackOpcode.CONTROL_STOP_OTHERS);
           } else if (level === 'this script') {
-            return {
-              kind: 'control.stopScript'
-            };
+            return new IntermediateStackBlock(StackOpcode.CONTROL_STOP_SCRIPT);
           }
-          return {
-            kind: 'noop'
-          };
+          return new IntermediateStackBlock(StackOpcode.NOP);
         }
       case 'control_wait':
-        this.script.yields = true;
-        return {
-          kind: 'control.wait',
-          seconds: this.descendInputOfBlock(block, 'DURATION')
-        };
+        return new IntermediateStackBlock(StackOpcode.CONTROL_WAIT, {
+          seconds: this.descendInputOfBlock(block, 'DURATION').toType(InputType.NUMBER)
+        }, true);
       case 'control_wait_until':
-        this.script.yields = true;
-        return {
-          kind: 'control.waitUntil',
-          condition: this.descendInputOfBlock(block, 'CONDITION')
-        };
+        return new IntermediateStackBlock(StackOpcode.CONTROL_WAIT_UNTIL, {
+          condition: this.descendInputOfBlock(block, 'CONDITION').toType(InputType.BOOLEAN)
+        }, true);
       case 'control_while':
-        this.analyzeLoop();
-        return {
-          kind: 'control.while',
-          condition: this.descendInputOfBlock(block, 'CONDITION'),
+        return new IntermediateStackBlock(StackOpcode.CONTROL_WHILE, {
+          condition: this.descendInputOfBlock(block, 'CONDITION').toType(InputType.BOOLEAN),
           do: this.descendSubstack(block, 'SUBSTACK'),
           // We should consider analyzing this like we do for control_repeat_until
           warpTimer: false
-        };
+        }, this.analyzeLoop());
+      case 'control_clear_counter':
+        return new IntermediateStackBlock(StackOpcode.CONTROL_CLEAR_COUNTER);
+      case 'control_incr_counter':
+        return new IntermediateStackBlock(StackOpcode.CONTORL_INCR_COUNTER);
       case 'data_addtolist':
-        return {
-          kind: 'list.add',
+        return new IntermediateStackBlock(StackOpcode.LIST_ADD, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
+          item: this.descendInputOfBlock(block, 'ITEM', true)
+        });
       case 'data_changevariableby':
         {
           const variable = this.descendVariable(block, 'VARIABLE', SCALAR_TYPE);
-          return {
-            kind: 'var.set',
+          return new IntermediateStackBlock(StackOpcode.VAR_SET, {
             variable,
-            value: {
-              kind: 'op.add',
-              left: {
-                kind: 'var.get',
+            value: new IntermediateInput(InputOpcode.OP_ADD, InputType.NUMBER_OR_NAN, {
+              left: new IntermediateInput(InputOpcode.VAR_GET, InputType.ANY, {
                 variable
-              },
-              right: this.descendInputOfBlock(block, 'VALUE')
-            }
-          };
+              }).toType(InputType.NUMBER),
+              right: this.descendInputOfBlock(block, 'VALUE').toType(InputType.NUMBER)
+            })
+          });
         }
       case 'data_deletealloflist':
-        return {
-          kind: 'list.deleteAll',
+        return new IntermediateStackBlock(StackOpcode.LIST_DELETE_ALL, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE)
-        };
+        });
       case 'data_deleteoflist':
         {
           const index = this.descendInputOfBlock(block, 'INDEX');
-          if (index.kind === 'constant' && index.value === 'all') {
-            return {
-              kind: 'list.deleteAll',
+          if (index.isConstant('all')) {
+            return new IntermediateStackBlock(StackOpcode.LIST_DELETE_ALL, {
               list: this.descendVariable(block, 'LIST', LIST_TYPE)
-            };
+            });
           }
-          return {
-            kind: 'list.delete',
+          return new IntermediateStackBlock(StackOpcode.LIST_DELETE, {
             list: this.descendVariable(block, 'LIST', LIST_TYPE),
             index: index
-          };
+          });
         }
       case 'data_hidelist':
-        return {
-          kind: 'list.hide',
+        return new IntermediateStackBlock(StackOpcode.LIST_HIDE, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE)
-        };
+        });
       case 'data_hidevariable':
-        return {
-          kind: 'var.hide',
+        return new IntermediateStackBlock(StackOpcode.VAR_HIDE, {
           variable: this.descendVariable(block, 'VARIABLE', SCALAR_TYPE)
-        };
+        });
       case 'data_insertatlist':
-        return {
-          kind: 'list.insert',
+        return new IntermediateStackBlock(StackOpcode.LIST_INSERT, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
           index: this.descendInputOfBlock(block, 'INDEX'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
+          item: this.descendInputOfBlock(block, 'ITEM', true)
+        });
       case 'data_replaceitemoflist':
-        return {
-          kind: 'list.replace',
+        return new IntermediateStackBlock(StackOpcode.LIST_REPLACE, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE),
           index: this.descendInputOfBlock(block, 'INDEX'),
-          item: this.descendInputOfBlock(block, 'ITEM')
-        };
+          item: this.descendInputOfBlock(block, 'ITEM', true)
+        });
       case 'data_setvariableto':
-        return {
-          kind: 'var.set',
+        return new IntermediateStackBlock(StackOpcode.VAR_SET, {
           variable: this.descendVariable(block, 'VARIABLE', SCALAR_TYPE),
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
+          value: this.descendInputOfBlock(block, 'VALUE', true)
+        });
       case 'data_showlist':
-        return {
-          kind: 'list.show',
+        return new IntermediateStackBlock(StackOpcode.LIST_SHOW, {
           list: this.descendVariable(block, 'LIST', LIST_TYPE)
-        };
+        });
       case 'data_showvariable':
-        return {
-          kind: 'var.show',
+        return new IntermediateStackBlock(StackOpcode.VAR_SHOW, {
           variable: this.descendVariable(block, 'VARIABLE', SCALAR_TYPE)
-        };
+        });
       case 'event_broadcast':
-        return {
-          kind: 'event.broadcast',
-          broadcast: this.descendInputOfBlock(block, 'BROADCAST_INPUT')
-        };
+        return new IntermediateStackBlock(StackOpcode.EVENT_BROADCAST, {
+          broadcast: this.descendInputOfBlock(block, 'BROADCAST_INPUT').toType(InputType.STRING)
+        });
       case 'event_broadcastandwait':
-        this.script.yields = true;
-        return {
-          kind: 'event.broadcastAndWait',
-          broadcast: this.descendInputOfBlock(block, 'BROADCAST_INPUT')
-        };
+        return new IntermediateStackBlock(StackOpcode.EVENT_BROADCAST_AND_WAIT, {
+          broadcast: this.descendInputOfBlock(block, 'BROADCAST_INPUT').toType(InputType.STRING)
+        }, true);
       case 'looks_changeeffectby':
-        return {
-          kind: 'looks.changeEffect',
+        return new IntermediateStackBlock(StackOpcode.LOOKS_EFFECT_CHANGE, {
           effect: block.fields.EFFECT.value.toLowerCase(),
-          value: this.descendInputOfBlock(block, 'CHANGE')
-        };
+          value: this.descendInputOfBlock(block, 'CHANGE').toType(InputType.NUMBER)
+        });
       case 'looks_changesizeby':
-        return {
-          kind: 'looks.changeSize',
-          size: this.descendInputOfBlock(block, 'CHANGE')
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_SIZE_CHANGE, {
+          size: this.descendInputOfBlock(block, 'CHANGE').toType(InputType.NUMBER)
+        });
       case 'looks_cleargraphiceffects':
-        return {
-          kind: 'looks.clearEffects'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_EFFECT_CLEAR);
       case 'looks_goforwardbackwardlayers':
         if (block.fields.FORWARD_BACKWARD.value === 'forward') {
-          return {
-            kind: 'looks.forwardLayers',
-            layers: this.descendInputOfBlock(block, 'NUM')
-          };
+          return new IntermediateStackBlock(StackOpcode.LOOKS_LAYER_FORWARD, {
+            layers: this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER)
+          });
         }
-        return {
-          kind: 'looks.backwardLayers',
-          layers: this.descendInputOfBlock(block, 'NUM')
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_LAYER_BACKWARD, {
+          layers: this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER)
+        });
       case 'looks_gotofrontback':
         if (block.fields.FRONT_BACK.value === 'front') {
-          return {
-            kind: 'looks.goToFront'
-          };
+          return new IntermediateStackBlock(StackOpcode.LOOKS_LAYER_FRONT);
         }
-        return {
-          kind: 'looks.goToBack'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_LAYER_BACK);
       case 'looks_hide':
-        return {
-          kind: 'looks.hide'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_HIDE);
       case 'looks_nextbackdrop':
-        return {
-          kind: 'looks.nextBackdrop'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_BACKDROP_NEXT);
       case 'looks_nextcostume':
-        return {
-          kind: 'looks.nextCostume'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_COSTUME_NEXT);
       case 'looks_seteffectto':
-        return {
-          kind: 'looks.setEffect',
+        return new IntermediateStackBlock(StackOpcode.LOOKS_EFFECT_SET, {
           effect: block.fields.EFFECT.value.toLowerCase(),
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.NUMBER)
+        });
       case 'looks_setsizeto':
-        return {
-          kind: 'looks.setSize',
-          size: this.descendInputOfBlock(block, 'SIZE')
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_SIZE_SET, {
+          size: this.descendInputOfBlock(block, 'SIZE').toType(InputType.NUMBER)
+        });
       case 'looks_show':
-        return {
-          kind: 'looks.show'
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_SHOW);
       case 'looks_switchbackdropto':
-        return {
-          kind: 'looks.switchBackdrop',
-          backdrop: this.descendInputOfBlock(block, 'BACKDROP')
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_BACKDROP_SET, {
+          backdrop: this.descendInputOfBlock(block, 'BACKDROP', true)
+        });
       case 'looks_switchcostumeto':
-        return {
-          kind: 'looks.switchCostume',
-          costume: this.descendInputOfBlock(block, 'COSTUME')
-        };
+        return new IntermediateStackBlock(StackOpcode.LOOKS_COSTUME_SET, {
+          costume: this.descendInputOfBlock(block, 'COSTUME', true)
+        });
       case 'motion_changexby':
-        return {
-          kind: 'motion.changeX',
-          dx: this.descendInputOfBlock(block, 'DX')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_X_CHANGE, {
+          dx: this.descendInputOfBlock(block, 'DX').toType(InputType.NUMBER)
+        });
       case 'motion_changeyby':
-        return {
-          kind: 'motion.changeY',
-          dy: this.descendInputOfBlock(block, 'DY')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_Y_CHANGE, {
+          dy: this.descendInputOfBlock(block, 'DY').toType(InputType.NUMBER)
+        });
       case 'motion_gotoxy':
-        return {
-          kind: 'motion.setXY',
-          x: this.descendInputOfBlock(block, 'X'),
-          y: this.descendInputOfBlock(block, 'Y')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_XY_SET, {
+          x: this.descendInputOfBlock(block, 'X').toType(InputType.NUMBER),
+          y: this.descendInputOfBlock(block, 'Y').toType(InputType.NUMBER)
+        });
       case 'motion_ifonedgebounce':
-        return {
-          kind: 'motion.ifOnEdgeBounce'
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_IF_ON_EDGE_BOUNCE);
       case 'motion_movesteps':
-        return {
-          kind: 'motion.step',
-          steps: this.descendInputOfBlock(block, 'STEPS')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_STEP, {
+          steps: this.descendInputOfBlock(block, 'STEPS').toType(InputType.NUMBER)
+        });
       case 'motion_pointindirection':
-        return {
-          kind: 'motion.setDirection',
-          direction: this.descendInputOfBlock(block, 'DIRECTION')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_DIRECTION_SET, {
+          direction: this.descendInputOfBlock(block, 'DIRECTION').toType(InputType.NUMBER)
+        });
       case 'motion_setrotationstyle':
-        return {
-          kind: 'motion.setRotationStyle',
+        return new IntermediateStackBlock(StackOpcode.MOTION_ROTATION_STYLE_SET, {
           style: block.fields.STYLE.value
-        };
+        });
       case 'motion_setx':
-        return {
-          kind: 'motion.setX',
-          x: this.descendInputOfBlock(block, 'X')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_X_SET, {
+          x: this.descendInputOfBlock(block, 'X').toType(InputType.NUMBER)
+        });
       case 'motion_sety':
-        return {
-          kind: 'motion.setY',
-          y: this.descendInputOfBlock(block, 'Y')
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_Y_SET, {
+          y: this.descendInputOfBlock(block, 'Y').toType(InputType.NUMBER)
+        });
       case 'motion_turnleft':
-        return {
-          kind: 'motion.setDirection',
-          direction: {
-            kind: 'op.subtract',
-            left: {
-              kind: 'motion.direction'
-            },
-            right: this.descendInputOfBlock(block, 'DEGREES')
-          }
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_DIRECTION_SET, {
+          direction: new IntermediateInput(InputOpcode.OP_SUBTRACT, InputType.NUMBER, {
+            left: new IntermediateInput(InputOpcode.MOTION_DIRECTION_GET, InputType.NUMBER),
+            right: this.descendInputOfBlock(block, 'DEGREES').toType(InputType.NUMBER)
+          })
+        });
       case 'motion_turnright':
-        return {
-          kind: 'motion.setDirection',
-          direction: {
-            kind: 'op.add',
-            left: {
-              kind: 'motion.direction'
-            },
-            right: this.descendInputOfBlock(block, 'DEGREES')
-          }
-        };
+        return new IntermediateStackBlock(StackOpcode.MOTION_DIRECTION_SET, {
+          direction: new IntermediateInput(InputOpcode.OP_ADD, InputType.NUMBER, {
+            left: new IntermediateInput(InputOpcode.MOTION_DIRECTION_GET, InputType.NUMBER),
+            right: this.descendInputOfBlock(block, 'DEGREES').toType(InputType.NUMBER)
+          })
+        });
       case 'pen_clear':
-        return {
-          kind: 'pen.clear'
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_CLEAR);
       case 'pen_changePenColorParamBy':
-        return {
-          kind: 'pen.changeParam',
-          param: this.descendInputOfBlock(block, 'COLOR_PARAM'),
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_PARAM_CHANGE, {
+          param: this.descendInputOfBlock(block, 'COLOR_PARAM').toType(InputType.STRING),
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.NUMBER)
+        });
       case 'pen_changePenHueBy':
-        return {
-          kind: 'pen.legacyChangeHue',
-          hue: this.descendInputOfBlock(block, 'HUE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_HUE_CHANGE_LEGACY, {
+          hue: this.descendInputOfBlock(block, 'HUE').toType(InputType.NUMBER)
+        });
       case 'pen_changePenShadeBy':
-        return {
-          kind: 'pen.legacyChangeShade',
-          shade: this.descendInputOfBlock(block, 'SHADE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_SHADE_CHANGE_LEGACY, {
+          shade: this.descendInputOfBlock(block, 'SHADE').toType(InputType.NUMBER)
+        });
       case 'pen_penDown':
-        return {
-          kind: 'pen.down'
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_DOWN);
       case 'pen_penUp':
-        return {
-          kind: 'pen.up'
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_UP);
       case 'pen_setPenColorParamTo':
-        return {
-          kind: 'pen.setParam',
-          param: this.descendInputOfBlock(block, 'COLOR_PARAM'),
-          value: this.descendInputOfBlock(block, 'VALUE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_PARAM_SET, {
+          param: this.descendInputOfBlock(block, 'COLOR_PARAM').toType(InputType.STRING),
+          value: this.descendInputOfBlock(block, 'VALUE').toType(InputType.NUMBER)
+        });
       case 'pen_setPenColorToColor':
-        return {
-          kind: 'pen.setColor',
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_SET, {
           color: this.descendInputOfBlock(block, 'COLOR')
-        };
+        });
       case 'pen_setPenHueToNumber':
-        return {
-          kind: 'pen.legacySetHue',
-          hue: this.descendInputOfBlock(block, 'HUE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_HUE_SET_LEGACY, {
+          hue: this.descendInputOfBlock(block, 'HUE').toType(InputType.NUMBER)
+        });
       case 'pen_setPenShadeToNumber':
-        return {
-          kind: 'pen.legacySetShade',
-          shade: this.descendInputOfBlock(block, 'SHADE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_COLOR_SHADE_SET_LEGACY, {
+          shade: this.descendInputOfBlock(block, 'SHADE').toType(InputType.NUMBER)
+        });
       case 'pen_setPenSizeTo':
-        return {
-          kind: 'pen.setSize',
-          size: this.descendInputOfBlock(block, 'SIZE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_SIZE_SET, {
+          size: this.descendInputOfBlock(block, 'SIZE').toType(InputType.NUMBER)
+        });
       case 'pen_changePenSizeBy':
-        return {
-          kind: 'pen.changeSize',
-          size: this.descendInputOfBlock(block, 'SIZE')
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_SIZE_CHANGE, {
+          size: this.descendInputOfBlock(block, 'SIZE').toType(InputType.NUMBER)
+        });
       case 'pen_stamp':
-        return {
-          kind: 'pen.stamp'
-        };
+        return new IntermediateStackBlock(StackOpcode.PEN_STAMP);
       case 'procedures_call':
         {
           const procedureCode = block.mutation.proccode;
@@ -183108,40 +183620,35 @@ class ScriptTreeGenerator {
             }
           }
           if (procedureCode === 'tw:debugger;') {
-            return {
-              kind: 'tw.debugger'
-            };
+            return new IntermediateStackBlock(StackOpcode.DEBUGGER);
           }
-          return this.descendProcedure(block);
+          const procedure = this.getProcedureInfo(block);
+          return new IntermediateStackBlock(procedure.opcode, procedure.inputs, procedure.yields);
         }
       case 'procedures_return':
-        return {
-          kind: 'procedures.return',
+        return new IntermediateStackBlock(StackOpcode.PROCEDURE_RETURN, {
           value: this.descendInputOfBlock(block, 'VALUE')
-        };
+        });
       case 'sensing_alert':
-        return {
-          kind: 'sensing.alert',
-          message: this.descendInputOfBlock(block, 'MESSAGE')
-        };
+        return new IntermediateStackBlock(StackOpcode.SENSING_MODALS_ALERT, {
+          message: this.descendInputOfBlock(block, 'MESSAGE').toType(InputType.STRING)
+        });
       case 'sensing_resettimer':
-        return {
-          kind: 'timer.reset'
-        };
+        return new IntermediateStackBlock(StackOpcode.SENSING_TIMER_RESET);
       default:
         {
           const opcodeFunction = this.runtime.getOpcodeFunction(block.opcode);
           if (opcodeFunction) {
             // It might be a non-compiled primitive from a standard category
             if (compatBlocks.stacked.includes(block.opcode)) {
-              return this.descendCompatLayer(block);
+              return this.descendCompatLayerStack(block);
             }
             // It might be an extension block.
             const blockInfo = this.getBlockInfo(block.opcode);
             if (blockInfo) {
               const type = blockInfo.info.blockType;
               if (type === BlockType.COMMAND || type === BlockType.CONDITIONAL || type === BlockType.LOOP) {
-                return this.descendCompatLayer(block);
+                return this.descendCompatLayerStack(block);
               }
             }
           }
@@ -183158,14 +183665,14 @@ class ScriptTreeGenerator {
   /**
    * Descend into a stack of blocks (eg. the blocks contained within an "if" block)
    * @param {*} parentBlock The parent Scratch block that contains the stack to parse.
-   * @param {*} substackName The name of the stack to descend into.
+   * @param {string} substackName The name of the stack to descend into.
    * @private
-   * @returns {Node[]} List of stacked block nodes.
+   * @returns {IntermediateStack} Stacked blocks.
    */
   descendSubstack(parentBlock, substackName) {
     const input = parentBlock.inputs[substackName];
     if (!input) {
-      return [];
+      return new IntermediateStack();
     }
     const stackId = input.block;
     return this.walkStack(stackId);
@@ -183175,10 +183682,10 @@ class ScriptTreeGenerator {
    * Descend into and walk the siblings of a stack.
    * @param {string} startingBlockId The ID of the first block of a stack.
    * @private
-   * @returns {Node[]} List of stacked block nodes.
+   * @returns {IntermediateStack} List of stacked block nodes.
    */
   walkStack(startingBlockId) {
-    const result = [];
+    const result = new IntermediateStack();
     let blockId = startingBlockId;
     while (blockId !== null) {
       const block = this.getBlockById(blockId);
@@ -183186,10 +183693,114 @@ class ScriptTreeGenerator {
         break;
       }
       const node = this.descendStackedBlock(block);
-      result.push(node);
+      this.script.yields = this.script.yields || node.yields;
+      result.blocks.push(node);
       blockId = block.next;
     }
     return result;
+  }
+
+  /**
+   * @param {*} block
+   * @returns {{
+   *  opcode: StackOpcode & InputOpcode,
+   *  inputs?: *,
+   *  yields: boolean
+   * }}
+   */
+  getProcedureInfo(block) {
+    const procedureCode = block.mutation.proccode;
+    const paramNamesIdsAndDefaults = this.blocks.getProcedureParamNamesIdsAndDefaults(procedureCode);
+    if (paramNamesIdsAndDefaults === null) {
+      return {
+        opcode: StackOpcode.NOP,
+        yields: false
+      };
+    }
+    const [paramNames, paramIds, paramDefaults] = paramNamesIdsAndDefaults;
+    const addonBlock = this.runtime.getAddonBlock(procedureCode);
+    if (addonBlock) {
+      const args = {};
+      for (let i = 0; i < paramIds.length; i++) {
+        let value;
+        if (block.inputs[paramIds[i]] && block.inputs[paramIds[i]].block) {
+          value = this.descendInputOfBlock(block, paramIds[i], true);
+        } else {
+          value = this.createConstantInput(paramDefaults[i], true);
+        }
+        args[paramNames[i]] = value;
+      }
+      return {
+        opcode: StackOpcode.ADDON_CALL,
+        inputs: {
+          code: procedureCode,
+          arguments: args,
+          blockId: block.id
+        },
+        yields: true
+      };
+    }
+    const definitionId = this.blocks.getProcedureDefinition(procedureCode);
+    const definitionBlock = this.blocks.getBlock(definitionId);
+    if (!definitionBlock) {
+      return {
+        opcode: StackOpcode.NOP,
+        yields: false
+      };
+    }
+    const innerDefinition = this.blocks.getBlock(definitionBlock.inputs.custom_block.block);
+    let isWarp = this.script.isWarp;
+    if (!isWarp) {
+      if (innerDefinition && innerDefinition.mutation) {
+        const warp = innerDefinition.mutation.warp;
+        if (typeof warp === 'boolean') {
+          isWarp = warp;
+        } else if (typeof warp === 'string') {
+          isWarp = JSON.parse(warp);
+        }
+      }
+    }
+    const variant = generateProcedureVariant(procedureCode, isWarp);
+    if (!this.script.dependedProcedures.includes(variant)) {
+      this.script.dependedProcedures.push(variant);
+    }
+    const args = [];
+    for (let i = 0; i < paramIds.length; i++) {
+      let value;
+      if (block.inputs[paramIds[i]] && block.inputs[paramIds[i]].block) {
+        value = this.descendInputOfBlock(block, paramIds[i], true);
+      } else {
+        value = this.createConstantInput(paramDefaults[i], true);
+      }
+      args.push(value);
+    }
+    return {
+      opcode: StackOpcode.PROCEDURE_CALL,
+      inputs: {
+        code: procedureCode,
+        variant,
+        arguments: args
+      },
+      yields: !this.script.isWarp && procedureCode === this.script.procedureCode
+    };
+  }
+
+  /**
+   * @param {*} block
+   * @returns {IntermediateStackBlock | null}
+   */
+  descendVisualReport(block) {
+    if (!this.thread.stackClick || block.next) {
+      return null;
+    }
+    try {
+      return new IntermediateStackBlock(StackOpcode.VISUAL_REPORT, {
+        input: this.descendInput(block)
+      });
+    } catch (e) {
+      log.warn("IR: descendVisualReport: Error occured in descendInput: ".concat(block.opcode), e, block);
+      return null;
+    }
   }
 
   /**
@@ -183209,7 +183820,7 @@ class ScriptTreeGenerator {
     const data = this._descendVariable(id, variable.value, type);
     // If variable ID was null, this might do some unnecessary updates, but that is a rare
     // edge case and it won't have any adverse effects anyways.
-    this.variableCache[data.id] = data;
+    this.variableCache[String(data.id)] = data;
     return data;
   }
 
@@ -183226,7 +183837,7 @@ class ScriptTreeGenerator {
 
     // Look for by ID in target...
     if (Object.prototype.hasOwnProperty.call(target.variables, id)) {
-      const currVar = target.variables[id];
+      const currVar = target.variables[String(id)];
       return {
         scope: 'target',
         id: currVar.id,
@@ -183238,7 +183849,7 @@ class ScriptTreeGenerator {
     // Look for by ID in stage...
     if (!target.isStage) {
       if (stage && Object.prototype.hasOwnProperty.call(stage.variables, id)) {
-        const currVar = stage.variables[id];
+        const currVar = stage.variables[String(id)];
         return {
           scope: 'stage',
           id: currVar.id,
@@ -183285,14 +183896,14 @@ class ScriptTreeGenerator {
 
     // Intentionally not using newVariable.id so that this matches vanilla Scratch quirks regarding
     // handling of null variable IDs.
-    target.variables[id] = newVariable;
+    target.variables[String(id)] = newVariable;
     if (target.sprite) {
       // Create the variable in all instances of this sprite.
       // This is necessary because the script cache is shared between clones.
       // sprite.clones has all instances of this sprite including the original and all clones
       for (const clone of target.sprite.clones) {
         if (!Object.prototype.hasOwnProperty.call(clone.variables, id)) {
-          clone.variables[id] = new Variable(id, name, type, false);
+          clone.variables[String(id)] = new Variable(id, name, type, false);
         }
       }
     }
@@ -183305,101 +183916,41 @@ class ScriptTreeGenerator {
       isCloud: newVariable.isCloud
     };
   }
-  descendProcedure(block) {
-    const procedureCode = block.mutation.proccode;
-    const paramNamesIdsAndDefaults = this.blocks.getProcedureParamNamesIdsAndDefaults(procedureCode);
-    if (paramNamesIdsAndDefaults === null) {
-      return {
-        kind: 'noop'
-      };
-    }
-    const [paramNames, paramIds, paramDefaults] = paramNamesIdsAndDefaults;
-    const addonBlock = this.runtime.getAddonBlock(procedureCode);
-    if (addonBlock) {
-      this.script.yields = true;
-      const args = {};
-      for (let i = 0; i < paramIds.length; i++) {
-        let value;
-        if (block.inputs[paramIds[i]] && block.inputs[paramIds[i]].block) {
-          value = this.descendInputOfBlock(block, paramIds[i]);
-        } else {
-          value = {
-            kind: 'constant',
-            value: paramDefaults[i]
-          };
-        }
-        args[paramNames[i]] = value;
-      }
-      return {
-        kind: 'addons.call',
-        code: procedureCode,
-        arguments: args,
-        blockId: block.id
-      };
-    }
-    const definitionId = this.blocks.getProcedureDefinition(procedureCode);
-    const definitionBlock = this.blocks.getBlock(definitionId);
-    if (!definitionBlock) {
-      return {
-        kind: 'noop'
-      };
-    }
-    const innerDefinition = this.blocks.getBlock(definitionBlock.inputs.custom_block.block);
-    let isWarp = this.script.isWarp;
-    if (!isWarp) {
-      if (innerDefinition && innerDefinition.mutation) {
-        const warp = innerDefinition.mutation.warp;
-        if (typeof warp === 'boolean') {
-          isWarp = warp;
-        } else if (typeof warp === 'string') {
-          isWarp = JSON.parse(warp);
-        }
-      }
-    }
-    const variant = generateProcedureVariant(procedureCode, isWarp);
-    if (!this.script.dependedProcedures.includes(variant)) {
-      this.script.dependedProcedures.push(variant);
-    }
 
-    // Non-warp direct recursion yields.
-    if (!this.script.isWarp) {
-      if (procedureCode === this.script.procedureCode) {
-        this.script.yields = true;
-      }
+  /**
+   * Descend into an input block that uses the compatibility layer.
+   * @param {*} block The block to use the compatibility layer for.
+   * @private
+   * @returns {IntermediateInput} The parsed node.
+   */
+  descendCompatLayerInput(block) {
+    const inputs = {};
+    const fields = {};
+    for (const name of Object.keys(block.inputs)) {
+      inputs[name] = this.descendInputOfBlock(block, name, true);
     }
-    const args = [];
-    for (let i = 0; i < paramIds.length; i++) {
-      let value;
-      if (block.inputs[paramIds[i]] && block.inputs[paramIds[i]].block) {
-        value = this.descendInputOfBlock(block, paramIds[i]);
-      } else {
-        value = {
-          kind: 'constant',
-          value: paramDefaults[i]
-        };
-      }
-      args.push(value);
+    for (const name of Object.keys(block.fields)) {
+      fields[name] = block.fields[name].value;
     }
-    return {
-      kind: 'procedures.call',
-      code: procedureCode,
-      variant,
-      arguments: args
-    };
+    return new IntermediateInput(InputOpcode.COMPATIBILITY_LAYER, InputType.ANY, {
+      opcode: block.opcode,
+      id: block.id,
+      inputs,
+      fields
+    }, true);
   }
 
   /**
-   * Descend into a block that uses the compatibility layer.
+   * Descend into a stack block that uses the compatibility layer.
    * @param {*} block The block to use the compatibility layer for.
    * @private
-   * @returns {Node} The parsed node.
+   * @returns {IntermediateStackBlock} The parsed node.
    */
-  descendCompatLayer(block) {
-    this.script.yields = true;
+  descendCompatLayerStack(block) {
     const inputs = {};
     for (const name of Object.keys(block.inputs)) {
       if (!name.startsWith('SUBSTACK')) {
-        inputs[name] = this.descendInputOfBlock(block, name);
+        inputs[name] = this.descendInputOfBlock(block, name, true);
       }
     }
     const fields = {};
@@ -183418,20 +183969,17 @@ class ScriptTreeGenerator {
         }
       }
     }
-    return {
-      kind: 'compat',
-      id: block.id,
+    return new IntermediateStackBlock(StackOpcode.COMPATIBILITY_LAYER, {
       opcode: block.opcode,
+      id: block.id,
       blockType,
       inputs,
       fields,
       substacks
-    };
+    }, true);
   }
   analyzeLoop() {
-    if (!this.script.isWarp || this.script.warpTimer) {
-      this.script.yields = true;
-    }
+    return !this.script.isWarp || this.script.warpTimer;
   }
   readTopBlockComment(commentId) {
     const comment = this.target.comments[commentId];
@@ -183460,22 +184008,10 @@ class ScriptTreeGenerator {
       break;
     }
   }
-  descendVisualReport(block) {
-    if (!this.thread.stackClick || block.next) {
-      return null;
-    }
-    try {
-      return {
-        kind: 'visualReport',
-        input: this.descendInput(block)
-      };
-    } catch (e) {
-      return null;
-    }
-  }
 
   /**
-   * @param {Block} hatBlock
+   * @param {*} hatBlock
+   * @returns {IntermediateStack}
    */
   walkHat(hatBlock) {
     const nextBlock = hatBlock.next;
@@ -183486,7 +184022,7 @@ class ScriptTreeGenerator {
       // interpreter parity, but the reuslt is ignored.
       const opcodeFunction = this.runtime.getOpcodeFunction(opcode);
       if (opcodeFunction) {
-        return [this.descendCompatLayer(hatBlock), ...this.walkStack(nextBlock)];
+        return new IntermediateStack([this.descendCompatLayerStack(hatBlock), ...this.walkStack(nextBlock).blocks]);
       }
       return this.walkStack(nextBlock);
     }
@@ -183494,21 +184030,19 @@ class ScriptTreeGenerator {
       // Edge-activated HAT
       this.script.yields = true;
       this.script.executableHat = true;
-      return [{
-        kind: 'hat.edge',
+      return new IntermediateStack([new IntermediateStackBlock(StackOpcode.HAT_EDGE, {
         id: hatBlock.id,
-        condition: this.descendCompatLayer(hatBlock)
-      }, ...this.walkStack(nextBlock)];
+        condition: this.descendCompatLayerInput(hatBlock).toType(InputType.BOOLEAN)
+      }), ...this.walkStack(nextBlock).blocks]);
     }
     const opcodeFunction = this.runtime.getOpcodeFunction(opcode);
     if (opcodeFunction) {
       // Predicate-based HAT
       this.script.yields = true;
       this.script.executableHat = true;
-      return [{
-        kind: 'hat.predicate',
-        condition: this.descendCompatLayer(hatBlock)
-      }, ...this.walkStack(nextBlock)];
+      return new IntermediateStack([new IntermediateStackBlock(StackOpcode.HAT_PREDICATE, {
+        condition: this.descendCompatLayerInput(hatBlock).toType(InputType.BOOLEAN)
+      }), ...this.walkStack(nextBlock).blocks]);
     }
     return this.walkStack(nextBlock);
   }
@@ -183649,15 +184183,751 @@ class IRGenerator {
 
     // Analyze scripts until no changes are made.
     while (this.analyzeScript(entry));
-    const ir = new IntermediateRepresentation();
-    ir.entry = entry;
-    ir.procedures = this.procedures;
-    return ir;
+    return new IntermediateRepresentation(entry, this.procedures);
   }
 }
 module.exports = {
   ScriptTreeGenerator,
   IRGenerator
+};
+
+/***/ }),
+
+/***/ "./node_modules/scratch-vm/src/compiler/iroptimizer.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/scratch-vm/src/compiler/iroptimizer.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const {
+  StackOpcode,
+  InputOpcode,
+  InputType
+} = __webpack_require__(/*! ./enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js");
+const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+
+// These imports are used by jsdoc comments but eslint doesn't know that
+/* eslint-disable no-unused-vars */
+const {
+  IntermediateStack,
+  IntermediateInput,
+  IntermediateScript,
+  IntermediateRepresentation,
+  IntermediateStackBlock
+} = __webpack_require__(/*! ./intermediate */ "./node_modules/scratch-vm/src/compiler/intermediate.js");
+/* eslint-enable no-unused-vars */
+
+class TypeState {
+  constructor() {
+    /** @type {Object.<string, InputType | 0>}*/
+    this.variables = Object.create(null);
+  }
+
+  /**
+   * @returns {boolean}
+   */
+  clear() {
+    let modified = false;
+    for (const varId in this.variables) {
+      if (this.variables[varId] !== InputType.ANY) {
+        modified = true;
+        break;
+      }
+    }
+    this.variables = Object.create(null);
+    return modified;
+  }
+
+  /**
+   * @returns {TypeState}
+   */
+  clone() {
+    const clone = new TypeState();
+    for (const varId in this.variables) {
+      clone.variables[varId] = this.variables[varId];
+    }
+    return clone;
+  }
+
+  /**
+   * @param {TypeState} other
+   * @param {(varId: string) => InputType | 0} stateMutator
+   * @returns {boolean}
+   * @private
+   */
+  mutate(other, stateMutator) {
+    let modified = false;
+    for (const varId in other.variables) {
+      const newValue = stateMutator(varId);
+      if (newValue !== this.variables[varId]) {
+        this.variables[varId] = newValue;
+        modified = modified || true;
+      }
+    }
+    for (const varId in this.variables) {
+      if (!other.variables[varId]) {
+        const newValue = stateMutator(varId);
+        if (newValue !== this.variables[varId]) {
+          this.variables[varId] = newValue;
+          modified = modified || true;
+        }
+      }
+    }
+    return modified;
+  }
+
+  /**
+   * @param {TypeState} other
+   * @returns {boolean}
+   */
+  or(other) {
+    return this.mutate(other, varId => {
+      var _this$variables$varId, _other$variables$varI;
+      const thisType = (_this$variables$varId = this.variables[varId]) !== null && _this$variables$varId !== void 0 ? _this$variables$varId : InputType.ANY;
+      const otherType = (_other$variables$varI = other.variables[varId]) !== null && _other$variables$varI !== void 0 ? _other$variables$varI : InputType.ANY;
+      return thisType | otherType;
+    });
+  }
+
+  /**
+   * @param {TypeState} other
+   * @returns {boolean}
+   */
+  after(other) {
+    return this.mutate(other, varId => {
+      var _this$variables$varId2;
+      const otherType = other.variables[varId];
+      if (otherType) return otherType;
+      return (_this$variables$varId2 = this.variables[varId]) !== null && _this$variables$varId2 !== void 0 ? _this$variables$varId2 : InputType.ANY;
+    });
+  }
+
+  /**
+   * @param {TypeState} other
+   * @returns {boolean}
+   */
+  overwrite(other) {
+    return this.mutate(other, varId => {
+      var _other$variables$varI2;
+      return (_other$variables$varI2 = other.variables[varId]) !== null && _other$variables$varI2 !== void 0 ? _other$variables$varI2 : InputType.ANY;
+    });
+  }
+
+  /**
+   * @param {*} variable A variable codegen object.
+   * @param {InputType} type The type to set this variable to
+   * @returns {boolean}
+   */
+  setVariableType(variable, type) {
+    if (this.variables[variable.id] === type) return false;
+    this.variables[variable.id] = type;
+    return true;
+  }
+
+  /**
+   *
+   * @param {*} variable A variable codegen object.
+   * @returns {InputType}
+   */
+  getVariableType(variable) {
+    var _this$variables$varia;
+    return (_this$variables$varia = this.variables[variable.id]) !== null && _this$variables$varia !== void 0 ? _this$variables$varia : InputType.ANY;
+  }
+}
+class IROptimizer {
+  /**
+   * @param {IntermediateRepresentation} ir
+   */
+  constructor(ir) {
+    /** @type {IntermediateRepresentation} */
+    this.ir = ir;
+    /** @type {boolean} Used for testing */
+    this.ignoreYields = false;
+
+    /** @private @type {TypeState | null} The state the analyzed script could exit in */
+    this.exitState = null;
+  }
+
+  /**
+   * @param {IntermediateInput} inputBlock
+   * @param {TypeState} state
+   * @returns {InputType}
+   */
+  getInputType(inputBlock, state) {
+    const inputs = inputBlock.inputs;
+    switch (inputBlock.opcode) {
+      case InputOpcode.VAR_GET:
+        return state.getVariableType(inputs.variable);
+      case InputOpcode.ADDON_CALL:
+        break;
+      case InputOpcode.CAST_NUMBER:
+        {
+          const innerType = inputs.target.type;
+          if (innerType & InputType.NUMBER) return innerType;
+          return InputType.NUMBER;
+        }
+      case InputOpcode.CAST_NUMBER_OR_NAN:
+        {
+          const innerType = inputs.target.type;
+          if (innerType & InputType.NUMBER_OR_NAN) return innerType;
+          return InputType.NUMBER_OR_NAN;
+        }
+      case InputOpcode.OP_ADD:
+        {
+          const leftType = inputs.left.type;
+          const rightType = inputs.right.type;
+          let resultType = 0;
+          const canBeNaN = function canBeNaN() {
+            // Infinity + (-Infinity) = NaN
+            if (leftType & InputType.NUMBER_POS_INF && rightType & InputType.NUMBER_NEG_INF) return true;
+            // (-Infinity) + Infinity = NaN
+            if (leftType & InputType.NUMBER_NEG_INF && rightType & InputType.NUMBER_POS_INF) return true;
+          };
+          if (canBeNaN()) resultType |= InputType.NUMBER_NAN;
+          const canBeFractional = function canBeFractional() {
+            // For the plus operation to return a non-whole number one of it's
+            //  inputs has to be a non-whole number
+            if (leftType & InputType.NUMBER_FRACT) return true;
+            if (rightType & InputType.NUMBER_FRACT) return true;
+          };
+          const canBeFract = canBeFractional();
+          const canBePos = function canBePos() {
+            if (leftType & InputType.NUMBER_POS) return true; // POS + ANY ~= POS
+            if (rightType & InputType.NUMBER_POS) return true; // ANY + POS ~= POS
+          };
+          if (canBePos()) {
+            resultType |= InputType.NUMBER_POS_INT | InputType.NUMBER_POS_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_POS_FRACT;
+          }
+          const canBeNeg = function canBeNeg() {
+            if (leftType & InputType.NUMBER_NEG) return true; // NEG + ANY ~= NEG
+            if (rightType & InputType.NUMBER_NEG) return true; // ANY + NEG ~= NEG
+          };
+          if (canBeNeg()) {
+            resultType |= InputType.NUMBER_NEG_INT | InputType.NUMBER_NEG_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_NEG_FRACT;
+          }
+          const canBeZero = function canBeZero() {
+            // POS_REAL + NEG_REAL ~= 0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // NEG_REAL + POS_REAL ~= 0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // 0 + 0 = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+            // 0 + -0 = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // -0 + 0 = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+          };
+          if (canBeZero()) resultType |= InputType.NUMBER_ZERO;
+          const canBeNegZero = function canBeNegZero() {
+            // -0 + -0 = -0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+          };
+          if (canBeNegZero()) resultType |= InputType.NUMBER_NEG_ZERO;
+          return resultType;
+        }
+      case InputOpcode.OP_SUBTRACT:
+        {
+          const leftType = inputs.left.type;
+          const rightType = inputs.right.type;
+          let resultType = 0;
+          const canBeNaN = function canBeNaN() {
+            // Infinity - Infinity = NaN
+            if (leftType & InputType.NUMBER_POS_INF && rightType & InputType.NUMBER_POS_INF) return true;
+            // (-Infinity) - (-Infinity) = NaN
+            if (leftType & InputType.NUMBER_NEG_INF && rightType & InputType.NUMBER_NEG_INF) return true;
+          };
+          if (canBeNaN()) resultType |= InputType.NUMBER_NAN;
+          const canBeFractional = function canBeFractional() {
+            // For the subtract operation to return a non-whole number one of it's
+            //  inputs has to be a non-whole number
+            if (leftType & InputType.NUMBER_FRACT) return true;
+            if (rightType & InputType.NUMBER_FRACT) return true;
+          };
+          const canBeFract = canBeFractional();
+          const canBePos = function canBePos() {
+            if (leftType & InputType.NUMBER_POS) return true; // POS - ANY ~= POS
+            if (rightType & InputType.NUMBER_NEG) return true; // ANY - NEG ~= POS
+          };
+          if (canBePos()) {
+            resultType |= InputType.NUMBER_POS_INT | InputType.NUMBER_POS_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_POS_FRACT;
+          }
+          const canBeNeg = function canBeNeg() {
+            if (leftType & InputType.NUMBER_NEG) return true; // NEG - ANY ~= NEG
+            if (rightType & InputType.NUMBER_POS) return true; // ANY - POS ~= NEG
+          };
+          if (canBeNeg()) {
+            resultType |= InputType.NUMBER_NEG_INT | InputType.NUMBER_NEG_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_NEG_FRACT;
+          }
+          const canBeZero = function canBeZero() {
+            // POS_REAL - POS_REAL ~= 0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // NEG_REAL - NEG_REAL ~= 0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // 0 - 0 = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+            // 0 - (-0) = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // (-0) - (-0) = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+          };
+          if (canBeZero()) resultType |= InputType.NUMBER_ZERO;
+          const canBeNegZero = function canBeNegZero() {
+            // (-0) - 0 = -0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+          };
+          if (canBeNegZero()) resultType |= InputType.NUMBER_NEG_ZERO;
+          return resultType;
+        }
+      case InputOpcode.OP_MULTIPLY:
+        {
+          const leftType = inputs.left.type;
+          const rightType = inputs.right.type;
+          let resultType = 0;
+          const canBeNaN = function canBeNaN() {
+            // (-)Infinity * 0 = NaN
+            if (leftType & InputType.NUMBER_INF && rightType & InputType.NUMBER_ANY_ZERO) return true;
+            // 0 * (-)Infinity = NaN
+            if (leftType & InputType.NUMBER_ANY_ZERO && rightType & InputType.NUMBER_INF) return true;
+          };
+          if (canBeNaN()) resultType |= InputType.NUMBER_NAN;
+          const canBeFractional = function canBeFractional() {
+            // For the subtract operation to return a non-whole number one of it's
+            //  inputs has to be a non-whole number
+            if (leftType & InputType.NUMBER_FRACT) return true;
+            if (rightType & InputType.NUMBER_FRACT) return true;
+          };
+          const canBeFract = canBeFractional();
+          const canBePos = function canBePos() {
+            // POS * POS = POS
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_POS) return true;
+            // NEG * NEG = POS
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_NEG) return true;
+          };
+          if (canBePos()) {
+            resultType |= InputType.NUMBER_POS_INT | InputType.NUMBER_POS_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_POS_FRACT;
+          }
+          const canBeNeg = function canBeNeg() {
+            // POS * NEG = NEG
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_NEG) return true;
+            // NEG * POS = NEG
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_POS) return true;
+          };
+          if (canBeNeg()) {
+            resultType |= InputType.NUMBER_NEG_INT | InputType.NUMBER_NEG_INF;
+            if (canBeFract) resultType |= InputType.NUMBER_NEG_FRACT;
+          }
+          const canBeZero = function canBeZero() {
+            // 0 * 0 = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+            // -0 * -0 = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // 0 * POS_REAL = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_POS_REAL) return true;
+            // -0 * NEG_REAL = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // POS_REAL * 0 = 0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_ZERO) return true;
+            // NEG_REAL * -0 = 0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // Rounding errors like 1e-323 * 0.1 = 0
+            if (leftType & InputType.NUMBER_FRACT && rightType & InputType.NUMBER_FRACT) return true;
+          };
+          if (canBeZero()) resultType |= InputType.NUMBER_ZERO;
+          const canBeNegZero = function canBeNegZero() {
+            // 0 * -0 = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // -0 * 0 = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_ZERO) return true;
+            // -0 * POS_REAL = -0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_POS_REAL) return true;
+            // 0 * NEG_REAL = -0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // POS_REAL * -0 = -0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // NEG_REAL * 0 = -0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_ZERO) return true;
+            // Rounding errors like -1e-323 / 10 = -0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // Rounding errors like 1e-323 / -10 = -0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+          };
+          if (canBeNegZero()) resultType |= InputType.NUMBER_NEG_ZERO;
+          return resultType;
+        }
+      case InputOpcode.OP_DIVIDE:
+        {
+          const leftType = inputs.left.type;
+          const rightType = inputs.right.type;
+          let resultType = 0;
+          const canBeNaN = function canBeNaN() {
+            // (-)0 / (-)0 = NaN
+            if (leftType & InputType.NUMBER_ANY_ZERO && rightType & InputType.NUMBER_ANY_ZERO) return true;
+            // (-)Infinity / (-)Infinity = NaN
+            if (leftType & InputType.NUMBER_INF && rightType & InputType.NUMBER_INF) return true;
+            // (-)0 / NaN = NaN
+            if (leftType & InputType.NUMBER_ANY_ZERO && rightType & InputType.NUMBER_NAN) return true;
+          };
+          if (canBeNaN()) resultType |= InputType.NUMBER_NAN;
+          const canBePos = function canBePos() {
+            // POS / POS = POS
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_POS) return true;
+            // NEG / NEG = POS
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_NEG) return true;
+          };
+          if (canBePos()) resultType |= InputType.NUMBER_POS;
+          const canBeNegInfinity = function canBeNegInfinity() {
+            // NEG / 0 = -Infinity
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_ZERO) return true;
+            // POS / -0 = -Infinity
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // NEG_REAL / POS_REAL ~= -Infinity
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // POS_REAL / NEG_REAL ~= -Infinity
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+          };
+          if (canBeNegInfinity()) resultType |= InputType.NUMBER_NEG_INF;
+          const canBeInfinity = function canBeInfinity() {
+            // POS / 0 = Infinity
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_ZERO) return true;
+            // NEG / -0 = Infinity
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_NEG_ZERO) return true;
+            // POS_REAL / POS_REAL ~= Infinity
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // NEG_REAL / NEG_REAL ~= Infinity
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+          };
+          if (canBeInfinity()) resultType |= InputType.NUMBER_POS_INF;
+          const canBeNeg = function canBeNeg() {
+            // POS / NEG = NEG
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_NEG) return true;
+            // NEG / POS = NEG
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_POS) return true;
+          };
+          if (canBeNeg()) resultType |= InputType.NUMBER_NEG;
+          const canBeZero = function canBeZero() {
+            // 0 / POS = 0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_POS) return true;
+            // -0 / NEG = 0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_NEG) return true;
+            // Rounding errors like 1e-323 / 10 = 0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // Rounding errors like -1e-323 / -10 = 0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // NUMBER_POS / Infinity = 0
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_POS_INF) return true;
+            // NUMBER_NEG / -Infinity = 0
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_NEG_INF) return true;
+          };
+          if (canBeZero()) resultType |= InputType.NUMBER_ZERO;
+          const canBeNegZero = function canBeNegZero() {
+            // -0 / POS = -0
+            if (leftType & InputType.NUMBER_NEG_ZERO && rightType & InputType.NUMBER_POS) return true;
+            // 0 / NEG = -0
+            if (leftType & InputType.NUMBER_ZERO && rightType & InputType.NUMBER_NEG) return true;
+            // Rounding errors like -1e-323 / 10 = -0
+            if (leftType & InputType.NUMBER_NEG_REAL && rightType & InputType.NUMBER_POS_REAL) return true;
+            // Rounding errors like 1e-323 / -10 = -0
+            if (leftType & InputType.NUMBER_POS_REAL && rightType & InputType.NUMBER_NEG_REAL) return true;
+            // NUMBER_POS / -Infinity = -0
+            if (leftType & InputType.NUMBER_POS && rightType & InputType.NUMBER_NEG_INF) return true;
+            // NUMBER_NEG / Infinity = -0
+            if (leftType & InputType.NUMBER_NEG && rightType & InputType.NUMBER_POS_INF) return true;
+          };
+          if (canBeNegZero()) resultType |= InputType.NUMBER_NEG_ZERO;
+          return resultType;
+        }
+    }
+    return inputBlock.type;
+  }
+
+  /**
+   * @param {IntermediateInput} inputBlock
+   * @param {TypeState} state
+   * @returns {boolean}
+   * @private
+   */
+  analyzeInputBlock(inputBlock, state) {
+    const inputs = inputBlock.inputs;
+    let modified = this.analyzeInputs(inputs, state);
+    const newType = this.getInputType(inputBlock, state);
+    modified = modified || newType !== inputBlock.type;
+    inputBlock.type = newType;
+    switch (inputBlock.opcode) {
+      case InputOpcode.ADDON_CALL:
+        modified = state.clear() || modified;
+        break;
+      case InputOpcode.PROCEDURE_CALL:
+        {
+          modified = this.analyzeInputs(inputs.inputs, state) || modified;
+          const script = this.ir.procedures[inputs.variant];
+          if (!script || !script.cachedAnalysisEndState) {
+            modified = state.clear() || modified;
+          } else if (script.yields) {
+            modified = state.overwrite(script.cachedAnalysisEndState) || modified;
+          } else {
+            modified = state.after(script.cachedAnalysisEndState) || modified;
+          }
+          break;
+        }
+    }
+    return modified;
+  }
+
+  /**
+   * @param {Object<any, any>} inputs
+   * @param {TypeState} state
+   * @returns {boolean} modified
+   */
+  analyzeInputs(inputs, state) {
+    let modified = false;
+    for (const inputName in inputs) {
+      const input = inputs[inputName];
+      if (input instanceof IntermediateInput) {
+        modified = this.analyzeInputBlock(input, state) || modified;
+      }
+    }
+    return modified;
+  }
+
+  /**
+   * @param {TypeState} state
+   */
+  addPossibleExitState(state) {
+    if (this.exitState === null) {
+      this.exitState = state.clone();
+      return;
+    }
+    this.exitState.or(state);
+  }
+
+  /**
+   * @param {IntermediateStackBlock} stackBlock
+   * @param {TypeState} state
+   * @returns {boolean}
+   * @private
+   */
+  analyzeStackBlock(stackBlock, state) {
+    const inputs = stackBlock.inputs;
+    let modified = false;
+    if (stackBlock.ignoreState) {
+      state = state.clone();
+    }
+    switch (stackBlock.opcode) {
+      case StackOpcode.VAR_SET:
+        modified = this.analyzeInputs(inputs, state) || modified;
+        modified = state.setVariableType(inputs.variable, inputs.value.type) || modified;
+        break;
+      case StackOpcode.CONTROL_WHILE:
+      case StackOpcode.CONTROL_FOR:
+      case StackOpcode.CONTROL_REPEAT:
+        modified = this.analyzeInputs(inputs, state) || modified;
+        modified = this.analyzeLoopedStack(inputs.do, state, stackBlock) || modified;
+        break;
+      case StackOpcode.CONTROL_IF_ELSE:
+        {
+          modified = this.analyzeInputs(inputs, state) || modified;
+          const trueState = state.clone();
+          modified = this.analyzeStack(inputs.whenTrue, trueState) || modified;
+          modified = this.analyzeStack(inputs.whenFalse, state) || modified;
+          modified = state.or(trueState) || modified;
+          break;
+        }
+      case StackOpcode.CONTROL_STOP_SCRIPT:
+        {
+          modified = this.analyzeInputs(inputs, state) || modified;
+          this.addPossibleExitState(state);
+          break;
+        }
+      case StackOpcode.CONTROL_WAIT_UNTIL:
+        {
+          modified = state.clear() || modified;
+          modified = this.analyzeInputs(inputs, state) || modified;
+          break;
+        }
+      case StackOpcode.PROCEDURE_CALL:
+        {
+          modified = this.analyzeInputs(inputs, state) || modified;
+          modified = this.analyzeInputs(inputs.inputs, state) || modified;
+          const script = this.ir.procedures[inputs.variant];
+          if (!script || !script.cachedAnalysisEndState) {
+            modified = state.clear() || modified;
+          } else if (script.yields) {
+            modified = state.overwrite(script.cachedAnalysisEndState) || modified;
+          } else {
+            modified = state.after(script.cachedAnalysisEndState) || modified;
+          }
+          break;
+        }
+      case StackOpcode.COMPATIBILITY_LAYER:
+        {
+          modified = this.analyzeInputs(inputs, state) || modified;
+          this.analyzeInputs(inputs.inputs, state);
+          for (const substackName in inputs.substacks) {
+            const newState = state.clone();
+            modified = this.analyzeStack(inputs.substacks[substackName], newState) || modified;
+            modified = state.or(newState) || modified;
+          }
+          break;
+        }
+      default:
+        modified = this.analyzeInputs(inputs, state) || modified;
+        break;
+    }
+    return modified;
+  }
+
+  /**
+   * @param {IntermediateStack?} stack
+   * @param {TypeState} state
+   * @returns {boolean}
+   * @private
+   */
+  analyzeStack(stack, state) {
+    if (!stack) return false;
+    let modified = false;
+    for (const stackBlock of stack.blocks) {
+      let stateChanged = this.analyzeStackBlock(stackBlock, state);
+      if (!stackBlock.ignoreState) {
+        if (stackBlock.yields && !this.ignoreYields) stateChanged = state.clear() || stateChanged;
+        if (stateChanged) {
+          if (stackBlock.exitState) stackBlock.exitState.or(state);else stackBlock.exitState = state.clone();
+          modified = true;
+        }
+      }
+    }
+    return modified;
+  }
+
+  /**
+   * @param {IntermediateStack} stack
+   * @param {TypeState} state
+   * @param {IntermediateStackBlock} block
+   * @returns {boolean}
+   * @private
+   */
+  analyzeLoopedStack(stack, state, block) {
+    if (block.yields && !this.ignoreYields) {
+      let modified = state.clear();
+      block.entryState = state.clone();
+      block.exitState = state.clone();
+      modified = this.analyzeInputs(block.inputs, state) || modified;
+      return this.analyzeStack(stack, state) || modified;
+    }
+    let iterations = 0;
+    let modified = false;
+    let keepLooping;
+    do {
+      // If we are stuck in an apparent infinite loop, give up and assume the worst.
+      if (iterations > 10000) {
+        log.error('analyzeLoopedStack stuck in likely infinite loop; quitting', block, state);
+        modified = state.clear();
+        block.entryState = state.clone();
+        block.exitState = state.clone();
+        modified = this.analyzeInputs(block.inputs, state) || modified;
+        return this.analyzeStack(stack, state) || modified;
+      }
+      iterations++;
+      const newState = state.clone();
+      modified = this.analyzeStack(stack, newState) || modified;
+      modified = (keepLooping = state.or(newState)) || modified;
+      modified = this.analyzeInputs(block.inputs, state) || modified;
+    } while (keepLooping);
+    block.entryState = state.clone();
+    return modified;
+  }
+
+  /**
+   * @param {IntermediateInput} input
+   * @param {TypeState} state
+   * @returns {IntermediateInput}
+   * @private
+   */
+  optimizeInput(input, state) {
+    for (const inputKey in input.inputs) {
+      const inputInput = input.inputs[inputKey];
+      if (inputInput instanceof IntermediateInput) {
+        input.inputs[inputKey] = this.optimizeInput(inputInput, state);
+      }
+    }
+    switch (input.opcode) {
+      case InputOpcode.CAST_NUMBER:
+        {
+          const targetType = input.inputs.target.type;
+          if ((targetType & InputType.NUMBER) === targetType) {
+            return input.inputs.target;
+          }
+          return input;
+        }
+      case InputOpcode.CAST_NUMBER_OR_NAN:
+        {
+          const targetType = input.inputs.target.type;
+          if ((targetType & InputType.NUMBER_OR_NAN) === targetType) {
+            return input.inputs.target;
+          }
+          return input;
+        }
+    }
+    return input;
+  }
+
+  /**
+   * @param {IntermediateStack?} stack
+   * @param {TypeState} state The state of the project before this stack is run.
+   * @private
+   */
+  optimizeStack(stack, state) {
+    if (!stack) return;
+    for (const stackBlock of stack.blocks) {
+      if (stackBlock.entryState) state = stackBlock.entryState;
+      for (const inputKey in stackBlock.inputs) {
+        const input = stackBlock.inputs[inputKey];
+        if (input instanceof IntermediateInput) {
+          stackBlock.inputs[inputKey] = this.optimizeInput(input, state);
+        } else if (input instanceof IntermediateStack) {
+          this.optimizeStack(input, state);
+        }
+      }
+      if (stackBlock.exitState) {
+        state = stackBlock.exitState;
+      }
+    }
+  }
+
+  /**
+   * @param {IntermediateScript} script
+   * @param {Set<string>} alreadyOptimized
+   * @private
+   */
+  optimizeScript(script, alreadyOptimized) {
+    if (script.isProcedure) {
+      if (alreadyOptimized.has(script.procedureCode)) {
+        return;
+      }
+      alreadyOptimized.add(script.procedureCode);
+    }
+    for (const procVariant of script.dependedProcedures) {
+      this.optimizeScript(this.ir.procedures[procVariant], alreadyOptimized);
+    }
+    this.exitState = null;
+    const exitState = new TypeState();
+    this.analyzeStack(script.stack, exitState);
+    this.addPossibleExitState(exitState);
+    script.cachedAnalysisEndState = this.exitState;
+    this.optimizeStack(script.stack, new TypeState());
+  }
+  optimize() {
+    this.optimizeScript(this.ir.entry, new Set());
+  }
+}
+module.exports = {
+  IROptimizer,
+  TypeState
 };
 
 /***/ }),
@@ -183669,6 +184939,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+// @ts-check
 /**
  * @fileoverview Runtime for scripts generated by jsgen
  */
@@ -183683,6 +184954,7 @@ const globalState = {
   Cast: __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js"),
   log: __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js"),
   blockUtility: __webpack_require__(/*! ./compat-block-utility */ "./node_modules/scratch-vm/src/compiler/compat-block-utility.js"),
+  /** @type{import("../engine/thread")?} */
   thread: null
 };
 let baseRuntime = '';
@@ -183730,7 +185002,7 @@ runtimeFunctions.waitThreads = "const waitThreads = function*(threads) {\n    co
  * @param {*|null} branchInfo Extra information object for CONDITIONAL and LOOP blocks. See createBranchInfo().
  * @returns {*} the value returned by the block, if any.
  */
-runtimeFunctions.executeInCompatibilityLayer = "let hasResumedFromPromise = false;\nconst waitPromise = function*(promise) {\n    const thread = globalState.thread;\n    let returnValue;\n\n    // enter STATUS_PROMISE_WAIT and yield\n    // this will stop script execution until the promise handlers reset the thread status\n    // because promise handlers might execute immediately, configure thread.status here\n    thread.status = 1; // STATUS_PROMISE_WAIT\n\n    promise\n        .then(value => {\n            returnValue = value;\n            thread.status = 0; // STATUS_RUNNING\n        }, error => {\n            globalState.log.warn('Promise rejected in compiled script:', error);\n            returnValue = '' + error;\n            thread.status = 0; // STATUS_RUNNING\n        });\n\n    yield;\n\n    return returnValue;\n};\nconst isPromise = value => (\n    // see engine/execute.js\n    value !== null &&\n    typeof value === 'object' &&\n    typeof value.then === 'function'\n);\nconst executeInCompatibilityLayer = function*(inputs, blockFunction, isWarp, useFlags, blockId, branchInfo) {\n    const thread = globalState.thread;\n    const blockUtility = globalState.blockUtility;\n    const stackFrame = branchInfo ? branchInfo.stackFrame : {};\n\n    const finish = (returnValue) => {\n        if (branchInfo) {\n            if (typeof returnValue === 'undefined' && blockUtility._startedBranch) {\n                branchInfo.isLoop = blockUtility._startedBranch[1];\n                return blockUtility._startedBranch[0];\n            }\n            branchInfo.isLoop = branchInfo.defaultIsLoop;\n            return returnValue;\n        }\n        return returnValue;\n    };\n\n    const executeBlock = () => {\n        blockUtility.init(thread, blockId, stackFrame);\n        return blockFunction(inputs, blockUtility);\n    };\n\n    let returnValue = executeBlock();\n    if (isPromise(returnValue)) {\n        returnValue = finish(yield* waitPromise(returnValue));\n        if (useFlags) hasResumedFromPromise = true;\n        return returnValue;\n    }\n\n    if (thread.status === 1 /* STATUS_PROMISE_WAIT */ || thread.status === 4 /* STATUS_DONE */) {\n        // Something external is forcing us to stop\n        yield;\n        // Make up a return value because whatever is forcing us to stop can't specify one\n        return '';\n    }\n\n    while (thread.status === 2 /* STATUS_YIELD */ || thread.status === 3 /* STATUS_YIELD_TICK */) {\n        // Yielded threads will run next iteration.\n        if (thread.status === 2 /* STATUS_YIELD */) {\n            thread.status = 0; // STATUS_RUNNING\n            // Yield back to the event loop when stuck or not in warp mode.\n            if (!isWarp || isStuck()) {\n                yield;\n            }\n        } else {\n            // status is STATUS_YIELD_TICK, always yield to the event loop\n            yield;\n        }\n\n        returnValue = executeBlock();\n        if (isPromise(returnValue)) {\n            returnValue = finish(yield* waitPromise(returnValue));\n            if (useFlags) hasResumedFromPromise = true;\n            return returnValue;\n        }\n\n        if (thread.status === 1 /* STATUS_PROMISE_WAIT */ || thread.status === 4 /* STATUS_DONE */) {\n            yield;\n            return finish('');\n        }\n    }\n\n    return finish(returnValue);\n}";
+runtimeFunctions.executeInCompatibilityLayer = "let hasResumedFromPromise = false;\nconst waitPromise = function*(promise) {\n    const thread = globalState.thread;\n    let returnValue;\n\n    // enter STATUS_PROMISE_WAIT and yield\n    // this will stop script execution until the promise handlers reset the thread status\n    // because promise handlers might execute immediately, configure thread.status here\n    thread.status = 1; // STATUS_PROMISE_WAIT\n\n    promise\n        .then(value => {\n            returnValue = value;\n            thread.status = 0; // STATUS_RUNNING\n        }, error => {\n            thread.status = 0; // STATUS_RUNNING\n            globalState.log.warn('Promise rejected in compiled script:', error);\n            returnValue = '' + error;\n            thread.status = 0; // STATUS_RUNNING\n        });\n\n    yield;\n\n    return returnValue;\n};\nconst isPromise = value => (\n    // see engine/execute.js\n    value !== null &&\n    typeof value === 'object' &&\n    typeof value.then === 'function'\n);\nconst executeInCompatibilityLayer = function*(inputs, blockFunction, isWarp, useFlags, blockId, branchInfo) {\n    const thread = globalState.thread;\n    const blockUtility = globalState.blockUtility;\n    const stackFrame = branchInfo ? branchInfo.stackFrame : {};\n\n    const finish = (returnValue) => {\n        if (branchInfo) {\n            if (typeof returnValue === 'undefined' && blockUtility._startedBranch) {\n                branchInfo.isLoop = blockUtility._startedBranch[1];\n                return blockUtility._startedBranch[0];\n            }\n            branchInfo.isLoop = branchInfo.defaultIsLoop;\n            return returnValue;\n        }\n        return returnValue;\n    };\n\n    const executeBlock = () => {\n        blockUtility.init(thread, blockId, stackFrame);\n        return blockFunction(inputs, blockUtility);\n    };\n\n    let returnValue = executeBlock();\n    if (isPromise(returnValue)) {\n        returnValue = finish(yield* waitPromise(returnValue));\n        if (useFlags) hasResumedFromPromise = true;\n        return returnValue;\n    }\n\n    if (thread.status === 1 /* STATUS_PROMISE_WAIT */ || thread.status === 4 /* STATUS_DONE */) {\n        // Something external is forcing us to stop\n        yield;\n        // Make up a return value because whatever is forcing us to stop can't specify one\n        return '';\n    }\n\n    while (thread.status === 2 /* STATUS_YIELD */ || thread.status === 3 /* STATUS_YIELD_TICK */) {\n        // Yielded threads will run next iteration.\n        if (thread.status === 2 /* STATUS_YIELD */) {\n            thread.status = 0; // STATUS_RUNNING\n            // Yield back to the event loop when stuck or not in warp mode.\n            if (!isWarp || isStuck()) {\n                yield;\n            }\n        } else {\n            // status is STATUS_YIELD_TICK, always yield to the event loop\n            yield;\n        }\n\n        returnValue = executeBlock();\n        if (isPromise(returnValue)) {\n            returnValue = finish(yield* waitPromise(returnValue));\n            if (useFlags) hasResumedFromPromise = true;\n            return returnValue;\n        }\n\n        if (thread.status === 1 /* STATUS_PROMISE_WAIT */ || thread.status === 4 /* STATUS_DONE */) {\n            yield;\n            return finish('');\n        }\n    }\n\n    // todo: do we have to do anything extra if status is STATUS_DONE?\n\n    return finish(returnValue);\n}";
 
 /**
  * @param {boolean} isLoop True if the block is a LOOP by default (can be overridden by startBranch() call)
@@ -183750,6 +185022,38 @@ runtimeFunctions.retire = "const retire = () => {\n    const thread = globalStat
  * @returns {boolean} The value cast to a boolean
  */
 runtimeFunctions.toBoolean = "const toBoolean = value => {\n    if (typeof value === 'boolean') {\n        return value;\n    }\n    if (typeof value === 'string') {\n        if (value === '' || value === '0' || value.toLowerCase() === 'false') {\n            return false;\n        }\n        return true;\n    }\n    return !!value;\n}";
+
+/**
+ * Scratch cast to string.
+ * Similar to Cast.toString()
+ * @param {*} value The value to cast
+ * @returns {string} The value cast to a string
+ */
+runtimeFunctions.toString = "const toString = value => {\n    if (typeof value === 'object') {\n        return JSON.stringify(value);\n    }\n    return '' + value;\n}";
+
+/**
+ * Scratch cast to array.
+ * Similar to Cast.toList()
+ * @param {*} value The value to cast
+ * @returns {Array} The value cast to an array
+ */
+runtimeFunctions.toArray = "const toArray = value => {\n    if (Array.isArray(value)) {\n        return value;\n    }\n    try {\n        const result = JSON.parse(value);\n        return Array.isArray(result) ? result : [];\n    } catch {\n        return [];\n    }\n}";
+
+/**
+ * Scratch cast to object.
+ * Similar to Cast.toObject()
+ * @param {*} value The value to cast
+ * @returns {Object} The value cast to an object
+ */
+runtimeFunctions.toObject = "const toObject = value => {\n    if (typeof value === 'object' && value instanceof Object && !Array.isArray(value)) {\n        return value;\n    }\n    try {\n        const result = JSON.parse(value);\n        return typeof result === 'object' && result instanceof Object && !Array.isArray(result) ? result : {};\n    } catch {\n        return {};\n    }\n}";
+
+/**
+ * Scratch cast to array or object.
+ * Similar to Cast.toJSON() with arrayIfFail is true
+ * @param {*} value The value to cast
+ * @returns {(Array|Object)} The value cast to an array or an object
+ */
+runtimeFunctions.toJSON = "const toJSON = value => {\n    if (typeof value === 'object' && value instanceof Object) {\n        return value;\n    }\n    try {\n        const result = JSON.parse(value);\n        return typeof result === 'object' && result instanceof Object ? result : [];\n    } catch {\n        return [];\n    }\n}";
 
 /**
  * If a number is very close to a whole number, round to that whole number.
@@ -183892,6 +185196,32 @@ runtimeFunctions.listIndexOf = "const listIndexOf = (list, item) => {\n    for (
 runtimeFunctions.listContents = "const listContents = list => {\n    for (let i = 0; i < list.value.length; i++) {\n        const listItem = list.value[i];\n        // this is an intentional break from what scratch 3 does to address our automatic string -> number conversions\n        // it fixes more than it breaks\n        if ((listItem + '').length !== 1) {\n            return list.value.join(' ');\n        }\n    }\n    return list.value.join('');\n}";
 
 /**
+ * Replace a value in an array.
+ * @param {Array} array The array.
+ * @param {*} idx The Scratch index in the array.
+ * @param {*} value The new value.
+ * @returns {Array} The new array
+ */
+runtimeFunctions.arrayReplace = "const arrayReplace = (array, idx, value) => {\n    const index = listIndex(idx, array.length);\n    if (index === -1) {\n        return array;\n    }\n    return [...array.slice(0, index), value, ...array.slice(index + 1)];\n}";
+
+/**
+ * Insert a value in an array.
+ * @param {Array} array The array.
+ * @param {*} idx The Scratch index in the array.
+ * @param {*} value The value to insert.
+ * @returns {Array} The new array
+ */
+runtimeFunctions.arrayInsert = "const arrayInsert = (array, idx, value) => {\n    const index = listIndex(idx, array.length + 1);\n    if (index === -1) {\n        return array;\n    }\n    return array.toSpliced(index, 0, value);\n}";
+
+/**
+ * Delete a value from an array.
+ * @param {Array} array The array.
+ * @param {*} idx The Scratch index in the array.
+ * @returns {Array} The new array
+ */
+runtimeFunctions.arrayDelete = "const arrayDelete = (array, idx, value) => {\n    if (idx === 'all') {\n        return [];\n    }\n    const index = listIndex(idx, array.length);\n    if (index === -1) {\n        return array;\n    }\n    return array.toSpliced(index, 1);\n}";
+
+/**
  * Convert a color to an RGB list
  * @param {*} color The color value to convert
  * @return {Array.<number>} [r,g,b], values between 0-255.
@@ -183929,7 +185259,7 @@ runtimeFunctions.yieldThenCallGenerator = "const yieldThenCallGenerator = functi
 
 /**
  * Step a compiled thread.
- * @param {Thread} thread The thread to step.
+ * @param {import("../engine/thread")} thread The thread to step.
  */
 const execute = thread => {
   globalState.thread = thread;
@@ -183983,18 +185313,27 @@ module.exports = execute;
 /***/ (function(module, exports, __webpack_require__) {
 
 const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
-const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
 const BlockType = __webpack_require__(/*! ../extension-support/block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
 const VariablePool = __webpack_require__(/*! ./variable-pool */ "./node_modules/scratch-vm/src/compiler/variable-pool.js");
 const jsexecute = __webpack_require__(/*! ./jsexecute */ "./node_modules/scratch-vm/src/compiler/jsexecute.js");
 const environment = __webpack_require__(/*! ./environment */ "./node_modules/scratch-vm/src/compiler/environment.js");
-
-// Imported for JSDoc types, not to actually use
-// eslint-disable-next-line no-unused-vars
 const {
+  StackOpcode,
+  InputOpcode,
+  InputType
+} = __webpack_require__(/*! ./enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js");
+const oldCompilerCompatibility = __webpack_require__(/*! ./old-compiler-compatibility.js */ "./node_modules/scratch-vm/src/compiler/old-compiler-compatibility.js");
+
+// These imports are used by jsdoc comments but eslint doesn't know that
+/* eslint-disable no-unused-vars */
+const {
+  IntermediateStackBlock,
+  IntermediateInput,
+  IntermediateStack,
   IntermediateScript,
   IntermediateRepresentation
 } = __webpack_require__(/*! ./intermediate */ "./node_modules/scratch-vm/src/compiler/intermediate.js");
+/* eslint-enable no-unused-vars */
 
 /**
  * @fileoverview Convert intermediate representations to JavaScript functions.
@@ -184010,11 +185349,6 @@ const sanitize = string => {
   }
   return JSON.stringify(string).slice(1, -1);
 };
-const TYPE_NUMBER = 1;
-const TYPE_STRING = 2;
-const TYPE_BOOLEAN = 3;
-const TYPE_UNKNOWN = 4;
-const TYPE_NUMBER_NAN = 5;
 
 // Pen-related constants
 const PEN_EXT = 'runtime.ext_pen';
@@ -184034,250 +185368,20 @@ const functionNameVariablePool = new VariablePool('fun');
  * Variable pool used for generated generator functions.
  */
 const generatorNameVariablePool = new VariablePool('gen');
-
-/**
- * @typedef Input
- * @property {() => string} asNumber
- * @property {() => string} asNumberOrNaN
- * @property {() => string} asString
- * @property {() => string} asBoolean
- * @property {() => string} asColor
- * @property {() => string} asUnknown
- * @property {() => string} asSafe
- * @property {() => boolean} isAlwaysNumber
- * @property {() => boolean} isAlwaysNumberOrNaN
- * @property {() => boolean} isNeverNumber
- */
-
-/**
- * @implements {Input}
- */
-class TypedInput {
-  constructor(source, type) {
-    // for debugging
-    if (typeof type !== 'number') throw new Error('type is invalid');
-    this.source = source;
-    this.type = type;
-  }
-  asNumber() {
-    if (this.type === TYPE_NUMBER) return this.source;
-    if (this.type === TYPE_NUMBER_NAN) return "(".concat(this.source, " || 0)");
-    return "(+".concat(this.source, " || 0)");
-  }
-  asNumberOrNaN() {
-    if (this.type === TYPE_NUMBER || this.type === TYPE_NUMBER_NAN) return this.source;
-    return "(+".concat(this.source, ")");
-  }
-  asString() {
-    if (this.type === TYPE_STRING) return this.source;
-    return "(\"\" + ".concat(this.source, ")");
-  }
-  asBoolean() {
-    if (this.type === TYPE_BOOLEAN) return this.source;
-    return "toBoolean(".concat(this.source, ")");
-  }
-  asColor() {
-    return this.asUnknown();
-  }
-  asUnknown() {
-    return this.source;
-  }
-  asSafe() {
-    return this.asUnknown();
-  }
-  isAlwaysNumber() {
-    return this.type === TYPE_NUMBER;
-  }
-  isAlwaysNumberOrNaN() {
-    return this.type === TYPE_NUMBER || this.type === TYPE_NUMBER_NAN;
-  }
-  isNeverNumber() {
-    return false;
-  }
-}
-
-/**
- * @implements {Input}
- */
-class ConstantInput {
-  constructor(constantValue, safe) {
-    this.constantValue = constantValue;
-    this.safe = safe;
-  }
-  asNumber() {
-    // Compute at compilation time
-    const numberValue = +this.constantValue;
-    if (numberValue) {
-      // It's important that we use the number's stringified value and not the constant value
-      // Using the constant value allows numbers such as "010" to be interpreted as 8 (or SyntaxError in strict mode) instead of 10.
-      return numberValue.toString();
-    }
-    // numberValue is one of 0, -0, or NaN
-    if (Object.is(numberValue, -0)) {
-      return '-0';
-    }
-    return '0';
-  }
-  asNumberOrNaN() {
-    return this.asNumber();
-  }
-  asString() {
-    return "\"".concat(sanitize('' + this.constantValue), "\"");
-  }
-  asBoolean() {
-    // Compute at compilation time
-    return Cast.toBoolean(this.constantValue).toString();
-  }
-  asColor() {
-    // Attempt to parse hex code at compilation time
-    if (/^#[0-9a-f]{6,8}$/i.test(this.constantValue)) {
-      const hex = this.constantValue.substr(1);
-      return Number.parseInt(hex, 16).toString();
-    }
-    return this.asUnknown();
-  }
-  asUnknown() {
-    // Attempt to convert strings to numbers if it is unlikely to break things
-    if (typeof this.constantValue === 'number') {
-      // todo: handle NaN?
-      return this.constantValue;
-    }
-    const numberValue = +this.constantValue;
-    if (numberValue.toString() === this.constantValue) {
-      return this.constantValue;
-    }
-    return this.asString();
-  }
-  asSafe() {
-    if (this.safe) {
-      return this.asUnknown();
-    }
-    return this.asString();
-  }
-  isAlwaysNumber() {
-    const value = +this.constantValue;
-    if (Number.isNaN(value)) {
-      return false;
-    }
-    // Empty strings evaluate to 0 but should not be considered a number.
-    if (value === 0) {
-      return this.constantValue.toString().trim() !== '';
+const isSafeInputForEqualsOptimization = (input, other) => {
+  // Only optimize constants
+  if (input.opcode !== InputOpcode.CONSTANT) return false;
+  // Only optimize when the constant can always be thought of as a number
+  if (input.isAlwaysType(InputType.NUMBER) || input.isAlwaysType(InputType.STRING_NUM)) {
+    if (other.isSometimesType(InputType.NUMBER_NAN | InputType.STRING_NAN | InputType.BOOLEAN_INTERPRETABLE)) {
+      // Never optimize 0 if the other input can be NaN, '' or a boolean.
+      // eg. if '< 0 = "" >' was optimized it would turn into `0 === +""`,
+      //  which would be true even though Scratch would return false.
+      return +input.inputs.value !== 0;
     }
     return true;
   }
-  isAlwaysNumberOrNaN() {
-    return this.isAlwaysNumber();
-  }
-  isNeverNumber() {
-    return Number.isNaN(+this.constantValue);
-  }
-}
-
-/**
- * @implements {Input}
- */
-class VariableInput {
-  constructor(source) {
-    this.source = source;
-    this.type = TYPE_UNKNOWN;
-    /**
-     * The value this variable was most recently set to, if any.
-     * @type {Input}
-     * @private
-     */
-    this._value = null;
-  }
-
-  /**
-   * @param {Input} input The input this variable was most recently set to.
-   */
-  setInput(input) {
-    if (input instanceof VariableInput) {
-      // When being set to another variable, extract the value it was set to.
-      // Otherwise, you may end up with infinite recursion in analysis methods when a variable is set to itself.
-      if (input._value) {
-        input = input._value;
-      } else {
-        this.type = TYPE_UNKNOWN;
-        this._value = null;
-        return;
-      }
-    }
-    this._value = input;
-    if (input instanceof TypedInput) {
-      this.type = input.type;
-    } else {
-      this.type = TYPE_UNKNOWN;
-    }
-  }
-  asNumber() {
-    if (this.type === TYPE_NUMBER) return this.source;
-    if (this.type === TYPE_NUMBER_NAN) return "(".concat(this.source, " || 0)");
-    return "(+".concat(this.source, " || 0)");
-  }
-  asNumberOrNaN() {
-    if (this.type === TYPE_NUMBER || this.type === TYPE_NUMBER_NAN) return this.source;
-    return "(+".concat(this.source, ")");
-  }
-  asString() {
-    if (this.type === TYPE_STRING) return this.source;
-    return "(\"\" + ".concat(this.source, ")");
-  }
-  asBoolean() {
-    if (this.type === TYPE_BOOLEAN) return this.source;
-    return "toBoolean(".concat(this.source, ")");
-  }
-  asColor() {
-    return this.asUnknown();
-  }
-  asUnknown() {
-    return this.source;
-  }
-  asSafe() {
-    return this.asUnknown();
-  }
-  isAlwaysNumber() {
-    if (this._value) {
-      return this._value.isAlwaysNumber();
-    }
-    return false;
-  }
-  isAlwaysNumberOrNaN() {
-    if (this._value) {
-      return this._value.isAlwaysNumberOrNaN();
-    }
-    return false;
-  }
-  isNeverNumber() {
-    if (this._value) {
-      return this._value.isNeverNumber();
-    }
-    return false;
-  }
-}
-const getNamesOfCostumesAndSounds = runtime => {
-  const result = new Set();
-  for (const target of runtime.targets) {
-    if (target.isOriginal) {
-      const sprite = target.sprite;
-      for (const costume of sprite.costumes) {
-        result.add(costume.name);
-      }
-      for (const sound of sprite.sounds) {
-        result.add(sound.name);
-      }
-    }
-  }
-  return result;
-};
-const isSafeConstantForEqualsOptimization = input => {
-  const numberValue = +input.constantValue;
-  // Do not optimize 0
-  if (!numberValue) {
-    return false;
-  }
-  // Do not optimize numbers when the original form does not match
-  return numberValue.toString() === input.constantValue.toString();
+  return false;
 };
 
 /**
@@ -184303,18 +185407,13 @@ class JSGenerator {
   /**
    * @param {IntermediateScript} script
    * @param {IntermediateRepresentation} ir
-   * @param {Target} target
+   * @param {import("../sprites/rendered-target")} target
    */
   constructor(script, ir, target) {
     this.script = script;
     this.ir = ir;
     this.target = target;
     this.source = '';
-
-    /**
-     * @type {Object.<string, VariableInput>}
-     */
-    this.variableInputs = {};
     this.isWarp = script.isWarp;
     this.isProcedure = script.isProcedure;
     this.warpTimer = script.warpTimer;
@@ -184327,16 +185426,16 @@ class JSGenerator {
 
     /**
      * The current Frame.
-     * @type {Frame}
+     * @type {Frame?}
      */
     this.currentFrame = null;
-    this.namesOfCostumesAndSounds = getNamesOfCostumesAndSounds(target.runtime);
     this.localVariables = new VariablePool('a');
     this._setupVariablesPool = new VariablePool('b');
     this._setupVariables = {};
     this.descendedIntoModulo = false;
     this.isInHat = false;
     this.debug = this.target.runtime.debug;
+    this.oldCompilerStub = new oldCompilerCompatibility.JSGeneratorStub(this);
   }
 
   /**
@@ -184373,268 +185472,279 @@ class JSGenerator {
   }
 
   /**
-   * @param {object} node Input node to compile.
-   * @returns {Input} Compiled input.
+   * @param {IntermediateInput} block Input node to compile.
+   * @returns {string} Compiled input.
    */
-  descendInput(node) {
-    switch (node.kind) {
-      case 'addons.call':
-        return new TypedInput("(".concat(this.descendAddonCall(node), ")"), TYPE_UNKNOWN);
-      case 'compat':
+  descendInput(block) {
+    const node = block.inputs;
+    switch (block.opcode) {
+      case InputOpcode.NOP:
+        return "\"\"";
+      case InputOpcode.PROCEDURE_ARGUMENT:
+        return "p".concat(node.index);
+      case InputOpcode.ADDON_CALL:
+        return "(".concat(this.descendAddonCall(node), ")");
+      case InputOpcode.CAST_BOOLEAN:
+        return "toBoolean(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_NUMBER:
+        if (node.target.isAlwaysType(InputType.BOOLEAN_INTERPRETABLE)) {
+          return "(+".concat(this.descendInput(node.target.toType(InputType.BOOLEAN)), ")");
+        }
+        if (node.target.isAlwaysType(InputType.NUMBER_OR_NAN)) {
+          return "(".concat(this.descendInput(node.target), " || 0)");
+        }
+        return "(+".concat(this.descendInput(node.target), " || 0)");
+      case InputOpcode.CAST_NUMBER_OR_NAN:
+        return "(+".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_NUMBER_INDEX:
+        return "(".concat(this.descendInput(node.target.toType(InputType.NUMBER_OR_NAN)), " | 0)");
+      case InputOpcode.CAST_STRING:
+        return "toString(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_COLOR:
+        return "colorToList(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_ARRAY:
+        return "toArray(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_OBJECT:
+        return "toObject(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.CAST_JSON:
+        return "toJSON(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.COMPATIBILITY_LAYER:
         // Compatibility layer inputs never use flags.
-        return new TypedInput("(".concat(this.generateCompatibilityLayerCall(node, false), ")"), TYPE_UNKNOWN);
-      case 'constant':
-        return this.safeConstantInput(node.value);
-      case 'control.ifThenElse':
-        {
-          const args = "\n            \"CONDITION\":".concat(this.descendInput(node.condition).asBoolean(), ",\n            \"THEN\":").concat(this.descendInput(node.then).asString(), ",\n            \"ELSE\":").concat(this.descendInput(node.else).asString(), "\n            ");
-          return new TypedInput("runtime.ext_scratch3_control.ifThenElse({".concat(args, "})"), TYPE_STRING);
+        return "(".concat(this.generateCompatibilityLayerCall(node, false), ")");
+      case InputOpcode.OLD_COMPILER_COMPATIBILITY_LAYER:
+        return this.oldCompilerStub.descendInputFromNewCompiler(block);
+      case InputOpcode.CONSTANT:
+        if (block.isAlwaysType(InputType.NUMBER)) {
+          if (typeof node.value !== 'number') throw new Error("JS: '".concat(block.type, "' type constant had ").concat(typeof node.value, " type value. Expected number."));
+          if (Object.is(node.value, -0)) return '-0';
+          return node.value.toString();
+        } else if (block.isAlwaysType(InputType.BOOLEAN)) {
+          if (typeof node.value !== 'boolean') throw new Error("JS: '".concat(block.type, "' type constant had ").concat(typeof node.value, " type value. Expected boolean."));
+          return node.value.toString();
+        } else if (block.isAlwaysType(InputType.COLOR)) {
+          if (!Array.isArray(node.value)) throw new Error("JS: '".concat(block.type, "' type constant was not an array."));
+          if (node.value.length !== 3) throw new Error("JS: '".concat(block.type, "' type constant had an array of length '").concat(node.value.length, "'. Expected 3."));
+          for (let i = 0; i < 3; i++) {
+            if (typeof node.value[i] !== 'number') {
+              throw new Error("JS: '".concat(block.type, "' type constant element ").concat(i, " had a value of type '").concat(node.value[i], "'. Expected number."));
+            }
+          }
+          return "[".concat(node.value[0], ",").concat(node.value[1], ",").concat(node.value[2], "]");
+        } else if (block.isAlwaysType(InputType.ARRAY)) {
+          if (!Array.isArray(node.value)) throw new Error("JS: '".concat(block.type, "' type constant was not an array."));
+          return JSON.stringify(node.value);
+        } else if (block.isAlwaysType(InputType.OBJECT)) {
+          if (!(typeof node.value === 'object' && node.value instanceof Object && !Array.isArray(node.value))) {
+            throw new Error("JS: '".concat(block.type, "' type constant was not an object."));
+          }
+          return JSON.stringify(node.value);
+        } else if (block.isSometimesType(InputType.STRING)) {
+          return "\"".concat(sanitize(node.value.toString()), "\"");
         }
-      case 'control.isPaused':
-        return new TypedInput('runtime.ext_scratch3_control.isPaused()', TYPE_BOOLEAN);
-      // TODO: Remake
-      case 'counter.get':
-        return new TypedInput('runtime.ext_scratch3_control._counter', TYPE_NUMBER);
-      case 'keyboard.pressed':
-        return new TypedInput("runtime.ioDevices.keyboard.getKeyIsDown(".concat(this.descendInput(node.key).asSafe(), ")"), TYPE_BOOLEAN);
-      case 'list.contains':
-        return new TypedInput("listContains(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.item).asUnknown(), ")"), TYPE_BOOLEAN);
-      case 'list.contents':
-        return new TypedInput("listContents(".concat(this.referenceVariable(node.list), ")"), TYPE_STRING);
-      case 'list.get':
+        throw new Error("JS: Unknown constant input type '".concat(block.type, "'."));
+      case InputOpcode.SENSING_KEY_DOWN:
+        return "runtime.ioDevices.keyboard.getKeyIsDown(".concat(this.descendInput(node.key), ")");
+      case InputOpcode.LIST_CONTAINS:
+        return "listContains(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.item), ")");
+      case InputOpcode.LIST_CONTENTS:
+        return "listContents(".concat(this.referenceVariable(node.list), ")");
+      case InputOpcode.LIST_GET:
         {
-          const index = this.descendInput(node.index);
           if (environment.supportsNullishCoalescing) {
-            if (index.isAlwaysNumberOrNaN()) {
-              return new TypedInput("(".concat(this.referenceVariable(node.list), ".value[(").concat(index.asNumber(), " | 0) - 1] ?? \"\")"), TYPE_UNKNOWN);
+            if (node.index.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN)) {
+              return "(".concat(this.referenceVariable(node.list), ".value[").concat(this.descendInput(node.index.toType(InputType.NUMBER_INDEX)), " - 1] ?? \"\")");
             }
-            if (index instanceof ConstantInput && index.constantValue === 'last') {
-              return new TypedInput("(".concat(this.referenceVariable(node.list), ".value[").concat(this.referenceVariable(node.list), ".value.length - 1] ?? \"\")"), TYPE_UNKNOWN);
+            if (node.index.isConstant('last')) {
+              return "(".concat(this.referenceVariable(node.list), ".value[").concat(this.referenceVariable(node.list), ".value.length - 1] ?? \"\")");
             }
           }
-          return new TypedInput("listGet(".concat(this.referenceVariable(node.list), ".value, ").concat(index.asUnknown(), ")"), TYPE_UNKNOWN);
+          return "listGet(".concat(this.referenceVariable(node.list), ".value, ").concat(this.descendInput(node.index), ")");
         }
-      case 'list.indexOf':
-        return new TypedInput("listIndexOf(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.item).asUnknown(), ")"), TYPE_NUMBER);
-      case 'list.length':
-        return new TypedInput("".concat(this.referenceVariable(node.list), ".value.length"), TYPE_NUMBER);
-      case 'looks.isvisible':
-        return new TypedInput('target.visible', TYPE_BOOLEAN);
-      case 'looks.geteffect':
-        return new TypedInput("target.effects[\"".concat(sanitize(node.effect), "\"] || 0"), TYPE_NUMBER);
-      case 'looks.size':
-        return new TypedInput('Math.round(target.size)', TYPE_NUMBER);
-      case 'looks.backdropName':
-        return new TypedInput('stage.getCostumes()[stage.currentCostume].name', TYPE_STRING);
-      case 'looks.backdropNumber':
-        return new TypedInput('(stage.currentCostume + 1)', TYPE_NUMBER);
-      case 'looks.costumeName':
-        return new TypedInput('target.getCostumes()[target.currentCostume].name', TYPE_STRING);
-      case 'looks.costumeNumber':
-        return new TypedInput('(target.currentCostume + 1)', TYPE_NUMBER);
-      case 'motion.direction':
-        return new TypedInput('target.direction', TYPE_NUMBER);
-      case 'motion.x':
-        return new TypedInput('limitPrecision(target.x)', TYPE_NUMBER);
-      case 'motion.y':
-        return new TypedInput('limitPrecision(target.y)', TYPE_NUMBER);
-      case 'motion.position':
-        return new TypedInput('[limitPrecision(target.x), limitPrecision(target.y)]', TYPE_UNKNOWN);
-      case 'mouse.down':
-        return new TypedInput('runtime.ioDevices.mouse.getIsDown()', TYPE_BOOLEAN);
-      case 'mouse.x':
-        return new TypedInput('runtime.ioDevices.mouse.getScratchX()', TYPE_NUMBER);
-      case 'mouse.y':
-        return new TypedInput('runtime.ioDevices.mouse.getScratchY()', TYPE_NUMBER);
-      case 'mouse.xy':
-        return new TypedInput('[runtime.ioDevices.mouse.getScratchX(), runtime.ioDevices.mouse.getScratchY()]', TYPE_UNKNOWN);
-      case 'noop':
-        return new TypedInput('""', TYPE_STRING);
-      case 'op.abs':
-        return new TypedInput("Math.abs(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'op.acos':
-        // Needs to be marked as NaN because Math.acos(1.0001) === NaN
-        return new TypedInput("((Math.acos(".concat(this.descendInput(node.value).asNumber(), ") * 180) / Math.PI)"), TYPE_NUMBER_NAN);
-      case 'op.add':
-        // Needs to be marked as NaN because Infinity + -Infinity === NaN
-        return new TypedInput("(".concat(this.descendInput(node.left).asNumber(), " + ").concat(this.descendInput(node.right).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.and':
-        return new TypedInput("(".concat(this.descendInput(node.left).asBoolean(), " && ").concat(this.descendInput(node.right).asBoolean(), ")"), TYPE_BOOLEAN);
-      case 'op.asin':
-        // Needs to be marked as NaN because Math.asin(1.0001) === NaN
-        return new TypedInput("((Math.asin(".concat(this.descendInput(node.value).asNumber(), ") * 180) / Math.PI)"), TYPE_NUMBER_NAN);
-      case 'op.atan':
-        return new TypedInput("((Math.atan(".concat(this.descendInput(node.value).asNumber(), ") * 180) / Math.PI)"), TYPE_NUMBER);
-      case 'op.ceiling':
-        return new TypedInput("Math.ceil(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'op.contains':
-        return new TypedInput("(".concat(this.descendInput(node.string).asString(), ".toLowerCase().indexOf(").concat(this.descendInput(node.contains).asString(), ".toLowerCase()) !== -1)"), TYPE_BOOLEAN);
-      case 'op.typeof':
+      case InputOpcode.LIST_INDEX_OF:
+        return "listIndexOf(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.item), ")");
+      case InputOpcode.LIST_LENGTH:
+        return "".concat(this.referenceVariable(node.list), ".value.length");
+      case InputOpcode.LOOKS_IS_VISIBLE:
+        return 'target.visible';
+      case InputOpcode.LOOKS_EFFECT_GET:
+        return "(target.effects[\"".concat(sanitize(node.effect), "\"] || 0)");
+      case InputOpcode.LOOKS_SIZE_GET:
+        return 'Math.round(target.size)';
+      case InputOpcode.LOOKS_BACKDROP_NAME:
+        return 'stage.getCostumes()[stage.currentCostume].name';
+      case InputOpcode.LOOKS_BACKDROP_NUMBER:
+        return '(stage.currentCostume + 1)';
+      case InputOpcode.LOOKS_COSTUME_NAME:
+        return 'target.getCostumes()[target.currentCostume].name';
+      case InputOpcode.LOOKS_COSTUME_NUMBER:
+        return '(target.currentCostume + 1)';
+      case InputOpcode.MOTION_DIRECTION_GET:
+        return 'target.direction';
+      case InputOpcode.MOTION_X_GET:
+        return 'limitPrecision(target.x)';
+      case InputOpcode.MOTION_Y_GET:
+        return 'limitPrecision(target.y)';
+      case InputOpcode.MOTION_XY_GET:
+        return '[limitPrecision(target.x), limitPrecision(target.y)]';
+      case InputOpcode.SENSING_MODALS_PROMPT:
         {
-          const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.typeof({".concat(args, "})"), TYPE_UNKNOWN);
+          return "(prompt(".concat(this.descendInput(node.message), ", ").concat(this.descendInput(node.value), ") || \"\")");
         }
-      case 'op.isType':
+      case InputOpcode.SENSING_MODALS_CONFIRM:
         {
-          const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), ",\n            \"TYPE\":\"").concat(sanitize(node.type), "\"\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.isType({".concat(args, "})"), TYPE_BOOLEAN);
+          return "confirm(".concat(this.descendInput(node.message), ")");
         }
-      case 'op.isString':
+      case InputOpcode.SENSING_MOUSE_DOWN:
+        return 'runtime.ioDevices.mouse.getIsDown()';
+      case InputOpcode.SENSING_MOUSE_X:
+        return 'runtime.ioDevices.mouse.getScratchX()';
+      case InputOpcode.SENSING_MOUSE_Y:
+        return 'runtime.ioDevices.mouse.getScratchY()';
+      case InputOpcode.SENSING_MOUSE_XY:
+        return '[runtime.ioDevices.mouse.getScratchX(), runtime.ioDevices.mouse.getScratchY()]';
+      case InputOpcode.OP_ABS:
+        return "Math.abs(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_ACOS:
+        return "((Math.acos(".concat(this.descendInput(node.value), ") * 180) / Math.PI)");
+      case InputOpcode.OP_ADD:
+        return "(".concat(this.descendInput(node.left), " + ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_AND:
+        return "(".concat(this.descendInput(node.left), " && ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_ASIN:
+        return "((Math.asin(".concat(this.descendInput(node.value), ") * 180) / Math.PI)");
+      case InputOpcode.OP_ATAN:
+        return "((Math.atan(".concat(this.descendInput(node.value), ") * 180) / Math.PI)");
+      case InputOpcode.OP_CEILING:
+        return "Math.ceil(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_CONTAINS:
+        return "(".concat(this.descendInput(node.string), ".toLowerCase().indexOf(").concat(this.descendInput(node.contains), ".toLowerCase()) !== -1)");
+      case InputOpcode.OP_COS:
+        return "(Math.round(Math.cos((Math.PI * ".concat(this.descendInput(node.value), ") / 180) * 1e10) / 1e10)");
+      case InputOpcode.OP_DIVIDE:
+        return "(".concat(this.descendInput(node.left), " / ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_EQUALS:
         {
-          const args = "\n            \"STRING\":".concat(this.descendInput(node.string).asString(), "\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.isString({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'op.isNumber':
-        {
-          const args = "\n            \"NUM\":".concat(this.descendInput(node.num).asString(), "\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.isNumber({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'op.cast':
-        {
-          const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), ",\n            \"TYPE\":\"").concat(sanitize(node.type), "\"\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.cast({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'op.inRange':
-        {
-          const args = "\n            \"NUM\":".concat(this.descendInput(node.num).asNumber(), ",\n            \"FROM\":").concat(this.descendInput(node.from).asNumber(), ",\n            \"TO\":").concat(this.descendInput(node.to).asNumber(), ",\n            ");
-          return new TypedInput("runtime.ext_scratch3_operators.inRange({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'op.numsInRange':
-        const from = this.descendInput(node.from).asNumber();
-        const to = this.descendInput(node.to).asNumber();
-        const nums = [];
-        if (from > to) {
-          return new TypedInput("(".concat(nums, ")"), TYPE_UNKNOWN);
-        }
-        for (let i = from; i <= to; i++) {
-          nums.push(i);
-        }
-        return new TypedInput("([".concat(nums, "])"), TYPE_UNKNOWN);
-      case 'op.cos':
-        return new TypedInput("(Math.round(Math.cos((Math.PI * ".concat(this.descendInput(node.value).asNumber(), ") / 180) * 1e10) / 1e10)"), TYPE_NUMBER_NAN);
-      case 'op.divide':
-        // Needs to be marked as NaN because 0 / 0 === NaN
-        return new TypedInput("(".concat(this.descendInput(node.left).asNumber(), " / ").concat(this.descendInput(node.right).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.equals':
-        {
-          const left = this.descendInput(node.left);
-          const right = this.descendInput(node.right);
-          // When both operands are known to never be numbers, only use string comparison to avoid all number parsing.
-          if (left.isNeverNumber() || right.isNeverNumber()) {
-            return new TypedInput("(".concat(left.asString(), ".toLowerCase() === ").concat(right.asString(), ".toLowerCase())"), TYPE_BOOLEAN);
-          }
-          const leftAlwaysNumber = left.isAlwaysNumber();
-          const rightAlwaysNumber = right.isAlwaysNumber();
+          const left = node.left;
+          const right = node.right;
+
           // When both operands are known to be numbers, we can use ===
-          if (leftAlwaysNumber && rightAlwaysNumber) {
-            return new TypedInput("(".concat(left.asNumber(), " === ").concat(right.asNumber(), ")"), TYPE_BOOLEAN);
+          if (left.isAlwaysType(InputType.NUMBER_INTERPRETABLE) && right.isAlwaysType(InputType.NUMBER_INTERPRETABLE)) {
+            return "(".concat(this.descendInput(left.toType(InputType.NUMBER)), " === ").concat(this.descendInput(right.toType(InputType.NUMBER)), ")");
           }
           // In certain conditions, we can use === when one of the operands is known to be a safe number.
-          if (leftAlwaysNumber && left instanceof ConstantInput && isSafeConstantForEqualsOptimization(left)) {
-            return new TypedInput("(".concat(left.asNumber(), " === ").concat(right.asNumber(), ")"), TYPE_BOOLEAN);
+          if (isSafeInputForEqualsOptimization(left, right) || isSafeInputForEqualsOptimization(right, left)) {
+            return "(".concat(this.descendInput(left.toType(InputType.NUMBER)), " === ").concat(this.descendInput(right.toType(InputType.NUMBER)), ")");
           }
-          if (rightAlwaysNumber && right instanceof ConstantInput && isSafeConstantForEqualsOptimization(right)) {
-            return new TypedInput("(".concat(left.asNumber(), " === ").concat(right.asNumber(), ")"), TYPE_BOOLEAN);
+          // When either operand is known to never be a number, only use string comparison to avoid all number parsing.
+          if (!left.isSometimesType(InputType.NUMBER_INTERPRETABLE) || !right.isSometimesType(InputType.NUMBER_INTERPRETABLE)) {
+            return "(".concat(this.descendInput(left.toType(InputType.STRING)), ".toLowerCase() === ").concat(this.descendInput(right.toType(InputType.STRING)), ".toLowerCase())");
           }
           // No compile-time optimizations possible - use fallback method.
-          return new TypedInput("compareEqual(".concat(left.asUnknown(), ", ").concat(right.asUnknown(), ")"), TYPE_BOOLEAN);
+          return "compareEqual(".concat(this.descendInput(left), ", ").concat(this.descendInput(right), ")");
         }
-      case 'op.e^':
-        return new TypedInput("Math.exp(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'op.floor':
-        return new TypedInput("Math.floor(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'op.greater':
+      case InputOpcode.OP_POW_E:
+        return "Math.exp(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_FLOOR:
+        return "Math.floor(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_GREATER:
         {
-          const left = this.descendInput(node.left);
-          const right = this.descendInput(node.right);
+          const left = node.left;
+          const right = node.right;
           // When the left operand is a number and the right operand is a number or NaN, we can use >
-          if (left.isAlwaysNumber() && right.isAlwaysNumberOrNaN()) {
-            return new TypedInput("(".concat(left.asNumber(), " > ").concat(right.asNumberOrNaN(), ")"), TYPE_BOOLEAN);
+          if (left.isAlwaysType(InputType.NUMBER_INTERPRETABLE) && right.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN)) {
+            return "(".concat(this.descendInput(left.toType(InputType.NUMBER)), " > ").concat(this.descendInput(right.toType(InputType.NUMBER_OR_NAN)), ")");
           }
           // When the left operand is a number or NaN and the right operand is a number, we can negate <=
-          if (left.isAlwaysNumberOrNaN() && right.isAlwaysNumber()) {
-            return new TypedInput("!(".concat(left.asNumberOrNaN(), " <= ").concat(right.asNumber(), ")"), TYPE_BOOLEAN);
+          if (left.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN) && right.isAlwaysType(InputType.NUMBER_INTERPRETABLE)) {
+            return "!(".concat(this.descendInput(left.toType(InputType.NUMBER_OR_NAN)), " <= ").concat(this.descendInput(right.toType(InputType.NUMBER)), ")");
           }
           // When either operand is known to never be a number, avoid all number parsing.
-          if (left.isNeverNumber() || right.isNeverNumber()) {
-            return new TypedInput("(".concat(left.asString(), ".toLowerCase() > ").concat(right.asString(), ".toLowerCase())"), TYPE_BOOLEAN);
+          if (!left.isSometimesType(InputType.NUMBER_INTERPRETABLE) || !right.isSometimesType(InputType.NUMBER_INTERPRETABLE)) {
+            return "(".concat(this.descendInput(left.toType(InputType.STRING)), ".toLowerCase() > ").concat(this.descendInput(right.toType(InputType.STRING)), ".toLowerCase())");
           }
           // No compile-time optimizations possible - use fallback method.
-          return new TypedInput("compareGreaterThan(".concat(left.asUnknown(), ", ").concat(right.asUnknown(), ")"), TYPE_BOOLEAN);
+          return "compareGreaterThan(".concat(this.descendInput(left), ", ").concat(this.descendInput(right), ")");
         }
-      case 'op.join':
-        return new TypedInput("(".concat(this.descendInput(node.left).asString(), " + ").concat(this.descendInput(node.right).asString(), ")"), TYPE_STRING);
-      case 'op.length':
-        return new TypedInput("".concat(this.descendInput(node.string).asString(), ".length"), TYPE_NUMBER);
-      case 'op.less':
+      case InputOpcode.OP_JOIN:
+        return "(".concat(this.descendInput(node.left), " + ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_LENGTH:
+        return "".concat(this.descendInput(node.string), ".length");
+      case InputOpcode.OP_LESS:
         {
-          const left = this.descendInput(node.left);
-          const right = this.descendInput(node.right);
+          const left = node.left;
+          const right = node.right;
           // When the left operand is a number or NaN and the right operand is a number, we can use <
-          if (left.isAlwaysNumberOrNaN() && right.isAlwaysNumber()) {
-            return new TypedInput("(".concat(left.asNumberOrNaN(), " < ").concat(right.asNumber(), ")"), TYPE_BOOLEAN);
+          if (left.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN) && right.isAlwaysType(InputType.NUMBER_INTERPRETABLE)) {
+            return "(".concat(this.descendInput(left.toType(InputType.NUMBER_OR_NAN)), " < ").concat(this.descendInput(right.toType(InputType.NUMBER)), ")");
           }
           // When the left operand is a number and the right operand is a number or NaN, we can negate >=
-          if (left.isAlwaysNumber() && right.isAlwaysNumberOrNaN()) {
-            return new TypedInput("!(".concat(left.asNumber(), " >= ").concat(right.asNumberOrNaN(), ")"), TYPE_BOOLEAN);
+          if (left.isAlwaysType(InputType.NUMBER_INTERPRETABLE) && right.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN)) {
+            return "!(".concat(this.descendInput(left.toType(InputType.NUMBER)), " >= ").concat(this.descendInput(right.toType(InputType.NUMBER_OR_NAN)), ")");
           }
           // When either operand is known to never be a number, avoid all number parsing.
-          if (left.isNeverNumber() || right.isNeverNumber()) {
-            return new TypedInput("(".concat(left.asString(), ".toLowerCase() < ").concat(right.asString(), ".toLowerCase())"), TYPE_BOOLEAN);
+          if (!left.isSometimesType(InputType.NUMBER_INTERPRETABLE) || !right.isSometimesType(InputType.NUMBER_INTERPRETABLE)) {
+            return "(".concat(this.descendInput(left.toType(InputType.STRING)), ".toLowerCase() < ").concat(this.descendInput(right.toType(InputType.STRING)), ".toLowerCase())");
           }
           // No compile-time optimizations possible - use fallback method.
-          return new TypedInput("compareLessThan(".concat(left.asUnknown(), ", ").concat(right.asUnknown(), ")"), TYPE_BOOLEAN);
+          return "compareLessThan(".concat(this.descendInput(left), ", ").concat(this.descendInput(right), ")");
         }
-      case 'op.letterOf':
-        return new TypedInput("((".concat(this.descendInput(node.string).asString(), ")[(").concat(this.descendInput(node.letter).asNumber(), " | 0) - 1] || \"\")"), TYPE_STRING);
-      case 'op.ln':
-        // Needs to be marked as NaN because Math.log(-1) == NaN
-        return new TypedInput("Math.log(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.log':
-        // Needs to be marked as NaN because Math.log(-1) == NaN
-        return new TypedInput("(Math.log(".concat(this.descendInput(node.value).asNumber(), ") / Math.LN10)"), TYPE_NUMBER_NAN);
-      case 'op.mod':
+      case InputOpcode.OP_LETTER_OF:
+        return "((".concat(this.descendInput(node.string), ")[").concat(this.descendInput(node.letter), " - 1] || \"\")");
+      case InputOpcode.OP_LOG_E:
+        return "Math.log(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_LOG_10:
+        return "(Math.log(".concat(this.descendInput(node.value), ") / Math.LN10)");
+      case InputOpcode.OP_MOD:
         this.descendedIntoModulo = true;
-        // Needs to be marked as NaN because mod(0, 0) (and others) == NaN
-        return new TypedInput("mod(".concat(this.descendInput(node.left).asNumber(), ", ").concat(this.descendInput(node.right).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.multiply':
-        // Needs to be marked as NaN because Infinity * 0 === NaN
-        return new TypedInput("(".concat(this.descendInput(node.left).asNumber(), " * ").concat(this.descendInput(node.right).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.not':
-        return new TypedInput("!".concat(this.descendInput(node.operand).asBoolean()), TYPE_BOOLEAN);
-      case 'op.or':
-        return new TypedInput("(".concat(this.descendInput(node.left).asBoolean(), " || ").concat(this.descendInput(node.right).asBoolean(), ")"), TYPE_BOOLEAN);
-      case 'op.random':
+        return "mod(".concat(this.descendInput(node.left), ", ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_MULTIPLY:
+        return "(".concat(this.descendInput(node.left), " * ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_NOT:
+        return "!".concat(this.descendInput(node.operand));
+      case InputOpcode.OP_OR:
+        return "(".concat(this.descendInput(node.left), " || ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_RANDOM:
         if (node.useInts) {
-          // Both inputs are ints, so we know neither are NaN
-          return new TypedInput("randomInt(".concat(this.descendInput(node.low).asNumber(), ", ").concat(this.descendInput(node.high).asNumber(), ")"), TYPE_NUMBER);
+          return "randomInt(".concat(this.descendInput(node.low), ", ").concat(this.descendInput(node.high), ")");
         }
         if (node.useFloats) {
-          return new TypedInput("randomFloat(".concat(this.descendInput(node.low).asNumber(), ", ").concat(this.descendInput(node.high).asNumber(), ")"), TYPE_NUMBER_NAN);
+          return "randomFloat(".concat(this.descendInput(node.low), ", ").concat(this.descendInput(node.high), ")");
         }
-        return new TypedInput("runtime.ext_scratch3_operators._random(".concat(this.descendInput(node.low).asUnknown(), ", ").concat(this.descendInput(node.high).asUnknown(), ")"), TYPE_NUMBER_NAN);
-      case 'op.round':
-        return new TypedInput("Math.round(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'op.sin':
-        return new TypedInput("(Math.round(Math.sin((Math.PI * ".concat(this.descendInput(node.value).asNumber(), ") / 180) * 1e10) / 1e10)"), TYPE_NUMBER_NAN);
-      case 'op.sqrt':
-        // Needs to be marked as NaN because Math.sqrt(-1) === NaN
-        return new TypedInput("Math.sqrt(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.subtract':
-        // Needs to be marked as NaN because Infinity - Infinity === NaN
-        return new TypedInput("(".concat(this.descendInput(node.left).asNumber(), " - ").concat(this.descendInput(node.right).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.tan':
-        return new TypedInput("tan(".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER_NAN);
-      case 'op.10^':
-        return new TypedInput("(10 ** ".concat(this.descendInput(node.value).asNumber(), ")"), TYPE_NUMBER);
-      case 'procedures.call':
+        return "runtime.ext_scratch3_operators._random(".concat(this.descendInput(node.low), ", ").concat(this.descendInput(node.high), ")");
+      case InputOpcode.OP_ROUND:
+        return "Math.round(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_SIN:
+        return "(Math.round(Math.sin((Math.PI * ".concat(this.descendInput(node.value), ") / 180) * 1e10) / 1e10)");
+      case InputOpcode.OP_SQRT:
+        return "Math.sqrt(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_SUBTRACT:
+        return "(".concat(this.descendInput(node.left), " - ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_TAN:
+        return "tan(".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_POW_10:
+        return "(10 ** ".concat(this.descendInput(node.value), ")");
+      case InputOpcode.OP_TYPE_OF:
+        return "runtime.ext_scratch3_operators.typeof({VALUE: ".concat(this.descendInput(node.value), "})");
+      case InputOpcode.OP_IS_TYPE:
+        return "runtime.ext_scratch3_operators.isType({VALUE: ".concat(this.descendInput(node.value), ", TYPE: \"").concat(sanitize(node.type), "\"})");
+      case InputOpcode.OP_CAST:
+        return "runtime.ext_scratch3_operators.cast({VALUE: ".concat(this.descendInput(node.value), ", TYPE: \"").concat(sanitize(node.type), "\"})");
+      case InputOpcode.OP_NUMS_IN_RANGE:
+        {
+          return "runtime.ext_scratch3_operators.numsInRange({FROM: ".concat(this.descendInput(node.from), ", TO: ").concat(this.descendInput(node.to), "})");
+        }
+      case InputOpcode.OP_IN_RANGE:
+        {
+          return "runtime.ext_scratch3_operators.inRange({NUM: ".concat(this.descendInput(node.num), ", FROM: ").concat(this.descendInput(node.from), ", TO: ").concat(this.descendInput(node.to), "})");
+        }
+      case InputOpcode.PROCEDURE_CALL:
         {
           const procedureCode = node.code;
           const procedureVariant = node.variant;
           const procedureData = this.ir.procedures[procedureVariant];
           if (procedureData.stack === null) {
             // TODO still need to evaluate arguments for side effects
-            return new TypedInput('""', TYPE_STRING);
+            return '""';
           }
 
           // Recursion makes this complicated because:
@@ -184644,215 +185754,200 @@ class JSGenerator {
           const procedureReference = "thread.procedures[\"".concat(sanitize(procedureVariant), "\"]");
           const args = [];
           for (const input of node.arguments) {
-            args.push(this.descendInput(input).asSafe());
+            args.push(this.descendInput(input));
           }
           const joinedArgs = args.join(',');
           const yieldForRecursion = !this.isWarp && procedureCode === this.script.procedureCode;
           const yieldForHat = this.isInHat;
           if (yieldForRecursion || yieldForHat) {
             const runtimeFunction = procedureData.yields ? 'yieldThenCallGenerator' : 'yieldThenCall';
-            return new TypedInput("(yield* ".concat(runtimeFunction, "(").concat(procedureReference, ", ").concat(joinedArgs, "))"), TYPE_UNKNOWN);
+            return "(yield* ".concat(runtimeFunction, "(").concat(procedureReference, ", ").concat(joinedArgs, "))");
           }
           if (procedureData.yields) {
-            return new TypedInput("(yield* ".concat(procedureReference, "(").concat(joinedArgs, "))"), TYPE_UNKNOWN);
+            return "(yield* ".concat(procedureReference, "(").concat(joinedArgs, "))");
           }
-          return new TypedInput("".concat(procedureReference, "(").concat(joinedArgs, ")"), TYPE_UNKNOWN);
+          return "".concat(procedureReference, "(").concat(joinedArgs, ")");
         }
-      case 'procedures.argument':
-        return new TypedInput("p".concat(node.index), TYPE_UNKNOWN);
-      case 'sensing.prompt':
-        {
-          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString(), ",\"VALUE\":").concat(this.descendInput(node.value).asString());
-          return new TypedInput("runtime.ext_scratch3_sensing.prompt({".concat(args, "})"), TYPE_STRING);
-        }
-      case 'sensing.confirm':
-        {
-          const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
-          return new TypedInput("runtime.ext_scratch3_sensing.confirm({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'sensing.answer':
-        return new TypedInput("runtime.ext_scratch3_sensing._answer", TYPE_STRING);
-      case 'sensing.colorTouchingColor':
-        return new TypedInput("target.colorIsTouchingColor(colorToList(".concat(this.descendInput(node.target).asColor(), "), colorToList(").concat(this.descendInput(node.mask).asColor(), "))"), TYPE_BOOLEAN);
-      case 'sensing.date':
-        return new TypedInput("(new Date().getDate())", TYPE_NUMBER);
-      case 'sensing.dayofweek':
-        return new TypedInput("(new Date().getDay() + 1)", TYPE_NUMBER);
-      case 'sensing.daysSince2000':
-        return new TypedInput('daysSince2000()', TYPE_NUMBER);
-      case 'sensing.distance':
+      case InputOpcode.SENSING_ANSWER:
+        return "runtime.ext_scratch3_sensing._answer";
+      case InputOpcode.SENSING_COLOR_TOUCHING_COLOR:
+        return "target.colorIsTouchingColor(".concat(this.descendInput(node.target), ", ").concat(this.descendInput(node.mask), ")");
+      case InputOpcode.SENSING_TIME_DATE:
+        return "(new Date().getDate())";
+      case InputOpcode.SENSING_TIME_WEEKDAY:
+        return "(new Date().getDay() + 1)";
+      case InputOpcode.SENSING_TIME_DAYS_SINCE_2000:
+        return 'daysSince2000()';
+      case InputOpcode.SENSING_DISTANCE:
         // TODO: on stages, this can be computed at compile time
-        return new TypedInput("distance(".concat(this.descendInput(node.target).asString(), ")"), TYPE_NUMBER);
-      case 'sensing.hour':
-        return new TypedInput("(new Date().getHours())", TYPE_NUMBER);
-      case 'sensing.minute':
-        return new TypedInput("(new Date().getMinutes())", TYPE_NUMBER);
-      case 'sensing.month':
-        return new TypedInput("(new Date().getMonth() + 1)", TYPE_NUMBER);
-      case 'sensing.of':
+        return "distance(".concat(this.descendInput(node.target), ")");
+      case InputOpcode.SENSING_TIME_HOUR:
+        return "(new Date().getHours())";
+      case InputOpcode.SENSING_TIME_MINUTE:
+        return "(new Date().getMinutes())";
+      case InputOpcode.SENSING_TIME_MONTH:
+        return "(new Date().getMonth() + 1)";
+      case InputOpcode.SENSING_OF:
+        return "runtime.ext_scratch3_sensing.getAttributeOf({OBJECT: ".concat(this.descendInput(node.object), ", PROPERTY: \"").concat(sanitize(node.property), "\"})");
+      case InputOpcode.SENSING_OF_VOLUME:
         {
-          const object = this.descendInput(node.object).asString();
-          const property = node.property;
-          if (node.object.kind === 'constant') {
-            const isStage = node.object.value === '_stage_';
-            // Note that if target isn't a stage, we can't assume it exists
-            const objectReference = isStage ? 'stage' : this.evaluateOnce("runtime.getSpriteTargetByName(".concat(object, ")"));
-            if (property === 'volume') {
-              return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".volume : 0)"), TYPE_NUMBER);
-            }
-            if (isStage) {
-              switch (property) {
-                case 'background #':
-                // fallthrough for scratch 1.0 compatibility
-                case 'backdrop #':
-                  return new TypedInput("(".concat(objectReference, ".currentCostume + 1)"), TYPE_NUMBER);
-                case 'backdrop name':
-                  return new TypedInput("".concat(objectReference, ".getCostumes()[").concat(objectReference, ".currentCostume].name"), TYPE_STRING);
-              }
-            } else {
-              switch (property) {
-                case 'x position':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".x : 0)"), TYPE_NUMBER);
-                case 'y position':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".y : 0)"), TYPE_NUMBER);
-                case 'position':
-                  return new TypedInput("(".concat(objectReference, " ? [").concat(objectReference, ".x, ").concat(objectReference, ".y] : 0)"), TYPE_UNKNOWN);
-                case 'direction':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".direction : 0)"), TYPE_NUMBER);
-                case 'visibility':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".visible : 0)"), TYPE_UNKNOWN);
-                case 'costume #':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".currentCostume + 1 : 0)"), TYPE_NUMBER);
-                case 'costume name':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".getCostumes()[").concat(objectReference, ".currentCostume].name : 0)"), TYPE_UNKNOWN);
-                case 'size':
-                  return new TypedInput("(".concat(objectReference, " ? ").concat(objectReference, ".size : 0)"), TYPE_NUMBER);
-              }
-            }
-            const variableReference = this.evaluateOnce("".concat(objectReference, " && ").concat(objectReference, ".lookupVariableByNameAndType(\"").concat(sanitize(property), "\", \"\", true)"));
-            return new TypedInput("(".concat(variableReference, " ? ").concat(variableReference, ".value : 0)"), TYPE_UNKNOWN);
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".volume : 0)");
+        }
+      case InputOpcode.SENSING_OF_BACKDROP_NUMBER:
+        return "(stage.currentCostume + 1)";
+      case InputOpcode.SENSING_OF_BACKDROP_NAME:
+        return "stage.getCostumes()[stage.currentCostume].name";
+      case InputOpcode.SENSING_OF_POS_X:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".x : 0)");
+        }
+      case InputOpcode.SENSING_OF_POS_Y:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".y : 0)");
+        }
+      case InputOpcode.SENSING_OF_POS_XY:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? [").concat(targetRef, ".x, ").concat(targetRef, ".y] : [0, 0])");
+        }
+      case InputOpcode.SENSING_OF_DIRECTION:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".direction : 0)");
+        }
+      case InputOpcode.SENSING_OF_VISIBILITY:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".visible : 0)");
+        }
+      case InputOpcode.SENSING_OF_COSTUME_NUMBER:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".currentCostume + 1 : 0)");
+        }
+      case InputOpcode.SENSING_OF_COSTUME_NAME:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".getCostumes()[").concat(targetRef, ".currentCostume].name : 0)");
+        }
+      case InputOpcode.SENSING_OF_SIZE:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          return "(".concat(targetRef, " ? ").concat(targetRef, ".size : 0)");
+        }
+      case InputOpcode.SENSING_OF_VAR:
+        {
+          const targetRef = this.descendTargetReference(node.object);
+          const varRef = this.evaluateOnce("".concat(targetRef, " && ").concat(targetRef, ".lookupVariableByNameAndType(\"").concat(sanitize(node.property), "\", \"\", true)"));
+          return "(".concat(varRef, " ? ").concat(varRef, ".value : 0)");
+        }
+      case InputOpcode.SENSING_TIME_SECOND:
+        return "(new Date().getSeconds())";
+      case InputOpcode.SENSING_TOUCHING_OBJECT:
+        return "target.isTouchingObject(".concat(this.descendInput(node.object), ")");
+      case InputOpcode.SENSING_TOUCHING_COLOR:
+        return "target.isTouchingColor(".concat(this.descendInput(node.color), ")");
+      case InputOpcode.SENSING_USERNAME:
+        return 'runtime.ioDevices.userData.getUsername()';
+      case InputOpcode.SENSING_TIME_YEAR:
+        return "(new Date().getFullYear())";
+      case InputOpcode.SENSING_TIMER_GET:
+        return 'runtime.ioDevices.clock.projectTimer()';
+      case InputOpcode.CONTROL_IF_THEN_ELSE:
+        return "(".concat(this.descendInput(node.condition), " ? ").concat(this.descendInput(node.then), " : ").concat(this.descendInput(node.else), ")");
+      case InputOpcode.CONTROL_IS_PAUSED:
+        return 'runtime.ext_scratch3_control.isPaused()';
+      case InputOpcode.CONTROL_COUNTER:
+        return 'runtime.ext_scratch3_control._counter';
+      case InputOpcode.TW_KEY_LAST_PRESSED:
+        return 'runtime.ioDevices.keyboard.getLastKeyPressed()';
+      case InputOpcode.VAR_GET:
+        return "".concat(this.referenceVariable(node.variable), ".value");
+      case InputOpcode.JSON_CONTAINS:
+        {
+          const json = node.json;
+          if (json.isAlwaysType(InputType.ARRAY)) {
+            return "".concat(this.descendInput(json), ".includes(").concat(this.descendInput(node.value), ")");
           }
-          return new TypedInput("runtime.ext_scratch3_sensing.getAttributeOf({OBJECT: ".concat(object, ", PROPERTY: \"").concat(sanitize(property), "\" })"), TYPE_UNKNOWN);
+          if (json.isAlwaysType(InputType.OBJECT)) {
+            return "Object.values(".concat(this.descendInput(json), ").includes(").concat(this.descendInput(node.value), ")");
+          }
+          return "(Array.isArray(".concat(this.descendInput(json), ") ? ").concat(this.descendInput(json), ".includes(").concat(this.descendInput(node.value), ") : Object.values(").concat(this.descendInput(json), ").includes(").concat(this.descendInput(node.value), "))");
         }
-      case 'sensing.second':
-        return new TypedInput("(new Date().getSeconds())", TYPE_NUMBER);
-      case 'sensing.touching':
-        return new TypedInput("target.isTouchingObject(".concat(this.descendInput(node.object).asUnknown(), ")"), TYPE_BOOLEAN);
-      case 'sensing.touchingColor':
-        return new TypedInput("target.isTouchingColor(colorToList(".concat(this.descendInput(node.color).asColor(), "))"), TYPE_BOOLEAN);
-      case 'sensing.username':
-        return new TypedInput('runtime.ioDevices.userData.getUsername()', TYPE_STRING);
-      case 'sensing.year':
-        return new TypedInput("(new Date().getFullYear())", TYPE_NUMBER);
-      case 'timer.get':
-        return new TypedInput('runtime.ioDevices.clock.projectTimer()', TYPE_NUMBER);
-      case 'tw.lastKeyPressed':
-        return new TypedInput('runtime.ioDevices.keyboard.getLastKeyPressed()', TYPE_STRING);
-      case 'var.get':
-        return this.descendVariable(node.variable);
-      case 'json.arrayEmpty':
-        return new TypedInput('[]', TYPE_UNKNOWN);
-      case 'json.arrayItemOf':
+      case InputOpcode.JSON_LENGTH:
         {
-          const index = this.descendInput(node.index);
-          const args = "\n            \"VALUE\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayItemOf({".concat(args, "})"), TYPE_UNKNOWN);
+          const value = node.value;
+          if (value.isAlwaysType(InputType.ARRAY)) {
+            return "".concat(this.descendInput(value), ".length");
+          }
+          if (value.isAlwaysType(InputType.OBJECT)) {
+            return "Object.keys(".concat(this.descendInput(value), ").length");
+          }
+          return "(Array.isArray(".concat(this.descendInput(value), ") ? ").concat(this.descendInput(value), ".length : Object.keys(").concat(this.descendInput(value), ").length)");
         }
-      case 'json.arrayItemNoOf':
+      case InputOpcode.JSON_ARRAY_EMPTY:
+        return '[]';
+      case InputOpcode.JSON_ARRAY_ITEM_OF:
         {
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"VALUE\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayItemNoOf({".concat(args, "})"), TYPE_NUMBER);
+          if (environment.supportsNullishCoalescing) {
+            if (node.index.isAlwaysType(InputType.NUMBER_INTERPRETABLE | InputType.NUMBER_NAN)) {
+              return "(".concat(this.descendInput(node.value), "[").concat(this.descendInput(node.index.toType(InputType.NUMBER_INDEX)), " - 1] ?? \"\")");
+            }
+            if (node.index.isConstant('last')) {
+              return "(".concat(this.descendInput(node.value), "[").concat(this.descendInput(node.value), ".length - 1] ?? \"\")");
+            }
+          }
+          return "listGet(".concat(this.descendInput(node.value), ", ").concat(this.descendInput(node.index), ")");
         }
-      case 'json.contains':
-        {
-          const args = "\n            \"JSON\":".concat(this.descendInput(node.json).asUnknown(), ",\n            \"VALUE\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.contains({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'json.length':
-        {
-          const args = "\"VALUE\":".concat(this.descendInput(node.json).asUnknown());
-          return new TypedInput("runtime.ext_dash_json.length({".concat(args, "})"), TYPE_NUMBER);
-        }
-      case 'json.arrayAt':
-        {
-          const index = this.descendInput(node.index);
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayInsertAt({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.arrayInFrontOf':
-        {
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayAddFront({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.arrayBehind':
-        {
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayAddBack({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.arraySplit':
-        {
-          const args = "\n            \"TEXT\":".concat(this.descendInput(node.text).asString(), ",\n            \"DELIM\":").concat(this.descendInput(node.delimiter).asString(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arraySplit({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.arrayDelete':
-        {
-          const index = this.descendInput(node.index);
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayDelete({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.arrayReplace':
-        {
-          const index = this.descendInput(node.index);
-          const args = "\n            \"ARRAY\":".concat(this.descendInput(node.array).asUnknown(), ",\n            \"INDEX\":").concat(environment.supportsNullishCoalescing && index.isAlwaysNumberOrNaN() ? index.asNumber() : index.asUnknown(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.arrayReplace({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.objectEmpty':
-        return new TypedInput('{}', TYPE_UNKNOWN);
-      case 'json.objectSplit':
-        {
-          const args = "\n            \"TEXT\":".concat(this.descendInput(node.text).asString(), ",\n            \"KEYDELIM\":").concat(this.descendInput(node.keyDelim).asString(), ",\n            \"PAIRDELIM\":").concat(this.descendInput(node.pairDelim).asString(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectSplit({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.objectItemOf':
-        {
-          const args = "\n            \"VALUE\":".concat(this.descendInput(node.value).asUnknown(), ",\n            \"KEY\":").concat(this.descendInput(node.key).asString(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectItemOf({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.objectContainsKey':
-        {
-          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"KEY\":").concat(this.descendInput(node.key).asString(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectContainsKey({".concat(args, "})"), TYPE_BOOLEAN);
-        }
-      case 'json.objectSet':
-        {
-          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"KEY\":").concat(this.descendInput(node.key).asString(), ",\n            \"ITEM\":").concat(this.descendInput(node.item).asUnknown(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectSet({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.objectDelete':
-        {
-          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"KEY\":").concat(this.descendInput(node.key).asString(), "\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectDelete({".concat(args, "})"), TYPE_UNKNOWN);
-        }
-      case 'json.objectEntries':
-        {
-          const args = "\n            \"OBJECT\":".concat(this.descendInput(node.object).asUnknown(), ",\n            \"PROPERTY\":\"").concat(sanitize(node.property), "\"\n            ");
-          return new TypedInput("runtime.ext_dash_json.objectEntries({".concat(args, "})"), TYPE_UNKNOWN);
-        }
+      case InputOpcode.JSON_ARRAY_ITEM_NO_OF:
+        return "runtime.ext_dash_json.arrayItemNoOf({ARRAY: ".concat(this.descendInput(node.array), ", VALUE: ").concat(this.descendInput(node.value), "})");
+      case InputOpcode.JSON_ARRAY_IN_FRONT_OF:
+        return "[...".concat(this.descendInput(node.array), ", ").concat(this.descendInput(node.item), "]");
+      case InputOpcode.JSON_ARRAY_BEHIND:
+        return "[".concat(this.descendInput(node.item), ", ...").concat(this.descendInput(node.array), "]");
+      case InputOpcode.JSON_ARRAY_AT:
+        return "arrayInsert(".concat(this.descendInput(node.array), ", ").concat(this.descendInput(node.index), ", ").concat(this.descendInput(node.item), ")");
+      case InputOpcode.JSON_ARRAY_SPLIT:
+        return "".concat(this.descendInput(node.text), ".split(").concat(this.descendInput(node.delim), ")");
+      case InputOpcode.JSON_ARRAY_DELETE:
+        return "arrayDelete(".concat(this.descendInput(node.array), ", ").concat(this.descendInput(node.index), ")");
+      case InputOpcode.JSON_ARRAY_REPLACE:
+        return "arrayReplace(".concat(this.descendInput(node.array), ", ").concat(this.descendInput(node.index), ", ").concat(this.descendInput(node.item), ")");
+      case InputOpcode.JSON_OBJECT_EMPTY:
+        return '{}';
+      case InputOpcode.JSON_OBJECT_SPLIT:
+        return "runtime.ext_dash_json.objectSplit({TEXT: ".concat(this.descendInput(node.text), ", KEYDELIM: ").concat(this.descendInput(node.keydelim), ", PAIRDELIM: ").concat(this.descendInput(node.pairdelim), "})");
+      case InputOpcode.JSON_OBJECT_ITEM_OF:
+        return "(!Object.keys(".concat(this.descendInput(node.value), ").includes(").concat(this.descendInput(node.key), ") ? \"\" : ").concat(this.descendInput(node.value), "[").concat(this.descendInput(node.key), "])");
+      case InputOpcode.JSON_OBJECT_CONTAINS_KEY:
+        return "Object.keys(".concat(this.descendInput(node.object), ").includes(").concat(this.descendInput(node.key), ")");
+      case InputOpcode.JSON_OBJECT_SET:
+        return "{...".concat(this.descendInput(node.object), ", ").concat(this.descendInput(node.key), ": ").concat(this.descendInput(node.item), "}");
+      case InputOpcode.JSON_OBJECT_DELETE:
+        return "runtime.ext_dash_json.objectDelete({OBJECT: ".concat(this.descendInput(node.object), ", KEY: ").concat(this.descendInput(node.key), "})");
+      case InputOpcode.JSON_OBJECT_ENTRIES:
+        return "runtime.ext_dash_json.objectEntries({OBJECT: ".concat(this.descendInput(node.object), ", PROPERTY: \"").concat(sanitize(node.key), "\"})");
       default:
-        log.warn("JS: Unknown input: ".concat(node.kind), node);
-        throw new Error("JS: Unknown input: ".concat(node.kind));
+        log.warn("JS: Unknown input: ".concat(block.opcode), node);
+        throw new Error("JS: Unknown input: ".concat(block.opcode));
     }
   }
 
   /**
-   * @param {*} node Stacked node to compile.
+   * @param {IntermediateStackBlock} block Stacked block to compile.
    */
-  descendStackedBlock(node) {
-    switch (node.kind) {
-      case 'addons.call':
-        this.source += "".concat(this.descendAddonCall(node), ";\n");
-        break;
-      case 'compat':
+  descendStackedBlock(block) {
+    const node = block.inputs;
+    switch (block.opcode) {
+      case StackOpcode.ADDON_CALL:
+        {
+          this.source += "".concat(this.descendAddonCall(node), ";\n");
+          break;
+        }
+      case StackOpcode.COMPATIBILITY_LAYER:
         {
           // If the last command in a loop returns a promise, immediately continue to the next iteration.
           // If you don't do this, the loop effectively yields twice per iteration and will run at half-speed.
@@ -184883,110 +185978,14 @@ class JSGenerator {
           }
           break;
         }
-      case 'control.createClone':
-        this.source += "runtime.ext_scratch3_control._createClone(".concat(this.descendInput(node.target).asString(), ", target);\n");
-        break;
-      case 'control.deleteClone':
-        this.source += 'if (!target.isOriginal) {\n';
-        this.source += '  runtime.disposeTarget(target);\n';
-        this.source += '  runtime.stopForTarget(target);\n';
-        this.retire();
-        this.source += '}\n';
-        break;
-      case 'control.for':
-        {
-          this.resetVariableInputs();
-          const index = this.localVariables.next();
-          this.source += "var ".concat(index, " = 0; ");
-          this.source += "while (".concat(index, " < ").concat(this.descendInput(node.count).asNumber(), ") { ");
-          this.source += "".concat(index, "++; ");
-          this.source += "".concat(this.referenceVariable(node.variable), ".value = ").concat(index, ";\n");
-          this.descendStack(node.do, new Frame(true));
-          this.yieldLoop();
-          this.source += '}\n';
-          break;
-        }
-      case 'control.if':
-        this.source += "if (".concat(this.descendInput(node.condition).asBoolean(), ") {\n");
-        this.descendStack(node.whenTrue, new Frame(false));
-        // only add the else branch if it won't be empty
-        // this makes scripts have a bit less useless noise in them
-        if (node.whenFalse.length) {
-          this.source += "} else {\n";
-          this.descendStack(node.whenFalse, new Frame(false));
-        }
-        this.source += "}\n";
-        break;
-      case 'control.repeat':
-        {
-          const i = this.localVariables.next();
-          this.source += "for (var ".concat(i, " = ").concat(this.descendInput(node.times).asNumber(), "; ").concat(i, " >= 0.5; ").concat(i, "--) {\n");
-          this.descendStack(node.do, new Frame(true));
-          this.yieldLoop();
-          this.source += "}\n";
-          break;
-        }
-      case 'control.stopAll':
-        this.source += 'runtime.stopAll();\n';
-        this.retire();
-        break;
-      case 'control.stopOthers':
-        this.source += 'runtime.stopForTarget(target, thread);\n';
-        break;
-      case 'control.stopScript':
-        this.stopScript();
-        break;
-      case 'control.wait':
-        {
-          const duration = this.localVariables.next();
-          this.source += "thread.timer = timer();\n";
-          this.source += "var ".concat(duration, " = Math.max(0, 1000 * ").concat(this.descendInput(node.seconds).asNumber(), ");\n");
-          this.requestRedraw();
-          // always yield at least once, even on 0 second durations
-          this.yieldNotWarp();
-          this.source += "while (thread.timer.timeElapsed() < ".concat(duration, ") {\n");
-          this.yieldStuckOrNotWarp();
-          this.source += '}\n';
-          this.source += 'thread.timer = null;\n';
-          break;
-        }
-      case 'control.waitUntil':
-        {
-          this.resetVariableInputs();
-          this.source += "while (!".concat(this.descendInput(node.condition).asBoolean(), ") {\n");
-          this.yieldStuckOrNotWarp();
-          this.source += "}\n";
-          break;
-        }
-      case 'control.while':
-        this.resetVariableInputs();
-        this.source += "while (".concat(this.descendInput(node.condition).asBoolean(), ") {\n");
-        this.descendStack(node.do, new Frame(true));
-        if (node.warpTimer) {
-          this.yieldStuckOrNotWarp();
-        } else {
-          this.yieldLoop();
-        }
-        this.source += "}\n";
-        break;
-      case 'control.resume':
-        this.source += 'runtime.ext_scratch3_control.resume();\n';
-        break;
-      case 'control.pause':
-        this.source += 'runtime.ext_scratch3_control.pause();\n';
-        break;
-      case 'counter.clear':
-        this.source += 'runtime.ext_scratch3_control._counter = 0;\n';
-        break;
-      case 'counter.increment':
-        this.source += 'runtime.ext_scratch3_control._counter++;\n';
-        break;
-      case 'hat.edge':
+      case InputOpcode.OLD_COMPILER_COMPATIBILITY_LAYER:
+        return this.oldCompilerStub.descendStackedBlockFromNewCompiler(block);
+      case StackOpcode.HAT_EDGE:
         this.isInHat = true;
         this.source += '{\n';
         // For exact Scratch parity, evaluate the input before checking old edge state.
         // Can matter if the input is not instantly evaluated.
-        this.source += "const resolvedValue = ".concat(this.descendInput(node.condition).asBoolean(), ";\n");
+        this.source += "const resolvedValue = ".concat(this.descendInput(node.condition), ";\n");
         this.source += "const id = \"".concat(sanitize(node.id), "\";\n");
         this.source += 'const hasOldEdgeValue = target.hasEdgeActivatedValue(id);\n';
         this.source += "const oldEdgeValue = target.updateEdgeActivatedValue(id, resolvedValue);\n";
@@ -184998,206 +185997,296 @@ class JSGenerator {
         this.source += '}\n';
         this.isInHat = false;
         break;
-      case 'hat.predicate':
+      case StackOpcode.HAT_PREDICATE:
         this.isInHat = true;
-        this.source += "if (!".concat(this.descendInput(node.condition).asBoolean(), ") {\n");
+        this.source += "if (!".concat(this.descendInput(node.condition), ") {\n");
         this.retire();
         this.source += '}\n';
         this.source += 'yield;\n';
         this.isInHat = false;
         break;
-      case 'event.broadcast':
-        this.source += "startHats(\"event_whenbroadcastreceived\", { BROADCAST_OPTION: ".concat(this.descendInput(node.broadcast).asString(), " });\n");
-        this.resetVariableInputs();
+      case StackOpcode.CONTROL_CLONE_CREATE:
+        this.source += "runtime.ext_scratch3_control._createClone(".concat(this.descendInput(node.target), ", target);\n");
         break;
-      case 'event.broadcastAndWait':
-        this.source += "yield* waitThreads(startHats(\"event_whenbroadcastreceived\", { BROADCAST_OPTION: ".concat(this.descendInput(node.broadcast).asString(), " }));\n");
+      case StackOpcode.CONTROL_CLONE_DELETE:
+        this.source += 'if (!target.isOriginal) {\n';
+        this.source += '  runtime.disposeTarget(target);\n';
+        this.source += '  runtime.stopForTarget(target);\n';
+        this.retire();
+        this.source += '}\n';
+        break;
+      case StackOpcode.CONTROL_FOR:
+        {
+          const index = this.localVariables.next();
+          this.source += "var ".concat(index, " = 0; ");
+          this.source += "while (".concat(index, " < ").concat(this.descendInput(node.count), ") { ");
+          this.source += "".concat(index, "++; ");
+          this.source += "".concat(this.referenceVariable(node.variable), ".value = ").concat(index, ";\n");
+          this.descendStack(node.do, new Frame(true));
+          this.yieldLoop();
+          this.source += '}\n';
+          break;
+        }
+      case StackOpcode.CONTROL_IF_ELSE:
+        this.source += "if (".concat(this.descendInput(node.condition), ") {\n");
+        this.descendStack(node.whenTrue, new Frame(false));
+        // only add the else branch if it won't be empty
+        // this makes scripts have a bit less useless noise in them
+        if (node.whenFalse.blocks.length) {
+          this.source += "} else {\n";
+          this.descendStack(node.whenFalse, new Frame(false));
+        }
+        this.source += "}\n";
+        break;
+      case StackOpcode.CONTROL_REPEAT:
+        {
+          const i = this.localVariables.next();
+          this.source += "for (var ".concat(i, " = ").concat(this.descendInput(node.times), "; ").concat(i, " >= 0.5; ").concat(i, "--) {\n");
+          this.descendStack(node.do, new Frame(true));
+          this.yieldLoop();
+          this.source += "}\n";
+          break;
+        }
+      case StackOpcode.CONTROL_RESUME:
+        this.source += 'runtime.ext_scratch3_control.resume();\n';
+        break;
+      case StackOpcode.CONTROL_PAUSE:
+        this.source += 'runtime.ext_scratch3_control.pause();\n';
+        break;
+      case StackOpcode.CONTROL_STOP_ALL:
+        this.source += 'runtime.stopAll();\n';
+        this.retire();
+        break;
+      case StackOpcode.CONTROL_STOP_OTHERS:
+        this.source += 'runtime.stopForTarget(target, thread);\n';
+        break;
+      case StackOpcode.CONTROL_STOP_SCRIPT:
+        this.stopScript();
+        break;
+      case StackOpcode.CONTROL_WAIT:
+        {
+          const duration = this.localVariables.next();
+          this.source += "thread.timer = timer();\n";
+          this.source += "var ".concat(duration, " = Math.max(0, 1000 * ").concat(this.descendInput(node.seconds), ");\n");
+          this.requestRedraw();
+          // always yield at least once, even on 0 second durations
+          this.yieldNotWarp();
+          this.source += "while (thread.timer.timeElapsed() < ".concat(duration, ") {\n");
+          this.yieldStuckOrNotWarp();
+          this.source += '}\n';
+          this.source += 'thread.timer = null;\n';
+          break;
+        }
+      case StackOpcode.CONTROL_WAIT_UNTIL:
+        {
+          this.source += "while (!".concat(this.descendInput(node.condition), ") {\n");
+          this.yieldStuckOrNotWarp();
+          this.source += "}\n";
+          break;
+        }
+      case StackOpcode.CONTROL_WHILE:
+        this.source += "while (".concat(this.descendInput(node.condition), ") {\n");
+        this.descendStack(node.do, new Frame(true));
+        if (node.warpTimer) {
+          this.yieldStuckOrNotWarp();
+        } else {
+          this.yieldLoop();
+        }
+        this.source += "}\n";
+        break;
+      case StackOpcode.CONTROL_CLEAR_COUNTER:
+        this.source += 'runtime.ext_scratch3_control._counter = 0;\n';
+        break;
+      case StackOpcode.CONTORL_INCR_COUNTER:
+        this.source += 'runtime.ext_scratch3_control._counter++;\n';
+        break;
+      case StackOpcode.EVENT_BROADCAST:
+        this.source += "startHats(\"event_whenbroadcastreceived\", { BROADCAST_OPTION: ".concat(this.descendInput(node.broadcast), " });\n");
+        break;
+      case StackOpcode.EVENT_BROADCAST_AND_WAIT:
+        this.source += "yield* waitThreads(startHats(\"event_whenbroadcastreceived\", { BROADCAST_OPTION: ".concat(this.descendInput(node.broadcast), " }));\n");
         this.yielded();
         break;
-      case 'list.add':
+      case StackOpcode.LIST_ADD:
         {
           const list = this.referenceVariable(node.list);
-          this.source += "".concat(list, ".value.push(").concat(this.descendInput(node.item).asSafe(), ");\n");
+          this.source += "".concat(list, ".value.push(").concat(this.descendInput(node.item), ");\n");
           this.source += "".concat(list, "._monitorUpToDate = false;\n");
           break;
         }
-      case 'list.delete':
+      case StackOpcode.LIST_DELETE:
         {
           const list = this.referenceVariable(node.list);
-          const index = this.descendInput(node.index);
-          if (index instanceof ConstantInput) {
-            if (index.constantValue === 'last') {
-              this.source += "".concat(list, ".value.pop();\n");
-              this.source += "".concat(list, "._monitorUpToDate = false;\n");
-              break;
-            }
-            if (+index.constantValue === 1) {
-              this.source += "".concat(list, ".value.shift();\n");
-              this.source += "".concat(list, "._monitorUpToDate = false;\n");
-              break;
-            }
-            // do not need a special case for all as that is handled in IR generation (list.deleteAll)
-          }
-          this.source += "listDelete(".concat(list, ", ").concat(index.asUnknown(), ");\n");
-          break;
-        }
-      case 'list.deleteAll':
-        this.source += "".concat(this.referenceVariable(node.list), ".value = [];\n");
-        break;
-      case 'list.hide':
-        this.source += "runtime.monitorBlocks.changeBlock({ id: \"".concat(sanitize(node.list.id), "\", element: \"checkbox\", value: false }, runtime);\n");
-        break;
-      case 'list.insert':
-        {
-          const list = this.referenceVariable(node.list);
-          const index = this.descendInput(node.index);
-          const item = this.descendInput(node.item);
-          if (index instanceof ConstantInput && +index.constantValue === 1) {
-            this.source += "".concat(list, ".value.unshift(").concat(item.asSafe(), ");\n");
+          if (node.index.isConstant('last')) {
+            this.source += "".concat(list, ".value.pop();\n");
             this.source += "".concat(list, "._monitorUpToDate = false;\n");
             break;
           }
-          this.source += "listInsert(".concat(list, ", ").concat(index.asUnknown(), ", ").concat(item.asSafe(), ");\n");
+          if (node.index.isConstant(1)) {
+            this.source += "".concat(list, ".value.shift();\n");
+            this.source += "".concat(list, "._monitorUpToDate = false;\n");
+            break;
+          }
+          // do not need a special case for all as that is handled in IR generation (list.deleteAll)
+          this.source += "listDelete(".concat(list, ", ").concat(this.descendInput(node.index), ");\n");
           break;
         }
-      case 'list.replace':
-        this.source += "listReplace(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.index).asUnknown(), ", ").concat(this.descendInput(node.item).asSafe(), ");\n");
+      case StackOpcode.LIST_DELETE_ALL:
+        this.source += "".concat(this.referenceVariable(node.list), ".value = [];\n");
         break;
-      case 'list.show':
+      case StackOpcode.LIST_HIDE:
+        this.source += "runtime.monitorBlocks.changeBlock({ id: \"".concat(sanitize(node.list.id), "\", element: \"checkbox\", value: false }, runtime);\n");
+        break;
+      case StackOpcode.LIST_INSERT:
+        {
+          const list = this.referenceVariable(node.list);
+          const item = this.descendInput(node.item);
+          if (node.index.isConstant(1)) {
+            this.source += "".concat(list, ".value.unshift(").concat(item, ");\n");
+            this.source += "".concat(list, "._monitorUpToDate = false;\n");
+            break;
+          }
+          this.source += "listInsert(".concat(list, ", ").concat(this.descendInput(node.index), ", ").concat(item, ");\n");
+          break;
+        }
+      case StackOpcode.LIST_REPLACE:
+        this.source += "listReplace(".concat(this.referenceVariable(node.list), ", ").concat(this.descendInput(node.index), ", ").concat(this.descendInput(node.item), ");\n");
+        break;
+      case StackOpcode.LIST_SHOW:
         this.source += "runtime.monitorBlocks.changeBlock({ id: \"".concat(sanitize(node.list.id), "\", element: \"checkbox\", value: true }, runtime);\n");
         break;
-      case 'looks.backwardLayers':
+      case StackOpcode.LOOKS_LAYER_BACKWARD:
         if (!this.target.isStage) {
-          this.source += "target.goBackwardLayers(".concat(this.descendInput(node.layers).asNumber(), ");\n");
+          this.source += "target.goBackwardLayers(".concat(this.descendInput(node.layers), ");\n");
         }
         break;
-      case 'looks.clearEffects':
+      case StackOpcode.LOOKS_EFFECT_CLEAR:
         this.source += 'target.clearEffects();\n';
         break;
-      case 'looks.changeEffect':
+      case StackOpcode.LOOKS_EFFECT_CHANGE:
         if (Object.prototype.hasOwnProperty.call(this.target.effects, node.effect)) {
-          this.source += "target.setEffect(\"".concat(sanitize(node.effect), "\", runtime.ext_scratch3_looks.clampEffect(\"").concat(sanitize(node.effect), "\", ").concat(this.descendInput(node.value).asNumber(), " + target.effects[\"").concat(sanitize(node.effect), "\"]));\n");
+          this.source += "target.setEffect(\"".concat(sanitize(node.effect), "\", runtime.ext_scratch3_looks.clampEffect(\"").concat(sanitize(node.effect), "\", ").concat(this.descendInput(node.value), " + target.effects[\"").concat(sanitize(node.effect), "\"]));\n");
         }
         break;
-      case 'looks.changeSize':
-        this.source += "target.setSize(target.size + ".concat(this.descendInput(node.size).asNumber(), ");\n");
+      case StackOpcode.LOOKS_SIZE_CHANGE:
+        this.source += "target.setSize(target.size + ".concat(this.descendInput(node.size), ");\n");
         break;
-      case 'looks.forwardLayers':
+      case StackOpcode.LOOKS_LAYER_FORWARD:
         if (!this.target.isStage) {
-          this.source += "target.goForwardLayers(".concat(this.descendInput(node.layers).asNumber(), ");\n");
+          this.source += "target.goForwardLayers(".concat(this.descendInput(node.layers), ");\n");
         }
         break;
-      case 'looks.goToBack':
+      case StackOpcode.LOOKS_LAYER_BACK:
         if (!this.target.isStage) {
           this.source += 'target.goToBack();\n';
         }
         break;
-      case 'looks.goToFront':
+      case StackOpcode.LOOKS_LAYER_FRONT:
         if (!this.target.isStage) {
           this.source += 'target.goToFront();\n';
         }
         break;
-      case 'looks.hide':
+      case StackOpcode.LOOKS_HIDE:
         this.source += 'target.setVisible(false);\n';
         this.source += 'runtime.ext_scratch3_looks._renderBubble(target);\n';
         break;
-      case 'looks.nextBackdrop':
+      case StackOpcode.LOOKS_BACKDROP_NEXT:
         this.source += 'runtime.ext_scratch3_looks._setBackdrop(stage, stage.currentCostume + 1, true);\n';
         break;
-      case 'looks.nextCostume':
+      case StackOpcode.LOOKS_COSTUME_NEXT:
         this.source += 'target.setCostume(target.currentCostume + 1);\n';
         break;
-      case 'looks.setEffect':
+      case StackOpcode.LOOKS_EFFECT_SET:
         if (Object.prototype.hasOwnProperty.call(this.target.effects, node.effect)) {
-          this.source += "target.setEffect(\"".concat(sanitize(node.effect), "\", runtime.ext_scratch3_looks.clampEffect(\"").concat(sanitize(node.effect), "\", ").concat(this.descendInput(node.value).asNumber(), "));\n");
+          this.source += "target.setEffect(\"".concat(sanitize(node.effect), "\", runtime.ext_scratch3_looks.clampEffect(\"").concat(sanitize(node.effect), "\", ").concat(this.descendInput(node.value), "));\n");
         }
         break;
-      case 'looks.setSize':
-        this.source += "target.setSize(".concat(this.descendInput(node.size).asNumber(), ");\n");
+      case StackOpcode.LOOKS_SIZE_SET:
+        this.source += "target.setSize(".concat(this.descendInput(node.size), ");\n");
         break;
-      case 'looks.show':
+      case StackOpcode.LOOKS_SHOW:
         this.source += 'target.setVisible(true);\n';
         this.source += 'runtime.ext_scratch3_looks._renderBubble(target);\n';
         break;
-      case 'looks.switchBackdrop':
-        this.source += "runtime.ext_scratch3_looks._setBackdrop(stage, ".concat(this.descendInput(node.backdrop).asSafe(), ");\n");
+      case StackOpcode.LOOKS_BACKDROP_SET:
+        this.source += "runtime.ext_scratch3_looks._setBackdrop(stage, ".concat(this.descendInput(node.backdrop), ");\n");
         break;
-      case 'looks.switchCostume':
-        this.source += "runtime.ext_scratch3_looks._setCostume(target, ".concat(this.descendInput(node.costume).asSafe(), ");\n");
+      case StackOpcode.LOOKS_COSTUME_SET:
+        this.source += "runtime.ext_scratch3_looks._setCostume(target, ".concat(this.descendInput(node.costume), ");\n");
         break;
-      case 'motion.changeX':
-        this.source += "target.setXY(target.x + ".concat(this.descendInput(node.dx).asNumber(), ", target.y);\n");
+      case StackOpcode.MOTION_X_CHANGE:
+        this.source += "target.setXY(target.x + ".concat(this.descendInput(node.dx), ", target.y);\n");
         break;
-      case 'motion.changeY':
-        this.source += "target.setXY(target.x, target.y + ".concat(this.descendInput(node.dy).asNumber(), ");\n");
+      case StackOpcode.MOTION_Y_CHANGE:
+        this.source += "target.setXY(target.x, target.y + ".concat(this.descendInput(node.dy), ");\n");
         break;
-      case 'motion.ifOnEdgeBounce':
+      case StackOpcode.MOTION_IF_ON_EDGE_BOUNCE:
         this.source += "runtime.ext_scratch3_motion._ifOnEdgeBounce(target);\n";
         break;
-      case 'motion.setDirection':
-        this.source += "target.setDirection(".concat(this.descendInput(node.direction).asNumber(), ");\n");
+      case StackOpcode.MOTION_DIRECTION_SET:
+        this.source += "target.setDirection(".concat(this.descendInput(node.direction), ");\n");
         break;
-      case 'motion.setRotationStyle':
+      case StackOpcode.MOTION_ROTATION_STYLE_SET:
         this.source += "target.setRotationStyle(\"".concat(sanitize(node.style), "\");\n");
         break;
-      case 'motion.setX': // fallthrough
-      case 'motion.setY': // fallthrough
-      case 'motion.setXY':
+      case StackOpcode.MOTION_X_SET: // fallthrough
+      case StackOpcode.MOTION_Y_SET: // fallthrough
+      case StackOpcode.MOTION_XY_SET:
         {
           this.descendedIntoModulo = false;
-          const x = 'x' in node ? this.descendInput(node.x).asNumber() : 'target.x';
-          const y = 'y' in node ? this.descendInput(node.y).asNumber() : 'target.y';
+          const x = 'x' in node ? this.descendInput(node.x) : 'target.x';
+          const y = 'y' in node ? this.descendInput(node.y) : 'target.y';
           this.source += "target.setXY(".concat(x, ", ").concat(y, ");\n");
           if (this.descendedIntoModulo) {
             this.source += "if (target.interpolationData) target.interpolationData = null;\n";
           }
           break;
         }
-      case 'motion.step':
-        this.source += "runtime.ext_scratch3_motion._moveSteps(".concat(this.descendInput(node.steps).asNumber(), ", target);\n");
+      case StackOpcode.MOTION_STEP:
+        this.source += "runtime.ext_scratch3_motion._moveSteps(".concat(this.descendInput(node.steps), ", target);\n");
         break;
-      case 'noop':
+      case StackOpcode.NOP:
         break;
-      case 'pen.clear':
+      case StackOpcode.PEN_CLEAR:
         this.source += "".concat(PEN_EXT, ".clear();\n");
         break;
-      case 'pen.down':
+      case StackOpcode.PEN_DOWN:
         this.source += "".concat(PEN_EXT, "._penDown(target);\n");
         break;
-      case 'pen.changeParam':
-        this.source += "".concat(PEN_EXT, "._setOrChangeColorParam(").concat(this.descendInput(node.param).asString(), ", ").concat(this.descendInput(node.value).asNumber(), ", ").concat(PEN_STATE, ", true);\n");
+      case StackOpcode.PEN_COLOR_PARAM_CHANGE:
+        this.source += "".concat(PEN_EXT, "._setOrChangeColorParam(").concat(this.descendInput(node.param), ", ").concat(this.descendInput(node.value), ", ").concat(PEN_STATE, ", true);\n");
         break;
-      case 'pen.changeSize':
-        this.source += "".concat(PEN_EXT, "._changePenSizeBy(").concat(this.descendInput(node.size).asNumber(), ", target);\n");
+      case StackOpcode.PEN_SIZE_CHANGE:
+        this.source += "".concat(PEN_EXT, "._changePenSizeBy(").concat(this.descendInput(node.size), ", target);\n");
         break;
-      case 'pen.legacyChangeHue':
-        this.source += "".concat(PEN_EXT, "._changePenHueBy(").concat(this.descendInput(node.hue).asNumber(), ", target);\n");
+      case StackOpcode.PEN_COLOR_HUE_CHANGE_LEGACY:
+        this.source += "".concat(PEN_EXT, "._changePenHueBy(").concat(this.descendInput(node.hue), ", target);\n");
         break;
-      case 'pen.legacyChangeShade':
-        this.source += "".concat(PEN_EXT, "._changePenShadeBy(").concat(this.descendInput(node.shade).asNumber(), ", target);\n");
+      case StackOpcode.PEN_COLOR_SHADE_CHANGE_LEGACY:
+        this.source += "".concat(PEN_EXT, "._changePenShadeBy(").concat(this.descendInput(node.shade), ", target);\n");
         break;
-      case 'pen.legacySetHue':
-        this.source += "".concat(PEN_EXT, "._setPenHueToNumber(").concat(this.descendInput(node.hue).asNumber(), ", target);\n");
+      case StackOpcode.PEN_COLOR_HUE_SET_LEGACY:
+        this.source += "".concat(PEN_EXT, "._setPenHueToNumber(").concat(this.descendInput(node.hue), ", target);\n");
         break;
-      case 'pen.legacySetShade':
-        this.source += "".concat(PEN_EXT, "._setPenShadeToNumber(").concat(this.descendInput(node.shade).asNumber(), ", target);\n");
+      case StackOpcode.PEN_COLOR_SHADE_SET_LEGACY:
+        this.source += "".concat(PEN_EXT, "._setPenShadeToNumber(").concat(this.descendInput(node.shade), ", target);\n");
         break;
-      case 'pen.setColor':
-        this.source += "".concat(PEN_EXT, "._setPenColorToColor(").concat(this.descendInput(node.color).asColor(), ", target);\n");
+      case StackOpcode.PEN_COLOR_SET:
+        this.source += "".concat(PEN_EXT, "._setPenColorToColor(").concat(this.descendInput(node.color), ", target);\n");
         break;
-      case 'pen.setParam':
-        this.source += "".concat(PEN_EXT, "._setOrChangeColorParam(").concat(this.descendInput(node.param).asString(), ", ").concat(this.descendInput(node.value).asNumber(), ", ").concat(PEN_STATE, ", false);\n");
+      case StackOpcode.PEN_COLOR_PARAM_SET:
+        this.source += "".concat(PEN_EXT, "._setOrChangeColorParam(").concat(this.descendInput(node.param), ", ").concat(this.descendInput(node.value), ", ").concat(PEN_STATE, ", false);\n");
         break;
-      case 'pen.setSize':
-        this.source += "".concat(PEN_EXT, "._setPenSizeTo(").concat(this.descendInput(node.size).asNumber(), ", target);\n");
+      case StackOpcode.PEN_SIZE_SET:
+        this.source += "".concat(PEN_EXT, "._setPenSizeTo(").concat(this.descendInput(node.size), ", target);\n");
         break;
-      case 'pen.stamp':
+      case StackOpcode.PEN_STAMP:
         this.source += "".concat(PEN_EXT, "._stamp(target);\n");
         break;
-      case 'pen.up':
+      case StackOpcode.PEN_UP:
         this.source += "".concat(PEN_EXT, "._penUp(target);\n");
         break;
-      case 'procedures.call':
+      case StackOpcode.PROCEDURE_CALL:
         {
           const procedureCode = node.code;
           const procedureVariant = node.variant;
@@ -185208,117 +186297,139 @@ class JSGenerator {
           }
           const yieldForRecursion = !this.isWarp && procedureCode === this.script.procedureCode;
           if (yieldForRecursion) {
+            // Direct yields.
             this.yieldNotWarp();
           }
           if (procedureData.yields) {
             this.source += 'yield* ';
+            if (!this.script.yields) {
+              throw new Error('Script uses yielding procedure but is not marked as yielding.');
+            }
           }
           this.source += "thread.procedures[\"".concat(sanitize(procedureVariant), "\"](");
           const args = [];
           for (const input of node.arguments) {
-            args.push(this.descendInput(input).asSafe());
+            args.push(this.descendInput(input));
           }
           this.source += args.join(',');
-          this.source += ');\n';
-          this.resetVariableInputs();
+          this.source += ");\n";
           break;
         }
-      case 'procedures.return':
-        this.stopScriptAndReturn(this.descendInput(node.value).asSafe());
+      case StackOpcode.PROCEDURE_RETURN:
+        this.stopScriptAndReturn(this.descendInput(node.value));
         break;
-      case 'sensing.alert':
-        const args = "\"MESSAGE\":".concat(this.descendInput(node.message).asString());
-        this.source += "runtime.ext_scratch3_sensing.alert({".concat(args, "});\n");
-        break;
-      case 'timer.reset':
+      case StackOpcode.SENSING_MODALS_ALERT:
+        {
+          this.source += "alert(".concat(this.descendInput(node.message), ");\n");
+          break;
+        }
+      case StackOpcode.SENSING_TIMER_RESET:
         this.source += 'runtime.ioDevices.clock.resetProjectTimer();\n';
         break;
-      case 'tw.debugger':
+      case StackOpcode.DEBUGGER:
         this.source += 'debugger;\n';
         break;
-      case 'var.hide':
+      case StackOpcode.VAR_HIDE:
         this.source += "runtime.monitorBlocks.changeBlock({ id: \"".concat(sanitize(node.variable.id), "\", element: \"checkbox\", value: false }, runtime);\n");
         break;
-      case 'var.set':
+      case StackOpcode.VAR_SET:
         {
-          const variable = this.descendVariable(node.variable);
-          const value = this.descendInput(node.value);
-          variable.setInput(value);
-          this.source += "".concat(variable.source, " = ").concat(value.asSafe(), ";\n");
+          const varReference = this.referenceVariable(node.variable);
+          this.source += "".concat(varReference, ".value = ").concat(this.descendInput(node.value), ";\n");
           if (node.variable.isCloud) {
-            this.source += "runtime.ioDevices.cloud.requestUpdateVariable(\"".concat(sanitize(node.variable.name), "\", ").concat(variable.source, ");\n");
+            this.source += "runtime.ioDevices.cloud.requestUpdateVariable(\"".concat(sanitize(node.variable.name), "\", ").concat(varReference, ".value);\n");
           }
           break;
         }
-      case 'var.show':
+      case StackOpcode.VAR_SHOW:
         this.source += "runtime.monitorBlocks.changeBlock({ id: \"".concat(sanitize(node.variable.id), "\", element: \"checkbox\", value: true }, runtime);\n");
         break;
-      case 'visualReport':
+      case StackOpcode.VISUAL_REPORT:
         {
           const value = this.localVariables.next();
-          this.source += "const ".concat(value, " = ").concat(this.descendInput(node.input).asUnknown(), ";");
+          this.source += "const ".concat(value, " = ").concat(this.descendInput(node.input), ";");
           // blocks like legacy no-ops can return a literal `undefined`
           this.source += "if (".concat(value, " !== undefined) runtime.visualReport(target, \"").concat(sanitize(this.script.topBlockId), "\", ").concat(value, ");\n");
           break;
         }
       default:
-        log.warn("JS: Unknown stacked block: ".concat(node.kind), node);
-        throw new Error("JS: Unknown stacked block: ".concat(node.kind));
+        log.warn("JS: Unknown stacked block: ".concat(block.opcode), node);
+        throw new Error("JS: Unknown stacked block: ".concat(block.opcode));
     }
   }
 
   /**
+   * Compiles a reference to a target.
+   * @param {IntermediateInput} input The target reference. Must be a string.
+   * @returns {string} The compiled target reference
+   */
+  descendTargetReference(input) {
+    if (!input.isAlwaysType(InputType.STRING)) {
+      throw new Error("JS: Object references must be strings!");
+    }
+    if (input.isConstant('_stage_')) return 'stage';
+    return this.evaluateOnce("runtime.getSpriteTargetByName(".concat(this.descendInput(input), ")"));
+  }
+
+  /**
    * Compile a Record of input objects into a safe JS string.
-   * @param {Record<string, unknown>} inputs
+   * @param {Record<string, IntermediateInput>} inputs
    * @returns {string}
    */
   descendInputRecord(inputs) {
     let result = '{';
     for (const name of Object.keys(inputs)) {
       const node = inputs[name];
-      result += "\"".concat(sanitize(name), "\":").concat(this.descendInput(node).asSafe(), ",");
+      result += "\"".concat(sanitize(name), "\":").concat(this.descendInput(node), ",");
     }
     result += '}';
     return result;
   }
-  resetVariableInputs() {
-    this.variableInputs = {};
-  }
-  descendStack(nodes, frame) {
+
+  /**
+   * @param {IntermediateStack} stack
+   * @param {Frame} frame
+   */
+  descendStack(stack, frame) {
     // Entering a stack -- all bets are off.
     // TODO: allow if/else to inherit values
-    this.resetVariableInputs();
     this.pushFrame(frame);
-    for (let i = 0; i < nodes.length; i++) {
-      frame.isLastBlock = i === nodes.length - 1;
-      this.descendStackedBlock(nodes[i]);
+    for (let i = 0; i < stack.blocks.length; i++) {
+      frame.isLastBlock = i === stack.blocks.length - 1;
+      this.descendStackedBlock(stack.blocks[i]);
     }
 
     // Leaving a stack -- any assumptions made in the current stack do not apply outside of it
     // TODO: in if/else this might create an extra unused object
-    this.resetVariableInputs();
     this.popFrame();
   }
-  descendVariable(variable) {
-    if (Object.prototype.hasOwnProperty.call(this.variableInputs, variable.id)) {
-      return this.variableInputs[variable.id];
-    }
-    const input = new VariableInput("".concat(this.referenceVariable(variable), ".value"));
-    this.variableInputs[variable.id] = input;
-    return input;
-  }
-  referenceVariable(variable) {
-    if (variable.scope === 'target') {
-      return this.evaluateOnce("target.variables[\"".concat(sanitize(variable.id), "\"]"));
-    }
-    return this.evaluateOnce("stage.variables[\"".concat(sanitize(variable.id), "\"]"));
-  }
+
+  /**
+   * @param {*} node
+   * @returns {string}
+   */
   descendAddonCall(node) {
     const inputs = this.descendInputRecord(node.arguments);
     const blockFunction = "runtime.getAddonBlock(\"".concat(sanitize(node.code), "\").callback");
     const blockId = "\"".concat(sanitize(node.blockId), "\"");
     return "yield* executeInCompatibilityLayer(".concat(inputs, ", ").concat(blockFunction, ", ").concat(this.isWarp, ", false, ").concat(blockId, ")");
   }
+
+  /**
+   * @param {*} variable
+   * @returns {string}
+   */
+  referenceVariable(variable) {
+    if (variable.scope === 'target') {
+      return this.evaluateOnce("target.variables[\"".concat(sanitize(variable.id), "\"]"));
+    }
+    return this.evaluateOnce("stage.variables[\"".concat(sanitize(variable.id), "\"]"));
+  }
+
+  /**
+   * @param {string} source
+   * @returns {string}
+   */
   evaluateOnce(source) {
     if (Object.prototype.hasOwnProperty.call(this._setupVariables, source)) {
       return this._setupVariables[source];
@@ -185335,24 +186446,6 @@ class JSGenerator {
       this.source += 'retire(); yield;\n';
     } else {
       this.source += 'retire(); return;\n';
-    }
-  }
-  stopScript() {
-    if (this.isProcedure) {
-      this.source += 'return "";\n';
-    } else {
-      this.retire();
-    }
-  }
-
-  /**
-   * @param {string} valueJS JS code of value to return.
-   */
-  stopScriptAndReturn(valueJS) {
-    if (this.isProcedure) {
-      this.source += "return ".concat(valueJS, ";\n");
-    } else {
-      this.retire();
     }
   }
   yieldLoop() {
@@ -185389,7 +186482,6 @@ class JSGenerator {
       throw new Error('Script yielded but is not marked as yielding.');
     }
     // Control may have been yielded to another script -- all bets are off.
-    this.resetVariableInputs();
   }
 
   /**
@@ -185398,14 +186490,10 @@ class JSGenerator {
   requestRedraw() {
     this.source += 'runtime.requestRedraw();\n';
   }
-  safeConstantInput(value) {
-    const unsafe = typeof value === 'string' && this.namesOfCostumesAndSounds.has(value);
-    return new ConstantInput(value, !unsafe);
-  }
 
   /**
    * Generate a call into the compatibility layer.
-   * @param {*} node The "compat" kind node to generate from.
+   * @param {*} node The node of the block to generate from.
    * @param {boolean} setFlags Whether flags should be set describing how this function was processed.
    * @param {string|null} [frameName] Name of the stack frame variable, if any
    * @returns {string} The JS of the call.
@@ -185416,7 +186504,7 @@ class JSGenerator {
     let result = 'yield* executeInCompatibilityLayer({';
     for (const inputName of Object.keys(node.inputs)) {
       const input = node.inputs[inputName];
-      const compiledInput = this.descendInput(input).asSafe();
+      const compiledInput = this.descendInput(input);
       result += "\"".concat(sanitize(inputName), "\":").concat(compiledInput, ",");
     }
     for (const fieldName of Object.keys(node.fields)) {
@@ -185440,6 +186528,24 @@ class JSGenerator {
       name += "_".concat(simplifiedProcedureCode);
     }
     return name;
+  }
+  stopScript() {
+    if (this.isProcedure) {
+      this.source += 'return "";\n';
+    } else {
+      this.retire();
+    }
+  }
+
+  /**
+   * @param {string} valueJS JS code of value to return.
+   */
+  stopScriptAndReturn(valueJS) {
+    if (this.isProcedure) {
+      this.source += "return ".concat(valueJS, ";\n");
+    } else {
+      this.retire();
+    }
   }
 
   /**
@@ -185504,20 +186610,12 @@ class JSGenerator {
 
 // For extensions.
 JSGenerator.unstable_exports = {
-  TYPE_NUMBER,
-  TYPE_STRING,
-  TYPE_BOOLEAN,
-  TYPE_UNKNOWN,
-  TYPE_NUMBER_NAN,
   factoryNameVariablePool,
   functionNameVariablePool,
   generatorNameVariablePool,
   VariablePool,
   PEN_EXT,
   PEN_STATE,
-  TypedInput,
-  ConstantInput,
-  VariableInput,
   Frame,
   sanitize
 };
@@ -185528,12 +186626,354 @@ module.exports = JSGenerator;
 
 /***/ }),
 
+/***/ "./node_modules/scratch-vm/src/compiler/old-compiler-compatibility.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/scratch-vm/src/compiler/old-compiler-compatibility.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * @fileoverview
+ * Reimplements a subset of the old (pre-September 2025) compiler
+ * to maintain compatibility with extensions patching the old compiler.
+ *
+ * Safety and compatibility is more important than performance. There may be
+ * unnecessary type casts and scripts may be marked as yielding even when they
+ * don't actually yield. Additionally, anything running in this compatibility layer
+ * is not expected to receive the performance benefits of the new compiler.
+ *
+ * These assumptions are made about extensions using this compatibility layer:
+ *  - Extensions do not try to combine this compatibility layer with any APIs
+ *    provided by the new compiler.
+ *  - Extensions treat IR nodes received from descendSubstack and similar as
+ *    opaque objects.
+ *  - Extensions need to implement the JS generators for all AST node kinds
+ *    they use. Can not rely on the default JS generator.
+ */
+
+const {
+  InputOpcode,
+  InputType
+} = __webpack_require__(/*! ./enums */ "./node_modules/scratch-vm/src/compiler/enums.js");
+// eslint-disable-next-line no-unused-vars
+const {
+  IntermediateInput,
+  IntermediateStackBlock,
+  IntermediateStack
+} = __webpack_require__(/*! ./intermediate */ "./node_modules/scratch-vm/src/compiler/intermediate.js");
+class IRGeneratorStub {
+  // Doesn't seem like extensions override anything, though the class may
+  // still need to exist to avoid type errors.
+}
+class ScriptTreeGeneratorStub {
+  /**
+   * @param {import("./irgen").ScriptTreeGenerator} real
+   */
+  constructor(real) {
+    /**
+     * @type {import("./irgen").ScriptTreeGenerator}
+     */
+    this.real = real;
+    this.fakeThis = {
+      thread: real.thread,
+      target: real.target,
+      blocks: real.blocks,
+      runtime: real.runtime,
+      stage: real.stage,
+      script: real.script,
+      /**
+       * @param parentBlock Parent VM block.
+       * @param {string} inputName Name of input.
+       * @returns opaque object
+       */
+      descendInputOfBlock(parentBlock, inputName) {
+        const node = real.descendInputOfBlock(parentBlock, inputName, true);
+        return node;
+      },
+      /**
+       * @param {*} parentBlock Parent VM block.
+       * @param {*} substackName Name of substack.
+       * @returns opaque object
+       */
+      descendSubstack(parentBlock, substackName) {
+        const substack = real.descendSubstack(parentBlock, substackName);
+        return substack;
+      },
+      analyzeLoop() {
+        // TODO: not always necessary
+        real.script.yields = true;
+      }
+    };
+  }
+
+  /**
+   * Intended for extensions to override.
+   * Always call from `fakeThis` context.
+   * @param {{opcode: string}} block VM block
+   * @returns {{kind: string}} Node object from old compiler.
+   */
+  descendInput(block) {
+    // eslint-disable-line no-unused-vars
+    return null;
+  }
+
+  /**
+   * Intended for extensions to override.
+   * Always call from `fakeThis` context.
+   * @param {{opcode: string}} block VM block
+   * @returns {{kind: string}} Node object from old compiler.
+   */
+  descendStackedBlock(block) {
+    // eslint-disable-line no-unused-vars
+    return null;
+  }
+
+  /**
+   * @param block VM block
+   * @returns {IntermediateInput|null}
+   */
+  descendInputFromNewCompiler(block) {
+    const node = this.descendInput.call(this.fakeThis, block);
+    if (node) {
+      return new IntermediateInput(InputOpcode.OLD_COMPILER_COMPATIBILITY_LAYER, InputType.ANY, {
+        oldNode: node
+      }, true);
+    }
+    return null;
+  }
+
+  /**
+   * @param block VM block
+   * @returns {IntermediateStackBlock|null}
+   */
+  descendStackedBlockFromNewCompiler(block) {
+    const node = this.descendStackedBlock.call(this.fakeThis, block);
+    if (node) {
+      return new IntermediateStackBlock(InputOpcode.OLD_COMPILER_COMPATIBILITY_LAYER, {
+        oldNode: node
+      }, true);
+    }
+    return null;
+  }
+}
+
+// These are part of the old compiler's API.
+const TYPE_NUMBER = 1;
+const TYPE_STRING = 2;
+const TYPE_BOOLEAN = 3;
+const TYPE_UNKNOWN = 4;
+const TYPE_NUMBER_NAN = 5;
+
+/**
+ * Part of the old compiler's API.
+ */
+class TypedInput {
+  /**
+   * @param {string} source JavaScript
+   * @param {number|IntermediateInput} typeOrIntermediate
+   */
+  constructor(source, typeOrIntermediate) {
+    /**
+     * JavaScript.
+     * @type {string}
+     */
+    this.source = source;
+    if (typeOrIntermediate instanceof IntermediateInput) {
+      // Path used by the compatibility layer itself
+
+      /**
+       * @type {IntermediateInput}
+       */
+      this.intermediate = typeOrIntermediate;
+
+      /**
+       * @type {number} See TYPE_* constants above
+       */
+      this.type = TYPE_UNKNOWN;
+    } else {
+      // Path used by extensions
+      this.intermediate = null;
+      this.type = typeOrIntermediate;
+    }
+  }
+  asNumber() {
+    return "(+".concat(this.source, " || 0)");
+  }
+  asNumberOrNaN() {
+    return "(+".concat(this.source, ")");
+  }
+  asString() {
+    return "(\"\" + ".concat(this.source, ")");
+  }
+  asBoolean() {
+    return "toBoolean(".concat(this.source, ")");
+  }
+  asColor() {
+    return this.asUnknown();
+  }
+  asUnknown() {
+    return this.source;
+  }
+  asSafe() {
+    return this.asUnknown();
+  }
+  isAlwaysNumber() {
+    // TODO
+    return false;
+  }
+  isAlwaysNumberOrNaN() {
+    // TODO
+    return false;
+  }
+  isNeverNumber() {
+    // TODO
+    return false;
+  }
+}
+
+/**
+ * Part of the old compiler's API.
+ */
+class VariablePool {
+  constructor(prefix) {
+    this.prefix = prefix;
+    this.count = 0;
+  }
+  next() {
+    return "".concat(this.prefix).concat(this.count++);
+  }
+}
+
+/**
+ * Part of the old compiler's API.
+ */
+class Frame {
+  constructor(isLoop) {
+    this.isLoop = isLoop;
+    this.isLastBlock = false;
+  }
+}
+class JSGeneratorStub {
+  /**
+   * @param {import("./jsgen")} real
+   */
+  constructor(real) {
+    /**
+     * @type {import("./jsgen")}
+     */
+    this.real = real;
+    this.fakeThis = {
+      script: real.script,
+      ir: real.ir,
+      target: real.target,
+      get frames() {
+        return real.frames;
+      },
+      get currentFrame() {
+        return real.currentFrame;
+      },
+      get source() {
+        return real.source;
+      },
+      set source(newSource) {
+        real.source = newSource;
+      },
+      localVariables: new VariablePool('oldCompilerLocal'),
+      /**
+       * @param {IntermediateInput} intermediate
+       * @returns {void} output is concatenated in this.source
+       */
+      descendInput(intermediate) {
+        const js = real.descendInput(intermediate);
+        return new TypedInput(js, intermediate);
+      },
+      /**
+       * @param {IntermediateStack} stack Stack of blocks.
+       * @param {Frame} frame New frame
+       */
+      descendStack(stack, frame) {
+        real.descendStack(stack, frame);
+      },
+      yieldLoop: () => real.yieldLoop(),
+      yieldNotWarp: () => real.yieldNotWarp(),
+      yieldStuckOrNotWarp: () => real.yieldStuckOrNotWarp(),
+      yielded: () => real.yielded(),
+      requestRedraw: () => real.requestRedraw()
+    };
+  }
+
+  /**
+   * Intended for extensions to override.
+   * Always call from `fakeThis` context.
+   * @param {{kind: string}} node Old compiler AST node.
+   * @returns {TypedInput} Old compiler TypedInput.
+   */
+  descendInput(node) {
+    throw new Error("Unknown input: ".concat(node.kind));
+  }
+
+  /**
+   * Intended for extensions to override.
+   * Always call from `fakeThis` context.
+   * @param {{kind: string}} node Old compiler AST node.
+   */
+  descendStackedBlock(node) {
+    throw new Error("Unknown stacked block: ".concat(node.kind));
+  }
+
+  /**
+   * @param {IntermediateInput} intermediate
+   * @returns {string} JavaScript
+   */
+  descendInputFromNewCompiler(intermediate) {
+    const oldNode = intermediate.inputs.oldNode;
+    const typedInput = this.descendInput.call(this.fakeThis, oldNode);
+    return typedInput.asSafe();
+  }
+
+  /**
+   * @param {IntermediateStackBlock} intermediate
+   * @returns {void} source property on real JSGenerator is modified directly
+   */
+  descendStackedBlockFromNewCompiler(intermediate) {
+    const oldNode = intermediate.inputs.oldNode;
+    this.descendStackedBlock.call(this.fakeThis, oldNode);
+  }
+}
+
+/**
+ * Part of old compiler's API.
+ */
+JSGeneratorStub.unstable_exports = {
+  TYPE_NUMBER,
+  TYPE_STRING,
+  TYPE_BOOLEAN,
+  TYPE_UNKNOWN,
+  TYPE_NUMBER_NAN,
+  VariablePool,
+  TypedInput,
+  Frame
+};
+const oldCompilerCompatibility = {
+  enabled: false,
+  IRGeneratorStub,
+  ScriptTreeGeneratorStub,
+  TypedInput,
+  JSGeneratorStub
+};
+module.exports = oldCompilerCompatibility;
+
+/***/ }),
+
 /***/ "./node_modules/scratch-vm/src/compiler/variable-pool.js":
 /*!***************************************************************!*\
   !*** ./node_modules/scratch-vm/src/compiler/variable-pool.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
+
+// @ts-check
 
 class VariablePool {
   /**
@@ -190531,6 +191971,11 @@ class Runtime extends EventEmitter {
         }
         break;
     }
+
+    // Allow extensions to override outputShape
+    if (blockInfo.blockShape) {
+      blockJSON.outputShape = blockInfo.blockShape;
+    }
     const blockText = Array.isArray(blockInfo.text) ? blockInfo.text : [blockInfo.text];
     let inTextNum = 0; // text for the next block "arm" is blockText[inTextNum]
     let inBranchNum = 0; // how many branches have we placed into the JSON so far?
@@ -194808,13 +196253,14 @@ const uid = __webpack_require__(/*! ../util/uid */ "./node_modules/scratch-vm/sr
 const xmlEscape = __webpack_require__(/*! ../util/xml-escape */ "./node_modules/scratch-vm/src/util/xml-escape.js");
 class Variable {
   /**
-   * @param {string} id Id of the variable.
+   * @param {string | null} id Id of the variable.
    * @param {string} name Name of the variable.
    * @param {string} type Type of the variable, one of '' or 'list'
    * @param {boolean} isCloud Whether the variable is stored in the cloud.
    * @constructor
    */
   constructor(id, name, type, isCloud) {
+    /** @type {string} */
     this.id = id || uid();
     this.name = name;
     this.type = type;
@@ -195614,6 +197060,38 @@ module.exports = TargetType;
 
 /***/ }),
 
+/***/ "./node_modules/scratch-vm/src/extension-support/tw-block-shape.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/scratch-vm/src/extension-support/tw-block-shape.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Use the constants instead of manually redefining them again
+const ScratchBlocksConstants = __webpack_require__(/*! ../engine/scratch-blocks-constants */ "./node_modules/scratch-vm/src/engine/scratch-blocks-constants.js");
+
+/**
+ * Types of block shapes
+ * @enum {number}
+ */
+const BlockShape = {
+  /**
+   * Output shape: hexagonal (booleans/predicates).
+   */
+  HEXAGONAL: ScratchBlocksConstants.OUTPUT_SHAPE_HEXAGONAL,
+  /**
+   * Output shape: rounded (numbers).
+   */
+  ROUND: ScratchBlocksConstants.OUTPUT_SHAPE_ROUND,
+  /**
+   * Output shape: squared (any/all values; strings).
+   */
+  SQUARE: ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE
+};
+module.exports = BlockShape;
+
+/***/ }),
+
 /***/ "./node_modules/scratch-vm/src/extension-support/tw-default-extension-urls.js":
 /*!************************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-default-extension-urls.js ***!
@@ -195647,11 +197125,13 @@ module.exports = defaults;
 
 const ArgumentType = __webpack_require__(/*! ./argument-type */ "./node_modules/scratch-vm/src/extension-support/argument-type.js");
 const BlockType = __webpack_require__(/*! ./block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
+const BlockShape = __webpack_require__(/*! ./tw-block-shape */ "./node_modules/scratch-vm/src/extension-support/tw-block-shape.js");
 const TargetType = __webpack_require__(/*! ./target-type */ "./node_modules/scratch-vm/src/extension-support/target-type.js");
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
 const Scratch = {
   ArgumentType,
   BlockType,
+  BlockShape,
   TargetType,
   Cast
 };
@@ -204124,10 +205604,14 @@ class Scratch3PenBlocks {
    * @private
    */
   _getPenLayerID() {
-    if (this._penSkinId < 0 && this.runtime.renderer) {
-      this._penSkinId = this.runtime.renderer.createPenSkin();
-      this._penDrawableId = this.runtime.renderer.createDrawable(StageLayering.PEN_LAYER);
-      this.runtime.renderer.updateDrawableSkinId(this._penDrawableId, this._penSkinId);
+    const renderer = this.runtime.renderer;
+    if (this._penSkinId < 0 && renderer) {
+      this._penSkinId = renderer.createPenSkin();
+      this._penDrawableId = renderer.createDrawable(StageLayering.PEN_LAYER);
+      if (renderer.markDrawableAsNoninteractive) {
+        renderer.markDrawableAsNoninteractive(this._penDrawableId);
+      }
+      renderer.updateDrawableSkinId(this._penDrawableId, this._penSkinId);
     }
     return this._penSkinId;
   }
@@ -210067,16 +211551,20 @@ class Mouse {
 
       // Do not activate click hats for clicks outside canvas bounds
       if (!(data.x > 0 && data.x < data.canvasWidth && data.y > 0 && data.y < data.canvasHeight)) return;
-      const target = this._pickTarget(data.x, data.y);
-      const isNewMouseDown = !previousDownState && this._isDown;
-      const isNewMouseUp = previousDownState && !this._isDown;
 
-      // Draggable targets start click hats on mouse up.
-      // Non-draggable targets start click hats on mouse down.
-      if (target.draggable && isNewMouseUp) {
-        this._activateClickHats(target);
-      } else if (!target.draggable && isNewMouseDown) {
-        this._activateClickHats(target);
+      // target will not exist if project is still loading
+      const target = this._pickTarget(data.x, data.y);
+      if (target) {
+        const isNewMouseDown = !previousDownState && this._isDown;
+        const isNewMouseUp = previousDownState && !this._isDown;
+
+        // Draggable targets start click hats on mouse up.
+        // Non-draggable targets start click hats on mouse down.
+        if (target.draggable && isNewMouseUp) {
+          this._activateClickHats(target);
+        } else if (!target.draggable && isNewMouseDown) {
+          this._activateClickHats(target);
+        }
       }
     }
   }
@@ -210375,6 +211863,9 @@ class Video {
       // This API won't exist if we're using a vanilla scratch-render
       if (renderer.markSkinAsPrivate) {
         renderer.markSkinAsPrivate(this._skinId);
+      }
+      if (renderer.markDrawableAsNoninteractive) {
+        renderer.markDrawableAsNoninteractive(this._drawable);
       }
     }
 
@@ -216720,7 +218211,8 @@ class Cast {
     }
     try {
       // Try to parse
-      return ExtendedJSON.parse(value);
+      const result = ExtendedJSON.parse(value);
+      return typeof result === 'object' && result instanceof Object ? result : arrayIfFail ? [] : {};
     } catch (_unused3) {
       return arrayIfFail ? [] : {};
     }
@@ -218461,12 +219953,32 @@ class VirtualMachine extends EventEmitter {
       RenderedTarget,
       JSZip,
       Variable,
-      i_will_not_ask_for_help_when_these_break: () => {
+      these_broke_before_and_will_break_again: () => {
         console.warn('You are using unsupported APIs. WHEN your code breaks, do not expect help.');
         return {
           JSGenerator: __webpack_require__(/*! ./compiler/jsgen.js */ "./node_modules/scratch-vm/src/compiler/jsgen.js"),
           IRGenerator: __webpack_require__(/*! ./compiler/irgen.js */ "./node_modules/scratch-vm/src/compiler/irgen.js").IRGenerator,
           ScriptTreeGenerator: __webpack_require__(/*! ./compiler/irgen.js */ "./node_modules/scratch-vm/src/compiler/irgen.js").ScriptTreeGenerator,
+          IntermediateStackBlock: __webpack_require__(/*! ./compiler/intermediate.js */ "./node_modules/scratch-vm/src/compiler/intermediate.js").IntermediateStackBlock,
+          IntermediateInput: __webpack_require__(/*! ./compiler/intermediate.js */ "./node_modules/scratch-vm/src/compiler/intermediate.js").IntermediateInput,
+          IntermediateStack: __webpack_require__(/*! ./compiler/intermediate.js */ "./node_modules/scratch-vm/src/compiler/intermediate.js").IntermediateStack,
+          IntermediateScript: __webpack_require__(/*! ./compiler/intermediate.js */ "./node_modules/scratch-vm/src/compiler/intermediate.js").IntermediateScript,
+          IntermediateRepresentation: __webpack_require__(/*! ./compiler/intermediate.js */ "./node_modules/scratch-vm/src/compiler/intermediate.js").IntermediateRepresentation,
+          StackOpcode: __webpack_require__(/*! ./compiler/enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js").StackOpcode,
+          InputOpcode: __webpack_require__(/*! ./compiler/enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js").InputOpcode,
+          InputType: __webpack_require__(/*! ./compiler/enums.js */ "./node_modules/scratch-vm/src/compiler/enums.js").InputType,
+          Thread: __webpack_require__(/*! ./engine/thread.js */ "./node_modules/scratch-vm/src/engine/thread.js"),
+          execute: __webpack_require__(/*! ./engine/execute.js */ "./node_modules/scratch-vm/src/engine/execute.js")
+        };
+      },
+      i_will_not_ask_for_help_when_these_break: () => {
+        this.emit('LEGACY_EXTENSION_API', 'i_will_not_ask_for_help_when_these_break');
+        const oldCompilerCompatibility = __webpack_require__(/*! ./compiler/old-compiler-compatibility.js */ "./node_modules/scratch-vm/src/compiler/old-compiler-compatibility.js");
+        oldCompilerCompatibility.enabled = true;
+        return {
+          IRGenerator: oldCompilerCompatibility.IRGeneratorStub,
+          ScriptTreeGenerator: oldCompilerCompatibility.ScriptTreeGeneratorStub,
+          JSGenerator: oldCompilerCompatibility.JSGeneratorStub,
           Thread: __webpack_require__(/*! ./engine/thread.js */ "./node_modules/scratch-vm/src/engine/thread.js"),
           execute: __webpack_require__(/*! ./engine/execute.js */ "./node_modules/scratch-vm/src/engine/execute.js")
         };
