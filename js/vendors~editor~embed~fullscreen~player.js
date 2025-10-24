@@ -82443,6 +82443,14 @@ const extensions = [
         creator: "Den4ik-12",
     },
     {
+        name: "Maps",
+        id: "Den4ik12Maps",
+        description: "Blocks for working with Map, which is more powerful than Object.",
+        code: "Den4ik-12/Maps.js",
+        banner: "Den4ik-12/Maps.svg",
+        creator: "Den4ik-12",
+    },
+    {
         name: "Modals",
         id: "htmlalert",
         description: "Control classic modal windows in browsers!",
@@ -82473,6 +82481,16 @@ const extensions = [
         banner: "https://raw.githubusercontent.com/Mirazstudio-offical/Dash_code_cleaner_extension/refs/heads/main/logo.svg",
         creator: "shilenin",
     },
+    /*
+    {
+        name: "JavaScript",
+        id: "JavaScriptRunner",
+        description: "Run the JavaScript code directly in Dash!",
+        code: "shaman2016/JavaScriptRunner.js",
+        // banner: "",
+        creator: "SHAMAN2016",
+    },
+    */
 ];
 
 // This is PenguinMod's extensions. Added here for IDs addition
@@ -178703,7 +178721,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.628bcda0eba1ed92bf17.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.89efd81ae216c6f14d51.js");
 };
 
 /***/ }),
@@ -180432,15 +180450,18 @@ class Scratch3OperatorsBlocks {
       operator_not: this.not,
       operator_random: this.random,
       operator_join: this.join,
+      operator_joinexpandable: this.joinExpandable,
       operator_newline: this.newline,
       operator_letter_of: this.letterOf,
       operator_length: this.length,
       operator_contains: this.contains,
+      operator_se_with: this.startsEndsWith,
       operator_typeof: this.typeof,
       operator_is_type: this.isType,
       operator_is_string: this.isString,
       operator_is_number: this.isNumber,
       operator_cast: this.cast,
+      operator_to_case: this.toCase,
       operator_nums_in_range: this.numsInRange,
       operator_in_range: this.inRange,
       operator_mod: this.mod,
@@ -180497,7 +180518,13 @@ class Scratch3OperatorsBlocks {
   join(args) {
     return Cast.toString(args.STRING1) + Cast.toString(args.STRING2);
   }
-  newline(args) {
+  joinExpandable(args) {
+    return Object.entries(args).reduce((acc, _ref) => {
+      let [argName, value] = _ref;
+      return acc + (argName === 'mutation' ? '' : Cast.toString(value));
+    }, '');
+  }
+  newline() {
     return "\n";
   }
   letterOf(args) {
@@ -180517,6 +180544,16 @@ class Scratch3OperatorsBlocks {
       return Cast.toString(string).toLowerCase();
     };
     return format(args.STRING1).includes(format(args.STRING2));
+  }
+  startsEndsWith(args) {
+    const value1 = Cast.toString(args.VALUE1);
+    const value2 = Cast.toString(args.VALUE2);
+    switch (args.TYPE) {
+      case 'starts':
+        return value1.startsWith(value2);
+      case 'ends':
+        return value1.endsWith(value2);
+    }
   }
   typeof(args) {
     var _value$constructor;
@@ -180608,6 +180645,15 @@ class Scratch3OperatorsBlocks {
         return Cast.toObject(value);
       default:
         return value;
+    }
+  }
+  toCase(args) {
+    const value = Cast.toString(args.VALUE);
+    switch (args.CASE) {
+      case 'upper':
+        return value.toUpperCase();
+      case 'lower':
+        return value.toLowerCase();
     }
   }
   numsInRange(args) {
@@ -181919,6 +181965,7 @@ const InputOpcode = {
   OP_GREATER: 'op.greater',
   OP_LESS: 'op.less',
   OP_JOIN: 'op.join',
+  OP_JOIN_EXPANDABLE: 'op.joinExpandable',
   OP_LENGTH: 'op.length',
   OP_LETTER_OF: 'op.letterOf',
   OP_ABS: 'op.abs',
@@ -181942,9 +181989,11 @@ const InputOpcode = {
   OP_RANDOM: 'op.random',
   OP_ROUND: 'op.round',
   OP_SUBTRACT: 'op.subtract',
+  OP_SE_WITH: 'op.startsEndsWith',
   OP_TYPE_OF: 'op.typeOf',
   OP_IS_TYPE: 'op.isType',
   OP_CAST: 'op.cast',
+  OP_TO_CASE: 'op.toCase',
   OP_NUMS_IN_RANGE: 'op.numsInRange',
   OP_IN_RANGE: 'op.inRange',
   SENSING_ANSWER: 'sensing.answer',
@@ -182896,8 +182945,20 @@ class ScriptTreeGenerator {
           left: this.descendInputOfBlock(block, 'STRING1').toType(InputType.STRING),
           right: this.descendInputOfBlock(block, 'STRING2').toType(InputType.STRING)
         });
+      case 'operator_joinexpandable':
+        const inputs = [];
+        for (const input of Object.values(block.inputs)) {
+          if (input.block == null) {
+            delete block.inputs[input.name];
+          } else {
+            inputs.push(this.descendInputOfBlock(block, input.name).toType(InputType.STRING));
+          }
+        }
+        return new IntermediateInput(InputOpcode.OP_JOIN_EXPANDABLE, InputType.STRING, {
+          inputs
+        });
       case 'operator_length':
-        return new IntermediateInput(InputOpcode.OP_LENGTH, InputType.NUMBER_REAL, {
+        return new IntermediateInput(InputOpcode.OP_LENGTH, InputType.NUMBER_POS_INT | InputType.NUMBER_ZERO, {
           string: this.descendInputOfBlock(block, 'STRING').toType(InputType.STRING)
         });
       case 'operator_letter_of':
@@ -182920,11 +182981,11 @@ class ScriptTreeGenerator {
                 value
               });
             case 'floor':
-              return new IntermediateInput(InputOpcode.OP_FLOOR, InputType.NUMBER, {
+              return new IntermediateInput(InputOpcode.OP_FLOOR, InputType.NUMBER_INT | InputType.NUMBER_INF, {
                 value
               });
             case 'ceiling':
-              return new IntermediateInput(InputOpcode.OP_CEILING, InputType.NUMBER, {
+              return new IntermediateInput(InputOpcode.OP_CEILING, InputType.NUMBER_INT | InputType.NUMBER_INF, {
                 value
               });
             case 'sqrt':
@@ -183056,7 +183117,7 @@ class ScriptTreeGenerator {
           });
         }
       case 'operator_round':
-        return new IntermediateInput(InputOpcode.OP_ROUND, InputType.NUMBER, {
+        return new IntermediateInput(InputOpcode.OP_ROUND, InputType.NUMBER_INT | InputType.NUMBER_INF, {
           value: this.descendInputOfBlock(block, 'NUM').toType(InputType.NUMBER)
         });
       case 'operator_subtract':
@@ -183064,6 +183125,14 @@ class ScriptTreeGenerator {
           left: this.descendInputOfBlock(block, 'NUM1').toType(InputType.NUMBER),
           right: this.descendInputOfBlock(block, 'NUM2').toType(InputType.NUMBER)
         });
+      case 'operator_se_with':
+        return new IntermediateInput(InputOpcode.OP_SE_WITH, InputType.BOOLEAN, {
+          value1: this.descendInputOfBlock(block, 'VALUE1'),
+          value2: this.descendInputOfBlock(block, 'VALUE2'),
+          type: block.fields.TYPE.value
+        });
+      case 'operator_newline':
+        return this.createConstantInput('\n');
       case 'operator_typeof':
         return new IntermediateInput(InputOpcode.OP_TYPE_OF, InputType.STRING | InputType.OBJECT, {
           value: this.descendInputOfBlock(block, 'VALUE')
@@ -183087,6 +183156,11 @@ class ScriptTreeGenerator {
         return new IntermediateInput(InputOpcode.OP_CAST, InputType.ANY, {
           value: this.descendInputOfBlock(block, 'VALUE'),
           type: block.fields.TYPE.value
+        });
+      case 'operator_to_case':
+        return new IntermediateInput(InputOpcode.OP_TO_CASE, InputType.STRING, {
+          value: this.descendInputOfBlock(block, 'VALUE'),
+          case: block.fields.CASE.value
         });
       case 'operator_nums_in_range':
         return new IntermediateInput(InputOpcode.OP_NUMS_IN_RANGE, InputType.ARRAY, {
@@ -185667,6 +185741,8 @@ class JSGenerator {
         }
       case InputOpcode.OP_JOIN:
         return "(".concat(this.descendInput(node.left), " + ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_JOIN_EXPANDABLE:
+        return "(".concat(node.inputs.map(input => this.descendInput(input)).join('+'), ")");
       case InputOpcode.OP_LENGTH:
         return "".concat(this.descendInput(node.string), ".length");
       case InputOpcode.OP_LESS:
@@ -185719,6 +185795,8 @@ class JSGenerator {
         return "Math.sqrt(".concat(this.descendInput(node.value), ")");
       case InputOpcode.OP_SUBTRACT:
         return "(".concat(this.descendInput(node.left), " - ").concat(this.descendInput(node.right), ")");
+      case InputOpcode.OP_SE_WITH:
+        return "runtime.ext_scratch3_operators.startsEndsWith({VALUE1: ".concat(this.descendInput(node.value1), ", VALUE2: ").concat(this.descendInput(node.value2), ", TYPE: \"").concat(sanitize(node.type), "\"})");
       case InputOpcode.OP_TAN:
         return "tan(".concat(this.descendInput(node.value), ")");
       case InputOpcode.OP_POW_10:
@@ -185729,6 +185807,8 @@ class JSGenerator {
         return "runtime.ext_scratch3_operators.isType({VALUE: ".concat(this.descendInput(node.value), ", TYPE: \"").concat(sanitize(node.type), "\"})");
       case InputOpcode.OP_CAST:
         return "runtime.ext_scratch3_operators.cast({VALUE: ".concat(this.descendInput(node.value), ", TYPE: \"").concat(sanitize(node.type), "\"})");
+      case InputOpcode.OP_TO_CASE:
+        return "runtime.ext_scratch3_operators.toCase({VALUE: ".concat(this.descendInput(node.value), ", CASE: \"").concat(sanitize(node.case), "\"})");
       case InputOpcode.OP_NUMS_IN_RANGE:
         {
           return "runtime.ext_scratch3_operators.numsInRange({FROM: ".concat(this.descendInput(node.from), ", TO: ").concat(this.descendInput(node.to), "})");
@@ -185929,7 +186009,7 @@ class JSGenerator {
       case InputOpcode.JSON_OBJECT_DELETE:
         return "runtime.ext_dash_json.objectDelete({OBJECT: ".concat(this.descendInput(node.object), ", KEY: ").concat(this.descendInput(node.key), "})");
       case InputOpcode.JSON_OBJECT_ENTRIES:
-        return "runtime.ext_dash_json.objectEntries({OBJECT: ".concat(this.descendInput(node.object), ", PROPERTY: \"").concat(sanitize(node.key), "\"})");
+        return "runtime.ext_dash_json.objectEntries({OBJECT: ".concat(this.descendInput(node.object), ", PROPERTY: \"").concat(sanitize(node.property), "\"})");
       default:
         log.warn("JS: Unknown input: ".concat(block.opcode), node);
         throw new Error("JS: Unknown input: ".concat(block.opcode));
@@ -186041,7 +186121,11 @@ class JSGenerator {
       case StackOpcode.CONTROL_REPEAT:
         {
           const i = this.localVariables.next();
-          this.source += "for (var ".concat(i, " = ").concat(this.descendInput(node.times), "; ").concat(i, " >= 0.5; ").concat(i, "--) {\n");
+          if (node.times.isAlwaysType(InputType.NUMBER_INT | InputType.NUMBER_INF)) {
+            this.source += "for (var ".concat(i, " = ").concat(this.descendInput(node.times), "; ").concat(i, " > 0; ").concat(i, "--) {\n");
+          } else {
+            this.source += "for (var ".concat(i, " = ").concat(this.descendInput(node.times), "; ").concat(i, " >= 0.5; ").concat(i, "--) {\n");
+          }
           this.descendStack(node.do, new Frame(true));
           this.yieldLoop();
           this.source += "}\n";
@@ -197102,16 +197186,17 @@ module.exports = BlockShape;
 // If a project uses an extension but does not specify a URL, it will default to
 // the URLs given here, if it exists. This is useful for compatibility with other mods.
 
-const defaults = new Map();
+const defaults = {
+  // Box2D (`griffpatch`) is not listed here because our extension is not actually
+  // compatible with the original version due to fields vs inputs.
 
-// Box2D (`griffpatch`) is not listed here because our extension is not actually
-// compatible with the original version due to fields vs inputs.
-
-// Scratch Lab Animated Text - https://lab.scratch.mit.edu/text/
-defaults.set('text', 'https://extensions.turbowarp.org/lab/text.js');
-
-// Turboloader's AudioStream
-defaults.set('audiostr', 'https://extensions.turbowarp.org/turboloader/audiostream.js');
+  // Scratch Lab Animated Text - https://lab.scratch.mit.edu/text/
+  text: 'https://extensions.turbowarp.org/lab/text.js',
+  // Turboloader's AudioStream
+  audiostr: 'https://extensions.turbowarp.org/turboloader/audiostream.js',
+  // https://scratch.mit.edu/discuss/topic/842592/
+  faceSensing: 'https://extensions.turbowarp.org/lab/face-sensing.js'
+};
 module.exports = defaults;
 
 /***/ }),
@@ -197128,14 +197213,106 @@ const BlockType = __webpack_require__(/*! ./block-type */ "./node_modules/scratc
 const BlockShape = __webpack_require__(/*! ./tw-block-shape */ "./node_modules/scratch-vm/src/extension-support/tw-block-shape.js");
 const TargetType = __webpack_require__(/*! ./target-type */ "./node_modules/scratch-vm/src/extension-support/target-type.js");
 const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+const external = __webpack_require__(/*! ./tw-external */ "./node_modules/scratch-vm/src/extension-support/tw-external.js");
 const Scratch = {
   ArgumentType,
   BlockType,
   BlockShape,
   TargetType,
-  Cast
+  Cast,
+  external
 };
 module.exports = Scratch;
+
+/***/ }),
+
+/***/ "./node_modules/scratch-vm/src/extension-support/tw-external.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/scratch-vm/src/extension-support/tw-external.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @param {string} url
+ * @returns {void} if URL is supported
+ * @throws if URL is unsupported
+ */
+const checkURL = url => {
+  // URL might be a very long data: URL, so try to avoid fully parsing it if we can.
+  // The notable requirement here is that the URL must be an absolute URL, not something
+  // relative to where the extension is loaded from or where the extension is running.
+  // This ensures that the same extension file will always load resources from the same
+  // place, regardless of how it is running or packaged or whatever else.
+  if (!url.startsWith('http:') && !url.startsWith('https:') && !url.startsWith('data:') && !url.startsWith('blob:')) {
+    throw new Error("Unsupported URL: ".concat(url));
+  }
+};
+const external = {};
+
+/**
+ * @param {string} url
+ * @template T
+ * @returns {Promise<T>}
+ */
+external.importModule = url => {
+  checkURL(url);
+  // Need to specify webpackIgnore so that webpack compiles this directly to a call to import()
+  // instead of trying making it try to use the webpack import system.
+  return import(/* webpackIgnore: true */url);
+};
+
+/**
+ * @param {string} url
+ * @returns {Promise<Response>}
+ */
+external.fetch = async url => {
+  checkURL(url);
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error("HTTP ".concat(res.status, " fetching ").concat(url));
+  }
+  return res;
+};
+
+/**
+ * @param {string} url
+ * @returns {Promise<string>}
+ */
+external.dataURL = async url => {
+  const res = await external.fetch(url);
+  const blob = await res.blob();
+  return new Promise((resolve, reject) => {
+    const fr = new FileReader();
+    fr.onload = () => resolve(fr.result);
+    fr.onerror = () => reject(fr.error);
+    fr.readAsDataURL(blob);
+  });
+};
+
+/**
+ * @param {string} url
+ * @returns {Promise<Blob>}
+ */
+external.blob = async url => {
+  const res = await external.fetch(url);
+  return res.blob();
+};
+
+/**
+ * @param {string} url
+ * @param {string} returnExpression
+ * @template T
+ * @returns {Promise<T>}
+ */
+external.evalAndReturn = async (url, returnExpression) => {
+  const res = await external.fetch(url);
+  const text = await res.text();
+  const js = "".concat(text, ";return ").concat(returnExpression);
+  const fn = new Function(js);
+  return fn();
+};
+module.exports = external;
 
 /***/ }),
 
@@ -220463,7 +220640,10 @@ class VirtualMachine extends EventEmitter {
         this.extensionManager.loadExtensionIdSync(extensionID);
       } else {
         // Custom extension
-        const url = extensionURLs.get(extensionID) || defaultExtensionURLs.get(extensionID);
+        let url = extensionURLs.get(extensionID);
+        if (!url && Object.prototype.hasOwnProperty.call(defaultExtensionURLs, extensionID)) {
+          url = defaultExtensionURLs[extensionID];
+        }
         if (!url) {
           throw new Error("Unknown extension: ".concat(extensionID));
         }
