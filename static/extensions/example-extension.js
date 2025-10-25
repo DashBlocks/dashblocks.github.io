@@ -20,7 +20,7 @@ ExampleExtension.prototype.getInfo = function () {
         // internally namespace the messages such that two extensions could have
         // messages with the same ID without colliding.
         // See also: https://github.com/yahoo/react-intl/wiki/API#definemessages
-        name: 'Some Blocks',
+        name: 'Extension1',
 
         // Optional: URI for an icon for this extension. Data URI OK.
         // If not present, use a generic icon.
@@ -39,7 +39,7 @@ ExampleExtension.prototype.getInfo = function () {
                 opcode: 'example-noop',
                 blockType: Scratch.BlockType.COMMAND,
                 blockAllThreads: false,
-                text: 'do nothing',
+                text: 'a block',
                 func: 'noop'
             },
             {
