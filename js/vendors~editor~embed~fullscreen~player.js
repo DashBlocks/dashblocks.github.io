@@ -18162,6 +18162,30 @@ const fixJSON = (data, options = {}) => {
   };
 
   /**
+   * @param {unknown} stage
+   */
+  const fixStageInPlace = (stage) => {
+    // stage's name must match exactly
+    if (stage.name !== 'Stage') {
+      log(`stage had wrong name: ${stage.name}`);
+      stage.name = 'Stage';
+    }
+
+    // In vanilla Scratch, "turn video < ... >" with anything that isn't the dropdown allows videoState
+    // to be set to something that isn't one of the expected strings. We'll play it safe and default to
+    // off.
+    const VIDEO_STATES = [
+      'on',
+      'off',
+      'on-flipped'
+    ];
+    if (Object.prototype.hasOwnProperty.call(stage, 'videoState') && !VIDEO_STATES.includes(stage.videoState)) {
+      log(`stage had invalid videoState: ${stage.videoState}`);
+      stage.videoState = 'off';
+    }
+  };
+
+  /**
    * @param {unknown} project
    */
   const fixProjectInPlace = (project) => {
@@ -18248,12 +18272,7 @@ const fixJSON = (data, options = {}) => {
 
     // Above checks ensure this invariant holds
     const stage = targets[0];
-
-    // stage's name must match exactly
-    if (stage.name !== 'Stage') {
-      log(`stage had wrong name: ${stage.name}`);
-      stage.name = 'Stage';
-    }
+    fixStageInPlace(stage);
 
     const knownExtensions = getKnownExtensions(project);
     const monitors = project.monitors;
