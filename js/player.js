@@ -3461,6 +3461,33 @@ exports.locals = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-security-manager-modal/embed.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-security-manager-modal/embed.css ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n.embed_remember-container_3rnp4,\n.embed_remember-warning_2ODLF,\n.embed_sandboxed_2rgpt {\n    margin: 8px 0;\n}\n\n.embed_remember-container_3rnp4 {\n    display: flex;\n    align-items: center;\n}\n\n.embed_remember-checkbox_1peXa {\n    margin-right: 8px;\n}\n\n.embed_remember-warning_2ODLF {\n    padding: 0.5rem;\n    border-radius: 0.25rem;\n    background-color: rgba(255, 81, 81, 0.25);\n    border: 1px solid red;\n}", ""]);
+
+// exports
+exports.locals = {
+	"remember-container": "embed_remember-container_3rnp4",
+	"rememberContainer": "embed_remember-container_3rnp4",
+	"remember-warning": "embed_remember-warning_2ODLF",
+	"rememberWarning": "embed_remember-warning_2ODLF",
+	"sandboxed": "embed_sandboxed_2rgpt",
+	"remember-checkbox": "embed_remember-checkbox_1peXa",
+	"rememberCheckbox": "embed_remember-checkbox_1peXa"
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-security-manager-modal/load-extension.css":
 /*!****************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-security-manager-modal/load-extension.css ***!
@@ -10005,7 +10032,7 @@ const WelcomeModalComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODU
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.body
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.text
-}, "Hello, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "welcome to the Dash!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "Dash")), " is a mod of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "TurboWarp")), " and other mods that adds a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "JSON category"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "new blocks"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "extensions"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "accent colors"), ", and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", null, "other features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), "Don't wait, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "start creating right now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "It's recommended to switch language to English (if you didn't already)"), " because some texts aren't translated or translated wrong."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "Dash"), " is based on ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "Scratch"), " and adds stuff like ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "JSON category"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "new blocks"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "extensions"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "accent colors"), ", and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "other features"), ".", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "Dash features are available only in English (at the moment)"), ", so consider setting language to English."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
   className: _welcome_modal_css__WEBPACK_IMPORTED_MODULE_7___default.a.poster,
   src: _dash_poster_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
   draggable: false
@@ -12443,10 +12470,10 @@ module.exports = __webpack_require__.p + "static/assets/7efe82fffae735cd083388ba
 /*!**************************************************!*\
   !*** ./src/components/loader/lazy-messages.json ***!
   \**************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[\"Coloring the blocks...\",\"Loading extensions...\",\"Making costumes...\",\"Restoring the sprites...\",\"Listening to the sounds...\",\"Admiring the fonts...\",\"Making scripts...\",\"Fixing errors...\",\"Coming up with ideas...\",\"Compiling to JavaScript...\",\"Translating Dash...\",\"Keeping an eye on Dashy...\",\"Unbanning SpartanDav...\",\"Patting the cat blocks...\",\"Deleting Memokot... (trying to)\",\"*You found the \\\"12\\\"*\",\"Subscribe to our TG channel - https://t.me/DashBlocks ;)\"]");
+module.exports = JSON.parse("[\"Coloring the blocks...\",\"Loading extensions...\",\"Making costumes...\",\"Restoring the sprites...\",\"Listening to the sounds...\",\"Setting up broadcasts...\",\"Admiring the fonts...\",\"Making scripts...\",\"Fixing errors...\",\"Coming up with ideas...\",\"Compiling to JavaScript...\",\"Waiting for the load to finish...\",\"Translating Dash... (no)\",\"Keeping an eye on Dashy...\",\"Unbanning SpartanDav...\",\"Patting the cat blocks...\",\"Deleting Memokot... (trying to)\",\"*You found the \\\"12\\\"*\",\"Not 100% yet :|\",\"Subscribe to our TG channel - https://t.me/DashBlocks ;)\"]");
 
 /***/ }),
 
@@ -14304,7 +14331,10 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_save_status_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
       showSaveFilePicker: this.props.showSaveFilePicker
     })), aboutButton);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, menuBar);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, menuBar, window.location.href.startsWith('https://dashblocks.github.io/scratch-gui') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_tw_news_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
+      key: "dash:news2",
+      id: "dev-version"
+    }));
   }
 }
 MenuBar.propTypes = {
@@ -15212,18 +15242,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const LOCAL_STORAGE_KEY = 'dash:closedNews';
-const NEWS_ID = 'new-compiler';
-const getIsClosedInLocalStorage = () => {
+const getIsClosedInLocalStorage = (key, id) => {
   try {
-    return localStorage.getItem(LOCAL_STORAGE_KEY) === NEWS_ID;
+    return localStorage.getItem(key) === id;
   } catch (e) {
     return false;
   }
 };
-const markAsClosedInLocalStorage = () => {
+const markAsClosedInLocalStorage = (key, id) => {
   try {
-    localStorage.setItem(LOCAL_STORAGE_KEY, NEWS_ID);
+    localStorage.setItem(key, id);
   } catch (e) {
     // ignore
   }
@@ -15232,12 +15260,21 @@ class TWNews extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
-      closed: getIsClosedInLocalStorage()
+      closed: getIsClosedInLocalStorage(props.key, props.id)
     };
-    this.handleClose = this.handleClose.bind(this);
+    this.handleCloseNewCompiler = this.handleCloseNewCompiler.bind(this);
+    this.handleCloseDevVersion = this.handleCloseDevVersion.bind(this);
   }
-  handleClose() {
-    markAsClosedInLocalStorage();
+  handleCloseNewCompiler() {
+    markAsClosedInLocalStorage(this.props.key, this.props.id);
+    this.setState({
+      closed: true
+    }, () => {
+      window.dispatchEvent(new Event('resize'));
+    });
+  }
+  handleCloseDevVersion() {
+    markAsClosedInLocalStorage(this.props.key, this.props.id);
     this.setState({
       closed: true
     }, () => {
@@ -15248,7 +15285,7 @@ class TWNews extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     if (this.state.closed || Object(_lib_isScratchDesktop__WEBPACK_IMPORTED_MODULE_2__["isScratchDesktop"])()) {
       return null;
     }
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, this.props.id == 'new-compiler' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.news
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.text
@@ -15262,8 +15299,19 @@ class TWNews extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       rel: "noreferrer"
     }, 'Old compiler.')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_close_button_close_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.close,
-      onClick: this.handleClose
-    }));
+      onClick: this.handleCloseNewCompiler
+    })), this.props.id == 'dev-version' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.news
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.text
+    }, "This is a \"Dev\" version of ".concat(_lib_brand__WEBPACK_IMPORTED_MODULE_1__["APP_NAME"], ". Please do not use this version for real projects, as it may break your projects! "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://dashblocks.github.io",
+      target: "_blank",
+      rel: "noreferrer"
+    }, 'Main version.')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_close_button_close_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      className: _tw_news_css__WEBPACK_IMPORTED_MODULE_4___default.a.close,
+      onClick: this.handleCloseDevVersion
+    })));
   }
 }
 /* harmony default export */ __webpack_exports__["default"] = (TWNews);
@@ -24696,6 +24744,36 @@ DownloadModal.propTypes = {
 
 /***/ }),
 
+/***/ "./src/components/tw-security-manager-modal/embed.css":
+/*!************************************************************!*\
+  !*** ./src/components/tw-security-manager-modal/embed.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./embed.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-security-manager-modal/embed.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/components/tw-security-manager-modal/embed.jsx":
 /*!************************************************************!*\
   !*** ./src/components/tw-security-manager-modal/embed.jsx ***!
@@ -24710,8 +24788,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _url_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./url.jsx */ "./src/components/tw-security-manager-modal/url.jsx");
-/* harmony import */ var _data_url_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./data-url.jsx */ "./src/components/tw-security-manager-modal/data-url.jsx");
+/* harmony import */ var _embed_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./embed.css */ "./src/components/tw-security-manager-modal/embed.css");
+/* harmony import */ var _embed_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_embed_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _url_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./url.jsx */ "./src/components/tw-security-manager-modal/url.jsx");
+/* harmony import */ var _data_url_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./data-url.jsx */ "./src/components/tw-security-manager-modal/data-url.jsx");
+/* harmony import */ var _tw_fancy_checkbox_checkbox_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../tw-fancy-checkbox/checkbox.jsx */ "./src/components/tw-fancy-checkbox/checkbox.jsx");
+/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../lib/brand */ "./src/lib/brand.js");
+/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_lib_brand__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
 
 
 
@@ -24720,14 +24806,35 @@ __webpack_require__.r(__webpack_exports__);
 const EmbedModal = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, props.url.startsWith('data:') ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
   defaultMessage: "The project wants to embed HTML content over the stage:",
   id: "tw.embed.title1"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_url_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_url_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
   url: props.url
 })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
   defaultMessage: "The project wants to embed remote content over the stage:",
   id: "tw.embed.title2"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_url_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_url_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
   url: props.url
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"]
+})), props.onChangeRemember && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  className: _embed_css__WEBPACK_IMPORTED_MODULE_3___default.a.rememberContainer
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tw_fancy_checkbox_checkbox_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  className: _embed_css__WEBPACK_IMPORTED_MODULE_3___default.a.rememberCheckbox,
+  checked: props.remember,
+  onChange: props.onChangeRemember
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
+  defaultMessage: "Remember this choice",
+  id: "dash.securityModal.rememberThisChoice"
+})), props.remember && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: _embed_css__WEBPACK_IMPORTED_MODULE_3___default.a.rememberWarning
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"]
+// eslint-disable-next-line max-len
+, {
+  defaultMessage: "Loading embeds without permissions is dangerous. It will be able to corrupt your project, delete your settings, phish for passwords, and other bad things. The {APP_NAME} developers are not responsible for any resulting issues.",
+  id: "dash.embed.rememberWarning",
+  values: {
+    APP_NAME: _lib_brand__WEBPACK_IMPORTED_MODULE_7__["APP_NAME"]
+  }
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: _embed_css__WEBPACK_IMPORTED_MODULE_3___default.a.sandboxed
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
   defaultMessage: "While the embed will be sandboxed, it will still have access to information about your device such as your IP and general location.",
@@ -24737,7 +24844,9 @@ const EmbedModal = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___defa
   id: "tw.embed.persistent"
 })));
 EmbedModal.propTypes = {
-  url: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  url: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  remember: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired,
+  onChangeRemember: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
 /* harmony default export */ __webpack_exports__["default"] = (EmbedModal);
 
@@ -37691,6 +37800,12 @@ const fetchOriginsTrustedByUser = new Set();
 const embedOriginsTrustedByUser = new Set();
 
 /**
+ * Set of datas manually trusted by the user for embedding.
+ * @type {Set<string>}
+ */
+const embedDatasTrustedByUser = new Set();
+
+/**
  * @param {URL} parsed Parsed URL object
  * @returns {boolean} True if the URL is part of the builtin set of URLs to always trust fetching from.
  */
@@ -38001,6 +38116,7 @@ class TWSecurityManagerComponent extends react__WEBPACK_IMPORTED_MODULE_0___defa
    * @returns {Promise<boolean>} True if embed is allowed.
    */
   async canEmbed(url) {
+    var _this$state$data;
     const parsed = parseURL(url, FETCHABLE_PROTOCOLS);
     if (!parsed) {
       return false;
@@ -38010,17 +38126,30 @@ class TWSecurityManagerComponent extends react__WEBPACK_IMPORTED_MODULE_0___defa
       showModal,
       releaseLock
     } = await this.acquireModalLock();
-    if (origin && embedOriginsTrustedByUser.has(origin)) {
+    if (origin && embedOriginsTrustedByUser.has(origin) || embedDatasTrustedByUser.has(url)) {
       releaseLock();
       return true;
     }
     const allowed = await showModal(_lib_tw_security_manager_constants__WEBPACK_IMPORTED_MODULE_6__["default"].Embed, {
-      url
+      url,
+      remember: ((_this$state$data = this.state.data) === null || _this$state$data === void 0 ? void 0 : _this$state$data.remember) || false,
+      onChangeRemember: this.handleChangeRemember.bind(this)
     });
     if (origin && allowed) {
       embedOriginsTrustedByUser.add(origin);
     }
+    if (this.state.data.remember && allowed) {
+      embedDatasTrustedByUser.add(url);
+    }
     return allowed;
+  }
+  handleChangeRemember(e) {
+    const checked = e.target.checked;
+    this.setState(oldState => ({
+      data: _objectSpread(_objectSpread({}, oldState.data), {}, {
+        remember: checked
+      })
+    }));
   }
 
   /**
@@ -44373,21 +44502,27 @@ const sensing = function sensing(isInitialSetup, isStage, targetId, colors) {
   return "\n    <category\n        name=\"%{BKY_CATEGORY_SENSING}\"\n        id=\"sensing\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        ").concat(isStage ? '' : "\n            <block type=\"sensing_touchingobject\">\n                <value name=\"TOUCHINGOBJECTMENU\">\n                    <shadow type=\"sensing_touchingobjectmenu\"/>\n                </value>\n            </block>\n            <block type=\"sensing_touchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_coloristouchingcolor\">\n                <value name=\"COLOR\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n                <value name=\"COLOR2\">\n                    <shadow type=\"colour_picker\"/>\n                </value>\n            </block>\n            <block type=\"sensing_distanceto\">\n                <value name=\"DISTANCETOMENU\">\n                    <shadow type=\"sensing_distancetomenu\"/>\n                </value>\n            </block>\n            ".concat(blockSeparator, "\n        "), "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"sensing_alert\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(hello, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_prompt\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n                <value name=\"VALUE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\"/>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"sensing_confirm\">\n                <value name=\"MESSAGE\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">Did you see that movie?</field>\n                    </shadow>\n                </value>\n            </block>\n            <block id=\"askandwait\" type=\"sensing_askandwait\">\n                <value name=\"QUESTION\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(name, "</field>\n                    </shadow>\n                </value>\n            </block>\n        "), "\n        <block id=\"answer\" type=\"sensing_answer\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_keypressed\">\n            <value name=\"KEY_OPTION\">\n                <shadow type=\"sensing_keyoptions\"/>\n            </value>\n        </block>\n        <block type=\"sensing_mousedown\"/>\n        <block type=\"sensing_mousex\"/>\n        <block type=\"sensing_mousey\"/>\n        <block type=\"sensing_mousexy\"/>\n        ").concat(isStage ? '' : "\n            ".concat(blockSeparator, "\n            '<block type=\"sensing_setdragmode\" id=\"sensing_setdragmode\"></block>'+\n            ").concat(blockSeparator, "\n        "), "\n        ").concat(blockSeparator, "\n        <block id=\"loudness\" type=\"sensing_loudness\"/>\n        ").concat(blockSeparator, "\n        <block id=\"timer\" type=\"sensing_timer\"/>\n        <block type=\"sensing_resettimer\"/>\n        ").concat(blockSeparator, "\n        <block id=\"of\" type=\"sensing_of\">\n            <value name=\"OBJECT\">\n                <shadow id=\"sensing_of_object_menu\" type=\"sensing_of_object_menu\"/>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block id=\"current\" type=\"sensing_current\"/>\n        <block type=\"sensing_dayssince2000\"/>\n        ").concat(blockSeparator, "\n        <block type=\"sensing_username\"/>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const operators = function operators(isInitialSetup, isStage, targetId, colors) {
+  const math = 'Math';
+  const logic = 'Logic';
+  const strings = 'Strings';
+  const types = 'Types';
   const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
   const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
   const letter = translate('OPERATORS_LETTEROF_APPLE', 'a');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_joinexpandable\">\n                <mutation inputcount=\"2\"></mutation>\n                <value name=\"INPUT1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"INPUT2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, " </field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_se_with\">\n              <value name=\"VALUE1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"VALUE2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            ").concat(blockSeparator, "\n            <block type=\"operator_typeof\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_is_type\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_cast\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_to_case\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            ").concat(blockSeparator, "\n            <block type=\"operator_nums_in_range\">\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_in_range\">\n              <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">5</field>\n                </shadow>\n              </value>\n              <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">1</field>\n                </shadow>\n              </value>\n              <value name=\"TO\">\n                <shadow type=\"math_number\">\n                  <field name=\"NUM\">10</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_OPERATORS}\"\n        id=\"operators\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <label text=\"").concat(math, "\"></label>\n        <block type=\"operator_add\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_subtract\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_multiply\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_divide\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_math_expandable\">\n            <mutation inputcount=\"2\" menuvalues=\"+\"/>\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_random\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mod\">\n            <value name=\"NUM1\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n            <value name=\"NUM2\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_round\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_mathop\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_nums_in_range\">\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <label text=\"").concat(logic, "\"></label>\n        <block type=\"operator_gt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_lt\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_equals\">\n            <value name=\"OPERAND1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"OPERAND2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">50</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"operator_numbers_comparator_expandable\">\n            <mutation inputcount=\"2\" menuvalues=\"=\"/>\n            <value name=\"STRING1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n            <value name=\"STRING2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\"/>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"operator_and\"/>\n        <block type=\"operator_or\"/>\n        <block type=\"operator_conditions_comparator_expandable\">\n            <mutation inputcount=\"2\" menuvalues=\"=\"/>\n        </block>\n        <block type=\"operator_not\"/>\n        ").concat(blockSeparator, "\n        <block type=\"operator_in_range\">\n            <value name=\"NUM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">5</field>\n                </shadow>\n            </value>\n            <value name=\"FROM\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"TO\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">10</field>\n                </shadow>\n            </value>\n        </block>\n        <label text=\"").concat(strings, "\"></label>\n        ").concat(isInitialSetup ? '' : "\n            <block type=\"operator_joinexpandable\">\n                <mutation inputcount=\"2\"></mutation>\n                <value name=\"INPUT1\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">".concat(apple, " </field>\n                    </shadow>\n                </value>\n                <value name=\"INPUT2\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(banana, " </field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_newline\"/>\n            <block type=\"operator_letter_of\">\n                <value name=\"LETTER\">\n                    <shadow type=\"math_whole_number\">\n                        <field name=\"NUM\">1</field>\n                    </shadow>\n                </value>\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_length\">\n                <value name=\"STRING\">\n                    <shadow type=\"text\">\n                        <field name=\"TEXT\">").concat(apple, "</field>\n                    </shadow>\n                </value>\n            </block>\n            <block type=\"operator_to_case\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_contains\" id=\"operator_contains\">\n              <value name=\"STRING1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"STRING2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_se_with\">\n              <value name=\"VALUE1\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n              <value name=\"VALUE2\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(letter, "</field>\n                </shadow>\n              </value>\n            </block>\n            <label text=\"").concat(types, "\"></label>\n            <block type=\"operator_typeof\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_is_type\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n            <block type=\"operator_cast\">\n              <value name=\"VALUE\">\n                <shadow type=\"text\">\n                  <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n              </value>\n            </block>\n        "), "\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const variables = function variables(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
   return "\n    <category\n        name=\"%{BKY_CATEGORY_VARIABLES}\"\n        id=\"variables\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\"\n        custom=\"VARIABLE\">\n    </category>\n    ");
 };
 const json = function json(isInitialSetup, isStage, targetId, colors) {
-  const arrays = "Arrays";
-  const objects = "Objects";
+  const arrays = 'Arrays';
+  const objects = 'Objects';
+  const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
+  const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_length\" />\n        <label text=\"").concat(arrays, "\"></label>\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">apple,banana</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <label text=\"").concat(objects, "\"></label>\n        <block type=\"json_object_empty\"/>\n        <block type=\"json_object_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key1:apple,key2:banana</field>\n                </shadow>\n            </value>\n            <value name=\"KEYDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">:</field>\n                </shadow>\n            </value>\n            <value name=\"PAIRDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_item_of\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_contains_key\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_entries\"/>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_set\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_delete\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
+  return "\n    <category\n        name=\"%{BKY_CATEGORY_JSON}\"\n        id=\"json\"\n        colour=\"".concat(colors.primary, "\"\n        secondaryColour=\"").concat(colors.tertiary, "\">\n        <block type=\"json_contains\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_length\" />\n        <block type=\"json_stringify_spacer\">\n            <value name=\"SPACER\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">  </field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_get_by_path\" />\n        <block type=\"json_set_by_path\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <label text=\"").concat(arrays, "\"></label>\n        <block type=\"json_array_empty\"/>\n        <block type=\"json_array_expandable\">\n            <mutation inputcount=\"2\"></mutation>\n            <value name=\"INPUT1\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(apple, "</field>\n                </shadow>\n            </value>\n            <value name=\"INPUT2\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(banana, "</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">").concat(apple, ",").concat(banana, "</field>\n                </shadow>\n            </value>\n            <value name=\"DELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_item_of\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_item_no_of\">\n            <value name=\"VALUE\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_array_in_front_of\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_behind\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_at\">\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_replace\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_array_delete\">\n            <value name=\"INDEX\">\n                <shadow type=\"math_number\">\n                    <field name=\"NUM\">1</field>\n                </shadow>\n            </value>\n        </block>\n        <label text=\"").concat(objects, "\"></label>\n        <block type=\"json_object_empty\"/>\n        <block type=\"json_object_split\">\n            <value name=\"TEXT\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key1:").concat(apple, ",key2:").concat(banana, "</field>\n                </shadow>\n            </value>\n            <value name=\"KEYDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">:</field>\n                </shadow>\n            </value>\n            <value name=\"PAIRDELIM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">,</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_item_of\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_contains_key\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_entries\"/>\n        ").concat(blockSeparator, "\n        <block type=\"json_object_set\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n            <value name=\"ITEM\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">item</field>\n                </shadow>\n            </value>\n        </block>\n        <block type=\"json_object_delete\">\n            <value name=\"KEY\">\n                <shadow type=\"text\">\n                    <field name=\"TEXT\">key</field>\n                </shadow>\n            </value>\n        </block>\n        ").concat(categorySeparator, "\n    </category>\n    ");
 };
 const myBlocks = function myBlocks(isInitialSetup, isStage, targetId, colors) {
   // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.

@@ -2651,15 +2651,20 @@ const ScratchBlocksConstants = {
    */
   OUTPUT_SHAPE_HEXAGONAL: 1,
   /**
-   * ENUM for output shape: rounded (numbers).
+   * ENUM for output shape: rounded (any/all values; strings,numbers).
    * @const
    */
   OUTPUT_SHAPE_ROUND: 2,
   /**
-   * ENUM for output shape: squared (any/all values; strings).
+   * ENUM for output shape: squared (arrays).
    * @const
    */
-  OUTPUT_SHAPE_SQUARE: 3
+  OUTPUT_SHAPE_SQUARE: 3,
+  /**
+   * ENUM for output shape: plus (objects).
+   * @const
+   */
+  OUTPUT_SHAPE_PLUS: 4
 };
 module.exports = ScratchBlocksConstants;
 
@@ -2900,6 +2905,7 @@ Object.assign(global.Scratch, ScratchCommon, {
  */
 const extensionWorker = new ExtensionWorker();
 global.Scratch.extensions = {
+  isDash: true,
   register: extensionWorker.register.bind(extensionWorker)
 };
 global.ScratchExtensions = createScratchX(global.Scratch);
@@ -2952,13 +2958,17 @@ const BlockShape = {
    */
   HEXAGONAL: ScratchBlocksConstants.OUTPUT_SHAPE_HEXAGONAL,
   /**
-   * Output shape: rounded (numbers).
+   * Output shape: rounded (any/all values; strings,numbers).
    */
   ROUND: ScratchBlocksConstants.OUTPUT_SHAPE_ROUND,
   /**
-   * Output shape: squared (any/all values; strings).
+   * Output shape: squared (arrays).
    */
-  SQUARE: ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE
+  SQUARE: ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE,
+  /**
+   * Output shape: plus (objects).
+   */
+  PLUS: ScratchBlocksConstants.OUTPUT_SHAPE_PLUS
 };
 module.exports = BlockShape;
 
