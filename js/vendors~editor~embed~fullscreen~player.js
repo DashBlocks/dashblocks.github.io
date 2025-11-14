@@ -178740,7 +178740,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.58ebd80e67dd2df637f0.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.d753d008dca95daaa3b9.js");
 };
 
 /***/ }),
@@ -179055,6 +179055,7 @@ class Scratch3ControlBlocks {
       control_wait_until: this.waitUntil,
       control_if: this.if,
       control_if_else: this.ifElse,
+      control_if_else_expandable: this.ifElseExpandable,
       control_if_then_else: this.ifThenElse,
       control_resume: this.resume,
       control_pause: this.pause,
@@ -179147,6 +179148,22 @@ class Scratch3ControlBlocks {
       util.startBranch(1, false);
     } else {
       util.startBranch(2, false);
+    }
+  }
+  ifElseExpandable(args, util) {
+    const branchCount = Cast.toNumber(args.mutation.branches);
+    const hasElse = Cast.toBoolean(args.mutation['ends-in-else']);
+    let conditionBranchCount = hasElse ? branchCount - 1 : branchCount;
+    for (let i = 1; i <= conditionBranchCount; i++) {
+      const boolName = 'BOOL' + i;
+      const condition = Cast.toBoolean(args[boolName]);
+      if (condition) {
+        util.startBranch(i, false);
+        return;
+      }
+    }
+    if (hasElse && branchCount > 0) {
+      util.startBranch(branchCount, false);
     }
   }
   ifThenElse(args, util) {
@@ -181794,8 +181811,6 @@ module.exports = Scratch3SoundBlocks;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// @ts-check
-
 const BlockUtility = __webpack_require__(/*! ../engine/block-utility */ "./node_modules/scratch-vm/src/engine/block-utility.js");
 class CompatibilityLayerBlockUtility extends BlockUtility {
   constructor() {
@@ -182026,6 +182041,7 @@ const StackOpcode = {
   HAT_EDGE: 'hat.edge',
   HAT_PREDICATE: 'hat.predicate',
   CONTROL_IF_ELSE: 'control.if',
+  CONTROL_IF_ELSE_EXPANDABLE: 'control.ifElseExpandable',
   CONTROL_CLONE_CREATE: 'control.createClone',
   CONTROL_CLONE_DELETE: 'control.deleteClone',
   CONTROL_WHILE: 'control.while',
@@ -183716,6 +183732,29 @@ class ScriptTreeGenerator {
           whenTrue: this.descendSubstack(block, 'SUBSTACK'),
           whenFalse: this.descendSubstack(block, 'SUBSTACK2')
         });
+      case 'control_if_else_expandable':
+        {
+          const branchCount = Cast.toNumber(block.mutation.branches);
+          const hasElse = block.mutation['ends-in-else'] === 'true';
+          const branches = [];
+          let conditionBranchCount = hasElse ? branchCount - 1 : branchCount;
+          for (let i = 1; i <= conditionBranchCount; i++) {
+            const condition = this.descendInputOfBlock(block, "BOOL".concat(i)).toType(InputType.BOOLEAN);
+            const substack = this.descendSubstack(block, "SUBSTACK".concat(i));
+            branches.push({
+              condition: condition,
+              substack: substack
+            });
+          }
+          let elseBranch = new IntermediateStack();
+          if (hasElse && branchCount > 0) {
+            elseBranch = this.descendSubstack(block, "SUBSTACK".concat(branchCount));
+          }
+          return new IntermediateStackBlock(StackOpcode.CONTROL_IF_ELSE_EXPANDABLE, {
+            branches,
+            elseBranch
+          });
+        }
       case 'control_repeat':
         return new IntermediateStackBlock(StackOpcode.CONTROL_REPEAT, {
           times: this.descendInputOfBlock(block, 'TIMES').toType(InputType.NUMBER),
@@ -186543,6 +186582,25 @@ class JSGenerator {
         }
         this.source += "}\n";
         break;
+      case StackOpcode.CONTROL_IF_ELSE_EXPANDABLE:
+        {
+          let isFirst = true;
+          for (const branch of node.branches) {
+            if (isFirst) {
+              this.source += "if (".concat(this.descendInput(branch.condition), ") {\n");
+              isFirst = false;
+            } else {
+              this.source += "} else if (".concat(this.descendInput(branch.condition), ") {\n");
+            }
+            this.descendStack(branch.substack, new Frame(false));
+          }
+          if (node.elseBranch && node.elseBranch.blocks.length > 0) {
+            this.source += "} else {\n";
+            this.descendStack(node.elseBranch, new Frame(false));
+          }
+          this.source += "}\n";
+          break;
+        }
       case StackOpcode.CONTROL_REPEAT:
         {
           const i = this.localVariables.next();
@@ -192453,18 +192511,22 @@ class Runtime extends EventEmitter {
         }
         break;
       case BlockType.REPORTER:
+        blockInfo.branchCount = blockInfo.branchCount || 0;
         blockJSON.output = blockInfo.allowDropAnywhere ? null : 'String'; // TODO: distinguish number & string here?
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_ROUND;
         break;
       case BlockType.BOOLEAN:
+        blockInfo.branchCount = blockInfo.branchCount || 0;
         blockJSON.output = 'Boolean';
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_HEXAGONAL;
         break;
       case BlockType.ARRAY:
+        blockInfo.branchCount = blockInfo.branchCount || 0;
         blockJSON.output = 'Array';
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_SQUARE;
         break;
       case BlockType.OBJECT:
+        blockInfo.branchCount = blockInfo.branchCount || 0;
         blockJSON.output = 'Object';
         blockJSON.outputShape = ScratchBlocksConstants.OUTPUT_SHAPE_PLUS;
         break;
@@ -192491,6 +192553,10 @@ class Runtime extends EventEmitter {
     // Allow extensions to override outputShape
     if (blockInfo.blockShape) {
       blockJSON.outputShape = blockInfo.blockShape;
+    }
+    // Allow extensions to override output
+    if (blockInfo.forceOutputType) {
+      blockJSON.output = blockInfo.forceOutputType;
     }
     const blockText = Array.isArray(blockInfo.text) ? blockInfo.text : [blockInfo.text];
     let inTextNum = 0; // text for the next block "arm" is blockText[inTextNum]
@@ -196956,7 +197022,7 @@ const BlockType = {
    */
   ARRAY: 'Array',
   /**
-   * Object reporter with square (currently) shape
+   * Object reporter with plus shape
    */
   OBJECT: 'Object',
   /**
