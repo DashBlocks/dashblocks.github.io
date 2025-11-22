@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".sa-custom-zoom-area {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  width: 60px;\n  height: 148px;\n  pointer-events: none;\n}\n.blocklyZoom > * {\n  transition: transform var(--sa-custom-zoom-speed, 0) ease-in-out;\n}\n.sa-custom-zoom-hidden > * {\n  transform: translateX(80px);\n}\n", ""]);
+exports.push([module.i, ".sa-custom-zoom-area {\r\n  position: absolute;\r\n  bottom: 0;\r\n  right: 0;\r\n  width: 60px;\r\n  height: 148px;\r\n  pointer-events: none;\r\n}\r\n.blocklyZoom > * {\r\n  transition: transform var(--sa-custom-zoom-speed, 0) ease-in-out;\r\n}\r\n.sa-custom-zoom-hidden > * {\r\n  transform: translateX(80px);\r\n}\r\n", ""]);
 
 // exports
 

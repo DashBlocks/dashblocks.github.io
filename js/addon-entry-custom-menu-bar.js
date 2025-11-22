@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[class*=\"settings-menu_dropdown-label\"],\n[class*=\"menu-bar_collapsible-label\"],\n[class*=\"menu-bar_tutorials-label\"] {\n  display: none;\n}\n", ""]);
+exports.push([module.i, "[class*=\"settings-menu_dropdown-label\"],\r\n[class*=\"menu-bar_collapsible-label\"],\r\n[class*=\"menu-bar_tutorials-label\"] {\r\n  display: none;\r\n}\r\n", ""]);
 
 // exports
 
@@ -31,7 +31,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[class*=\"menu-bar_file-group\"] > [class*=\"menu-bar_hoverable\"] > img {\n  display: none;\n}\n\n[class*=\"menu-bar_hoverable\"] {\n  justify-content: center;\n}\n\n[class*=\"menu-bar_hoverable\"] > span {\n  margin: 0;\n  padding: 0;\n}\n\n@media (max-width: 1024px) {\n  [class*=\"menu-bar_file-group\"] > [class*=\"menu-bar_hoverable\"] > img {\n    display: block;\n  }\n}\n", ""]);
+exports.push([module.i, "[class*=\"menu-bar_file-group\"] > [class*=\"menu-bar_hoverable\"] > img {\r\n  display: none;\r\n}\r\n\r\n[class*=\"menu-bar_hoverable\"] {\r\n  justify-content: center;\r\n}\r\n\r\n[class*=\"menu-bar_hoverable\"] > span {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n@media (max-width: 1024px) {\r\n  [class*=\"menu-bar_file-group\"] > [class*=\"menu-bar_hoverable\"] > img {\r\n    display: block;\r\n  }\r\n}\r\n", ""]);
 
 // exports
 

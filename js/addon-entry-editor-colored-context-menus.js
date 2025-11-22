@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".sa-contextmenu-colored .blocklyContextMenu {\n  background-color: var(--sa-contextmenu-bg);\n  border-color: var(--sa-contextmenu-border);\n}\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem-highlight,\n.sa-contextmenu-colored .s3dev-mi:hover {\n  background-color: #0001;\n  border-color: transparent !important;\n}\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem[style*=\"border-top\"] {\n  border-top-color: var(--sa-contextmenu-border) !important;\n}\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem .goog-menuitem-content {\n  color: var(--sa-contextmenu-text);\n}\n", ""]);
+exports.push([module.i, ".sa-contextmenu-colored .blocklyContextMenu {\r\n  background-color: var(--sa-contextmenu-bg);\r\n  border-color: var(--sa-contextmenu-border);\r\n}\r\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem-highlight,\r\n.sa-contextmenu-colored .s3dev-mi:hover {\r\n  background-color: #0001;\r\n  border-color: transparent !important;\r\n}\r\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem[style*=\"border-top\"] {\r\n  border-top-color: var(--sa-contextmenu-border) !important;\r\n}\r\n.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem .goog-menuitem-content {\r\n  color: var(--sa-contextmenu-text);\r\n}\r\n", ""]);
 
 // exports
 

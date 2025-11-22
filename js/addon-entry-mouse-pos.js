@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".pos-container-container {\n  display: flex;\n  align-items: center;\n  padding: 0.25rem;\n  user-select: none;\n  width: 45px;\n  justify-content: center;\n}\n\n.pos-container {\n  font-size: 0.6rem;\n  font-weight: bold;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  color: #5cb1d6;\n  white-space: nowrap;\n}\n\n/* Use pseudo elements to avoid firing mutation observers by just moving the cursor */\n.pos-container > span::after {\n  content: attr(data-content);\n}\n\n.sa-small-stage .pos-container-container {\n  display: none !important;\n}\n", ""]);
+exports.push([module.i, ".pos-container-container {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: 0.25rem;\r\n  user-select: none;\r\n  width: 45px;\r\n  justify-content: center;\r\n}\r\n\r\n.pos-container {\r\n  font-size: 0.6rem;\r\n  font-weight: bold;\r\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n  color: #5cb1d6;\r\n  white-space: nowrap;\r\n}\r\n\r\n/* Use pseudo elements to avoid firing mutation observers by just moving the cursor */\r\n.pos-container > span::after {\r\n  content: attr(data-content);\r\n}\r\n\r\n.sa-small-stage .pos-container-container {\r\n  display: none !important;\r\n}\r\n", ""]);
 
 // exports
 

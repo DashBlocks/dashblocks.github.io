@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".paintGradientMakerPopup {\n  box-sizing: border-box;\n  width: 528px;\n  max-height: min(800px, 80vh);\n  max-width: 85%;\n  margin-top: 12vh;\n  overflow-y: auto;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.paintGradientMakerPopupContent {\n  padding: 1.5rem 2.25rem;\n}\n\n.paintGradientMakerPopupDisplay {\n  width: 420px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 15px 15px 0 15px;\n  border: solid 1px var(--ui-black-transparent);\n  border-radius: 5px 5px 0 0;\n}\n\n.paintGradientMakerPopupDraggables {\n  width: 420px;\n  height: 40px;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0 15px 15px 15px;\n  border: solid 1px var(--ui-black-transparent);\n  border-top: none;\n  border-radius: 0 0 5px 5px;\n  background: var(--ui-tertiary);\n}\n\n.paintGradientMakerPopupSettings {\n  border-top: dashed 1px var(--ui-black-transparent);\n  padding-top: 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.paintGradientMakerPopupButtons {\n  margin-top: 1.5rem;\n}\n\n.paintGradientMakerPopupButtons button {\n  margin-left: 0.5rem;\n}\n\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\n  color: black;\n}\n", ""]);
+exports.push([module.i, ".paintGradientMakerPopup {\r\n  box-sizing: border-box;\r\n  width: 528px;\r\n  max-height: min(800px, 80vh);\r\n  max-width: 85%;\r\n  margin-top: 12vh;\r\n  overflow-y: auto;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.paintGradientMakerPopupContent {\r\n  padding: 1.5rem 2.25rem;\r\n}\r\n\r\n.paintGradientMakerPopupDisplay {\r\n  width: 420px;\r\n  height: 150px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 15px 15px 0 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-radius: 5px 5px 0 0;\r\n}\r\n\r\n.paintGradientMakerPopupDraggables {\r\n  width: 420px;\r\n  height: 40px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin: 0 15px 15px 15px;\r\n  border: solid 1px var(--ui-black-transparent);\r\n  border-top: none;\r\n  border-radius: 0 0 5px 5px;\r\n  background: var(--ui-tertiary);\r\n}\r\n\r\n.paintGradientMakerPopupSettings {\r\n  border-top: dashed 1px var(--ui-black-transparent);\r\n  padding-top: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.paintGradientMakerPopupButtons {\r\n  margin-top: 1.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button {\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n.paintGradientMakerPopupButtons button:nth-of-type(1) {\r\n  color: black;\r\n}\r\n", ""]);
 
 // exports
 
@@ -26,7 +26,7 @@ exports.push([module.i, ".paintGradientMakerPopup {\n  box-sizing: border-box;\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"#855cd6\"><rect stroke=\"#000\" fill=\"#fff\" x=\".5\" y=\".5\" width=\"19\" height=\"19\" rx=\"4\" stroke-opacity=\".15\"/><path d=\"M13.35 8.8h-2.4V6.4a1.2 1.2 90 0 0-2.4 0l.043 2.4H6.15a1.2 1.2 90 0 0 0 2.4l2.443-.043L8.55 13.6a1.2 1.2 90 0 0 2.4 0v-2.443l2.4.043a1.2 1.2 90 0 0 0-2.4\"/></svg>\n"
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"#855cd6\"><rect stroke=\"#000\" fill=\"#fff\" x=\".5\" y=\".5\" width=\"19\" height=\"19\" rx=\"4\" stroke-opacity=\".15\"/><path d=\"M13.35 8.8h-2.4V6.4a1.2 1.2 90 0 0-2.4 0l.043 2.4H6.15a1.2 1.2 90 0 0 0 2.4l2.443-.043L8.55 13.6a1.2 1.2 90 0 0 2.4 0v-2.443l2.4.043a1.2 1.2 90 0 0 0-2.4\"/></svg>\r\n"
 
 /***/ }),
 
@@ -39,7 +39,7 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTTE4IDEwaC00VjZhMiAyIDAgMCAwLTQgMGwuMDcxIDRINmEyIDIgMCAwIDAgMCA0bDQuMDcxLS4wNzFMMTAgMThhMiAyIDAgMCAwIDQgMHYtNC4wNzFMMTggMTRhMiAyIDAgMCAwIDAtNCI+PC9wYXRoPjwvc3ZnPgo=");
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTTE4IDEwaC00VjZhMiAyIDAgMCAwLTQgMGwuMDcxIDRINmEyIDIgMCAwIDAgMCA0bDQuMDcxLS4wNzFMMTAgMThhMiAyIDAgMCAwIDQgMHYtNC4wNzFMMTggMTRhMiAyIDAgMCAwIDAtNCI+PC9wYXRoPjwvc3ZnPg0K");
 
 /***/ }),
 
@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTSAxOCAxMCBoIC00IEggNiBhIDIgMiAwIDAgMCAwIDQgTCAxOCAxNCBhIDIgMiAwIDAgMCAwIC00Ij48L3BhdGg+PC9zdmc+Cg==");
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIyIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzg1NWNkNiI+PHBhdGggZD0iTSAxOCAxMCBoIC00IEggNiBhIDIgMiAwIDAgMCAwIDQgTCAxOCAxNCBhIDIgMiAwIDAgMCAwIC00Ij48L3BhdGg+PC9zdmc+DQo=");
 
 /***/ }),
 
