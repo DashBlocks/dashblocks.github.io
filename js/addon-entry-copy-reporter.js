@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".sa-copy-reporter-icon {\r\n  cursor: pointer;\r\n  float: right;\r\n  display: block;\r\n  user-select: none;\r\n  filter: var(--editorDarkMode-accent-filter, none);\r\n  width: 14px;\r\n  height: 14px;\r\n}\r\n\r\n.valueReportBox {\r\n  user-select: text;\r\n}\r\n", ""]);
+exports.push([module.i, ".sa-copy-reporter-icon {\n  cursor: pointer;\n  float: right;\n  display: block;\n  user-select: none;\n  filter: var(--editorDarkMode-accent-filter, none);\n  width: 14px;\n  height: 14px;\n}\n\n.valueReportBox {\n  user-select: text;\n}\n", ""]);
 
 // exports
 
@@ -28,7 +28,7 @@ exports.push([module.i, ".sa-copy-reporter-icon {\r\n  cursor: pointer;\r\n  flo
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLDguOTRhMS4zMSwxLjMxLDAsMCwwLS4wNi0uMjdsMC0uMDlhMS4wNywxLjA3LDAsMCwwLS4xOS0uMjhoMGwtNi02aDBhMS4wNywxLjA3LDAsMCwwLS4yOC0uMTkuMzIuMzIsMCwwLDAtLjA5LDBBLjg4Ljg4LDAsMCwwLDE0LjA1LDJIMTBBMywzLDAsMCwwLDcsNVY2SDZBMywzLDAsMCwwLDMsOVYxOWEzLDMsMCwwLDAsMywzaDhhMywzLDAsMCwwLDMtM1YxOGgxYTMsMywwLDAsMCwzLTNWOVMyMSw5LDIxLDguOTRaTTE1LDUuNDEsMTcuNTksOEgxNmExLDEsMCwwLDEtMS0xWk0xNSwxOWExLDEsMCwwLDEtMSwxSDZhMSwxLDAsMCwxLTEtMVY5QTEsMSwwLDAsMSw2LDhIN3Y3YTMsMywwLDAsMCwzLDNoNVptNC00YTEsMSwwLDAsMS0xLDFIMTBhMSwxLDAsMCwxLTEtMVY1YTEsMSwwLDAsMSwxLTFoM1Y3YTMsMywwLDAsMCwzLDNoM1oiIGZpbGw9IiM1NzVlNzUiLz48L3N2Zz4NCg==");
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLDguOTRhMS4zMSwxLjMxLDAsMCwwLS4wNi0uMjdsMC0uMDlhMS4wNywxLjA3LDAsMCwwLS4xOS0uMjhoMGwtNi02aDBhMS4wNywxLjA3LDAsMCwwLS4yOC0uMTkuMzIuMzIsMCwwLDAtLjA5LDBBLjg4Ljg4LDAsMCwwLDE0LjA1LDJIMTBBMywzLDAsMCwwLDcsNVY2SDZBMywzLDAsMCwwLDMsOVYxOWEzLDMsMCwwLDAsMywzaDhhMywzLDAsMCwwLDMtM1YxOGgxYTMsMywwLDAsMCwzLTNWOVMyMSw5LDIxLDguOTRaTTE1LDUuNDEsMTcuNTksOEgxNmExLDEsMCwwLDEtMS0xWk0xNSwxOWExLDEsMCwwLDEtMSwxSDZhMSwxLDAsMCwxLTEtMVY5QTEsMSwwLDAsMSw2LDhIN3Y3YTMsMywwLDAsMCwzLDNoNVptNC00YTEsMSwwLDAsMS0xLDFIMTBhMSwxLDAsMCwxLTEtMVY1YTEsMSwwLDAsMSwxLTFoM1Y3YTMsMywwLDAsMCwzLDNoM1oiIGZpbGw9IiM1NzVlNzUiLz48L3N2Zz4K");
 
 /***/ }),
 

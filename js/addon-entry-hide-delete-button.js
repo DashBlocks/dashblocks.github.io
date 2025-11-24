@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[data-tabs] > :nth-child(3) div[class*=\"delete-button_delete-button_\"] {\r\n  display: none;\r\n}\r\n", ""]);
+exports.push([module.i, "[data-tabs] > :nth-child(3) div[class*=\"delete-button_delete-button_\"] {\n  display: none;\n}\n", ""]);
 
 // exports
 
@@ -31,7 +31,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[data-tabs] > :nth-child(4) div[class*=\"delete-button_delete-button_\"] {\r\n  display: none;\r\n}\r\n", ""]);
+exports.push([module.i, "[data-tabs] > :nth-child(4) div[class*=\"delete-button_delete-button_\"] {\n  display: none;\n}\n", ""]);
 
 // exports
 
@@ -50,7 +50,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "div[class*=\"sprite-selector_sprite-wrapper_\"] div[class*=\"delete-button_delete-button_\"] {\r\n  display: none;\r\n}\r\n", ""]);
+exports.push([module.i, "div[class*=\"sprite-selector_sprite-wrapper_\"] div[class*=\"delete-button_delete-button_\"] {\n  display: none;\n}\n", ""]);
 
 // exports
 

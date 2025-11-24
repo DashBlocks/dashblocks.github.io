@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[class*=\"stage_stage\"] {\r\n  border-radius: 0rem !important;\r\n}\r\n\r\n[class*=\"stage_green-flag-overlay-wrapper\"] {\r\n  border-radius: 0rem !important;\r\n}\r\n", ""]);
+exports.push([module.i, "[class*=\"stage_stage\"] {\n  border-radius: 0rem !important;\n}\n\n[class*=\"stage_green-flag-overlay-wrapper\"] {\n  border-radius: 0rem !important;\n}\n", ""]);
 
 // exports
 

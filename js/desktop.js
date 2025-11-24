@@ -168,7 +168,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\r\n\r\n/* This is for overriding some styles that don't really \"belong\" to any existing stylesheets */\r\n\r\n/* Try to use this sparingly, otherwise this will become unmaintainable again... */\r\n\r\n:root {\r\n    color-scheme: var(--color-scheme);\r\n}\r\n\r\n/* popover is used by gui and paint */\r\n\r\n/* some of these are duplicated over there too; !important makes sure these win */\r\n\r\n.Popover {\r\n    color-scheme: light !important;\r\n}\r\n\r\n.Popover-body {\r\n    color: var(--text-primary) !important;\r\n    background: var(--popover-background) !important;\r\n    border: 1px solid var(--ui-black-transparent) !important;\r\n    box-shadow: 0px 0px 8px 1px var(--shadow) !important;\r\n}\r\n\r\n.Popover-tipShape {\r\n    fill: var(--popover-background) !important;\r\n    stroke: var(--ui-black-transparent) !important;\r\n}\r\n\r\n/* ScratchAdddons editor-dark-mode compatibility */\r\n\r\n:root {\r\n    --editorDarkMode-primary: var(--looks-secondary);\r\n    --editorDarkMode-primary-transparent35: var(--looks-transparent);\r\n    --editorDarkMode-primary-variant: var(--looks-secondary-dark);\r\n    --editorDarkMode-border: var(--ui-black-transparent);\r\n    --editorDarkMode-accent: var(--ui-modal-background);\r\n    --editorDarkMode-categoryMenu-text: var(--text-primary);\r\n    --editorDarkMode-accent-text: var(--text-primary);\r\n    --editorDarkMode-page: var(--ui-primary);\r\n    --editorDarkMode-highlightText: var(--looks-secondary);\r\n}\r\n", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n/* This is for overriding some styles that don't really \"belong\" to any existing stylesheets */\n\n/* Try to use this sparingly, otherwise this will become unmaintainable again... */\n\n:root {\n    color-scheme: var(--color-scheme);\n}\n\n/* popover is used by gui and paint */\n\n/* some of these are duplicated over there too; !important makes sure these win */\n\n.Popover {\n    color-scheme: light !important;\n}\n\n.Popover-body {\n    color: var(--text-primary) !important;\n    background: var(--popover-background) !important;\n    border: 1px solid var(--ui-black-transparent) !important;\n    box-shadow: 0px 0px 8px 1px var(--shadow) !important;\n}\n\n.Popover-tipShape {\n    fill: var(--popover-background) !important;\n    stroke: var(--ui-black-transparent) !important;\n}\n\n/* ScratchAdddons editor-dark-mode compatibility */\n\n:root {\n    --editorDarkMode-primary: var(--looks-secondary);\n    --editorDarkMode-primary-transparent35: var(--looks-transparent);\n    --editorDarkMode-primary-variant: var(--looks-secondary-dark);\n    --editorDarkMode-border: var(--ui-black-transparent);\n    --editorDarkMode-accent: var(--ui-modal-background);\n    --editorDarkMode-categoryMenu-text: var(--text-primary);\n    --editorDarkMode-accent-text: var(--text-primary);\n    --editorDarkMode-page: var(--ui-primary);\n    --editorDarkMode-highlightText: var(--looks-secondary);\n}\n", ""]);
 
 // exports
 
@@ -187,15 +187,15 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\r\n\r\n* {\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    margin: 0;\r\n    padding: 0;\r\n    background: var(--page-background);\r\n    color: var(--page-foreground);\r\n}\r\n\r\na {\r\n    color: var(--link-color);\r\n}\r\n\r\n.desktop_main_3baHe section {\r\n    max-width: 900px;\r\n    margin: auto;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.desktop_header-container_2NW36 {\r\n    color: white;\r\n    background-color: var(--looks-secondary);\r\n    padding: 20px 0;\r\n    text-align: center;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.desktop_header-text_MpG9y {\r\n\r\n}\r\n\r\nbutton {\r\n    padding: 0.5rem;\r\n    border: 0.0625rem solid var(--ui-black-transparent);\r\n    border-radius: 0.5rem;\r\n}\r\n\r\nbutton:hover {\r\n    border-color: var(--looks-secondary);\r\n}", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    background: var(--page-background);\n    color: var(--page-foreground);\n}\n\na {\n    color: var(--link-color);\n}\n\n.desktop_main_2WsvE section {\n    max-width: 900px;\n    margin: auto;\n    margin-bottom: 30px;\n}\n\n.desktop_header-container_h9wPT {\n    color: white;\n    background-color: var(--looks-secondary);\n    padding: 20px 0;\n    text-align: center;\n    margin-bottom: 30px;\n}\n\n.desktop_header-text_1Hh3K {\n\n}\n\nbutton {\n    padding: 0.5rem;\n    border: 0.0625rem solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n}\n\nbutton:hover {\n    border-color: var(--looks-secondary);\n}", ""]);
 
 // exports
 exports.locals = {
-	"main": "desktop_main_3baHe",
-	"header-container": "desktop_header-container_2NW36",
-	"headerContainer": "desktop_header-container_2NW36",
-	"header-text": "desktop_header-text_MpG9y",
-	"headerText": "desktop_header-text_MpG9y"
+	"main": "desktop_main_2WsvE",
+	"header-container": "desktop_header-container_h9wPT",
+	"headerContainer": "desktop_header-container_h9wPT",
+	"header-text": "desktop_header-text_1Hh3K",
+	"headerText": "desktop_header-text_1Hh3K"
 };
 
 /***/ }),
@@ -539,7 +539,7 @@ const customExtensionColors = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik0yNi40MzM4IDMwQzI5LjUxMyAzMCAzMS42MzY2IDI4LjE1NjkgMzEuMTc5IDI1Ljg3NEMyOC4yOTk0IDEzLjA0MzYgMjcuNDI1NiA5Ljg1MTM0IDI3Ljk0NTQgOS42MDU0N0MyOC4zMTI1IDkuNDMxODMgMjkuMzc0NiAxMC43Mjc2IDMwLjkxNjIgMTEuMTM1OUMzNC42NDE2IDEyLjExMjYgNDAuMjc0MiA2LjQwNzUxIDM0LjU2NTUgNy4yOTE4NkMzMi4zMjI0IDcuNjM5IDMwLjE1ODcgNi4yMzgzNiAyOC40ODc5IDUuMTU2NzlDMjUuOTA3MiAzLjQ4NjIgMjQuNTAyNCAyLjU3Njg0IDI1Ljc5NzQgMTAuMDQ1MUMyNi40MzQ5IDEzLjcwMzUgMjYuOTY5NyAxNi4zMjMxIDI3LjM0NzUgMTguMTczOUMyNy45OTU3IDIxLjM0OTQgMjguMTgxOSAyMi4yNjE2IDI3LjYzMjUgMjIuMjc0MUMyNy4zMzIxIDIyLjE1MiAyNy4wMzI3IDIyLjA1NzggMjYuNjk1NyAyMS45NzI0QzI2LjA4OCAyMS44MjI1IDI1LjQ1MTYgMjEuNzM4MiAyNC44MDUzIDIxLjczODJDMjEuNzI3MSAyMS43MzgyIDE5LjYwMzYgMjMuNTg5MiAyMC4wNjIxIDI1Ljg3NEMyMC41MTA3IDI4LjE1NjkgMjMuMzY0NiAzMCAyNi40MzM4IDMwWiIgZmlsbD0iYmxhY2siLz4NCjxwYXRoIGQ9Ik05LjQzODYxIDM2LjAwMDFDMTIuNTA2NSAzNi4wMDAxIDE0LjYzMDIgMzQuMTQ4IDE0LjE4MTcgMzEuODY0MkMxMS4zMDMyIDE5LjAzMzYgMTAuNDI5OSAxNS44NDE2IDEwLjk0OTYgMTUuNTk1OEMxMS4zMTY2IDE1LjQyMjIgMTIuMzc4MyAxNi43MTc3IDEzLjkxOSAxNy4xMjZDMTcuNjQyOCAxOC4xMTM2IDIzLjI3MjkgMTIuMzk4NSAxNy41NjY3IDEzLjI5MThDMTUuMzI0OCAxMy42Mzg2IDEzLjE2MjMgMTIuMjM4MiAxMS40OTIyIDExLjE1NjlDOC45MTIzNyA5LjQ4NjM2IDcuNTA3OTcgOC41NzY5OCA4LjgwMjUxIDE2LjA0NTFDOS40NDI5NCAxOS43Mjg2IDkuOTc5OCAyMi4zNTk0IDEwLjM1OCAyNC4yMTI1QzEwLjk5MTIgMjcuMzE1NCAxMS4xNzk1IDI4LjIzODQgMTAuNjY0NCAyOC4yNzMyQzkuNzg0MzIgMjcuOTI1OCA4LjgxMjM5IDI3LjcyOTMgNy44MTA4MiAyNy43MjkzQzQuNzM0IDI3LjcyOTMgMi42MTEzNCAyOS41ODA0IDMuMDU5NzggMzEuODY0MkMzLjUxODA5IDM0LjE0OCA2LjM3MDY5IDM2LjAwMDEgOS40Mzg2MSAzNi4wMDAxWiIgZmlsbD0iYmxhY2siLz4NCjwvc3ZnPg0K"
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI2LjQzMzggMzBDMjkuNTEzIDMwIDMxLjYzNjYgMjguMTU2OSAzMS4xNzkgMjUuODc0QzI4LjI5OTQgMTMuMDQzNiAyNy40MjU2IDkuODUxMzQgMjcuOTQ1NCA5LjYwNTQ3QzI4LjMxMjUgOS40MzE4MyAyOS4zNzQ2IDEwLjcyNzYgMzAuOTE2MiAxMS4xMzU5QzM0LjY0MTYgMTIuMTEyNiA0MC4yNzQyIDYuNDA3NTEgMzQuNTY1NSA3LjI5MTg2QzMyLjMyMjQgNy42MzkgMzAuMTU4NyA2LjIzODM2IDI4LjQ4NzkgNS4xNTY3OUMyNS45MDcyIDMuNDg2MiAyNC41MDI0IDIuNTc2ODQgMjUuNzk3NCAxMC4wNDUxQzI2LjQzNDkgMTMuNzAzNSAyNi45Njk3IDE2LjMyMzEgMjcuMzQ3NSAxOC4xNzM5QzI3Ljk5NTcgMjEuMzQ5NCAyOC4xODE5IDIyLjI2MTYgMjcuNjMyNSAyMi4yNzQxQzI3LjMzMjEgMjIuMTUyIDI3LjAzMjcgMjIuMDU3OCAyNi42OTU3IDIxLjk3MjRDMjYuMDg4IDIxLjgyMjUgMjUuNDUxNiAyMS43MzgyIDI0LjgwNTMgMjEuNzM4MkMyMS43MjcxIDIxLjczODIgMTkuNjAzNiAyMy41ODkyIDIwLjA2MjEgMjUuODc0QzIwLjUxMDcgMjguMTU2OSAyMy4zNjQ2IDMwIDI2LjQzMzggMzBaIiBmaWxsPSJibGFjayIvPgo8cGF0aCBkPSJNOS40Mzg2MSAzNi4wMDAxQzEyLjUwNjUgMzYuMDAwMSAxNC42MzAyIDM0LjE0OCAxNC4xODE3IDMxLjg2NDJDMTEuMzAzMiAxOS4wMzM2IDEwLjQyOTkgMTUuODQxNiAxMC45NDk2IDE1LjU5NThDMTEuMzE2NiAxNS40MjIyIDEyLjM3ODMgMTYuNzE3NyAxMy45MTkgMTcuMTI2QzE3LjY0MjggMTguMTEzNiAyMy4yNzI5IDEyLjM5ODUgMTcuNTY2NyAxMy4yOTE4QzE1LjMyNDggMTMuNjM4NiAxMy4xNjIzIDEyLjIzODIgMTEuNDkyMiAxMS4xNTY5QzguOTEyMzcgOS40ODYzNiA3LjUwNzk3IDguNTc2OTggOC44MDI1MSAxNi4wNDUxQzkuNDQyOTQgMTkuNzI4NiA5Ljk3OTggMjIuMzU5NCAxMC4zNTggMjQuMjEyNUMxMC45OTEyIDI3LjMxNTQgMTEuMTc5NSAyOC4yMzg0IDEwLjY2NDQgMjguMjczMkM5Ljc4NDMyIDI3LjkyNTggOC44MTIzOSAyNy43MjkzIDcuODEwODIgMjcuNzI5M0M0LjczNCAyNy43MjkzIDIuNjExMzQgMjkuNTgwNCAzLjA1OTc4IDMxLjg2NDJDMy41MTgwOSAzNC4xNDggNi4zNzA2OSAzNi4wMDAxIDkuNDM4NjEgMzYuMDAwMVoiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo="
 
 /***/ }),
 
@@ -550,7 +550,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/249fbfa7cf18a7bdf1bc83ec506bc1ef.svg";
+module.exports = __webpack_require__.p + "static/assets/b631383707e87a454b479dedaa8ca014.svg";
 
 /***/ }),
 
@@ -561,7 +561,7 @@ module.exports = __webpack_require__.p + "static/assets/249fbfa7cf18a7bdf1bc83ec
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik0xNiAyMS42NjkzVjM0LjI4MzRDMTYgMzUuODE1MSAxNCAzNi41MzU5IDEyLjggMzUuNTQ0OEwxMC4yIDMzLjM4MjRDOS4yIDMyLjU3MTUgOCAzMi4yMTExIDYuNyAzMi4yMTExSDYuM0M1IDMyLjIxMTEgNCAzMS4zMTAxIDQgMzAuMTM4OFYyNS45MDQxQzQgMjQuNzMyOCA1IDIzLjgzMTggNi4zIDIzLjgzMThINi43QzggMjMuODMxOCA5LjIgMjMuMzgxMyAxMC4xIDIyLjY2MDRMMTIuOCAyMC40OThDMTQgMTkuNDE2OCAxNiAyMC4yMjc3IDE2IDIxLjY2OTNaIiBmaWxsPSJibGFjayIvPg0KPHBhdGggZD0iTTI0IDRDMTkuNTgxNyA0IDE2IDcuNTgxNzIgMTYgMTJDMTYgMTUuMTE0NyAxNy43Nzk5IDE3LjgxMzYgMjAuMzc4MSAxOS4xMzUxQzIwLjIwOTUgMjAuOTA4NyAxOS42NTY0IDIxLjY2NTUgMTkuMzA0MiAyMi4xNDczQzE5LjEyNjUgMjIuMzkwNCAxOSAyMi41NjM1IDE5IDIyLjc2MTlDMTkgMjMuNDI4NiAxOS42NjY3IDIzLjQyODYgMTkuNjY2NyAyMy40Mjg2QzIwLjYxMzIgMjMuNDI4NiAyMy41ODEzIDIyLjI2MjMgMjUuNDA5NyAyMEgyOEMzMi40MTgzIDIwIDM2IDE2LjQxODMgMzYgMTJDMzYgNy41ODE3MiAzMi40MTgzIDQgMjggNEgyNFoiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMwQjhFNjkiLz4NCjwvc3ZnPg0K"
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDIxLjY2OTNWMzQuMjgzNEMxNiAzNS44MTUxIDE0IDM2LjUzNTkgMTIuOCAzNS41NDQ4TDEwLjIgMzMuMzgyNEM5LjIgMzIuNTcxNSA4IDMyLjIxMTEgNi43IDMyLjIxMTFINi4zQzUgMzIuMjExMSA0IDMxLjMxMDEgNCAzMC4xMzg4VjI1LjkwNDFDNCAyNC43MzI4IDUgMjMuODMxOCA2LjMgMjMuODMxOEg2LjdDOCAyMy44MzE4IDkuMiAyMy4zODEzIDEwLjEgMjIuNjYwNEwxMi44IDIwLjQ5OEMxNCAxOS40MTY4IDE2IDIwLjIyNzcgMTYgMjEuNjY5M1oiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0yNCA0QzE5LjU4MTcgNCAxNiA3LjU4MTcyIDE2IDEyQzE2IDE1LjExNDcgMTcuNzc5OSAxNy44MTM2IDIwLjM3ODEgMTkuMTM1MUMyMC4yMDk1IDIwLjkwODcgMTkuNjU2NCAyMS42NjU1IDE5LjMwNDIgMjIuMTQ3M0MxOS4xMjY1IDIyLjM5MDQgMTkgMjIuNTYzNSAxOSAyMi43NjE5QzE5IDIzLjQyODYgMTkuNjY2NyAyMy40Mjg2IDE5LjY2NjcgMjMuNDI4NkMyMC42MTMyIDIzLjQyODYgMjMuNTgxMyAyMi4yNjIzIDI1LjQwOTcgMjBIMjhDMzIuNDE4MyAyMCAzNiAxNi40MTgzIDM2IDEyQzM2IDcuNTgxNzIgMzIuNDE4MyA0IDI4IDRIMjRaIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMEI4RTY5Ii8+Cjwvc3ZnPgo="
 
 /***/ }),
 
@@ -572,7 +572,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/44b4af679d985df57d1c0c911931937b.svg";
+module.exports = __webpack_require__.p + "static/assets/ef4a998a82a8567de018baa4607bc6a0.svg";
 
 /***/ }),
 
@@ -583,7 +583,7 @@ module.exports = __webpack_require__.p + "static/assets/44b4af679d985df57d1c0c91
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxjaXJjbGUgb3BhY2l0eT0iMC4yNSIgY3g9IjMyIiBjeT0iMjYiIHI9IjQiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMwQjhFNjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPGNpcmNsZSBvcGFjaXR5PSIwLjUiIGN4PSIzMiIgY3k9IjIyIiByPSI0IiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMEI4RTY5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCjxjaXJjbGUgb3BhY2l0eT0iMC43NSIgY3g9IjMyIiBjeT0iMTgiIHI9IjQiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMwQjhFNjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPGNpcmNsZSBjeD0iMzIiIGN5PSIxNCIgcj0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzBCOEU2OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8cGF0aCBkPSJNMTcgMTcuNUwyMi40IDE0QzIyLjkgMTMuNyAyMy41IDEzLjggMjMuOCAxNC4zQzIzLjkgMTQuNSAyNCAxNC43IDI0IDE0LjhWMjUuMUMyNCAyNS43IDIzLjUgMjYuMSAyMyAyNi4xQzIyLjggMjYuMSAyMi42IDI2IDIyLjUgMjUuOUwxNyAyMi42VjI0QzE3IDI2LjIgMTUuMiAyOC4xIDEzIDI4LjFINC4xQzEuOCAyOCAwIDI2LjIgMCAyNFYxNi4xQzAgMTMuOCAxLjggMTIgNC4xIDEySDEzQzE1LjIgMTIgMTcgMTMuOCAxNyAxNi4xVjE3LjVaIiBmaWxsPSJibGFjayIvPg0KPC9zdmc+DQo="
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjI1IiBjeD0iMzIiIGN5PSIyNiIgcj0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzBCOEU2OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgb3BhY2l0eT0iMC41IiBjeD0iMzIiIGN5PSIyMiIgcj0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzBCOEU2OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgb3BhY2l0eT0iMC43NSIgY3g9IjMyIiBjeT0iMTgiIHI9IjQiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMwQjhFNjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSIzMiIgY3k9IjE0IiByPSI0IiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMEI4RTY5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE3IDE3LjVMMjIuNCAxNEMyMi45IDEzLjcgMjMuNSAxMy44IDIzLjggMTQuM0MyMy45IDE0LjUgMjQgMTQuNyAyNCAxNC44VjI1LjFDMjQgMjUuNyAyMy41IDI2LjEgMjMgMjYuMUMyMi44IDI2LjEgMjIuNiAyNiAyMi41IDI1LjlMMTcgMjIuNlYyNEMxNyAyNi4yIDE1LjIgMjguMSAxMyAyOC4xSDQuMUMxLjggMjggMCAyNi4yIDAgMjRWMTYuMUMwIDEzLjggMS44IDEyIDQuMSAxMkgxM0MxNS4yIDEyIDE3IDEzLjggMTcgMTYuMVYxNy41WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg=="
 
 /***/ }),
 

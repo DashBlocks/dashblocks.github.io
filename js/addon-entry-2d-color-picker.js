@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".sa-2dcolor-picker {\r\n  width: 150px;\r\n  height: 150px;\r\n  border-radius: 8px;\r\n  margin: 8px;\r\n  position: relative;\r\n  user-select: none;\r\n}\r\n\r\n.sa-2dcolor-picker-image {\r\n  border-radius: 8px;\r\n  width: 150px;\r\n  height: 150px;\r\n  user-select: none;\r\n}\r\n\r\n.sa-2dcolor-label-val {\r\n  margin-left: 10px;\r\n}\r\n", ""]);
+exports.push([module.i, ".sa-2dcolor-picker {\n  width: 150px;\n  height: 150px;\n  border-radius: 8px;\n  margin: 8px;\n  position: relative;\n  user-select: none;\n}\n\n.sa-2dcolor-picker-image {\n  border-radius: 8px;\n  width: 150px;\n  height: 150px;\n  user-select: none;\n}\n\n.sa-2dcolor-label-val {\n  margin-left: 10px;\n}\n", ""]);
 
 // exports
 

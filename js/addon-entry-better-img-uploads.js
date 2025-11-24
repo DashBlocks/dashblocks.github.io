@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[data-for*=\"HD Upload\"]:hover + .__react_component_tooltip {\r\n  visibility: visible;\r\n}\r\n\r\n.sa-better-img-uploads-btn:not([id*=\"_right\"]) + .__react_component_tooltip {\r\n  left: auto;\r\n}\r\n\r\n.sa-better-img-uploads-btn[id*=\"_right\"] + .__react_component_tooltip,\r\n[data-for=\"sa-Choose_a_Backdrop-HD Upload\"] + .__react_component_tooltip {\r\n  right: auto;\r\n}\r\n", ""]);
+exports.push([module.i, "[data-for*=\"HD Upload\"]:hover + .__react_component_tooltip {\n  visibility: visible;\n}\n\n.sa-better-img-uploads-btn:not([id*=\"_right\"]) + .__react_component_tooltip {\n  left: auto;\n}\n\n.sa-better-img-uploads-btn[id*=\"_right\"] + .__react_component_tooltip,\n[data-for=\"sa-Choose_a_Backdrop-HD Upload\"] + .__react_component_tooltip {\n  right: auto;\n}\n", ""]);
 
 // exports
 

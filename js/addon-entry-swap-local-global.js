@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".sa-swap-local-global-hint {\r\n  padding-bottom: 1rem;\r\n}\r\n.sa-swap-local-global-stage {\r\n  /* resolves scratch class style conflict */\r\n  display: block;\r\n}\r\n", ""]);
+exports.push([module.i, ".sa-swap-local-global-hint {\n  padding-bottom: 1rem;\n}\n.sa-swap-local-global-stage {\n  /* resolves scratch class style conflict */\n  display: block;\n}\n", ""]);
 
 // exports
 

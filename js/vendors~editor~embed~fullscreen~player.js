@@ -81365,24 +81365,24 @@ exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base
 
 
 // module
-exports.push([module.i, ".react-tabs_react-tabs_2YbdB {\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-tabs_react-tabs__tab-list_zI_eR {\n  border-bottom: 1px solid #aaa;\n  margin: 0 0 10px;\n  padding: 0;\n}\n\n.react-tabs_react-tabs__tab_1ktU_ {\n  display: inline-block;\n  border: 1px solid transparent;\n  border-bottom: none;\n  bottom: -1px;\n  position: relative;\n  list-style: none;\n  padding: 6px 12px;\n  cursor: pointer;\n}\n\n.react-tabs_react-tabs__tab--selected_2o0LJ {\n  background: #fff;\n  border-color: #aaa;\n  color: black;\n  border-radius: 5px 5px 0 0;\n}\n\n.react-tabs_react-tabs__tab--disabled_3IyG1 {\n  color: GrayText;\n  cursor: default;\n}\n\n.react-tabs_react-tabs__tab_1ktU_:focus {\n  box-shadow: 0 0 5px hsl(208, 99%, 50%);\n  border-color: hsl(208, 99%, 50%);\n  outline: none;\n}\n\n.react-tabs_react-tabs__tab_1ktU_:focus:after {\n  content: \"\";\n  position: absolute;\n  height: 5px;\n  left: -4px;\n  right: -4px;\n  bottom: -5px;\n  background: #fff;\n}\n\n.react-tabs_react-tabs__tab-panel_3H28G {\n  display: none;\n}\n\n.react-tabs_react-tabs__tab-panel--selected_1CeOi {\n  display: block;\n}\n", ""]);
+exports.push([module.i, ".react-tabs_react-tabs_29WZ1 {\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-tabs_react-tabs__tab-list_17Wee {\n  border-bottom: 1px solid #aaa;\n  margin: 0 0 10px;\n  padding: 0;\n}\n\n.react-tabs_react-tabs__tab_3Nn-X {\n  display: inline-block;\n  border: 1px solid transparent;\n  border-bottom: none;\n  bottom: -1px;\n  position: relative;\n  list-style: none;\n  padding: 6px 12px;\n  cursor: pointer;\n}\n\n.react-tabs_react-tabs__tab--selected_EW0CL {\n  background: #fff;\n  border-color: #aaa;\n  color: black;\n  border-radius: 5px 5px 0 0;\n}\n\n.react-tabs_react-tabs__tab--disabled_2YPJE {\n  color: GrayText;\n  cursor: default;\n}\n\n.react-tabs_react-tabs__tab_3Nn-X:focus {\n  box-shadow: 0 0 5px hsl(208, 99%, 50%);\n  border-color: hsl(208, 99%, 50%);\n  outline: none;\n}\n\n.react-tabs_react-tabs__tab_3Nn-X:focus:after {\n  content: \"\";\n  position: absolute;\n  height: 5px;\n  left: -4px;\n  right: -4px;\n  bottom: -5px;\n  background: #fff;\n}\n\n.react-tabs_react-tabs__tab-panel_3p4DW {\n  display: none;\n}\n\n.react-tabs_react-tabs__tab-panel--selected_18BFr {\n  display: block;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"react-tabs": "react-tabs_react-tabs_2YbdB",
-	"reactTabs": "react-tabs_react-tabs_2YbdB",
-	"react-tabs__tab-list": "react-tabs_react-tabs__tab-list_zI_eR",
-	"reactTabsTabList": "react-tabs_react-tabs__tab-list_zI_eR",
-	"react-tabs__tab": "react-tabs_react-tabs__tab_1ktU_",
-	"reactTabsTab": "react-tabs_react-tabs__tab_1ktU_",
-	"react-tabs__tab--selected": "react-tabs_react-tabs__tab--selected_2o0LJ",
-	"reactTabsTabSelected": "react-tabs_react-tabs__tab--selected_2o0LJ",
-	"react-tabs__tab--disabled": "react-tabs_react-tabs__tab--disabled_3IyG1",
-	"reactTabsTabDisabled": "react-tabs_react-tabs__tab--disabled_3IyG1",
-	"react-tabs__tab-panel": "react-tabs_react-tabs__tab-panel_3H28G",
-	"reactTabsTabPanel": "react-tabs_react-tabs__tab-panel_3H28G",
-	"react-tabs__tab-panel--selected": "react-tabs_react-tabs__tab-panel--selected_1CeOi",
-	"reactTabsTabPanelSelected": "react-tabs_react-tabs__tab-panel--selected_1CeOi"
+	"react-tabs": "react-tabs_react-tabs_29WZ1",
+	"reactTabs": "react-tabs_react-tabs_29WZ1",
+	"react-tabs__tab-list": "react-tabs_react-tabs__tab-list_17Wee",
+	"reactTabsTabList": "react-tabs_react-tabs__tab-list_17Wee",
+	"react-tabs__tab": "react-tabs_react-tabs__tab_3Nn-X",
+	"reactTabsTab": "react-tabs_react-tabs__tab_3Nn-X",
+	"react-tabs__tab--selected": "react-tabs_react-tabs__tab--selected_EW0CL",
+	"reactTabsTabSelected": "react-tabs_react-tabs__tab--selected_EW0CL",
+	"react-tabs__tab--disabled": "react-tabs_react-tabs__tab--disabled_2YPJE",
+	"reactTabsTabDisabled": "react-tabs_react-tabs__tab--disabled_2YPJE",
+	"react-tabs__tab-panel": "react-tabs_react-tabs__tab-panel_3p4DW",
+	"reactTabsTabPanel": "react-tabs_react-tabs__tab-panel_3p4DW",
+	"react-tabs__tab-panel--selected": "react-tabs_react-tabs__tab-panel--selected_18BFr",
+	"reactTabsTabPanelSelected": "react-tabs_react-tabs__tab-panel--selected_18BFr"
 };
 
 /***/ }),
@@ -81399,12 +81399,12 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.button-group_button-group_1gaGW {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    margin: 0 0 0 0.5rem;\n}\n\n[dir=\"rtl\"] .button-group_button-group_1gaGW {\n    margin: 0 0.5rem 0 0;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.button-group_button-group_2_h4y {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    margin: 0 0 0 0.5rem;\n}\n\n[dir=\"rtl\"] .button-group_button-group_2_h4y {\n    margin: 0 0.5rem 0 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"button-group": "button-group_button-group_1gaGW",
-	"buttonGroup": "button-group_button-group_1gaGW"
+	"button-group": "button-group_button-group_2_h4y",
+	"buttonGroup": "button-group_button-group_2_h4y"
 };
 
 /***/ }),
@@ -81421,14 +81421,14 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_2fP99 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_2fP99:active {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_highlighted_2SR_W.button_button_2fP99 {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_mod-disabled_i1gjZ {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_i1gjZ:active {\n    background: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_u6SE2 {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_u6SE2:active {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_highlighted_2cM8r.button_button_u6SE2 {\n    background-color: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35)); \n}\n\n.button_mod-disabled_1rf31 {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_1rf31:active {\n    background: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"button": "button_button_2fP99",
-	"highlighted": "button_highlighted_2SR_W",
-	"mod-disabled": "button_mod-disabled_i1gjZ",
-	"modDisabled": "button_mod-disabled_i1gjZ"
+	"button": "button_button_u6SE2",
+	"highlighted": "button_highlighted_2cM8r",
+	"mod-disabled": "button_mod-disabled_1rf31",
+	"modDisabled": "button_mod-disabled_1rf31"
 };
 
 /***/ }),
@@ -81445,20 +81445,20 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.color-button_color-button_3Q_sy {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_YMqXc {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .color-button_color-button-swatch_YMqXc {\n    border-color: rgba(255, 255, 255, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_YMqXc {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_YMqXc {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1FX6z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: var(--paint-text-primary, #575e75);\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1FX6z {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1FX6z {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_Q4JW6 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2XkDH:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.color-button_color-button_1NNLx {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_37evk {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .color-button_color-button-swatch_37evk {\n    border-color: rgba(255, 255, 255, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_37evk {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_37evk {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_2NxGY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: var(--paint-text-primary, #575e75);\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_2NxGY {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_2NxGY {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_3ooIk {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_3C0QK:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"color-button": "color-button_color-button_3Q_sy",
-	"colorButton": "color-button_color-button_3Q_sy",
-	"color-button-swatch": "color-button_color-button-swatch_YMqXc",
-	"colorButtonSwatch": "color-button_color-button-swatch_YMqXc",
-	"color-button-arrow": "color-button_color-button-arrow_1FX6z",
-	"colorButtonArrow": "color-button_color-button-arrow_1FX6z",
-	"swatch-icon": "color-button_swatch-icon_Q4JW6",
-	"swatchIcon": "color-button_swatch-icon_Q4JW6",
-	"outline-swatch": "color-button_outline-swatch_2XkDH",
-	"outlineSwatch": "color-button_outline-swatch_2XkDH"
+	"color-button": "color-button_color-button_1NNLx",
+	"colorButton": "color-button_color-button_1NNLx",
+	"color-button-swatch": "color-button_color-button-swatch_37evk",
+	"colorButtonSwatch": "color-button_color-button-swatch_37evk",
+	"color-button-arrow": "color-button_color-button-arrow_2NxGY",
+	"colorButtonArrow": "color-button_color-button-arrow_2NxGY",
+	"swatch-icon": "color-button_swatch-icon_3ooIk",
+	"swatchIcon": "color-button_swatch-icon_3ooIk",
+	"outline-swatch": "color-button_outline-swatch_3C0QK",
+	"outlineSwatch": "color-button_outline-swatch_3C0QK"
 };
 
 /***/ }),
@@ -81475,42 +81475,42 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n}\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_3WU-R {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1bfn0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_1F-KU {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: var(--paint-text-primary, #575e75);\n    margin: 8px 8px 0 8px;\n}\n\n[theme=\"dark\"] .color-picker_row-header_1F-KU {\n    color: #ccc;\n}\n\n.color-picker_label-name_3Ohhm {\n    font-weight: bold;\n}\n\n.color-picker_divider_1rrhm {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n[theme=\"dark\"] .color-picker_divider_1rrhm {\n    border-color: #333;\n}\n\n.color-picker_swap-button_1IHVI {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_1IxyF {\n    margin: 8px;\n}\n\n.color-picker_swatch_v12lU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[theme=\"dark\"] .color-picker_swatch_v12lU {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.color-picker_large-swatch-icon_1jo3W {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_VnybH {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_cOpcH {\n    border: 1px solid var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.color-picker_swatch-icon_sM_0v {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_1IOdw {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2lMgC {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2lMgC > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2u1cR {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_1ykn1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-color_3BecP {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_1ykn1 .color-picker_picker-text_3udQu {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* Popover styles */\n\n/* body is for specificity to override some addons that set a lower z-index */\n\nbody .Popover {\n    /* should be above menu bar */\n    z-index: 500;\n}\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_29wR3 {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_1Q_s_ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_173LQ {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: var(--paint-text-primary, #575e75);\n    margin: 8px 8px 0 8px;\n}\n\n[theme=\"dark\"] .color-picker_row-header_173LQ {\n    color: #ccc;\n}\n\n.color-picker_label-name_17igY {\n    font-weight: bold;\n}\n\n.color-picker_divider_3a3qR {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n[theme=\"dark\"] .color-picker_divider_3a3qR {\n    border-color: #333;\n}\n\n.color-picker_swap-button_FvctB {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_3mHi4 {\n    margin: 8px;\n}\n\n.color-picker_swatch_1IYWN {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[theme=\"dark\"] .color-picker_swatch_1IYWN {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.color-picker_large-swatch-icon_E7mUt {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_2mo4M {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_3Mv7i {\n    border: 1px solid var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0px 0px 0px 3px var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.color-picker_swatch-icon_Z7osI {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_3We_i {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_mnu4O {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_mnu4O > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_mnu4O > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_2vD4b {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.color-picker_picker-row_2qG96 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 8px;\n    margin-top: 12px;\n    width: 150px;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_picker-row_2qG96 .color-picker_picker-color_2anKE {\n    border: none;\n    border-radius: 0;\n    padding: 0 0.2rem;\n    width: 3rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n    margin: 0;\n    padding: 0;\n}\n\n.color-picker_picker-row_2qG96 .color-picker_picker-text_1KaXy {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n}\n\n[dir=\"ltr\"] .color-picker_picker-row_2qG96 .color-picker_picker-text_1KaXy {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n\n[dir=\"rtl\"] .color-picker_picker-row_2qG96 .color-picker_picker-text_1KaXy {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"clickable": "color-picker_clickable_3WU-R",
-	"swatch-row": "color-picker_swatch-row_1bfn0",
-	"swatchRow": "color-picker_swatch-row_1bfn0",
-	"row-header": "color-picker_row-header_1F-KU",
-	"rowHeader": "color-picker_row-header_1F-KU",
-	"label-name": "color-picker_label-name_3Ohhm",
-	"labelName": "color-picker_label-name_3Ohhm",
-	"divider": "color-picker_divider_1rrhm",
-	"swap-button": "color-picker_swap-button_1IHVI",
-	"swapButton": "color-picker_swap-button_1IHVI",
-	"swatches": "color-picker_swatches_1IxyF",
-	"swatch": "color-picker_swatch_v12lU",
-	"large-swatch-icon": "color-picker_large-swatch-icon_1jo3W",
-	"largeSwatchIcon": "color-picker_large-swatch-icon_1jo3W",
-	"large-swatch": "color-picker_large-swatch_VnybH",
-	"largeSwatch": "color-picker_large-swatch_VnybH",
-	"active-swatch": "color-picker_active-swatch_cOpcH",
-	"activeSwatch": "color-picker_active-swatch_cOpcH",
-	"swatch-icon": "color-picker_swatch-icon_sM_0v",
-	"swatchIcon": "color-picker_swatch-icon_sM_0v",
-	"inactive-gradient": "color-picker_inactive-gradient_1IOdw",
-	"inactiveGradient": "color-picker_inactive-gradient_1IOdw",
-	"gradient-picker-row": "color-picker_gradient-picker-row_2lMgC",
-	"gradientPickerRow": "color-picker_gradient-picker-row_2lMgC",
-	"gradient-swatches-row": "color-picker_gradient-swatches-row_2u1cR",
-	"gradientSwatchesRow": "color-picker_gradient-swatches-row_2u1cR",
-	"picker-row": "color-picker_picker-row_1ykn1",
-	"pickerRow": "color-picker_picker-row_1ykn1",
-	"picker-color": "color-picker_picker-color_3BecP",
-	"pickerColor": "color-picker_picker-color_3BecP",
-	"picker-text": "color-picker_picker-text_3udQu",
-	"pickerText": "color-picker_picker-text_3udQu"
+	"clickable": "color-picker_clickable_29wR3",
+	"swatch-row": "color-picker_swatch-row_1Q_s_",
+	"swatchRow": "color-picker_swatch-row_1Q_s_",
+	"row-header": "color-picker_row-header_173LQ",
+	"rowHeader": "color-picker_row-header_173LQ",
+	"label-name": "color-picker_label-name_17igY",
+	"labelName": "color-picker_label-name_17igY",
+	"divider": "color-picker_divider_3a3qR",
+	"swap-button": "color-picker_swap-button_FvctB",
+	"swapButton": "color-picker_swap-button_FvctB",
+	"swatches": "color-picker_swatches_3mHi4",
+	"swatch": "color-picker_swatch_1IYWN",
+	"large-swatch-icon": "color-picker_large-swatch-icon_E7mUt",
+	"largeSwatchIcon": "color-picker_large-swatch-icon_E7mUt",
+	"large-swatch": "color-picker_large-swatch_2mo4M",
+	"largeSwatch": "color-picker_large-swatch_2mo4M",
+	"active-swatch": "color-picker_active-swatch_3Mv7i",
+	"activeSwatch": "color-picker_active-swatch_3Mv7i",
+	"swatch-icon": "color-picker_swatch-icon_Z7osI",
+	"swatchIcon": "color-picker_swatch-icon_Z7osI",
+	"inactive-gradient": "color-picker_inactive-gradient_3We_i",
+	"inactiveGradient": "color-picker_inactive-gradient_3We_i",
+	"gradient-picker-row": "color-picker_gradient-picker-row_mnu4O",
+	"gradientPickerRow": "color-picker_gradient-picker-row_mnu4O",
+	"gradient-swatches-row": "color-picker_gradient-swatches-row_2vD4b",
+	"gradientSwatchesRow": "color-picker_gradient-swatches-row_2vD4b",
+	"picker-row": "color-picker_picker-row_2qG96",
+	"pickerRow": "color-picker_picker-row_2qG96",
+	"picker-color": "color-picker_picker-color_2anKE",
+	"pickerColor": "color-picker_picker-color_2anKE",
+	"picker-text": "color-picker_picker-text_1KaXy",
+	"pickerText": "color-picker_picker-text_1KaXy"
 };
 
 /***/ }),
@@ -81527,21 +81527,21 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3Ot4F {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-dropdown_EQ7ts line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_dash-array-context-menu_1SSOV {\n    display: block;\n}\n\n.dash-array-dropdown_table_3aijj {\n    width: 9rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_2Ajdm {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1lX6d {\n    font-size: 0.65rem !important;\n    width: 100%;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1lX6d::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1lX6d::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_1pXMe {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_EJUiU {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n    cursor: pointer;\n}\n\n.dash-array-dropdown_button_EJUiU > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.dash-array-dropdown_mod-unselect_3UUW2 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.dash-array-dropdown_dash-array-dropdown_1YwEI {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    height: 2rem;\n}\n\n.dash-array-dropdown_dash-array-dropdown_1YwEI line {\n    stroke: var(--paint-text-primary, #575e75);\n}\n\n.dash-array-dropdown_dash-array-context-menu_d1tnV {\n    display: block;\n}\n\n.dash-array-dropdown_table_1fWUz {\n    width: 9rem;\n    height: 12rem;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    margin: 8px 8px 0 8px;\n    overflow-y: auto;\n    background-color: var(--ui-primary);\n}\n\n.dash-array-dropdown_item_VbFHY {\n    padding: 0.25rem 0.5rem;\n    margin: 0.25rem;\n    height: 2rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: calc(0.5rem / 2);\n    background: var(--paint-input-background, #FFFFFF);\n}\n\n.dash-array-dropdown_readout_1rzJN {\n    font-size: 0.65rem !important;\n    width: 100%;\n    height: 16px;\n    text-align: center;\n    -moz-appearance: textfield;\n    font: inherit;\n    font-weight: bold;\n}\n\n.dash-array-dropdown_readout_1rzJN::-webkit-outer-spin-button,\n.dash-array-dropdown_readout_1rzJN::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n}\n\n.dash-array-dropdown_row_15Meq {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.dash-array-dropdown_button_QLXyQ {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    margin: 8px;\n    cursor: pointer;\n}\n\n.dash-array-dropdown_button_QLXyQ > img {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"mod-unselect": "dash-array-dropdown_mod-unselect_3Ot4F",
-	"modUnselect": "dash-array-dropdown_mod-unselect_3Ot4F",
-	"dash-array-dropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
-	"dashArrayDropdown": "dash-array-dropdown_dash-array-dropdown_EQ7ts",
-	"dash-array-context-menu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
-	"dashArrayContextMenu": "dash-array-dropdown_dash-array-context-menu_1SSOV",
-	"table": "dash-array-dropdown_table_3aijj",
-	"item": "dash-array-dropdown_item_2Ajdm",
-	"readout": "dash-array-dropdown_readout_1lX6d",
-	"row": "dash-array-dropdown_row_1pXMe",
-	"button": "dash-array-dropdown_button_EJUiU"
+	"mod-unselect": "dash-array-dropdown_mod-unselect_3UUW2",
+	"modUnselect": "dash-array-dropdown_mod-unselect_3UUW2",
+	"dash-array-dropdown": "dash-array-dropdown_dash-array-dropdown_1YwEI",
+	"dashArrayDropdown": "dash-array-dropdown_dash-array-dropdown_1YwEI",
+	"dash-array-context-menu": "dash-array-dropdown_dash-array-context-menu_d1tnV",
+	"dashArrayContextMenu": "dash-array-dropdown_dash-array-context-menu_d1tnV",
+	"table": "dash-array-dropdown_table_1fWUz",
+	"item": "dash-array-dropdown_item_VbFHY",
+	"readout": "dash-array-dropdown_readout_1rzJN",
+	"row": "dash-array-dropdown_row_15Meq",
+	"button": "dash-array-dropdown_button_QLXyQ"
 };
 
 /***/ }),
@@ -81558,17 +81558,17 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.dropdown_dropdown_2mp1p {\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: var(--paint-looks-secondary, #855CD6);\n    padding: .5rem;\n}\n\n.dropdown_mod-open_1K93r {\n    background-color: var(--paint-form-border, #E9EEF2);\n}\n\n.dropdown_dropdown-icon_3QKyU {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown_dropdown-icon_3QKyU {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown_dropdown-icon_3QKyU {\n    margin-right: .5rem;\n}\n\n.dropdown_mod-caret-up_2zd6p {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.dropdown_dropdown_yOinO {\n    border: 1px solid var(--paint-form-border, #E9EEF2);\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: var(--paint-looks-secondary, #855CD6);\n    padding: .5rem;\n}\n\n.dropdown_mod-open_3zJSJ {\n    background-color: var(--paint-form-border, #E9EEF2);\n}\n\n.dropdown_dropdown-icon_3W56D {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown_dropdown-icon_3W56D {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown_dropdown-icon_3W56D {\n    margin-right: .5rem;\n}\n\n.dropdown_mod-caret-up_lmROH {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"dropdown": "dropdown_dropdown_2mp1p",
-	"mod-open": "dropdown_mod-open_1K93r",
-	"modOpen": "dropdown_mod-open_1K93r",
-	"dropdown-icon": "dropdown_dropdown-icon_3QKyU",
-	"dropdownIcon": "dropdown_dropdown-icon_3QKyU",
-	"mod-caret-up": "dropdown_mod-caret-up_2zd6p",
-	"modCaretUp": "dropdown_mod-caret-up_2zd6p"
+	"dropdown": "dropdown_dropdown_yOinO",
+	"mod-open": "dropdown_mod-open_3zJSJ",
+	"modOpen": "dropdown_mod-open_3zJSJ",
+	"dropdown-icon": "dropdown_dropdown-icon_3W56D",
+	"dropdownIcon": "dropdown_dropdown-icon_3W56D",
+	"mod-caret-up": "dropdown_mod-caret-up_lmROH",
+	"modCaretUp": "dropdown_mod-caret-up_lmROH"
 };
 
 /***/ }),
@@ -81585,35 +81585,35 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_192N0 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_2KLYL {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_54CN7 {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_3d7b0 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_27c1u {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-start-border_4MWrk {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_27c1u.fixed-tools_mod-no-end-border_3vk1m {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_JkaPk {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_JkaPk {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3teHu {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_2Azhw {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_32Oly {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_2yK8h {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_32Oly:hover {\n    background: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.fixed-tools_mod-disabled_2yK8h:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_d411G {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_d411G {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_3BKYE {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_3exd3 {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_1XeDm {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_1XeDm {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_h_frl {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_2dq9z {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2dq9z {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2dq9z {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2dq9z:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2dq9z:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2dq9z:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2dq9z:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2dq9z.fixed-tools_mod-start-border_1SgX4 {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2dq9z.fixed-tools_mod-start-border_1SgX4 {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2dq9z.fixed-tools_mod-no-end-border_1GeaK {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2dq9z.fixed-tools_mod-no-end-border_1GeaK {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_1cr4a {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_1cr4a {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_3dX5G {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_i9oJI {\n    border-top: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n.fixed-tools_mod-menu-item_1syXh {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_3dvDX {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_1syXh:hover {\n    background: var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n.fixed-tools_mod-disabled_3dvDX:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_1W1tH {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_1W1tH {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"row": "fixed-tools_row_192N0",
-	"costume-input": "fixed-tools_costume-input_2KLYL",
-	"costumeInput": "fixed-tools_costume-input_2KLYL",
-	"mod-dashed-border": "fixed-tools_mod-dashed-border_54CN7",
-	"modDashedBorder": "fixed-tools_mod-dashed-border_54CN7",
-	"mod-unselect": "fixed-tools_mod-unselect_3d7b0",
-	"modUnselect": "fixed-tools_mod-unselect_3d7b0",
-	"button-group-button": "fixed-tools_button-group-button_27c1u",
-	"buttonGroupButton": "fixed-tools_button-group-button_27c1u",
-	"mod-start-border": "fixed-tools_mod-start-border_4MWrk",
-	"modStartBorder": "fixed-tools_mod-start-border_4MWrk",
-	"mod-no-end-border": "fixed-tools_mod-no-end-border_3vk1m",
-	"modNoEndBorder": "fixed-tools_mod-no-end-border_3vk1m",
-	"button-group-button-icon": "fixed-tools_button-group-button-icon_JkaPk",
-	"buttonGroupButtonIcon": "fixed-tools_button-group-button-icon_JkaPk",
-	"mod-context-menu": "fixed-tools_mod-context-menu_3teHu",
-	"modContextMenu": "fixed-tools_mod-context-menu_3teHu",
-	"mod-top-divider": "fixed-tools_mod-top-divider_2Azhw",
-	"modTopDivider": "fixed-tools_mod-top-divider_2Azhw",
-	"mod-menu-item": "fixed-tools_mod-menu-item_32Oly",
-	"modMenuItem": "fixed-tools_mod-menu-item_32Oly",
-	"mod-disabled": "fixed-tools_mod-disabled_2yK8h",
-	"modDisabled": "fixed-tools_mod-disabled_2yK8h",
-	"menu-item-icon": "fixed-tools_menu-item-icon_d411G",
-	"menuItemIcon": "fixed-tools_menu-item-icon_d411G"
+	"row": "fixed-tools_row_3BKYE",
+	"costume-input": "fixed-tools_costume-input_3exd3",
+	"costumeInput": "fixed-tools_costume-input_3exd3",
+	"mod-dashed-border": "fixed-tools_mod-dashed-border_1XeDm",
+	"modDashedBorder": "fixed-tools_mod-dashed-border_1XeDm",
+	"mod-unselect": "fixed-tools_mod-unselect_h_frl",
+	"modUnselect": "fixed-tools_mod-unselect_h_frl",
+	"button-group-button": "fixed-tools_button-group-button_2dq9z",
+	"buttonGroupButton": "fixed-tools_button-group-button_2dq9z",
+	"mod-start-border": "fixed-tools_mod-start-border_1SgX4",
+	"modStartBorder": "fixed-tools_mod-start-border_1SgX4",
+	"mod-no-end-border": "fixed-tools_mod-no-end-border_1GeaK",
+	"modNoEndBorder": "fixed-tools_mod-no-end-border_1GeaK",
+	"button-group-button-icon": "fixed-tools_button-group-button-icon_1cr4a",
+	"buttonGroupButtonIcon": "fixed-tools_button-group-button-icon_1cr4a",
+	"mod-context-menu": "fixed-tools_mod-context-menu_3dX5G",
+	"modContextMenu": "fixed-tools_mod-context-menu_3dX5G",
+	"mod-top-divider": "fixed-tools_mod-top-divider_i9oJI",
+	"modTopDivider": "fixed-tools_mod-top-divider_i9oJI",
+	"mod-menu-item": "fixed-tools_mod-menu-item_1syXh",
+	"modMenuItem": "fixed-tools_mod-menu-item_1syXh",
+	"mod-disabled": "fixed-tools_mod-disabled_3dvDX",
+	"modDisabled": "fixed-tools_mod-disabled_3dvDX",
+	"menu-item-icon": "fixed-tools_menu-item-icon_1W1tH",
+	"menuItemIcon": "fixed-tools_menu-item-icon_1W1tH"
 };
 
 /***/ }),
@@ -81630,22 +81630,22 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1dyzY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1dyzY:hover {\n    background: var(--paint-looks-secondary, #855CD6);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_1mbHa {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_font-context-menu_3dgaQ {\n    display: grid;\n    grid-template-columns: auto auto auto;\n}\n\n.font-dropdown_mod-unselect_j-wDj {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_QKz-V {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_2Xsc8 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_1wXq5 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    overflow-wrap: anywhere;\n}\n\n.font-dropdown_mod-menu-item_1wXq5:hover {\n    background: var(--paint-looks-secondary, #855CD6);\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_YZlr3 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_font-context-menu_3UR9G {\n    display: grid;\n    grid-template-columns: auto auto auto;\n}\n\n.font-dropdown_mod-unselect_33YJN {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_ueeH4 {\n    font-size: .8rem;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.font-dropdown_font-dropdown_3XyMU {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: var(--paint-text-primary, #575e75);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"mod-menu-item": "font-dropdown_mod-menu-item_1dyzY",
-	"modMenuItem": "font-dropdown_mod-menu-item_1dyzY",
-	"mod-context-menu": "font-dropdown_mod-context-menu_1mbHa",
-	"modContextMenu": "font-dropdown_mod-context-menu_1mbHa",
-	"font-context-menu": "font-dropdown_font-context-menu_3dgaQ",
-	"fontContextMenu": "font-dropdown_font-context-menu_3dgaQ",
-	"mod-unselect": "font-dropdown_mod-unselect_j-wDj",
-	"modUnselect": "font-dropdown_mod-unselect_j-wDj",
-	"displayed-font-name": "font-dropdown_displayed-font-name_QKz-V",
-	"displayedFontName": "font-dropdown_displayed-font-name_QKz-V",
-	"font-dropdown": "font-dropdown_font-dropdown_2Xsc8",
-	"fontDropdown": "font-dropdown_font-dropdown_2Xsc8"
+	"mod-menu-item": "font-dropdown_mod-menu-item_1wXq5",
+	"modMenuItem": "font-dropdown_mod-menu-item_1wXq5",
+	"mod-context-menu": "font-dropdown_mod-context-menu_YZlr3",
+	"modContextMenu": "font-dropdown_mod-context-menu_YZlr3",
+	"font-context-menu": "font-dropdown_font-context-menu_3UR9G",
+	"fontContextMenu": "font-dropdown_font-context-menu_3UR9G",
+	"mod-unselect": "font-dropdown_mod-unselect_33YJN",
+	"modUnselect": "font-dropdown_mod-unselect_33YJN",
+	"displayed-font-name": "font-dropdown_displayed-font-name_ueeH4",
+	"displayedFontName": "font-dropdown_displayed-font-name_ueeH4",
+	"font-dropdown": "font-dropdown_font-dropdown_3XyMU",
+	"fontDropdown": "font-dropdown_font-dropdown_3XyMU"
 };
 
 /***/ }),
@@ -81662,16 +81662,16 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_K5SYW {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW {\n    background: rgb(30, 30, 30);\n    border-color: rgba(255, 255, 255, 0.15);\n}\n\n.input_input-form_K5SYW:focus {\n    border-color: var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:hover {\n    border-color: #333;\n}\n\n.input_input-small_BxP6l {\n    width: 3rem;\n    text-align: center;\n}\n\n[theme=\"dark\"] .input_input-form_K5SYW:focus {\n    border-color: #333;\n}\n\n.input_input-small-range_300XG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_1Y0wX {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: var(--paint-text-primary, #575e75);\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: var(--paint-form-border, #E9EEF2);\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n[theme=\"dark\"] .input_input-form_1Y0wX {\n    background: rgb(30, 30, 30);\n    border-color: rgba(255, 255, 255, 0.15);\n}\n\n.input_input-form_1Y0wX:focus {\n    border-color: var(--paint-looks-secondary, #855CD6);\n    -webkit-box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n            box-shadow: 0 0 0 .25rem var(--paint-looks-transparent, hsla(260, 60%, 60%, 0.35));\n}\n\n[theme=\"dark\"] .input_input-form_1Y0wX:hover {\n    border-color: #333;\n}\n\n.input_input-small_2TzDc {\n    width: 3rem;\n    text-align: center;\n}\n\n[theme=\"dark\"] .input_input-form_1Y0wX:focus {\n    border-color: #333;\n}\n\n.input_input-small-range_3oRSG {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"input-form": "input_input-form_K5SYW",
-	"inputForm": "input_input-form_K5SYW",
-	"input-small": "input_input-small_BxP6l",
-	"inputSmall": "input_input-small_BxP6l",
-	"input-small-range": "input_input-small-range_300XG",
-	"inputSmallRange": "input_input-small-range_300XG"
+	"input-form": "input_input-form_1Y0wX",
+	"inputForm": "input_input-form_1Y0wX",
+	"input-small": "input_input-small_2TzDc",
+	"inputSmall": "input_input-small_2TzDc",
+	"input-small-range": "input_input-small-range_3oRSG",
+	"inputSmallRange": "input_input-small-range_3oRSG"
 };
 
 /***/ }),
@@ -81688,17 +81688,17 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.label_input-group_cypxi {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-group_cypxi + .label_input-group_cypxi {\n    margin-right: calc(2 * .25rem);\n}\n\n.label_disabled_1_RmV {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label_input-label_2IYQh, .label_input-label-secondary_3FnB7 {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-label_2IYQh, [dir=\"ltr\"] .label_input-label-secondary_3FnB7{\n    margin-left: calc(2 * .25rem);\n}\n\n.label_input-label_2IYQh {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label_input-group_cypxi {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label_input-label_2IYQh {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.label_input-group_3CkxU {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label_input-group_3CkxU + .label_input-group_3CkxU {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-group_3CkxU + .label_input-group_3CkxU {\n    margin-right: calc(2 * .25rem);\n}\n\n.label_disabled_Elfkw {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label_input-label_1s1ft, .label_input-label-secondary_1wKlv {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label_input-label_1s1ft, [dir=\"ltr\"] .label_input-label-secondary_1wKlv{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-label_1s1ft, [dir=\"ltr\"] .label_input-label-secondary_1wKlv{\n    margin-left: calc(2 * .25rem);\n}\n\n.label_input-label_1s1ft {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label_input-group_3CkxU {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label_input-label_1s1ft {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"input-group": "label_input-group_cypxi",
-	"inputGroup": "label_input-group_cypxi",
-	"disabled": "label_disabled_1_RmV",
-	"input-label": "label_input-label_2IYQh",
-	"inputLabel": "label_input-label_2IYQh",
-	"input-label-secondary": "label_input-label-secondary_3FnB7",
-	"inputLabelSecondary": "label_input-label-secondary_3FnB7"
+	"input-group": "label_input-group_3CkxU",
+	"inputGroup": "label_input-group_3CkxU",
+	"disabled": "label_disabled_Elfkw",
+	"input-label": "label_input-label_1s1ft",
+	"inputLabel": "label_input-label_1s1ft",
+	"input-label-secondary": "label_input-label-secondary_1wKlv",
+	"inputLabelSecondary": "label_input-label-secondary_1wKlv"
 };
 
 /***/ }),
@@ -81715,13 +81715,13 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".slider_container_1b8Ni {\n    margin: 8px;\n    height: 22px;\n    width: 150px;\n    position: relative;\n    outline: none;\n    border-radius: 11px;\n    margin-bottom: 16px;\n}\n\n.slider_last_PeseH {\n    margin-bottom: 4px;\n}\n\n.slider_handle_QuW1g {\n    left: 100px;\n    width: 26px;\n    height: 26px;\n    margin-top: -2px;\n    position: absolute;\n    background-color: white;\n    border-radius: 100%;\n    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n            box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n    -ms-touch-action: none;\n        touch-action: none;\n}\n", ""]);
+exports.push([module.i, ".slider_container_o2aIb {\n    margin: 8px;\n    height: 22px;\n    width: 150px;\n    position: relative;\n    outline: none;\n    border-radius: 11px;\n    margin-bottom: 16px;\n}\n\n.slider_last_10jvO {\n    margin-bottom: 4px;\n}\n\n.slider_handle_3f0xk {\n    left: 100px;\n    width: 26px;\n    height: 26px;\n    margin-top: -2px;\n    position: absolute;\n    background-color: white;\n    border-radius: 100%;\n    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n            box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n    -ms-touch-action: none;\n        touch-action: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "slider_container_1b8Ni",
-	"last": "slider_last_PeseH",
-	"handle": "slider_handle_QuW1g"
+	"container": "slider_container_o2aIb",
+	"last": "slider_last_10jvO",
+	"handle": "slider_handle_3f0xk"
 };
 
 /***/ }),
@@ -81738,13 +81738,13 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.input-group_input-group_2GIWd {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .input-group_input-group_2GIWd + .input-group_input-group_2GIWd {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .input-group_input-group_2GIWd + .input-group_input-group_2GIWd {\n    margin-right: calc(2 * .25rem);\n}\n\n.input-group_disabled_2ud9L {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.input-group_input-group_plJaJ {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .input-group_input-group_plJaJ + .input-group_input-group_plJaJ {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .input-group_input-group_plJaJ + .input-group_input-group_plJaJ {\n    margin-right: calc(2 * .25rem);\n}\n\n.input-group_disabled_2APzw {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"input-group": "input-group_input-group_2GIWd",
-	"inputGroup": "input-group_input-group_2GIWd",
-	"disabled": "input-group_disabled_2ud9L"
+	"input-group": "input-group_input-group_plJaJ",
+	"inputGroup": "input-group_input-group_plJaJ",
+	"disabled": "input-group_disabled_2APzw"
 };
 
 /***/ }),
@@ -81761,16 +81761,16 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button_mod-edit-field_3PjcQ {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button_edit-field-icon_3PW5V {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button_edit-field-title_386D1 {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button_mod-edit-field_1bXYC {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button_edit-field-icon_3j-Pf {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button_edit-field-title_1ZoEV {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"mod-edit-field": "labeled-icon-button_mod-edit-field_3PjcQ",
-	"modEditField": "labeled-icon-button_mod-edit-field_3PjcQ",
-	"edit-field-icon": "labeled-icon-button_edit-field-icon_3PW5V",
-	"editFieldIcon": "labeled-icon-button_edit-field-icon_3PW5V",
-	"edit-field-title": "labeled-icon-button_edit-field-title_386D1",
-	"editFieldTitle": "labeled-icon-button_edit-field-title_386D1"
+	"mod-edit-field": "labeled-icon-button_mod-edit-field_1bXYC",
+	"modEditField": "labeled-icon-button_mod-edit-field_1bXYC",
+	"edit-field-icon": "labeled-icon-button_edit-field-icon_3j-Pf",
+	"editFieldIcon": "labeled-icon-button_edit-field-icon_3j-Pf",
+	"edit-field-title": "labeled-icon-button_edit-field-title_1ZoEV",
+	"editFieldTitle": "labeled-icon-button_edit-field-title_1ZoEV"
 };
 
 /***/ }),
@@ -81787,12 +81787,12 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".loupe_eye-dropper_1X95V {\n    position: absolute;\n    top: 0;\n    left: 0;\n    border-radius: 100%;\n    border: 1px solid #222;\n}\n\n[data-paint-theme=\"dark\"] .loupe_eye-dropper_1X95V {\n    border-color: #888;\n}\n", ""]);
+exports.push([module.i, ".loupe_eye-dropper_3gTfc {\n    position: absolute;\n    top: 0;\n    left: 0;\n    border-radius: 100%;\n    border: 1px solid #222;\n}\n\n[data-paint-theme=\"dark\"] .loupe_eye-dropper_3gTfc {\n    border-color: #888;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"eye-dropper": "loupe_eye-dropper_1X95V",
-	"eyeDropper": "loupe_eye-dropper_1X95V"
+	"eye-dropper": "loupe_eye-dropper_3gTfc",
+	"eyeDropper": "loupe_eye-dropper_3gTfc"
 };
 
 /***/ }),
@@ -81809,36 +81809,36 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_1E5qt {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3oefQ {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_3oefQ {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_2PWVn {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_2kFDJ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_1PCmc {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_28XZK {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3iBKV {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3G70N {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3G70N:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_3Yp7m {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_3Yp7m {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n/* TODO replace this when we add a brush selector dropdown */\n\n.mode-tools_button-group-button_39ogs {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_39ogs {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_39ogs {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_39ogs:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_39ogs:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_39ogs:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_39ogs:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_39ogs.mode-tools_mod-start-border_3BGYi {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_39ogs.mode-tools_mod-start-border_3BGYi {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_39ogs.mode-tools_mod-no-end-border_3lvR4 {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_39ogs.mode-tools_mod-no-end-border_3lvR4 {\n    border-left: none;\n}\n\n.mode-tools_button-group-button-icon_3GQg8 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_2nFfV {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_23c7i {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[theme=\"dark\"] .mode-tools_mode-tools-icon_23c7i {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_T8CR_ {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_T8CR_ {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_1C9fA {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_dropdown-max-item-list_3hTLw {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 340px;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n}\n\n.mode-tools_flex-centerer_3-jx2 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.mode-tools_drop-item-shape-tool-menu_3D8it {\n    width: 500px;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n}\n\n.mode-tools_drop-item-shape-tool_3dSY3 {\n    width: 50px;\n    -webkit-transition: -webkit-filter 0.3s ease;\n    transition: -webkit-filter 0.3s ease;\n    transition: filter 0.3s ease;\n    transition: filter 0.3s ease, -webkit-filter 0.3s ease;\n    -webkit-filter: saturate(1);\n            filter: saturate(1);\n}\n\n.mode-tools_drop-item-shape-tool_3dSY3:hover {\n    -webkit-filter: saturate(8);\n            filter: saturate(8);\n}\n\n.mode-tools_drop-item-shape-tool-label_BMwB7 {\n    width: 100%;\n    font-size: 12px;\n    border-top: 1px solid rgba(0, 0, 0, 0.25);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[theme=\"dark\"] .mode-tools_drop-item-shape-tool-label_BMwB7 {\n    border-top: 1px solid rgba(255, 255, 255, 0.25);\n    border-bottom: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n/* TODO replace this when we add a brush selector dropdown */\n\n.mode-tools_button-group-button_3SZpl {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_3SZpl {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_3SZpl {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_3SZpl:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_3SZpl:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_3SZpl:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_3SZpl:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_3SZpl.mode-tools_mod-start-border_1OQP7 {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_3SZpl.mode-tools_mod-start-border_1OQP7 {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"] .mode-tools_button-group-button_3SZpl.mode-tools_mod-no-end-border_cfQfR {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .mode-tools_button-group-button_3SZpl.mode-tools_mod-no-end-border_cfQfR {\n    border-left: none;\n}\n\n.mode-tools_button-group-button-icon_1uk3U {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"mode-tools": "mode-tools_mode-tools_1E5qt",
-	"modeTools": "mode-tools_mode-tools_1E5qt",
-	"mode-tools-icon": "mode-tools_mode-tools-icon_3oefQ",
-	"modeToolsIcon": "mode-tools_mode-tools-icon_3oefQ",
-	"mod-dashed-border": "mode-tools_mod-dashed-border_2PWVn",
-	"modDashedBorder": "mode-tools_mod-dashed-border_2PWVn",
-	"mod-labeled-icon-height": "mode-tools_mod-labeled-icon-height_2kFDJ",
-	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_2kFDJ",
-	"dropdown-max-item-list": "mode-tools_dropdown-max-item-list_1PCmc",
-	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_1PCmc",
-	"flex-centerer": "mode-tools_flex-centerer_28XZK",
-	"flexCenterer": "mode-tools_flex-centerer_28XZK",
-	"drop-item-shape-tool-menu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
-	"dropItemShapeToolMenu": "mode-tools_drop-item-shape-tool-menu_3iBKV",
-	"drop-item-shape-tool": "mode-tools_drop-item-shape-tool_3G70N",
-	"dropItemShapeTool": "mode-tools_drop-item-shape-tool_3G70N",
-	"drop-item-shape-tool-label": "mode-tools_drop-item-shape-tool-label_3Yp7m",
-	"dropItemShapeToolLabel": "mode-tools_drop-item-shape-tool-label_3Yp7m",
-	"button-group-button": "mode-tools_button-group-button_39ogs",
-	"buttonGroupButton": "mode-tools_button-group-button_39ogs",
-	"mod-start-border": "mode-tools_mod-start-border_3BGYi",
-	"modStartBorder": "mode-tools_mod-start-border_3BGYi",
-	"mod-no-end-border": "mode-tools_mod-no-end-border_3lvR4",
-	"modNoEndBorder": "mode-tools_mod-no-end-border_3lvR4",
-	"button-group-button-icon": "mode-tools_button-group-button-icon_3GQg8",
-	"buttonGroupButtonIcon": "mode-tools_button-group-button-icon_3GQg8"
+	"mode-tools": "mode-tools_mode-tools_2nFfV",
+	"modeTools": "mode-tools_mode-tools_2nFfV",
+	"mode-tools-icon": "mode-tools_mode-tools-icon_23c7i",
+	"modeToolsIcon": "mode-tools_mode-tools-icon_23c7i",
+	"mod-dashed-border": "mode-tools_mod-dashed-border_T8CR_",
+	"modDashedBorder": "mode-tools_mod-dashed-border_T8CR_",
+	"mod-labeled-icon-height": "mode-tools_mod-labeled-icon-height_1C9fA",
+	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_1C9fA",
+	"dropdown-max-item-list": "mode-tools_dropdown-max-item-list_3hTLw",
+	"dropdownMaxItemList": "mode-tools_dropdown-max-item-list_3hTLw",
+	"flex-centerer": "mode-tools_flex-centerer_3-jx2",
+	"flexCenterer": "mode-tools_flex-centerer_3-jx2",
+	"drop-item-shape-tool-menu": "mode-tools_drop-item-shape-tool-menu_3D8it",
+	"dropItemShapeToolMenu": "mode-tools_drop-item-shape-tool-menu_3D8it",
+	"drop-item-shape-tool": "mode-tools_drop-item-shape-tool_3dSY3",
+	"dropItemShapeTool": "mode-tools_drop-item-shape-tool_3dSY3",
+	"drop-item-shape-tool-label": "mode-tools_drop-item-shape-tool-label_BMwB7",
+	"dropItemShapeToolLabel": "mode-tools_drop-item-shape-tool-label_BMwB7",
+	"button-group-button": "mode-tools_button-group-button_3SZpl",
+	"buttonGroupButton": "mode-tools_button-group-button_3SZpl",
+	"mod-start-border": "mode-tools_mod-start-border_1OQP7",
+	"modStartBorder": "mode-tools_mod-start-border_1OQP7",
+	"mod-no-end-border": "mode-tools_mod-no-end-border_cfQfR",
+	"modNoEndBorder": "mode-tools_mod-no-end-border_cfQfR",
+	"button-group-button-icon": "mode-tools_button-group-button-icon_1uk3U",
+	"buttonGroupButtonIcon": "mode-tools_button-group-button-icon_1uk3U"
 };
 
 /***/ }),
@@ -81855,53 +81855,53 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3mcqk {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n[theme=\"dark\"] .paint-editor_editor-container_3mcqk {\n    color-scheme: dark;\n}\n\n.paint-editor_row_oGw4Z {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_XIsRw {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_1oxJ7 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_oGw4Z + .paint-editor_row_oGw4Z {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_2Gdme {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_TCDxZ {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_2V2si {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_2V2si.paint-editor_mod-start-border_BWQ3S {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_2V2si.paint-editor_mod-no-end-border_2HPuW {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_1umM4 {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] .paint-editor_button-group-button-icon_1umM4 {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.paint-editor_mod-mode-tools_3BF19 {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_MNwMW {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_XwwmY {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_yBxFI {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n[theme=\"dark\"] .paint-editor_canvas-container_yBxFI {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.paint-editor_mode-selector_8xIj1 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_2GbPM {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3JSD5 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_3qGlY {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_OA7-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: var(--paint-looks-secondary, #855CD6);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_p8QAh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3mcqk {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_8xIj1 {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_XwwmY {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_2Oupu {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_12Gpr {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_1WLch {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n[theme=\"dark\"] .paint-editor_editor-container_1WLch {\n    color-scheme: dark;\n}\n\n.paint-editor_row_1oLDq {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_2wxS3 {\n    border-bottom: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_25164 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_1oLDq + .paint-editor_row_1oLDq {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_1TL5q {\n    border-right: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_1TL5q {\n    border-left: 1px dashed var(--paint-ui-pane-border, #D9D9D9);\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_CFdqo {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_1I1tm {\n    display: inline-block;\n    border: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1I1tm {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1I1tm {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1I1tm:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1I1tm:first-of-type {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1I1tm:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1I1tm:first-of-type {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1I1tm.paint-editor_mod-start-border_2s74t {\n    border-left: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1I1tm.paint-editor_mod-start-border_2s74t {\n    border-right: 1px solid var(--paint-ui-pane-border, #D9D9D9);\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_1I1tm.paint-editor_mod-no-end-border_1z1E8 {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_1I1tm.paint-editor_mod-no-end-border_1z1E8 {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_10kVn {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] .paint-editor_button-group-button-icon_10kVn {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.paint-editor_mod-mode-tools_2Ihob {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_3PBm_ {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_3PBm_ {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_1Rqwy {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_x2D0a {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n[theme=\"dark\"] .paint-editor_canvas-container_x2D0a {\n    border-color: var(--paint-form-border, #E9EEF2);\n}\n\n.paint-editor_mode-selector_28iiQ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_OC6Ks {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_3f_OB {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_16wq3 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_keW7B {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: var(--paint-looks-secondary, #855CD6);\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_pfbtY {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_pfbtY {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_1WLch {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_28iiQ {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_1Rqwy {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_27Ci4 {\n    color: black;\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_1na_o {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"editor-container": "paint-editor_editor-container_3mcqk",
-	"editorContainer": "paint-editor_editor-container_3mcqk",
-	"row": "paint-editor_row_oGw4Z",
-	"editor-container-top": "paint-editor_editor-container-top_XIsRw",
-	"editorContainerTop": "paint-editor_editor-container-top_XIsRw",
-	"top-align-row": "paint-editor_top-align-row_1oxJ7",
-	"topAlignRow": "paint-editor_top-align-row_1oxJ7",
-	"mod-dashed-border": "paint-editor_mod-dashed-border_2Gdme",
-	"modDashedBorder": "paint-editor_mod-dashed-border_2Gdme",
-	"mod-labeled-icon-height": "paint-editor_mod-labeled-icon-height_TCDxZ",
-	"modLabeledIconHeight": "paint-editor_mod-labeled-icon-height_TCDxZ",
-	"button-group-button": "paint-editor_button-group-button_2V2si",
-	"buttonGroupButton": "paint-editor_button-group-button_2V2si",
-	"mod-start-border": "paint-editor_mod-start-border_BWQ3S",
-	"modStartBorder": "paint-editor_mod-start-border_BWQ3S",
-	"mod-no-end-border": "paint-editor_mod-no-end-border_2HPuW",
-	"modNoEndBorder": "paint-editor_mod-no-end-border_2HPuW",
-	"button-group-button-icon": "paint-editor_button-group-button-icon_1umM4",
-	"buttonGroupButtonIcon": "paint-editor_button-group-button-icon_1umM4",
-	"mod-mode-tools": "paint-editor_mod-mode-tools_3BF19",
-	"modModeTools": "paint-editor_mod-mode-tools_3BF19",
-	"mod-margin-after": "paint-editor_mod-margin-after_MNwMW",
-	"modMarginAfter": "paint-editor_mod-margin-after_MNwMW",
-	"controls-container": "paint-editor_controls-container_XwwmY",
-	"controlsContainer": "paint-editor_controls-container_XwwmY",
-	"canvas-container": "paint-editor_canvas-container_yBxFI",
-	"canvasContainer": "paint-editor_canvas-container_yBxFI",
-	"mode-selector": "paint-editor_mode-selector_8xIj1",
-	"modeSelector": "paint-editor_mode-selector_8xIj1",
-	"zoom-controls": "paint-editor_zoom-controls_2GbPM",
-	"zoomControls": "paint-editor_zoom-controls_2GbPM",
-	"color-picker-wrapper": "paint-editor_color-picker-wrapper_3JSD5",
-	"colorPickerWrapper": "paint-editor_color-picker-wrapper_3JSD5",
-	"canvas-controls": "paint-editor_canvas-controls_3qGlY",
-	"canvasControls": "paint-editor_canvas-controls_3qGlY",
-	"bitmap-button": "paint-editor_bitmap-button_OA7-q",
-	"bitmapButton": "paint-editor_bitmap-button_OA7-q",
-	"bitmap-button-icon": "paint-editor_bitmap-button-icon_p8QAh",
-	"bitmapButtonIcon": "paint-editor_bitmap-button-icon_p8QAh",
-	"text-area": "paint-editor_text-area_2Oupu",
-	"textArea": "paint-editor_text-area_2Oupu",
-	"button-text": "paint-editor_button-text_12Gpr",
-	"buttonText": "paint-editor_button-text_12Gpr"
+	"editor-container": "paint-editor_editor-container_1WLch",
+	"editorContainer": "paint-editor_editor-container_1WLch",
+	"row": "paint-editor_row_1oLDq",
+	"editor-container-top": "paint-editor_editor-container-top_2wxS3",
+	"editorContainerTop": "paint-editor_editor-container-top_2wxS3",
+	"top-align-row": "paint-editor_top-align-row_25164",
+	"topAlignRow": "paint-editor_top-align-row_25164",
+	"mod-dashed-border": "paint-editor_mod-dashed-border_1TL5q",
+	"modDashedBorder": "paint-editor_mod-dashed-border_1TL5q",
+	"mod-labeled-icon-height": "paint-editor_mod-labeled-icon-height_CFdqo",
+	"modLabeledIconHeight": "paint-editor_mod-labeled-icon-height_CFdqo",
+	"button-group-button": "paint-editor_button-group-button_1I1tm",
+	"buttonGroupButton": "paint-editor_button-group-button_1I1tm",
+	"mod-start-border": "paint-editor_mod-start-border_2s74t",
+	"modStartBorder": "paint-editor_mod-start-border_2s74t",
+	"mod-no-end-border": "paint-editor_mod-no-end-border_1z1E8",
+	"modNoEndBorder": "paint-editor_mod-no-end-border_1z1E8",
+	"button-group-button-icon": "paint-editor_button-group-button-icon_10kVn",
+	"buttonGroupButtonIcon": "paint-editor_button-group-button-icon_10kVn",
+	"mod-mode-tools": "paint-editor_mod-mode-tools_2Ihob",
+	"modModeTools": "paint-editor_mod-mode-tools_2Ihob",
+	"mod-margin-after": "paint-editor_mod-margin-after_3PBm_",
+	"modMarginAfter": "paint-editor_mod-margin-after_3PBm_",
+	"controls-container": "paint-editor_controls-container_1Rqwy",
+	"controlsContainer": "paint-editor_controls-container_1Rqwy",
+	"canvas-container": "paint-editor_canvas-container_x2D0a",
+	"canvasContainer": "paint-editor_canvas-container_x2D0a",
+	"mode-selector": "paint-editor_mode-selector_28iiQ",
+	"modeSelector": "paint-editor_mode-selector_28iiQ",
+	"zoom-controls": "paint-editor_zoom-controls_OC6Ks",
+	"zoomControls": "paint-editor_zoom-controls_OC6Ks",
+	"color-picker-wrapper": "paint-editor_color-picker-wrapper_3f_OB",
+	"colorPickerWrapper": "paint-editor_color-picker-wrapper_3f_OB",
+	"canvas-controls": "paint-editor_canvas-controls_16wq3",
+	"canvasControls": "paint-editor_canvas-controls_16wq3",
+	"bitmap-button": "paint-editor_bitmap-button_keW7B",
+	"bitmapButton": "paint-editor_bitmap-button_keW7B",
+	"bitmap-button-icon": "paint-editor_bitmap-button-icon_pfbtY",
+	"bitmapButtonIcon": "paint-editor_bitmap-button-icon_pfbtY",
+	"text-area": "paint-editor_text-area_27Ci4",
+	"textArea": "paint-editor_text-area_27Ci4",
+	"button-text": "paint-editor_button-text_1na_o",
+	"buttonText": "paint-editor_button-text_1na_o"
 };
 
 /***/ }),
@@ -81918,22 +81918,22 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".scrollable-canvas_vertical-scrollbar_23W8S, .scrollable-canvas_horizontal-scrollbar_2o6o3 {\n    background: rgba(190, 190, 190, 0.8);\n    border-radius: calc(8px / 2);\n    width: 100%;\n    height: 100%;\n}\n.scrollable-canvas_vertical-scrollbar-wrapper_3_zlW {\n    position: absolute;\n    width: calc(8px + 4px);\n    right: 0;\n    top: 4px;\n    height: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_horizontal-scrollbar-wrapper_1hf2E {\n    position: absolute;\n    height: calc(8px + 4px);\n    left: 4px;\n    bottom: 0;\n    width: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_1TFQM, .scrollable-canvas_horizontal-scrollbar-hitbox_2XN5H {\n    position: absolute;\n    cursor: pointer;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_1TFQM {\n    width: calc(8px + 4px);\n    padding-right: 4px;\n}\n.scrollable-canvas_horizontal-scrollbar-hitbox_2XN5H {\n    height: calc(8px + 4px);\n    padding-bottom: 4px;\n}\n", ""]);
+exports.push([module.i, ".scrollable-canvas_vertical-scrollbar_lbD_c, .scrollable-canvas_horizontal-scrollbar_2w6OD {\n    background: rgba(190, 190, 190, 0.8);\n    border-radius: calc(8px / 2);\n    width: 100%;\n    height: 100%;\n}\n.scrollable-canvas_vertical-scrollbar-wrapper_2uh7v {\n    position: absolute;\n    width: calc(8px + 4px);\n    right: 0;\n    top: 4px;\n    height: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_horizontal-scrollbar-wrapper_2bYwc {\n    position: absolute;\n    height: calc(8px + 4px);\n    left: 4px;\n    bottom: 0;\n    width: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_U-amh, .scrollable-canvas_horizontal-scrollbar-hitbox_lWTHU {\n    position: absolute;\n    cursor: pointer;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_U-amh {\n    width: calc(8px + 4px);\n    padding-right: 4px;\n}\n.scrollable-canvas_horizontal-scrollbar-hitbox_lWTHU {\n    height: calc(8px + 4px);\n    padding-bottom: 4px;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"vertical-scrollbar": "scrollable-canvas_vertical-scrollbar_23W8S",
-	"verticalScrollbar": "scrollable-canvas_vertical-scrollbar_23W8S",
-	"horizontal-scrollbar": "scrollable-canvas_horizontal-scrollbar_2o6o3",
-	"horizontalScrollbar": "scrollable-canvas_horizontal-scrollbar_2o6o3",
-	"vertical-scrollbar-wrapper": "scrollable-canvas_vertical-scrollbar-wrapper_3_zlW",
-	"verticalScrollbarWrapper": "scrollable-canvas_vertical-scrollbar-wrapper_3_zlW",
-	"horizontal-scrollbar-wrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_1hf2E",
-	"horizontalScrollbarWrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_1hf2E",
-	"vertical-scrollbar-hitbox": "scrollable-canvas_vertical-scrollbar-hitbox_1TFQM",
-	"verticalScrollbarHitbox": "scrollable-canvas_vertical-scrollbar-hitbox_1TFQM",
-	"horizontal-scrollbar-hitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_2XN5H",
-	"horizontalScrollbarHitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_2XN5H"
+	"vertical-scrollbar": "scrollable-canvas_vertical-scrollbar_lbD_c",
+	"verticalScrollbar": "scrollable-canvas_vertical-scrollbar_lbD_c",
+	"horizontal-scrollbar": "scrollable-canvas_horizontal-scrollbar_2w6OD",
+	"horizontalScrollbar": "scrollable-canvas_horizontal-scrollbar_2w6OD",
+	"vertical-scrollbar-wrapper": "scrollable-canvas_vertical-scrollbar-wrapper_2uh7v",
+	"verticalScrollbarWrapper": "scrollable-canvas_vertical-scrollbar-wrapper_2uh7v",
+	"horizontal-scrollbar-wrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_2bYwc",
+	"horizontalScrollbarWrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_2bYwc",
+	"vertical-scrollbar-hitbox": "scrollable-canvas_vertical-scrollbar-hitbox_U-amh",
+	"verticalScrollbarHitbox": "scrollable-canvas_vertical-scrollbar-hitbox_U-amh",
+	"horizontal-scrollbar-hitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_lWTHU",
+	"horizontalScrollbarHitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_lWTHU"
 };
 
 /***/ }),
@@ -81950,16 +81950,16 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_8BmWU {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e {\n    background-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.tool-select-base_mod-tool-select_8BmWU:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2pPoi {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] img.tool-select-base_tool-select-icon_2pPoi {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.tool-select-base_mod-tool-select_8BmWU.tool-select-base_is-selected_2pt0e .tool-select-base_tool-select-icon_2pPoi {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_8BmWU {\n        margin: 0;\n    }\n\n    img.tool-select-base_tool-select-icon_2pPoi {\n        width: 1rem;\n        height: 1rem;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_1iD-h {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_1iD-h.tool-select-base_is-selected_3x4kL {\n    background-color: var(--paint-looks-secondary, #855CD6);\n}\n\n.tool-select-base_mod-tool-select_1iD-h:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_tJ-rr {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n[theme=\"dark\"] img.tool-select-base_tool-select-icon_tJ-rr {\n    -webkit-filter: brightness(1.7);\n            filter: brightness(1.7);\n}\n\n.tool-select-base_mod-tool-select_1iD-h.tool-select-base_is-selected_3x4kL .tool-select-base_tool-select-icon_tJ-rr {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_1iD-h {\n        margin: 0;\n    }\n\n    img.tool-select-base_tool-select-icon_tJ-rr {\n        width: 1rem;\n        height: 1rem;\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"mod-tool-select": "tool-select-base_mod-tool-select_8BmWU",
-	"modToolSelect": "tool-select-base_mod-tool-select_8BmWU",
-	"is-selected": "tool-select-base_is-selected_2pt0e",
-	"isSelected": "tool-select-base_is-selected_2pt0e",
-	"tool-select-icon": "tool-select-base_tool-select-icon_2pPoi",
-	"toolSelectIcon": "tool-select-base_tool-select-icon_2pPoi"
+	"mod-tool-select": "tool-select-base_mod-tool-select_1iD-h",
+	"modToolSelect": "tool-select-base_mod-tool-select_1iD-h",
+	"is-selected": "tool-select-base_is-selected_3x4kL",
+	"isSelected": "tool-select-base_is-selected_3x4kL",
+	"tool-select-icon": "tool-select-base_tool-select-icon_tJ-rr",
+	"toolSelectIcon": "tool-select-base_tool-select-icon_tJ-rr"
 };
 
 /***/ }),
@@ -81976,11 +81976,11 @@ exports = module.exports = __webpack_require__(/*! ../../../../css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".tw-color-readout_readout_2gMxr {\n  width: 28px;\n  height: 16px;\n  text-align: center;\n  -moz-appearance: textfield;\n  font: inherit;\n  font-weight: bold;\n}\n[dir=\"ltr\"] .tw-color-readout_readout_2gMxr {\n  margin-left: 10px;\n}\n[dir=\"rtl\"] .tw-color-readout_readout_2gMxr {\n  margin-right: 10px;\n}\n.tw-color-readout_readout_2gMxr::-webkit-outer-spin-button,\n.tw-color-readout_readout_2gMxr::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n", ""]);
+exports.push([module.i, ".tw-color-readout_readout_3RxI3 {\n  width: 28px;\n  height: 16px;\n  text-align: center;\n  -moz-appearance: textfield;\n  font: inherit;\n  font-weight: bold;\n}\n[dir=\"ltr\"] .tw-color-readout_readout_3RxI3 {\n  margin-left: 10px;\n}\n[dir=\"rtl\"] .tw-color-readout_readout_3RxI3 {\n  margin-right: 10px;\n}\n.tw-color-readout_readout_3RxI3::-webkit-outer-spin-button,\n.tw-color-readout_readout_3RxI3::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"readout": "tw-color-readout_readout_2gMxr"
+	"readout": "tw-color-readout_readout_3RxI3"
 };
 
 /***/ }),
@@ -81997,18 +81997,18 @@ exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".confirmation_base_HS71i {\n    background-color: hsla(194, 100%, 50%, 0.5);\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    z-index: 999999;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.confirmation_promptBox_1k7rG {\n    width: 540px;\n    height: 380px;\n    background-color: white;\n    border-radius: 8px;\n    outline-color: hsla(0, 0%, 100%, 0.25);\n    outline-width: 4px;\n    outline-style: solid;\n    overflow: hidden;\n    position: relative;\n    color: black;\n}\n\n.confirmation_header_1uEKd {\n    width: 100%;\n    height: 3.125em;\n    background-color: hsla(194, 100%, 50%, 1);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: white;\n}\n\n.confirmation_buttonRow_1VOAw {\n    height: 2.125em;\n    position: absolute;\n    right: 0px;\n    bottom: 0px;\n    margin: 16px;\n}\n\n.confirmation_promptButton_3nvgb {\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    padding: 0.75rem 1rem;\n    font-weight: 600;\n    font-size: 0.85rem;\n    border: 0px;\n    border-radius: 4px;\n}\n\n.confirmation_promptButton_3nvgb:focus {\n    outline-color: hsla(194, 100%, 50%, 0.35);\n    outline-width: 4px;\n    outline-style: solid;\n}\n\n.confirmation_accept_12kXJ {\n    background-color: hsla(194, 100%, 50%, 1);\n    color: white;\n}\n\n.confirmation_deny_Ony24 {\n    background-color: white;\n    outline-width: 1px;\n    outline-style: solid;\n    outline-color: rgba(0, 0, 0, 0.15);\n    color: black;\n}\n\n.confirmation_filePicker_O0lu2 {\n    border: 0;\n    background-color: hsla(194, 100%, 50%, 1);\n    border-radius: 4px;\n    font-weight: 600;\n    color: white;\n    font-size: 0.85rem;\n    padding: 0.75rem 1rem;\n    cursor: pointer;\n}", ""]);
+exports.push([module.i, ".confirmation_base_1ZiqO {\n    background-color: hsla(194, 100%, 50%, 0.5);\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    z-index: 999999;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n.confirmation_promptBox_328Tf {\n    width: 540px;\n    height: 380px;\n    background-color: white;\n    border-radius: 8px;\n    outline-color: hsla(0, 0%, 100%, 0.25);\n    outline-width: 4px;\n    outline-style: solid;\n    overflow: hidden;\n    position: relative;\n    color: black;\n}\n\n.confirmation_header_1KkFp {\n    width: 100%;\n    height: 3.125em;\n    background-color: hsla(194, 100%, 50%, 1);\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: white;\n}\n\n.confirmation_buttonRow_1cQer {\n    height: 2.125em;\n    position: absolute;\n    right: 0px;\n    bottom: 0px;\n    margin: 16px;\n}\n\n.confirmation_promptButton_2BC5y {\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    padding: 0.75rem 1rem;\n    font-weight: 600;\n    font-size: 0.85rem;\n    border: 0px;\n    border-radius: 4px;\n}\n\n.confirmation_promptButton_2BC5y:focus {\n    outline-color: hsla(194, 100%, 50%, 0.35);\n    outline-width: 4px;\n    outline-style: solid;\n}\n\n.confirmation_accept_1m0BN {\n    background-color: hsla(194, 100%, 50%, 1);\n    color: white;\n}\n\n.confirmation_deny_3LIud {\n    background-color: white;\n    outline-width: 1px;\n    outline-style: solid;\n    outline-color: rgba(0, 0, 0, 0.15);\n    color: black;\n}\n\n.confirmation_filePicker_14XSy {\n    border: 0;\n    background-color: hsla(194, 100%, 50%, 1);\n    border-radius: 4px;\n    font-weight: 600;\n    color: white;\n    font-size: 0.85rem;\n    padding: 0.75rem 1rem;\n    cursor: pointer;\n}", ""]);
 
 // exports
 exports.locals = {
-	"base": "confirmation_base_HS71i",
-	"promptBox": "confirmation_promptBox_1k7rG",
-	"header": "confirmation_header_1uEKd",
-	"buttonRow": "confirmation_buttonRow_1VOAw",
-	"promptButton": "confirmation_promptButton_3nvgb",
-	"accept": "confirmation_accept_12kXJ",
-	"deny": "confirmation_deny_Ony24",
-	"filePicker": "confirmation_filePicker_O0lu2"
+	"base": "confirmation_base_1ZiqO",
+	"promptBox": "confirmation_promptBox_328Tf",
+	"header": "confirmation_header_1KkFp",
+	"buttonRow": "confirmation_buttonRow_1cQer",
+	"promptButton": "confirmation_promptButton_2BC5y",
+	"accept": "confirmation_accept_1m0BN",
+	"deny": "confirmation_deny_3LIud",
+	"filePicker": "confirmation_filePicker_14XSy"
 };
 
 /***/ }),
@@ -82025,12 +82025,12 @@ exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".paper-canvas_paper-canvas_11n7M {\n    top: 1px; /* leave room for the border */\n    left: 1px;\n    width: calc(100% - 2px);\n    height: calc(100% - 2px);\n    margin: auto;\n    position: absolute;\n    background-color: #D9E3F2;\n}\n[data-paint-theme=\"dark\"] .paper-canvas_paper-canvas_11n7M {\n    background-color: #222;\n}\n", ""]);
+exports.push([module.i, ".paper-canvas_paper-canvas_1y588 {\n    top: 1px; /* leave room for the border */\n    left: 1px;\n    width: calc(100% - 2px);\n    height: calc(100% - 2px);\n    margin: auto;\n    position: absolute;\n    background-color: #D9E3F2;\n}\n[data-paint-theme=\"dark\"] .paper-canvas_paper-canvas_1y588 {\n    background-color: #222;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"paper-canvas": "paper-canvas_paper-canvas_11n7M",
-	"paperCanvas": "paper-canvas_paper-canvas_11n7M"
+	"paper-canvas": "paper-canvas_paper-canvas_1y588",
+	"paperCanvas": "paper-canvas_paper-canvas_1y588"
 };
 
 /***/ }),
@@ -82474,7 +82474,7 @@ const extensions = [
         name: "Wheel Scroll",
         id: "Den4ik12WheelScroll",
         description: "Blocks for detecting mouse wheel scrolling.",
-        code: "Den4ik-12/WheelScroll 1.2.js",
+        code: "Den4ik-12/WheelScroll.js",
         banner: "Den4ik-12/WheelScroll.svg",
         creator: "Den4ik-12",
     },
