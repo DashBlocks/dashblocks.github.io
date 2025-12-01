@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -492,37 +492,112 @@ module.exports = createLog;
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js ***!
-  \***********************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4!./node_modules/scratch-vm/src/extension-support/extension-worker.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {const context = __webpack_require__(/*! ./tw-extension-worker-context */ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
-const jQuery = __webpack_require__(/*! ./tw-jquery-shim */ "./node_modules/scratch-vm/src/extension-support/tw-jquery-shim.js");
-global.$ = jQuery;
-global.jQuery = jQuery;
-const id = window.__WRAPPED_IFRAME_ID__;
-context.isWorker = false;
-context.centralDispatchService = {
-  postMessage(message, transfer) {
-    const data = {
-      vmIframeId: id,
-      message
-    };
-    if (transfer) {
-      window.parent.postMessage(data, '*', transfer);
-    } else {
-      window.parent.postMessage(data, '*');
-    }
+/* WEBPACK VAR INJECTION */(function(global) {/* eslint-env worker */
+
+const ScratchCommon = __webpack_require__(/*! ./tw-extension-api-common */ "./node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js");
+const createScratchX = __webpack_require__(/*! ./tw-scratchx-compatibility-layer */ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js");
+const dispatch = __webpack_require__(/*! ../dispatch/worker-dispatch */ "./node_modules/scratch-vm/src/dispatch/worker-dispatch.js");
+const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const {
+  isWorker
+} = __webpack_require__(/*! ./tw-extension-worker-context */ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
+const createTranslate = __webpack_require__(/*! ./tw-l10n */ "./node_modules/scratch-vm/src/extension-support/tw-l10n.js");
+const translate = createTranslate(null);
+const loadScripts = url => {
+  if (isWorker) {
+    importScripts(url);
+  } else {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.onload = () => resolve();
+      script.onerror = () => {
+        reject(new Error("Error in sandboxed script: ".concat(url, ". Check the console for more information.")));
+      };
+      script.src = url;
+      document.body.appendChild(script);
+    });
   }
 };
-__webpack_require__(/*! ./extension-worker */ "./node_modules/scratch-vm/src/extension-support/extension-worker.js");
-window.parent.postMessage({
-  vmIframeId: id,
-  ready: true
-}, '*');
+class ExtensionWorker {
+  constructor() {
+    this.nextExtensionId = 0;
+    this.initialRegistrations = [];
+    this.firstRegistrationPromise = new Promise(resolve => {
+      this.firstRegistrationCallback = resolve;
+    });
+    dispatch.waitForConnection.then(() => {
+      dispatch.call('extensions', 'allocateWorker').then(async x => {
+        const [id, extension] = x;
+        this.workerId = id;
+        try {
+          await loadScripts(extension);
+          await this.firstRegistrationPromise;
+          const initialRegistrations = this.initialRegistrations;
+          this.initialRegistrations = null;
+          Promise.all(initialRegistrations).then(() => dispatch.call('extensions', 'onWorkerInit', id));
+        } catch (e) {
+          log.error(e);
+          dispatch.call('extensions', 'onWorkerInit', id, "".concat(e));
+        }
+      });
+    });
+    this.extensions = [];
+  }
+  register(extensionObject) {
+    const extensionId = this.nextExtensionId++;
+    this.extensions.push(extensionObject);
+    const serviceName = "extension.".concat(this.workerId, ".").concat(extensionId);
+    const promise = dispatch.setService(serviceName, extensionObject).then(() => dispatch.call('extensions', 'registerExtensionService', serviceName));
+    if (this.initialRegistrations) {
+      this.firstRegistrationCallback();
+      this.initialRegistrations.push(promise);
+    }
+    return promise;
+  }
+}
+global.Scratch = global.Scratch || {};
+Object.assign(global.Scratch, ScratchCommon, {
+  canFetch: () => Promise.resolve(true),
+  fetch: function (_fetch) {
+    function fetch(_x, _x2) {
+      return _fetch.apply(this, arguments);
+    }
+    fetch.toString = function () {
+      return _fetch.toString();
+    };
+    return fetch;
+  }((url, options) => fetch(url, options)),
+  canOpenWindow: () => Promise.resolve(false),
+  openWindow: () => Promise.reject(new Error('Scratch.openWindow not supported in sandboxed extensions')),
+  canRedirect: () => Promise.resolve(false),
+  redirect: () => Promise.reject(new Error('Scratch.redirect not supported in sandboxed extensions')),
+  canRecordAudio: () => Promise.resolve(false),
+  canRecordVideo: () => Promise.resolve(false),
+  canReadClipboard: () => Promise.resolve(false),
+  canNotify: () => Promise.resolve(false),
+  canGeolocate: () => Promise.resolve(false),
+  canEmbed: () => Promise.resolve(false),
+  canDownload: () => Promise.resolve(false),
+  download: () => Promise.reject(new Error('Scratch.download not supported in sandboxed extensions')),
+  translate
+});
+
+/**
+ * Expose only specific parts of the worker to extensions.
+ */
+const extensionWorker = new ExtensionWorker();
+global.Scratch.extensions = {
+  isDash: true,
+  register: extensionWorker.register.bind(extensionWorker)
+};
+global.ScratchExtensions = createScratchX(global.Scratch);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
@@ -2803,116 +2878,6 @@ module.exports = BlockType;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/extension-worker.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/scratch-vm/src/extension-support/extension-worker.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {/* eslint-env worker */
-
-const ScratchCommon = __webpack_require__(/*! ./tw-extension-api-common */ "./node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js");
-const createScratchX = __webpack_require__(/*! ./tw-scratchx-compatibility-layer */ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js");
-const dispatch = __webpack_require__(/*! ../dispatch/worker-dispatch */ "./node_modules/scratch-vm/src/dispatch/worker-dispatch.js");
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
-const {
-  isWorker
-} = __webpack_require__(/*! ./tw-extension-worker-context */ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
-const createTranslate = __webpack_require__(/*! ./tw-l10n */ "./node_modules/scratch-vm/src/extension-support/tw-l10n.js");
-const translate = createTranslate(null);
-const loadScripts = url => {
-  if (isWorker) {
-    importScripts(url);
-  } else {
-    return new Promise((resolve, reject) => {
-      const script = document.createElement('script');
-      script.onload = () => resolve();
-      script.onerror = () => {
-        reject(new Error("Error in sandboxed script: ".concat(url, ". Check the console for more information.")));
-      };
-      script.src = url;
-      document.body.appendChild(script);
-    });
-  }
-};
-class ExtensionWorker {
-  constructor() {
-    this.nextExtensionId = 0;
-    this.initialRegistrations = [];
-    this.firstRegistrationPromise = new Promise(resolve => {
-      this.firstRegistrationCallback = resolve;
-    });
-    dispatch.waitForConnection.then(() => {
-      dispatch.call('extensions', 'allocateWorker').then(async x => {
-        const [id, extension] = x;
-        this.workerId = id;
-        try {
-          await loadScripts(extension);
-          await this.firstRegistrationPromise;
-          const initialRegistrations = this.initialRegistrations;
-          this.initialRegistrations = null;
-          Promise.all(initialRegistrations).then(() => dispatch.call('extensions', 'onWorkerInit', id));
-        } catch (e) {
-          log.error(e);
-          dispatch.call('extensions', 'onWorkerInit', id, "".concat(e));
-        }
-      });
-    });
-    this.extensions = [];
-  }
-  register(extensionObject) {
-    const extensionId = this.nextExtensionId++;
-    this.extensions.push(extensionObject);
-    const serviceName = "extension.".concat(this.workerId, ".").concat(extensionId);
-    const promise = dispatch.setService(serviceName, extensionObject).then(() => dispatch.call('extensions', 'registerExtensionService', serviceName));
-    if (this.initialRegistrations) {
-      this.firstRegistrationCallback();
-      this.initialRegistrations.push(promise);
-    }
-    return promise;
-  }
-}
-global.Scratch = global.Scratch || {};
-Object.assign(global.Scratch, ScratchCommon, {
-  canFetch: () => Promise.resolve(true),
-  fetch: function (_fetch) {
-    function fetch(_x, _x2) {
-      return _fetch.apply(this, arguments);
-    }
-    fetch.toString = function () {
-      return _fetch.toString();
-    };
-    return fetch;
-  }((url, options) => fetch(url, options)),
-  canOpenWindow: () => Promise.resolve(false),
-  openWindow: () => Promise.reject(new Error('Scratch.openWindow not supported in sandboxed extensions')),
-  canRedirect: () => Promise.resolve(false),
-  redirect: () => Promise.reject(new Error('Scratch.redirect not supported in sandboxed extensions')),
-  canRecordAudio: () => Promise.resolve(false),
-  canRecordVideo: () => Promise.resolve(false),
-  canReadClipboard: () => Promise.resolve(false),
-  canNotify: () => Promise.resolve(false),
-  canGeolocate: () => Promise.resolve(false),
-  canEmbed: () => Promise.resolve(false),
-  canDownload: () => Promise.resolve(false),
-  download: () => Promise.reject(new Error('Scratch.download not supported in sandboxed extensions')),
-  translate
-});
-
-/**
- * Expose only specific parts of the worker to extensions.
- */
-const extensionWorker = new ExtensionWorker();
-global.Scratch.extensions = {
-  isDash: true,
-  register: extensionWorker.register.bind(extensionWorker)
-};
-global.ScratchExtensions = createScratchX(global.Scratch);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
 /***/ "./node_modules/scratch-vm/src/extension-support/target-type.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/target-type.js ***!
@@ -3101,116 +3066,6 @@ external.evalAndReturn = async (url, returnExpression) => {
   return fn();
 };
 module.exports = external;
-
-/***/ }),
-
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-jquery-shim.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/scratch-vm/src/extension-support/tw-jquery-shim.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {/**
- * @fileoverview
- * Many ScratchX extensions require jQuery to do things like loading scripts and making requests.
- * The real jQuery is pretty large and we'd rather not bring in everything, so this file reimplements
- * small stubs of a few jQuery methods.
- * It's just supposed to be enough to make existing ScratchX extensions work, nothing more.
- */
-
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
-const jQuery = () => {
-  throw new Error('Not implemented');
-};
-jQuery.getScript = (src, callback) => {
-  const script = document.createElement('script');
-  script.src = src;
-  if (callback) {
-    // We don't implement callback arguments.
-    script.onload = () => callback();
-  }
-  document.body.appendChild(script);
-};
-
-/**
- * @param {Record<string, any>|undefined} obj
- * @returns {URLSearchParams}
- */
-const objectToQueryString = obj => {
-  const params = new URLSearchParams();
-  if (obj) {
-    for (const key of Object.keys(obj)) {
-      params.set(key, obj[key]);
-    }
-  }
-  return params;
-};
-let jsonpCallback = 0;
-jQuery.ajax = async (arg1, arg2) => {
-  let options = {};
-  if (arg1 && arg2) {
-    options = arg2;
-    options.url = arg1;
-  } else if (arg1) {
-    options = arg1;
-  }
-  const urlParameters = objectToQueryString(options.data);
-  const getFinalURL = () => {
-    const query = urlParameters.toString();
-    let url = options.url;
-    if (query) {
-      url += "?".concat(query);
-    }
-    // Forcibly upgrade all HTTP requests to HTTPS so that they don't error on HTTPS sites
-    // All the extensions we care about work fine with this
-    if (url.startsWith('http://')) {
-      url = url.replace('http://', 'https://');
-    }
-    return url;
-  };
-  const successCallback = result => {
-    if (options.success) {
-      options.success(result);
-    }
-  };
-  const errorCallback = error => {
-    log.error(error);
-    if (options.error) {
-      // The error object we provide here might not match what jQuery provides but it's enough to
-      // prevent extensions from throwing errors trying to access properties.
-      options.error(error);
-    }
-  };
-  try {
-    if (options.dataType === 'jsonp') {
-      const callbackName = "_jsonp_callback".concat(jsonpCallback++);
-      global[callbackName] = data => {
-        delete global[callbackName];
-        successCallback(data);
-      };
-      const callbackParameterName = options.jsonp || 'callback';
-      urlParameters.set(callbackParameterName, callbackName);
-      jQuery.getScript(getFinalURL());
-      return;
-    }
-    if (options.dataType === 'script') {
-      jQuery.getScript(getFinalURL(), successCallback);
-      return;
-    }
-    const res = await fetch(getFinalURL(), {
-      headers: options.headers
-    });
-    // dataType defaults to "Intelligent Guess (xml, json, script, or html)"
-    // It happens that all the ScratchX extensions we care about either set dataType to "json" or
-    // leave it blank and implicitly request JSON, so this works good enough for now.
-    successCallback(await res.json());
-  } catch (e) {
-    errorCallback(e);
-  }
-};
-module.exports = jQuery;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -4143,4 +3998,4 @@ module.exports = g;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=extension worker.js.map
+//# sourceMappingURL=extension-worker.4e2e23d4d96542212c12.js.map
