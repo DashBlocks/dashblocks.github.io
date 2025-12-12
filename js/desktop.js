@@ -187,7 +187,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    background: var(--page-background);\n    color: var(--page-foreground);\n}\n\na {\n    color: var(--link-color);\n}\n\n.desktop_main_2WsvE section {\n    max-width: 900px;\n    margin: auto;\n    margin-bottom: 30px;\n}\n\n.desktop_header-container_h9wPT {\n    color: white;\n    background-color: var(--looks-secondary);\n    padding: 20px 0;\n    text-align: center;\n    margin-bottom: 30px;\n}\n\n.desktop_header-text_1Hh3K {\n\n}\n\nbutton {\n    padding: 0.5rem;\n    border: 0.0625rem solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n}\n\nbutton:hover {\n    border-color: var(--looks-secondary);\n}", ""]);
+exports.push([module.i, "/* overridden by src/lib/themes/guiHelpers.js */\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    background: var(--page-background);\n    color: var(--page-foreground);\n}\n\na {\n    color: var(--link-color);\n}\n\n.desktop_main_2WsvE section {\n    max-width: 900px;\n    margin: auto;\n    margin-bottom: 30px;\n}\n\n.desktop_header-container_h9wPT {\n    color: white;\n    background-color: var(--looks-secondary);\n    padding: 20px 0;\n    text-align: center;\n    margin-bottom: 30px;\n}\n\n.desktop_header-text_1Hh3K {\n\n}\n\n.desktop_download-list_1qvTw {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 0.5rem;\n}\n\n.desktop_screenshot_r4sya {\n    filter: drop-shadow(0 0 1rem var(--ui-black-transparent));\n    border-radius: 0.5rem;\n    background-color: var(--page-background);\n    width: 100%;\n}\n\nbutton {\n    padding: 0.5rem;\n    border: 0.0625rem solid var(--ui-black-transparent);\n    border-radius: 0.5rem;\n}\n\nbutton:hover {\n    border-color: var(--looks-secondary);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -195,7 +195,10 @@ exports.locals = {
 	"header-container": "desktop_header-container_h9wPT",
 	"headerContainer": "desktop_header-container_h9wPT",
 	"header-text": "desktop_header-text_1Hh3K",
-	"headerText": "desktop_header-text_1Hh3K"
+	"headerText": "desktop_header-text_1Hh3K",
+	"download-list": "desktop_download-list_1qvTw",
+	"downloadList": "desktop_download-list_1qvTw",
+	"screenshot": "desktop_screenshot_r4sya"
 };
 
 /***/ }),
@@ -1338,7 +1341,7 @@ const BLOCKS_MAP = {
 };
 let themeObjectsCreated = 0;
 class Theme {
-  constructor(accent, gui, blocks) {
+  constructor(accent, gui, blocks, wallpaper) {
     // do not modify these directly
     /** @readonly */
     this.id = ++themeObjectsCreated;
@@ -1348,14 +1351,21 @@ class Theme {
     this.gui = Object.prototype.hasOwnProperty.call(GUI_MAP, gui) ? gui : GUI_DEFAULT;
     /** @readonly */
     this.blocks = Object.prototype.hasOwnProperty.call(BLOCKS_MAP, blocks) ? blocks : BLOCKS_DEFAULT;
+    /** @readonly */
+    this.wallpaper = wallpaper || {
+      url: null,
+      opaque: 0.6
+    };
   }
   set(what, to) {
     if (what === 'accent') {
-      return new Theme(to, this.gui, this.blocks);
+      return new Theme(to, this.gui, this.blocks, this.wallpaper);
     } else if (what === 'gui') {
-      return new Theme(this.accent, to, this.blocks);
+      return new Theme(this.accent, to, this.blocks, this.wallpaper);
     } else if (what === 'blocks') {
-      return new Theme(this.accent, this.gui, to);
+      return new Theme(this.accent, this.gui, to, this.wallpaper);
+    } else if (what === 'wallpaper') {
+      return new Theme(this.accent, this.gui, this.blocks, to);
     }
     throw new Error("Unknown theme property: ".concat(what));
   }
@@ -1366,7 +1376,13 @@ class Theme {
     return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].guiColors, GUI_MAP[this.gui].guiColors, _gui_light__WEBPACK_IMPORTED_MODULE_7__["guiColors"]);
   }
   getBlockColors() {
-    return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].blockColors, GUI_MAP[this.gui].blockColors, BLOCKS_MAP[this.blocks].colors);
+    let blockColors = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].blockColors, GUI_MAP[this.gui].blockColors, BLOCKS_MAP[this.blocks].colors);
+    if (this.wallpaper.url !== null) {
+      blockColors = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({
+        workspace: blockColors.workspace + Math.round(this.wallpaper.opaque * 255).toString(16).padStart(2, 0)
+      }, blockColors);
+    }
+    return blockColors;
   }
   getExtensions() {
     return BLOCKS_MAP[this.blocks].extensions;
@@ -1385,9 +1401,9 @@ class Theme {
   }
 }
 _Theme = Theme;
-_defineProperty(Theme, "light", new _Theme(ACCENT_DEFAULT, GUI_LIGHT, BLOCKS_DEFAULT));
-_defineProperty(Theme, "dark", new _Theme(ACCENT_DEFAULT, GUI_DARK, BLOCKS_DEFAULT));
-_defineProperty(Theme, "highContrast", new _Theme(ACCENT_DEFAULT, GUI_DEFAULT, BLOCKS_HIGH_CONTRAST));
+_defineProperty(Theme, "light", new _Theme(ACCENT_DEFAULT, GUI_LIGHT, BLOCKS_DEFAULT, null));
+_defineProperty(Theme, "dark", new _Theme(ACCENT_DEFAULT, GUI_DARK, BLOCKS_DEFAULT, null));
+_defineProperty(Theme, "highContrast", new _Theme(ACCENT_DEFAULT, GUI_DEFAULT, BLOCKS_HIGH_CONTRAST, null));
 
 
 /***/ }),
@@ -1459,7 +1475,7 @@ const detectTheme = () => {
     }
     const parsed = JSON.parse(local);
     // Any invalid values in storage will be handled by Theme itself
-    return new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks);
+    return new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks, parsed.wallpaper || null);
   } catch (e) {
     // ignore
   }
@@ -1481,6 +1497,9 @@ const persistTheme = theme => {
   // custom blocks are managed by addon at runtime, don't save here
   if (theme.blocks !== systemPreferences.blocks && theme.blocks !== ___WEBPACK_IMPORTED_MODULE_0__["BLOCKS_CUSTOM"]) {
     nonDefaultSettings.blocks = theme.blocks;
+  }
+  if (theme.wallpaper.url !== null) {
+    nonDefaultSettings.wallpaper = theme.wallpaper;
   }
   if (Object.keys(nonDefaultSettings).length === 0) {
     try {
@@ -1712,6 +1731,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_lib_brand__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _lib_themes_guiHelpers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../lib/themes/guiHelpers */ "./src/lib/themes/guiHelpers.js");
 /* harmony import */ var _lib_themes_themePersistance__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/themes/themePersistance */ "./src/lib/themes/themePersistance.js");
+/* harmony import */ var _screenshot_light_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./screenshot-light.png */ "./src/playground/desktop/screenshot-light.png");
+/* harmony import */ var _screenshot_light_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_screenshot_light_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _screenshot_dark_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./screenshot-dark.png */ "./src/playground/desktop/screenshot-dark.png");
+/* harmony import */ var _screenshot_dark_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_screenshot_dark_png__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -1719,32 +1742,74 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const version = '1.0.0';
+
+
+const version = '1.1.0';
 
 /* eslint-disable react/jsx-no-literals */
 
-Object(_lib_themes_guiHelpers__WEBPACK_IMPORTED_MODULE_5__["applyGuiColors"])(Object(_lib_themes_themePersistance__WEBPACK_IMPORTED_MODULE_6__["detectTheme"])());
+const theme = Object(_lib_themes_themePersistance__WEBPACK_IMPORTED_MODULE_6__["detectTheme"])();
+Object(_lib_themes_guiHelpers__WEBPACK_IMPORTED_MODULE_5__["applyGuiColors"])(theme);
 const Desktop = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
   className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.main
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
   className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.headerContainer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
   className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.headerText
-}, _lib_brand__WEBPACK_IMPORTED_MODULE_4__["APP_NAME"], " Desktop")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dash as a desktop app.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Download (v", version, "):")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-  className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.downloadButton,
+}, _lib_brand__WEBPACK_IMPORTED_MODULE_4__["APP_NAME"], " Desktop")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dash as a desktop app."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.screenshot,
+  loading: "lazy",
+  src: theme.isDark() ? _screenshot_dark_png__WEBPACK_IMPORTED_MODULE_8___default.a : _screenshot_light_png__WEBPACK_IMPORTED_MODULE_7___default.a
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Download (v", version, "):")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Windows:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.downloadList
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
   onClick: () => {
     window.open("https://github.com/DashBlocks/desktop/releases/download/v".concat(version, "/Dash.Desktop.Setup.").concat(version, ".exe"), '_blank', 'noreferrer');
   }
-}, "Download for Windows (x64)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+}, "Download for Windows (64-bit)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Linux:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.downloadList
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
   onClick: () => {
     window.open("https://github.com/DashBlocks/desktop/releases/download/v".concat(version, "/Dash.Desktop-").concat(version, ".AppImage"), '_blank', 'noreferrer');
   }
-}, "Download for AppImage (Linux)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+}, "Download for AppImage"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
   onClick: () => {
     window.open("https://github.com/DashBlocks/desktop/releases/download/v".concat(version, "/Dash.Desktop-").concat(version, "-arm64.AppImage"), '_blank', 'noreferrer');
   }
-}, "Download for AppImage x64 (Linux)")));
+}, "Download for AppImage (ARM 64-bit)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "macOS:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: _desktop_css__WEBPACK_IMPORTED_MODULE_3___default.a.downloadList
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  onClick: () => {
+    window.open("https://github.com/DashBlocks/desktop/releases/download/v".concat(version, "/Dash.Desktop-").concat(version, ".dmg"), '_blank', 'noreferrer');
+  }
+}, "Download for macOS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  onClick: () => {
+    window.open("https://github.com/DashBlocks/desktop/releases/download/v".concat(version, "/Dash.Desktop-").concat(version, "-arm64.dmg"), '_blank', 'noreferrer');
+  }
+}, "Download for macOS (ARM 64-bit)"))));
 Object(_app_target__WEBPACK_IMPORTED_MODULE_2__["default"])(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Desktop, null));
+
+/***/ }),
+
+/***/ "./src/playground/desktop/screenshot-dark.png":
+/*!****************************************************!*\
+  !*** ./src/playground/desktop/screenshot-dark.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/49f5a3248030302a7f573497d20885d5.png";
+
+/***/ }),
+
+/***/ "./src/playground/desktop/screenshot-light.png":
+/*!*****************************************************!*\
+  !*** ./src/playground/desktop/screenshot-light.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/f458a864064215d4c1f59bc21ccae5d7.png";
 
 /***/ })
 

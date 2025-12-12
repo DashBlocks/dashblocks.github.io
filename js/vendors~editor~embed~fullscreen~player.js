@@ -82430,7 +82430,7 @@ const extensions = [
         name: "Playgama Bridge SDK",
         id: "playgama",
         description: "Blocks that initialize and interact with the Playgama Bridge SDK. Official.",
-        code: "https://github.com/Playgama/bridge-scratch/releases/download/v1.25.0-preview/PlaygamaBridge.js",
+        code: "https://github.com/playgama/bridge-scratch/releases/latest/download/PlaygamaBridge.js",
         // banner: "Playgama/PlaygamaBridge.svg",
         creator: ['Playgama', 'sergei-playgama', 'DBDev-IT'],
         isGitHub: true,
@@ -146934,6 +146934,8 @@ const SoundPlayer = __webpack_require__(/*! ./SoundPlayer */ "./node_modules/scr
 const EffectChain = __webpack_require__(/*! ./effects/EffectChain */ "./node_modules/scratch-audio/src/effects/EffectChain.js");
 const PanEffect = __webpack_require__(/*! ./effects/PanEffect */ "./node_modules/scratch-audio/src/effects/PanEffect.js");
 const PitchEffect = __webpack_require__(/*! ./effects/PitchEffect */ "./node_modules/scratch-audio/src/effects/PitchEffect.js");
+const LowPassEffect = __webpack_require__(/*! ./effects/LowPassEffect */ "./node_modules/scratch-audio/src/effects/LowPassEffect.js");
+const HighPassEffect = __webpack_require__(/*! ./effects/HighPassEffect */ "./node_modules/scratch-audio/src/effects/HighPassEffect.js");
 const VolumeEffect = __webpack_require__(/*! ./effects/VolumeEffect */ "./node_modules/scratch-audio/src/effects/VolumeEffect.js");
 const SoundBank = __webpack_require__(/*! ./SoundBank */ "./node_modules/scratch-audio/src/SoundBank.js");
 
@@ -147004,7 +147006,7 @@ class AudioEngine {
      * Array of effects applied in order, left to right,
      * Left is closest to input, Right is closest to output
      */
-    this.effects = [PanEffect, PitchEffect, VolumeEffect];
+    this.effects = [PanEffect, PitchEffect, LowPassEffect, HighPassEffect, VolumeEffect];
     StartAudioContext(this.audioContext);
   }
 
@@ -147023,7 +147025,8 @@ class AudioEngine {
   get EFFECT_NAMES() {
     return {
       pitch: 'pitch',
-      pan: 'pan'
+      pan: 'pan',
+      highpass: 'highpass'
     };
   }
 
@@ -148156,6 +148159,134 @@ class EffectChain {
   }
 }
 module.exports = EffectChain;
+
+/***/ }),
+
+/***/ "./node_modules/scratch-audio/src/effects/HighPassEffect.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/scratch-audio/src/effects/HighPassEffect.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const Effect = __webpack_require__(/*! ./Effect */ "./node_modules/scratch-audio/src/effects/Effect.js");
+
+/**
+ * A high pass filter effect, which cutoff frequency of the sound
+ */
+class HighPassEffect extends Effect {
+  /**
+   * Return the name of the effect.
+   * @type {string}
+   */
+  get name() {
+    return 'highpass';
+  }
+
+  /**
+   * Initialize the Effect.
+   * Effects start out uninitialized. Then initialize when they are first set
+   * with some value.
+   * @throws {Error} throws when left unimplemented
+   */
+  initialize() {
+    const audioContext = this.audioEngine.audioContext;
+    this.inputNode = audioContext.createBiquadFilter();
+    this.outputNode = audioContext.createGain();
+    this.inputNode.type = 'highpass';
+    this.inputNode.frequency.value = 0;
+    this.inputNode.connect(this.outputNode);
+    this.initialized = true;
+  }
+
+  /**
+   * Set the effect value
+   * @param {number} value - the new value to set the effect to
+   */
+  _set(value) {
+    this.value = value;
+    this.inputNode.frequency.value = value;
+  }
+
+  /**
+   * Clean up and disconnect audio nodes.
+   */
+  dispose() {
+    if (!this.initialized) {
+      return;
+    }
+    this.inputNode.disconnect();
+    this.inputNode = null;
+    this.outputNode = null;
+    this.target = null;
+    this.initialized = false;
+  }
+}
+module.exports = HighPassEffect;
+
+/***/ }),
+
+/***/ "./node_modules/scratch-audio/src/effects/LowPassEffect.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/scratch-audio/src/effects/LowPassEffect.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const Effect = __webpack_require__(/*! ./Effect */ "./node_modules/scratch-audio/src/effects/Effect.js");
+
+/**
+ * A low pass filter effect, which cutoff frequency of the sound
+ */
+class LowPassEffect extends Effect {
+  /**
+   * Return the name of the effect.
+   * @type {string}
+   */
+  get name() {
+    return 'lowpass';
+  }
+
+  /**
+   * Initialize the Effect.
+   * Effects start out uninitialized. Then initialize when they are first set
+   * with some value.
+   * @throws {Error} throws when left unimplemented
+   */
+  initialize() {
+    const audioContext = this.audioEngine.audioContext;
+    this.inputNode = audioContext.createBiquadFilter();
+    this.outputNode = audioContext.createGain();
+    this.inputNode.type = 'lowpass';
+    this.inputNode.frequency.value = 24000;
+    this.inputNode.connect(this.outputNode);
+    this.initialized = true;
+  }
+
+  /**
+   * Set the effect value
+   * @param {number} value - the new value to set the effect to
+   */
+  _set(value) {
+    this.value = value;
+    this.inputNode.frequency.value = value;
+  }
+
+  /**
+   * Clean up and disconnect audio nodes.
+   */
+  dispose() {
+    if (!this.initialized) {
+      return;
+    }
+    this.inputNode.disconnect();
+    this.inputNode = null;
+    this.outputNode = null;
+    this.target = null;
+    this.initialized = false;
+  }
+}
+module.exports = LowPassEffect;
 
 /***/ }),
 
@@ -194881,7 +195012,11 @@ class Scratch3LooksBlocks {
     });
   }
   think(args, util) {
-    this.runtime.emit(Scratch3LooksBlocks.SAY_OR_THINK, util.target, 'think', args.MESSAGE);
+    this._think(args.MESSAGE, util.target);
+  }
+  _think(message, target) {
+    // used by compiler
+    this.runtime.emit(Scratch3LooksBlocks.SAY_OR_THINK, target, 'think', message);
   }
   thinkforsecs(args, util) {
     this.think(args, util);
@@ -196379,7 +196514,9 @@ class Scratch3SoundBlocks {
     return {
       effects: {
         pitch: 0,
-        pan: 0
+        pan: 0,
+        highpass: 0,
+        lowpass: 24000
       }
     };
   }
@@ -196430,7 +196567,17 @@ class Scratch3SoundBlocks {
       pan: {
         min: -100,
         max: 100
-      } // 100% left to 100% right
+      },
+      // 100% left to 100% right
+      highpass: {
+        min: 0,
+        max: 24000
+      },
+      // 0 to 24000 Hz (half of sampleRate in AudioContext)
+      lowpass: {
+        min: 0,
+        max: 24000
+      } // 0 to 24000 Hz (half of sampleRate in AudioContext)
     };
   }
 
@@ -196446,6 +196593,16 @@ class Scratch3SoundBlocks {
       pan: {
         min: -100,
         max: 100
+      },
+      // No reason for these to go beyond default limits
+      highpass: {
+        min: 0,
+        max: 24000
+      },
+      // No reason for these to go beyond default limits
+      lowpass: {
+        min: 0,
+        max: 24000
       }
     };
   }
@@ -196815,7 +196972,7 @@ module.exports = new CompatibilityLayerBlockUtility();
 
 // Please keep these lists alphabetical.
 
-const stacked = ['event_open', 'looks_changestretchby', 'looks_hideallsprites', 'looks_say', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_think', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_playfrom', 'sound_playfromuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stop', 'sound_stopallsounds'];
+const stacked = ['event_open', 'looks_changestretchby', 'looks_hideallsprites', 'looks_sayforsecs', 'looks_setstretchto', 'looks_switchbackdroptoandwait', 'looks_thinkforsecs', 'motion_align_scene', 'motion_glidesecstoxy', 'motion_glideto', 'motion_goto', 'motion_pointtowards', 'motion_scroll_right', 'motion_scroll_up', 'sensing_askandwait', 'sensing_setdragmode', 'sound_changeeffectby', 'sound_changevolumeby', 'sound_cleareffects', 'sound_play', 'sound_playuntildone', 'sound_playfrom', 'sound_playfromuntildone', 'sound_seteffectto', 'sound_setvolumeto', 'sound_stop', 'sound_stopallsounds'];
 const inputs = ['motion_xscroll', 'motion_yscroll', 'sensing_loud', 'sensing_loudness', 'sensing_userid', 'sound_geteffect', 'sound_issoundplaying', 'sound_volume'];
 module.exports = {
   stacked,
@@ -197029,6 +197186,8 @@ const StackOpcode = {
   LOOKS_BACKDROP_SET: 'looks.switchBackdrop',
   LOOKS_COSTUME_NEXT: 'looks.nextCostume',
   LOOKS_COSTUME_SET: 'looks.switchCostume',
+  LOOKS_SAY: 'looks.say',
+  LOOKS_THINK: 'looks.think',
   MOTION_X_SET: 'motion.setX',
   MOTION_X_CHANGE: 'motion.changeX',
   MOTION_Y_SET: 'motion.setY',
@@ -198891,6 +199050,10 @@ class ScriptTreeGenerator {
         return new IntermediateStackBlock(StackOpcode.LOOKS_BACKDROP_NEXT);
       case 'looks_nextcostume':
         return new IntermediateStackBlock(StackOpcode.LOOKS_COSTUME_NEXT);
+      case 'looks_say':
+        return new IntermediateStackBlock(StackOpcode.LOOKS_SAY, {
+          message: this.descendInputOfBlock(block, 'MESSAGE')
+        });
       case 'looks_seteffectto':
         return new IntermediateStackBlock(StackOpcode.LOOKS_EFFECT_SET, {
           effect: block.fields.EFFECT.value.toLowerCase(),
@@ -198909,6 +199072,10 @@ class ScriptTreeGenerator {
       case 'looks_switchcostumeto':
         return new IntermediateStackBlock(StackOpcode.LOOKS_COSTUME_SET, {
           costume: this.descendInputOfBlock(block, 'COSTUME', true)
+        });
+      case 'looks_think':
+        return new IntermediateStackBlock(StackOpcode.LOOKS_THINK, {
+          message: this.descendInputOfBlock(block, 'MESSAGE')
         });
       case 'motion_changexby':
         return new IntermediateStackBlock(StackOpcode.MOTION_X_CHANGE, {
@@ -199785,17 +199952,35 @@ class IROptimizer {
         return state.getVariableType(inputs.variable);
       case InputOpcode.ADDON_CALL:
         break;
+      case InputOpcode.CAST_BOOLEAN:
+        {
+          const innerType = inputs.target.type;
+          if (innerType & InputType.BOOLEAN) return innerType;
+          return InputType.BOOLEAN;
+        }
       case InputOpcode.CAST_NUMBER:
         {
           const innerType = inputs.target.type;
           if (innerType & InputType.NUMBER) return innerType;
           return InputType.NUMBER;
         }
+      case InputOpcode.CAST_NUMBER_INDEX:
+        {
+          const innerType = inputs.target.type;
+          if (innerType & InputType.NUMBER_INDEX) return innerType;
+          return InputType.NUMBER_INDEX;
+        }
       case InputOpcode.CAST_NUMBER_OR_NAN:
         {
           const innerType = inputs.target.type;
           if (innerType & InputType.NUMBER_OR_NAN) return innerType;
           return InputType.NUMBER_OR_NAN;
+        }
+      case InputOpcode.CAST_STRING:
+        {
+          const innerType = inputs.target.type;
+          if (innerType & InputType.STRING) return innerType;
+          return InputType.STRING;
         }
       case InputOpcode.OP_ADD:
         {
@@ -200149,9 +200334,12 @@ class IROptimizer {
         break;
       case StackOpcode.CONTROL_WHILE:
       case StackOpcode.CONTROL_FOR:
+        modified = this.analyzeInputs(inputs, state) || modified;
+        modified = this.analyzeLoopedStack(inputs.do, state, stackBlock, true) || modified;
+        break;
       case StackOpcode.CONTROL_REPEAT:
         modified = this.analyzeInputs(inputs, state) || modified;
-        modified = this.analyzeLoopedStack(inputs.do, state, stackBlock) || modified;
+        modified = this.analyzeLoopedStack(inputs.do, state, stackBlock, false) || modified;
         break;
       case StackOpcode.CONTROL_IF_ELSE:
         {
@@ -200232,19 +200420,22 @@ class IROptimizer {
    * @param {IntermediateStack} stack
    * @param {TypeState} state
    * @param {IntermediateStackBlock} block
+   * @param {boolean} willReevaluateInputs
    * @returns {boolean}
    * @private
    */
-  analyzeLoopedStack(stack, state, block) {
+  analyzeLoopedStack(stack, state, block, willReevaluateInputs) {
+    let modified = false;
     if (block.yields && !this.ignoreYields) {
-      let modified = state.clear();
+      modified = state.clear();
+      if (willReevaluateInputs) {
+        modified = this.analyzeInputs(block.inputs, state) || modified;
+      }
       block.entryState = state.clone();
       block.exitState = state.clone();
-      modified = this.analyzeInputs(block.inputs, state) || modified;
       return this.analyzeStack(stack, state) || modified;
     }
     let iterations = 0;
-    let modified = false;
     let keepLooping;
     do {
       // If we are stuck in an apparent infinite loop, give up and assume the worst.
@@ -200260,7 +200451,9 @@ class IROptimizer {
       const newState = state.clone();
       modified = this.analyzeStack(stack, newState) || modified;
       modified = (keepLooping = state.or(newState)) || modified;
-      modified = this.analyzeInputs(block.inputs, state) || modified;
+      if (willReevaluateInputs) {
+        modified = this.analyzeInputs(block.inputs, state) || modified;
+      }
     } while (keepLooping);
     block.entryState = state.clone();
     return modified;
@@ -200280,6 +200473,14 @@ class IROptimizer {
       }
     }
     switch (input.opcode) {
+      case InputOpcode.CAST_BOOLEAN:
+        {
+          const targetType = input.inputs.target.type;
+          if ((targetType & InputType.BOOLEAN) === targetType) {
+            return input.inputs.target;
+          }
+          return input;
+        }
       case InputOpcode.CAST_NUMBER:
         {
           const targetType = input.inputs.target.type;
@@ -200288,10 +200489,26 @@ class IROptimizer {
           }
           return input;
         }
+      case InputOpcode.CAST_NUMBER_INDEX:
+        {
+          const targetType = input.inputs.target.type;
+          if ((targetType & InputType.NUMBER_INDEX) === targetType) {
+            return input.inputs.target;
+          }
+          return input;
+        }
       case InputOpcode.CAST_NUMBER_OR_NAN:
         {
           const targetType = input.inputs.target.type;
           if ((targetType & InputType.NUMBER_OR_NAN) === targetType) {
+            return input.inputs.target;
+          }
+          return input;
+        }
+      case InputOpcode.CAST_STRING:
+        {
+          const targetType = input.inputs.target.type;
+          if ((targetType & InputType.STRING) === targetType) {
             return input.inputs.target;
           }
           return input;
@@ -200440,6 +200657,15 @@ runtimeFunctions.createBranchInfo = "const createBranchInfo = (isLoop) => ({\n  
 runtimeFunctions.retire = "const retire = () => {\n    const thread = globalState.thread;\n    thread.target.runtime.sequencer.retireThread(thread);\n}";
 
 /**
+ * Converts NaN to zero. Used to match Scratch's string-to-number.
+ * Unlike (x || 0), -0 stays as -0 and is not converted to 0.
+ * This function needs to be written such that it's very easy for browsers to inline it.
+ * @param {number} value A number. Might be NaN.
+ * @returns {number} A number. Never NaN.
+ */
+runtimeFunctions.toNotNaN = "const toNotNaN = value => Number.isNaN(value) ? 0 : value";
+
+/**
  * Scratch cast to boolean.
  * Similar to Cast.toBoolean()
  * @param {*} value The value to cast
@@ -200500,7 +200726,7 @@ baseRuntime += "const isNotActuallyZero = val => {\n    if (typeof val !== 'stri
  * @param {*} v2 Second value
  * @returns {boolean} true if v1 is equal to v2
  */
-baseRuntime += "const compareEqualSlow = (v1, v2) => {\n    const n1 = +v1;\n    if (isNaN(n1) || (n1 === 0 && isNotActuallyZero(v1))) return ('' + v1).toLowerCase() === ('' + v2).toLowerCase();\n    const n2 = +v2;\n    if (isNaN(n2) || (n2 === 0 && isNotActuallyZero(v2))) return ('' + v1).toLowerCase() === ('' + v2).toLowerCase();\n    return n1 === n2;\n};\nconst compareEqual = (v1, v2) => (typeof v1 === 'number' && typeof v2 === 'number' && !isNaN(v1) && !isNaN(v2) || v1 === v2) ? v1 === v2 : compareEqualSlow(v1, v2);";
+baseRuntime += "const compareEqualSlow = (v1, v2) => {\n    const n1 = +v1;\n    if (Number.isNaN(n1) || (n1 === 0 && isNotActuallyZero(v1))) return ('' + v1).toLowerCase() === ('' + v2).toLowerCase();\n    const n2 = +v2;\n    if (Number.isNaN(n2) || (n2 === 0 && isNotActuallyZero(v2))) return ('' + v1).toLowerCase() === ('' + v2).toLowerCase();\n    return n1 === n2;\n};\nconst compareEqual = (v1, v2) => (typeof v1 === 'number' && typeof v2 === 'number' && !Number.isNaN(v1) && !Number.isNaN(v2) || v1 === v2) ? v1 === v2 : compareEqualSlow(v1, v2);";
 
 /**
  * Determine if one value is greater than another.
@@ -200508,7 +200734,7 @@ baseRuntime += "const compareEqualSlow = (v1, v2) => {\n    const n1 = +v1;\n   
  * @param {*} v2 Second value
  * @returns {boolean} true if v1 is greater than v2
  */
-runtimeFunctions.compareGreaterThan = "const compareGreaterThanSlow = (v1, v2) => {\n    let n1 = +v1;\n    let n2 = +v2;\n    if (n1 === 0 && isNotActuallyZero(v1)) {\n        n1 = NaN;\n    } else if (n2 === 0 && isNotActuallyZero(v2)) {\n        n2 = NaN;\n    }\n    if (isNaN(n1) || isNaN(n2)) {\n        const s1 = ('' + v1).toLowerCase();\n        const s2 = ('' + v2).toLowerCase();\n        return s1 > s2;\n    }\n    return n1 > n2;\n};\nconst compareGreaterThan = (v1, v2) => typeof v1 === 'number' && typeof v2 === 'number' && !isNaN(v1) ? v1 > v2 : compareGreaterThanSlow(v1, v2)";
+runtimeFunctions.compareGreaterThan = "const compareGreaterThanSlow = (v1, v2) => {\n    let n1 = +v1;\n    let n2 = +v2;\n    if (n1 === 0 && isNotActuallyZero(v1)) {\n        n1 = NaN;\n    } else if (n2 === 0 && isNotActuallyZero(v2)) {\n        n2 = NaN;\n    }\n    if (Number.isNaN(n1) || Number.isNaN(n2)) {\n        const s1 = ('' + v1).toLowerCase();\n        const s2 = ('' + v2).toLowerCase();\n        return s1 > s2;\n    }\n    return n1 > n2;\n};\nconst compareGreaterThan = (v1, v2) => typeof v1 === 'number' && typeof v2 === 'number' && !Number.isNaN(v1) ? v1 > v2 : compareGreaterThanSlow(v1, v2)";
 
 /**
  * Determine if one value is less than another.
@@ -200516,7 +200742,7 @@ runtimeFunctions.compareGreaterThan = "const compareGreaterThanSlow = (v1, v2) =
  * @param {*} v2 Second value
  * @returns {boolean} true if v1 is less than v2
  */
-runtimeFunctions.compareLessThan = "const compareLessThanSlow = (v1, v2) => {\n    let n1 = +v1;\n    let n2 = +v2;\n    if (n1 === 0 && isNotActuallyZero(v1)) {\n        n1 = NaN;\n    } else if (n2 === 0 && isNotActuallyZero(v2)) {\n        n2 = NaN;\n    }\n    if (isNaN(n1) || isNaN(n2)) {\n        const s1 = ('' + v1).toLowerCase();\n        const s2 = ('' + v2).toLowerCase();\n        return s1 < s2;\n    }\n    return n1 < n2;\n};\nconst compareLessThan = (v1, v2) => typeof v1 === 'number' && typeof v2 === 'number' && !isNaN(v2) ? v1 < v2 : compareLessThanSlow(v1, v2)";
+runtimeFunctions.compareLessThan = "const compareLessThanSlow = (v1, v2) => {\n    let n1 = +v1;\n    let n2 = +v2;\n    if (n1 === 0 && isNotActuallyZero(v1)) {\n        n1 = NaN;\n    } else if (n2 === 0 && isNotActuallyZero(v2)) {\n        n2 = NaN;\n    }\n    if (Number.isNaN(n1) || Number.isNaN(n2)) {\n        const s1 = ('' + v1).toLowerCase();\n        const s2 = ('' + v2).toLowerCase();\n        return s1 < s2;\n    }\n    return n1 < n2;\n};\nconst compareLessThan = (v1, v2) => typeof v1 === 'number' && typeof v2 === 'number' && !Number.isNaN(v2) ? v1 < v2 : compareLessThanSlow(v1, v2)";
 
 /**
  * Generate a random integer.
@@ -200920,9 +201146,9 @@ class JSGenerator {
           return "(+".concat(this.descendInput(node.target.toType(InputType.BOOLEAN)), ")");
         }
         if (node.target.isAlwaysType(InputType.NUMBER_OR_NAN)) {
-          return "(".concat(this.descendInput(node.target), " || 0)");
+          return "toNotNaN(".concat(this.descendInput(node.target), ")");
         }
-        return "(+".concat(this.descendInput(node.target), " || 0)");
+        return "toNotNaN(+".concat(this.descendInput(node.target), ")");
       case InputOpcode.CAST_NUMBER_OR_NAN:
         return "(+".concat(this.descendInput(node.target), ")");
       case InputOpcode.CAST_NUMBER_INDEX:
@@ -201750,6 +201976,12 @@ class JSGenerator {
         break;
       case StackOpcode.LOOKS_COSTUME_SET:
         this.source += "runtime.ext_scratch3_looks._setCostume(target, ".concat(this.descendInput(node.costume), ");\n");
+        break;
+      case StackOpcode.LOOKS_SAY:
+        this.source += "runtime.ext_scratch3_looks._say(".concat(this.descendInput(node.message), ", target);\n");
+        break;
+      case StackOpcode.LOOKS_THINK:
+        this.source += "runtime.ext_scratch3_looks._think(".concat(this.descendInput(node.message), ", target);\n");
         break;
       case StackOpcode.MOTION_X_CHANGE:
         this.source += "target.setXY(target.x + ".concat(this.descendInput(node.dx), ", target.y);\n");

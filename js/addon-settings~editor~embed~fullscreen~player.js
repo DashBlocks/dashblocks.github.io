@@ -1495,7 +1495,7 @@ const BLOCKS_MAP = {
 };
 let themeObjectsCreated = 0;
 class Theme {
-  constructor(accent, gui, blocks) {
+  constructor(accent, gui, blocks, wallpaper) {
     // do not modify these directly
     /** @readonly */
     this.id = ++themeObjectsCreated;
@@ -1505,14 +1505,21 @@ class Theme {
     this.gui = Object.prototype.hasOwnProperty.call(GUI_MAP, gui) ? gui : GUI_DEFAULT;
     /** @readonly */
     this.blocks = Object.prototype.hasOwnProperty.call(BLOCKS_MAP, blocks) ? blocks : BLOCKS_DEFAULT;
+    /** @readonly */
+    this.wallpaper = wallpaper || {
+      url: null,
+      opaque: 0.6
+    };
   }
   set(what, to) {
     if (what === 'accent') {
-      return new Theme(to, this.gui, this.blocks);
+      return new Theme(to, this.gui, this.blocks, this.wallpaper);
     } else if (what === 'gui') {
-      return new Theme(this.accent, to, this.blocks);
+      return new Theme(this.accent, to, this.blocks, this.wallpaper);
     } else if (what === 'blocks') {
-      return new Theme(this.accent, this.gui, to);
+      return new Theme(this.accent, this.gui, to, this.wallpaper);
+    } else if (what === 'wallpaper') {
+      return new Theme(this.accent, this.gui, this.blocks, to);
     }
     throw new Error("Unknown theme property: ".concat(what));
   }
@@ -1523,7 +1530,13 @@ class Theme {
     return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].guiColors, GUI_MAP[this.gui].guiColors, _gui_light__WEBPACK_IMPORTED_MODULE_7__["guiColors"]);
   }
   getBlockColors() {
-    return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].blockColors, GUI_MAP[this.gui].blockColors, BLOCKS_MAP[this.blocks].colors);
+    let blockColors = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].blockColors, GUI_MAP[this.gui].blockColors, BLOCKS_MAP[this.blocks].colors);
+    if (this.wallpaper.url !== null) {
+      blockColors = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({
+        workspace: blockColors.workspace + Math.round(this.wallpaper.opaque * 255).toString(16).padStart(2, 0)
+      }, blockColors);
+    }
+    return blockColors;
   }
   getExtensions() {
     return BLOCKS_MAP[this.blocks].extensions;
@@ -1542,9 +1555,9 @@ class Theme {
   }
 }
 _Theme = Theme;
-_defineProperty(Theme, "light", new _Theme(ACCENT_DEFAULT, GUI_LIGHT, BLOCKS_DEFAULT));
-_defineProperty(Theme, "dark", new _Theme(ACCENT_DEFAULT, GUI_DARK, BLOCKS_DEFAULT));
-_defineProperty(Theme, "highContrast", new _Theme(ACCENT_DEFAULT, GUI_DEFAULT, BLOCKS_HIGH_CONTRAST));
+_defineProperty(Theme, "light", new _Theme(ACCENT_DEFAULT, GUI_LIGHT, BLOCKS_DEFAULT, null));
+_defineProperty(Theme, "dark", new _Theme(ACCENT_DEFAULT, GUI_DARK, BLOCKS_DEFAULT, null));
+_defineProperty(Theme, "highContrast", new _Theme(ACCENT_DEFAULT, GUI_DEFAULT, BLOCKS_HIGH_CONTRAST, null));
 
 
 /***/ }),
@@ -1616,7 +1629,7 @@ const detectTheme = () => {
     }
     const parsed = JSON.parse(local);
     // Any invalid values in storage will be handled by Theme itself
-    return new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks);
+    return new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks, parsed.wallpaper || null);
   } catch (e) {
     // ignore
   }
@@ -1638,6 +1651,9 @@ const persistTheme = theme => {
   // custom blocks are managed by addon at runtime, don't save here
   if (theme.blocks !== systemPreferences.blocks && theme.blocks !== ___WEBPACK_IMPORTED_MODULE_0__["BLOCKS_CUSTOM"]) {
     nonDefaultSettings.blocks = theme.blocks;
+  }
+  if (theme.wallpaper.url !== null) {
+    nonDefaultSettings.wallpaper = theme.wallpaper;
   }
   if (Object.keys(nonDefaultSettings).length === 0) {
     try {

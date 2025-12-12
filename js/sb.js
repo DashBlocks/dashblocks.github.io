@@ -362,7 +362,8 @@ Blockly.Msg.SOUND_CLEAREFFECTS = 'clear sound effects';
 Blockly.Msg.SOUND_GETEFFECT = '%1 effect';
 Blockly.Msg.SOUND_EFFECTS_PITCH = 'pitch';
 Blockly.Msg.SOUND_EFFECTS_PAN = 'pan left/right';
-Blockly.Msg.SOUND_EFFECTS_HIGHPASS = 'highpass filter';
+Blockly.Msg.SOUND_EFFECTS_HIGHPASS = 'high-pass filter';
+Blockly.Msg.SOUND_EFFECTS_LOWPASS = 'low-pass filter';
 Blockly.Msg.SOUND_CHANGEVOLUMEBY = 'change volume by %1';
 Blockly.Msg.SOUND_SETVOLUMETO = 'set volume to %1%';
 Blockly.Msg.SOUND_VOLUME = 'volume';
@@ -5920,7 +5921,80 @@ Blockly.ScratchMsgs.locales["en"] =
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+    "CONTROL_ISPAUSED": "paused?",
+    "CONTROL_PAUSE": "pause all",
+    "CONTROL_RESUME": "resume all",
+    "EVENT_OPEN": "open %1 in %2",
+    "EVENT_OPEN_NEW_TAB": "new tab",
+    "EVENT_OPEN_NEW_WINDOW": "new window",
+    "EVENT_OPEN_THIS_TAB": "this tab",
+    "EVENT_WHEN": "when %1",
+    "JSON_ARRAY_AT": "insert %1 at %2 of %3",
+    "JSON_ARRAY_BEHIND": "%1 behind %2",
+    "JSON_ARRAY_DELETE": "delete %1 of %2",
+    "JSON_ARRAY_EMPTY": "empty array",
+    "JSON_ARRAY_EXPANDABLE": "array by values %1 %2",
+    "JSON_ARRAY_INFRONTOF": "%1 in front of %2",
+    "JSON_ARRAY_ITEMNOOF": "item # of %1 in %2",
+    "JSON_ARRAY_ITEMOF": "item %1 of %2",
+    "JSON_ARRAY_REPLACE": "replace item %1 of %2 with %3",
+    "JSON_ARRAY_SPLIT": "array from %1 separated by %2",
+    "JSON_CONTAINS": "%1 contains %2?",
+    "JSON_GET_BY_PATH": "item by path %1 in %2",
+    "JSON_LENGTH": "length of %1",
+    "JSON_OBJECT_CONTAINS_KEY": "%1 contains key %2?",
+    "JSON_OBJECT_DELETE": "delete key %1 in %2",
+    "JSON_OBJECT_EMPTY": "empty object",
+    "JSON_OBJECT_ENTRIES": "%1 of %2",
+    "JSON_OBJECT_ENTRIES_ENTRIES": "entries",
+    "JSON_OBJECT_ENTRIES_KEYS": "keys",
+    "JSON_OBJECT_ENTRIES_VALUES": "values",
+    "JSON_OBJECT_ITEMOF": "item of key %1 in %2",
+    "JSON_OBJECT_SET": "set key %1 to %2 in %3",
+    "JSON_OBJECT_SPLIT": "object from %1 with key %2 and pair %3 separators",
+    "JSON_SET_BY_PATH": "set to %1 by path %2 in %3",
+    "JSON_STRINGIFY_SPACER": "stringify %1 with spacer %2",
+    "LOOKS_GETEFFECT": "%1 effect",
+    "LOOKS_ISVISIBLE": "visible?",
+    "MOTION_POSITION": "position",
+    "OPERATORS_CAST": "%1 as %2",
+    "OPERATORS_CAST_ARRAY": "array",
+    "OPERATORS_CAST_BOOLEAN": "boolean",
+    "OPERATORS_CAST_NUMBER": "number",
+    "OPERATORS_CAST_OBJECT": "object",
+    "OPERATORS_CAST_STRING": "string",
+    "OPERATORS_INRANGE": "%1 in range from %2 to %3?",
+    "OPERATORS_ISNUMBER": "%1 number?",
+    "OPERATORS_ISSTRING": "%1 string?",
+    "OPERATORS_ISTYPE": "%1 is %2?",
+    "OPERATORS_ISTYPE_CUSTOMTYPE": "custom type",
+    "OPERATORS_NEWLINE": "newline",
+    "OPERATORS_NUMSINRANGE": "array from range from %1 to %2",
+    "OPERATORS_SE_WITH": "%1 %2 with %3?",
+    "OPERATORS_SE_WITH_ENDS": "ends",
+    "OPERATORS_SE_WITH_STARTS": "starts",
+    "OPERATORS_TOCASE": "%1 to %2 case",
+    "OPERATORS_TOCASE_LOWER": "lower",
+    "OPERATORS_TOCASE_UPPER": "upper",
+    "OPERATORS_TYPEOF": "type of %1",
+    "SENSING_ALERT": "alert %1",
+    "SENSING_CONFIRM": "confirm %1",
+    "SENSING_MOUSEXY": "mouse position",
+    "SENSING_OF_ISVISIBLE": "visibility",
+    "SENSING_OF_POSITION": "position",
+    "SENSING_PROMPT": "prompt %1 with default value %2",
+    "SOUND_EFFECTS_HIGHPASS": "high-pass filter",
+    "SOUND_GETEFFECT": "%1 effect",
+    "SOUND_ISSOUNDPLAYING": "sound %1 playing?",
+    "SOUND_PLAYFROM": "play sound %1 from %2 seconds",
+    "SOUND_PLAYFROMUNTILDONE": "play sound %1 from %2 seconds until done",
+    "SOUND_STOP": "stop sound %1",
+    "OPERATORS_CATEGORY_LOGIC": "Logic",
+    "OPERATORS_CATEGORY_MATH": "Math",
+    "OPERATORS_CATEGORY_STRINGS": "Strings",
+    "OPERATORS_CATEGORY_TYPES": "Types",
+    "SOUND_EFFECTS_LOWPASS": "low-pass filter"
 };
 
 Blockly.ScratchMsgs.locales["es"] =
@@ -19971,6 +20045,8 @@ Blockly.ScratchMsgs.locales["ru"] =
     "SOUND_GETEFFECT": "эффект %1",
     "SOUND_EFFECTS_PITCH": "высота тона",
     "SOUND_EFFECTS_PAN": "звучание слева/справа",
+    "SOUND_EFFECTS_HIGHPASS": "фильтр высоких частот",
+    "SOUND_EFFECTS_LOWPASS": "фильтр низких частот",
     "SOUND_CHANGEVOLUMEBY": "изменить громкость на %1",
     "SOUND_SETVOLUMETO": "установить громкость %1%",
     "SOUND_VOLUME": "громкость звука",
@@ -23875,10 +23951,10 @@ Blockly.Blocks.sound_play={init:function(){this.jsonInit({message0:Blockly.Msg.S
 Blockly.Blocks.sound_playfrom={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_PLAYFROM,args0:[{type:"input_value",name:"SOUND_MENU"},{type:"input_value",name:"FROM"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
 Blockly.Blocks.sound_playfromuntildone={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_PLAYFROMUNTILDONE,args0:[{type:"input_value",name:"SOUND_MENU"},{type:"input_value",name:"FROM"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};Blockly.Blocks.sound_stop={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_STOP,args0:[{type:"input_value",name:"SOUND_MENU"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
 Blockly.Blocks.sound_stopallsounds={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_STOPALLSOUNDS,category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};Blockly.Blocks.sound_issoundplaying={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_ISSOUNDPLAYING,args0:[{type:"input_value",name:"SOUND_MENU"}],category:Blockly.Categories.sound,extensions:["colours_sounds","output_boolean"]})}};
-Blockly.Blocks.sound_seteffectto={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_SETEFFECTO,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"]]},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
-Blockly.Blocks.sound_changeeffectby={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_CHANGEEFFECTBY,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"]]},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
+Blockly.Blocks.sound_seteffectto={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_SETEFFECTO,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"],[Blockly.Msg.SOUND_EFFECTS_LOWPASS,"LOWPASS"]]},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
+Blockly.Blocks.sound_changeeffectby={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_CHANGEEFFECTBY,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"],[Blockly.Msg.SOUND_EFFECTS_LOWPASS,"LOWPASS"]]},{type:"input_value",name:"VALUE"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
 Blockly.Blocks.sound_cleareffects={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_CLEAREFFECTS,category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
-Blockly.Blocks.sound_geteffect={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_GETEFFECT,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"]]}],category:Blockly.Categories.sound,extensions:["colours_sounds","output_number"]})}};
+Blockly.Blocks.sound_geteffect={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_GETEFFECT,args0:[{type:"field_dropdown",name:"EFFECT",options:[[Blockly.Msg.SOUND_EFFECTS_PITCH,"PITCH"],[Blockly.Msg.SOUND_EFFECTS_PAN,"PAN"],[Blockly.Msg.SOUND_EFFECTS_HIGHPASS,"HIGHPASS"],[Blockly.Msg.SOUND_EFFECTS_LOWPASS,"LOWPASS"]]}],category:Blockly.Categories.sound,extensions:["colours_sounds","output_number"]})}};
 Blockly.Blocks.sound_changevolumeby={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_CHANGEVOLUMEBY,args0:[{type:"input_value",name:"VOLUME"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};Blockly.Blocks.sound_setvolumeto={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_SETVOLUMETO,args0:[{type:"input_value",name:"VOLUME"}],category:Blockly.Categories.sound,extensions:["colours_sounds","shape_statement"]})}};
 Blockly.Blocks.sound_volume={init:function(){this.jsonInit({message0:Blockly.Msg.SOUND_VOLUME,category:Blockly.Categories.sound,checkboxInFlyout:!0,extensions:["colours_sounds","output_number"]})}};
 
