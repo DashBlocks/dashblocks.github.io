@@ -193745,7 +193745,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function() {
-  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.4e2e23d4d96542212c12.js");
+  return new Worker(__webpack_require__.p + "js/extension-worker/extension-worker.460ded614a74750da47c.js");
 };
 
 /***/ }),
@@ -212416,6 +212416,20 @@ class ExtensionManager {
     }
     const extension = this.builtinExtensions[extensionId]();
     const extensionInstance = new extension(this.runtime);
+    const {
+      IRGenerator
+    } = __webpack_require__(/*! ../compiler/irgen */ "./node_modules/scratch-vm/src/compiler/irgen.js");
+    const JSGenerator = __webpack_require__(/*! ../compiler/jsgen */ "./node_modules/scratch-vm/src/compiler/jsgen.js");
+    if ('getCompileInfo' in extensionInstance) {
+      try {
+        const extCompileInfo = extensionInstance.getCompileInfo();
+        if (!('ir' in extCompileInfo && 'js' in extCompileInfo)) throw new Error();
+        IRGenerator.setExtensionIR(extensionId, extCompileInfo.ir);
+        JSGenerator.setExtensionJS(extensionId, extCompileInfo.js);
+      } catch (_unused) {
+        throw new Error("Cannot register compile info of extension: ".concat(extensionId));
+      }
+    }
     const serviceName = this._registerInternalExtension(extensionInstance);
     this._loadedExtensions.set(extensionId, serviceName);
     this.runtime.compilerRegisterExtension(extensionId, extensionInstance);
@@ -212482,7 +212496,7 @@ class ExtensionManager {
             if (!('ir' in extCompileInfo && 'js' in extCompileInfo)) throw new Error();
             IRGenerator.setExtensionIR(extensionInfo.id, extCompileInfo.ir);
             JSGenerator.setExtensionJS(extensionInfo.id, extCompileInfo.js);
-          } catch (_unused) {
+          } catch (_unused2) {
             throw new Error("Cannot register compile info of extension: ".concat(extensionInfo.id));
           }
         }
@@ -213041,7 +213055,7 @@ external.blob = async url => {
 external.evalAndReturn = async (url, returnExpression) => {
   const res = await external.fetch(url);
   const text = await res.text();
-  const js = "".concat(text, ";return ").concat(returnExpression);
+  const js = "".concat(text, "\nreturn ").concat(returnExpression, ";");
   const fn = new Function(js);
   return fn();
 };
@@ -213839,6 +213853,10 @@ class DashCoreExample {
             dataURI: blockIconURI
           }
         }
+      }, {
+        opcode: 'exWithCompiledPrimitive',
+        blockType: BlockType.REPORTER,
+        text: 'block with compiled primitive'
       }, '---', {
         opcode: 'exArray',
         blockType: BlockType.ARRAY,
@@ -213874,9 +213892,31 @@ class DashCoreExample {
       }]
     };
   }
+
+  /**
+   * @returns {object} metadata for compiler.
+   */
+  getCompileInfo() {
+    return {
+      ir: {
+        exWithCompiledPrimitive: (_, __, _ref) => {
+          let {
+            InputType
+          } = _ref;
+          return [InputType.STRING];
+        }
+      },
+      js: {
+        exWithCompiledPrimitive: () => '"I\'m in compiler!"'
+      }
+    };
+  }
   exampleOpcode() {
     const stage = this.runtime.getTargetForStage();
     return stage ? stage.getName() : 'no stage yet';
+  }
+  exWithCompiledPrimitive() {
+    return "I'm in interpreter... :/";
   }
   exArray(args) {
     return Cast.toList(args.ARRAY);

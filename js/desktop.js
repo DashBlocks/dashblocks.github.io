@@ -261,6 +261,39 @@ const blockColors = {};
 
 /***/ }),
 
+/***/ "./src/lib/themes/accent/custom.js":
+/*!*****************************************!*\
+  !*** ./src/lib/themes/accent/custom.js ***!
+  \*****************************************/
+/*! exports provided: guiColors, blockColors */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "guiColors", function() { return guiColors; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "blockColors", function() { return blockColors; });
+const guiColors = {
+  'motion-primary': 'var(--dash-accent-custom)',
+  'motion-primary-transparent': 'var(--dash-accent-custom-motion-primary-transparent)',
+  'motion-tertiary': 'var(--dash-accent-custom-dark)',
+  'looks-secondary': 'var(--dash-accent-custom)',
+  'looks-transparent': 'var(--dash-accent-custom-transparent)',
+  'looks-light-transparent': 'var(--dash-accent-custom-light-transparent)',
+  'looks-secondary-dark': 'var(--dash-accent-custom-dark)',
+  'extensions-primary': 'var(--dash-accent-custom-extensions-primary)',
+  'extensions-tertiary': 'var(--dash-accent-custom-extensions-tertiary)',
+  'extensions-transparent': 'var(--dash-accent-custom-extensions-transparent)',
+  'extensions-light': 'var(--dash-accent-custom-extensions-light)',
+  'drop-highlight': 'var(--dash-accent-custom-drop-highlight)'
+};
+const blockColors = {
+  checkboxActiveBackground: 'var(--dash-accent-custom)',
+  checkboxActiveBorder: 'var(--dash-accent-custom-dark)'
+};
+
+
+/***/ }),
+
 /***/ "./src/lib/themes/accent/green.js":
 /*!****************************************!*\
   !*** ./src/lib/themes/accent/green.js ***!
@@ -1162,6 +1195,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _addons_hooks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../addons/hooks */ "./src/addons/hooks.js");
 /* harmony import */ var _global_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./global-styles.css */ "./src/lib/themes/global-styles.css");
 /* harmony import */ var _global_styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_global_styles_css__WEBPACK_IMPORTED_MODULE_2__);
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -1171,12 +1209,14 @@ const BLOCK_COLOR_NAMES = [
 
 /**
  * @param {string} css CSS color or var(--...)
+ * @param {string} noVar Return CSS color of returned var(--...)
  * @returns {string} evaluated CSS
  */
-const evaluateCSS = css => {
-  const variableMatch = css.match(/^var\(([\w-]+)\)$/);
-  if (variableMatch) {
-    return document.documentElement.style.getPropertyValue(variableMatch[1]);
+const evaluateCSS = (css, noVar) => {
+  let variableMatch = css.match(/^var\(([\w-]+)\)$/);
+  for (let i = 0; (i === 0 || noVar) && variableMatch; i++) {
+    css = document.documentElement.style.getPropertyValue(variableMatch[1]);
+    variableMatch = css.match(/^var\(([\w-]+)\)$/);
   }
   return css;
 };
@@ -1191,6 +1231,145 @@ const applyGuiColors = theme => {
     doc.style.setProperty("--".concat(name, "-default"), value);
   }
   const guiColors = theme.getGuiColors();
+  const anyUsesCustom = Object.values(guiColors).some(v => typeof v === 'string' && v.indexOf('--dash-accent-custom') !== -1);
+  if (anyUsesCustom) {
+    let base = document.documentElement.style.getPropertyValue('--dash-accent-custom');
+    if (!base) {
+      try {
+        base = localStorage.getItem('dash:accent_custom_color');
+      } catch (e) {
+        base = null;
+      }
+    }
+    const parseHex = hex => {
+      if (hex.startsWith('#')) {
+        const h = hex.slice(1);
+        if (h.length === 3) {
+          return {
+            r: parseInt(h[0] + h[0], 16),
+            g: parseInt(h[1] + h[1], 16),
+            b: parseInt(h[2] + h[2], 16),
+            a: 1
+          };
+        }
+        if (h.length === 6) {
+          return {
+            r: parseInt(h.slice(0, 2), 16),
+            g: parseInt(h.slice(2, 4), 16),
+            b: parseInt(h.slice(4, 6), 16),
+            a: 1
+          };
+        }
+      }
+      return null;
+    };
+    const parseRgbString = s => {
+      const m = s.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([0-9.]+))?\)/i);
+      if (m) {
+        return {
+          r: Number(m[1]),
+          g: Number(m[2]),
+          b: Number(m[3]),
+          a: m[4] ? Number(m[4]) : 1
+        };
+      }
+      return null;
+    };
+    const rgbToHsl = _ref => {
+      let {
+        r,
+        g,
+        b
+      } = _ref;
+      r /= 255;
+      g /= 255;
+      b /= 255;
+      const max = Math.max(r, g, b),
+        min = Math.min(r, g, b);
+      let h,
+        s,
+        l = (max + min) / 2;
+      if (max === min) {
+        h = s = 0;
+      } else {
+        const d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch (max) {
+          case r:
+            h = (g - b) / d + (g < b ? 6 : 0);
+            break;
+          case g:
+            h = (b - r) / d + 2;
+            break;
+          case b:
+            h = (r - g) / d + 4;
+            break;
+        }
+        h /= 6;
+      }
+      return {
+        h: h * 360,
+        s: s * 100,
+        l: l * 100
+      };
+    };
+    const hslToString = _ref2 => {
+      let {
+        h,
+        s,
+        l,
+        a
+      } = _ref2;
+      if (typeof a === 'number' && a < 1) return "hsla(".concat(Math.round(h), ", ").concat(Math.round(s), "%, ").concat(Math.round(l), "%, ").concat(a, ")");
+      return "hsl(".concat(Math.round(h), ", ").concat(Math.round(s), "%, ").concat(Math.round(l), "%)");
+    };
+    const rgbaString = _ref3 => {
+      let {
+        r,
+        g,
+        b,
+        a
+      } = _ref3;
+      return "rgba(".concat(Math.round(r), ", ").concat(Math.round(g), ", ").concat(Math.round(b), ", ").concat(a, ")");
+    };
+    let rgb = null;
+    if (base) base = base.trim();
+    if (base) {
+      rgb = parseHex(base) || parseRgbString(base);
+    }
+    if (rgb) {
+      const hsl = rgbToHsl(rgb);
+      const darkL = Math.max(0, hsl.l * 0.85);
+      const lightL = Math.min(100, hsl.l * 1.15);
+      doc.style.setProperty('--dash-accent-custom-transparent', rgbaString(_objectSpread(_objectSpread({}, rgb), {}, {
+        a: 0.35
+      })));
+      doc.style.setProperty('--dash-accent-custom-light-transparent', rgbaString(_objectSpread(_objectSpread({}, rgb), {}, {
+        a: 0.15
+      })));
+      doc.style.setProperty('--dash-accent-custom-dark', hslToString(_objectSpread(_objectSpread({}, hsl), {}, {
+        l: darkL
+      })));
+      doc.style.setProperty('--dash-accent-custom-motion-primary-transparent', rgbaString(_objectSpread(_objectSpread({}, rgb), {}, {
+        a: 0.9
+      })));
+      doc.style.setProperty('--dash-accent-custom-extensions-primary', hslToString(_objectSpread(_objectSpread({}, hsl), {}, {
+        l: Math.min(100, hsl.l + 10)
+      })));
+      doc.style.setProperty('--dash-accent-custom-extensions-tertiary', hslToString(_objectSpread(_objectSpread({}, hsl), {}, {
+        l: Math.max(0, hsl.l - 10)
+      })));
+      doc.style.setProperty('--dash-accent-custom-extensions-transparent', rgbaString(_objectSpread(_objectSpread({}, rgb), {}, {
+        a: 0.35
+      })));
+      doc.style.setProperty('--dash-accent-custom-extensions-light', hslToString(_objectSpread(_objectSpread({}, hsl), {}, {
+        l: Math.min(100, hsl.l + 30)
+      })));
+      doc.style.setProperty('--dash-accent-custom-drop-highlight', rgbaString(_objectSpread(_objectSpread({}, rgb), {}, {
+        a: 0.5
+      })));
+    }
+  }
   for (const [name, value] of Object.entries(guiColors)) {
     doc.style.setProperty("--".concat(name), value);
   }
@@ -1213,11 +1392,11 @@ const applyGuiColors = theme => {
     metaThemeColor.setAttribute('name', 'theme-color');
     document.head.appendChild(metaThemeColor);
   }
-  metaThemeColor.setAttribute('content', evaluateCSS(guiColors['menu-bar-background']));
+  metaThemeColor.setAttribute('content', evaluateCSS(guiColors['menu-bar-background'], true));
 
   // a horrible hack for icons...
   window.Recolor = {
-    primary: guiColors['looks-secondary']
+    primary: evaluateCSS(guiColors['looks-secondary'])
   };
   _addons_hooks__WEBPACK_IMPORTED_MODULE_1__["default"].recolorCallbacks.forEach(i => i());
 };
@@ -1229,7 +1408,7 @@ const applyGuiColors = theme => {
 /*!*********************************!*\
   !*** ./src/lib/themes/index.js ***!
   \*********************************/
-/*! exports provided: Theme, defaultBlockColors, ACCENT_RED, ACCENT_ORANGE, ACCENT_GREEN, ACCENT_PURPLE, ACCENT_BLUE, ACCENT_RAINBOW, ACCENT_MAP, GUI_LIGHT, GUI_DARK, GUI_MAP, BLOCKS_THREE, BLOCKS_DARK, BLOCKS_HIGH_CONTRAST, BLOCKS_CUSTOM, BLOCKS_MAP */
+/*! exports provided: Theme, defaultBlockColors, ACCENT_RED, ACCENT_ORANGE, ACCENT_GREEN, ACCENT_PURPLE, ACCENT_BLUE, ACCENT_RAINBOW, ACCENT_CUSTOM, ACCENT_MAP, GUI_LIGHT, GUI_DARK, GUI_MAP, BLOCKS_THREE, BLOCKS_DARK, BLOCKS_HIGH_CONTRAST, BLOCKS_CUSTOM, BLOCKS_MAP */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1242,6 +1421,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACCENT_PURPLE", function() { return ACCENT_PURPLE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACCENT_BLUE", function() { return ACCENT_BLUE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACCENT_RAINBOW", function() { return ACCENT_RAINBOW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACCENT_CUSTOM", function() { return ACCENT_CUSTOM; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ACCENT_MAP", function() { return ACCENT_MAP; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GUI_LIGHT", function() { return GUI_LIGHT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GUI_DARK", function() { return GUI_DARK; });
@@ -1259,15 +1439,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _accent_orange__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./accent/orange */ "./src/lib/themes/accent/orange.js");
 /* harmony import */ var _accent_green__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./accent/green */ "./src/lib/themes/accent/green.js");
 /* harmony import */ var _accent_rainbow__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./accent/rainbow */ "./src/lib/themes/accent/rainbow.js");
-/* harmony import */ var _gui_light__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./gui/light */ "./src/lib/themes/gui/light.js");
-/* harmony import */ var _gui_dark__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./gui/dark */ "./src/lib/themes/gui/dark.js");
-/* harmony import */ var _blocks_three__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blocks/three */ "./src/lib/themes/blocks/three.js");
-/* harmony import */ var _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./blocks/high-contrast */ "./src/lib/themes/blocks/high-contrast.js");
-/* harmony import */ var _blocks_dark__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./blocks/dark */ "./src/lib/themes/blocks/dark.js");
+/* harmony import */ var _accent_custom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./accent/custom */ "./src/lib/themes/accent/custom.js");
+/* harmony import */ var _gui_light__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./gui/light */ "./src/lib/themes/gui/light.js");
+/* harmony import */ var _gui_dark__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./gui/dark */ "./src/lib/themes/gui/dark.js");
+/* harmony import */ var _blocks_three__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./blocks/three */ "./src/lib/themes/blocks/three.js");
+/* harmony import */ var _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./blocks/high-contrast */ "./src/lib/themes/blocks/high-contrast.js");
+/* harmony import */ var _blocks_dark__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./blocks/dark */ "./src/lib/themes/blocks/dark.js");
 var _Theme;
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
 
 
 
@@ -1286,20 +1468,22 @@ const ACCENT_RED = 'red';
 const ACCENT_ORANGE = 'orange';
 const ACCENT_GREEN = 'green';
 const ACCENT_RAINBOW = 'rainbow';
+const ACCENT_CUSTOM = 'custom';
 const ACCENT_MAP = {
   [ACCENT_PURPLE]: _accent_purple__WEBPACK_IMPORTED_MODULE_1__,
   [ACCENT_BLUE]: _accent_blue__WEBPACK_IMPORTED_MODULE_2__,
   [ACCENT_RED]: _accent_red__WEBPACK_IMPORTED_MODULE_3__,
   [ACCENT_ORANGE]: _accent_orange__WEBPACK_IMPORTED_MODULE_4__,
   [ACCENT_GREEN]: _accent_green__WEBPACK_IMPORTED_MODULE_5__,
-  [ACCENT_RAINBOW]: _accent_rainbow__WEBPACK_IMPORTED_MODULE_6__
+  [ACCENT_RAINBOW]: _accent_rainbow__WEBPACK_IMPORTED_MODULE_6__,
+  [ACCENT_CUSTOM]: _accent_custom__WEBPACK_IMPORTED_MODULE_7__
 };
 const ACCENT_DEFAULT = ACCENT_ORANGE;
 const GUI_LIGHT = 'light';
 const GUI_DARK = 'dark';
 const GUI_MAP = {
-  [GUI_LIGHT]: _gui_light__WEBPACK_IMPORTED_MODULE_7__,
-  [GUI_DARK]: _gui_dark__WEBPACK_IMPORTED_MODULE_8__
+  [GUI_LIGHT]: _gui_light__WEBPACK_IMPORTED_MODULE_8__,
+  [GUI_DARK]: _gui_dark__WEBPACK_IMPORTED_MODULE_9__
 };
 const GUI_DEFAULT = GUI_LIGHT;
 const BLOCKS_THREE = 'three';
@@ -1307,33 +1491,33 @@ const BLOCKS_DARK = 'dark';
 const BLOCKS_HIGH_CONTRAST = 'high-contrast';
 const BLOCKS_CUSTOM = 'custom';
 const BLOCKS_DEFAULT = BLOCKS_THREE;
-const defaultBlockColors = _blocks_three__WEBPACK_IMPORTED_MODULE_9__["blockColors"];
+const defaultBlockColors = _blocks_three__WEBPACK_IMPORTED_MODULE_10__["blockColors"];
 const BLOCKS_MAP = {
   [BLOCKS_THREE]: {
     blocksMediaFolder: 'blocks-media/default',
-    colors: _blocks_three__WEBPACK_IMPORTED_MODULE_9__["blockColors"],
-    extensions: _blocks_three__WEBPACK_IMPORTED_MODULE_9__["extensions"],
+    colors: _blocks_three__WEBPACK_IMPORTED_MODULE_10__["blockColors"],
+    extensions: _blocks_three__WEBPACK_IMPORTED_MODULE_10__["extensions"],
     customExtensionColors: {},
     useForStage: true
   },
   [BLOCKS_HIGH_CONTRAST]: {
     blocksMediaFolder: 'blocks-media/high-contrast',
-    colors: lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_10__["blockColors"], defaultBlockColors),
-    extensions: _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_10__["extensions"],
-    customExtensionColors: _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_10__["customExtensionColors"],
+    colors: lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_11__["blockColors"], defaultBlockColors),
+    extensions: _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_11__["extensions"],
+    customExtensionColors: _blocks_high_contrast__WEBPACK_IMPORTED_MODULE_11__["customExtensionColors"],
     useForStage: true
   },
   [BLOCKS_DARK]: {
     blocksMediaFolder: 'blocks-media/default',
-    colors: lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, _blocks_dark__WEBPACK_IMPORTED_MODULE_11__["blockColors"], defaultBlockColors),
-    extensions: _blocks_dark__WEBPACK_IMPORTED_MODULE_11__["extensions"],
-    customExtensionColors: _blocks_dark__WEBPACK_IMPORTED_MODULE_11__["customExtensionColors"],
+    colors: lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, _blocks_dark__WEBPACK_IMPORTED_MODULE_12__["blockColors"], defaultBlockColors),
+    extensions: _blocks_dark__WEBPACK_IMPORTED_MODULE_12__["extensions"],
+    customExtensionColors: _blocks_dark__WEBPACK_IMPORTED_MODULE_12__["customExtensionColors"],
     useForStage: false
   },
   [BLOCKS_CUSTOM]: {
     // to be filled by editor-theme3 addon
     blocksMediaFolder: 'blocks-media/default',
-    colors: _blocks_three__WEBPACK_IMPORTED_MODULE_9__["blockColors"],
+    colors: _blocks_three__WEBPACK_IMPORTED_MODULE_10__["blockColors"],
     extensions: {},
     customExtensionColors: {},
     useForStage: false
@@ -1373,7 +1557,7 @@ class Theme {
     return BLOCKS_MAP[this.blocks].blocksMediaFolder;
   }
   getGuiColors() {
-    return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].guiColors, GUI_MAP[this.gui].guiColors, _gui_light__WEBPACK_IMPORTED_MODULE_7__["guiColors"]);
+    return lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].guiColors, GUI_MAP[this.gui].guiColors, _gui_light__WEBPACK_IMPORTED_MODULE_8__["guiColors"]);
   }
   getBlockColors() {
     let blockColors = lodash_defaultsdeep__WEBPACK_IMPORTED_MODULE_0___default()({}, ACCENT_MAP[this.accent].blockColors, GUI_MAP[this.gui].blockColors, BLOCKS_MAP[this.blocks].colors);
@@ -1475,7 +1659,16 @@ const detectTheme = () => {
     }
     const parsed = JSON.parse(local);
     // Any invalid values in storage will be handled by Theme itself
-    return new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks, parsed.wallpaper || null);
+    const theme = new ___WEBPACK_IMPORTED_MODULE_0__["Theme"](parsed.accent || systemPreferences.accent, parsed.gui || systemPreferences.gui, parsed.blocks || systemPreferences.blocks, parsed.wallpaper || null);
+    // If there's a stored custom accent color, apply it to CSS vars so custom accent evaluates correctly
+    if (parsed.customAccentColor) {
+      try {
+        document.documentElement.style.setProperty('--dash-accent-custom', parsed.customAccentColor);
+      } catch (e) {
+        // ignore
+      }
+    }
+    return theme;
   } catch (e) {
     // ignore
   }
@@ -1500,6 +1693,14 @@ const persistTheme = theme => {
   }
   if (theme.wallpaper.url !== null) {
     nonDefaultSettings.wallpaper = theme.wallpaper;
+  }
+  if (theme.accent === ___WEBPACK_IMPORTED_MODULE_0__["ACCENT_CUSTOM"]) {
+    try {
+      const custom = localStorage.getItem('dash:accent_custom_color');
+      if (custom) nonDefaultSettings.customAccentColor = custom;
+    } catch (e) {
+      // ignore
+    }
   }
   if (Object.keys(nonDefaultSettings).length === 0) {
     try {
@@ -1744,7 +1945,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const version = '1.1.0';
+const version = '2.0.0';
 
 /* eslint-disable react/jsx-no-literals */
 
