@@ -1,9 +1,1 @@
-self.addEventListener('install', () => {
-    // Remove old service worker as soon as possible
-    self.skipWaiting();
-});
-
-self.addEventListener('activate', event => {
-    // We don't use caches any more, so remove all of them
-    event.waitUntil(caches.keys().then(keys => Promise.all(keys.map(i => caches.delete(i)))));
-});
+self.addEventListener("install",()=>{self.skipWaiting()}),self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(e=>Promise.all(e.map(e=>caches.delete(e)))))});
