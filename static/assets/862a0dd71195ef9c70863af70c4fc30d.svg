@@ -1,0 +1,54 @@
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon--promoted.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="13.757289"
+     inkscape:cx="14.901192"
+     inkscape:cy="17.263576"
+     inkscape:current-layer="svg1" />
+  <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title1">send-forward</title>
+  <desc
+     id="desc1">Created with Sketch.</desc>
+  <defs
+     id="defs1" />
+  <path
+     d="m 21.858604,3.5552976 h -1.264161 l -0.542832,4.1028602 c -0.05877,0.47044 -0.477458,0.8020626 -0.932882,0.732654 -0.367273,-0.053987 -0.653748,-0.3624707 -0.698556,-0.732654 L 17.87734,3.5552976 h -1.23478 c -0.351849,0 -0.521531,-0.4395924 -0.278394,-0.6940928 l 2.60692,-2.74552287 c 0.154255,-0.15424257 0.404737,-0.15424257 0.550913,0 l 2.615733,2.74552277 c 0.242404,0.2545005 0.06611,0.6940929 -0.279128,0.6940929"
+     id="Fill-1"
+     fill="#ff884c"
+     style="fill:#40a0ff;fill-opacity:1;stroke-width:0.999994" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>send-forward</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 10.25,1 c -2.7614238,-2.8e-7 -5.0000002,2.2385761 -4.9999999,5 0.00897,1.4731586 0.667134,2.86739 1.7988281,3.8105469 C 3.9416184,11.447125 1.7500002,15.390938 1.7500001,20 c 10e-8,2.209139 3.8055795,4 8.4999999,4 4.69442,0 8.5,-1.790861 8.5,-4 0,-4.598752 -2.181183,-8.536465 -5.277344,-10.1796875 C 14.598941,8.8708666 15.249241,7.4730799 15.25,6 c 0,-2.7614239 -2.238576,-5.00000028 -5,-5 z"
+     style="fill:#40a0ff;stroke-width:0"
+     id="path6" />
+</svg>

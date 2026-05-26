@@ -1,0 +1,54 @@
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon--demoted.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.6885552"
+     inkscape:cx="14.037181"
+     inkscape:cy="31.32562"
+     inkscape:current-layer="svg1" />
+  <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title1">send-forward</title>
+  <desc
+     id="desc1">Created with Sketch.</desc>
+  <defs
+     id="defs1" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>send-forward</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 21.858604,4.844701 H 20.594443 L 20.051611,0.74184101 c -0.05877,-0.47044 -0.477458,-0.802062 -0.932882,-0.732654 -0.367273,0.05399 -0.653748,0.362471 -0.698556,0.732654 L 17.87734,4.844701 h -1.23478 c -0.351849,0 -0.521531,0.439593 -0.278394,0.694093 l 2.60692,2.745523 c 0.154255,0.154243 0.404737,0.154243 0.550913,0 l 2.615733,-2.745523 c 0.242404,-0.2545 0.06611,-0.694093 -0.279128,-0.694093"
+     id="Fill-1"
+     fill="#ff884c"
+     style="fill:#40a0ff;fill-opacity:1;stroke-width:0.999994" />
+  <path
+     d="m 10.25,1.0000001 c -2.7614238,0 -5.0000002,2.238576 -4.9999999,5 0.00897,1.473159 0.667134,2.86739 1.7988281,3.810547 C 3.9416184,11.447125 1.7500002,15.390938 1.7500001,20 c 10e-8,2.209139 3.8055795,4 8.4999999,4 4.69442,0 8.5,-1.790861 8.5,-4 0,-4.598752 -2.181183,-8.536465 -5.277344,-10.1796879 1.126285,-0.949445 1.776585,-2.347232 1.777344,-3.820312 0,-2.761424 -2.238576,-5 -5,-5 z"
+     style="fill:#40a0ff;stroke-width:0"
+     id="path6" />
+</svg>
