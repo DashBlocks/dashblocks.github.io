@@ -37,7 +37,8 @@ jobs:
         run: |
           cd scratch-gui
           npm ci --legacy-peer-deps
-          npx --no-install npm run build
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          npm run build
 
       - name: Move build files and cleanup
         run: |
