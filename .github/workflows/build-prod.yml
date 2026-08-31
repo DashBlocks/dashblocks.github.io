@@ -1,0 +1,55 @@
+name: Fetch, Build and Push
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Build description'
+        required: true
+        type: string
+        default: '[...] ...'
+
+permissions:
+  contents: write
+
+jobs:
+  build-prod:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout scratch-gui
+        uses: actions/checkout@v4
+        with:
+          repository: 'DashBlocks/scratch-gui'
+          path: 'scratch-gui'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install and Build
+        env:
+          NODE_ENV: production
+        run: |
+          cd scratch-gui
+          npm install
+          npm run build
+
+      - name: Move build files and cleanup
+        run: |
+          find . -maxdepth 1 ! -name '.' ! -name '.git' ! -name '.github' ! -name 'scratch-gui' -exec rm -rf {} +
+          cp -r scratch-gui/build/* ./
+          rm -rf scratch-gui
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          git add -A
+          git commit -m "${{ inputs.commit_message }}"
+          git push origin HEAD:${{ github.ref_name }}
