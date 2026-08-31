@@ -36,7 +36,7 @@ jobs:
           NODE_ENV: production
         run: |
           cd scratch-gui
-          npm install
+          npm ci --legacy-peer-deps
           npm run build
 
       - name: Move build files and cleanup
