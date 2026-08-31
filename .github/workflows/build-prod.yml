@@ -35,9 +35,9 @@ jobs:
         env:
           NODE_ENV: production
         run: |
+          sudo npm install -g rimraf mkdirp
           cd scratch-gui
           npm ci --legacy-peer-deps
-          export PATH="$PWD/node_modules/.bin:$PATH"
           npm run build
 
       - name: Move build files and cleanup
