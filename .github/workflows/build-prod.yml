@@ -38,6 +38,7 @@ jobs:
           sudo npm install -g rimraf mkdirp
           cd scratch-gui
           npm ci --legacy-peer-deps
+          sed -i 's/--colors/--color/g' package.json
           npm run build
 
       - name: Move build files and cleanup
