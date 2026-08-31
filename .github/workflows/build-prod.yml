@@ -35,10 +35,11 @@ jobs:
         env:
           NODE_ENV: production
         run: |
-          sudo npm install -g rimraf mkdirp
           cd scratch-gui
           npm ci --legacy-peer-deps
           sed -i 's/--colors/--color/g' package.json
+          sed -i 's/rimraf/npx rimraf/g' package.json
+          sed -i 's/mkdirp/npx mkdirp/g' package.json
           npm run build
 
       - name: Move build files and cleanup
