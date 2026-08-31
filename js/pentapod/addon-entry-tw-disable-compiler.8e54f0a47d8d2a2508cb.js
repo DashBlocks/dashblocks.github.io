@@ -1,0 +1,1 @@
+(window.webpackJsonpGUI=window.webpackJsonpGUI||[]).push([[59],{1814:function(n,s,o){"use strict";o.r(s),o.d(s,"resources",function(){return t});const t={"userscript.js":async function(n){n.addon.tab.traps.vm.setCompilerOptions({enabled:!1})}}}}]);
