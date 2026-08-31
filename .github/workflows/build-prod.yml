@@ -38,11 +38,9 @@ jobs:
           cd scratch-gui
           npm ci --legacy-peer-deps
           sed -i 's|--colors|--color|g' package.json
-          sed -i 's|rimraf ./build|rm -rf ./build|g' package.json
-          sed -i 's|mkdirp build|mkdir -p build|g' package.json
-          sed -i 's|rimraf ./dist|rm -rf ./dist|g' package.json
-          sed -i 's|mkdirp dist|mkdir -p dist|g' package.json
-          npm run build
+          rm -rf ./build ./dist
+          mkdir -p build dist
+          npx --no-install webpack --config webpack.config.js --color --bail
 
       - name: Move build files and cleanup
         run: |
