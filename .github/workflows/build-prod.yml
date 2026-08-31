@@ -29,7 +29,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 18
 
       - name: Install and Build
         env:
@@ -37,9 +37,11 @@ jobs:
         run: |
           cd scratch-gui
           npm ci --legacy-peer-deps
-          sed -i 's/--colors/--color/g' package.json
-          sed -i 's/rimraf/npx rimraf/g' package.json
-          sed -i 's/mkdirp/npx mkdirp/g' package.json
+          sed -i 's|--colors|--color|g' package.json
+          sed -i 's|rimraf ./build|rm -rf ./build|g' package.json
+          sed -i 's|mkdirp build|mkdir -p build|g' package.json
+          sed -i 's|rimraf ./dist|rm -rf ./dist|g' package.json
+          sed -i 's|mkdirp dist|mkdir -p dist|g' package.json
           npm run build
 
       - name: Move build files and cleanup
