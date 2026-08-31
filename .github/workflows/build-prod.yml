@@ -37,7 +37,7 @@ jobs:
         run: |
           cd scratch-gui
           npm ci --legacy-peer-deps
-          npm run build
+          npm run build --script-shell="sh" --scratch-gui:clean="npx rimraf ./build && npx mkdirp build && npx rimraf ./dist && npx mkdirp dist"
 
       - name: Move build files and cleanup
         run: |
