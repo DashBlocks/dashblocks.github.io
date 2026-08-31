@@ -40,7 +40,7 @@ jobs:
           sed -i 's|--colors|--color|g' package.json
           rm -rf ./build ./dist
           mkdir -p build dist
-          npx --no-install webpack --config webpack.config.js --color --bail
+          ./node_modules/.bin/webpack --config webpack.config.js --color --bail
 
       - name: Move build files and cleanup
         run: |
