@@ -1,1 +1,0 @@
-(window.webpackJsonpGUI=window.webpackJsonpGUI||[]).push([[58],{1813:function(n,s,c){"use strict";c.r(s),c.d(s,"resources",function(){return t});const t={"userscript.js":async function(n){n.addon.tab.redux.dispatch({type:"tw/SET_CLOUD",cloud:!1})}}}}]);
