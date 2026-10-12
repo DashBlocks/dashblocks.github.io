@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkGUI=self.webpackChunkGUI||[]).push([[4791],{73618(s,e,o){o.r(e),o.d(e,{resources:()=>t});const t={"userscript.js":async function(s){let e=s.addon;s.console;const o=await e.tab.traps.getBlockly(),t=o.BlockSvg.prototype.bumpNeighbours_;o.BlockSvg.prototype.bumpNeighbours_=function(){e.self.disabled&&t.call(this)}}}}}]);
