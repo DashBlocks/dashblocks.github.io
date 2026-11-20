@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(self.webpackChunkGUI)?self.webpackChunkGUI:self.webpackChunkGUI=[]).push([[3229],{58538(s,e,c){c.r(e),c.d(e,{resources:()=>r});const r={"userscript.js":async function(s){s.addon.tab.redux.dispatch({type:"tw/SET_CLOUD",cloud:!1})}}}}]);
